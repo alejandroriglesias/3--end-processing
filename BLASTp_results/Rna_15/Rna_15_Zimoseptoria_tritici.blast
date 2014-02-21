@@ -1,0 +1,1053 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P73484 pep:known chromosome:MG2:6:2338654:2339863:-1 gene:...    89   1e-20
+Mycgr3P35430 pep:known chromosome:MG2:2:2831842:2833299:-1 gene:...    59   2e-10
+Mycgr3P102763 pep:known chromosome:MG2:1:4341871:4343564:-1 gene...    54   1e-08
+Mycgr3P107156 pep:known chromosome:MG2:1:2590990:2593136:-1 gene...    52   6e-08
+Mycgr3P102491 pep:known chromosome:MG2:1:3051529:3053904:1 gene:...    51   2e-07
+Mycgr3P100024 pep:known chromosome:MG2:4:2237206:2239231:-1 gene...    48   1e-06
+Mycgr3P88390 pep:known chromosome:MG2:13:222493:223410:1 gene:My...    47   2e-06
+Mycgr3P101997 pep:known chromosome:MG2:1:447066:448162:-1 gene:M...    45   2e-06
+Mycgr3P36576 pep:known chromosome:MG2:2:3435842:3437799:-1 gene:...    47   3e-06
+Mycgr3P28846 pep:known chromosome:MG2:6:679008:679542:-1 gene:My...    44   5e-06
+Mycgr3P31414 pep:known chromosome:MG2:1:3907116:3909410:1 gene:M...    46   7e-06
+Mycgr3P73322 pep:known chromosome:MG2:6:1801360:1802162:1 gene:M...    44   7e-06
+Mycgr3P97226 pep:known chromosome:MG2:12:1365442:1366917:-1 gene...    45   2e-05
+Mycgr3P28783 pep:known chromosome:MG2:7:2555130:2555451:-1 gene:...    42   2e-05
+Mycgr3P30914 pep:known chromosome:MG2:7:862083:862473:-1 gene:My...    42   2e-05
+Mycgr3P104845 pep:known chromosome:MG2:6:1208341:1213316:-1 gene...    44   2e-05
+Mycgr3P31509 pep:known chromosome:MG2:1:2238027:2239310:1 gene:M...    44   3e-05
+Mycgr3P69454 pep:known chromosome:MG2:3:746442:748886:-1 gene:My...    42   1e-04
+Mycgr3P92083 pep:known chromosome:MG2:3:3049228:3051105:1 gene:M...    41   2e-04
+Mycgr3P77177 pep:known chromosome:MG2:12:137291:138278:-1 gene:M...    39   4e-04
+Mycgr3P46623 pep:known chromosome:MG2:8:330979:332136:-1 gene:My...    37   0.005
+Mycgr3P85600 pep:known chromosome:MG2:4:821121:823821:1 gene:Myc...    37   0.006
+Mycgr3P65137 pep:known chromosome:MG2:1:966520:968989:-1 gene:My...    36   0.008
+Mycgr3P56466 pep:known chromosome:MG2:3:1121577:1124634:1 gene:M...    36   0.009
+Mycgr3P103773 pep:known chromosome:MG2:3:2018838:2020625:1 gene:...    36   0.010
+Mycgr3P30795 pep:known chromosome:MG2:6:1593126:1593470:-1 gene:...    34   0.011
+Mycgr3P75892 pep:known chromosome:MG2:9:1805561:1807071:-1 gene:...    35   0.012
+Mycgr3P100220 pep:known chromosome:MG2:5:1298633:1299569:1 gene:...    35   0.012
+Mycgr3P108339 pep:known chromosome:MG2:2:3422533:3425769:-1 gene...    36   0.012
+Mycgr3P70762 pep:known chromosome:MG2:4:586501:587925:-1 gene:My...    35   0.014
+Mycgr3P28705 pep:known chromosome:MG2:9:1617327:1617793:-1 gene:...    34   0.016
+Mycgr3P70735 pep:known chromosome:MG2:4:495016:495872:1 gene:Myc...    34   0.028
+Mycgr3P85217 pep:known chromosome:MG2:3:1835237:1838858:1 gene:M...    35   0.031
+Mycgr3P110503 pep:known chromosome:MG2:8:1350019:1352949:-1 gene...    34   0.036
+Mycgr3P75568 pep:known chromosome:MG2:9:1014122:1015024:1 gene:M...    33   0.043
+Mycgr3P67212 pep:known chromosome:MG2:1:4933245:4934552:-1 gene:...    33   0.060
+Mycgr3P97502 pep:known chromosome:MG2:13:967386:968603:-1 gene:M...    32   0.11 
+Mycgr3P38046 pep:known chromosome:MG2:3:2516160:2517659:1 gene:M...    32   0.24 
+Mycgr3P104484 pep:known chromosome:MG2:5:1190080:1191397:-1 gene...    30   0.32 
+Mycgr3P30158 pep:known chromosome:MG2:1:4807299:4808264:1 gene:M...    30   0.81 
+Mycgr3P108180 pep:known chromosome:MG2:2:2468167:2470305:1 gene:...    29   1.2  
+Mycgr3P10108 pep:known chromosome:MG2:7:492915:496575:1 gene:Myc...    29   1.8  
+Mycgr3P66798 pep:known chromosome:MG2:1:4121813:4122373:-1 gene:...    27   2.8  
+
+>Mycgr3P73484 pep:known chromosome:MG2:6:2338654:2339863:-1 gene:Mycgr3G73484
+           transcript:Mycgr3T73484 description:"Putative
+           uncharacterized protein"
+          Length = 321
+
+ Score = 88.6 bits (218), Expect = 1e-20,   Method: Compositional matrix adjust.
+ Identities = 56/202 (27%), Positives = 95/202 (47%), Gaps = 13/202 (6%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           RVV++G+IPYD +EEQI+D+    G V+  ++++D +T + KG+ F+E+ D +S+ASAVR
+Sbjct: 9   RVVFIGNIPYDVSEEQIMDIFGRTGQVVGFRLVYDKETQQPKGFGFLEYTDADSAASAVR 68
+
+Query: 78  NLNGYQLGSRFLKCGYSSNSDIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGN 137
+           NLN ++L  R L+  YS+++                                       N
+Sbjct: 69  NLNDFELNGRTLRVDYSNDN--------RGTTNNKDQNQEHSNRAPPPAHFNMNQSAPPN 120
+
+Query: 138 ANFLSQKFPELPSGIDVNINMTTPAMMISSELAKKPKEVQLKFLQKFQEWTRAHPEDAVS 197
+           A  L    P LP G ++   +T     IS  +   P    L  + + +    ++P  A +
+Sbjct: 121 AAAL----PTLPPGTELPPGVTA-IDAISKTIQAIPTPQLLDLISQVKGICTSNPAQATA 175
+
+Query: 198 LLELCPQLSFVTAELLLTNGIC 219
+           L +  PQL +   + +L  G+ 
+Sbjct: 176 LFQQAPQLGYAIFQAMLLLGLV 197
+
+
+>Mycgr3P35430 pep:known chromosome:MG2:2:2831842:2833299:-1 gene:Mycgr3G35430
+           transcript:Mycgr3T35430 description:"Putative
+           uncharacterized protein"
+          Length = 401
+
+ Score = 59.3 bits (142), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 47/75 (62%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +  +  +E +L   S  G V   ++M+D +TGRS+GY F+ FRD   +  A+ ++
+Sbjct: 163 IFVGDLSNEVNDEVLLQAFSAFGTVSEARVMWDMKTGRSRGYGFVAFRDRADAEKALSSM 222
+
+Query: 80  NGYQLGSRFLKCGYS 94
+           +G  LGSR ++C ++
+Sbjct: 223 DGEWLGSRAIRCNWA 237
+
+
+
+ Score = 43.9 bits (102), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 41/78 (52%), Gaps = 6/78 (7%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+             Y+G++    T+  ++ L  N G V   +   D      +G+AFI+    E++A+A+  
+Sbjct: 289 TCYVGNLTPYTTQNDLVPLFQNFGYVTETRFQSD------RGFAFIKMDTHENAANAICQ 342
+
+Query: 79  LNGYQLGSRFLKCGYSSN 96
+           L+GYQ+  R LKC +  +
+Sbjct: 343 LSGYQVNGRPLKCSWGKD 360
+
+
+
+ Score = 38.1 bits (87), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 23/87 (26%), Positives = 48/87 (55%), Gaps = 3/87 (3%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG--YAFIEFRDLESS 72
+           P  R +Y+G +    TE+ +  +    G V N+K++ D +  +SKG  Y F+E+ D  ++
+Sbjct: 66  PNKRALYVGGLDPRVTEDVLKQIFETTGHVQNVKIIPD-KNFQSKGFNYGFVEYDDPGAA 124
+
+Query: 73  ASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+             A++ LNG ++  + ++  ++  S+ 
+Sbjct: 125 ERAMQTLNGRRVHQQEIRVNWAYQSNT 151
+
+
+>Mycgr3P102763 pep:known chromosome:MG2:1:4341871:4343564:-1 gene:Mycgr3G102763
+           transcript:Mycgr3T102763 description:"Putative
+           uncharacterized protein"
+          Length = 377
+
+ Score = 54.3 bits (129), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 28/87 (32%), Positives = 50/87 (57%), Gaps = 1/87 (1%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           + NPPS+++Y+G++ ++ T  ++       G V++ K++ D + G SKG+AF+EF D E+
+Sbjct: 182 EGNPPSKILYVGNLFFEVTAPKLEAAFGRFGEVVSSKVVTDAR-GLSKGFAFVEFSDQEA 240
+
+Query: 72  SASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           +  A + LN  +   R L   Y    D
+Sbjct: 241 ANRAKQELNHTEFEGRRLSVQYHLKKD 267
+
+
+
+ Score = 52.0 bits (123), Expect = 6e-08,   Method: Compositional matrix adjust.
+ Identities = 25/88 (28%), Positives = 50/88 (56%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G   N PS+ +++G++ Y  ++  + DL   V  V+++++  D ++G+ +G+A  +F D+
+Sbjct: 278 GGTRNKPSKTLFIGNMSYQMSDRDLNDLFKEVRNVLDVRVAIDRRSGQPRGFAHADFIDM 337
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+           ES+  A   L    +  R L+  YS +S
+Sbjct: 338 ESAKKAKELLEQKSVYGRQLRIDYSRDS 365
+
+
+>Mycgr3P107156 pep:known chromosome:MG2:1:2590990:2593136:-1 gene:Mycgr3G107156
+           transcript:Mycgr3T107156 description:"Putative
+           uncharacterized protein"
+          Length = 329
+
+ Score = 51.6 bits (122), Expect = 6e-08,   Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 46/75 (61%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+G +P++ +E  IL + S  G  +++ ++ D +TG+S+G+ F+++ D  S   AV NL
+Sbjct: 35  LYIGGLPFELSEGDILTIFSQYGNPVHINLVRDKETGKSRGFCFLKYEDQRSCDLAVDNL 94
+
+Query: 80  NGYQLGSRFLKCGYS 94
+           +G  +  + L   ++
+Sbjct: 95  SGAGVMGKVLSVDHT 109
+
+
+>Mycgr3P102491 pep:known chromosome:MG2:1:3051529:3053904:1 gene:Mycgr3G102491
+           transcript:Mycgr3T102491 description:"Putative
+           uncharacterized protein"
+          Length = 505
+
+ Score = 50.8 bits (120), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 49/85 (57%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           V  + P+  +++G+I ++  EE +       G +  ++++ D  +GRSKG+ ++EF D +
+Sbjct: 235 VDESAPTGNLFVGNISWNVDEEWLTREFEEFGELAGVRIITDRDSGRSKGFGYVEFSDPQ 294
+
+Query: 71  SSASAVRNLNGYQLGSRFLKCGYSS 95
+           ++  A+   NG +L  R L+  +S+
+Sbjct: 295 NAKKALEAKNGAELDGRELRLDFST 319
+
+
+
+ Score = 48.5 bits (114), Expect = 9e-07,   Method: Compositional matrix adjust.
+ Identities = 21/86 (24%), Positives = 44/86 (51%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G   N P+  +++G+I +D  E  I +     G +  +++  D +TG  KG+ ++E   +
+Sbjct: 340 GDTTNAPAATLFVGNISFDADENAITEYFQEHGTIKAVRLPTDRETGAPKGFGYVEMSSI 399
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYSS 95
+           E + +A   L G  +  R ++  Y++
+Sbjct: 400 EEAQAAFTALQGADIAGRPIRLDYAA 425
+
+
+>Mycgr3P100024 pep:known chromosome:MG2:4:2237206:2239231:-1 gene:Mycgr3G100024
+           transcript:Mycgr3T100024 description:"Putative
+           uncharacterized protein"
+          Length = 544
+
+ Score = 48.1 bits (113), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 26/77 (33%), Positives = 45/77 (58%), Gaps = 1/77 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS-AVRN 78
+           + + +IP    EEQ+++L ++ G + N  ++ D  T  S+G AF+E++D +S+   A+  
+Sbjct: 339 ISITNIPVYLQEEQVVELLTSFGQLKNFVLVKDKSTEESRGIAFVEYKDPDSTTKIALEA 398
+
+Query: 79  LNGYQLGSRFLKCGYSS 95
+           LNG  LG   LK   +S
+Sbjct: 399 LNGMDLGDAALKVKLAS 415
+
+
+>Mycgr3P88390 pep:known chromosome:MG2:13:222493:223410:1 gene:Mycgr3G88390
+           transcript:Mycgr3T88390 description:"Putative
+           uncharacterized protein"
+          Length = 287
+
+ Score = 47.4 bits (111), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 20/48 (41%), Positives = 32/48 (66%), Gaps = 1/48 (2%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           +V++G++PY  T+  +     ++ P  NL+   DPQT RSKG+AF+EF
+Sbjct: 130 IVFIGNLPYKTTDATLTAHFKSLQP-FNLRHRTDPQTKRSKGFAFLEF 176
+
+
+>Mycgr3P101997 pep:known chromosome:MG2:1:447066:448162:-1 gene:Mycgr3G101997
+           transcript:Mycgr3T101997 description:"Putative
+           uncharacterized protein"
+          Length = 158
+
+ Score = 45.4 bits (106), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 21/66 (31%), Positives = 37/66 (56%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +V + ++  + +EE + DL    G + N+ +  D +TG  KGY  IE+  L+ + +AV  
+Sbjct: 45  IVVVTNVHEEASEEDLQDLFGEYGEIKNIHLNLDRRTGYVKGYVLIEYPTLDEAKAAVEG 104
+
+Query: 79  LNGYQL 84
+            NG +L
+Sbjct: 105 ANGEKL 110
+
+
+>Mycgr3P36576 pep:known chromosome:MG2:2:3435842:3437799:-1 gene:Mycgr3G36576
+           transcript:Mycgr3T36576 description:"Putative
+           uncharacterized protein"
+          Length = 598
+
+ Score = 47.0 bits (110), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 27/98 (27%), Positives = 52/98 (53%), Gaps = 4/98 (4%)
+
+Query: 2   NRQSGVNAGV---QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRS 58
+           NRQ+  + G     N  P   +Y+G+I +   E  + D+    G +  +++  +  TGRS
+Sbjct: 292 NRQARTSEGQPTQSNGIPFHRLYVGNIHFSIEESDLRDVFEPFGELEFVQLQKE-DTGRS 350
+
+Query: 59  KGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+           KGY F++F   + +  A+  +NG+++  R ++ G  S+
+Sbjct: 351 KGYGFVQFAKSDEAKIALEKMNGFEVAGRPIRVGLGSD 388
+
+
+
+ Score = 37.7 bits (86), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 36/73 (49%), Gaps = 1/73 (1%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           Q     R V++  +      +Q+       GPV+  +++ D  +GRSKG  ++EF D ES
+Sbjct: 206 QEERDKRTVFVQQLAAALRTKQLKAFFEQSGPVVEAQIVKDRVSGRSKGVGYVEFADEES 265
+
+Query: 72  SASAVRNLNGYQL 84
+              A+  L G +L
+Sbjct: 266 VQKAL-ELTGQKL 277
+
+
+
+ Score = 33.9 bits (76), Expect = 0.040,   Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 43/92 (46%), Gaps = 14/92 (15%)
+
+Query: 16  PSRVVYLGSI--PYDQTEEQILDL-------C-SNVGPVINLKMMFDPQTGRSKGYAFIE 65
+           PSR V + ++     +TEE + DL       C    G V++L    D  +G + G  +++
+Sbjct: 499 PSRCVLIKNVYNHSKETEESLADLKVDMREECDKKYGSVVHL----DTASGSTGGEVYVK 554
+
+Query: 66  FRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+           F   +    AV+ LNG   G R L   Y +++
+Sbjct: 555 FAAKDGGIKAVQGLNGRFFGGRRLTASYVADA 586
+
+
+>Mycgr3P28846 pep:known chromosome:MG2:6:679008:679542:-1 gene:Mycgr3G28846
+          transcript:Mycgr3T28846 description:"Putative
+          uncharacterized protein"
+          Length = 161
+
+ Score = 44.3 bits (103), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 32/49 (65%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+          +++G + ++ T++ + D  S  G V+   +M D Q+GRS+G+ F+ F+D
+Sbjct: 2  MFIGGLNWETTDQSLKDYFSQFGEVVECTVMRDGQSGRSRGFGFLTFKD 50
+
+
+
+ Score = 39.7 bits (91), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 31/62 (50%), Gaps = 3/62 (4%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +  + TE+   +     G V++  +M D  TGR +G+ F+ F D     +  R L
+Sbjct: 86  IFVGGVSQEATEQDFKEFFMQFGRVLDATLMMDKDTGRPRGFGFVTFDD---EKAVERTL 142
+
+Query: 80  NG 81
+            G
+Sbjct: 143 EG 144
+
+
+>Mycgr3P31414 pep:known chromosome:MG2:1:3907116:3909410:1 gene:Mycgr3G31414
+           transcript:Mycgr3T31414 description:"Putative
+           uncharacterized protein"
+          Length = 740
+
+ Score = 45.8 bits (107), Expect = 7e-06,   Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 38/74 (51%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +++  +P + T E + +L S   PV +   + DP T   +GY F+ F D E +A A  
+Sbjct: 56  RSLFVRQLPSNTTSESLTELFSETFPVKHATAVTDPATKECRGYGFVTFADAEDAAQAKS 115
+
+Query: 78  NLNGYQLGSRFLKC 91
+             +G+ +  + L+ 
+Sbjct: 116 QFHGHIIDGKKLRV 129
+
+
+
+ Score = 33.1 bits (74), Expect = 0.076,   Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 29/53 (54%), Gaps = 1/53 (1%)
+
+Query: 48  KMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC-GYSSNSDI 99
+           K+  +   GRS+GY FIE+    ++   +R LNG+ +G +  +  G  S  D+
+Sbjct: 579 KVSEEAGAGRSRGYGFIEYYTHRNALMGLRWLNGHAVGYQVQEAKGKQSREDV 631
+
+
+
+ Score = 33.1 bits (74), Expect = 0.079,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 35/68 (51%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +++ ++P+  T+E + D  +  G     +++ D  T RSKG  F+ F + + + + V
+Sbjct: 314 SSTLFIRNLPFTCTDEDLEDHFAQFGNTRYARVVMDYGTERSKGTGFVCFYNKDDADACV 373
+
+Query: 77  RNLNGYQL 84
+           R     QL
+Sbjct: 374 REAPARQL 381
+
+
+>Mycgr3P73322 pep:known chromosome:MG2:6:1801360:1802162:1 gene:Mycgr3G73322
+          transcript:Mycgr3T73322 description:"Putative
+          uncharacterized protein"
+          Length = 115
+
+ Score = 43.5 bits (101), Expect = 7e-06,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 41/77 (53%), Gaps = 3/77 (3%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+          +R +++ ++ Y+ + E++ DL    GP+  ++      T   KG AF+ + D+  + SA 
+Sbjct: 12 NRALFVKNLSYNVSTEELFDLFGKFGPIRQIRQGIATNT---KGTAFVVYEDVLDAKSAC 68
+
+Query: 77 RNLNGYQLGSRFLKCGY 93
+            LNG+   +R+L   Y
+Sbjct: 69 DKLNGFNFQNRYLVVLY 85
+
+
+>Mycgr3P97226 pep:known chromosome:MG2:12:1365442:1366917:-1 gene:Mycgr3G97226
+           transcript:Mycgr3T97226 description:"Putative
+           uncharacterized protein"
+          Length = 410
+
+ Score = 44.7 bits (104), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 21/73 (28%), Positives = 38/73 (52%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VVY+  IP+   E Q+    S  GP+  +++  + +TG+S+ +AFI+F     +    R 
+Sbjct: 159 VVYISRIPHGFYEPQMAAYFSQFGPISAIRLARNRKTGKSQHFAFIQFESASVADIVART 218
+
+Query: 79  LNGYQLGSRFLKC 91
+           ++ Y L    L+ 
+Sbjct: 219 MDKYLLFGHLLQA 231
+
+
+>Mycgr3P28783 pep:known chromosome:MG2:7:2555130:2555451:-1 gene:Mycgr3G28783
+          transcript:Mycgr3T28783 description:"Putative
+          uncharacterized protein"
+          Length = 90
+
+ Score = 41.6 bits (96), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 18/79 (22%), Positives = 42/79 (53%), Gaps = 1/79 (1%)
+
+Query: 16 PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+          P+ ++Y+ ++P+  +++ +++L   +G V   ++ +    GR +G   ++F     + +A
+Sbjct: 11 PNAIIYVKNLPWATSDDDLVELFQTIGIVERAEVQYKAN-GRHRGAGVVQFGSQGDATTA 69
+
+Query: 76 VRNLNGYQLGSRFLKCGYS 94
+          +  L GY  G R L   Y+
+Sbjct: 70 IMRLQGYSYGGRPLHLNYA 88
+
+
+>Mycgr3P30914 pep:known chromosome:MG2:7:862083:862473:-1 gene:Mycgr3G30914
+          transcript:Mycgr3T30914 description:"Putative
+          uncharacterized protein"
+          Length = 111
+
+ Score = 42.0 bits (97), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 24/83 (28%), Positives = 45/83 (54%), Gaps = 7/83 (8%)
+
+Query: 16 PSRVVYLGSIP----YDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+          P++ +Y+ ++P        +  +  L S  GPVI++  +   +T + +G A I FRD+ S
+Sbjct: 2  PNQSLYIQNLPEKLQKSDLKRNLYMLFSTYGPVIDITAL---KTPKMRGQAHILFRDINS 58
+
+Query: 72 SASAVRNLNGYQLGSRFLKCGYS 94
+          +  A+RNLN  +   R ++  Y+
+Sbjct: 59 AQLAMRNLNNMEFFGREMRIAYA 81
+
+
+>Mycgr3P104845 pep:known chromosome:MG2:6:1208341:1213316:-1 gene:Mycgr3G104845
+           transcript:Mycgr3T104845 description:"Putative
+           uncharacterized protein"
+          Length = 498
+
+ Score = 43.9 bits (102), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 22/92 (23%), Positives = 49/92 (53%), Gaps = 4/92 (4%)
+
+Query: 7   VNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           V++G Q   P+ ++++ ++P+  + + +++L   +G V   ++ ++   GRS+G   ++F
+Sbjct: 393 VSSGGQ---PNAIIHVKNLPWSTSNDDLVELFQTIGTVDRAEIQYEA-NGRSRGAGVVQF 448
+
+Query: 67  RDLESSASAVRNLNGYQLGSRFLKCGYSSNSD 98
+                +A+A+    GY  G R L   Y+   D
+Sbjct: 449 GSQGDAATAIEKFQGYSYGGRPLGLDYARYPD 480
+
+
+
+ Score = 37.4 bits (85), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 36/74 (48%), Gaps = 1/74 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R V++ +IPY    + + DL    G V+   +   P  G +KG   + F   + + +A++
+Sbjct: 219 RSVFVNNIPYTVGWQDLKDLFRQGGNVVRADVHMAPD-GSAKGSGVVTFDTPDDAQNAIQ 277
+
+Query: 78  NLNGYQLGSRFLKC 91
+           + NGY    R L+ 
+Sbjct: 278 HFNGYDWQGRMLEV 291
+
+
+
+ Score = 26.6 bits (57), Expect = 8.5,   Method: Compositional matrix adjust.
+ Identities = 19/74 (25%), Positives = 34/74 (45%), Gaps = 3/74 (4%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVG--PVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           R VY+G++ YD     + D     G   V+   ++  P  G SKG   +E+   + + +A
+Sbjct: 91  RRVYVGNLSYDVKWHHLKDHMRQDGQLDVLFADVLLLP-NGMSKGCGIVEYATRDQAQTA 149
+
+Query: 76  VRNLNGYQLGSRFL 89
+           +  L+   L  R +
+Sbjct: 150 INTLSNSPLMGRLI 163
+
+
+>Mycgr3P31509 pep:known chromosome:MG2:1:2238027:2239310:1 gene:Mycgr3G31509
+           transcript:Mycgr3T31509 description:"Putative
+           uncharacterized protein"
+          Length = 427
+
+ Score = 43.9 bits (102), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 40/64 (62%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P++ V++G++ ++ T ++I +  S  G V ++ +     +G+ KG+ ++ F D+ES++ A
+Sbjct: 197 PTKRVFVGNLGFEATRDEINEHFSQAGQVEDVFLATFEDSGKCKGFGWVTFADIESASQA 256
+
+Query: 76  VRNL 79
+           VR  
+Sbjct: 257 VRGF 260
+
+
+>Mycgr3P69454 pep:known chromosome:MG2:3:746442:748886:-1 gene:Mycgr3G69454
+           transcript:Mycgr3T69454 description:"Putative
+           uncharacterized protein"
+          Length = 780
+
+ Score = 42.4 bits (98), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 40/75 (53%), Gaps = 6/75 (8%)
+
+Query: 5   SGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFI 64
+           S V   VQ +  SR VYLG++P + TE++I +  S  GP+  +K++      R K   F+
+Sbjct: 218 SSVALAVQQSGASRNVYLGNLPEETTEDEIREDLSKFGPIDTVKLV------REKSIGFV 271
+
+Query: 65  EFRDLESSASAVRNL 79
+            F  + ++  AV  L
+Sbjct: 272 HFLSIGNAIKAVTQL 286
+
+
+
+ Score = 35.8 bits (81), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 27/82 (32%), Positives = 44/82 (53%), Gaps = 9/82 (10%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS--A 75
+           R VYLG+I  + T E+I ++    G + +++ + D      K   F+ F D  S+AS  A
+Sbjct: 365 RTVYLGNIHPETTIEEICNVVRG-GLLHHIRYIPD------KHICFVTFIDPTSAASFYA 417
+
+Query: 76  VRNLNGYQLGSRFLKCGYSSNS 97
+           + NL G  + +R LK G+  +S
+Sbjct: 418 LSNLQGLMIHNRRLKIGWGKHS 439
+
+
+
+ Score = 33.1 bits (74), Expect = 0.093,   Method: Compositional matrix adjust.
+ Identities = 21/56 (37%), Positives = 32/56 (57%), Gaps = 7/56 (12%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           SR VYLG+IP + T E+IL    + G + +++++ D      K  AFI F D  S+
+Sbjct: 139 SRTVYLGNIPPETTPEEILSHVRS-GQIESVRLLPD------KNCAFISFLDASSA 187
+
+
+>Mycgr3P92083 pep:known chromosome:MG2:3:3049228:3051105:1 gene:Mycgr3G92083
+           transcript:Mycgr3T92083 description:"Putative
+           uncharacterized protein"
+          Length = 416
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 39/62 (62%), Gaps = 1/62 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           + + +I Y+ TE  + +L   +GPV ++++++D +  RS+G AF+ + D   ++ AV+  
+Sbjct: 172 IRVDNIHYELTENDLRELFERIGPVASVRLLYD-RADRSQGTAFVIYEDPRDASDAVQQF 230
+
+Query: 80  NG 81
+           +G
+Sbjct: 231 DG 232
+
+
+>Mycgr3P77177 pep:known chromosome:MG2:12:137291:138278:-1 gene:Mycgr3G77177
+           transcript:Mycgr3T77177 description:"Putative
+           uncharacterized protein"
+          Length = 199
+
+ Score = 39.3 bits (90), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 30/50 (60%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           +R V++G++ Y  + E+I     + G +  + ++ D  TG  KGYA++EF
+Sbjct: 73  ARSVFVGNVDYGASPEEIQAHFQSCGSINRVTILLDKFTGHPKGYAYVEF 122
+
+
+>Mycgr3P46623 pep:known chromosome:MG2:8:330979:332136:-1 gene:Mycgr3G46623
+          transcript:Mycgr3T46623 description:"Putative
+          uncharacterized protein"
+          Length = 343
+
+ Score = 36.6 bits (83), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 19/77 (24%), Positives = 40/77 (51%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +Y+G++    T+  + +L    GPVIN+ +  D  T   +GY F+EF   + +  A + 
+Sbjct: 14 TLYVGNLDERCTDALVWELMLQAGPVINVHLPRDRVTQNHQGYGFVEFGSEDDADYACKI 73
+
+Query: 79 LNGYQLGSRFLKCGYSS 95
+          +N  ++  + ++   +S
+Sbjct: 74 MNQIRVHGKPIRVNKAS 90
+
+
+
+ Score = 31.2 bits (69), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 24/41 (58%)
+
+Query: 58  SKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           SKGY F+ +   E+S +A+ +++G  L ++ +   Y+   D
+Sbjct: 147 SKGYGFVSYAGFEASDAAIEHMHGQYLMNKEVTVQYAYKKD 187
+
+
+>Mycgr3P85600 pep:known chromosome:MG2:4:821121:823821:1 gene:Mycgr3G85600
+           transcript:Mycgr3T85600 description:"Putative
+           uncharacterized protein"
+          Length = 770
+
+ Score = 36.6 bits (83), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 16/72 (22%), Positives = 39/72 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++P++  +E +    ++ G +  + +  DP+TG  KG+ +I+F + +S+  A  + 
+Sbjct: 249 LFVRNLPFNVQKEDLQAEFASYGNLEEVHVPLDPKTGAGKGFGYIQFSNPDSAEQAFVDR 308
+
+Query: 80  NGYQLGSRFLKC 91
+           +G     R L  
+Sbjct: 309 DGQTFQGRLLHV 320
+
+
+>Mycgr3P65137 pep:known chromosome:MG2:1:966520:968989:-1 gene:Mycgr3G65137
+           transcript:Mycgr3T65137 description:"Putative
+           uncharacterized protein"
+          Length = 437
+
+ Score = 36.2 bits (82), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 25/43 (58%)
+
+Query: 48  KMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           K+M DP +G S+GY F+ F D +    A+  + G   G+R ++
+Sbjct: 197 KIMSDPISGMSRGYGFVRFADEQDQQKALHEMQGVYCGNRPMR 239
+
+
+
+ Score = 30.0 bits (66), Expect = 0.72,   Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 35/63 (55%), Gaps = 1/63 (1%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            +++G +     E  +  +   +G  +N+KM+ D  +G + GY F++F + + +  A++ 
+Sbjct: 73  TLWMGELEPWIDENFVRSVWFGMGYQVNVKMIRDKFSGSNAGYCFVDFENPDQATRALQ- 131
+
+Query: 79  LNG 81
+           LNG
+Sbjct: 132 LNG 134
+
+
+
+ Score = 28.1 bits (61), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 15/85 (17%), Positives = 39/85 (45%), Gaps = 6/85 (7%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           +P +  V++G +    TE+++       G +  +K+         KG  F++F    ++ 
+Sbjct: 296 DPNNTTVFVGGLSGYVTEDELRSFFQGFGEITYVKIP------PGKGCGFVQFVQRHAAE 349
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYSSNSD 98
+            A+  + GY +G+  ++  +  + +
+Sbjct: 350 MAINQMQGYPIGNSRVRLSWGRSQN 374
+
+
+>Mycgr3P56466 pep:known chromosome:MG2:3:1121577:1124634:1 gene:Mycgr3G56466
+           transcript:Mycgr3T56466 description:"Putative
+           uncharacterized protein"
+          Length = 763
+
+ Score = 36.2 bits (82), Expect = 0.009,   Method: Compositional matrix adjust.
+ Identities = 18/61 (29%), Positives = 33/61 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+G +    TE  + +L S++G V ++++  D  T RS GYA++ +        A+  L
+Sbjct: 55  LYVGELDPSVTEAMLFELFSSIGQVASIRVCRDAVTRRSLGYAYVNYNVAGDGERALEEL 114
+
+Query: 80  N 80
+           N
+Sbjct: 115 N 115
+
+
+
+ Score = 36.2 bits (82), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 16/73 (21%), Positives = 36/73 (49%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+ +I  + T+ +  +L    G + +  +  D ++G+++G+ F+ +   E +  AV  L
+Sbjct: 236 IYVKNIDSETTDNEFRELFEKYGDITSASLAHDNESGKNRGFGFVNYIRHEDAYKAVEEL 295
+
+Query: 80  NGYQLGSRFLKCG 92
+           N      + L  G
+Sbjct: 296 NDSDFKGQKLYVG 308
+
+
+
+ Score = 34.7 bits (78), Expect = 0.028,   Method: Compositional matrix adjust.
+ Identities = 16/60 (26%), Positives = 33/60 (55%), Gaps = 1/60 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+           + D  +  G +++ K+  D +   SKGY F+ +   E++  A++N+NG  L  + +  G+
+Sbjct: 157 LHDTFAAFGNILSCKVAQD-ENANSKGYGFVHYETAEAANQAIKNVNGMLLNEKKVFVGH 215
+
+
+>Mycgr3P103773 pep:known chromosome:MG2:3:2018838:2020625:1 gene:Mycgr3G103773
+           transcript:Mycgr3T103773 description:"Putative
+           uncharacterized protein"
+          Length = 344
+
+ Score = 35.8 bits (81), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 20/70 (28%), Positives = 36/70 (51%), Gaps = 1/70 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +Y+G++ Y  TE ++ +   +   V    +  +P+T R  GYAF++      +  A+ 
+Sbjct: 45  RRLYIGNLAYATTEGELKEFFKDY-LVETTSIPTNPRTTRPVGYAFVDVSTPTEAERAIE 103
+
+Query: 78  NLNGYQLGSR 87
+           NLNG  +  R
+Sbjct: 104 NLNGKTILDR 113
+
+
+
+ Score = 33.1 bits (74), Expect = 0.072,   Method: Compositional matrix adjust.
+ Identities = 21/87 (24%), Positives = 41/87 (47%), Gaps = 17/87 (19%)
+
+Query: 16  PSRV-VYLGSIPYDQTEEQILDLCSNVGP--------------VINLKMMFDPQTGRSKG 60
+           PS+  + + ++PYD  EE++L++ ++  P              V  L+   +P+ GR  G
+Sbjct: 218 PSKTKIMVANLPYDLREERLLEIFADYSPTSAKIALRPIPKFMVRKLQARNEPRKGR--G 275
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQLGSR 87
+           + F+     E    A  ++NG ++  R
+Sbjct: 276 FGFVTLSSEELQQKACADMNGKEIEGR 302
+
+
+>Mycgr3P30795 pep:known chromosome:MG2:6:1593126:1593470:-1 gene:Mycgr3G30795
+          transcript:Mycgr3T30795 description:"Putative
+          uncharacterized protein"
+          Length = 115
+
+ Score = 33.9 bits (76), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 18/73 (24%), Positives = 37/73 (50%), Gaps = 1/73 (1%)
+
+Query: 14 NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+          +P    + +G++  + T++ +    +  G V   +++ D  + +SKGY F+ F D E   
+Sbjct: 20 DPTQFRIMVGNLAGEVTDDSLAKAFAAYG-VAKARVIRDKLSTKSKGYGFVSFTDAEMGF 78
+
+Query: 74 SAVRNLNGYQLGS 86
+           A R ++   +GS
+Sbjct: 79 KAAREMSNKYIGS 91
+
+
+>Mycgr3P75892 pep:known chromosome:MG2:9:1805561:1807071:-1 gene:Mycgr3G75892
+           transcript:Mycgr3T75892 description:"Putative
+           uncharacterized protein"
+          Length = 247
+
+ Score = 35.0 bits (79), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 23/73 (31%), Positives = 39/73 (53%), Gaps = 3/73 (4%)
+
+Query: 20  VYLGSIPYDQTEEQILD-LCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           + + ++P D +E  I +   S V PV  + + + P TGRS+G A + F    + A AV  
+Sbjct: 69  ISVSNLPEDVSEMLIKEYFSSTVAPVKKVVLNYGP-TGRSRGSAVVSFNSANAGAKAVA- 126
+
+Query: 79  LNGYQLGSRFLKC 91
+           L+G ++  R L+ 
+Sbjct: 127 LDGTKVDGRPLRI 139
+
+
+>Mycgr3P100220 pep:known chromosome:MG2:5:1298633:1299569:1 gene:Mycgr3G100220
+           transcript:Mycgr3T100220 description:"Putative
+           uncharacterized protein"
+          Length = 292
+
+ Score = 35.4 bits (80), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 18/67 (26%), Positives = 35/67 (52%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           E  + ++    G V  + +  D +TGR+KG+AF+ + D   +A A   ++GY  G   L+
+Sbjct: 224 EGDLREIFERHGRVTRVFLAKDRETGRAKGFAFVSYADRADAARAAERVDGYGFGHLILR 283
+
+Query: 91  CGYSSNS 97
+             ++  +
+Sbjct: 284 VEFAKKA 290
+
+
+>Mycgr3P108339 pep:known chromosome:MG2:2:3422533:3425769:-1 gene:Mycgr3G108339
+           transcript:Mycgr3T108339 description:"Putative
+           uncharacterized protein"
+          Length = 603
+
+ Score = 35.8 bits (81), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 17/63 (26%), Positives = 35/63 (55%), Gaps = 8/63 (12%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD-----PQTGRSKGYAFIEF---RDL 69
+           R +++G +PY  T + +       GP+  ++++ D      + G S+GYAF+ F   RD+
+Sbjct: 104 RTIFIGRLPYTCTTKDLEHEFGRFGPIERVRIVTDRSEKPSKKGTSRGYAFVLFESERDM 163
+
+Query: 70  ESS 72
+           +++
+Sbjct: 164 KAA 166
+
+
+>Mycgr3P70762 pep:known chromosome:MG2:4:586501:587925:-1 gene:Mycgr3G70762
+           transcript:Mycgr3T70762 description:"Putative
+           uncharacterized protein"
+          Length = 449
+
+ Score = 35.4 bits (80), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 19/81 (23%), Positives = 40/81 (49%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+            PP +++++  +     +E +  + S  G +++ +++ D +TG S  YAFIEF + E   
+Sbjct: 251 TPPEQILFVCKLNPVTRDEDLELIFSRFGKILSCEVIRDKKTGDSLQYAFIEFANKEDCE 310
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYS 94
+            A   + G  +    +   +S
+Sbjct: 311 RAYFKMQGVLIDDHRIHVDFS 331
+
+
+>Mycgr3P28705 pep:known chromosome:MG2:9:1617327:1617793:-1 gene:Mycgr3G28705
+          transcript:Mycgr3T28705 description:"Putative
+          uncharacterized protein"
+          Length = 139
+
+ Score = 33.9 bits (76), Expect = 0.016,   Method: Compositional matrix adjust.
+ Identities = 17/67 (25%), Positives = 36/67 (53%), Gaps = 2/67 (2%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+  +  + T+E +    S  G + + K + D  TG  KG+ F+++ + E + + +R  
+Sbjct: 8  VYIRGLLPETTDELLEIWGSRFGDIKSSKSIIDLNTGLCKGFGFVKYHNYEDAENCIRGF 67
+
+Query: 80 N--GYQL 84
+          +  GY++
+Sbjct: 68 HYLGYEV 74
+
+
+>Mycgr3P70735 pep:known chromosome:MG2:4:495016:495872:1 gene:Mycgr3G70735
+           transcript:Mycgr3T70735 description:"Putative
+           uncharacterized protein"
+          Length = 205
+
+ Score = 33.9 bits (76), Expect = 0.028,   Method: Compositional matrix adjust.
+ Identities = 21/80 (26%), Positives = 37/80 (46%), Gaps = 1/80 (1%)
+
+Query: 2   NRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGY 61
+           NR+   +  +  NP S +   G  P   +EE++  +    G V    +M DP T  S+G+
+Sbjct: 68  NRRRNDDDDISTNPGSNLFVTGIHPK-LSEEEVTRIFEKYGQVEKCNIMRDPHTRDSRGF 126
+
+Query: 62  AFIEFRDLESSASAVRNLNG 81
+            F++    + + +A   L G
+Sbjct: 127 GFVKMVTSDEADAAKEALQG 146
+
+
+>Mycgr3P85217 pep:known chromosome:MG2:3:1835237:1838858:1 gene:Mycgr3G85217
+           transcript:Mycgr3T85217 description:"Putative
+           uncharacterized protein"
+          Length = 1114
+
+ Score = 34.7 bits (78), Expect = 0.031,   Method: Compositional matrix adjust.
+ Identities = 25/89 (28%), Positives = 45/89 (50%), Gaps = 10/89 (11%)
+
+Query: 4   QSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAF 63
+           + G++AG    P +R ++LG+IP   T   +  +    GP+   +++    T +S G  F
+Sbjct: 434 EGGLDAGSLETP-TRSLWLGNIPSSTTVSSLNAIFGQFGPIEFARVL----THKSCG--F 486
+
+Query: 64  IEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+           + F  L+S+ +A    NG ++   F  CG
+Sbjct: 487 VNFESLQSAVAAKGQCNGKEI---FPGCG 512
+
+
+>Mycgr3P110503 pep:known chromosome:MG2:8:1350019:1352949:-1 gene:Mycgr3G110503
+           transcript:Mycgr3T110503 description:"Putative
+           uncharacterized protein"
+          Length = 743
+
+ Score = 34.3 bits (77), Expect = 0.036,   Method: Compositional matrix adjust.
+ Identities = 16/75 (21%), Positives = 39/75 (52%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+   +EQ++ + + +G  +     +    G  +G AF  F + + +A+ + +
+Sbjct: 294 AIVIKNIPFAIKKEQLVGIMTEMGLPLPYAFNYHFDNGVFRGLAFANFTNPDETAAVIDS 353
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           +N ++L  R L+  Y
+Sbjct: 354 MNHFELNGRKLRVEY 368
+
+
+>Mycgr3P75568 pep:known chromosome:MG2:9:1014122:1015024:1 gene:Mycgr3G75568
+          transcript:Mycgr3T75568 description:"Putative
+          uncharacterized protein"
+          Length = 233
+
+ Score = 33.5 bits (75), Expect = 0.043,   Method: Compositional matrix adjust.
+ Identities = 20/86 (23%), Positives = 45/86 (52%), Gaps = 8/86 (9%)
+
+Query: 14 NPPSRVVYLGSIPYDQT-----EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+          NPP+  +YL ++P  Q      +E I ++  ++G V++++     ++ + +G AF+ +  
+Sbjct: 5  NPPNATLYLRNLPERQVSIPLLKEGIREIVEDLGTVLDIRA---GKSLKQRGQAFVVYSR 61
+
+Query: 69 LESSASAVRNLNGYQLGSRFLKCGYS 94
+          +E +  A   L   +L  R ++  Y+
+Sbjct: 62 VEEATEAHDILQDIELFGRKIQVQYA 87
+
+
+>Mycgr3P67212 pep:known chromosome:MG2:1:4933245:4934552:-1 gene:Mycgr3G67212
+           transcript:Mycgr3T67212 description:"Putative
+           uncharacterized protein"
+          Length = 310
+
+ Score = 33.1 bits (74), Expect = 0.060,   Method: Compositional matrix adjust.
+ Identities = 17/70 (24%), Positives = 34/70 (48%), Gaps = 4/70 (5%)
+
+Query: 28  DQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           D     +L+    +GPV N+ +++D +    +G   I FRD+ES+       +G +   R
+Sbjct: 215 DDIHRDVLEDAETIGPVKNV-VVYDLE---PRGICVIRFRDVESAQKCADAWDGRRYNGR 270
+
+Query: 88  FLKCGYSSNS 97
+            ++ G  + +
+Sbjct: 271 AVRAGVPTEA 280
+
+
+>Mycgr3P97502 pep:known chromosome:MG2:13:967386:968603:-1 gene:Mycgr3G97502
+           transcript:Mycgr3T97502 description:"Putative
+           uncharacterized protein"
+          Length = 405
+
+ Score = 32.3 bits (72), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 31/51 (60%), Gaps = 4/51 (7%)
+
+Query: 30  TEEQILDLCSNVGPVINLK-MMFDPQ--TGRSKGYAFIEFRDLESSASAVR 77
+           TEE +   C++ G   NLK + F      G+S+G AF+EF D  S+++AV+
+Sbjct: 130 TEEHLRAFCASAGVEGNLKELTFGEHKINGKSRGEAFLEF-DSPSASAAVK 179
+
+
+>Mycgr3P38046 pep:known chromosome:MG2:3:2516160:2517659:1 gene:Mycgr3G38046
+           transcript:Mycgr3T38046 description:"Putative
+           uncharacterized protein"
+          Length = 499
+
+ Score = 31.6 bits (70), Expect = 0.24,   Method: Compositional matrix adjust.
+ Identities = 19/71 (26%), Positives = 34/71 (47%), Gaps = 4/71 (5%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           NPP   +Y+G++P D +E+++  L S       L      +T ++    F+EF D   + 
+Sbjct: 302 NPPCNTLYVGNLPIDTSEDELKSLFSKQRGYKRLCF----RTKQNGPMCFVEFEDTSFAT 357
+
+Query: 74  SAVRNLNGYQL 84
+             +  L G+ L
+Sbjct: 358 KTLHELYGHPL 368
+
+
+>Mycgr3P104484 pep:known chromosome:MG2:5:1190080:1191397:-1 gene:Mycgr3G104484
+          transcript:Mycgr3T104484 description:"Putative
+          uncharacterized protein"
+          Length = 184
+
+ Score = 30.4 bits (67), Expect = 0.32,   Method: Compositional matrix adjust.
+ Identities = 15/72 (20%), Positives = 35/72 (48%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +++G + +   ++ +       G V    ++ D  TGRS+G+ F+ F D   + +A+  +
+Sbjct: 4  LFIGGLAWHTDDQTLRAKFEEYGQVDEAIVVKDRDTGRSRGFGFVRFADDAGADAAITAM 63
+
+Query: 80 NGYQLGSRFLKC 91
+          N  +   R ++ 
+Sbjct: 64 NNVEFDGRTIRV 75
+
+
+>Mycgr3P30158 pep:known chromosome:MG2:1:4807299:4808264:1 gene:Mycgr3G30158
+           transcript:Mycgr3T30158 description:"Putative
+           uncharacterized protein"
+          Length = 298
+
+ Score = 29.6 bits (65), Expect = 0.81,   Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 30/53 (56%), Gaps = 3/53 (5%)
+
+Query: 18  RVVYLGSI--PYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           R +++G++  P D  EE +    S  G V +++++ D  T   KG A+++F D
+Sbjct: 153 RCIFIGNLGFPAD-VEEGLWRTFSKCGTVESVRVIRDSTTRVGKGIAYVQFTD 204
+
+
+>Mycgr3P108180 pep:known chromosome:MG2:2:2468167:2470305:1 gene:Mycgr3G108180
+           transcript:Mycgr3T108180 description:"Putative
+           uncharacterized protein"
+          Length = 566
+
+ Score = 29.3 bits (64), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/54 (29%), Positives = 28/54 (51%), Gaps = 7/54 (12%)
+
+Query: 16  PSRVVYLGSIPYDQTE---EQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           P    +LG++ Y+ T    E+ L  CS    V  +++M D    + KG+ ++EF
+Sbjct: 99  PPYTAHLGNLDYNVTSVDIEEFLSDCS----VTTVRIMEDKVDRKPKGFGYVEF 148
+
+
+>Mycgr3P10108 pep:known chromosome:MG2:7:492915:496575:1 gene:Mycgr3G10108
+           transcript:Mycgr3T10108 description:"Histone
+           methyltransferase"
+          Length = 1163
+
+ Score = 28.9 bits (63), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 23/87 (26%), Positives = 39/87 (44%), Gaps = 13/87 (14%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRD------ 68
+           P +VV +G  P+    E  L L     G + +++   DP+TG   G A I++RD      
+Sbjct: 149 PQQVVAVGFDPF--LSESTLKLNFGTFGSIASVQNKTDPETGSFLGIALIKYRDSIRDGE 206
+
+Query: 69  ----LESSASAVRNLNGYQLGSRFLKC 91
+               + ++  A    NG ++G   +K 
+Sbjct: 207 EISAVNAAKRAEVEFNGARIGVHTIKV 233
+
+
+>Mycgr3P66798 pep:known chromosome:MG2:1:4121813:4122373:-1 gene:Mycgr3G66798
+          transcript:Mycgr3T66798 description:"Putative
+          uncharacterized protein"
+          Length = 147
+
+ Score = 27.3 bits (59), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 19/77 (24%), Positives = 40/77 (51%), Gaps = 5/77 (6%)
+
+Query: 19 VVYLGSIPYDQTEEQIL-DLCSNVGPVINLKM-MFDPQTGR--SKGYAFIEFRDLESSAS 74
+           VY+G +  +Q   Q+L D     G ++++ +   + Q+ R   +G+ ++EF   E +  
+Sbjct: 10 TVYVGGLD-NQVNAQVLHDAFIPFGEIVDVSLPKPEQQSNRDPHRGFGYVEFSLAEDARE 68
+
+Query: 75 AVRNLNGYQLGSRFLKC 91
+          A+ N++  +L  R +K 
+Sbjct: 69 AIDNMDQAELYGRVIKV 85
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 2,216,190
+Number of extensions: 72092
+Number of successful extensions: 234
+Number of sequences better than 10.0: 45
+Number of HSP's gapped: 229
+Number of HSP's successfully gapped: 65
+Length of query: 296
+Length of database: 4,742,065
+Length adjustment: 92
+Effective length of query: 204
+Effective length of database: 3,736,413
+Effective search space: 762228252
+Effective search space used: 762228252
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

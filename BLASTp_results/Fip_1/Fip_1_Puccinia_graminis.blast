@@ -1,0 +1,142 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP80301 pep:novel supercontig:ASM14992v1:supercont2.14:549435:5...    56   8e-09
+EFP76914 pep:novel supercontig:ASM14992v1:supercont2.5:1452099:1...    54   3e-08
+EFP92067 pep:novel supercontig:ASM14992v1:supercont2.96:136376:1...    30   0.93 
+EFP88487 pep:novel supercontig:ASM14992v1:supercont2.53:357823:3...    30   1.2  
+EFP89599 pep:novel supercontig:ASM14992v1:supercont2.62:410144:4...    30   1.4  
+EFP91176 pep:novel supercontig:ASM14992v1:supercont2.81:338244:3...    29   2.1  
+EFP86601 pep:novel supercontig:ASM14992v1:supercont2.40:213285:2...    28   2.9  
+EFP80761 pep:novel supercontig:ASM14992v1:supercont2.15:980696:9...    27   8.3  
+
+>EFP80301 pep:novel supercontig:ASM14992v1:supercont2.14:549435:553621:-1
+           gene:PGTG_06257 transcript:EFP80301
+           description:"hypothetical protein"
+          Length = 970
+
+ Score = 55.8 bits (133), Expect = 8e-09,   Method: Compositional matrix adjust.
+ Identities = 19/37 (51%), Positives = 32/37 (86%)
+
+Query: 187 EKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+           EK W++PGA+L+D+FNYGF+E TW  Y+ +Q++L+++
+Sbjct: 295 EKGWKKPGAHLADWFNYGFDETTWRTYVMKQKRLRKE 331
+
+
+>EFP76914 pep:novel supercontig:ASM14992v1:supercont2.5:1452099:1455752:1
+           gene:PGTG_02375 transcript:EFP76914
+           description:"hypothetical protein"
+          Length = 870
+
+ Score = 53.9 bits (128), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 18/37 (48%), Positives = 32/37 (86%)
+
+Query: 187 EKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+           EK W++PGA+L+D+FNYGF++ TW  Y+ +Q++L+++
+Sbjct: 326 EKGWKKPGAHLADWFNYGFDKTTWRTYVMKQKRLRKE 362
+
+
+>EFP92067 pep:novel supercontig:ASM14992v1:supercont2.96:136376:140343:1
+           gene:PGTG_18157 transcript:EFP92067
+           description:"hypothetical protein"
+          Length = 1167
+
+ Score = 30.4 bits (67), Expect = 0.93,   Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 29/51 (56%), Gaps = 6/51 (11%)
+
+Query: 191 RQPGANLSDYFNYGFNEFTWMEYLHR-QEKLQQDYNPRRILMGLLSLQQQG 240
+           R PGAN+S++ N GF++ T  EY  +   KL++ Y      +G+LS    G
+Sbjct: 95  RPPGANISNFGNVGFSKRTGTEYRSKGAWKLKRIY-----CLGVLSCDLPG 140
+
+
+>EFP88487 pep:novel supercontig:ASM14992v1:supercont2.53:357823:359654:-1
+           gene:PGTG_14065 transcript:EFP88487
+           description:"hypothetical protein"
+          Length = 356
+
+ Score = 29.6 bits (65), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 22/72 (30%), Positives = 35/72 (48%), Gaps = 5/72 (6%)
+
+Query: 169 EGIFDSVGITTIDPEVLKEKPWRQPGANLSDYFNYGFNEF----TWMEYLHRQEKLQQDY 224
+           E +  S GI     E+L+ KP ++  A+ +D   Y   E     TW +Y  RQ+ L +  
+Sbjct: 68  EDLLGSNGIYVFG-EILETKPIQELAAHPTDASYYELLEIYAYGTWKDYRERQDHLPKLN 126
+
+Query: 225 NPRRILMGLLSL 236
+            P+   + LLS+
+Sbjct: 127 EPQIAKLKLLSI 138
+
+
+>EFP89599 pep:novel supercontig:ASM14992v1:supercont2.62:410144:413818:-1
+           gene:PGTG_15748 transcript:EFP89599
+           description:"hypothetical protein"
+          Length = 1099
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 29/51 (56%), Gaps = 6/51 (11%)
+
+Query: 191 RQPGANLSDYFNYGFNEFTWMEYLHR-QEKLQQDYNPRRILMGLLSLQQQG 240
+           R PGAN+S++ N GF++ T  EY  +   KL++ Y      +G+LS    G
+Sbjct: 95  RPPGANISNFGNVGFSKRTGTEYRSKGAWKLKRIY-----CLGVLSCDLPG 140
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 3,065,872
+Number of extensions: 126722
+Number of successful extensions: 406
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 406
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 6,308,381
+Length adjustment: 95
+Effective length of query: 232
+Effective length of database: 4,790,376
+Effective search space: 1111367232
+Effective search space used: 1111367232
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

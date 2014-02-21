@@ -1,0 +1,478 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Integral subunit of the pre-mRNA cleavage and polyadenylation
+factor (CPF) complex; plays an essential role in mRNA 3'-end formation
+by bridging different processing factors and thereby promoting the
+assembly of the processing complex
+         (465 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_05325T0 pep:known chromosome:MG8:3:5412391:5415754:-1 gene:M...   326   e-104
+MGG_08708T0 pep:known chromosome:MG8:6:380812:383351:-1 gene:MGG...    80   3e-16
+MGG_05616T0 pep:known chromosome:MG8:1:5863883:5865868:-1 gene:M...    78   1e-15
+MGG_08829T0 pep:known chromosome:MG8:2:1793465:1796718:-1 gene:M...    74   2e-14
+MGG_03511T0 pep:known chromosome:MG8:4:1640154:1644792:-1 gene:M...    75   2e-14
+MGG_09369T0 pep:known chromosome:MG8:6:3525481:3528909:-1 gene:M...    68   2e-12
+MGG_05201T0 pep:known chromosome:MG8:3:4941587:4943140:-1 gene:M...    67   2e-12
+MGG_04746T0 pep:known chromosome:MG8:2:1361917:1365317:1 gene:MG...    68   3e-12
+MGG_08345T0 pep:known chromosome:MG8:2:7759204:7763538:1 gene:MG...    68   3e-12
+MGG_04802T0 pep:known chromosome:MG8:2:1451920:1453969:-1 gene:M...    65   2e-11
+MGG_07465T0 pep:known chromosome:MG8:3:735220:738247:-1 gene:MGG...    65   2e-11
+MGG_06372T0 pep:known chromosome:MG8:4:3978588:3982676:1 gene:MG...    62   2e-10
+MGG_06742T0 pep:known chromosome:MG8:1:2576969:2580818:1 gene:MG...    61   3e-10
+MGG_04719T0 pep:known chromosome:MG8:1:6871257:6873177:1 gene:MG...    60   4e-10
+MGG_01013T0 pep:known chromosome:MG8:5:823565:825734:1 gene:MGG_...    60   5e-10
+MGG_04473T0 pep:known chromosome:MG8:1:7381250:7383510:1 gene:MG...    60   5e-10
+MGG_03210T0 pep:known chromosome:MG8:4:2679870:2681855:1 gene:MG...    60   6e-10
+MGG_00261T0 pep:known chromosome:MG8:5:3491249:3494583:-1 gene:M...    60   1e-09
+MGG_10504T0 pep:known chromosome:MG8:1:4633600:4637291:1 gene:MG...    58   4e-09
+MGG_06892T0 pep:known chromosome:MG8:1:3141519:3144244:1 gene:MG...    56   1e-08
+MGG_07284T0 pep:known chromosome:MG8:2:7096694:7098886:1 gene:MG...    55   1e-08
+MGG_01481T0 pep:known chromosome:MG8:2:3724000:3725785:-1 gene:M...    55   1e-08
+MGG_07323T0 pep:known chromosome:MG8:2:7255120:7257368:-1 gene:M...    55   2e-08
+MGG_14014T0 pep:known chromosome:MG8:7:2798558:2802160:1 gene:MG...    55   2e-08
+MGG_01259T0 pep:known chromosome:MG8:2:2878905:2880942:1 gene:MG...    54   3e-08
+MGG_01236T0 pep:known chromosome:MG8:2:2789925:2792654:-1 gene:M...    54   5e-08
+MGG_08178T0 pep:known chromosome:MG8:2:5957884:5961199:1 gene:MG...    54   5e-08
+MGG_13435T0 pep:known chromosome:MG8:3:1222328:1225337:1 gene:MG...    53   1e-07
+MGG_01108T0 pep:known chromosome:MG8:5:486272:491019:1 gene:MGG_...    52   2e-07
+MGG_06389T0 pep:known chromosome:MG8:4:3920200:3923120:-1 gene:M...    52   3e-07
+MGG_07030T0 pep:known chromosome:MG8:2:6150994:6153146:-1 gene:M...    52   3e-07
+MGG_08133T0 pep:known chromosome:MG8:2:5807764:5810895:1 gene:MG...    51   5e-07
+MGG_14666T0 pep:known chromosome:MG8:5:2156477:2157557:-1 gene:M...    50   8e-07
+MGG_03737T0 pep:known chromosome:MG8:4:869888:873384:-1 gene:MGG...    50   1e-06
+MGG_09518T0 pep:known chromosome:MG8:3:3409619:3413233:1 gene:MG...    49   2e-06
+MGG_01074T0 pep:known chromosome:MG8:5:596738:602287:-1 gene:MGG...    49   3e-06
+MGG_14350T0 pep:known chromosome:MG8:5:264235:268172:-1 gene:MGG...    48   3e-06
+MGG_00590T0 pep:known chromosome:MG8:5:2382945:2386998:-1 gene:M...    47   1e-05
+MGG_01711T0 pep:known chromosome:MG8:2:4539383:4542141:1 gene:MG...    46   1e-05
+MGG_09696T0 pep:known chromosome:MG8:4:5475460:5479862:1 gene:MG...    46   2e-05
+MGG_12329T0 pep:known chromosome:MG8:2:6263750:6265811:1 gene:MG...    46   2e-05
+MGG_06728T0 pep:known chromosome:MG8:1:2524667:2527755:1 gene:MG...    45   3e-05
+MGG_16744T0 pep:known chromosome:MG8:3:2356375:2360053:-1 gene:M...    45   5e-05
+MGG_01043T0 pep:known chromosome:MG8:5:701769:705122:1 gene:MGG_...    44   5e-05
+MGG_10588T0 pep:known chromosome:MG8:7:2795046:2798554:-1 gene:M...    44   8e-05
+MGG_06406T0 pep:known chromosome:MG8:4:3845358:3846923:-1 gene:M...    43   1e-04
+MGG_03129T0 pep:known chromosome:MG8:4:2974709:2976783:-1 gene:M...    44   1e-04
+MGG_08065T0 pep:known chromosome:MG8:2:5574449:5576972:-1 gene:M...    43   2e-04
+MGG_04693T0 pep:known chromosome:MG8:1:6929520:6931564:1 gene:MG...    42   2e-04
+MGG_00946T0 pep:known chromosome:MG8:5:1034992:1037138:-1 gene:M...    42   2e-04
+MGG_05698T0 pep:known chromosome:MG8:1:6158537:6160432:-1 gene:M...    42   3e-04
+MGG_07273T0 pep:known chromosome:MG8:2:7040338:7042807:-1 gene:M...    42   3e-04
+MGG_02874T0 pep:known chromosome:MG8:7:1197193:1203181:1 gene:MG...    42   5e-04
+MGG_03057T0 pep:known chromosome:MG8:7:468661:470192:1 gene:MGG_...    41   5e-04
+MGG_04227T0 pep:known chromosome:MG8:6:1489677:1494034:1 gene:MG...    41   5e-04
+MGG_08141T0 pep:known chromosome:MG8:2:5833952:5836881:1 gene:MG...    41   6e-04
+MGG_06969T0 pep:known chromosome:MG8:1:3407534:3410460:1 gene:MG...    38   0.005
+MGG_01888T0 pep:known chromosome:MG8:2:5225443:5227618:1 gene:MG...    38   0.005
+MGG_02743T0 pep:known chromosome:MG8:7:1688871:1691885:-1 gene:M...    38   0.006
+MGG_03979T0 pep:known chromosome:MG8:6:2340409:2343625:-1 gene:M...    38   0.007
+MGG_08174T0 pep:known chromosome:MG8:2:5947917:5949404:1 gene:MG...    37   0.009
+MGG_03150T0 pep:known chromosome:MG8:4:2883873:2885829:-1 gene:M...    37   0.010
+MGG_14691T0 pep:known chromosome:MG8:5:3072080:3073555:1 gene:MG...    37   0.012
+MGG_05731T0 pep:known chromosome:MG8:1:6316204:6318580:-1 gene:M...    37   0.015
+MGG_04651T0 pep:known chromosome:MG8:2:1136508:1138365:1 gene:MG...    36   0.016
+MGG_02460T0 pep:known chromosome:MG8:1:1955973:1957862:1 gene:MG...    35   0.041
+MGG_02569T0 pep:known chromosome:MG8:7:2353063:2358537:-1 gene:M...    35   0.051
+MGG_06211T0 pep:known chromosome:MG8:3:2952506:2957178:1 gene:MG...    34   0.073
+MGG_06111T0 pep:known chromosome:MG8:3:2610684:2613947:1 gene:MG...    34   0.074
+MGG_03611T0 pep:known chromosome:MG8:4:1267427:1269827:-1 gene:M...    34   0.086
+MGG_04352T0 pep:known chromosome:MG8:2:599520:600768:1 gene:MGG_...    33   0.11 
+MGG_06100T0 pep:known chromosome:MG8:3:2570137:2575747:-1 gene:M...    33   0.22 
+MGG_06028T0 pep:known chromosome:MG8:3:2325412:2328106:1 gene:MG...    33   0.25 
+MGG_09961T0 pep:known chromosome:MG8:1:4510827:4514451:-1 gene:M...    33   0.25 
+MGG_04235T0 pep:known chromosome:MG8:6:1466526:1472493:1 gene:MG...    33   0.26 
+MGG_06500T0 pep:known chromosome:MG8:4:3506329:3509485:-1 gene:M...    32   0.45 
+MGG_06387T0 pep:known chromosome:MG8:4:3929193:3931354:-1 gene:M...    31   0.62 
+MGG_01224T0 pep:known chromosome:MG8:2:2729254:2732344:-1 gene:M...    31   0.67 
+MGG_03198T0 pep:known chromosome:MG8:4:2724860:2728421:-1 gene:M...    30   1.4  
+MGG_01100T0 pep:known chromosome:MG8:5:512513:514552:1 gene:MGG_...    30   1.9  
+MGG_01258T0 pep:known chromosome:MG8:2:2875424:2878698:-1 gene:M...    30   2.0  
+MGG_03597T0 pep:known chromosome:MG8:4:1325920:1328946:-1 gene:M...    30   2.1  
+MGG_06968T0 pep:known chromosome:MG8:1:3404861:3407353:-1 gene:M...    29   2.5  
+MGG_07198T0 pep:known chromosome:MG8:2:6723293:6726948:1 gene:MG...    29   3.6  
+MGG_10590T0 pep:known chromosome:MG8:7:2788132:2791667:1 gene:MG...    28   5.1  
+MGG_05262T0 pep:known chromosome:MG8:3:5196495:5206196:-1 gene:M...    28   7.5  
+
+>MGG_05325T0 pep:known chromosome:MG8:3:5412391:5415754:-1 gene:MGG_05325
+           transcript:MGG_05325T0 description:"Polyadenylation
+           factor subunit 2"
+          Length = 655
+
+ Score =  326 bits (835), Expect = e-104,   Method: Compositional matrix adjust.
+ Identities = 159/367 (43%), Positives = 231/367 (62%), Gaps = 34/367 (9%)
+
+Query: 56  EPETSYTIDIMPPNAYRGRDRVINLPSKFTHLSSNKVKHVIPAIQWTPEGRRLVVATYSG 115
+            P  SY +D++PP+A R  +    +P +  H S NKVKH I  ++WTPEGRRL+ A+  G
+Sbjct: 65  RPSPSYIVDMLPPHA-RPNNAADTIPVRHLHSSLNKVKHPINVVKWTPEGRRLLTASSGG 123
+
+Query: 116 EFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAA 175
+           EF+LWN + F FET+MQAH+SA+  + YSH  +W++SGD DG+I  WQPNF+ V+ I  +
+Sbjct: 124 EFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVETIRDS 183
+
+Query: 176 HTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIA 235
+             +++RD+AFS NDSKFV  +DD  LK+++F+   +E  LSGHHW+ K+CDWHP  GLI 
+Sbjct: 184 -KDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIV 242
+
+Query: 236 SASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSM 295
+           S SKD+LVKLWDPR+G C++++   K+T+ KT F+  +G  L   ++D++  VFD+R  M
+Sbjct: 243 SGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRM-M 301
+
+Query: 296 KELMCVRD-ETDYMTLEWHPINESMFTLACYDGSLKHFDLLQNLNE-------------- 340
+           +++  +R  E D  TL WHP++ +M +    +GS+ H+ +L   N               
+Sbjct: 302 RDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHY-ILDEPNTPDGRQQTIAPYDSP 360
+
+Query: 341 -----------PILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFWTRARPIDPNAYD 389
+                      P   +P+AHD  I SL ++P+GHI A+ + DR  RFWTRARP D    D
+Sbjct: 361 DPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFWTRARPGD----D 416
+
+Query: 390 DPTYNNK 396
+           D   N++
+Sbjct: 417 DEVLNDR 423
+
+
+>MGG_08708T0 pep:known chromosome:MG8:6:380812:383351:-1 gene:MGG_08708
+           transcript:MGG_08708T0 description:"WD repeat-containing
+           protein"
+          Length = 526
+
+ Score = 80.1 bits (196), Expect = 3e-16,   Method: Compositional matrix adjust.
+ Identities = 77/349 (22%), Positives = 144/349 (41%), Gaps = 39/349 (11%)
+
+Query: 46  RRHGLPNLVVEPETSYTIDIMPPNAYRGRDRVINLPSKFTHLSSNKVKHVIPAIQWTP-E 104
+           R+HG+ +     ET+ T+   P   ++     +   S+  H      + ++ A Q++P  
+Sbjct: 114 RQHGIEDAF---ETTLTLAAEPQAVFK-----VQAVSRLAHRIPGHGEPILCA-QFSPAS 164
+
+Query: 105 GRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQP 164
+             RL   +      +W+A + T +  ++ H   V  + +S D   + +   D  ++IW P
+Sbjct: 165 SARLATGSGDNTARIWDAETGTPKHTLKGHAGWVLGVSWSPDGTRLATCSMDKTVRIWDP 224
+
+Query: 165 NFS-MVKEIDAAHTESIRDMAFS------SNDSKFVTCSDDNILKIWNFSNGKQERVLSG 217
+                V      H + ++ +A+           + V+ S D   +IW  + G+ E VLSG
+Sbjct: 225 ETGKQVGSELKGHAKWVQGIAWEPLHLWRDGTPRLVSASKDFTARIWTVNTGRTEHVLSG 284
+
+Query: 218 HHWDVKSCDWHPE--MGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGN 275
+           H   V    W      G++ +AS D  VK+WD   G  +  +    H V           
+Sbjct: 285 HKGSVSCVRWGAGNGTGVVYTASHDKTVKVWDAVKGTLLHDLKSHAHWVNH--------- 335
+
+Query: 276 LLMAISKDKSCRV--FDIRYSM-----KELMCVRDETDYMTLEWHPINESMFTLACYDGS 328
+             +A+S D  CR   FD   ++     ++    ++  +        I E + + A  D +
+Sbjct: 336 --LALSTDFVCRTGFFDHTKTVPATAEEKTAKAKERYEKAARVGGKIVERLVS-ASDDFT 392
+
+Query: 329 LKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+           +  FD L +  +PI  +   H K +  ++++P G + A+A  D   + W
+Sbjct: 393 MYLFDPLNDGTKPIARM-IGHQKQVNHVTFSPDGSMIASAGWDNATKLW 440
+
+
+
+ Score = 64.3 bits (155), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 34/116 (29%), Positives = 48/116 (41%)
+
+Query: 131 MQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDS 190
+           M  H   V  + +S D   + S   D   K+W             H   +   +FS++  
+Sbjct: 409 MIGHQKQVNHVTFSPDGSMIASAGWDNATKLWNARDGKFINTLRGHVAPVYQCSFSADSR 468
+
+Query: 191 KFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLW 246
+             VT S D  LK+WN   GK    L GH  +V   DW P+   + S  +D  V+LW
+Sbjct: 469 LLVTASKDTTLKVWNVRTGKLATDLPGHEDEVYGVDWSPDGQRVGSGGRDKAVRLW 524
+
+
+
+ Score = 56.2 bits (134), Expect = 9e-09,   Method: Compositional matrix adjust.
+ Identities = 31/115 (26%), Positives = 56/115 (48%), Gaps = 1/115 (0%)
+
+Query: 175 AHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLI 234
+            H + +  + FS + S   +   DN  K+WN  +GK    L GH   V  C +  +  L+
+Sbjct: 411 GHQKQVNHVTFSPDGSMIASAGWDNATKLWNARDGKFINTLRGHVAPVYQCSFSADSRLL 470
+
+Query: 235 ASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVF 289
+            +ASKD  +K+W+ R+G   + +   +  V    + P  G  + +  +DK+ R++
+Sbjct: 471 VTASKDTTLKVWNVRTGKLATDLPGHEDEVYGVDWSP-DGQRVGSGGRDKAVRLW 524
+
+
+>MGG_05616T0 pep:known chromosome:MG8:1:5863883:5865868:-1 gene:MGG_05616
+           transcript:MGG_05616T0 description:"Pre-mRNA-splicing
+           factor prp46"
+          Length = 510
+
+ Score = 78.2 bits (191), Expect = 1e-15,   Method: Compositional matrix adjust.
+ Identities = 58/254 (22%), Positives = 105/254 (41%), Gaps = 19/254 (7%)
+
+Query: 130 LMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSND 189
+           ++  H   V  +    D+ W  SG  D  IKIW      ++     H  ++R +A S   
+Sbjct: 196 VISGHLGWVRALAVEPDNKWFASGAGDRTIKIWDLASGRLRLTLTGHISTVRGLAVSPRH 255
+
+Query: 190 SKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPR 249
+               +C++D ++K W+    K  R   GH   V +   HP + ++ +  +D + ++WD R
+Sbjct: 256 PYLFSCAEDKMVKCWDLETNKVIRHYHGHLSGVYTLALHPTLDVLVTGGRDGVARVWDMR 315
+
+Query: 250 SGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSMKELMCVRDETDYMT 309
+           + + I  +     TV +   Q     ++   S D + R++D+       +    +     
+Sbjct: 316 TRSNIHVLSGHTGTVSELVCQEADPQVITG-SLDSTVRMWDLAAGKTMGVLTHHKKGVRA 374
+
+Query: 310 LEWHPINESMFTLACYD-GSLKHFD-----LLQNLNEPILTIPYAHDKCITSLSYNPVGH 363
+           L  HP     FT A    GS+K +       +QN           H+  I +LS N   +
+Sbjct: 375 LATHPTE---FTFASGSAGSIKQWKCPEGAFMQNFE--------GHNSIINTLSVNDQ-N 422
+
+Query: 364 IFATAAKDRTIRFW 377
+           +F + A + ++ FW
+Sbjct: 423 VFFSGADNGSMSFW 436
+
+
+
+ Score = 51.2 bits (121), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 60/320 (18%), Positives = 110/320 (34%), Gaps = 30/320 (9%)
+
+Query: 96  IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+           + A+   P+ +            +W+ +S      +  H S V  +  S    ++ S   
+Sbjct: 204 VRALAVEPDNKWFASGAGDRTIKIWDLASGRLRLTLTGHISTVRGLAVSPRHPYLFSCAE 263
+
+Query: 156 DGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVL 215
+           D M+K W    + V      H   +  +A        VT   D + ++W+        VL
+Sbjct: 264 DKMVKCWDLETNKVIRHYHGHLSGVYTLALHPTLDVLVTGGRDGVARVWDMRTRSNIHVL 323
+
+Query: 216 SGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGN 275
+           SGH   V           + + S D+ V++WD  +G  +  +   K  V      PT+  
+Sbjct: 324 SGHTGTVSELVCQEADPQVITGSLDSTVRMWDLAAGKTMGVLTHHKKGVRALATHPTEFT 383
+
+Query: 276 LLMAISKDKSCRVFDIRYSMKELMCVRDETDYMT-LEWH-------PIN-ESMFTLACYD 326
+                +            S+K+  C   E  +M   E H        +N +++F     +
+Sbjct: 384 FASGSAG-----------SIKQWKC--PEGAFMQNFEGHNSIINTLSVNDQNVFFSGADN 430
+
+Query: 327 GSLKHFD-----LLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFWTRAR 381
+           GS+  +D       Q+L+          +  I + +++  G        D+TI+ W    
+Sbjct: 431 GSMSFWDWKTGHRFQSLDTTAQPGSLQAESGIFTSTFDQSGSRLICGEADKTIKIWKEDM 490
+
+Query: 382 PIDPNAYD---DPTYNNKKI 398
+              P  +     PT   +K 
+Sbjct: 491 EATPETHPLDWKPTLGRRKF 510
+
+
+
+ Score = 43.9 bits (102), Expect = 6e-05,   Method: Compositional matrix adjust.
+ Identities = 44/174 (25%), Positives = 71/174 (40%), Gaps = 17/174 (9%)
+
+Query: 210 KQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRF 269
+           K  RV+SGH   V++    P+    AS + D  +K+WD  SG    ++     TV     
+Sbjct: 192 KLMRVISGHLGWVRALAVEPDNKWFASGAGDRTIKIWDLASGRLRLTLTGHISTVRGLAV 251
+
+Query: 270 QPTKGNLLMAISKDKSCRVFD------IRYSMKELMCVRDETDYMTLEWHPINESMFTLA 323
+            P +   L + ++DK  + +D      IR+    L  V       TL  HP  + + T  
+Sbjct: 252 SP-RHPYLFSCAEDKMVKCWDLETNKVIRHYHGHLSGV------YTLALHPTLDVLVT-G 303
+
+Query: 324 CYDGSLKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+             DG  + +D+    N  +L+    H   ++ L          T + D T+R W
+Sbjct: 304 GRDGVARVWDMRTRSNIHVLS---GHTGTVSELVCQEADPQVITGSLDSTVRMW 354
+
+
+>MGG_08829T0 pep:known chromosome:MG8:2:1793465:1796718:-1 gene:MGG_08829
+           transcript:MGG_08829T0 description:"Transcriptional
+           repressor rco-1"
+          Length = 607
+
+ Score = 74.3 bits (181), Expect = 2e-14,   Method: Compositional matrix adjust.
+ Identities = 55/229 (24%), Positives = 100/229 (43%), Gaps = 17/229 (7%)
+
+Query: 76  RVINLPSKFTHLSSNKVKHVIPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHD 135
+           RV ++ ++   +     +  I ++ +  +GR +   +      LW+  + T  T+    D
+Sbjct: 371 RVWDITTRTIRIQFAGHEQDIYSLDFARDGRTIASGSGDRTVRLWDIENGTALTVFTIED 430
+
+Query: 136 SAVTTMKYSHDSDWMISGDADGMIKIWQPNFSM-VKEIDA--AHTESIRDMAFSSNDSKF 192
+             VTT+  S D+ ++ +G  D  +++W       V+ ++    H +S+  +AFS N    
+Sbjct: 431 -GVTTVAISPDTKYVAAGSLDKSVRVWDLTQGCPVERLEGPDGHKDSVYSVAFSPNGRDL 489
+
+Query: 193 VTCSDDNILKIWNFS------------NGKQERVLSGHHWDVKSCDWHPEMGLIASASKD 240
+           VT S D  +K+W  +             G+  +   GH   V S    P+   + S SKD
+Sbjct: 490 VTGSLDKTIKLWELATPRGNMQNQGSKGGRCVKTFEGHRDFVLSVALTPDNQWVMSGSKD 549
+
+Query: 241 NLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVF 289
+             V+ WDPR+G+    +   K++V+     PT G      S D   R++
+Sbjct: 550 RGVQFWDPRTGSTQLMLQGHKNSVISVAPSPT-GGFFATGSGDMRARIW 597
+
+
+
+ Score = 67.8 bits (164), Expect = 2e-12,   Method: Compositional matrix adjust.
+ Identities = 61/255 (23%), Positives = 101/255 (39%), Gaps = 52/255 (20%)
+
+Query: 134 HDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFS---MVKEIDAAHTES---IRDMAFSS 187
+           H+S V  +++S D  ++ +G  +   +I+  N      V + D A T     IR + FS 
+Sbjct: 298 HESVVCCVRFSADGKYVATG-CNRSAQIFDVNTGEKVCVLQDDNADTTGDLYIRSVCFSP 356
+
+Query: 188 NDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWD 247
+           +     T ++D  +++W+ +        +GH  D+ S D+  +   IAS S D  V+LWD
+Sbjct: 357 DGKYLATGAEDKQIRVWDITTRTIRIQFAGHEQDIYSLDFARDGRTIASGSGDRTVRLWD 416
+
+Query: 248 PRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSMKELMCVRDETDY 307
+             +G  +            T F    G   +AIS D                     T Y
+Sbjct: 417 IENGTAL------------TVFTIEDGVTTVAISPD---------------------TKY 443
+
+Query: 308 MTLEWHPINESMFTLACYDGSLKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFAT 367
+           +                 D S++ +DL Q      L  P  H   + S++++P G    T
+Sbjct: 444 VAA------------GSLDKSVRVWDLTQGCPVERLEGPDGHKDSVYSVAFSPNGRDLVT 491
+
+Query: 368 AAKDRTIRFWTRARP 382
+            + D+TI+ W  A P
+Sbjct: 492 GSLDKTIKLWELATP 506
+
+
+
+ Score = 66.6 bits (161), Expect = 5e-12,   Method: Compositional matrix adjust.
+ Identities = 63/305 (20%), Positives = 116/305 (38%), Gaps = 71/305 (23%)
+
+Query: 96  IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+           I ++ ++P+G+ L       +  +W+ ++ T       H+  + ++ ++ D   + SG  
+Sbjct: 349 IRSVCFSPDGKYLATGAEDKQIRVWDITTRTIRIQFAGHEQDIYSLDFARDGRTIASGSG 408
+
+Query: 156 DGMIKIWQPNFSMVKEIDAAHTESIRDMAFS---SNDSKFVTC-SDDNILKIWNFSNG-K 210
+           D  +++W      ++   A    +I D   +   S D+K+V   S D  +++W+ + G  
+Sbjct: 409 DRTVRLWD-----IENGTALTVFTIEDGVTTVAISPDTKYVAAGSLDKSVRVWDLTQGCP 463
+
+Query: 211 QERVLS--GHHWDVKSCDWHPEMGLIASASKDNLVKLWD---PR---------SGNCISS 256
+            ER+    GH   V S  + P    + + S D  +KLW+   PR          G C+ +
+Sbjct: 464 VERLEGPDGHKDSVYSVAFSPNGRDLVTGSLDKTIKLWELATPRGNMQNQGSKGGRCVKT 523
+
+Query: 257 ILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSMKELMCVRDETDYMTLEWHPIN 316
+               +  VL     P     +M+ SKD+  + +D R    +LM                 
+Sbjct: 524 FEGHRDFVLSVALTPDN-QWVMSGSKDRGVQFWDPRTGSTQLM----------------- 565
+
+Query: 317 ESMFTLACYDGSLKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRF 376
+                             LQ            H   + S++ +P G  FAT + D   R 
+Sbjct: 566 ------------------LQ-----------GHKNSVISVAPSPTGGFFATGSGDMRARI 596
+
+Query: 377 WTRAR 381
+           W+  R
+Sbjct: 597 WSYTR 601
+
+
+
+ Score = 47.4 bits (111), Expect = 6e-06,   Method: Compositional matrix adjust.
+ Identities = 37/175 (21%), Positives = 68/175 (38%), Gaps = 21/175 (12%)
+
+Query: 49  GLPNLVVEPETSYTIDIMPPNAYRGRDRVINLPSKFTHLSSNKVKHVIPAIQWTPEGRRL 108
+           G+  + + P+T Y        + R  D     P +      +  K  + ++ ++P GR L
+Sbjct: 431 GVTTVAISPDTKYVAAGSLDKSVRVWDLTQGCPVERLE-GPDGHKDSVYSVAFSPNGRDL 489
+
+Query: 109 VVATYSGEFSLWNASS----------------FTFETLMQAHDSAVTTMKYSHDSDWMIS 152
+           V  +      LW  ++                 TFE     H   V ++  + D+ W++S
+Sbjct: 490 VTGSLDKTIKLWELATPRGNMQNQGSKGGRCVKTFE----GHRDFVLSVALTPDNQWVMS 545
+
+Query: 153 GDADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFS 207
+           G  D  ++ W P     + +   H  S+  +A S     F T S D   +IW+++
+Sbjct: 546 GSKDRGVQFWDPRTGSTQLMLQGHKNSVISVAPSPTGGFFATGSGDMRARIWSYT 600
+
+
+>MGG_03511T0 pep:known chromosome:MG8:4:1640154:1644792:-1 gene:MGG_03511
+           transcript:MGG_03511T0 description:"Coatomer alpha
+           subunit"
+          Length = 1220
+
+ Score = 74.7 bits (182), Expect = 2e-14,   Method: Compositional matrix adjust.
+ Identities = 52/240 (21%), Positives = 107/240 (44%), Gaps = 18/240 (7%)
+
+Query: 149 WMISGDADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSN 208
+           W++       I++W      + +    H   +R + F      FV+  DD  +K+W++  
+Sbjct: 29  WILVSLHSSTIQLWDYRMGTLIDRFEEHDGPVRAIDFHKTQPLFVSGGDDYKIKVWSYQT 88
+
+Query: 209 GKQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTR 268
+            +    L+GH   V++  +H E+  I SAS D  +++W+ ++ + I ++    H  +  +
+Sbjct: 89  RRCLFTLNGHLDYVRTVFFHHELPWIVSASDDQTIRIWNWQNRSLICTMTGHNHYAMCAQ 148
+
+Query: 269 FQPTKGNLLMAISKDKSCRVFDIRYSMKELMCVRDETDYMTLEWHPINESMFTLACYDGS 328
+           F P K +L+++ S D+S RV+DI    K+                P +   F       +
+Sbjct: 149 FHP-KEDLVVSASLDQSVRVWDISGLRKKHSA-------------PTSSLSFEDQMARNN 194
+
+Query: 329 LKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW----TRARPID 384
+               D+  N +  +  +   HD+ +  ++++P   +  +A  DR ++ W    T+A  +D
+Sbjct: 195 ANQTDMFGNTDAVVKFVLEGHDRGVNWVAFHPTMPLIVSAGDDRLVKLWRMSETKAWEVD 254
+
+
+
+ Score = 65.5 bits (158), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 39/150 (26%), Positives = 66/150 (44%)
+
+Query: 98  AIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADG 157
+            I + P+   ++V+ +S    LW+    T     + HD  V  + +       +SG  D 
+Sbjct: 20  GIAFHPKRPWILVSLHSSTIQLWDYRMGTLIDRFEEHDGPVRAIDFHKTQPLFVSGGDDY 79
+
+Query: 158 MIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSG 217
+            IK+W             H + +R + F       V+ SDD  ++IWN+ N      ++G
+Sbjct: 80  KIKVWSYQTRRCLFTLNGHLDYVRTVFFHHELPWIVSASDDQTIRIWNWQNRSLICTMTG 139
+
+Query: 218 HHWDVKSCDWHPEMGLIASASKDNLVKLWD 247
+           H+       +HP+  L+ SAS D  V++WD
+Sbjct: 140 HNHYAMCAQFHPKEDLVVSASLDQSVRVWD 169
+
+
+
+ Score = 50.1 bits (118), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 36/156 (23%), Positives = 67/156 (42%), Gaps = 11/156 (7%)
+
+Query: 94  HVIPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISG 153
+           H     Q+ P+   +V A+      +W+ S      L + H +  +++ +    D M   
+Sbjct: 142 HYAMCAQFHPKEDLVVSASLDQSVRVWDISG-----LRKKHSAPTSSLSFE---DQMARN 193
+
+Query: 154 DADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQER 213
+           +A+    ++    ++VK +   H   +  +AF       V+  DD ++K+W  S  K   
+Sbjct: 194 NAN-QTDMFGNTDAVVKFVLEGHDRGVNWVAFHPTMPLIVSAGDDRLVKLWRMSETKAWE 252
+
+Query: 214 V--LSGHHWDVKSCDWHPEMGLIASASKDNLVKLWD 247
+           V    GH  +   C +HP   LI S  +D  +++WD
+Sbjct: 253 VDTCRGHFQNASGCLFHPHQDLILSVGEDKTIRVWD 288
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.319    0.134    0.420 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 5,610,993
+Number of extensions: 249066
+Number of successful extensions: 1288
+Number of sequences better than 10.0: 91
+Number of HSP's gapped: 1039
+Number of HSP's successfully gapped: 265
+Length of query: 465
+Length of database: 5,666,059
+Length adjustment: 98
+Effective length of query: 367
+Effective length of database: 4,416,069
+Effective search space: 1620697323
+Effective search space used: 1620697323
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

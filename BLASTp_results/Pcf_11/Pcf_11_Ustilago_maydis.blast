@@ -1,0 +1,170 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM04055P0 pep:known supercontig:UM1:Cont_1.141:20235:22118:-1 ge...   108   3e-25
+UM00070P0 pep:known supercontig:UM1:Cont_1.2:141169:143373:-1 ge...    33   0.26 
+UM02301P0 pep:known supercontig:UM1:Cont_1.80:126123:128066:-1 g...    32   0.40 
+UM05469P0 pep:known supercontig:UM1:Cont_1.197:23407:26110:1 gen...    30   1.7  
+UM02587P0 pep:known supercontig:UM1:Cont_1.86:102366:106631:-1 g...    28   5.0  
+UM00101P0 pep:known supercontig:UM1:Cont_1.2:207953:210550:1 gen...    28   5.9  
+UM05724P0 pep:known supercontig:UM1:Cont_1.208:44640:46029:-1 ge...    27   9.5  
+
+>UM04055P0 pep:known supercontig:UM1:Cont_1.141:20235:22118:-1 gene:UM04055
+           transcript:UM04055T0 description:"hypothetical protein"
+          Length = 627
+
+ Score =  108 bits (271), Expect = 3e-25,   Method: Compositional matrix adjust.
+ Identities = 67/229 (29%), Positives = 109/229 (47%), Gaps = 10/229 (4%)
+
+Query: 4   DTEVIVKDFNSILEELTFNSRPIITTLTKLAEENIS-CAQYFVDAIESRIEKCMPKQKLY 62
+           D  V    +NS L+ LTFNS+PIIT LT +A ++ +  +      ++  I +  P  +L 
+Sbjct: 32  DPGVFATMYNSHLKSLTFNSKPIITNLTVIAHDHAARMSAVVAKCLDDHIMQSHPSIRLP 91
+
+Query: 63  AFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGLPL 122
+           A Y LDSI KNVG PYT  +S  +  ++  +Y LVD  T+ ++  +   W        PL
+Sbjct: 92  ALYTLDSISKNVGHPYTQLWSARIVPIFLESYRLVDQPTKLRMEELLATWKTAGPGARPL 151
+
+Query: 123 FEGSALEKIEQFLIKASALHQKNLQAMLPTPTVPL---------LLRDIDKLTCLTSERL 173
+           F  +A   IE+ L  +  + Q N          P           +  ID+L  +  + L
+Sbjct: 152 FGDNAQWSIERALFGSQGMPQPNAAPSTAAVADPRANAARSKSKAVETIDRLLAVDGQSL 211
+
+Query: 174 KNQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQ 222
+              P+D+ L  ++  L+QLKQ +    L+ + + Q+  QL  + +  Q+
+Sbjct: 212 AANPSDQALHERVDSLAQLKQVILTADLSADEMAQIHAQLDSLSAAAQR 260
+
+
+
+ Score = 64.3 bits (155), Expect = 4e-11,   Method: Compositional matrix adjust.
+ Identities = 52/210 (24%), Positives = 87/210 (41%), Gaps = 43/210 (20%)
+
+Query: 412 LLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTT 471
+           +L+R  P +C  C  R+      +   ++HLDWHF  N R K   ++A  G         
+Sbjct: 399 ILHRHLPLQCRQCANRYPTGSKGQGRMDDHLDWHFTQNRRAK---DSAARG--------- 446
+
+Query: 472 TTRKNIQSRNWYLSDSQWAAFKDDEITS-TKHKNDYTDPHANKNIDKSALNIHADENDEG 530
+                 QSR+W+           D + S  +   D T P +      +A        D  
+Sbjct: 447 ------QSRSWF-----------DRLESFIRGGFDDTAPASKPTSSNAA--------DRD 481
+
+Query: 531 SVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIEV 590
+               T   D++ +      +V+ P  ++  A  C ICKE     + E+  E+VW N I+V
+Sbjct: 482 GRSFTAAQDKALKETFLKTFVIAPTDAEVAAKPCGICKEPFKSQWSEDEEEFVWLNAIKV 541
+
+Query: 591 NGK----YFHSTCYHETSQNSSKSNSGKVG 616
+                  Y+H++C H ++++ + S +G  G
+Sbjct: 542 EDASGVVYYHASC-HFSAKSLTDSFAGDGG 570
+
+
+>UM00070P0 pep:known supercontig:UM1:Cont_1.2:141169:143373:-1 gene:UM00070
+           transcript:UM00070T0 description:"hypothetical protein"
+          Length = 717
+
+ Score = 32.7 bits (73), Expect = 0.26,   Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 41/86 (47%), Gaps = 13/86 (15%)
+
+Query: 302 FQEIEKKKSLNKINNLYASLKAEGLIYTP---------PKESIVTLYKKLNGHSNYSLDS 352
+           FQ I     L    N+Y+   A   I+ P         P E+I +L+ +   H+  SLDS
+Sbjct: 72  FQFIVIPACLLVCFNVYSPPSAT--IFPPRRPDSQDKTPSEAISSLFSR--SHATASLDS 127
+
+Query: 353 HEKQLMKNLPKIPLLNDILSDCKAYF 378
+            + QL+++L     L+ I+S   A+F
+Sbjct: 128 LDSQLLQSLTGFNSLDRIVSASVAFF 153
+
+
+>UM02301P0 pep:known supercontig:UM1:Cont_1.80:126123:128066:-1 gene:UM02301
+           transcript:UM02301T0 description:"hypothetical protein"
+          Length = 647
+
+ Score = 32.0 bits (71), Expect = 0.40,   Method: Compositional matrix adjust.
+ Identities = 17/33 (51%), Positives = 20/33 (60%), Gaps = 6/33 (18%)
+
+Query: 417 KPNKCSV--CGKRFGNSESEKLLQNEHLDWHFR 447
+           +P+KC V  CGK FG   S+ L Q  HL  HFR
+Sbjct: 515 RPHKCPVETCGKHFG--RSDNLAQ--HLKTHFR 543
+
+
+>UM05469P0 pep:known supercontig:UM1:Cont_1.197:23407:26110:1 gene:UM05469
+           transcript:UM05469T0 description:"hypothetical protein"
+          Length = 892
+
+ Score = 30.0 bits (66), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 21/35 (60%)
+
+Query: 461 TGISNSNLNTTTTRKNIQSRNWYLSDSQWAAFKDD 495
+           T ++ S+LNTTT  + I      LS++ W +F DD
+Sbjct: 601 TALATSSLNTTTLHEQINKCKRLLSNASWNSFADD 635
+
+
+>UM02587P0 pep:known supercontig:UM1:Cont_1.86:102366:106631:-1 gene:UM02587
+           transcript:UM02587T0 description:"Fuz1"
+          Length = 1421
+
+ Score = 28.5 bits (62), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 19/37 (51%), Gaps = 1/37 (2%)
+
+Query: 475 KNIQSRNWYLSDSQWAAFKDDEITS-TKHKNDYTDPH 510
+           K  QS+ W +    W + K DE  +  K ++  TDPH
+Sbjct: 774 KQCQSKGWQMGHRYWCSAKADEGDAKEKERDKPTDPH 810
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 4,235,209
+Number of extensions: 164672
+Number of successful extensions: 406
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 402
+Number of HSP's successfully gapped: 12
+Length of query: 626
+Length of database: 3,993,690
+Length adjustment: 98
+Effective length of query: 528
+Effective length of database: 3,354,534
+Effective search space: 1771193952
+Effective search space used: 1771193952
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

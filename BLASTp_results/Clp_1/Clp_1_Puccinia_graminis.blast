@@ -1,0 +1,165 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP92365 pep:novel supercontig:ASM14992v1:supercont2.102:72534:7...   107   1e-25
+EFP92361 pep:novel supercontig:ASM14992v1:supercont2.102:61460:6...    37   0.008
+EHS64521 pep:novel supercontig:ASM14992v1:supercont2.7:1602566:1...    28   3.1  
+EFP89991 pep:novel supercontig:ASM14992v1:supercont2.66:351923:3...    28   3.2  
+EFP87502 pep:novel supercontig:ASM14992v1:supercont2.46:56804:57...    28   4.8  
+
+>EFP92365 pep:novel supercontig:ASM14992v1:supercont2.102:72534:74447:1
+           gene:PGTG_18352 transcript:EFP92365
+           description:"hypothetical protein"
+          Length = 459
+
+ Score =  107 bits (268), Expect = 1e-25,   Method: Compositional matrix adjust.
+ Identities = 98/401 (24%), Positives = 162/401 (40%), Gaps = 77/401 (19%)
+
+Query: 17  ITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIY 76
+           +T  +      +P   +++ +L     + +K+ SG  EI G EL    EYTF +      
+Sbjct: 1   MTQSSSCRPFSLPALHEYRFELDPGESITIKLVSGTAEISGFELTSGQEYTFGD------ 54
+
+Query: 77  AVEETELLWKCPDL----TTNTITVKPNHTMKYIYNLHFMLEKIRMSNF----------- 121
+            +      W   DL      +T  V    T+     LH  LE+ R+ +            
+Sbjct: 55  EIRSAIFSWHGADLEISRKASTEYVAEESTVPAYMALHLALERARLGSVAPKHFVPHVEP 114
+
+Query: 122 -----------------EGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQP-----LYIN 159
+                             GP V+++G   +GK++L +TL ++A+K    +      L +N
+Sbjct: 115 PPRLQVSSDAQEPDEEKHGPHVMVIGSLASGKSTLIKTLANWAVKSGRTKVEGPGLLLVN 174
+
+Query: 160 LDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKN---------- 209
+           L+P    +TVPG  S  P    L+  +PT    L  G+T      P   N          
+Sbjct: 175 LNPNDGGWTVPGTFSVAP----LNVSIPTTTPVLPFGSTPTTGPAPSTPNPALFAPSLNA 230
+
+Query: 210 ----FGLERINENKDLYLECISQLGQVVGQRLHLDPQVR--RSGCIVDTPSISQLDENLA 263
+               +G  + + N  L    I ++G  +  R+    +    R G ++DTP+         
+Sbjct: 231 LSFFYGHTQFSRNTGLAEVLIKRVGSALETRIEKSGETALWRGGLLIDTPAEFSEKAKGG 290
+
+Query: 264 ELHHIIEKLNVNIMLVLCSETDPL----WEKVKKTFGPELGNNNIFFIPKLDGVSAVDDV 319
+            +  ++  L VNI++V+ +E   L       + KT         +  +PK  G + +D  
+Sbjct: 291 LVKSVVRALGVNILVVIGNEKLHLEISKLMSINKTV-------QVVRVPKNGGATDLDIT 343
+
+Query: 320 YKRSLQRTSIREYFYGSLDTA---LSPYAIGVDYEDLTIWK 357
+           Y+R L+   IR YFYG    +   LSP+ I V +EDLTI++
+Sbjct: 344 YRRRLESNQIRSYFYGGPALSQGQLSPFTIVVKFEDLTIYR 384
+
+
+>EFP92361 pep:novel supercontig:ASM14992v1:supercont2.102:61460:62384:1
+           gene:PGTG_18348 transcript:EFP92361
+           description:"hypothetical protein"
+          Length = 181
+
+ Score = 36.6 bits (83), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 43/82 (52%), Gaps = 7/82 (8%)
+
+Query: 130 GGSQTGKTSLSRTLCSYALKFNAYQP-----LYINLDPQQPIFTVPGCISATPISDILDA 184
+           G   +GK++L +TL ++A+K    +      L +NL+P    +TVPG  S  P+  ++  
+Sbjct: 65  GSLASGKSTLIKTLATWAVKSGRTKVKGPGLLLVNLNPNDVGWTVPGTFSVAPLDVLIPT 124
+
+Query: 185 QLPT--WGQSLTSGATLLHNKQ 204
+             P   +G + T+G++   N +
+Sbjct: 125 TTPVLPFGSTPTTGSSTATNGE 146
+
+
+>EHS64521 pep:novel supercontig:ASM14992v1:supercont2.7:1602566:1603414:-1
+           gene:PGTG_20983 transcript:EHS64521
+           description:"hypothetical protein"
+          Length = 140
+
+ Score = 28.1 bits (61), Expect = 3.1,   Method: Composition-based stats.
+ Identities = 16/45 (35%), Positives = 27/45 (60%), Gaps = 1/45 (2%)
+
+Query: 235 QRLHLDPQVRRSGCIVDTPSI-SQLDENLAELHHIIEKLNVNIML 278
+           Q LHLD Q+ + G  V+   I  +L+EN  ++ H++  LN + +L
+Sbjct: 80  QLLHLDHQLTQRGLEVEQRKIGDRLEENRRKIDHLLRALNQSSLL 124
+
+
+>EFP89991 pep:novel supercontig:ASM14992v1:supercont2.66:351923:352740:-1
+           gene:PGTG_16279 transcript:EFP89991
+           description:"hypothetical protein"
+          Length = 140
+
+ Score = 28.1 bits (61), Expect = 3.2,   Method: Composition-based stats.
+ Identities = 16/45 (35%), Positives = 27/45 (60%), Gaps = 1/45 (2%)
+
+Query: 235 QRLHLDPQVRRSGCIVDTPSI-SQLDENLAELHHIIEKLNVNIML 278
+           Q LHLD Q+ + G  V+   I  +L+EN  ++ H++  LN + +L
+Sbjct: 80  QLLHLDHQLTQRGLDVEQRKIGDRLEENRRKIDHLLRALNQSSLL 124
+
+
+>EFP87502 pep:novel supercontig:ASM14992v1:supercont2.46:56804:57400:1
+           gene:PGTG_13873 transcript:EFP87502
+           description:"hypothetical protein"
+          Length = 173
+
+ Score = 27.7 bits (60), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 17/33 (51%)
+
+Query: 340 ALSPYAIGVDYEDLTIWKPSNVFDNEVGRVELF 372
+           A SPY +G D +   I KP        G+VE+F
+Sbjct: 28  AGSPYVLGADGKFSAIEKPQGTLKYYFGKVEVF 60
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 5,464,089
+Number of extensions: 233012
+Number of successful extensions: 545
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 541
+Number of HSP's successfully gapped: 9
+Length of query: 445
+Length of database: 6,308,381
+Length adjustment: 98
+Effective length of query: 347
+Effective length of database: 4,742,439
+Effective search space: 1645626333
+Effective search space used: 1645626333
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,999 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM02881P0 pep:known supercontig:UM1:Cont_1.98:74640:75851:1 gene...    87   1e-19
+UM06193P0 pep:known supercontig:UM1:Cont_1.234:80176:81603:1 gen...    61   7e-11
+UM00164P0 pep:known supercontig:UM1:Cont_1.2:377722:379644:-1 ge...    54   1e-08
+UM01325P0 pep:known supercontig:UM1:Cont_1.46:158886:160263:1 ge...    51   1e-07
+UM03939P0 pep:known supercontig:UM1:Cont_1.136:31898:32965:1 gen...    47   1e-06
+UM02994P0 pep:known supercontig:UM1:Cont_1.101:247488:249873:1 g...    46   5e-06
+UM05363P0 pep:known supercontig:UM1:Cont_1.192:99068:101251:-1 g...    46   6e-06
+UM02420P0 pep:known supercontig:UM1:Cont_1.83:220392:222943:-1 g...    44   3e-05
+UM04679P0 pep:known supercontig:UM1:Cont_1.170:30196:31080:-1 ge...    42   5e-05
+UM00516P0 pep:known supercontig:UM1:Cont_1.11:57851:61084:-1 gen...    43   6e-05
+UM02552P0 pep:known supercontig:UM1:Cont_1.85:28071:32081:-1 gen...    43   7e-05
+UM01182P0 pep:known supercontig:UM1:Cont_1.42:71636:73030:1 gene...    42   8e-05
+UM02412P0 pep:known supercontig:UM1:Cont_1.83:201003:202103:1 ge...    41   9e-05
+UM04717P0 pep:known supercontig:UM1:Cont_1.172:26368:27562:1 gen...    42   1e-04
+UM04861P0 pep:known supercontig:UM1:Cont_1.177:22612:23333:-1 ge...    41   1e-04
+UM02401P0 pep:known supercontig:UM1:Cont_1.83:168764:169378:1 ge...    40   2e-04
+UM02346P0 pep:known supercontig:UM1:Cont_1.83:15420:18256:1 gene...    41   2e-04
+UM02609P0 pep:known supercontig:UM1:Cont_1.86:175280:175645:1 ge...    39   3e-04
+UM03494P0 pep:known supercontig:UM1:Cont_1.117:24758:26713:1 gen...    40   6e-04
+UM00268P0 pep:known supercontig:UM1:Cont_1.4:73883:80272:-1 gene...    39   9e-04
+UM03084P0 pep:known supercontig:UM1:Cont_1.103:205105:207221:-1 ...    39   0.001
+UM04149P0 pep:known supercontig:UM1:Cont_1.148:37208:37894:-1 ge...    38   0.001
+UM03952P0 pep:known supercontig:UM1:Cont_1.136:77985:78911:-1 ge...    38   0.002
+UM00807P0 pep:known supercontig:UM1:Cont_1.26:4768:5807:-1 gene:...    38   0.002
+UM05650P0 pep:known supercontig:UM1:Cont_1.206:54784:57334:-1 ge...    38   0.002
+UM04398P0 pep:known supercontig:UM1:Cont_1.157:26185:28299:-1 ge...    37   0.004
+UM04775P0 pep:known supercontig:UM1:Cont_1.174:14133:15161:-1 ge...    37   0.004
+UM04564P0 pep:known supercontig:UM1:Cont_1.164:25131:27907:1 gen...    37   0.005
+UM03771P0 pep:known supercontig:UM1:Cont_1.126:62611:64827:-1 ge...    35   0.015
+UM04299P0 pep:known supercontig:UM1:Cont_1.150:237190:239427:1 g...    35   0.023
+UM03885P0 pep:known supercontig:UM1:Cont_1.132:49150:50611:1 gen...    34   0.030
+UM01271P0 pep:known supercontig:UM1:Cont_1.46:13117:16296:1 gene...    34   0.038
+UM01265P0 pep:known supercontig:UM1:Cont_1.45:34122:35015:-1 gen...    33   0.044
+UM04269P0 pep:known supercontig:UM1:Cont_1.150:154150:155403:1 g...    33   0.045
+UM05585P0 pep:known supercontig:UM1:Cont_1.203:59112:60023:-1 ge...    33   0.076
+UM03490P0 pep:known supercontig:UM1:Cont_1.117:5563:15822:-1 gen...    33   0.11 
+UM04835P0 pep:known supercontig:UM1:Cont_1.175:168788:171793:-1 ...    32   0.13 
+UM05172P0 pep:known supercontig:UM1:Cont_1.188:278425:282346:1 g...    32   0.19 
+UM02564P0 pep:known supercontig:UM1:Cont_1.86:20852:21982:-1 gen...    30   0.42 
+UM06183P0 pep:known supercontig:UM1:Cont_1.234:49016:50773:1 gen...    30   0.85 
+UM01000P0 pep:known supercontig:UM1:Cont_1.34:72086:73354:1 gene...    29   1.4  
+UM03311P0 pep:known supercontig:UM1:Cont_1.112:116755:120505:-1 ...    28   2.5  
+UM02472P0 pep:known supercontig:UM1:Cont_1.83:396083:397999:1 ge...    28   3.2  
+UM02469P0 pep:known supercontig:UM1:Cont_1.83:387207:388055:-1 g...    27   4.5  
+UM06090P0 pep:known supercontig:UM1:Cont_1.228:60219:61964:1 gen...    26   8.7  
+UM04363P0 pep:known supercontig:UM1:Cont_1.154:99225:102075:1 ge...    27   8.8  
+
+>UM02881P0 pep:known supercontig:UM1:Cont_1.98:74640:75851:1 gene:UM02881
+          transcript:UM02881T0 description:"hypothetical protein"
+          Length = 403
+
+ Score = 86.7 bits (213), Expect = 1e-19,   Method: Compositional matrix adjust.
+ Identities = 41/86 (47%), Positives = 60/86 (69%), Gaps = 2/86 (2%)
+
+Query: 9  AGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+          AG Q    SRVV++G+IPYD +EEQ+ D+   VG V+  +++ D +TG+ KGY F EF D
+Sbjct: 2  AGAQRG--SRVVFVGNIPYDMSEEQLTDVFREVGKVVGFRLVNDRETGKFKGYGFCEFED 59
+
+Query: 69 LESSASAVRNLNGYQLGSRFLKCGYS 94
+           E++ASAVRNLN  ++G R L+  ++
+Sbjct: 60 PETAASAVRNLNEVEVGGRPLRISFA 85
+
+
+>UM06193P0 pep:known supercontig:UM1:Cont_1.234:80176:81603:1 gene:UM06193
+           transcript:UM06193T0 description:"hypothetical protein"
+          Length = 475
+
+ Score = 60.8 bits (146), Expect = 7e-11,   Method: Compositional matrix adjust.
+ Identities = 26/87 (29%), Positives = 52/87 (59%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           Q + PS  +++G++ +D +E+ + +  S  G V  +++  DP +GR KG+ ++EF   ES
+Sbjct: 306 QRSAPSSTLFIGNLSFDVSEDDVWNAFSEHGEVSGVRLPKDPDSGRPKGFGYVEFAAQES 365
+
+Query: 72  SASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           + +A+  + G +L  R L+  +S+  D
+Sbjct: 366 AQAAIDAMTGQELAGRPLRLDFSTPRD 392
+
+
+
+ Score = 28.9 bits (63), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 12/76 (15%), Positives = 37/76 (48%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G + ++   + +       G V + ++  D  +G+S+G+ +++F    ++  A    
+Sbjct: 215 IWVGQLSWNVDNDWLKSEMEVFGEVTSARVQLDRTSGKSRGFGYVDFATAAAAKKAFDEG 274
+
+Query: 80  NGYQLGSRFLKCGYSS 95
+            G ++  R ++   S+
+Sbjct: 275 QGKEVDGRAIRIDLST 290
+
+
+>UM00164P0 pep:known supercontig:UM1:Cont_1.2:377722:379644:-1 gene:UM00164
+           transcript:UM00164T0 description:"hypothetical protein"
+          Length = 640
+
+ Score = 54.3 bits (129), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 44/73 (60%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+GS+ +  T+E +  +    G +  + +  +P+TG+SKG+ FI+F+  E +  A+  +
+Sbjct: 404 LYVGSLHFSLTDEAVKTVFEPFGEIEYVDLHREPETGKSKGFCFIQFKKAEDAKKALEQM 463
+
+Query: 80  NGYQLGSRFLKCG 92
+           NG+ L  R ++ G
+Sbjct: 464 NGFVLADRAIRVG 476
+
+
+>UM01325P0 pep:known supercontig:UM1:Cont_1.46:158886:160263:1 gene:UM01325
+           transcript:UM01325T0 description:"hypothetical protein"
+          Length = 397
+
+ Score = 50.8 bits (120), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 22/67 (32%), Positives = 41/67 (61%)
+
+Query: 30  TEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           TE+ +      + PV  + +++D +TGRS+G+ FI  RD+E +++A+  LNG  L  R +
+Sbjct: 198 TEKDLEYEFDAIAPVEKVVIVYDARTGRSRGFGFITMRDVEGASAAIEALNGKDLHGRRV 257
+
+Query: 90  KCGYSSN 96
+           +  +S+ 
+Sbjct: 258 RVDFSTT 264
+
+
+>UM03939P0 pep:known supercontig:UM1:Cont_1.136:31898:32965:1 gene:UM03939
+           transcript:UM03939T0 description:"hypothetical protein"
+          Length = 355
+
+ Score = 47.4 bits (111), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 26/87 (29%), Positives = 43/87 (49%), Gaps = 1/87 (1%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           N  P  V+Y+G +P    E+Q+    +  G V  L++  + +TG SK YAFIEF D + +
+Sbjct: 172 NTKPG-VLYIGRLPKGFFEKQLKSYFTQFGQVTRLRVSRNKKTGASKHYAFIEFADRDVA 230
+
+Query: 73  ASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+                 ++ Y +  R L+    S   +
+Sbjct: 231 KIVQETMHNYLIDGRLLQVKEVSQDKV 257
+
+
+>UM02994P0 pep:known supercontig:UM1:Cont_1.101:247488:249873:1 gene:UM02994
+           transcript:UM02994T0 description:"hypothetical protein"
+          Length = 703
+
+ Score = 46.2 bits (108), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 24/76 (31%), Positives = 40/76 (52%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY+  +P +  +  +  L S  G VI+ K M D QTG  KG+ F+ +   E +  A++ L
+Sbjct: 231 VYVNGLPEEMNDHMLYLLGSACGVVISHKSMLDRQTGLCKGFGFLMYASSEMAKKAIQWL 290
+
+Query: 80  NGYQLGSRFLKCGYSS 95
+           N +   + F K  +S+
+Sbjct: 291 NSHGFFASFAKESFSA 306
+
+
+
+ Score = 35.4 bits (80), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 35/65 (53%), Gaps = 2/65 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VYL ++P   T +Q+  L +   P+ +LK+++D   G S+G  F+   D  ++   +  L
+Sbjct: 319 VYLSNLPLKFTTQQLEQLFAPY-PIASLKILYDVH-GESRGVGFVRVYDRATAKECIDRL 376
+
+Query: 80  NGYQL 84
+           +G  L
+Sbjct: 377 HGRML 381
+
+
+>UM05363P0 pep:known supercontig:UM1:Cont_1.192:99068:101251:-1 gene:UM05363
+           transcript:UM05363T0 description:"hypothetical protein"
+          Length = 727
+
+ Score = 45.8 bits (107), Expect = 6e-06,   Method: Compositional matrix adjust.
+ Identities = 23/70 (32%), Positives = 40/70 (57%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +P    ++Q+++L    G +    ++ D  TG SKG+AF E+ D   +  A + L
+Sbjct: 464 IFVGGLPTYLNDDQVIELLQAFGELRAFNLVKDTGTGASKGFAFCEYVDPALTDLACQGL 523
+
+Query: 80  NGYQLGSRFL 89
+           NG +LG R L
+Sbjct: 524 NGMELGDRNL 533
+
+
+
+ Score = 33.9 bits (76), Expect = 0.042,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 37/70 (52%), Gaps = 9/70 (12%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDP-------QTGRSKGYAFIEF 66
+           N  +R +Y+G+I +   E+ I+   +    ++ LK+  +P       Q    KGYAF+EF
+Sbjct: 349 NRQARRLYVGNITHQANEQNIVAFFNEQ--MLKLKLGTEPGEPAVSAQVNVDKGYAFVEF 406
+
+Query: 67  RDLESSASAV 76
+           R  E + +A+
+Sbjct: 407 RHPEEATNAM 416
+
+
+
+ Score = 28.1 bits (61), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 11/39 (28%), Positives = 19/39 (48%)
+
+Query: 60  GYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           G  ++ + + E  A A+R + G Q G R + C +    D
+Sbjct: 664 GRVYVRYGETEHCAQALRAIAGRQFGGRTVICAFLREDD 702
+
+
+>UM02420P0 pep:known supercontig:UM1:Cont_1.83:220392:222943:-1 gene:UM02420
+           transcript:UM02420T0 description:"hypothetical protein"
+          Length = 588
+
+ Score = 43.9 bits (102), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 25/79 (31%), Positives = 38/79 (48%), Gaps = 12/79 (15%)
+
+Query: 2   NRQSGVNAGVQNN------------PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKM 49
+           +R  G NAG +              P    +++G + +D TE+ +    S  G V N  +
+Sbjct: 141 DRGEGQNAGTERQGLDNRSAMPHEMPEEGKMFIGGLNWDTTEDSLRRYFSQFGEVGNCAI 200
+
+Query: 50  MFDPQTGRSKGYAFIEFRD 68
+           M D  TGRS+G+AF+ F D
+Sbjct: 201 MRDNMTGRSRGFAFLNFVD 219
+
+
+
+ Score = 29.6 bits (65), Expect = 0.81,   Method: Compositional matrix adjust.
+ Identities = 13/55 (23%), Positives = 26/55 (47%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           S+ +++G +P   T           G + +   M D +TG+ +G+ F+ + D  S
+Sbjct: 277 SQKLFVGGLPPSVTPATFRTFFEQFGTLSDCTCMMDRETGKPRGFGFLTYADDSS 331
+
+
+>UM04679P0 pep:known supercontig:UM1:Cont_1.170:30196:31080:-1 gene:UM04679
+           transcript:UM04679T0 description:"hypothetical protein"
+          Length = 294
+
+ Score = 42.4 bits (98), Expect = 5e-05,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 43/80 (53%), Gaps = 1/80 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINL-KMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +++GS+     E  + +  S  G +I L K+  DP +G  KG+AF+ F   E++ +A+  
+Sbjct: 102 LFVGSLDPAVDERLLYETFSAFGGIIGLPKIARDPTSGEPKGFAFVSFDSFEAADAAIEA 161
+
+Query: 79  LNGYQLGSRFLKCGYSSNSD 98
+           LNG  L ++ +   Y+   D
+Sbjct: 162 LNGQFLLNKNITVDYAIKKD 181
+
+
+
+ Score = 42.0 bits (97), Expect = 7e-05,   Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 41/78 (52%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            Y+G+I     +  + +L    GP++NL +  D  T   +GYAF EF+  + +  A + 
+Sbjct: 14 TCYIGNIDDRANDAIVWELMIQAGPLVNLHLPKDRITQSHQGYAFAEFQTEQDADYACKV 73
+
+Query: 79 LNGYQLGSRFLKCGYSSN 96
+          +NG +L  + ++   +SN
+Sbjct: 74 MNGLKLYGKPIRVNKASN 91
+
+
+>UM00516P0 pep:known supercontig:UM1:Cont_1.11:57851:61084:-1 gene:UM00516
+           transcript:UM00516T0 description:"hypothetical protein"
+          Length = 1077
+
+ Score = 42.7 bits (99), Expect = 6e-05,   Method: Compositional matrix adjust.
+ Identities = 26/99 (26%), Positives = 47/99 (47%), Gaps = 11/99 (11%)
+
+Query: 2   NRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGY 61
+           N +S VNA          +++  +PY  T   +  + S +GP+    ++ D  T +SKG 
+Sbjct: 41  NTKSKVNA---------TLFVSRLPYTATTTDLQTMFSEIGPLKRAFVVTDQATKKSKGV 91
+
+Query: 62  AFIEFRDLESSASAVRNLNGYQL--GSRFLKCGYSSNSD 98
+            ++ F   E + +A+  L G  L  GSR ++  ++   D
+Sbjct: 92  GYVTFAIPEDATTALEQLQGKSLDGGSRKIQITFADQKD 130
+
+
+
+ Score = 42.0 bits (97), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 19/58 (32%), Positives = 34/58 (58%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+            +++ ++PY  TEE++ +L  + GP+   K+  D  T RSKG  F+ F    S+ +A+
+Sbjct: 610 TLFVRNLPYQATEEELRNLFRSFGPLRYAKITMDKTTNRSKGTGFVCFWQASSADAAL 667
+
+
+>UM02552P0 pep:known supercontig:UM1:Cont_1.85:28071:32081:-1 gene:UM02552
+           transcript:UM02552T0 description:"hypothetical protein"
+          Length = 1336
+
+ Score = 42.7 bits (99), Expect = 7e-05,   Method: Compositional matrix adjust.
+ Identities = 22/76 (28%), Positives = 40/76 (52%), Gaps = 1/76 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           RV+++G++P+    + + DL    G +    +   P  GRS+G+  + F   E + +AVR
+Sbjct: 632 RVLFVGNLPFHCQWQDLKDLFRAAGNIQRADVAIGPD-GRSRGFGTVLFASQEDAQNAVR 690
+
+Query: 78  NLNGYQLGSRFLKCGY 93
+             +GY+   R LK  +
+Sbjct: 691 LYHGYEYSGRTLKVHF 706
+
+
+>UM01182P0 pep:known supercontig:UM1:Cont_1.42:71636:73030:1 gene:UM01182
+           transcript:UM01182T0 description:"hypothetical protein"
+          Length = 464
+
+ Score = 42.0 bits (97), Expect = 8e-05,   Method: Compositional matrix adjust.
+ Identities = 20/94 (21%), Positives = 48/94 (51%), Gaps = 5/94 (5%)
+
+Query: 1   MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+           ++R  G+ +GV ++     +++G +  D  +  +    S    + ++++M+D  TG+S+G
+Sbjct: 119 VDRPVGMRSGVHSH-----LFVGDLSPDVDDALLQSFFSRFTSLADVRVMYDAATGKSRG 173
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+           + FI FR  + +   +    G  L  R ++  ++
+Sbjct: 174 FGFINFRSKQDADDCIATCQGQWLRGRQIRVNWA 207
+
+
+
+ Score = 37.4 bits (85), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 18/84 (21%), Positives = 44/84 (52%), Gaps = 1/84 (1%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+            P   +V++ ++P   TE  + ++  ++G + + +++     G    Y F+E+ D+ S+ 
+Sbjct: 25  TPIRALVHVANLPATTTERALREMFGSLGQMQSARVVASRSAG-GLAYGFVEYVDVASAE 83
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYSSNS 97
+            A+R +NG+      +K  ++ +S
+Sbjct: 84  RAIRTMNGWVWFGTPIKVCWAKHS 107
+
+
+
+ Score = 33.1 bits (74), Expect = 0.061,   Method: Compositional matrix adjust.
+ Identities = 21/79 (26%), Positives = 40/79 (50%), Gaps = 6/79 (7%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY+G+I    +++ ++ + S      +L+    P     +GY F+     E +ASA+  L
+Sbjct: 318 VYVGNISPLTSQQDLVRIFSPFAHGHHLEARIPP----GRGYGFVTLNTHEQAASAICTL 373
+
+Query: 80  N--GYQLGSRFLKCGYSSN 96
+           +  G  + SR+L+ G+  N
+Sbjct: 374 SIQGVFMHSRWLRFGWQKN 392
+
+
+>UM02412P0 pep:known supercontig:UM1:Cont_1.83:201003:202103:1 gene:UM02412
+          transcript:UM02412T0 description:"hypothetical protein"
+          Length = 192
+
+ Score = 41.2 bits (95), Expect = 9e-05,   Method: Compositional matrix adjust.
+ Identities = 20/72 (27%), Positives = 41/72 (56%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+G++ ++ T++ +    S  G + +  +M D +TGRS+G+ F+ F     + +A+  L
+Sbjct: 5  VYVGNLSWNTTDDSLAHAFSTYGQLTDYIVMKDRETGRSRGFGFVTFATQAEADAAIAAL 64
+
+Query: 80 NGYQLGSRFLKC 91
+          N  +L  R ++ 
+Sbjct: 65 NEQELDGRRIRV 76
+
+
+>UM04717P0 pep:known supercontig:UM1:Cont_1.172:26368:27562:1 gene:UM04717
+           transcript:UM04717T0 description:"hypothetical protein"
+          Length = 385
+
+ Score = 41.6 bits (96), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 24/103 (23%), Positives = 47/103 (45%), Gaps = 29/103 (28%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKM-MFDPQT----------------------- 55
+           +++G +PYD TE  ++ + S  G V+++ +   +P +                       
+Sbjct: 36  IFIGGLPYDLTEGDVVTIFSQYGEVVDVNLPRANPTSTCTHANNNDNDDRNRAASSSQQS 95
+
+Query: 56  -----GRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+                G+ +G+ F+ ++D  S+  AV NLNG Q+  R L+  +
+Sbjct: 96  KPLAKGKHRGFGFLMYQDQRSTVLAVDNLNGAQVLGRTLRVDH 138
+
+
+>UM04861P0 pep:known supercontig:UM1:Cont_1.177:22612:23333:-1 gene:UM04861
+           transcript:UM04861T0 description:"hypothetical protein"
+          Length = 211
+
+ Score = 40.8 bits (94), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 40/79 (50%), Gaps = 6/79 (7%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNV------GPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+            +YLG++ +  TEEQI ++   V      G +  + M  D  T    G+AF+EF     +
+Sbjct: 35  TLYLGNLSFYTTEEQIYEVFGRVSSVSTGGGIKRIIMGLDRNTKTPCGFAFVEFYTHAEA 94
+
+Query: 73  ASAVRNLNGYQLGSRFLKC 91
+              +R ++G ++  R ++C
+Sbjct: 95  VDCMRYVSGSKVDERVIRC 113
+
+
+>UM02401P0 pep:known supercontig:UM1:Cont_1.83:168764:169378:1 gene:UM02401
+           transcript:UM02401T0 description:"hypothetical protein"
+          Length = 204
+
+ Score = 40.4 bits (93), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 30/50 (60%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           SR +Y+G++ Y  T E++     + G +  + ++ D  TG  KG+A++EF
+Sbjct: 94  SRSIYVGNVDYGATPEEVQQHFQSCGTINRVTILCDKFTGHPKGFAYVEF 143
+
+
+>UM02346P0 pep:known supercontig:UM1:Cont_1.83:15420:18256:1 gene:UM02346
+           transcript:UM02346T0 description:"Multiple RNA-binding
+           domain-containing protein 1"
+          Length = 858
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 39/79 (49%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++P+  + ++IL    + G V  + +  D QT  SKG AF+ F D   + +A R  
+Sbjct: 316 LFIRNLPFAASGDEILAFFESFGTVKQVHIPLDKQTKASKGLAFVSFSDPAHALAAYRAK 375
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+           +G     R L    + N D
+Sbjct: 376 DGSTFQGRLLHLLPAVNKD 394
+
+
+
+ Score = 35.4 bits (80), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 39/77 (50%), Gaps = 5/77 (6%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPV--INLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           + + ++P++ T+  I DL S+ G +  + L   FD  T   +G+ F+E+  +  + SA+ 
+Sbjct: 721 ILIKNLPFEATKRDIRDLFSSQGQLKSVRLPKKFDNTT---RGFGFVEYSTVREAQSAME 777
+
+Query: 78  NLNGYQLGSRFLKCGYS 94
+            L    L  R L   +S
+Sbjct: 778 ALKHTHLLGRHLVLQWS 794
+
+
+>UM02609P0 pep:known supercontig:UM1:Cont_1.86:175280:175645:1 gene:UM02609
+          transcript:UM02609T0 description:"hypothetical protein"
+          Length = 121
+
+ Score = 38.5 bits (88), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 22/94 (23%), Positives = 48/94 (51%), Gaps = 6/94 (6%)
+
+Query: 1  MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+          M  QS + A  Q+   SR++++ ++ Y+ T   +  +    G +  +++     TG +KG
+Sbjct: 1  MASQSSIGAARQH---SRILFVKNLNYNTTGADLYQVFGRYGAIRQIRL--GDATG-TKG 54
+
+Query: 61 YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+           A++ + ++     A+ +LNG+ L  R++   Y 
+Sbjct: 55 TAYVVYEEMADVKRALDHLNGFHLNERYIVVLYH 88
+
+
+>UM03494P0 pep:known supercontig:UM1:Cont_1.117:24758:26713:1 gene:UM03494
+           transcript:UM03494T0 description:"Polyadenylate-binding
+           protein, cytoplasmic and nuclear"
+          Length = 651
+
+ Score = 39.7 bits (91), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 22/80 (27%), Positives = 42/80 (52%), Gaps = 1/80 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +YL +IP    +E++ +  +  G + + K+M  P +G S+G+ F+ +   E +  AV  +
+Sbjct: 332 LYLKNIPESYDDERLREEFAPFGAITSCKIMRAP-SGVSRGFGFVCYSAPEEANKAVSEM 390
+
+Query: 80  NGYQLGSRFLKCGYSSNSDI 99
+           NG  L +R L    +   D+
+Sbjct: 391 NGKMLDNRPLYVALAQRKDV 410
+
+
+
+ Score = 37.0 bits (84), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 37/73 (50%), Gaps = 3/73 (4%)
+
+Query: 8   NAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFR 67
+           NA   NN     +Y+G +    TE  + ++ S +G V ++++  D  T RS GYA++ F 
+Sbjct: 40  NADAANN---TSLYVGELDPSVTEAMLFEIFSMIGTVASIRVCRDAVTRRSLGYAYVNFL 96
+
+Query: 68  DLESSASAVRNLN 80
+           +      A+  LN
+Sbjct: 97  NAADGERAMEQLN 109
+
+
+
+ Score = 31.2 bits (69), Expect = 0.31,   Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 32/61 (52%), Gaps = 1/61 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY  ++  + T+++   L +  G + +  +  D + G+SKG+ F+ F D   +  AV  L
+Sbjct: 229 VYAKNVDPEVTDDEFEKLFTKFGKITSCVLQRD-EDGKSKGFGFVNFEDHNEAQKAVDEL 287
+
+Query: 80  N 80
+           +
+Sbjct: 288 H 288
+
+
+>UM00268P0 pep:known supercontig:UM1:Cont_1.4:73883:80272:-1 gene:UM00268
+           transcript:UM00268T0 description:"hypothetical protein"
+          Length = 2031
+
+ Score = 39.3 bits (90), Expect = 9e-04,   Method: Compositional matrix adjust.
+ Identities = 20/69 (28%), Positives = 39/69 (56%), Gaps = 6/69 (8%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           N  PSR +++GSIP   + E ++ + +  GP+ +++++       SK  AFI +  L+ +
+Sbjct: 659 NQEPSRALWIGSIPSSTSIETLISIFAPFGPIESVRVLA------SKSCAFINYERLDDA 712
+
+Query: 73  ASAVRNLNG 81
+             A + L+G
+Sbjct: 713 MVARQTLHG 721
+
+
+>UM03084P0 pep:known supercontig:UM1:Cont_1.103:205105:207221:-1 gene:UM03084
+           transcript:UM03084T0 description:"hypothetical protein"
+          Length = 596
+
+ Score = 38.9 bits (89), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 41/73 (56%), Gaps = 5/73 (6%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVI--NLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           +++G++P+D + + + DL  + G +   ++ M  D   GRSKG   + + D   +++A+ 
+Sbjct: 304 LFIGNLPFDVSWQDLKDLFRSAGNITRADINMGHD---GRSKGSGIVAYADSNDASNAIA 360
+
+Query: 78  NLNGYQLGSRFLK 90
+             +GY+   R L+
+Sbjct: 361 MYHGYEFRGRMLE 373
+
+
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 39/73 (53%), Gaps = 2/73 (2%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S+ +++ ++P+  + E +++L    G V   +++     GRSKG   ++F  +E + +A+
+Sbjct: 479 SQQIFVKNLPWSTSNEDLVELFQTTGKVDEAEIVIG--GGRSKGCGVVQFATVEDAETAI 536
+
+Query: 77  RNLNGYQLGSRFL 89
+              N Y  G R L
+Sbjct: 537 AKFNNYVYGGRPL 549
+
+
+>UM04149P0 pep:known supercontig:UM1:Cont_1.148:37208:37894:-1 gene:UM04149
+           transcript:UM04149T0 description:"hypothetical protein"
+          Length = 228
+
+ Score = 37.7 bits (86), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 20/81 (24%), Positives = 39/81 (48%), Gaps = 3/81 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD---PQTGRSKGYAFIEFRDLESSASAV 76
+           +Y+G++     E  ++   S  G +  L  +F    PQ G+ +GYAF+E+   + +  AV
+Sbjct: 45  LYVGNLHAAVDEYTLIQTFSKFGKISKLDFLFHKSGPQRGQPRGYAFVEYASPQEAMQAV 104
+
+Query: 77  RNLNGYQLGSRFLKCGYSSNS 97
+              +   L  R +   +++ S
+Sbjct: 105 AGAHNKTLKGRSISVTFATKS 125
+
+
+>UM03952P0 pep:known supercontig:UM1:Cont_1.136:77985:78911:-1 gene:UM03952
+           transcript:UM03952T0 description:"Eukaryotic translation
+           initiation factor 3 subunit G"
+          Length = 308
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 35/67 (52%)
+
+Query: 28  DQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           D  ++ + +L    G V+ + +  D +TG  KGYAF+ F + E +  A + ++G    + 
+Sbjct: 235 DADDDDLRELFMRFGRVVRVYVGRDRETGICKGYAFVSFENREDADRARQKVDGRGYDNL 294
+
+Query: 88  FLKCGYS 94
+            L C +S
+Sbjct: 295 ILSCQWS 301
+
+
+>UM00807P0 pep:known supercontig:UM1:Cont_1.26:4768:5807:-1 gene:UM00807
+           transcript:UM00807T0 description:"hypothetical protein"
+          Length = 314
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 22/72 (30%), Positives = 43/72 (59%), Gaps = 5/72 (6%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           PP+++++L +IP    + ++  L S     ++++ +     G+++  AF+EF D+ SSA+
+Sbjct: 211 PPNKMLFLQNIPEGVGKGELESLFSAYPGYVDVQTI----PGKAE-IAFVEFADIPSSAT 265
+
+Query: 75  AVRNLNGYQLGS 86
+           A   LNGY  G+
+Sbjct: 266 ARGALNGYNFGA 277
+
+
+>UM05650P0 pep:known supercontig:UM1:Cont_1.206:54784:57334:-1 gene:UM05650
+           transcript:UM05650T0 description:"Putative
+           uncharacterized protein"
+          Length = 508
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 38/68 (55%), Gaps = 2/68 (2%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           V+ G++ +  TE+++  L S  G V + +++   +  RS GY F+ F     + +A++ L
+Sbjct: 227 VFAGNLAFATTEDELKTLFSEAGTVTHAQVI--TRGTRSLGYGFVTFSTEAGAQNAIKLL 284
+
+Query: 80  NGYQLGSR 87
+           N  ++G R
+Sbjct: 285 NKREVGGR 292
+
+
+
+ Score = 32.0 bits (71), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 17/76 (22%), Positives = 37/76 (48%), Gaps = 1/76 (1%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+              P   +V++ ++ +  T+E +    S+   V +  ++    + RSKG+ F++F+D   
+Sbjct: 417 HGEPSKTLVFVANLAFATTDESLKAAFSDY-KVKSAHVVKRRSSNRSKGFGFVDFQDSSE 475
+
+Query: 72  SASAVRNLNGYQLGSR 87
+              A+ +  G Q+  R
+Sbjct: 476 QQRAIASSQGKQIDGR 491
+
+
+>UM04398P0 pep:known supercontig:UM1:Cont_1.157:26185:28299:-1 gene:UM04398
+           transcript:UM04398T0 description:"hypothetical protein"
+          Length = 704
+
+ Score = 37.0 bits (84), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 23/66 (34%), Positives = 40/66 (60%), Gaps = 8/66 (12%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           Q NP +R VY+G++P D + +++L+L    GP+ N++++ +      K  AFI F D  S
+Sbjct: 215 QVNPLNRTVYVGNLPADASVDELLNLVK-FGPIENVRILPE------KNCAFISFLD-GS 266
+
+Query: 72  SASAVR 77
+           +A+A  
+Sbjct: 267 TATAFH 272
+
+
+
+ Score = 36.6 bits (83), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 34/69 (49%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ N  SR VY+G +    +E+ + D  S  GP+  +K++      R K   FI F  ++
+Sbjct: 305 VQQNQASRNVYVGQLDESASEQSLRDDLSRFGPIDQVKIV------RDKNIGFIHFLSIQ 358
+
+Query: 71  SSASAVRNL 79
+           ++   V  L
+Sbjct: 359 TAIKVVATL 367
+
+
+>UM04775P0 pep:known supercontig:UM1:Cont_1.174:14133:15161:-1 gene:UM04775
+           transcript:UM04775T0 description:"hypothetical protein"
+          Length = 342
+
+ Score = 36.6 bits (83), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 18/70 (25%), Positives = 36/70 (51%), Gaps = 1/70 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           + ++L  + Y  TE  +       GP+  +K++ D + G+S+GYAFI +       +A +
+Sbjct: 131 KTLFLARLDYSVTESDLHREFDMYGPIEQIKLIRD-KNGKSRGYAFIAYERERDMKAAYK 189
+
+Query: 78  NLNGYQLGSR 87
+           +  G ++  R
+Sbjct: 190 DAEGIKINGR 199
+
+
+>UM04564P0 pep:known supercontig:UM1:Cont_1.164:25131:27907:1 gene:UM04564
+           transcript:UM04564T0 description:"hypothetical protein"
+          Length = 626
+
+ Score = 36.6 bits (83), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 17/59 (28%), Positives = 34/59 (57%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           V+ + ++  + TEE + D   + G V +  +  D +TG  KGYA +EF + + + +A++
+Sbjct: 73  VIVVTNVHEEATEEDVTDKFLDYGMVRSCHLNLDRRTGYVKGYALLEFAEQDEAQAAIQ 131
+
+
+>UM03771P0 pep:known supercontig:UM1:Cont_1.126:62611:64827:-1 gene:UM03771
+           transcript:UM03771T0 description:"hypothetical protein"
+          Length = 738
+
+ Score = 35.0 bits (79), Expect = 0.015,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 37/75 (49%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+   +EQ+L +  ++G  +     +    G  +G AF  FR  E + + V  
+Sbjct: 228 AIVVKNIPFSVKKEQLLQIIEDLGIPMPYAFNYHMDQGVFRGLAFANFRSAEEADAVVAA 287
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           LNG+ +  R L+  Y
+Sbjct: 288 LNGFDVSGRKLRVEY 302
+
+
+>UM04299P0 pep:known supercontig:UM1:Cont_1.150:237190:239427:1 gene:UM04299
+           transcript:UM04299T0 description:"Eukaryotic translation
+           initiation factor 3 subunit B"
+          Length = 745
+
+ Score = 34.7 bits (78), Expect = 0.023,   Method: Compositional matrix adjust.
+ Identities = 13/32 (40%), Positives = 19/32 (59%)
+
+Query: 56  GRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           G SKGY F+E    E +A A+R ++GY    +
+Sbjct: 88  GESKGYIFVEMASAEDAAQAIRQMDGYAFDKK 119
+
+
+>UM03885P0 pep:known supercontig:UM1:Cont_1.132:49150:50611:1 gene:UM03885
+           transcript:UM03885T0 description:"hypothetical protein"
+          Length = 307
+
+ Score = 33.9 bits (76), Expect = 0.030,   Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 33/62 (53%), Gaps = 2/62 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           + L ++P D TE Q+ +L  + +GP+  + M +   TG+S G   +EF+  + +  A   
+Sbjct: 152 IILSNLPLDVTEAQVKELFATTIGPLRKVAMSYR-ATGQSTGVCTVEFQRADDAGRAYTQ 210
+
+Query: 79  LN 80
+            N
+Sbjct: 211 YN 212
+
+
+>UM01271P0 pep:known supercontig:UM1:Cont_1.46:13117:16296:1 gene:UM01271
+           transcript:UM01271T0 description:"hypothetical protein"
+          Length = 1059
+
+ Score = 33.9 bits (76), Expect = 0.038,   Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 28/56 (50%), Gaps = 5/56 (8%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVI-----NLKMMFDPQTGRSKGYAFIEF 66
+           P    +  ++ + Q  + I    +++GP       + K+M DP TG SKGY F+ F
+Sbjct: 368 PHNHPFAAALIHAQQAQGIYQPGAHIGPAPFHSAKSAKIMTDPVTGVSKGYGFVRF 423
+
+
+>UM01265P0 pep:known supercontig:UM1:Cont_1.45:34122:35015:-1 gene:UM01265
+           transcript:UM01265T0 description:"hypothetical protein"
+          Length = 297
+
+ Score = 33.5 bits (75), Expect = 0.044,   Method: Compositional matrix adjust.
+ Identities = 17/74 (22%), Positives = 38/74 (51%), Gaps = 1/74 (1%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           +P  + +++G +  D ++E +             +++ + + G++KGY F+ F D E   
+Sbjct: 169 DPSHKRLFVGDLGNDVSDELLSSTFQKYASFSKARVVRN-KDGKAKGYGFVAFADPEDFL 227
+
+Query: 74  SAVRNLNGYQLGSR 87
+            A + ++G  +GSR
+Sbjct: 228 KAWKEMDGKYIGSR 241
+
+
+>UM04269P0 pep:known supercontig:UM1:Cont_1.150:154150:155403:1 gene:UM04269
+           transcript:UM04269T0 description:"hypothetical protein"
+          Length = 374
+
+ Score = 33.5 bits (75), Expect = 0.045,   Method: Compositional matrix adjust.
+ Identities = 21/62 (33%), Positives = 35/62 (56%), Gaps = 6/62 (9%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLK-MMFDPQ--TGRSKGYAFIEFRDLESSASA 75
+            VY+G + +  T+E+I  + S+VG  ++L  + F      G+SKG A++E    ES A A
+Sbjct: 117 AVYIGDLNWWSTDEEIRQIASSVGVTLSLNDITFSEHKVNGKSKGVAYVE---TESEADA 173
+
+Query: 76  VR 77
+            +
+Sbjct: 174 RK 175
+
+
+>UM05585P0 pep:known supercontig:UM1:Cont_1.203:59112:60023:-1 gene:UM05585
+           transcript:UM05585T0 description:"hypothetical protein"
+          Length = 303
+
+ Score = 32.7 bits (73), Expect = 0.076,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 33/66 (50%), Gaps = 3/66 (4%)
+
+Query: 32  EQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+           +Q+L L S  G V+++     P     +G AF+ F  +  S++A R L G+    + L  
+Sbjct: 91  QQLLALFSTYGRVLDVVATRAPSM---RGQAFVVFESVSFSSAAKRGLEGFPFYGKSLHI 147
+
+Query: 92  GYSSNS 97
+            YS+ +
+Sbjct: 148 EYSTGT 153
+
+
+>UM03490P0 pep:known supercontig:UM1:Cont_1.117:5563:15822:-1 gene:UM03490
+            transcript:UM03490T0 description:"Probable chloride
+            channel protein UM03490-D"
+          Length = 2859
+
+ Score = 32.7 bits (73), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 21/87 (24%), Positives = 45/87 (51%), Gaps = 2/87 (2%)
+
+Query: 14   NPPSRVVYLGSI-PYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+             PP  ++++  + P  ++++  L + S  G +++ +++ D +TG S  YAFIEF   + +
+Sbjct: 1482 RPPENILFVCKLNPVTRSDDLEL-IFSRFGKILSCEVIKDKKTGDSLQYAFIEFDKKDDA 1540
+
+Query: 73   ASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+              A   +    +  R +   +S + DI
+Sbjct: 1541 ERAYFKMQNVLVDDRRIWVDFSQSVDI 1567
+
+
+>UM04835P0 pep:known supercontig:UM1:Cont_1.175:168788:171793:-1 gene:UM04835
+           transcript:UM04835T0 description:"hypothetical protein"
+          Length = 1001
+
+ Score = 32.3 bits (72), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 24/95 (25%), Positives = 43/95 (45%), Gaps = 13/95 (13%)
+
+Query: 6   GVNAGVQNNPPSRVVYLGSIPYD-------QTEEQILDLCSNVGPVINLKMMFDPQTGRS 58
+           G N    N+PP   +++G++P +       Q E+Q+  + S+                +S
+Sbjct: 841 GRNVVGDNHPPVNTLFVGNLPSNASSAVLSQIEDQLRAVFSSCRGFRQFSFRL-----KS 895
+
+Query: 59  KG-YAFIEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+            G   F+EF D+ +++ A+  LNG+ LG      G
+Sbjct: 896 NGPMCFVEFGDVHTASQAMSELNGHSLGGAIKNGG 930
+
+
+>UM05172P0 pep:known supercontig:UM1:Cont_1.188:278425:282346:1 gene:UM05172
+           transcript:UM05172T0 description:"hypothetical protein"
+          Length = 1255
+
+ Score = 32.0 bits (71), Expect = 0.19,   Method: Compositional matrix adjust.
+ Identities = 22/67 (32%), Positives = 35/67 (52%), Gaps = 6/67 (8%)
+
+Query: 157 NMTTPAMMISSELAKKPKEVQLKFLQKFQEWTRAHPEDAVSLLEL----CPQLSFVTAEL 212
+           N T    +IS   +KK   +  +F+  + +W R H E ++SL+E     C   S++TA+L
+Sbjct: 906 NTTISTFLISLCQSKKAFRMLERFI-PWHQWLR-HVEKSLSLVERSWPKCLSSSYITAQL 963
+
+Query: 213 LLTNGIC 219
+           LL    C
+Sbjct: 964 LLPEDFC 970
+
+
+>UM02564P0 pep:known supercontig:UM1:Cont_1.86:20852:21982:-1 gene:UM02564
+           transcript:UM02564T0 description:"hypothetical protein"
+          Length = 376
+
+ Score = 30.4 bits (67), Expect = 0.42,   Method: Compositional matrix adjust.
+ Identities = 12/42 (28%), Positives = 24/42 (57%), Gaps = 2/42 (4%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTG 56
+           P  R +++ ++P D TE  + D+ ++VG +  ++  F  Q G
+Sbjct: 81  PADRTLFMANLPVDTTETNLRDMLASVGAISQVR--FRRQAG 120
+
+
+>UM06183P0 pep:known supercontig:UM1:Cont_1.234:49016:50773:1 gene:UM06183
+           transcript:UM06183T0 description:"hypothetical protein"
+          Length = 585
+
+ Score = 29.6 bits (65), Expect = 0.85,   Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 19/27 (70%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDL 37
+            Q NPPS  ++LG++ ++ TE+ + +L
+Sbjct: 287 AQKNPPSMTLFLGNLSFNTTEQGVREL 313
+
+
+>UM01000P0 pep:known supercontig:UM1:Cont_1.34:72086:73354:1 gene:UM01000
+           transcript:UM01000T0 description:"hypothetical protein"
+          Length = 356
+
+ Score = 28.9 bits (63), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 13/51 (25%), Positives = 29/51 (56%), Gaps = 1/51 (1%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           P+  + + ++ YD +E  + +L  ++GPV    + +D ++ RS G A + +
+Sbjct: 149 PTGKLIIENLHYDVSESDLKNLFESIGPVTKAYIRYD-RSDRSTGVAVVVY 198
+
+
+>UM03311P0 pep:known supercontig:UM1:Cont_1.112:116755:120505:-1 gene:UM03311
+           transcript:UM03311T0 description:"hypothetical protein"
+          Length = 1081
+
+ Score = 28.1 bits (61), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 11/54 (20%), Positives = 30/54 (55%), Gaps = 1/54 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           + D     G +++ ++M D   G+S+ + F+ F   + +  A++ ++  +LG++
+Sbjct: 337 LFDTFKRFGHIVSARVMRD-DNGKSREFGFVSFTTPDEAQQALQAMDNAKLGTK 389
+
+
+>UM02472P0 pep:known supercontig:UM1:Cont_1.83:396083:397999:1 gene:UM02472
+           transcript:UM02472T0 description:"hypothetical protein"
+          Length = 638
+
+ Score = 27.7 bits (60), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 21/79 (26%), Positives = 34/79 (43%), Gaps = 5/79 (6%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P R +++ SI ++     +       G    +K  FD      +G AFI + DL S+  A
+Sbjct: 245 PCRTLFVRSINFETDSGFVKQQFEQFG---QIKTFFD--MVNKRGIAFITYYDLRSARDA 299
+
+Query: 76  VRNLNGYQLGSRFLKCGYS 94
+           +  + G   G R +   YS
+Sbjct: 300 MLAMKGALFGGRPINIHYS 318
+
+
+>UM02469P0 pep:known supercontig:UM1:Cont_1.83:387207:388055:-1 gene:UM02469
+           transcript:UM02469T0 description:"hypothetical protein"
+          Length = 282
+
+ Score = 26.9 bits (58), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 10/37 (27%), Positives = 21/37 (56%)
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+           YAFIE+ D   + +A  +++G + G   +   ++ N+
+Sbjct: 79  YAFIEYEDPRDADAAFNDMHGMRFGRNEITIQFAKNA 115
+
+
+>UM06090P0 pep:known supercontig:UM1:Cont_1.228:60219:61964:1 gene:UM06090
+           transcript:UM06090T0 description:"hypothetical protein"
+          Length = 547
+
+ Score = 26.2 bits (56), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 15/75 (20%), Positives = 40/75 (53%), Gaps = 3/75 (4%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P    ++G++ +D  E  + +  +     ++++++     G+ KG+ ++EF+  +   +A
+Sbjct: 88  PPFTAFVGNLSFDVMEADVENFFAPSK-AVSIRIVTG-HDGKPKGFGYVEFQSQDDLRAA 145
+
+Query: 76  VRNLNGYQLGSRFLK 90
+           + +  G QL SR ++
+Sbjct: 146 L-DRTGTQLASRTVR 159
+
+
+>UM04363P0 pep:known supercontig:UM1:Cont_1.154:99225:102075:1 gene:UM04363
+           transcript:UM04363T0 description:"hypothetical protein"
+          Length = 905
+
+ Score = 26.6 bits (57), Expect = 8.8,   Method: Compositional matrix adjust.
+ Identities = 13/42 (30%), Positives = 20/42 (47%)
+
+Query: 37  LCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           L S  GP+ +     +P + R  GY  + F D +S   A+ N
+Sbjct: 115 LASKFGPIQHFHFPREPSSQRLLGYGSVTFFDKQSLQKALSN 156
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 1,802,512
+Number of extensions: 57252
+Number of successful extensions: 205
+Number of sequences better than 10.0: 49
+Number of HSP's gapped: 201
+Number of HSP's successfully gapped: 66
+Length of query: 296
+Length of database: 3,993,690
+Length adjustment: 92
+Effective length of query: 204
+Effective length of database: 3,393,666
+Effective search space: 692307864
+Effective search space used: 692307864
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

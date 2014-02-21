@@ -1,0 +1,838 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa 
+           10,351 sequences; 5,266,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+B0510_2463T1 pep:novel supercontig:B05.10_v2:Supercontig_1.5:426...    57   2e-09
+B0510_6423T1 pep:novel supercontig:B05.10_v2:Supercontig_1.19:19...    57   2e-09
+B0510_2755T1 pep:novel supercontig:B05.10_v2:Supercontig_1.5:151...    54   2e-08
+B0510_252T1 pep:novel supercontig:B05.10_v2:Supercontig_1.1:9952...    54   3e-08
+B0510_3211T1 pep:novel supercontig:B05.10_v2:Supercontig_1.7:133...    51   2e-07
+B0510_1071T1 pep:novel supercontig:B05.10_v2:Supercontig_1.2:168...    49   4e-07
+B0510_318T1 pep:novel supercontig:B05.10_v2:Supercontig_1.1:1237...    49   6e-07
+B0510_6770T1 pep:novel supercontig:B05.10_v2:Supercontig_1.21:86...    49   9e-07
+B0510_3763T1 pep:novel supercontig:B05.10_v2:Supercontig_1.8:907...    48   2e-06
+B0510_9381T1 pep:novel supercontig:B05.10_v2:Supercontig_1.41:27...    45   1e-05
+B0510_4059T1 pep:novel supercontig:B05.10_v2:Supercontig_1.9:953...    42   2e-05
+B0510_4631T1 pep:novel supercontig:B05.10_v2:Supercontig_1.11:91...    42   8e-05
+B0510_8965T1 pep:novel supercontig:B05.10_v2:Supercontig_1.37:12...    40   1e-04
+B0510_8402T1 pep:known supercontig:B05.10_v2:Supercontig_1.32:81...    42   1e-04
+B0510_2239T1 pep:novel supercontig:B05.10_v2:Supercontig_1.4:134...    42   2e-04
+B0510_8354T1 pep:novel supercontig:B05.10_v2:Supercontig_1.31:35...    39   8e-04
+B0510_7359T1 pep:novel supercontig:B05.10_v2:Supercontig_1.24:45...    39   0.001
+B0510_5226T1 pep:novel supercontig:B05.10_v2:Supercontig_1.14:19...    39   0.001
+B0510_2461T1 pep:novel supercontig:B05.10_v2:Supercontig_1.5:420...    39   0.002
+B0510_3730T1 pep:novel supercontig:B05.10_v2:Supercontig_1.8:763...    38   0.002
+B0510_6070T1 pep:novel supercontig:B05.10_v2:Supercontig_1.17:66...    37   0.003
+B0510_7403T1 pep:novel supercontig:B05.10_v2:Supercontig_1.25:26...    37   0.005
+B0510_3888T1 pep:novel supercontig:B05.10_v2:Supercontig_1.9:289...    37   0.006
+B0510_4273T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:62...    37   0.006
+B0510_6123T1 pep:novel supercontig:B05.10_v2:Supercontig_1.17:87...    37   0.008
+B0510_2906T1 pep:novel supercontig:B05.10_v2:Supercontig_1.6:396...    35   0.017
+B0510_6433T1 pep:novel supercontig:B05.10_v2:Supercontig_1.19:22...    35   0.029
+B0510_3841T1 pep:novel supercontig:B05.10_v2:Supercontig_1.9:107...    34   0.053
+B0510_4152T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:20...    32   0.10 
+B0510_8207T1 pep:novel supercontig:B05.10_v2:Supercontig_1.30:27...    31   0.36 
+B0510_7704T1 pep:novel supercontig:B05.10_v2:Supercontig_1.26:60...    31   0.41 
+B0510_5767T1 pep:novel supercontig:B05.10_v2:Supercontig_1.16:42...    30   0.59 
+B0510_6544T1 pep:novel supercontig:B05.10_v2:Supercontig_1.19:74...    30   0.60 
+B0510_1693T1 pep:novel supercontig:B05.10_v2:Supercontig_1.3:162...    30   0.61 
+B0510_7695T1 pep:novel supercontig:B05.10_v2:Supercontig_1.26:58...    30   0.65 
+B0510_9928T1 pep:novel supercontig:B05.10_v2:Supercontig_1.50:90...    28   1.3  
+B0510_7323T1 pep:novel supercontig:B05.10_v2:Supercontig_1.24:30...    28   3.0  
+B0510_3469T1 pep:novel supercontig:B05.10_v2:Supercontig_1.7:110...    28   3.1  
+
+>B0510_2463T1 pep:novel supercontig:B05.10_v2:Supercontig_1.5:426966:428480:1
+           gene:B0510_2463 transcript:B0510_2463T1 description:""
+          Length = 384
+
+ Score = 57.0 bits (136), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 24/81 (29%), Positives = 52/81 (64%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           NPPS+ +++G++ ++ ++  +  L   V  VI++++  D +TG+ +G+A  +F D++S+ 
+Sbjct: 253 NPPSKCLFIGNLAFEMSDADLNSLFREVRNVIDVRVAIDRRTGQPRGFAHADFVDVDSAM 312
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYS 94
+            A+  L G ++ +R L+  YS
+Sbjct: 313 KALEQLQGKEVFNRRLRVDYS 333
+
+
+
+ Score = 44.7 bits (104), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 44/78 (56%), Gaps = 1/78 (1%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P+  VY+G++ +D  EE +     + G + ++++  D + G SKG+A+I+F D++S+ +A
+Sbjct: 166 PNNGVYIGNLLFDINEEDLKKEFEHFGTITDVRVTRDAR-GLSKGFAYIDFADVQSATAA 224
+
+Query: 76  VRNLNGYQLGSRFLKCGY 93
+           +   N      R L   Y
+Sbjct: 225 IEAKNQTIFEGRRLVVNY 242
+
+
+>B0510_6423T1 pep:novel supercontig:B05.10_v2:Supercontig_1.19:191385:192411:-1
+           gene:B0510_6423 transcript:B0510_6423T1 description:""
+          Length = 325
+
+ Score = 56.6 bits (135), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 26/75 (34%), Positives = 46/75 (61%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+G +P++ +E  IL + S  G    + ++ D +TG+SKG+AF+++ D  S+  AV NL
+Sbjct: 35  IYIGGLPFELSEGDILTIFSQYGEPTYINLIRDKETGKSKGFAFLKYEDQRSTDLAVDNL 94
+
+Query: 80  NGYQLGSRFLKCGYS 94
+            G  +  R LK  ++
+Sbjct: 95  GGAVIAGRTLKVDHT 109
+
+
+>B0510_2755T1 pep:novel supercontig:B05.10_v2:Supercontig_1.5:1518890:1520560:1
+           gene:B0510_2755 transcript:B0510_2755T1 description:""
+          Length = 492
+
+ Score = 54.3 bits (129), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 23/86 (26%), Positives = 47/86 (54%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G   NPPS  ++LG++ +D  E  + +     G V+N+++  D +TG  KG+ ++ F  +
+Sbjct: 336 GDAKNPPSDTLFLGNLSFDADENVVGEAFGEHGTVVNVRLPTDQETGNPKGFGYVTFGSV 395
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYSS 95
+           E + +A   + G  +  R ++  Y++
+Sbjct: 396 EDATAAYDAMMGADIAGRPVRLDYAT 421
+
+
+
+ Score = 34.7 bits (78), Expect = 0.024,   Method: Compositional matrix adjust.
+ Identities = 13/50 (26%), Positives = 30/50 (60%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           S+ +++G++ ++  +E +       G +   +++ D  TGRSKG+ ++EF
+Sbjct: 239 SKNLFVGNLSWNIDDEWLYREFEEFGEISGARVISDKATGRSKGFGYVEF 288
+
+
+>B0510_252T1 pep:novel supercontig:B05.10_v2:Supercontig_1.1:995299:997731:-1
+           gene:B0510_252 transcript:B0510_252T1 description:""
+          Length = 790
+
+ Score = 53.5 bits (127), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 42/73 (57%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+ +IP + TEE+  +L    G V +  +  D +TG+S+G+ F+ F + E +A+AV  L
+Sbjct: 244 IYVKNIPVEATEEEFRELFEKFGDVTSASLARDAETGKSRGFGFVNFINHEHAATAVDEL 303
+
+Query: 80  NGYQLGSRFLKCG 92
+           NG     + L  G
+Sbjct: 304 NGKDFKGQDLYVG 316
+
+
+
+ Score = 37.4 bits (85), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 36/60 (60%), Gaps = 1/60 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+           + D  +  G +++ K+  D ++G SKGY F+ +   E++A A++++NG  L  + +  G+
+Sbjct: 165 LHDTFAAFGNILSCKVAQD-ESGASKGYGFVHYETDEAAAQAIKHVNGMLLNEKKVFVGH 223
+
+
+
+ Score = 37.0 bits (84), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 33/64 (51%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +Y+G +    TE  + +L S +G V ++++  D  + RS GYA++ +        A+
+Sbjct: 60  SASLYVGELDTSVTEAMLFELFSQIGSVASIRVCRDAISRRSLGYAYVNYNTTADGEKAL 119
+
+Query: 77  RNLN 80
+             LN
+Sbjct: 120 EELN 123
+
+
+
+ Score = 26.9 bits (58), Expect = 8.8,   Method: Compositional matrix adjust.
+ Identities = 11/44 (25%), Positives = 24/44 (54%)
+
+Query: 56  GRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+           G+SKG+ F+ F + + +  AV ++N   + ++ L    +   D+
+Sbjct: 432 GKSKGFGFVCFNNPDEATKAVSDMNQRMVNNKPLYVALAQRKDV 475
+
+
+>B0510_3211T1 pep:novel supercontig:B05.10_v2:Supercontig_1.7:133783:136225:1
+           gene:B0510_3211 transcript:B0510_3211T1 description:""
+          Length = 490
+
+ Score = 50.8 bits (120), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 45/77 (58%), Gaps = 1/77 (1%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S ++Y+ ++P+  + E +++L + +G V   ++ ++P  GRS+G   + F   E++ +A+
+Sbjct: 389 SEIIYVRNLPWSTSNEDLVELFTTIGKVEQAEIQYEP-NGRSRGTGVVRFDSAENADTAI 447
+
+Query: 77  RNLNGYQLGSRFLKCGY 93
+              +GYQ G R L   +
+Sbjct: 448 EKFSGYQYGGRPLGLSF 464
+
+
+
+ Score = 29.3 bits (64), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 33/74 (44%), Gaps = 3/74 (4%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSK--GYAFIEFRDLESSASA 75
+           R VY+G++ YD     + D   + G V+   ++  P  G SK   Y   E+   E +  A
+Sbjct: 100 RRVYVGNLSYDVKWHHLKDFMRSAGEVLFADVLLLP-NGMSKVGAYTDAEYATREQAQQA 158
+
+Query: 76  VRNLNGYQLGSRFL 89
+           V  L+   L  R +
+Sbjct: 159 VNTLSNQNLMGRLV 172
+
+
+>B0510_1071T1 pep:novel supercontig:B05.10_v2:Supercontig_1.2:1681048:1681725:1
+           gene:B0510_1071 transcript:B0510_1071T1 description:""
+          Length = 201
+
+ Score = 48.5 bits (114), Expect = 4e-07,   Method: Compositional matrix adjust.
+ Identities = 24/90 (26%), Positives = 51/90 (56%), Gaps = 9/90 (10%)
+
+Query: 15  PPSRVVYLGSIP-----YDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           PP++ +Y+ ++P      D    ++  LCS  GPV+++  +   ++ + +G A + +RD+
+Sbjct: 15  PPNQTIYITNLPSSKIQKDDLRRELYTLCSTYGPVLDVIAL---KSMKMRGQAHVVYRDI 71
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYS-SNSD 98
+           +++  A+R L G++   R +   Y+ S SD
+Sbjct: 72  QTATQAMRALQGFEFLGREMNIQYAKSKSD 101
+
+
+>B0510_318T1 pep:novel supercontig:B05.10_v2:Supercontig_1.1:1237836:1239910:-1
+           gene:B0510_318 transcript:B0510_318T1 description:""
+          Length = 603
+
+ Score = 49.3 bits (116), Expect = 6e-07,   Method: Compositional matrix adjust.
+ Identities = 28/94 (29%), Positives = 50/94 (53%), Gaps = 4/94 (4%)
+
+Query: 2   NRQSGVNAGVQNNP---PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRS 58
+           NRQ        +NP   P   +Y+G+I +  TE  + ++    G +  +++  + Q GRS
+Sbjct: 257 NRQVRNPEATTSNPNQIPFHRLYVGNIHFSITESDLQNVFEPFGELEFVQLQKEEQ-GRS 315
+
+Query: 59  KGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+           +GY F++FRD   +  A+  +NG+ L  R ++ G
+Sbjct: 316 RGYGFVQFRDPNQAREALEKMNGFDLAGRPIRVG 349
+
+
+
+ Score = 39.3 bits (90), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 39/67 (58%), Gaps = 1/67 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R V++  +      ++++     VGPV   +++ D  +GRSKG  ++EF++ ES  +A++
+Sbjct: 177 RTVFVQQLAARLRTKELIAFFEKVGPVKEAQIVKDRVSGRSKGVGYVEFKNEESVPAAIQ 236
+
+Query: 78  NLNGYQL 84
+            L G +L
+Sbjct: 237 -LTGQRL 242
+
+
+>B0510_6770T1 pep:novel supercontig:B05.10_v2:Supercontig_1.21:86845:88332:1
+           gene:B0510_6770 transcript:B0510_6770T1 description:""
+          Length = 495
+
+ Score = 48.5 bits (114), Expect = 9e-07,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 43/75 (57%)
+
+Query: 3   RQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYA 62
+           R     A ++  PPS+ +++G++ +D TEE I +     G +  + +     +G+ KGYA
+Sbjct: 274 RPEKKEAVIEGKPPSKKIFVGNLRFDATEEVIKEHFEKCGAIEKIHVATFEDSGKCKGYA 333
+
+Query: 63  FIEFRDLESSASAVR 77
+           ++ F ++ ++ SAV+
+Sbjct: 334 WVTFEEVSAAQSAVK 348
+
+
+>B0510_3763T1 pep:novel supercontig:B05.10_v2:Supercontig_1.8:907552:909991:-1
+           gene:B0510_3763 transcript:B0510_3763T1 description:""
+          Length = 794
+
+ Score = 48.1 bits (113), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 40/79 (50%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           N    R +++ S+P   T   + +L S+  P+ +  ++ DP T +SKGY F+ F D E +
+Sbjct: 35  NASARRSLFVRSLPATATTASLTELFSDNYPLKHATVVLDPVTKQSKGYGFVTFADAEDA 94
+
+Query: 73  ASAVRNLNGYQLGSRFLKC 91
+             A+   NG     R +K 
+Sbjct: 95  QRALDEFNGQSFQGRKMKI 113
+
+
+
+ Score = 37.0 bits (84), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 20/77 (25%), Positives = 39/77 (50%), Gaps = 1/77 (1%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +++ ++P+   +  + +     GPV   +++ D  T R KG  F+ F +++ + S  
+Sbjct: 350 STTLFIRNLPFTTLDATLKEHFEQFGPVRYARVVMDKATDRPKGTGFVCFYNVDDAESCF 409
+
+Query: 77  RNLNGYQ-LGSRFLKCG 92
+           RN   YQ  G+  +K G
+Sbjct: 410 RNCPKYQPTGANAIKKG 426
+
+
+
+ Score = 29.3 bits (64), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 21/88 (23%), Positives = 37/88 (42%), Gaps = 12/88 (13%)
+
+Query: 7   VNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQ----------TG 56
+           V AG++       +  G     + E+Q        G V   K++F+ +           G
+Sbjct: 565 VKAGLRQQLSKEEIARGGEEMREAEKQ--RKAKGKGIVRQAKVVFEGREGKKVSEESGAG 622
+
+Query: 57  RSKGYAFIEFRDLESSASAVRNLNGYQL 84
+           +S+GY F+E+     +   +R LNG+ L
+Sbjct: 623 KSRGYGFVEYSSHRWALMGLRWLNGHAL 650
+
+
+>B0510_9381T1 pep:novel supercontig:B05.10_v2:Supercontig_1.41:272792:275009:-1
+           gene:B0510_9381 transcript:B0510_9381T1 description:""
+          Length = 312
+
+ Score = 44.7 bits (104), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 46/79 (58%), Gaps = 3/79 (3%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVG-PVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           N PSR+V + ++PYD TE+QI +          ++++++ P  G S+G A I F     +
+Sbjct: 117 NAPSRIV-VSNLPYDVTEQQIKEYFHEAKLHTKSVQLVYGPN-GASRGEANITFHRQGDA 174
+
+Query: 73  ASAVRNLNGYQLGSRFLKC 91
+           A+AV  LNG ++ +R L+ 
+Sbjct: 175 AAAVSKLNGVKVDNRSLRV 193
+
+
+>B0510_4059T1 pep:novel supercontig:B05.10_v2:Supercontig_1.9:953674:954431:1
+          gene:B0510_4059 transcript:B0510_4059T1 description:""
+          Length = 121
+
+ Score = 42.4 bits (98), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 40/77 (51%), Gaps = 3/77 (3%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+          +R +++ ++ Y+ T E++ DL    G +  ++      T   KG AF+ + D+  S +A 
+Sbjct: 12 NRALFVKNLSYNVTPEELFDLFGKFGAIRQIRQGIATNT---KGTAFVVYEDVTDSKTAC 68
+
+Query: 77 RNLNGYQLGSRFLKCGY 93
+            LNG+   +R+L   Y
+Sbjct: 69 DKLNGFNFQNRYLVVLY 85
+
+
+>B0510_4631T1 pep:novel supercontig:B05.10_v2:Supercontig_1.11:919663:921249:1
+          gene:B0510_4631 transcript:B0510_4631T1 description:""
+          Length = 507
+
+ Score = 42.4 bits (98), Expect = 8e-05,   Method: Compositional matrix adjust.
+ Identities = 16/52 (30%), Positives = 32/52 (61%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+          +++G + ++ T+E + D  S  G V+   +M D  +GRS+G+ F+ F+D  +
+Sbjct: 1  MFIGGLNWETTDESLKDYFSQFGEVLECTVMRDGASGRSRGFGFLTFKDART 52
+
+
+
+ Score = 39.7 bits (91), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 16/56 (28%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           +++G +  D +E+   +  +  G V++  +M D  TGR +G+ F+ F D E++  A
+Sbjct: 119 IFVGGVSQDASEQDFKEYFTQFGRVVDATLMMDKDTGRPRGFGFVTF-DSEAAVEA 173
+
+
+>B0510_8965T1 pep:novel supercontig:B05.10_v2:Supercontig_1.37:127544:128120:1
+           gene:B0510_8965 transcript:B0510_8965T1 description:""
+          Length = 152
+
+ Score = 40.4 bits (93), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 38/66 (57%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           ++ + ++  + +EE + D  ++ G + NL +  D +TG  KGYA IE+  L+ + +A+  
+Sbjct: 42  IIIVTNVHEEASEEDLNDKFADFGEIKNLHLNLDRRTGYVKGYALIEYPTLDEARAAIDG 101
+
+Query: 79  LNGYQL 84
+            +  +L
+Sbjct: 102 AHNTKL 107
+
+
+>B0510_8402T1 pep:known supercontig:B05.10_v2:Supercontig_1.32:81135:82170:1
+           gene:B0510_8402 transcript:B0510_8402T1
+           description:"Eukaryotic translation initiation factor 3
+           subunit G"
+          Length = 288
+
+ Score = 41.6 bits (96), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 18/67 (26%), Positives = 36/67 (53%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           E+++ D+    G V  + +  D +TG +KG+AFI F++   +A A   ++GY      L+
+Sbjct: 221 EQELRDMFERFGRVTRVFLAKDRETGLAKGFAFISFQERSDAAKACEKMDGYGFKHLILR 280
+
+Query: 91  CGYSSNS 97
+             ++  +
+Sbjct: 281 VEFAKKA 287
+
+
+>B0510_2239T1 pep:novel supercontig:B05.10_v2:Supercontig_1.4:1340696:1342035:1
+           gene:B0510_2239 transcript:B0510_2239T1 description:""
+          Length = 429
+
+ Score = 41.6 bits (96), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 21/73 (28%), Positives = 39/73 (53%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VVY+G IP+   E ++    S  G ++ +++  + +TG SK YA+I+F     +    + 
+Sbjct: 138 VVYIGCIPHGFYEAEMKAYFSQFGDILKIRLSRNRRTGASKHYAWIQFASRGVAEIVSKT 197
+
+Query: 79  LNGYQLGSRFLKC 91
+           ++ Y L +  LK 
+Sbjct: 198 MDKYLLFNHILKV 210
+
+
+>B0510_8354T1 pep:novel supercontig:B05.10_v2:Supercontig_1.31:353349:354333:1
+          gene:B0510_8354 transcript:B0510_8354T1 description:""
+          Length = 252
+
+ Score = 38.9 bits (89), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 48/96 (50%), Gaps = 7/96 (7%)
+
+Query: 5  SGVNAGVQNNPPSRVVYLG----SIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+          S  NA   + PP+  +Y+     SI      E + +L S  G ++ +    +    ++KG
+Sbjct: 2  STTNAPSGSPPPNATLYVNNLEESIKPAALIEALTELFSEYGTILEIVAKTNL---KAKG 58
+
+Query: 61 YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+           AFI F D+ES+  A+ ++ G++L  + ++  Y+  
+Sbjct: 59 QAFIVFEDVESATKAIEDIQGFELFGKEMRIAYAKT 94
+
+
+>B0510_7359T1 pep:novel supercontig:B05.10_v2:Supercontig_1.24:458282:459944:-1
+           gene:B0510_7359 transcript:B0510_7359T1 description:""
+          Length = 304
+
+ Score = 38.9 bits (89), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 29/50 (58%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           SR +++G++ Y  + E I     + G +  + ++ D  TG  KGYA++EF
+Sbjct: 175 SRSIFVGNVDYSASPEDIQAHFQSCGSINRVTILLDKFTGHPKGYAYVEF 224
+
+
+>B0510_5226T1 pep:novel supercontig:B05.10_v2:Supercontig_1.14:195118:196633:1
+           gene:B0510_5226 transcript:B0510_5226T1 description:""
+          Length = 459
+
+ Score = 38.9 bits (89), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/83 (25%), Positives = 42/83 (50%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+            PP  V+++  +    T+E +  + S  G +++ +++ D +TG S  YAFIE+ D +S  
+Sbjct: 244 KPPENVLFVCKLNPVTTDEDLELIFSRFGKILSCEVIRDKRTGDSLQYAFIEYEDEKSCE 303
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYSSN 96
+            A   + G  +    +   +S +
+Sbjct: 304 QAYFKMQGVLIDDHRIHVDFSQS 326
+
+
+>B0510_2461T1 pep:novel supercontig:B05.10_v2:Supercontig_1.5:420736:422003:1
+           gene:B0510_2461 transcript:B0510_2461T1 description:""
+          Length = 396
+
+ Score = 38.5 bits (88), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 39/82 (47%), Gaps = 1/82 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNV-GPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           R +Y+G++ YD T E I  +  +V      + M  D  T R+ GY F+ F   + +  A+
+Sbjct: 75  RRIYVGNLSYDTTPEDIETIFQDVPRESRTVHMSIDSMTKRNPGYCFVTFTTKDMAEEAL 134
+
+Query: 77  RNLNGYQLGSRFLKCGYSSNSD 98
+              +G +  +R L+      SD
+Sbjct: 135 TRYDGQEFKNRTLRVKPGVRSD 156
+
+
+>B0510_3730T1 pep:novel supercontig:B05.10_v2:Supercontig_1.8:763445:764762:1
+           gene:B0510_3730 transcript:B0510_3730T1 description:""
+          Length = 380
+
+ Score = 38.1 bits (87), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 36/68 (52%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           E+ + D  S  G +I+   +   ++  SKGY F+ + + E+S  A+ N+NG  L ++ + 
+Sbjct: 114 EKTLYDTFSRFGSLISPPKIARDESSLSKGYGFVSYANFEASDDAIANMNGQYLMNKDIS 173
+
+Query: 91  CGYSSNSD 98
+             Y+   D
+Sbjct: 174 VQYAYKKD 181
+
+
+
+ Score = 36.2 bits (82), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 39/77 (50%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VY+G+I    T+  + +L    G ++N+ +  D  T   +GY F+EF   E +  A R 
+Sbjct: 14 TVYIGNIDERVTDSLVWELMLQAGRIVNVHLPKDRVTQNHQGYGFVEFISEEDAEYAARI 73
+
+Query: 79 LNGYQLGSRFLKCGYSS 95
+          +N  +L  + ++   +S
+Sbjct: 74 MNQVRLFGKPIRVNKAS 90
+
+
+>B0510_6070T1 pep:novel supercontig:B05.10_v2:Supercontig_1.17:660719:661424:1
+           gene:B0510_6070 transcript:B0510_6070T1 description:""
+          Length = 181
+
+ Score = 36.6 bits (83), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 37/72 (51%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            +Y+G++ +  TEEQI +L +  G +  L M  D       G+ F+E+   + +   ++ 
+Sbjct: 54  TLYVGNLSFYTTEEQIHELFAKCGEIKRLIMGLDRFNKTPCGFCFVEYYTHQDALDCMKY 113
+
+Query: 79  LNGYQLGSRFLK 90
+           + G +L  R ++
+Sbjct: 114 IGGTKLDERIIR 125
+
+
+>B0510_7403T1 pep:novel supercontig:B05.10_v2:Supercontig_1.25:26668:29427:-1
+           gene:B0510_7403 transcript:B0510_7403T1 description:""
+          Length = 674
+
+ Score = 37.0 bits (84), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 42/78 (53%), Gaps = 7/78 (8%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMM-----FDPQTGRSKGYAFIEFRDLESS 72
+           R +++G++P   +E+QI  +  + G + ++ +      F+P+      +AF+EF+   + 
+Sbjct: 413 RSIFVGNLPLGTSEQQIRGIFEHYGDIQDISLRESASKFEPE--EKFAFAFVEFKSPMAV 470
+
+Query: 73  ASAVRNLNGYQLGSRFLK 90
+            +AV   NG+  G + L+
+Sbjct: 471 VNAVNAKNGFTFGGKSLR 488
+
+
+>B0510_3888T1 pep:novel supercontig:B05.10_v2:Supercontig_1.9:289076:290206:-1
+           gene:B0510_3888 transcript:B0510_3888T1 description:""
+          Length = 376
+
+ Score = 36.6 bits (83), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 37/68 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G++  + T+E +    S    +   +++ D +T +SKGY F+ F D +    A R++
+Sbjct: 245 LFVGNLAGEVTDESLHKAFSRWTSLQKARVIRDKRTTKSKGYGFVSFSDGDDFFQAARDM 304
+
+Query: 80  NGYQLGSR 87
+            G  +GS 
+Sbjct: 305 QGKYIGSH 312
+
+
+>B0510_4273T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:621488:624053:-1
+           gene:B0510_4273 transcript:B0510_4273T1 description:""
+          Length = 738
+
+ Score = 37.0 bits (84), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 35/58 (60%), Gaps = 3/58 (5%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQI-LDLCSN--VGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           PP+R +    +P D T+E I  +L +N  V  V  ++++ D +TG S+G+AF +F  L
+Sbjct: 121 PPNRTIIFEGLPLDFTQEDISKELQTNFKVEGVEEIRLIKDKKTGISRGFAFAQFYTL 178
+
+
+>B0510_6123T1 pep:novel supercontig:B05.10_v2:Supercontig_1.17:879136:881607:1
+           gene:B0510_6123 transcript:B0510_6123T1 description:""
+          Length = 823
+
+ Score = 36.6 bits (83), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 29/87 (33%), Positives = 47/87 (54%), Gaps = 9/87 (10%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           NN  +R VYLG+I  + T E+I ++    G + +++ + D      K   F+ F D  S+
+Sbjct: 414 NNLGNRTVYLGNIHPETTIEEICNVVRG-GLLHHIRYIPD------KHICFVTFIDPTSA 466
+
+Query: 73  AS--AVRNLNGYQLGSRFLKCGYSSNS 97
+           AS  A+ NL G  + +R LK G+  +S
+Sbjct: 467 ASFYALSNLQGLMIHNRRLKIGWGKHS 493
+
+
+
+ Score = 34.7 bits (78), Expect = 0.030,   Method: Compositional matrix adjust.
+ Identities = 20/69 (28%), Positives = 36/69 (52%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ +  SR VYLG++  + TE+++ +     GP+  +K++      R K   F+ F  + 
+Sbjct: 278 VQQSGASRNVYLGNLGEEVTEDELREDLGKFGPIDTVKIV------REKAIGFVHFLSIG 331
+
+Query: 71  SSASAVRNL 79
+           ++  AV  L
+Sbjct: 332 NAIKAVSQL 340
+
+
+
+ Score = 31.2 bits (69), Expect = 0.42,   Method: Compositional matrix adjust.
+ Identities = 20/56 (35%), Positives = 32/56 (57%), Gaps = 7/56 (12%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           SR VYLG+IP + + E+IL    + G + +++++ D      K  AFI F D  S+
+Sbjct: 193 SRTVYLGNIPPETSAEEILGHVRS-GQIESVRLLPD------KNCAFISFLDGSSA 241
+
+
+
+ Score = 28.1 bits (61), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 35/72 (48%), Gaps = 6/72 (8%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           SR VY+G++    TEE++    S  G +  +  +      R K  AF+ F ++ ++  A+
+Sbjct: 509 SRNVYIGNLDESWTEERLRQDFSEYGEIELVNTL------REKSCAFVNFTNIANAIKAI 562
+
+Query: 77  RNLNGYQLGSRF 88
+             + G +   RF
+Sbjct: 563 EAIRGKEEYRRF 574
+
+
+>B0510_2906T1 pep:novel supercontig:B05.10_v2:Supercontig_1.6:396214:398109:1
+           gene:B0510_2906 transcript:B0510_2906T1 description:""
+          Length = 543
+
+ Score = 35.4 bits (80), Expect = 0.017,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 37/77 (48%), Gaps = 5/77 (6%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           ++NN   R VY+  +  +  +E +    +  G V   K + D  TG  KG+ F ++ D+ 
+Sbjct: 207 IKNN---RNVYIRGLHPNTDDETLAQYAARFGKVETSKAIIDTATGACKGFGFAKYFDVR 263
+
+Query: 71  SSASAVRNL--NGYQLG 85
+            S   +R     GY++G
+Sbjct: 264 DSEMCIRGFWELGYEVG 280
+
+
+>B0510_6433T1 pep:novel supercontig:B05.10_v2:Supercontig_1.19:227282:228838:-1
+           gene:B0510_6433 transcript:B0510_6433T1 description:""
+          Length = 518
+
+ Score = 34.7 bits (78), Expect = 0.029,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 36/80 (45%), Gaps = 22/80 (27%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTG------RSKGYA---FI 64
+           NPP   +Y+G++P D +E++             LK MF  Q G      R+K      F+
+Sbjct: 318 NPPCNTLYVGNLPIDTSEDE-------------LKSMFSKQRGYKRLCFRTKQNGPMCFV 364
+
+Query: 65  EFRDLESSASAVRNLNGYQL 84
+           EF D   +  A+  L G+ L
+Sbjct: 365 EFEDTSFATKALHELYGHPL 384
+
+
+>B0510_3841T1 pep:novel supercontig:B05.10_v2:Supercontig_1.9:107197:109259:1
+           gene:B0510_3841 transcript:B0510_3841T1 description:""
+          Length = 630
+
+ Score = 33.9 bits (76), Expect = 0.053,   Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 34/75 (45%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+   +EQ+ ++ SN+G  +     +    G  +G AF  F D   +   +  
+Sbjct: 170 AIVIKNIPFAVKKEQLTEMMSNMGLPLPYAFNYHFDNGVFRGLAFANFTDARETQQVIDA 229
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           LN   L  R L+  Y
+Sbjct: 230 LNHMDLQGRKLRVEY 244
+
+
+>B0510_4152T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:201067:202044:-1
+          gene:B0510_4152 transcript:B0510_4152T1 description:""
+          Length = 197
+
+ Score = 32.3 bits (72), Expect = 0.10,   Method: Compositional matrix adjust.
+ Identities = 12/47 (25%), Positives = 25/47 (53%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+          +++G + +   E  + +  S  G V    ++ D  TGRS+G+ F+ +
+Sbjct: 4  LFIGGLAWHTDENALREKFSEFGTVEEAVVVKDRDTGRSRGFGFVRY 50
+
+
+>B0510_8207T1 pep:novel supercontig:B05.10_v2:Supercontig_1.30:273523:275165:1
+           gene:B0510_8207 transcript:B0510_8207T1 description:""
+          Length = 436
+
+ Score = 31.2 bits (69), Expect = 0.36,   Method: Compositional matrix adjust.
+ Identities = 16/73 (21%), Positives = 34/73 (46%), Gaps = 8/73 (10%)
+
+Query: 27  YDQTEEQILDLCSNVGPVINLKMMFD--------PQTGRSKGYAFIEFRDLESSASAVRN 78
+           YD TE+ +       GP+  ++++ D         +  + +GYAF+ F   +   + + N
+Sbjct: 111 YDATEKDLEREFGRFGPIERIRIVVDTHQHEKPGKKVKKHRGYAFVVFEREKDMRAGLEN 170
+
+Query: 79  LNGYQLGSRFLKC 91
+            +G ++  R +K 
+Sbjct: 171 CDGIRIKDRRIKV 183
+
+
+>B0510_7704T1 pep:novel supercontig:B05.10_v2:Supercontig_1.26:602396:603584:1
+           gene:B0510_7704 transcript:B0510_7704T1 description:""
+          Length = 327
+
+ Score = 30.8 bits (68), Expect = 0.41,   Method: Compositional matrix adjust.
+ Identities = 17/65 (26%), Positives = 33/65 (50%), Gaps = 1/65 (1%)
+
+Query: 3   RQSGVNAGVQNNPPSR-VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGY 61
+           +Q GV+     +  +R +V++G++P+  T   I +  + V P     +       +S+G 
+Sbjct: 164 KQGGVSGDNSESKAARFIVFIGNLPFTATTASIKNHFAAVKPASVRHLTEKGNPSKSRGC 223
+
+Query: 62  AFIEF 66
+           AF+EF
+Sbjct: 224 AFLEF 228
+
+
+>B0510_5767T1 pep:novel supercontig:B05.10_v2:Supercontig_1.16:426309:427486:-1
+           gene:B0510_5767 transcript:B0510_5767T1 description:""
+          Length = 308
+
+ Score = 30.0 bits (66), Expect = 0.59,   Method: Compositional matrix adjust.
+ Identities = 17/59 (28%), Positives = 29/59 (49%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           EE++  L    G V   ++M DP T  S+G+ F++    + + +A   L G  +  R L
+Sbjct: 92  EEEVSRLFEKYGDVEKCQIMRDPHTRESRGFGFVKMITSDQADAAKEGLQGEVIEGRTL 150
+
+
+>B0510_6544T1 pep:novel supercontig:B05.10_v2:Supercontig_1.19:745977:748109:1
+           gene:B0510_6544 transcript:B0510_6544T1 description:""
+          Length = 574
+
+ Score = 30.4 bits (67), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 38/78 (48%), Gaps = 8/78 (10%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDL---CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           P   V+LG++ +D T   + +    C      IN++++ D    + KG+ + EF  LE  
+Sbjct: 77  PPYTVHLGNLSFDATVGDVNEFFVGCE----CINVRIIEDKMEMKPKGFGYAEFGSLEGL 132
+
+Query: 73  ASAVRNLNGYQLGSRFLK 90
+            SA+  LN  Q   R ++
+Sbjct: 133 KSAL-TLNQTQFQGRNIR 149
+
+
+>B0510_1693T1 pep:novel supercontig:B05.10_v2:Supercontig_1.3:1626039:1628817:-1
+           gene:B0510_1693 transcript:B0510_1693T1 description:""
+          Length = 838
+
+ Score = 30.4 bits (67), Expect = 0.61,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 20/32 (62%)
+
+Query: 58  SKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           S G+ FIEFR    + +A++ ++GY L +  L
+Sbjct: 655 SMGFGFIEFRTKSQAQAAIKAMDGYTLDNHKL 686
+
+
+>B0510_7695T1 pep:novel supercontig:B05.10_v2:Supercontig_1.26:581962:583311:-1
+           gene:B0510_7695 transcript:B0510_7695T1 description:""
+          Length = 403
+
+ Score = 30.0 bits (66), Expect = 0.65,   Method: Compositional matrix adjust.
+ Identities = 10/35 (28%), Positives = 23/35 (65%)
+
+Query: 56  GRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           G+SKG A++EF   +++ +  R ++ +  G +++K
+Sbjct: 156 GKSKGQAYVEFTSQQAATAVKRKIDAFGEGHQYVK 190
+
+
+>B0510_9928T1 pep:novel supercontig:B05.10_v2:Supercontig_1.50:90083:90665:-1
+          gene:B0510_9928 transcript:B0510_9928T1 description:""
+          Length = 153
+
+ Score = 28.5 bits (62), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 9/33 (27%), Positives = 20/33 (60%)
+
+Query: 59 KGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+          +G+ ++EF D E +  A+ N++  +L  + +K 
+Sbjct: 53 RGFGYVEFEDPEDTKDAIDNMDQSELFGKVIKV 85
+
+
+>B0510_7323T1 pep:novel supercontig:B05.10_v2:Supercontig_1.24:304697:307771:1
+           gene:B0510_7323 transcript:B0510_7323T1 description:""
+          Length = 1024
+
+ Score = 28.5 bits (62), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 12/38 (31%), Positives = 21/38 (55%)
+
+Query: 202 CPQLSFVTAELLLTNGICKVDDLIPLASRPQEEASATN 239
+           C  L F   E++    +CK  +LIPL ++ Q E+  ++
+Sbjct: 783 CSSLLFAEEEIVALKTLCKSMNLIPLKAKAQMESVKSH 820
+
+
+>B0510_3469T1 pep:novel supercontig:B05.10_v2:Supercontig_1.7:1106251:1108200:1
+           gene:B0510_3469 transcript:B0510_3469T1 description:""
+          Length = 614
+
+ Score = 28.1 bits (61), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 15/52 (28%), Positives = 29/52 (55%), Gaps = 1/52 (1%)
+
+Query: 25  IPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           IP D  EE +       G V +++++ D +T   KG+A+++F D  +  +A+
+Sbjct: 407 IPSD-IEEGLWRQFGKAGEVESVRVIRDEKTRVGKGFAYVQFTDANAVEAAL 457
+
+
+  Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 5,266,216
+  Number of sequences in database:  10,351
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10351
+Number of Hits to DB: 2,529,395
+Number of extensions: 84798
+Number of successful extensions: 253
+Number of sequences better than 10.0: 40
+Number of HSP's gapped: 247
+Number of HSP's successfully gapped: 54
+Length of query: 296
+Length of database: 5,266,216
+Length adjustment: 93
+Effective length of query: 203
+Effective length of database: 4,303,573
+Effective search space: 873625319
+Effective search space used: 873625319
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)
