@@ -1,0 +1,1125 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG01266 pep:novel supercontig:GCA_000204055.1:GL883139:128460:1...    70   5e-14
+EGG08186 pep:novel supercontig:GCA_000204055.1:GL883101:858205:8...    52   8e-09
+EGG08534 pep:novel supercontig:GCA_000204055.1:GL883100:1370300:...    55   1e-08
+EGG09816 pep:novel supercontig:GCA_000204055.1:GL883096:1668754:...    51   3e-08
+EGF98676 pep:novel supercontig:GCA_000204055.1:GL883171:213359:2...    51   2e-07
+EGG12041 pep:novel supercontig:GCA_000204055.1:GL883091:2614231:...    49   7e-07
+EGF99917 pep:novel supercontig:GCA_000204055.1:GL883153:223239:2...    49   1e-06
+EGF97966 pep:novel supercontig:GCA_000204055.1:GL883190:12811:15...    48   2e-06
+EGG12168 pep:novel supercontig:GCA_000204055.1:GL883091:3684274:...    48   2e-06
+EGG12795 pep:novel supercontig:GCA_000204055.1:GL883090:2750688:...    47   3e-06
+EGG06128 pep:novel supercontig:GCA_000204055.1:GL883110:105486:1...    44   5e-06
+EGG02691 pep:novel supercontig:GCA_000204055.1:GL883129:572159:5...    45   1e-05
+EGG09720 pep:novel supercontig:GCA_000204055.1:GL883096:687932:6...    43   2e-05
+EGG07671 pep:novel supercontig:GCA_000204055.1:GL883103:1424691:...    42   6e-05
+EGG09973 pep:novel supercontig:GCA_000204055.1:GL883096:694145:6...    43   8e-05
+EGG07788 pep:novel supercontig:GCA_000204055.1:GL883103:638427:6...    41   1e-04
+EGG09351 pep:novel supercontig:GCA_000204055.1:GL883097:74504:76...    41   2e-04
+EGG01423 pep:novel supercontig:GCA_000204055.1:GL883138:607629:6...    42   2e-04
+EGF99935 pep:novel supercontig:GCA_000204055.1:GL883153:14227:14...    39   2e-04
+EGG07287 pep:novel supercontig:GCA_000204055.1:GL883104:330807:3...    42   2e-04
+EGF99050 pep:novel supercontig:GCA_000204055.1:GL883165:112358:1...    41   2e-04
+EGG09296 pep:novel supercontig:GCA_000204055.1:GL883098:560755:5...    40   3e-04
+EGG06073 pep:novel supercontig:GCA_000204055.1:GL883110:829181:8...    40   4e-04
+EGG11856 pep:novel supercontig:GCA_000204055.1:GL883091:497115:4...    38   4e-04
+EGG10368 pep:novel supercontig:GCA_000204055.1:GL883095:569800:5...    40   6e-04
+EGG00325 pep:novel supercontig:GCA_000204055.1:GL883148:196018:1...    39   7e-04
+EGF99412 pep:novel supercontig:GCA_000204055.1:GL883159:415132:4...    38   0.002
+EGG04583 pep:novel supercontig:GCA_000204055.1:GL883117:307395:3...    37   0.004
+EGG04139 pep:novel supercontig:GCA_000204055.1:GL883120:978123:9...    37   0.004
+EGG11110 pep:novel supercontig:GCA_000204055.1:GL883093:2238543:...    37   0.006
+EGG11009 pep:novel supercontig:GCA_000204055.1:GL883093:2084082:...    37   0.007
+EGG01830 pep:novel supercontig:GCA_000204055.1:GL883135:563066:5...    36   0.012
+EGG01898 pep:novel supercontig:GCA_000204055.1:GL883134:159003:1...    36   0.016
+EGG08714 pep:novel supercontig:GCA_000204055.1:GL883100:193441:1...    35   0.020
+EGG01736 pep:novel supercontig:GCA_000204055.1:GL883136:389983:3...    34   0.047
+EGG06367 pep:novel supercontig:GCA_000204055.1:GL883108:119969:1...    33   0.084
+EGG08059 pep:novel supercontig:GCA_000204055.1:GL883102:701519:7...    31   0.14 
+EGG03031 pep:novel supercontig:GCA_000204055.1:GL883127:364784:3...    32   0.15 
+EGG05783 pep:novel supercontig:GCA_000204055.1:GL883111:697672:7...    32   0.21 
+EGG05951 pep:novel supercontig:GCA_000204055.1:GL883110:45004:45...    29   0.51 
+EGG07717 pep:novel supercontig:GCA_000204055.1:GL883103:1398628:...    30   0.88 
+EGG12063 pep:novel supercontig:GCA_000204055.1:GL883091:2918389:...    30   1.2  
+EGG12372 pep:novel supercontig:GCA_000204055.1:GL883091:1608556:...    29   1.6  
+EGG07816 pep:novel supercontig:GCA_000204055.1:GL883103:386615:3...    28   2.0  
+EGG09996 pep:novel supercontig:GCA_000204055.1:GL883096:414147:4...    29   2.1  
+EGF99245 pep:novel supercontig:GCA_000204055.1:GL883162:63964:67...    29   2.2  
+EGG07803 pep:novel supercontig:GCA_000204055.1:GL883103:530531:5...    28   2.3  
+EGG02068 pep:novel supercontig:GCA_000204055.1:GL883133:516601:5...    28   4.7  
+EGG08913 pep:novel supercontig:GCA_000204055.1:GL883099:1335506:...    27   6.4  
+EGG09543 pep:novel supercontig:GCA_000204055.1:GL883097:1588721:...    27   10.0 
+
+>EGG01266 pep:novel supercontig:GCA_000204055.1:GL883139:128460:130387:1
+          gene:MELLADRAFT_73006 transcript:EGG01266
+          description:"hypothetical protein"
+          Length = 357
+
+ Score = 70.5 bits (171), Expect = 5e-14,   Method: Compositional matrix adjust.
+ Identities = 28/81 (34%), Positives = 57/81 (70%), Gaps = 3/81 (3%)
+
+Query: 17 SRVVYLGSIPY---DQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+          +++V++G++PY   D+ ++Q+ D+ S VG V N ++ F+ +TG+ +G+ F E+ D +++ 
+Sbjct: 5  TKIVFVGNLPYSHSDELQKQLEDVFSTVGLVSNFRIAFEKETGKPRGFGFCEYFDTQTAE 64
+
+Query: 74 SAVRNLNGYQLGSRFLKCGYS 94
+          SA+RNL G ++G R L+  ++
+Sbjct: 65 SAIRNLQGIEIGGRALRLDFA 85
+
+
+>EGG08186 pep:novel supercontig:GCA_000204055.1:GL883101:858205:858585:1
+          gene:MELLADRAFT_35044 transcript:EGG08186
+          description:"hypothetical protein"
+          Length = 84
+
+ Score = 51.6 bits (122), Expect = 8e-09,   Method: Composition-based stats.
+ Identities = 25/76 (32%), Positives = 45/76 (59%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+          V+ +  +  + TEE + D  S+ G V+NL M  D +TG  KGYA +E+   + + +A+R 
+Sbjct: 6  VITVTGVHEEATEEDLQDKFSDYGSVMNLAMPLDRRTGYVKGYALVEYETRKEAETAIRE 65
+
+Query: 79 LNGYQLGSRFLKCGYS 94
+           +G +L  + L+C ++
+Sbjct: 66 GSGSKLLDQKLECDFA 81
+
+
+>EGG08534 pep:novel supercontig:GCA_000204055.1:GL883100:1370300:1372954:1
+           gene:MELLADRAFT_84729 transcript:EGG08534
+           description:"hypothetical protein"
+          Length = 649
+
+ Score = 55.1 bits (131), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 22/72 (30%), Positives = 46/72 (63%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+GS+ ++ T++ +  +    G +  + +  D  TG+SKGYAF++F+++  + +A+  +
+Sbjct: 435 LYVGSLNFNLTDDDLRQVFQPFGDIEYVDLHRDQITGKSKGYAFVQFKNMHDAKNAMEKM 494
+
+Query: 80  NGYQLGSRFLKC 91
+           NG+QL  R L+ 
+Sbjct: 495 NGFQLAGRALRV 506
+
+
+
+ Score = 30.8 bits (68), Expect = 0.48,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query: 41  VGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQL 84
+            G V + +++ D  + RSKG  ++EFR+L+S   A+  L G +L
+Sbjct: 330 AGKVRDARVITDRISRRSKGVGYVEFRELDSVQKAL-ALTGTKL 372
+
+
+>EGG09816 pep:novel supercontig:GCA_000204055.1:GL883096:1668754:1669451:1
+           gene:MELLADRAFT_29239 transcript:EGG09816
+           description:"hypothetical protein"
+          Length = 150
+
+ Score = 51.2 bits (121), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 41/76 (53%), Gaps = 10/76 (13%)
+
+Query: 1   MNRQSGVNAGVQNNPP--------SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD 52
+           MN Q G   G  NNP         SR VY+G++ Y  T E+I    S+ G +  + ++ D
+Sbjct: 30  MNEQGGGQEG--NNPTEEDREAVDSRSVYVGNVDYGSTAEEIQAHFSSCGTINRITILCD 87
+
+Query: 53  PQTGRSKGYAFIEFRD 68
+             TG+ KGYA+IEF D
+Sbjct: 88  KFTGQPKGYAYIEFSD 103
+
+
+>EGF98676 pep:novel supercontig:GCA_000204055.1:GL883171:213359:215147:-1
+           gene:MELLADRAFT_45973 transcript:EGF98676
+           description:"hypothetical protein"
+          Length = 403
+
+ Score = 50.8 bits (120), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 29/86 (33%), Positives = 46/86 (53%), Gaps = 3/86 (3%)
+
+Query: 6   GVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIE 65
+           G +A + N   + VVYLG IP+   EE++    S  G +  +++  + +TG+SK Y FIE
+Sbjct: 189 GDDASIDN---TGVVYLGRIPHGFHEEEMKGYFSQFGEIRRVRLSRNRRTGKSKHYGFIE 245
+
+Query: 66  FRDLESSASAVRNLNGYQLGSRFLKC 91
+           F+  E +      L+ Y L    L+C
+Sbjct: 246 FKHKEVAEIVAETLHNYLLCGNMLQC 271
+
+
+>EGG12041 pep:novel supercontig:GCA_000204055.1:GL883091:2614231:2616795:1
+           gene:MELLADRAFT_41759 transcript:EGG12041
+           description:"hypothetical protein"
+          Length = 397
+
+ Score = 49.3 bits (116), Expect = 7e-07,   Method: Compositional matrix adjust.
+ Identities = 23/72 (31%), Positives = 45/72 (62%), Gaps = 2/72 (2%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGR--SKGYAFIEFRDLESSASAVR 77
+           +++G +P   T++Q+++L  + G + +  ++ D  +G   SKG+AF E+ D + +  A +
+Sbjct: 153 IFIGGLPSYLTDDQVMELLKSFGELKSFNLVKDTSSGGQVSKGFAFCEYVDSDLTDIACQ 212
+
+Query: 78  NLNGYQLGSRFL 89
+            LNG +LG R+L
+Sbjct: 213 GLNGMELGDRYL 224
+
+
+
+ Score = 34.3 bits (77), Expect = 0.039,   Method: Compositional matrix adjust.
+ Identities = 24/81 (29%), Positives = 34/81 (41%), Gaps = 12/81 (14%)
+
+Query: 27  YDQTEEQILDLCSNVG---------PVINLKMMFDPQTGRS---KGYAFIEFRDLESSAS 74
+           Y +  E I + CS  G         P  N K   D ++  S    G  FI+F  +E  A 
+Sbjct: 287 YKEILEDIKEECSKYGQIEDVKIPRPAKNEKGRMDLKSSESIEGLGKVFIKFERIEDCAQ 346
+
+Query: 75  AVRNLNGYQLGSRFLKCGYSS 95
+           A+  + G Q   R + C Y+S
+Sbjct: 347 ALSAIAGRQFAGRVIICAYAS 367
+
+
+>EGF99917 pep:novel supercontig:GCA_000204055.1:GL883153:223239:226612:-1
+           gene:MELLADRAFT_118186 transcript:EGF99917
+           description:"hypothetical protein"
+          Length = 667
+
+ Score = 48.5 bits (114), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 21/81 (25%), Positives = 47/81 (58%), Gaps = 2/81 (2%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P+  +++G++P+  T++ + +  S  G + ++++  DP+T R KG+ ++EF   E++ +A
+Sbjct: 499 PTTTLFIGNLPFSATQDSVYEAFSEYGDINSVRLPTDPETERIKGFGYVEFATQEAATAA 558
+
+Query: 76  VR--NLNGYQLGSRFLKCGYS 94
+           V     +G  +  R  +  YS
+Sbjct: 559 VNVGRGDGIYIDQRQARLDYS 579
+
+
+
+ Score = 37.0 bits (84), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 16/76 (21%), Positives = 41/76 (53%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G + ++  ++ +       G VI+ +++ +  T RSKG+ +++F   E +  AV  +
+Sbjct: 403 LFVGGLSWNVDDDWLKKEFEKFGEVISARVITERGTERSKGFGYVDFASPEDARKAVEAM 462
+
+Query: 80  NGYQLGSRFLKCGYSS 95
+            G ++  R +   +S+
+Sbjct: 463 AGTEIDGRTINVDFSA 478
+
+
+>EGF97966 pep:novel supercontig:GCA_000204055.1:GL883190:12811:15716:1
+           gene:MELLADRAFT_84111 transcript:EGF97966
+           description:"hypothetical protein"
+          Length = 695
+
+ Score = 48.1 bits (113), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 45/79 (56%), Gaps = 7/79 (8%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAF-------IEFRDLESS 72
+           +Y+GS+ ++ T++ +  +    G +  + +  D  TG+SKGYAF       I F+++  +
+Sbjct: 435 LYVGSLNFNLTDDDLRQVFQPFGDIEYVDLHRDQITGKSKGYAFTLLTCVNIRFKNMHDA 494
+
+Query: 73  ASAVRNLNGYQLGSRFLKC 91
+            +A+  +NG+QL  R L+ 
+Sbjct: 495 KNAMEKMNGFQLAGRALRV 513
+
+
+
+ Score = 31.2 bits (69), Expect = 0.47,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query: 41  VGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQL 84
+            G V + +++ D  + RSKG  ++EFR+L+S   A+  L G +L
+Sbjct: 330 AGKVRDARVITDRISRRSKGVGYVEFRELDSVQKAL-ALTGTKL 372
+
+
+>EGG12168 pep:novel supercontig:GCA_000204055.1:GL883091:3684274:3687560:-1
+           gene:MELLADRAFT_115163 transcript:EGG12168
+           description:"hypothetical protein"
+          Length = 492
+
+ Score = 47.8 bits (112), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 22/74 (29%), Positives = 42/74 (56%), Gaps = 2/74 (2%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P++ +++ ++P+  + E +++L    G V N +++F  + GRSKG   IEF  +E + +A
+Sbjct: 394 PNQQIFVKNLPWSTSNEDLVELFQTTGKVQNAEVIF--EGGRSKGVGVIEFETVEEAETA 451
+
+Query: 76  VRNLNGYQLGSRFL 89
+           +     Y  G R L
+Sbjct: 452 IAKFQSYSYGGRPL 465
+
+
+>EGG12795 pep:novel supercontig:GCA_000204055.1:GL883090:2750688:2753727:1
+           gene:MELLADRAFT_73862 transcript:EGG12795
+           description:"hypothetical protein"
+          Length = 477
+
+ Score = 47.4 bits (111), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 46/79 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           V++G +  +  ++ +    +  G + + ++M+D  +G+S+GY F+ FRD   +  A+  +
+Sbjct: 204 VFVGDLSPEVNDDVLAKAFAAFGSLSDARVMWDMNSGKSRGYGFLAFRDKTDAEQAIATM 263
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+           NG  LGSR ++  +++  +
+Sbjct: 264 NGEWLGSRAIRVNWANQKN 282
+
+
+
+ Score = 39.7 bits (91), Expect = 9e-04,   Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 42/79 (53%), Gaps = 8/79 (10%)
+
+Query: 19  VVYLGS-IPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+            VY G+ +PY  T+  ++ L    G ++ ++M  D      +G+AF++    E++A A+ 
+Sbjct: 335 TVYTGNLVPYC-TQADLIPLFQGFGYIVEIRMQAD------RGFAFVKLDTHENAAMAIV 387
+
+Query: 78  NLNGYQLGSRFLKCGYSSN 96
+           NL G  +  R LKC +  +
+Sbjct: 388 NLTGTPVHGRPLKCSWGKD 406
+
+
+
+ Score = 28.9 bits (63), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 18/67 (26%), Positives = 38/67 (56%), Gaps = 3/67 (4%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDP--QTGRSKGYAFIEFRDLESSASAVR 77
+           +Y+G++    TE  + ++ S  G V  +K++ D   Q G    Y F+E+ ++ S+ +A++
+Sbjct: 110 LYVGNLSPRVTEYMLQEIFSVAGSVQGVKIIPDRNFQHG-GLNYGFVEYYEMRSAETALQ 168
+
+Query: 78  NLNGYQL 84
+            L G ++
+Sbjct: 169 TLGGRKI 175
+
+
+>EGG06128 pep:novel supercontig:GCA_000204055.1:GL883110:105486:106121:-1
+          gene:MELLADRAFT_87443 transcript:EGG06128
+          description:"hypothetical protein"
+          Length = 136
+
+ Score = 44.3 bits (103), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 39/74 (52%)
+
+Query: 18 RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+          + +++G+IP D   EQ+       G + +L +  D QT  ++ +AFI F D  S+  A+ 
+Sbjct: 9  KSIFVGNIPTDIAPEQLQAAFQPFGVITDLHIPPDTQTRTNRNFAFITFSDASSAVDAID 68
+
+Query: 78 NLNGYQLGSRFLKC 91
+          N++   L S  LK 
+Sbjct: 69 NMHLNTLPSHPLKI 82
+
+
+>EGG02691 pep:novel supercontig:GCA_000204055.1:GL883129:572159:572955:-1
+           gene:MELLADRAFT_38424 transcript:EGG02691
+           description:"hypothetical protein"
+          Length = 209
+
+ Score = 44.7 bits (104), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 41/74 (55%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  VY+G++ +  TEEQI +L S + P+  + M  D  +    G+ F+E+ +   +   +
+Sbjct: 43  SSTVYVGNLSFFTTEEQIFELFSKIAPIKRIIMGLDRNSKTPCGFCFVEYYEPIEALGCL 102
+
+Query: 77  RNLNGYQLGSRFLK 90
+           R ++G +L  R ++
+Sbjct: 103 RYISGTKLDERIIR 116
+
+
+>EGG09720 pep:novel supercontig:GCA_000204055.1:GL883096:687932:688611:1
+          gene:MELLADRAFT_95176 transcript:EGG09720
+          description:"hypothetical protein"
+          Length = 122
+
+ Score = 42.7 bits (99), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 20/78 (25%), Positives = 42/78 (53%), Gaps = 3/78 (3%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+          +R++++ ++ Y    E + DL    G +  +++  D +T   +G AF+ + D+  + +A 
+Sbjct: 16 NRILFVKNLNYKTKGEDLYDLFGKYGAIRQIRIGNDAKT---RGTAFVVYEDILDAKNAF 72
+
+Query: 77 RNLNGYQLGSRFLKCGYS 94
+           +LNG+ L  R+L   Y 
+Sbjct: 73 DHLNGFHLQERYLVVLYH 90
+
+
+>EGG07671 pep:novel supercontig:GCA_000204055.1:GL883103:1424691:1426383:1
+          gene:MELLADRAFT_71659 transcript:EGG07671
+          description:"hypothetical protein"
+          Length = 163
+
+ Score = 41.6 bits (96), Expect = 6e-05,   Method: Compositional matrix adjust.
+ Identities = 17/76 (22%), Positives = 42/76 (55%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +++G++ +      +    +  G V++  +M D +TGRS+G+ FI F + + + +A+  L
+Sbjct: 7  LFVGNLAWSTDTNSLTQAFNQYGEVVDAIVMQDRETGRSRGFGFITFSNQDQAQAAIDAL 66
+
+Query: 80 NGYQLGSRFLKCGYSS 95
+          N   +  R ++  +++
+Sbjct: 67 NEADVDGRNIRVNFAT 82
+
+
+>EGG09973 pep:novel supercontig:GCA_000204055.1:GL883096:694145:695962:-1
+           gene:MELLADRAFT_71116 transcript:EGG09973
+           description:"hypothetical protein"
+          Length = 382
+
+ Score = 42.7 bits (99), Expect = 8e-05,   Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 44/80 (55%), Gaps = 1/80 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINL-KMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +++G++  +  E  + D  +  G ++   K+  +P TG+S GY F+ +   ES+ +A+ +
+Sbjct: 102 LFIGNLDVNVDERMLYDTFNTFGTLVQTAKIARNPSTGQSNGYGFVAYESFESADTAIES 161
+
+Query: 79  LNGYQLGSRFLKCGYSSNSD 98
+           +NG  L ++ +   Y+   D
+Sbjct: 162 MNGQFLMNKAITVQYAFKKD 181
+
+
+
+ Score = 35.0 bits (79), Expect = 0.023,   Method: Compositional matrix adjust.
+ Identities = 19/77 (24%), Positives = 39/77 (50%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VY+G++    T+  + +L    GPV+N+ +  D  +   +GY F EF   + +  A + 
+Sbjct: 14 TVYMGNLDERCTDALVWELMLQAGPVVNVHLPKDRVSMSHQGYGFCEFLTEDDAEYACKI 73
+
+Query: 79 LNGYQLGSRFLKCGYSS 95
+          +N  +L  + ++   +S
+Sbjct: 74 MNQIKLYGKPIRVNKAS 90
+
+
+>EGG07788 pep:novel supercontig:GCA_000204055.1:GL883103:638427:639674:-1
+           gene:MELLADRAFT_35320 transcript:EGG07788
+           description:"hypothetical protein"
+          Length = 203
+
+ Score = 41.2 bits (95), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 38/72 (52%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P R +++  + ++ TE  +       GP+  L ++ +  TG+S+GYAFI F   +   +A
+Sbjct: 106 PYRTLFISRLSFEATESDLKKEFDMYGPIEKLLIVKNKLTGKSRGYAFILFEREKDMKAA 165
+
+Query: 76  VRNLNGYQLGSR 87
+            ++  G ++  R
+Sbjct: 166 YKDAEGLKIKGR 177
+
+
+>EGG09351 pep:novel supercontig:GCA_000204055.1:GL883097:74504:76905:1
+           gene:MELLADRAFT_42536 transcript:EGG09351
+           description:"hypothetical protein"
+          Length = 304
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 39/67 (58%), Gaps = 1/67 (1%)
+
+Query: 29  QTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           +T E  L+   S  G V  + +++D ++ RS+G+ F+  RD++ +++ +  LNG  L  R
+Sbjct: 71  RTRESDLEAEFSRYGKVEKVVIVYDQRSDRSRGFGFVTMRDVQDASTCISELNGLDLHGR 130
+
+Query: 88  FLKCGYS 94
+            ++  YS
+Sbjct: 131 PIRVDYS 137
+
+
+>EGG01423 pep:novel supercontig:GCA_000204055.1:GL883138:607629:609926:1
+           gene:MELLADRAFT_39080 transcript:EGG01423
+           description:"hypothetical protein"
+          Length = 701
+
+ Score = 41.6 bits (96), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 34/59 (57%), Gaps = 1/59 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+           + D  +  G +++ K+  D  TG SKGY F+ +   ES+ +A++ +NG QL  + +  G
+Sbjct: 161 LHDTFAAFGDILSCKVAMD-STGASKGYGFVHYVTAESAEAAIKGVNGMQLNDKVVFVG 218
+
+
+
+ Score = 39.7 bits (91), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 37/65 (56%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P+  +Y+G +    TE  + ++ S +GPV ++++  D  T RS GYA++ + +   +  A
+Sbjct: 55  PNTSLYVGELDPTVTEAMLYEIFSMIGPVSSIRVCRDAVTRRSLGYAYVNYLNAADAERA 114
+
+Query: 76  VRNLN 80
+           +  LN
+Sbjct: 115 LEQLN 119
+
+
+
+ Score = 33.9 bits (76), Expect = 0.061,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 30/58 (51%), Gaps = 1/58 (1%)
+
+Query: 42  GPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+           G + + K+M D   G S+G+ F+ F   + +  AV  +NG  LGS+ L    +   D+
+Sbjct: 365 GTITSCKVMKD-DKGVSRGFGFVCFSAPDEATKAVAEMNGKMLGSKPLYVSLAQRKDV 421
+
+
+>EGF99935 pep:novel supercontig:GCA_000204055.1:GL883153:14227:14715:-1
+          gene:MELLADRAFT_93976 transcript:EGF99935
+          description:"hypothetical protein"
+          Length = 92
+
+ Score = 38.9 bits (89), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 17/55 (30%), Positives = 31/55 (56%)
+
+Query: 10 GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFI 64
+          G  N  P R++++GS+ +      +    +  G V++  +M D +TGRS+G+ FI
+Sbjct: 10 GKHNLQPGRLLFVGSVAWYTDTNSLTQALNQFGKVVDSIVMQDRKTGRSRGFGFI 64
+
+
+>EGG07287 pep:novel supercontig:GCA_000204055.1:GL883104:330807:334375:1
+           gene:MELLADRAFT_85661 transcript:EGG07287
+           description:"hypothetical protein"
+          Length = 777
+
+ Score = 41.6 bits (96), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 24/98 (24%), Positives = 46/98 (46%), Gaps = 19/98 (19%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGR----SKGYAFIEFRDL 69
+           +P +  V++G++P   +E+ +   C   GP+++LK+M+ P++G       GY  +  R  
+Sbjct: 224 DPLTTNVHVGNLPGTISEQTLGAFCVKWGPIVSLKIMW-PRSGSDNIGGAGYGMVAMRQT 282
+
+Query: 70  ESSA--------------SAVRNLNGYQLGSRFLKCGY 93
+           +S                 A R L+G+  G   L+ G+
+Sbjct: 283 KSGGLNGFVSYMRRSDAERACRELDGFDWGGNILRTGW 320
+
+
+>EGF99050 pep:novel supercontig:GCA_000204055.1:GL883165:112358:114968:-1
+          gene:MELLADRAFT_79554 transcript:EGF99050
+          description:"hypothetical protein"
+          Length = 259
+
+ Score = 40.8 bits (94), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 38/75 (50%), Gaps = 9/75 (12%)
+
+Query: 16 PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+          P R +Y+G IP + T   I       G ++++++M         G+ F+E+  +  +  A
+Sbjct: 4  PGRRLYIGRIPQEATRTDIEKYFGRYGTLLDVRIM--------AGFGFLEYDQVRDAEDA 55
+
+Query: 76 VRNLNGYQ-LGSRFL 89
+          V +LNG + +G R +
+Sbjct: 56 VHDLNGREFMGDRLI 70
+
+
+>EGG09296 pep:novel supercontig:GCA_000204055.1:GL883098:560755:563235:-1
+           gene:MELLADRAFT_71269 transcript:EGG09296
+           description:"hypothetical protein"
+          Length = 218
+
+ Score = 40.4 bits (93), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 22/62 (35%), Positives = 37/62 (59%), Gaps = 2/62 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSN-VGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           + + ++P D TE QI +L S  VGPV+ + + +D   G+SKG A +EF+  + +  A + 
+Sbjct: 74  IIVSNLPTDVTENQIRELFSTTVGPVMKVALSYD-NRGQSKGTAQVEFKRNDDATKAFQQ 132
+
+Query: 79  LN 80
+            N
+Sbjct: 133 YN 134
+
+
+>EGG06073 pep:novel supercontig:GCA_000204055.1:GL883110:829181:830675:-1
+           gene:MELLADRAFT_48578 transcript:EGG06073
+           description:"hypothetical protein"
+          Length = 300
+
+ Score = 40.4 bits (93), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 33/67 (49%)
+
+Query: 28  DQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           D  E  + DL +  G +  + +  D +TG  KG+AF+ F D   +  A++ +NG      
+Sbjct: 225 DVQENDLWDLFARFGKISRIYVGKDQETGLCKGFAFVSFEDRLEAERAMKKINGLPYDHL 284
+
+Query: 88  FLKCGYS 94
+            L C +S
+Sbjct: 285 ILGCMWS 291
+
+
+>EGG11856 pep:novel supercontig:GCA_000204055.1:GL883091:497115:497366:1
+          gene:MELLADRAFT_32734 transcript:EGG11856
+          description:"hypothetical protein"
+          Length = 84
+
+ Score = 37.7 bits (86), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 21/75 (28%), Positives = 41/75 (54%), Gaps = 5/75 (6%)
+
+Query: 25 IPYDQTEEQILDLCSNVGPVI--NLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGY 82
+          +P++   + + DL  N G ++  ++ M  D   GRS+G+  + F  ++ + +AVR  +G+
+Sbjct: 1  LPFNCQWQDLKDLFRNAGNILRADVAMGID---GRSRGFGTVLFATMDDAKNAVRMYDGH 57
+
+Query: 83 QLGSRFLKCGYSSNS 97
+          +L  R LK  +   S
+Sbjct: 58 ELNGRILKVHFDKFS 72
+
+
+>EGG10368 pep:novel supercontig:GCA_000204055.1:GL883095:569800:573125:-1
+           gene:MELLADRAFT_47180 transcript:EGG10368
+           description:"hypothetical protein"
+          Length = 633
+
+ Score = 40.0 bits (92), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 38/69 (55%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ N  +R VYLG++  ++TE+ + D  S  GP+  +K++      R K   FI F  + 
+Sbjct: 255 VQQNGATRNVYLGNLEENETEQSLRDDLSRFGPIDQVKIV------RDKNIGFIHFLSIA 308
+
+Query: 71  SSASAVRNL 79
+           ++   V++L
+Sbjct: 309 TAIKVVQSL 317
+
+
+
+ Score = 30.8 bits (68), Expect = 0.49,   Method: Compositional matrix adjust.
+ Identities = 28/99 (28%), Positives = 46/99 (46%), Gaps = 10/99 (10%)
+
+Query: 2   NRQSGVNAG-VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+           N  +G+N    Q  P +R VYLG+I  + T E+I +     G +  ++ + D      K 
+Sbjct: 367 NTLAGINLDPTQVQPGNRTVYLGNIHPETTLEEICNTIRG-GILQQIRYIQD------KH 419
+
+Query: 61  YAFIEFRDLESSAS--AVRNLNGYQLGSRFLKCGYSSNS 97
+            AF+ F D  ++ +        G  L +R LK G+  +S
+Sbjct: 420 IAFVTFVDSNAAVAFFHTATFQGIALHNRRLKVGWGKHS 458
+
+
+
+ Score = 30.4 bits (67), Expect = 0.68,   Method: Compositional matrix adjust.
+ Identities = 24/84 (28%), Positives = 43/84 (51%), Gaps = 9/84 (10%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R VY+G++P D   +++L      GP+  +K++  P+    K  AFI F D  ++A+   
+Sbjct: 171 RTVYVGNLPADAAVDELLSQV-RFGPIDTVKVL--PE----KNCAFISFLDPTTAAAFHS 223
+
+Query: 78  N--LNGYQLGSRFLKCGYSSNSDI 99
+           +  +   QL  + LK G+   S +
+Sbjct: 224 DALMRKVQLHGQELKIGWGKPSAV 247
+
+
+>EGG00325 pep:novel supercontig:GCA_000204055.1:GL883148:196018:196770:1
+          gene:MELLADRAFT_28015 transcript:EGG00325
+          description:"hypothetical protein"
+          Length = 223
+
+ Score = 39.3 bits (90), Expect = 7e-04,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 36/68 (52%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +Y+G++  D   + +L++ S   PVIN ++  D  T + +GY ++ +   E +  A+R  
+Sbjct: 2  LYVGNLTDDVNVQDLLNIFSQASPVINARVCIDRITQKPRGYGYVSYATPEEADLALREF 61
+
+Query: 80 NGYQLGSR 87
+          N   L  +
+Sbjct: 62 NHINLKGK 69
+
+
+
+ Score = 39.3 bits (90), Expect = 7e-04,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 37/70 (52%), Gaps = 1/70 (1%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           P    +++ ++P   T   + D     G +++ K+ FD Q G SKGY +I+F + + S  
+Sbjct: 85  PSEANLFIKNLPKSFTPINLHDSFERFGKILSSKISFD-QLGNSKGYGYIQFENPKDSNE 143
+
+Query: 75  AVRNLNGYQL 84
+           A+ N N +Q 
+Sbjct: 144 AILNSNDFQF 153
+
+
+>EGF99412 pep:novel supercontig:GCA_000204055.1:GL883159:415132:416664:1
+           gene:MELLADRAFT_40307 transcript:EGF99412
+           description:"hypothetical protein"
+          Length = 252
+
+ Score = 38.1 bits (87), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 32/62 (51%), Gaps = 6/62 (9%)
+
+Query: 33  QILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+           Q+  +   V  V+ LK       G+ +G AFI FRDL+ S  A+R L+G     R LK  
+Sbjct: 46  QLFSVHGKVLDVVALK------GGQMRGQAFIVFRDLQGSTQAMRYLDGTLFLERELKIK 99
+
+Query: 93  YS 94
+           Y+
+Sbjct: 100 YA 101
+
+
+>EGG04583 pep:novel supercontig:GCA_000204055.1:GL883117:307395:310730:1
+           gene:MELLADRAFT_117005 transcript:EGG04583
+           description:"hypothetical protein"
+          Length = 667
+
+ Score = 37.4 bits (85), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 30/48 (62%), Gaps = 1/48 (2%)
+
+Query: 44  VINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+           + +++M+ D  TG+ KGY +IEF   E+   A+ + +G ++G R ++ 
+Sbjct: 117 ITSIRMLTDSATGKPKGYGYIEFSKREALVEAL-DKSGREVGGRVIRV 163
+
+
+>EGG04139 pep:novel supercontig:GCA_000204055.1:GL883120:978123:980488:-1
+           gene:MELLADRAFT_78422 transcript:EGG04139
+           description:"hypothetical protein"
+          Length = 325
+
+ Score = 37.0 bits (84), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 41/84 (48%), Gaps = 3/84 (3%)
+
+Query: 16  PSRVV-YLGSIPYDQTEEQILDL--CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           PS+V+ ++ ++P+  T+E + D      V     ++  F    G+SKG+ F+EF +  + 
+Sbjct: 221 PSKVLLFVANLPFSLTDEGLKDFFNAYEVTSAHVVRRKFGQSAGKSKGFGFVEFANEAAQ 280
+
+Query: 73  ASAVRNLNGYQLGSRFLKCGYSSN 96
+             A+    G ++  R L    + N
+Sbjct: 281 QKALEESQGKEMNGRELHIKVAVN 304
+
+
+>EGG11110 pep:novel supercontig:GCA_000204055.1:GL883093:2238543:2240212:-1
+           gene:MELLADRAFT_70923 transcript:EGG11110
+           description:"hypothetical protein"
+          Length = 438
+
+ Score = 37.0 bits (84), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 40/80 (50%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           PP  ++++  +      E +  + S  G +++ +++ D +TG S  YAFIEF   E +  
+Sbjct: 246 PPENILFVCKLNSITRSEDLELIFSRFGTILSCEVIKDGKTGDSLQYAFIEFDQREDAER 305
+
+Query: 75  AVRNLNGYQLGSRFLKCGYS 94
+           A   ++G  +  R +   +S
+Sbjct: 306 AYFKMDGVLIDDRRIHVDFS 325
+
+
+>EGG11009 pep:novel supercontig:GCA_000204055.1:GL883093:2084082:2085597:1
+           gene:MELLADRAFT_115371 transcript:EGG11009
+           description:"hypothetical protein"
+          Length = 424
+
+ Score = 36.6 bits (83), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 23/94 (24%), Positives = 43/94 (45%), Gaps = 13/94 (13%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDL--CSNVGPVINLKMMFDP-----------QTGRSKGY 61
+           P    ++LG++ ++ T E I+     ++     N     DP            +G+ KG+
+Sbjct: 211 PAVACLFLGNLSFESTSESIMKHFKSNHQTSTSNQAQADDPAIRQIRLGTFEDSGKCKGF 270
+
+Query: 62  AFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSS 95
+            F++FRD  S+  A+ N   ++   R +K  Y+S
+Sbjct: 271 GFLDFRDTHSATQALMNKKNHRYLGRQIKVEYAS 304
+
+
+
+ Score = 27.7 bits (60), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 16/75 (21%), Positives = 32/75 (42%), Gaps = 5/75 (6%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQT-----GRSKGYAFIEFRDLESSAS 74
+           +++G++ +  T+  +    S+ G +        P T      R+ GYA+I+F   E    
+Sbjct: 95  IWVGNLLFTTTQSDLETFFSSCGRITRFNFPTKPHTPIKPNQRNPGYAYIDFESEEGMKK 154
+
+Query: 75  AVRNLNGYQLGSRFL 89
+           A++       G + L
+Sbjct: 155 ALQKTESLLGGRKLL 169
+
+
+>EGG01830 pep:novel supercontig:GCA_000204055.1:GL883135:563066:565250:-1
+          gene:MELLADRAFT_72916 transcript:EGG01830
+          description:"hypothetical protein"
+          Length = 363
+
+ Score = 35.8 bits (81), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 18/61 (29%), Positives = 32/61 (52%), Gaps = 1/61 (1%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+G++PY     ++ D     G V   +++  P  GRSKG   +EF   + +  A+ +L
+Sbjct: 36 VYVGNLPYAVGWRELKDFMREAGEVSFAEVLMGPD-GRSKGCGVVEFSTADGAQKAIADL 94
+
+Query: 80 N 80
+          +
+Sbjct: 95 S 95
+
+
+
+ Score = 32.0 bits (71), Expect = 0.19,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 39/78 (50%), Gaps = 4/78 (5%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           PS  +++ ++PY      +L L  +      + M+     GRSKG   IE+  LE++ +A
+Sbjct: 274 PSTQIFVNNLPYSTDSATLLSLSPSDAVHAEVMML----AGRSKGMGVIEYASLEAALAA 329
+
+Query: 76  VRNLNGYQLGSRFLKCGY 93
+           +  L G+ +G R L   Y
+Sbjct: 330 LGTLQGHVIGGRPLMAKY 347
+
+
+>EGG01898 pep:novel supercontig:GCA_000204055.1:GL883134:159003:163828:1
+           gene:MELLADRAFT_91734 transcript:EGG01898
+           description:"hypothetical protein"
+          Length = 1071
+
+ Score = 35.8 bits (81), Expect = 0.016,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 38/70 (54%), Gaps = 2/70 (2%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +Y+  +     E  +  L    G +  ++M+ + + G SKG+AF+EF + E+SA A  
+Sbjct: 811 RELYITCLTKFVQEADLRKLFQPFGDIKGVRMILN-EDGHSKGFAFVEF-ETEASAKAAL 868
+
+Query: 78  NLNGYQLGSR 87
+           ++N  +L  R
+Sbjct: 869 SMNNVELKKR 878
+
+
+>EGG08714 pep:novel supercontig:GCA_000204055.1:GL883100:193441:195953:-1
+           gene:MELLADRAFT_115949 transcript:EGG08714
+           description:"hypothetical protein"
+          Length = 571
+
+ Score = 35.4 bits (80), Expect = 0.020,   Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 34/75 (45%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+    EQ+L +  ++         +    G  +G AF  FR    + +AV  
+Sbjct: 238 AIVIKNIPFSVRREQLLAILDDLMIPAPYAFNYHFDNGVFRGLAFANFRSASEADAAVAG 297
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           LNG+ +  R L+  Y
+Sbjct: 298 LNGFDITGRKLRVEY 312
+
+
+>EGG01736 pep:novel supercontig:GCA_000204055.1:GL883136:389983:391832:-1
+           gene:MELLADRAFT_23270 transcript:EGG01736
+           description:"hypothetical protein"
+          Length = 510
+
+ Score = 34.3 bits (77), Expect = 0.047,   Method: Compositional matrix adjust.
+ Identities = 17/76 (22%), Positives = 41/76 (53%), Gaps = 5/76 (6%)
+
+Query: 25  IPYDQTEEQILDLCSNVGPV--INLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGY 82
+           +P++ +++++ +L  + G +  + L    D +T   +G+ FIE+   + +  A+++L   
+Sbjct: 426 VPFETSKQELRELFGSFGKLKSVRLPKKLDRKT---RGFGFIEYTTKKEAEEAMKSLKHT 482
+
+Query: 83  QLGSRFLKCGYSSNSD 98
+            L  R L   Y+++ D
+Sbjct: 483 HLLGRHLVISYANDKD 498
+
+
+>EGG06367 pep:novel supercontig:GCA_000204055.1:GL883108:119969:121516:1
+           gene:MELLADRAFT_71901 transcript:EGG06367
+           description:"hypothetical protein"
+          Length = 356
+
+ Score = 33.1 bits (74), Expect = 0.084,   Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 33/62 (53%), Gaps = 1/62 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VYL ++ +  TEE + +  S   PV  + ++     G ++G+AF +F     + +AV  +
+Sbjct: 81  VYLSNLSFSVTEELLSEFISQYAPVKKVDVV-RTSDGAARGFAFAKFPTQADADAAVSAI 139
+
+Query: 80  NG 81
+           NG
+Sbjct: 140 NG 141
+
+
+>EGG08059 pep:novel supercontig:GCA_000204055.1:GL883102:701519:701899:-1
+          gene:MELLADRAFT_31610 transcript:EGG08059
+          description:"hypothetical protein"
+          Length = 105
+
+ Score = 30.8 bits (68), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 28/48 (58%), Gaps = 1/48 (2%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVI-NLKMMFDPQTGRSKGYAFIEF 66
+          V++  +  + +E +++ L +   P   + K+M D  TG S+GYAFI F
+Sbjct: 21 VFIRDLDREVSEGELVSLFTQTFPSTKSAKIMGDLSTGLSRGYAFIRF 68
+
+
+>EGG03031 pep:novel supercontig:GCA_000204055.1:GL883127:364784:365617:-1
+          gene:MELLADRAFT_38340 transcript:EGG03031
+          description:"hypothetical protein"
+          Length = 148
+
+ Score = 31.6 bits (70), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 22/74 (29%), Positives = 35/74 (47%), Gaps = 4/74 (5%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQ---TGRSKGYAFIEFRDLESSASAV 76
+          +Y+G++     E  ++ L S  G +  L  +F       G+ +GYAFIE    + +  A+
+Sbjct: 14 LYIGNLAPAVDEFALVALFSKFGKISKLDFLFHKSGILRGKPRGYAFIEMSRKDEALKAM 73
+
+Query: 77 RNLNGYQL-GSRFL 89
+            LN   L G R L
+Sbjct: 74 VELNNKPLRGKRIL 87
+
+
+>EGG05783 pep:novel supercontig:GCA_000204055.1:GL883111:697672:700367:1
+           gene:MELLADRAFT_87679 transcript:EGG05783
+           description:"eukaryotic translation initiation factor 3
+           subunit 9"
+          Length = 755
+
+ Score = 32.3 bits (72), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 15/29 (51%), Positives = 18/29 (62%)
+
+Query: 54  QTGRSKGYAFIEFRDLESSASAVRNLNGY 82
+           + G SKGY FIE    E +  AVRNL+ Y
+Sbjct: 87  EDGLSKGYLFIELDHPEDADRAVRNLHDY 115
+
+
+>EGG05951 pep:novel supercontig:GCA_000204055.1:GL883110:45004:45337:1
+          gene:MELLADRAFT_31155 transcript:EGG05951
+          description:"hypothetical protein"
+          Length = 84
+
+ Score = 28.9 bits (63), Expect = 0.51,   Method: Composition-based stats.
+ Identities = 17/69 (24%), Positives = 34/69 (49%)
+
+Query: 16 PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+          P   +++  I     +  + +L S  G V+  ++M DP T   +G+ F+     E + +A
+Sbjct: 7  PGNNLHVSGISLRVEDRDLEELFSKYGKVLKSQLMRDPHTRDPRGFGFVTMETAEEAEAA 66
+
+Query: 76 VRNLNGYQL 84
+          +  L+G +L
+Sbjct: 67 IAGLHGTEL 75
+
+
+>EGG07717 pep:novel supercontig:GCA_000204055.1:GL883103:1398628:1399781:-1
+          gene:MELLADRAFT_62481 transcript:EGG07717
+          description:"hypothetical protein"
+          Length = 225
+
+ Score = 29.6 bits (65), Expect = 0.88,   Method: Compositional matrix adjust.
+ Identities = 15/65 (23%), Positives = 34/65 (52%), Gaps = 2/65 (3%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+G++ +   +  +    + +G V +  +M     GRS+G+ F+ F  ++ +  A+  +
+Sbjct: 6  VYVGNLAWGTDDPTLGAHFAPIGQVKDAVVMRS--EGRSRGFGFVTFSSVQEAEHAIATM 63
+
+Query: 80 NGYQL 84
+          N  +L
+Sbjct: 64 NDTEL 68
+
+
+>EGG12063 pep:novel supercontig:GCA_000204055.1:GL883091:2918389:2921262:1
+           gene:MELLADRAFT_76555 transcript:EGG12063
+           description:"hypothetical protein"
+          Length = 603
+
+ Score = 29.6 bits (65), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 41/79 (51%), Gaps = 10/79 (12%)
+
+Query: 21  YLGSIPYDQTEEQILD-LCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           ++ S+  +  E+ + D L    GP+ +L ++      R+K   F+EF+ +ES+  A++  
+Sbjct: 429 FIKSVHENLDEKSLKDQLTKRFGPIKDLDVI------RTKACGFLEFQSIESAKKAIQMS 482
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+             + LG    K G S NS+
+Sbjct: 483 LPFNLGG---KGGISINSN 498
+
+
+>EGG12372 pep:novel supercontig:GCA_000204055.1:GL883091:1608556:1609775:-1
+          gene:MELLADRAFT_59068 transcript:EGG12372
+          description:"hypothetical protein"
+          Length = 333
+
+ Score = 29.3 bits (64), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 11/19 (57%), Positives = 14/19 (73%)
+
+Query: 50 MFDPQTGRSKGYAFIEFRD 68
+          M DP  GRS+G+AF+ F D
+Sbjct: 1  MRDPTNGRSRGFAFLTFAD 19
+
+
+>EGG07816 pep:novel supercontig:GCA_000204055.1:GL883103:386615:387160:-1
+           gene:MELLADRAFT_43078 transcript:EGG07816
+           description:"hypothetical protein"
+          Length = 133
+
+ Score = 28.1 bits (61), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 22/102 (21%), Positives = 42/102 (41%), Gaps = 22/102 (21%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKM--------------------MFDPQTG 56
+           S  +Y+G +    TE  ++ + S  G  +++ M                        + G
+Sbjct: 30  SAYIYIGGLDTGLTEGDVITIFSQYGEPVDINMPKAKPEQTKNESGNPEEAKSQVKTKAG 89
+
+Query: 57  --RSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+             +S+G+ F+ + +  S+  AV NLNG  +  R L+  +  N
+Sbjct: 90  PVKSRGFCFLMYENQLSTNLAVDNLNGAIVLGRTLRVDHCKN 131
+
+
+>EGG09996 pep:novel supercontig:GCA_000204055.1:GL883096:414147:416645:-1
+           gene:MELLADRAFT_103746 transcript:EGG09996
+           description:"hypothetical protein"
+          Length = 430
+
+ Score = 28.9 bits (63), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 41/88 (46%), Gaps = 9/88 (10%)
+
+Query: 155 NINMTTPAMMISSELAKKPKEVQLKFLQKFQEWTRAHPEDAVSLLELCPQLS-----FVT 209
+           NIN  +P+M+ +++LA++  + ++    +  E  R   E      EL P L+        
+Sbjct: 12  NINYKSPSMLQATKLAEEKNKAEVAKALEQAEKRRKRAESRAPQSELAPSLAQEPHQITA 71
+
+Query: 210 AELLLTNGICKVDDLIPLASRPQEEASA 237
+            +L + +GI    DL   + R  EEAS 
+Sbjct: 72  TDLNVASGI----DLEKGSGRNLEEASG 95
+
+
+>EGF99245 pep:novel supercontig:GCA_000204055.1:GL883162:63964:67218:-1
+           gene:MELLADRAFT_79511 transcript:EGF99245
+           description:"hypothetical protein"
+          Length = 834
+
+ Score = 28.9 bits (63), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 10/35 (28%), Positives = 23/35 (65%)
+
+Query: 30  TEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFI 64
+           TE+++ ++  + GP+   +++ D +T RS+G  F+
+Sbjct: 407 TEDELYNIFRSFGPLNYARIVMDSKTQRSRGTGFV 441
+
+
+
+ Score = 28.1 bits (61), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 14/38 (36%), Positives = 21/38 (55%), Gaps = 1/38 (2%)
+
+Query: 44  VINLKMMFDP-QTGRSKGYAFIEFRDLESSASAVRNLN 80
+           +  +K++ DP   G+SKGY FIE      +   VR +N
+Sbjct: 635 IKQVKVIIDPDNKGKSKGYGFIEVFSHSDALRIVRYVN 672
+
+
+
+ Score = 28.1 bits (61), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 14/67 (20%), Positives = 36/67 (53%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           + + ++ ++ TE+ +       G + ++++  DP   ++KG+ F+   +   + +A++ L
+Sbjct: 313 LIIRNLSFEITEDDLRYTFGKFGQIQSIELPKDPIHQKTKGFGFVWMVNYIDAENAMKAL 372
+
+Query: 80  NGYQLGS 86
+           NG  L S
+Sbjct: 373 NGQTLSS 379
+
+
+>EGG07803 pep:novel supercontig:GCA_000204055.1:GL883103:530531:532110:-1
+          gene:MELLADRAFT_62352 transcript:EGG07803
+          description:"hypothetical protein"
+          Length = 201
+
+ Score = 28.1 bits (61), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 13/40 (32%), Positives = 22/40 (55%)
+
+Query: 58 SKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+          +K YAF+EF D   +A A   ++G +L    L   ++ N+
+Sbjct: 42 AKTYAFVEFEDDRDAADAYYEMHGRRLDGDTLNVQWAKNA 81
+
+
+>EGG02068 pep:novel supercontig:GCA_000204055.1:GL883133:516601:517695:1
+           gene:MELLADRAFT_110457 transcript:EGG02068
+           description:"hypothetical protein"
+          Length = 332
+
+ Score = 27.7 bits (60), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 37/70 (52%), Gaps = 13/70 (18%)
+
+Query: 19  VVYLGSIPYDQTEEQI----LDLCSNVGPVINLKMMFDP---QTGR----SKGYAFIEFR 67
+           ++++G++P+D T E++    L+ C    P + L M       +TG+    +KG  F+EF+
+Sbjct: 124 ILFVGNLPFDMTSEKLTSFFLEHCEEE-PEVRL-MTHKSTKNETGQPTNATKGCGFVEFK 181
+
+Query: 68  DLESSASAVR 77
+              +   A+R
+Sbjct: 182 TSAALQKALR 191
+
+
+>EGG08913 pep:novel supercontig:GCA_000204055.1:GL883099:1335506:1337665:-1
+           gene:MELLADRAFT_115899 transcript:EGG08913
+           description:"hypothetical protein"
+          Length = 514
+
+ Score = 27.3 bits (59), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 26/52 (50%), Gaps = 8/52 (15%)
+
+Query: 146 PELPS---GIDVNINMTTPAMMISSELAKK-----PKEVQLKFLQKFQEWTR 189
+           P+ PS    +D N N+TTP     SE   K     P + + +F Q+ +EW +
+Sbjct: 217 PDAPSQSFHVDPNSNLTTPPYFFDSEDHSKTPDDWPMDKRSQFAQQQEEWAK 268
+
+
+>EGG09543 pep:novel supercontig:GCA_000204055.1:GL883097:1588721:1592923:-1
+           gene:MELLADRAFT_115762 transcript:EGG09543
+           description:"hypothetical protein"
+          Length = 758
+
+ Score = 26.9 bits (58), Expect = 10.0,   Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 30/63 (47%), Gaps = 2/63 (3%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVIN-LKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           P   V+++G +P    E  +       G  ++ + +++D  TG SK Y F  F  ++ + 
+Sbjct: 196 PTQSVIFMG-LPIHTDEATLRTFLEQYGAEVDTVTIIYDRNTGLSKRYGFARFATVDDAR 254
+
+Query: 74  SAV 76
+           S V
+Sbjct: 255 SFV 257
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 2,987,050
+Number of extensions: 100750
+Number of successful extensions: 343
+Number of sequences better than 10.0: 52
+Number of HSP's gapped: 338
+Number of HSP's successfully gapped: 68
+Length of query: 296
+Length of database: 6,110,487
+Length adjustment: 94
+Effective length of query: 202
+Effective length of database: 4,571,519
+Effective search space: 923446838
+Effective search space used: 923446838
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

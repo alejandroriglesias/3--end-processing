@@ -1,0 +1,148 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ68379 pep:novel chromosome:GCA_000230245.1:10:328192:328999:1...   212   7e-69
+CBQ70878 pep:novel chromosome:GCA_000230245.1:20:94973:96928:1 g...    30   0.30 
+CBQ73743 pep:novel chromosome:GCA_000230245.1:8:609696:611171:1 ...    27   2.3  
+CBQ71008 pep:novel chromosome:GCA_000230245.1:20:473295:476066:1...    26   6.0  
+CBQ70308 pep:novel chromosome:GCA_000230245.1:2:251908:254466:1 ...    26   8.8  
+
+>CBQ68379 pep:novel chromosome:GCA_000230245.1:10:328192:328999:1
+           gene:sr14669 transcript:CBQ68379 description:"probable
+           SSU72-Nuclear zinc-finger motif containing protein"
+          Length = 240
+
+ Score =  212 bits (540), Expect = 7e-69,   Method: Compositional matrix adjust.
+ Identities = 108/202 (53%), Positives = 137/202 (67%), Gaps = 11/202 (5%)
+
+Query: 6   NSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYN 65
+           +SN+ FC VCASN NRSM +H +L ++G+NV+S GTGSAVRLPG  I+ PN+Y FGT Y 
+Sbjct: 49  DSNIMFCVVCASNQNRSMAAHSLLAQSGFNVTSAGTGSAVRLPGPKINLPNIYPFGTAYT 108
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCED 125
+           DI +DL S+    Y +NGL+ ML RN+ +K+APE+WQE+    D V TCEERCFDAVCED
+Sbjct: 109 DIIDDLNSKDPRLYWANGLMTMLKRNKDVKRAPERWQETKYAADIVITCEERCFDAVCED 168
+
+Query: 126 LMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMD 185
+           L NRGG+LN+ VHVINV+IKD+ E A    KAIL+LA+ +          DI   D  MD
+Sbjct: 169 LFNRGGELNRPVHVINVEIKDNHEEAVAAGKAILDLANAI------AASQDI---DAEMD 219
+
+Query: 186 -ILTEWQSSHSQLPSLYAPSYY 206
+            IL   Q +H     L+  +YY
+Sbjct: 220 AILERHQQTHPHA-ILHTVAYY 240
+
+
+>CBQ70878 pep:novel chromosome:GCA_000230245.1:20:94973:96928:1 gene:sr16456
+           transcript:CBQ70878 description:"related to
+           auxin-resistance protein"
+          Length = 622
+
+ Score = 30.0 bits (66), Expect = 0.30,   Method: Composition-based stats.
+ Identities = 17/44 (38%), Positives = 25/44 (56%), Gaps = 2/44 (4%)
+
+Query: 158 ILELADMLN-DKIEQCEKDDIPFEDCIMDILTEWQSSHS-QLPS 199
+           +LELA   + +  +  E   IPF   ++  L EWQS+H  +LPS
+Sbjct: 212 LLELAQQFDLNTSDTLEHSHIPFPVILIKKLVEWQSAHDGKLPS 255
+
+
+>CBQ73743 pep:novel chromosome:GCA_000230245.1:8:609696:611171:1 gene:sr14336
+           transcript:CBQ73743 description:"probable ATP-dependent
+           RNA helicase DHH1"
+          Length = 491
+
+ Score = 27.3 bits (59), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 328 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 360
+
+
+>CBQ71008 pep:novel chromosome:GCA_000230245.1:20:473295:476066:1
+           gene:sr13476 transcript:CBQ71008 description:"conserved
+           hypothetical protein"
+          Length = 923
+
+ Score = 26.2 bits (56), Expect = 6.0,   Method: Composition-based stats.
+ Identities = 14/37 (37%), Positives = 19/37 (51%), Gaps = 6/37 (16%)
+
+Query: 33  GYNVSSYGTGS------AVRLPGLSIDKPNVYSFGTP 63
+           G +VS Y  GS      A   PG+ +D   V+SF +P
+Sbjct: 225 GKSVSRYSRGSTAATDRATAEPGIELDGDEVFSFSSP 261
+
+
+>CBQ70308 pep:novel chromosome:GCA_000230245.1:2:251908:254466:1 gene:sr12218
+           transcript:CBQ70308 description:"related to
+           DBP6-ATP-dependent RNA helicase"
+          Length = 852
+
+ Score = 25.8 bits (55), Expect = 8.8,   Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 16/26 (61%)
+
+Query: 122 VCEDLMNRGGKLNKIVHVINVDIKDD 147
+           VC DL++RG  L  + HV++ D   D
+Sbjct: 735 VCSDLISRGIDLPSVEHVVSYDAPID 760
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 1,628,980
+Number of extensions: 64927
+Number of successful extensions: 164
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 164
+Number of HSP's successfully gapped: 12
+Length of query: 206
+Length of database: 3,975,336
+Length adjustment: 88
+Effective length of query: 118
+Effective length of database: 3,388,112
+Effective search space: 399797216
+Effective search space used: 399797216
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

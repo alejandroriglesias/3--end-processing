@@ -1,0 +1,1087 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ73275 pep:novel chromosome:GCA_000230245.1:7:199949:201198:1 ...    86   2e-19
+CBQ71460 pep:novel chromosome:GCA_000230245.1:22:131819:133198:1...    59   3e-10
+CBQ68554 pep:novel chromosome:GCA_000230245.1:11:220167:221210:1...    50   1e-07
+CBQ67560 pep:novel chromosome:GCA_000230245.1:1:439098:441251:-1...    51   2e-07
+CBQ70144 pep:novel chromosome:GCA_000230245.1:19:297516:299648:-...    49   6e-07
+CBQ70737 pep:novel chromosome:GCA_000230245.1:2:1506809:1507828:...    47   3e-06
+CBQ70590 pep:novel chromosome:GCA_000230245.1:2:1111817:1113031:...    45   1e-05
+CBQ69109 pep:novel chromosome:GCA_000230245.1:13:523295:524113:-...    45   1e-05
+CBQ73395 pep:novel chromosome:GCA_000230245.1:7:550963:553122:1 ...    44   2e-05
+CBQ69675 pep:novel chromosome:GCA_000230245.1:17:44428:45534:1 g...    44   2e-05
+CBQ71145 pep:novel chromosome:GCA_000230245.1:20:816862:817584:-...    42   4e-05
+CBQ69821 pep:novel chromosome:GCA_000230245.1:17:442758:443638:-...    42   7e-05
+CBQ72928 pep:novel chromosome:GCA_000230245.1:6:149247:152753:-1...    42   8e-05
+CBQ73484 pep:novel chromosome:GCA_000230245.1:7:786622:788638:1 ...    42   1e-04
+CBQ71156 pep:novel chromosome:GCA_000230245.1:20:845509:846920:1...    40   2e-04
+CBQ71105 pep:novel chromosome:GCA_000230245.1:20:714250:717111:-...    41   2e-04
+CBQ71163 pep:novel chromosome:GCA_000230245.1:20:861034:863370:-...    40   3e-04
+CBQ72982 pep:novel chromosome:GCA_000230245.1:6:343978:344435:1 ...    39   3e-04
+CBQ71155 pep:novel chromosome:GCA_000230245.1:20:845509:846605:1...    40   3e-04
+CBQ68985 pep:novel chromosome:GCA_000230245.1:13:200064:200790:1...    39   4e-04
+CBQ69729 pep:novel chromosome:GCA_000230245.1:17:191159:192169:-...    39   5e-04
+CBQ68745 pep:novel chromosome:GCA_000230245.1:12:103600:104374:1...    39   8e-04
+CBQ68570 pep:novel chromosome:GCA_000230245.1:11:259357:260374:-...    39   0.001
+CBQ67927 pep:novel chromosome:GCA_000230245.1:1:1494649:1497768:...    39   0.001
+CBQ73896 pep:novel chromosome:GCA_000230245.1:9:273299:275251:1 ...    39   0.001
+CBQ68234 pep:novel chromosome:GCA_000230245.1:1:2397749:2398789:...    38   0.001
+CBQ67671 pep:novel chromosome:GCA_000230245.1:1:728244:732245:-1...    38   0.002
+CBQ71214 pep:novel chromosome:GCA_000230245.1:20:1018643:1020494...    37   0.004
+CBQ69217 pep:novel chromosome:GCA_000230245.1:14:308861:311014:-...    36   0.007
+CBQ70675 pep:novel chromosome:GCA_000230245.1:2:1353502:1354347:...    36   0.007
+CBQ69996 pep:novel chromosome:GCA_000230245.1:18:436383:437173:-...    35   0.007
+CBQ69540 pep:novel chromosome:GCA_000230245.1:16:152239:153058:-...    35   0.014
+CBQ68395 pep:novel chromosome:GCA_000230245.1:10:376047:378131:1...    35   0.017
+CBQ70682 pep:novel chromosome:GCA_000230245.1:2:1369377:1372283:...    34   0.031
+CBQ68844 pep:novel chromosome:GCA_000230245.1:12:377811:380048:-...    33   0.056
+CBQ73718 pep:novel chromosome:GCA_000230245.1:8:551305:553629:-1...    32   0.12 
+CBQ73632 pep:novel chromosome:GCA_000230245.1:8:290608:290997:-1...    31   0.13 
+CBQ71450 pep:novel chromosome:GCA_000230245.1:22:102114:103796:1...    32   0.19 
+CBQ69492 pep:novel chromosome:GCA_000230245.1:16:16401:17439:-1 ...    31   0.30 
+CBQ69793 pep:novel chromosome:GCA_000230245.1:17:372252:375317:-...    31   0.30 
+CBQ71213 pep:novel chromosome:GCA_000230245.1:20:1017086:1017913...    30   0.35 
+CBQ72943 pep:novel chromosome:GCA_000230245.1:6:192882:193937:-1...    30   0.45 
+CBQ68872 pep:novel chromosome:GCA_000230245.1:12:457102:458277:-...    30   0.50 
+CBQ73890 pep:novel chromosome:GCA_000230245.1:9:258670:260301:-1...    30   0.54 
+CBQ67655 pep:novel chromosome:GCA_000230245.1:1:691710:692999:-1...    30   0.67 
+CBQ71216 pep:novel chromosome:GCA_000230245.1:20:1025493:1027421...    30   0.73 
+CBQ68486 pep:novel chromosome:GCA_000230245.1:11:12190:14639:-1 ...    29   0.88 
+CBQ71368 pep:novel chromosome:GCA_000230245.1:21:300594:302341:1...    28   1.9  
+CBQ72373 pep:novel chromosome:GCA_000230245.1:4:278441:282724:1 ...    27   5.1  
+CBQ67989 pep:novel chromosome:GCA_000230245.1:1:1675957:1681056:...    27   6.2  
+
+>CBQ73275 pep:novel chromosome:GCA_000230245.1:7:199949:201198:1
+          gene:sr13935 transcript:CBQ73275 description:"related
+          to Cleavage stimulation factor"
+          Length = 391
+
+ Score = 85.5 bits (210), Expect = 2e-19,   Method: Compositional matrix adjust.
+ Identities = 38/78 (48%), Positives = 56/78 (71%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+          SRVV++G+IPYD +EEQ+ D+   VG V+  +++ D  TG+ KGY F EF D E++ASAV
+Sbjct: 8  SRVVFVGNIPYDMSEEQLTDVFREVGKVVGFRLVNDRDTGKFKGYGFCEFEDPETAASAV 67
+
+Query: 77 RNLNGYQLGSRFLKCGYS 94
+          RNLN  ++G R L+  ++
+Sbjct: 68 RNLNEVEVGGRPLRISFA 85
+
+
+>CBQ71460 pep:novel chromosome:GCA_000230245.1:22:131819:133198:1
+           gene:sr11309 transcript:CBQ71460 description:"related to
+           NSR1-nuclear localization sequence binding protein"
+          Length = 459
+
+ Score = 59.3 bits (142), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 25/84 (29%), Positives = 51/84 (60%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           Q + PS  +++G++ +D +E+ + +  S  G V  +++  DP +GR KG+ ++EF   ES
+Sbjct: 300 QRSAPSSTLFIGNLSFDISEDDVWNAFSEHGEVSGVRLPKDPDSGRPKGFGYVEFAAQES 359
+
+Query: 72  SASAVRNLNGYQLGSRFLKCGYSS 95
+           + +A+  + G +L  R L+  +S+
+Sbjct: 360 AQAALDAMTGQELAGRPLRLDFST 383
+
+
+
+ Score = 31.6 bits (70), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 14/76 (18%), Positives = 37/76 (48%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           V++G + ++   + +       G V + ++  D  TG+S+G+ +++F    ++  A    
+Sbjct: 209 VWVGQLSWNVDNDWLKSEMEVFGEVTSARVQLDRTTGKSRGFGYVDFATAAAAKKAFEEG 268
+
+Query: 80  NGYQLGSRFLKCGYSS 95
+            G ++  R ++   S+
+Sbjct: 269 QGKEVDGRAIRLDLST 284
+
+
+>CBQ68554 pep:novel chromosome:GCA_000230245.1:11:220167:221210:1
+           gene:sr14843 transcript:CBQ68554 description:"related to
+           NOP15-protein involved in 60S ribosomal subunit
+           biogenesis"
+          Length = 347
+
+ Score = 50.4 bits (119), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 25/81 (30%), Positives = 43/81 (53%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           V+Y+G +P    E+Q+    S  G V  L++  + +TG SK YAF+EF D + +A     
+Sbjct: 175 VLYIGRLPKGFFEKQLKAYFSQFGDVTRLRVSRNKKTGASKHYAFLEFADRDVAAIVQET 234
+
+Query: 79  LNGYQLGSRFLKCGYSSNSDI 99
+           ++ Y +  R L+  + S   +
+Sbjct: 235 MHNYLIDGRLLQVKHVSKDKV 255
+
+
+>CBQ67560 pep:novel chromosome:GCA_000230245.1:1:439098:441251:-1
+           gene:sr11510 transcript:CBQ67560 description:"related to
+           RNA-binding region containing protein 2"
+          Length = 659
+
+ Score = 50.8 bits (120), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 43/73 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+GS+ +  T+E +  +    G +  + +  +P TG+SKG+ FI+F+  E +  A+  +
+Sbjct: 411 LYVGSLHFSLTDENVKAVFEPFGEIEYVDLHREPGTGKSKGFCFIQFKYPEDAKKALEQM 470
+
+Query: 80  NGYQLGSRFLKCG 92
+           NG+ L  R ++ G
+Sbjct: 471 NGFVLAERAIRVG 483
+
+
+>CBQ70144 pep:novel chromosome:GCA_000230245.1:19:297516:299648:-1
+           gene:sr16349 transcript:CBQ70144 description:"related to
+           pre-mRNA splicing factor U2AF large chain"
+          Length = 710
+
+ Score = 48.9 bits (115), Expect = 6e-07,   Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 41/70 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +P   T++Q+++L    G +    ++ D  TG SKG+AF E+ D   +  A + L
+Sbjct: 450 IFVGGLPTYLTDDQVIELLQAFGELRAFNLVKDTGTGASKGFAFCEYVDTALTDLACQGL 509
+
+Query: 80  NGYQLGSRFL 89
+           NG +LG R L
+Sbjct: 510 NGMELGDRNL 519
+
+
+
+ Score = 32.0 bits (71), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 20/70 (28%), Positives = 36/70 (51%), Gaps = 9/70 (12%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDP-------QTGRSKGYAFIEF 66
+           N  +R +Y+G+I +   E  I+   +    ++ LK+  +P       Q    KGYAF+EF
+Sbjct: 335 NRQARRLYVGNITHQTNEHNIVAFFNEQ--MLKLKLGTEPGEPAVSAQVNVDKGYAFVEF 392
+
+Query: 67  RDLESSASAV 76
+           R  + + +A+
+Sbjct: 393 RHPDEATNAM 402
+
+
+
+ Score = 28.5 bits (62), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 11/39 (28%), Positives = 19/39 (48%)
+
+Query: 60  GYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           G  ++ + + E  A A+R + G Q G R + C +    D
+Sbjct: 647 GRVYVRYGETEHCAQALRAIAGRQFGGRTVICAFLKEDD 685
+
+
+>CBQ70737 pep:novel chromosome:GCA_000230245.1:2:1506809:1507828:1
+           gene:sr10465 transcript:CBQ70737 description:"related to
+           Transformer-2 protein"
+          Length = 339
+
+ Score = 46.6 bits (109), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 17/55 (30%), Positives = 37/55 (67%)
+
+Query: 41  VGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSS 95
+           + PV  + +++D ++GRS+G+ F+  RD++ +++A+  LNG  L  R ++  +S+
+Sbjct: 146 IAPVEKVVIVYDARSGRSRGFGFVTMRDVDGASAAIEALNGKDLHGRRIRVDFST 200
+
+
+>CBQ70590 pep:novel chromosome:GCA_000230245.1:2:1111817:1113031:1
+           gene:sr10259 transcript:CBQ70590 description:"related to
+           PUB1-major polyadenylated RNA-binding protein of nucleus
+           and cytoplasm"
+          Length = 404
+
+ Score = 45.1 bits (105), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 18/79 (22%), Positives = 41/79 (51%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +  D  +  +    S    + ++++M+DP+TG+S+G+ FI  R    +   +   
+Sbjct: 108 LFVGDLAPDVDDAVVHAFFSRFASLADVRVMYDPETGKSRGFGFISLRSKSEAEECIAVT 167
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+            G  LG R ++  ++S  +
+Sbjct: 168 QGRWLGGRQIRVNWASQKN 186
+
+
+
+ Score = 31.2 bits (69), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 20/76 (26%), Positives = 37/76 (48%), Gaps = 4/76 (5%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV--R 77
+           VY+G+I    T + ++ + +       ++    P  GR  GY F+       +ASA+   
+Sbjct: 271 VYVGNISPHTTPQDLVRIFAPFNHGQRVEARIPPPPGR--GYGFVTLTSHAQAASAICAL 328
+
+Query: 78  NLNGYQLGSRFLKCGY 93
+           ++ G  L SR+L+ G+
+Sbjct: 329 SMQGVFLHSRWLRFGW 344
+
+
+
+ Score = 30.8 bits (68), Expect = 0.36,   Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 37/74 (50%), Gaps = 5/74 (6%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+          +V++ ++P   TE    +L   +G V   K++     G    Y F+E+ D+ S+  AVR 
+Sbjct: 6  LVHVANLPATTTER---ELFGALGAVQTAKVVSTRAAG-GLAYGFVEYGDVASAERAVRT 61
+
+Query: 79 LNGY-QLGSRFLKC 91
+          ++ +  LG+    C
+Sbjct: 62 MDAWLWLGTPIKVC 75
+
+
+>CBQ69109 pep:novel chromosome:GCA_000230245.1:13:523295:524113:-1
+          gene:sr15565 transcript:CBQ69109 description:"related
+          to spliceosome-associated protein SAP-49"
+          Length = 272
+
+ Score = 44.7 bits (104), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 42/78 (53%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            Y+G+I    T+  + +L    GP++NL +  D  T   +GYAF EF+  + +  A + 
+Sbjct: 14 TCYIGNIDDRATDAIVWELMIQAGPLVNLHLPKDRITQTHQGYAFAEFQTEQDADYACKV 73
+
+Query: 79 LNGYQLGSRFLKCGYSSN 96
+          +NG +L  + ++   +SN
+Sbjct: 74 MNGLKLYGKPIRVNKASN 91
+
+
+
+ Score = 42.0 bits (97), Expect = 6e-05,   Method: Compositional matrix adjust.
+ Identities = 23/80 (28%), Positives = 43/80 (53%), Gaps = 1/80 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINL-KMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +++GS+     E  + +  S  G ++ L K+  DP +G  KG+AF+ F   E++ +A+  
+Sbjct: 102 LFVGSLDAAVDERLLYETFSAFGGILGLPKVARDPASGEPKGFAFVSFDSFEAADAAIEA 161
+
+Query: 79  LNGYQLGSRFLKCGYSSNSD 98
+           LNG  L ++ +   Y+   D
+Sbjct: 162 LNGQFLLNKNITVDYAIKKD 181
+
+
+>CBQ73395 pep:novel chromosome:GCA_000230245.1:7:550963:553122:1 gene:sr14054
+           transcript:CBQ73395 description:"related to ELAV-like
+           protein 2"
+          Length = 693
+
+ Score = 44.3 bits (103), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 22/77 (28%), Positives = 40/77 (51%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY+  +P +  +  +  L S  G VI+ K M D Q+G+ KG+ F+ +   E + +A+  L
+Sbjct: 232 VYVNGLPKEMNDHMLYLLGSVCGVVISHKAMMDRQSGQCKGFGFLMYASSEMAKTAIEWL 291
+
+Query: 80  NGYQLGSRFLKCGYSSN 96
+           N +   + F +   S+ 
+Sbjct: 292 NSHGFAASFAQESLSAR 308
+
+
+>CBQ69675 pep:novel chromosome:GCA_000230245.1:17:44428:45534:1 gene:sr15594
+           transcript:CBQ69675 description:"related to rna binding
+           motif protein"
+          Length = 368
+
+ Score = 43.5 bits (101), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 25/100 (25%), Positives = 46/100 (46%), Gaps = 23/100 (23%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKM-MFDPQT-------------------- 55
+           S  +++G +PYD TE  ++ + S  G V+++ +   +P                      
+Sbjct: 33  SAYIFIGGLPYDLTEGDVITIFSQYGEVVDVNLPRANPNANDKGDGAASSSSQQQQPKPV 92
+
+Query: 56  --GRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+             G+ +G+ F+ + D  S+  AV NLNG Q+  R L+  +
+Sbjct: 93  GKGKHRGFGFLMYEDQRSTVLAVDNLNGAQVLGRTLRVDH 132
+
+
+>CBQ71145 pep:novel chromosome:GCA_000230245.1:20:816862:817584:-1
+           gene:sr13605 transcript:CBQ71145 description:"related to
+           poly(a) binding protein II"
+          Length = 208
+
+ Score = 42.4 bits (98), Expect = 4e-05,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 31/52 (59%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           SR +Y+G++ Y  T E++     + G +  + ++ D  TG  KG+A++EF D
+Sbjct: 97  SRSIYVGNVDYGATPEEVQQHFQSCGTINRVTILCDKFTGHPKGFAYVEFAD 148
+
+
+>CBQ69821 pep:novel chromosome:GCA_000230245.1:17:442758:443638:-1
+           gene:sr15739 transcript:CBQ69821 description:"probable
+           nuclear cap binding protein subunit 2"
+          Length = 260
+
+ Score = 42.0 bits (97), Expect = 7e-05,   Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 40/79 (50%), Gaps = 6/79 (7%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNV------GPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+            +YLG++ +  TEEQI ++   V      G +  + M  D  T    G+AF+EF     +
+Sbjct: 35  TLYLGNLSFYTTEEQIYEVFGRVASVSSGGGIKRIIMGLDRNTKTPCGFAFVEFYTHAEA 94
+
+Query: 73  ASAVRNLNGYQLGSRFLKC 91
+              +R ++G +L  R ++C
+Sbjct: 95  VDCMRYVSGTKLDERVIRC 113
+
+
+>CBQ72928 pep:novel chromosome:GCA_000230245.1:6:149247:152753:-1
+           gene:sr11025.2 transcript:CBQ72928
+           description:"conserved hypothetical protein"
+          Length = 1168
+
+ Score = 42.4 bits (98), Expect = 8e-05,   Method: Compositional matrix adjust.
+ Identities = 22/76 (28%), Positives = 40/76 (52%), Gaps = 1/76 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           RV+++G++P+    + + DL    G +    +   P  GRS+G+  + F   E + +AVR
+Sbjct: 434 RVLFVGNLPFHCQWQDLKDLFRAAGNIQRADVAIGPD-GRSRGFGTVLFASQEDAQNAVR 492
+
+Query: 78  NLNGYQLGSRFLKCGY 93
+             +GY+   R LK  +
+Sbjct: 493 LYHGYEYSGRTLKVHF 508
+
+
+>CBQ73484 pep:novel chromosome:GCA_000230245.1:7:786622:788638:1 gene:sr14141
+           transcript:CBQ73484 description:"related to
+           HRB1-Poly(A+) RNA-binding protein, involved in the
+           export of mRNAs from the nucleus to the cytoplasm"
+          Length = 521
+
+ Score = 42.0 bits (97), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 19/71 (26%), Positives = 40/71 (56%), Gaps = 2/71 (2%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++P+  + E +++L    G V   +++F  + GRSKG   ++F  +E + +A+   
+Sbjct: 390 IFVRNLPWSTSNEDLVELFQTTGKVDEAEIVF--EHGRSKGVGVVQFATVEDAETAIAKF 447
+
+Query: 80  NGYQLGSRFLK 90
+           N Y  G R L+
+Sbjct: 448 NSYVYGGRPLE 458
+
+
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++PYD + + + DL  + G V    +   P  GRSKG   + F +   +++A+   
+Sbjct: 213 LFVSNLPYDVSWQDLKDLFRSAGNVTRADVNMGPD-GRSKGTGIVAFGNSNDASNAIAMY 271
+
+Query: 80  NGYQLGSRFLKC 91
+           +GY    R L+ 
+Sbjct: 272 HGYDFRGRMLEV 283
+
+
+
+ Score = 28.9 bits (63), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 31/68 (45%), Gaps = 1/68 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY+G++ Y      + D     G V+  +++  P  G SKG   +E+   E +  A+  +
+Sbjct: 81  VYVGNLSYGVKWNTLKDFMREAGNVVFSEVLTLP-NGSSKGCGIVEYSSPEEAQKAITQM 139
+
+Query: 80  NGYQLGSR 87
+              QL  R
+Sbjct: 140 TNKQLEGR 147
+
+
+>CBQ71156 pep:novel chromosome:GCA_000230245.1:20:845509:846920:1
+          gene:sr10825.2 transcript:CBQ71156 description:"related
+          to glycine-rich RNA-binding protein"
+          Length = 175
+
+ Score = 40.0 bits (92), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 15/47 (31%), Positives = 30/47 (63%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+          VY+G++ ++ T++ +    S  G + +  +M D +TGRS+G+ F+ F
+Sbjct: 5  VYVGNLSWNTTDDSLAHAFSAYGQLTDYIVMKDRETGRSRGFGFVTF 51
+
+
+>CBQ71105 pep:novel chromosome:GCA_000230245.1:20:714250:717111:-1
+           gene:sr13550 transcript:CBQ71105 description:"probable
+           RNA-binding protein"
+          Length = 866
+
+ Score = 40.8 bits (94), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 38/79 (48%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++P+   E++I     + G V  + +  D QT  SKG AF+ F D   + +A R  
+Sbjct: 322 LFIRNLPFAANEDEIQAFFESFGTVKQVHIPLDKQTKASKGLAFVSFSDPAHALAAFRAK 381
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+           +G     R L    + N D
+Sbjct: 382 DGSTFQGRLLHLLPAVNKD 400
+
+
+>CBQ71163 pep:novel chromosome:GCA_000230245.1:20:861034:863370:-1
+           gene:sr10833 transcript:CBQ71163 description:"related to
+           HRP1-subunit of cleavage factor I"
+          Length = 588
+
+ Score = 40.4 bits (93), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 18/52 (34%), Positives = 30/52 (57%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           P    +++G + +D TE+ +    S  G V +  +M D  TGRS+G+AF+ F
+Sbjct: 164 PEEGKMFIGGLNWDTTEDSLRRYFSQFGEVGHCTVMRDNMTGRSRGFAFLNF 215
+
+
+
+ Score = 28.5 bits (62), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 12/52 (23%), Positives = 24/52 (46%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           S+ +++G +P   T           G +     M D +TG  +G+ F+ ++D
+Sbjct: 281 SQKLFVGGLPASVTPASFRMFFEQFGTLAECTCMMDRETGNPRGFGFLTYQD 332
+
+
+>CBQ72982 pep:novel chromosome:GCA_000230245.1:6:343978:344435:1
+          gene:sr13648 transcript:CBQ72982 description:"conserved
+          hypothetical protein"
+          Length = 119
+
+ Score = 38.5 bits (88), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 23/94 (24%), Positives = 48/94 (51%), Gaps = 6/94 (6%)
+
+Query: 1  MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+          M   S V A  Q+   SR++++ ++ Y+ T   +  +    G +  +++     TG +KG
+Sbjct: 1  MASHSTVGAVRQH---SRILFVKNLNYNTTGADLYQVFGRYGAIRQIRL--GDATG-TKG 54
+
+Query: 61 YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+           A++ + ++  +  A+ NLNG+ L  R++   Y 
+Sbjct: 55 TAYVVYEEMADAKRALDNLNGFHLNERYIVVLYH 88
+
+
+>CBQ71155 pep:novel chromosome:GCA_000230245.1:20:845509:846605:1
+          gene:sr10824 transcript:CBQ71155 description:"related
+          to glycine-rich RNA-binding protein"
+          Length = 192
+
+ Score = 39.7 bits (91), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 15/47 (31%), Positives = 30/47 (63%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+          VY+G++ ++ T++ +    S  G + +  +M D +TGRS+G+ F+ F
+Sbjct: 5  VYVGNLSWNTTDDSLAHAFSAYGQLTDYIVMKDRETGRSRGFGFVTF 51
+
+
+>CBQ68985 pep:novel chromosome:GCA_000230245.1:13:200064:200790:1
+           gene:sr15446 transcript:CBQ68985 description:"related to
+           RNA-binding protein 8A"
+          Length = 159
+
+ Score = 38.5 bits (88), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 17/59 (28%), Positives = 36/59 (61%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           V+ + ++  + TEE+++D   + G V +  +  D +TG  KGYA +EF + + + +A++
+Sbjct: 52  VIVVTNVHEEATEEEVMDKFLDYGNVKSCHLNLDRRTGYVKGYALLEFAEQDEAQAAIQ 110
+
+
+>CBQ69729 pep:novel chromosome:GCA_000230245.1:17:191159:192169:-1
+           gene:sr15648 transcript:CBQ69729 description:"related to
+           SNP1-U1 small nuclear ribonucleoprotein"
+          Length = 336
+
+ Score = 39.3 bits (90), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 18/70 (25%), Positives = 39/70 (55%), Gaps = 1/70 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           + ++L  + YD TE+ +       GP+  ++++ D + G+S+GYAFI +       +A +
+Sbjct: 126 KTLFLARLSYDVTEKDLHREFDMYGPIETIRLVRD-RNGKSRGYAFIAYERERDMKAAYK 184
+
+Query: 78  NLNGYQLGSR 87
+           + +G ++  R
+Sbjct: 185 DADGIKIHGR 194
+
+
+>CBQ68745 pep:novel chromosome:GCA_000230245.1:12:103600:104374:1
+           gene:sr15028 transcript:CBQ68745 description:"conserved
+           hypothetical protein"
+          Length = 231
+
+ Score = 38.5 bits (88), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 38/81 (46%), Gaps = 3/81 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD---PQTGRSKGYAFIEFRDLESSASAV 76
+           +Y+G++     E  ++   S  G +  L  +F    PQ G+ +GYAF+E+   E +  AV
+Sbjct: 51  LYVGNLHPTVDEYALIQTFSKFGKIKKLDFLFHKSGPQRGQPRGYAFVEYTSAEEALQAV 110
+
+Query: 77  RNLNGYQLGSRFLKCGYSSNS 97
+                  L  R +   ++S S
+Sbjct: 111 AGARDKTLRGRKISVTFASKS 131
+
+
+>CBQ68570 pep:novel chromosome:GCA_000230245.1:11:259357:260374:-1
+           gene:sr14857 transcript:CBQ68570 description:"related to
+           TIF35-translation initiation factor eIF3 subunit"
+          Length = 308
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 36/67 (53%)
+
+Query: 28  DQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           D  ++ + +L  + G V+ + +  D +TG  KGYAF+ F + E +  A + ++G    + 
+Sbjct: 235 DADDDDLRELFMHFGRVVRVYVGRDRETGICKGYAFVSFENREDADRARQKVDGRGYDNL 294
+
+Query: 88  FLKCGYS 94
+            L C +S
+Sbjct: 295 ILSCQWS 301
+
+
+>CBQ67927 pep:novel chromosome:GCA_000230245.1:1:1494649:1497768:-1
+           gene:sr10212 transcript:CBQ67927 description:"related to
+           Nucleolar protein NOP4"
+          Length = 1039
+
+ Score = 39.3 bits (90), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 33/57 (57%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           +++ ++PY  TEE++ +L    GP+   K+  D  T RSKG  F+ F    S+ +A+
+Sbjct: 574 LFVRNLPYQATEEELRNLFRTFGPLRYAKITMDKTTNRSKGTGFVCFWQSSSADAAL 630
+
+
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Composition-based stats.
+ Identities = 23/90 (25%), Positives = 44/90 (48%), Gaps = 5/90 (5%)
+
+Query: 14  NPPSRV---VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           NP  ++   +++  +PY  T   +    S +GP+    ++ D  T +SKG  ++ F   E
+Sbjct: 38  NPRPKINATLFISRLPYTATSTDLQTTFSEIGPLKRAFVVTDQATKKSKGVGYVTFAIPE 97
+
+Query: 71  SSASAVRNLNGYQL--GSRFLKCGYSSNSD 98
+            + +A+  L G  L  GSR ++  ++   D
+Sbjct: 98  DANTALEQLQGKSLDGGSRKIQITFADQKD 127
+
+
+>CBQ73896 pep:novel chromosome:GCA_000230245.1:9:273299:275251:1 gene:sr14484
+           transcript:CBQ73896 description:"probable PAB1-mRNA
+           polyadenylate-binding protein"
+          Length = 650
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 18/61 (29%), Positives = 34/61 (55%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+G +    TE  + ++ + +GPV ++++  D  T RS GYA++ F +      A+  L
+Sbjct: 49  LYVGELDPSVTEAMLFEIFNMIGPVASIRVCRDAVTRRSLGYAYVNFLNAADGERAMEQL 108
+
+Query: 80  N 80
+           N
+Sbjct: 109 N 109
+
+
+
+ Score = 37.4 bits (85), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 41/79 (51%), Gaps = 1/79 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +YL +IP    +E++ +  +  G + + K+M  P +G S+G+ F+ +   E +  AV  +
+Sbjct: 332 LYLKNIPESYDDERLREEFAPFGAITSCKIMRAP-SGVSRGFGFVCYSVPEEANKAVSEM 390
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+           NG  L +R L    +   D
+Sbjct: 391 NGKMLDNRPLYVALAQRKD 409
+
+
+
+ Score = 33.9 bits (76), Expect = 0.041,   Method: Compositional matrix adjust.
+ Identities = 18/61 (29%), Positives = 32/61 (52%), Gaps = 1/61 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY  ++  D T+E+   L +  G + +  +  D   G+SKG+ F+ F D   + +AV  L
+Sbjct: 229 VYAKNVDPDVTDEEFEKLFTRYGKITSCVLQRD-DDGKSKGFGFVNFEDHNEAQTAVDEL 287
+
+Query: 80  N 80
+           +
+Sbjct: 288 H 288
+
+
+>CBQ68234 pep:novel chromosome:GCA_000230245.1:1:2397749:2398789:-1
+           gene:sr12100 transcript:CBQ68234 description:"related to
+           small nuclear ribonucleoprotein snRNP U1A"
+          Length = 291
+
+ Score = 38.1 bits (87), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 22/72 (30%), Positives = 42/72 (58%), Gaps = 5/72 (6%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           PP+++++L +IP    + ++  L S     ++++ +     G++   AF+EF D+ SSA+
+Sbjct: 214 PPNKMLFLQNIPEGVGKGELESLFSAYSGYVDVQTI----PGKAD-IAFVEFSDIPSSAT 268
+
+Query: 75  AVRNLNGYQLGS 86
+           A   LNGY  G+
+Sbjct: 269 ARGALNGYNFGA 280
+
+
+>CBQ67671 pep:novel chromosome:GCA_000230245.1:1:728244:732245:-1
+           gene:sr11621 transcript:CBQ67671 description:"related to
+           JSN1-RNA-binding protein (pumilio family)"
+          Length = 1333
+
+ Score = 38.1 bits (87), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 40/68 (58%), Gaps = 6/68 (8%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           SR +++GSIP   + E ++ + +  GP+ +++++       SK  AF+ F  L+ + +A 
+Sbjct: 663 SRALWIGSIPSTTSTETLVSIFAPFGPIESIRVL------ASKSCAFVNFDRLDDAMAAR 716
+
+Query: 77  RNLNGYQL 84
+           + L+G ++
+Sbjct: 717 KALHGREV 724
+
+
+>CBQ71214 pep:novel chromosome:GCA_000230245.1:20:1018643:1020494:1
+           gene:sr10912 transcript:CBQ71214 description:"related to
+           Transformer-2 protein homolog"
+          Length = 341
+
+ Score = 36.6 bits (83), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 13/51 (25%), Positives = 28/51 (54%)
+
+Query: 30  TEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLN 80
+           T+  + +     GP+   ++M+DP +   +G+AF+ F   E + +A+  +N
+Sbjct: 85  TDRDLEEAFGKYGPIQKAQVMYDPHSREPRGFAFVTFEKAEDAEAAITAMN 135
+
+
+>CBQ69217 pep:novel chromosome:GCA_000230245.1:14:308861:311014:-1
+           gene:sr15286 transcript:CBQ69217 description:"related to
+           RNA binding protein Nrd1 (Negative regulator of
+           differentiation)"
+          Length = 717
+
+ Score = 36.2 bits (82), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 34/69 (49%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ N  SR VY+G +    +E+ + D  S  GP+  +K++      R K   FI F  ++
+Sbjct: 303 VQQNQASRNVYVGQLDESASEQSLRDDLSRFGPIDQVKIV------RDKNIGFIHFLSIQ 356
+
+Query: 71  SSASAVRNL 79
+           ++   V  L
+Sbjct: 357 TAIKVVTTL 365
+
+
+
+ Score = 34.7 bits (78), Expect = 0.019,   Method: Compositional matrix adjust.
+ Identities = 19/55 (34%), Positives = 34/55 (61%), Gaps = 7/55 (12%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           Q NP +R VY+G++P D + +++L+L    GP+ N++++ +      K  AFI F
+Sbjct: 213 QLNPLNRTVYVGNLPADASVDELLNLVK-FGPIENVRILPE------KNCAFISF 260
+
+
+
+ Score = 29.6 bits (65), Expect = 0.75,   Method: Compositional matrix adjust.
+ Identities = 24/94 (25%), Positives = 45/94 (47%), Gaps = 9/94 (9%)
+
+Query: 6   GVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIE 65
+           G NA       +R +YLG+I     E    ++C+++   I   + F P+    K  AF+ 
+Sbjct: 447 GANATALEQLGNRTIYLGNI---HPETTTAEICNHIRGGILQNIRFIPE----KHIAFVT 499
+
+Query: 66  FRDLESSAS--AVRNLNGYQLGSRFLKCGYSSNS 97
+           F D  ++ +   + + +G  + +R LK G+  +S
+Sbjct: 500 FVDPNAALAFFHLASYSGIMIHNRRLKIGWGKHS 533
+
+
+>CBQ70675 pep:novel chromosome:GCA_000230245.1:2:1353502:1354347:-1
+           gene:sr10342 transcript:CBQ70675 description:"related to
+           RNA-binding protein"
+          Length = 281
+
+ Score = 35.8 bits (81), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 20/77 (25%), Positives = 39/77 (50%), Gaps = 1/77 (1%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           ++ +P  + +++G +  D T++ +L    +  P      +   + G+ KGY F+ F D E
+Sbjct: 153 LEWDPAHKRLFVGDLGNDVTDD-VLAAAFDRFPSFAKARVVRAKDGKPKGYGFVAFADPE 211
+
+Query: 71  SSASAVRNLNGYQLGSR 87
+               A + L+G  +GSR
+Sbjct: 212 DFLRAWKQLDGKYIGSR 228
+
+
+>CBQ69996 pep:novel chromosome:GCA_000230245.1:18:436383:437173:-1
+          gene:sr16269 transcript:CBQ69996 description:"related
+          to U2 small nuclear ribonucleoprotein B"
+          Length = 237
+
+ Score = 35.4 bits (80), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 24/93 (25%), Positives = 39/93 (41%), Gaps = 7/93 (7%)
+
+Query: 8  NAGVQNNPPSRVVYL----GSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAF 63
+          N       PS  +Y+    G I   +   Q+  L +  G ++++     P     +G AF
+Sbjct: 10 NGTASTAAPSPTLYIKNIEGKIKKPELRAQLHALFTTYGRILDVVATRAPHM---RGQAF 66
+
+Query: 64 IEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+          + F     +ASA R L+G+    R L   YS+ 
+Sbjct: 67 VVFESAGVAASAKRALDGFAFYGRPLHIAYSTG 99
+
+
+>CBQ69540 pep:novel chromosome:GCA_000230245.1:16:152239:153058:-1
+          gene:sr16042 transcript:CBQ69540 description:"related
+          to pre-mrna splicing factor srp55"
+          Length = 248
+
+ Score = 34.7 bits (78), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 19/71 (26%), Positives = 34/71 (47%), Gaps = 9/71 (12%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+G +P D     I DL  + G + ++++M          + F+EF     +  AV++ 
+Sbjct: 5  VYIGKLPADVRRGDIEDLFRDYGRLYDVRIM--------GSFGFVEFEHPRDAEDAVKDF 56
+
+Query: 80 NGYQ-LGSRFL 89
+          +G   +G R L
+Sbjct: 57 DGKNFMGERIL 67
+
+
+>CBQ68395 pep:novel chromosome:GCA_000230245.1:10:376047:378131:1
+           gene:sr14674 transcript:CBQ68395 description:"conserved
+           hypothetical protein"
+          Length = 694
+
+ Score = 35.0 bits (79), Expect = 0.017,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 36/75 (48%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+    EQ+L +  ++G  +     +    G  +G AF  FR  E + + V  
+Sbjct: 198 AIVVKNIPFSVKREQLLQIIEDLGIPMPYAFNYHMDQGVFRGLAFANFRSAEEADAVVAA 257
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           LNG+ +  R L+  Y
+Sbjct: 258 LNGFDVSGRKLRVEY 272
+
+
+>CBQ70682 pep:novel chromosome:GCA_000230245.1:2:1369377:1372283:1
+           gene:sr10390 transcript:CBQ70682 description:"related to
+           NAM8-meiotic recombination protein"
+          Length = 968
+
+ Score = 34.3 bits (77), Expect = 0.031,   Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 28/56 (50%), Gaps = 5/56 (8%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVI-----NLKMMFDPQTGRSKGYAFIEF 66
+           P    +  ++ + Q  + I    +++GP       + K+M DP TG SKGY F+ F
+Sbjct: 332 PHNHPFASALVHAQQAQGIYQPGTHIGPAPFHSTKSAKIMTDPVTGVSKGYGFVRF 387
+
+
+>CBQ68844 pep:novel chromosome:GCA_000230245.1:12:377811:380048:-1
+           gene:sr15190 transcript:CBQ68844 description:"related to
+           PRT1-translation initiation factor eIF3 subunit"
+          Length = 745
+
+ Score = 33.5 bits (75), Expect = 0.056,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 28/51 (54%), Gaps = 2/51 (3%)
+
+Query: 39  SNVGPVINLKMMFDP--QTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           ++ G  I ++ M  P   +G SKGY F+E    + +A A+R ++GY    +
+Sbjct: 69  THAGIDIAVEGMHIPYADSGDSKGYLFVEMASADDAAQAIRQMDGYAFDKK 119
+
+
+>CBQ73718 pep:novel chromosome:GCA_000230245.1:8:551305:553629:-1
+           gene:sr14312 transcript:CBQ73718 description:"related to
+           polyadenylate-binding protein 3"
+          Length = 774
+
+ Score = 32.3 bits (72), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 14/68 (20%), Positives = 37/68 (54%), Gaps = 1/68 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++  D   + + D     G +++ ++M D   G+S+ + F+ F+  E +  A+  +
+Sbjct: 307 LFIKNLDADIESKDLYDTFKAFGHIVSARVMRD-NDGKSREFGFVSFKVAEDATQALHAM 365
+
+Query: 80  NGYQLGSR 87
+           +  +LGS+
+Sbjct: 366 DNAKLGSK 373
+
+
+>CBQ73632 pep:novel chromosome:GCA_000230245.1:8:290608:290997:-1
+          gene:sr14227 transcript:CBQ73632 description:"related
+          to ribonucleoprotein"
+          Length = 129
+
+ Score = 30.8 bits (68), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 22/82 (26%), Positives = 38/82 (46%), Gaps = 12/82 (14%)
+
+Query: 17 SRVVYLGSIP--YDQTEEQILDLCSNVGPVINLKMMFDPQTG-----RSKGYAFIEFRDL 69
+          S  +Y+G++P   D+T      L S+  P  ++  +  P T      R+KG+ FI F   
+Sbjct: 5  SSTIYVGNLPSYLDETS-----LASHFAPFGDIVSISVPATSTAAGKRNKGFGFITFSTP 59
+
+Query: 70 ESSASAVRNLNGYQLGSRFLKC 91
+          + +  A+ N+N   +  R L  
+Sbjct: 60 DDALDALDNMNLNAINGRTLSV 81
+
+
+>CBQ71450 pep:novel chromosome:GCA_000230245.1:22:102114:103796:1
+           gene:sr11295 transcript:CBQ71450 description:"related to
+           RNA-binding protein rnp24"
+          Length = 560
+
+ Score = 31.6 bits (70), Expect = 0.19,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 19/27 (70%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDL 37
+            Q NPPS  ++LG++ ++ TE+ + DL
+Sbjct: 284 AQKNPPSMTLFLGNLSFNTTEQGVRDL 310
+
+
+>CBQ69492 pep:novel chromosome:GCA_000230245.1:16:16401:17439:-1 gene:sr15964
+           transcript:CBQ69492 description:"conserved hypothetical
+           protein"
+          Length = 319
+
+ Score = 30.8 bits (68), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 16/73 (21%), Positives = 35/73 (47%), Gaps = 1/73 (1%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           P   +V++ ++ +  T+E +    ++   V +  ++      RSKG+ F++F D      
+Sbjct: 220 PSKTLVFVANLAFSTTDESLKAAFADY-KVKSAHIVKRRNGNRSKGFGFVDFEDSSEQQR 278
+
+Query: 75  AVRNLNGYQLGSR 87
+           A+ +  G Q+  R
+Sbjct: 279 AIASAQGKQIDGR 291
+
+
+>CBQ69793 pep:novel chromosome:GCA_000230245.1:17:372252:375317:-1
+           gene:sr15711 transcript:CBQ69793 description:"related to
+           WHI3-involved in regulation of cell size"
+          Length = 1021
+
+ Score = 31.2 bits (69), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 20/83 (24%), Positives = 39/83 (46%), Gaps = 3/83 (3%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYA---FIEFRDL 69
+           N+PP   +++G++P +     +  +  ++  V      F   + R K      F+EF D+
+Sbjct: 898 NHPPVNTLFVGNLPSNAASAALSQIEDHLRGVFGSCRGFRQISFRLKSNGPMCFVEFEDV 957
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCG 92
+            +++ A+  LNG+ LG      G
+Sbjct: 958 YTASKAMSELNGHSLGGAIKNGG 980
+
+
+>CBQ71213 pep:novel chromosome:GCA_000230245.1:20:1017086:1017913:-1
+           gene:sr10910 transcript:CBQ71213 description:"related to
+           pre-mRNA splicing factor"
+          Length = 275
+
+ Score = 30.4 bits (67), Expect = 0.35,   Method: Compositional matrix adjust.
+ Identities = 11/37 (29%), Positives = 22/37 (59%)
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+           YAFIE+ D   + +A R+++G + G   +   ++ N+
+Sbjct: 79  YAFIEYEDPRDADAAFRDMHGMRFGRNEISIQFAKNA 115
+
+
+>CBQ72943 pep:novel chromosome:GCA_000230245.1:6:192882:193937:-1
+           gene:sr11043 transcript:CBQ72943 description:"conserved
+           hypothetical protein"
+          Length = 351
+
+ Score = 30.4 bits (67), Expect = 0.45,   Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 23/42 (54%)
+
+Query: 8   NAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKM 49
+            + V+  P  R +++ ++P D TEE + ++   VG V  ++ 
+Sbjct: 64  KSAVEEVPAERTLFVANLPVDTTEEHVREMFGRVGGVSAVRF 105
+
+
+>CBQ68872 pep:novel chromosome:GCA_000230245.1:12:457102:458277:-1
+           gene:sr15163 transcript:CBQ68872 description:"conserved
+           hypothetical protein"
+          Length = 361
+
+ Score = 30.0 bits (66), Expect = 0.50,   Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 6/62 (9%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLK-MMFDPQ--TGRSKGYAFIEFRDLESSASA 75
+            VY+G + +  T+E I  + ++VG  ++L  + F      G+SKG A++E    ES   A
+Sbjct: 122 AVYIGDLNWWATDEAIRQIAASVGVSVSLNDITFSEHKVNGKSKGVAYVE---TESEVDA 178
+
+Query: 76  VR 77
+            R
+Sbjct: 179 RR 180
+
+
+>CBQ73890 pep:novel chromosome:GCA_000230245.1:9:258670:260301:-1
+           gene:sr14478 transcript:CBQ73890 description:"related to
+           Multidomain cyclophilin type peptidyl-prolyl cis-trans
+           isomerase"
+          Length = 543
+
+ Score = 30.0 bits (66), Expect = 0.54,   Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 33/53 (62%), Gaps = 2/53 (3%)
+
+Query: 15  PPSRVVYLGSI-PYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           PP  ++++  + P  ++++  L + S  G +++ +++ D +TG S  YAFIEF
+Sbjct: 253 PPENILFVCKLNPVTRSDDLEL-IFSRFGKILSCEVIKDKKTGDSLQYAFIEF 304
+
+
+>CBQ67655 pep:novel chromosome:GCA_000230245.1:1:691710:692999:-1
+          gene:sr11605 transcript:CBQ67655 description:"conserved
+          hypothetical protein"
+          Length = 353
+
+ Score = 29.6 bits (65), Expect = 0.67,   Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 38/78 (48%), Gaps = 3/78 (3%)
+
+Query: 18 RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD-PQTGRSKGYAFIEFRDLESSASAV 76
+          R +Y+ ++P D T +Q   L +  GPV +  ++       R +G  FI   D   +  A+
+Sbjct: 13 RNLYVLNLPLDATTDQFEALFAQFGPVEHAVILATLDHLARRRG--FILMSDPAQARDAI 70
+
+Query: 77 RNLNGYQLGSRFLKCGYS 94
+           +LNG++     ++  ++
+Sbjct: 71 EHLNGHEWHHYRIEVSFA 88
+
+
+>CBQ71216 pep:novel chromosome:GCA_000230245.1:20:1025493:1027421:1
+           gene:sr10914 transcript:CBQ71216 description:"conserved
+           hypothetical protein"
+          Length = 642
+
+ Score = 29.6 bits (65), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 21/79 (26%), Positives = 35/79 (44%), Gaps = 5/79 (6%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P R +++ +I ++   E +       G    +K  FD      +G AFI + DL S+  A
+Sbjct: 248 PCRTLFVRNIQFETDSEYVKQQFEQFG---QIKTFFD--MVNKRGIAFITYYDLRSARDA 302
+
+Query: 76  VRNLNGYQLGSRFLKCGYS 94
+           +  + G   G R +   YS
+Sbjct: 303 MLAMKGALFGGRPINIHYS 321
+
+
+>CBQ68486 pep:novel chromosome:GCA_000230245.1:11:12190:14639:-1 gene:sr14780
+           transcript:CBQ68486 description:"related to YRA1-RNA
+           annealing protein"
+          Length = 241
+
+ Score = 29.3 bits (64), Expect = 0.88,   Method: Compositional matrix adjust.
+ Identities = 22/84 (26%), Positives = 41/84 (48%), Gaps = 4/84 (4%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           G   N  S+++ L ++P D TE Q+ +L  + +G +  + M +    G+S G   +EF+ 
+Sbjct: 73  GRSGNTGSKII-LSNLPLDVTEAQVKELFATTIGALRKVAMSYR-ANGQSTGVCTVEFQR 130
+
+Query: 69  LESSASAVRNLNGYQL-GSRFLKC 91
+            + +  A    N   + G + LK 
+Sbjct: 131 ADDAGRAYTQYNNRLIDGKKPLKV 154
+
+
+>CBQ71368 pep:novel chromosome:GCA_000230245.1:21:300594:302341:1
+           gene:sr16716 transcript:CBQ71368 description:"conserved
+           hypothetical protein"
+          Length = 549
+
+ Score = 28.5 bits (62), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 16/76 (21%), Positives = 41/76 (53%), Gaps = 3/76 (3%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P    ++G++ +D  E  + D  +     ++++++     G+ KG+ ++EF+  +   +A
+Sbjct: 82  PPFTAFVGNLSFDVMEADVEDFFAPSK-TVSVRIVTG-HDGKPKGFGYVEFQSQDDLRAA 139
+
+Query: 76  VRNLNGYQLGSRFLKC 91
+           + + +G QL SR ++ 
+Sbjct: 140 L-DRSGSQLASRTVRI 154
+
+
+>CBQ72373 pep:novel chromosome:GCA_000230245.1:4:278441:282724:1 gene:sr13080
+           transcript:CBQ72373 description:"conserved hypothetical
+           protein"
+          Length = 1427
+
+ Score = 27.3 bits (59), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 31/69 (44%), Gaps = 10/69 (14%)
+
+Query: 157 NMTTPAMMISSELAKKPKEVQLKFLQKFQEWTR--AHPEDAVSLLEL----CPQLSFVTA 210
+           N T    ++S   +KK      + L+ F  WT      E +VSL E     C   S++TA
+Sbjct: 908 NTTISTFLVSLCQSKKA----FRMLEHFVPWTAWLQSIEKSVSLTERSWPKCLSSSYITA 963
+
+Query: 211 ELLLTNGIC 219
+           +LLL    C
+Sbjct: 964 QLLLPEDFC 972
+
+
+>CBQ67989 pep:novel chromosome:GCA_000230245.1:1:1675957:1681056:1 gene:sr11852
+            transcript:CBQ67989 description:"probable DNA/RNA
+            helicase (DEAD/H box family II)"
+          Length = 1699
+
+ Score = 26.9 bits (58), Expect = 6.2,   Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 27/63 (42%), Gaps = 7/63 (11%)
+
+Query: 136  GNANFLSQKFPELPSGIDVN------INMTTPAMMISSELAKKPKEVQLKFLQKFQEWTR 189
+            G ANF   +F  +PS +D N      I+ T  A +    L    K  QLK +   Q  T 
+Sbjct: 1508 GAANFAKPRFMTIPSHLDANSSSLAMIHATLAAGLYPKLLHIDSKTYQLKTIGNHQP-TS 1566
+
+Query: 190  AHP 192
+             HP
+Sbjct: 1567 IHP 1569
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 1,796,446
+Number of extensions: 56713
+Number of successful extensions: 209
+Number of sequences better than 10.0: 56
+Number of HSP's gapped: 204
+Number of HSP's successfully gapped: 73
+Length of query: 296
+Length of database: 3,975,336
+Length adjustment: 92
+Effective length of query: 204
+Effective length of database: 3,361,420
+Effective search space: 685729680
+Effective search space used: 685729680
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

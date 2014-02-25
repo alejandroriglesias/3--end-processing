@@ -1,0 +1,1064 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_06054T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    92   1e-21
+GGTG_12915T0 pep:known supercontig:Gae_graminis_V2:supercont1.10...    67   7e-13
+GGTG_12016T0 pep:known supercontig:Gae_graminis_V2:supercont1.7:...    57   3e-09
+GGTG_08213T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    55   7e-09
+GGTG_10229T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    55   1e-08
+GGTG_07985T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    49   7e-07
+GGTG_05229T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    49   1e-06
+GGTG_01600T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    45   3e-06
+GGTG_04493T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    47   5e-06
+GGTG_04162T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    45   9e-06
+GGTG_01702T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    45   2e-05
+GGTG_05848T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    42   1e-04
+GGTG_06219T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    42   2e-04
+GGTG_03702T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    42   2e-04
+GGTG_00548T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    42   2e-04
+GGTG_12871T0 pep:known supercontig:Gae_graminis_V2:supercont1.10...    41   3e-04
+GGTG_00287T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    40   3e-04
+GGTG_08321T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    39   0.001
+GGTG_08256T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    39   0.001
+GGTG_09489T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    38   0.001
+GGTG_01051T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    39   0.002
+GGTG_10219T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    39   0.002
+GGTG_08131T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    37   0.005
+GGTG_11754T0 pep:known supercontig:Gae_graminis_V2:supercont1.7:...    36   0.014
+GGTG_00702T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    35   0.028
+GGTG_09218T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    35   0.033
+GGTG_09543T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    35   0.042
+GGTG_10840T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:...    33   0.050
+GGTG_10283T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    34   0.056
+GGTG_04274T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    32   0.084
+GGTG_02676T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    32   0.13 
+GGTG_03954T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    32   0.17 
+GGTG_02857T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    32   0.17 
+GGTG_08829T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    32   0.18 
+GGTG_02758T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    32   0.20 
+GGTG_01840T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    31   0.28 
+GGTG_06315T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    30   0.82 
+GGTG_00170T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    28   4.2  
+GGTG_10310T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    28   4.5  
+GGTG_00170T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    28   4.8  
+GGTG_10840T1 pep:known supercontig:Gae_graminis_V2:supercont1.6:...    27   4.9  
+GGTG_00883T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    28   5.8  
+GGTG_11308T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:...    27   7.7  
+
+>GGTG_06054T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:2780724:278255
+          1:-1 gene:GGTG_06054 transcript:GGTG_06054T0
+          description:"cleavage stimulation factor 64-kDa
+          subunit"
+          Length = 304
+
+ Score = 91.7 bits (226), Expect = 1e-21,   Method: Compositional matrix adjust.
+ Identities = 40/84 (47%), Positives = 61/84 (72%)
+
+Query: 11 VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+          + + PPSRVV++G+IPY  +EEQI D+ S  G VIN ++++D +TG+ KG+ F E+ D +
+Sbjct: 1  MSSRPPSRVVFVGNIPYGLSEEQITDIFSRAGKVINFRLVYDRETGKPKGFGFAEYPDAD 60
+
+Query: 71 SSASAVRNLNGYQLGSRFLKCGYS 94
+          S+ASAVRNLN  ++  R L+  +S
+Sbjct: 61 SAASAVRNLNDSEIMGRKLRVDFS 84
+
+
+
+ Score = 28.1 bits (61), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 21/76 (27%), Positives = 29/76 (38%), Gaps = 7/76 (9%)
+
+Query: 147 ELPSGIDVNINMTTPAMMISSELAKKPKEVQLKFLQKFQEWTRAHPEDAVSLLELCPQLS 206
+           +LP+G+            IS  L   P    L  L + +    A P  A  LL   PQLS
+Sbjct: 140 DLPAGVSATD-------AISRTLRTLPPAQLLDILGQMKTMAAADPARATELLSQAPQLS 192
+
+Query: 207 FVTAELLLTNGICKVD 222
+           +   + LL   +   D
+Sbjct: 193 YAIFQALLLMDLVSPD 208
+
+
+>GGTG_12915T0 pep:known supercontig:Gae_graminis_V2:supercont1.10:209037:210996:-
+           1 gene:GGTG_12915 transcript:GGTG_12915T0
+           description:"MKI67 FHA domain-interacting nucleolar
+           phosphoprotein"
+          Length = 389
+
+ Score = 67.4 bits (163), Expect = 7e-13,   Method: Compositional matrix adjust.
+ Identities = 31/88 (35%), Positives = 49/88 (55%), Gaps = 2/88 (2%)
+
+Query: 4   QSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAF 63
+           +  + A   + P  RV+Y+G IPY   E +I    +  G + NL++  + +TG SKGYAF
+Sbjct: 157 KKSIEASAGDGP--RVIYIGHIPYGFFEHEIRQYLTQFGTITNLRVSRNKKTGASKGYAF 214
+
+Query: 64  IEFRDLESSASAVRNLNGYQLGSRFLKC 91
+           +EF D  ++A   + ++ Y L  R LK 
+Sbjct: 215 VEFSDASTAAIVAKTMDAYLLFGRILKV 242
+
+
+>GGTG_12016T0 pep:known supercontig:Gae_graminis_V2:supercont1.7:2147731:2149366:
+           -1 gene:GGTG_12016 transcript:GGTG_12016T0
+           description:"U2 snRNP component IST3"
+          Length = 378
+
+ Score = 56.6 bits (135), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 46/75 (61%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY G + Y+ TE  ++ + S  G  + LK++ D +TG+SKG+ ++++ D  S+  AV NL
+Sbjct: 35  VYFGGLSYELTEGDVVTIFSQFGEPVFLKLVRDRETGKSKGFGWLKYEDQRSTDLAVDNL 94
+
+Query: 80  NGYQLGSRFLKCGYS 94
+            G ++  R ++  ++
+Sbjct: 95  GGAEIAGRLVRVDHA 109
+
+
+>GGTG_08213T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:2319449:2324105:
+           1 gene:GGTG_08213 transcript:GGTG_08213T0
+           description:"nuclear and cytoplasmic polyadenylated
+           RNA-binding protein pub1"
+          Length = 482
+
+ Score = 55.5 bits (132), Expect = 7e-09,   Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 46/75 (61%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +  +  +E +    S  G V   ++M+D +TGRS+GY F+ FRD   +  A+ ++
+Sbjct: 180 IFVGDLSNEVNDEVLTQAFSVFGSVSEARVMWDMKTGRSRGYGFVAFRDRPDAEKALSSM 239
+
+Query: 80  NGYQLGSRFLKCGYS 94
+           +G  LGSR ++C ++
+Sbjct: 240 DGEWLGSRAIRCNWA 254
+
+
+
+ Score = 45.1 bits (105), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 24/81 (29%), Positives = 41/81 (50%), Gaps = 6/81 (7%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+             Y+G++    T   ++ L  N G V+  +   D      +G+AFI+    E++ SA+ N
+Sbjct: 305 TCYVGNLTPYTTANDLVPLFQNFGYVVESRFQSD------RGFAFIKMDTHENATSAICN 358
+
+Query: 79  LNGYQLGSRFLKCGYSSNSDI 99
+           LNGY +  R LKC +  + + 
+Sbjct: 359 LNGYNVNGRPLKCSWGKDKNT 379
+
+
+
+ Score = 35.8 bits (81), Expect = 0.015,   Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 38/70 (54%), Gaps = 1/70 (1%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           P  R +Y+G +    TE+ +  +    G V N+K++ D +  +   Y F+E+ D  ++  
+Sbjct: 84  PNKRALYVGGLDARVTEDVLRQIFETTGHVQNVKIIPD-KNAKGFNYGFVEYDDPGAADR 142
+
+Query: 75  AVRNLNGYQL 84
+           A++ LNG ++
+Sbjct: 143 AMQTLNGRRV 152
+
+
+>GGTG_10229T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:3794839:3797455:
+           -1 gene:GGTG_10229 transcript:GGTG_10229T0
+           description:"nuclear localization sequence binding
+           protein"
+          Length = 499
+
+ Score = 54.7 bits (130), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 23/86 (26%), Positives = 49/86 (56%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G   +P S  +++G++P+D  E+ + +   +V  + +L++  D ++GR KG+ ++ F  +
+Sbjct: 346 GDVTSPESDTLFVGNLPFDADEDVVSEFFGSVAEIKSLRLPTDQESGRRKGFGYVSFNSV 405
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYSS 95
+           E + SA   L+G  +  R  +  YS+
+Sbjct: 406 EDAKSAFTQLSGQSINGRPCRLDYST 431
+
+
+
+ Score = 40.0 bits (92), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 20/93 (21%), Positives = 50/93 (53%), Gaps = 2/93 (2%)
+
+Query: 3   RQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYA 62
+           ++S  +A   + P +  +++GS+ ++  ++ + +     G V++ +++ D +TGRSKG+ 
+Sbjct: 240 KKSKTDAAESDKPAT--LFVGSLSWNVDDDMLKEEFKFCGEVVSARVITDRETGRSKGFG 297
+
+Query: 63  FIEFRDLESSASAVRNLNGYQLGSRFLKCGYSS 95
+           +++F     +  A     G  +  R +K  +S+
+Sbjct: 298 YVDFASPADAEKAHAEKQGAFIDGRQIKVDFST 330
+
+
+>GGTG_07985T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:1658275:166057
+          6:-1 gene:GGTG_07985 transcript:GGTG_07985T0
+          description:"splicing factor 3B subunit 4"
+          Length = 409
+
+ Score = 49.3 bits (116), Expect = 7e-07,   Method: Compositional matrix adjust.
+ Identities = 23/77 (29%), Positives = 43/77 (55%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +Y+G++     E  + ++ + +GPV+NL M  D  +   +GY F+EF   ES+  A R 
+Sbjct: 13 TIYVGNLDERFGESLMWEMMTQMGPVVNLHMPMDRVSRTHQGYGFVEFDSPESADYAARA 72
+
+Query: 79 LNGYQLGSRFLKCGYSS 95
+          LNG ++  + ++   +S
+Sbjct: 73 LNGIRVYGKVIRVNKAS 89
+
+
+
+ Score = 32.7 bits (73), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 30/68 (44%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           E+ + D  S  G ++    +       SKGY F+ F   E+S  A   +NG  L S+ + 
+Sbjct: 113 EKTLFDTFSRFGQLVTPPNVVRDANNISKGYGFVNFDSFEASDQARDTMNGQYLLSKQIT 172
+
+Query: 91  CGYSSNSD 98
+             Y+   D
+Sbjct: 173 VEYAYKKD 180
+
+
+>GGTG_05229T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:423515:426628:-1
+           gene:GGTG_05229 transcript:GGTG_05229T0 description:"RNP
+           domain-containing protein"
+          Length = 509
+
+ Score = 48.9 bits (115), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 20/77 (25%), Positives = 44/77 (57%), Gaps = 1/77 (1%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +Y+ ++P+  + + +++L + +G V   ++ ++P +GRS+G   + F   E++ +A+
+Sbjct: 406 SETIYVRNLPWSTSNDDLVELFTTIGRVEQAEIQYEP-SGRSRGSGVVRFDSAETAETAI 464
+
+Query: 77  RNLNGYQLGSRFLKCGY 93
+               GYQ G R L   +
+Sbjct: 465 AKFQGYQYGGRPLNLSF 481
+
+
+
+ Score = 37.4 bits (85), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 37/78 (47%), Gaps = 1/78 (1%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           +N+   R VY+G++ YD     + D     G VI   ++  P  G SKG   +E+   E 
+Sbjct: 123 ENSQQDRRVYVGNLSYDVKWHHLKDFMRQAGEVIFADVLLLP-NGMSKGCGIVEYATREQ 181
+
+Query: 72  SASAVRNLNGYQLGSRFL 89
+           + +AV  L+   L  R +
+Sbjct: 182 AQNAVATLSNQNLMGRLV 199
+
+
+>GGTG_01600T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:5046848:504761
+          0:1 gene:GGTG_01600 transcript:GGTG_01600T0
+          description:"pre-mRNA branch site protein p14"
+          Length = 115
+
+ Score = 44.7 bits (104), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 41/78 (52%), Gaps = 3/78 (3%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+          +R +++ ++ Y+ T E++ DL    GP+  ++      T   KG AF+ + D+  + +A 
+Sbjct: 12 NRALFVKNLSYNVTPEELFDLFGKFGPIRQVRQGIASNT---KGTAFVVYEDVMDAKTAC 68
+
+Query: 77 RNLNGYQLGSRFLKCGYS 94
+            LNGY   +R+L   Y 
+Sbjct: 69 DKLNGYNFQNRYLVVLYH 86
+
+
+>GGTG_04493T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:5752932:5755959:
+           1 gene:GGTG_04493 transcript:GGTG_04493T0
+           description:"RNA splicing factor Pad-1"
+          Length = 601
+
+ Score = 46.6 bits (109), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 28/90 (31%), Positives = 46/90 (51%), Gaps = 5/90 (5%)
+
+Query: 5   SGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKM--MFDPQTGRSKGYA 62
+           S  N   QN+     +Y+G+I +  TE    DL +  GP   L+   +     GRS+GY 
+Sbjct: 299 SNANGAQQNSVLFHRLYVGNIHFSITEP---DLRTVFGPFGELRFVQLQKEDNGRSRGYG 355
+
+Query: 63  FIEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+           F+E+ D  ++  A+  +NG+ L  R ++ G
+Sbjct: 356 FVEYNDPANAREALEKMNGFDLAGRPIRVG 385
+
+
+
+ Score = 32.0 bits (71), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 18/67 (26%), Positives = 36/67 (53%), Gaps = 1/67 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R V++  +      +++ +     GPV   +++ D  + RSKG  ++EF+  ES  +A++
+Sbjct: 210 RTVFVQQLAARLRTKELHEFFEQAGPVAAAQIVKDRVSNRSKGVGYVEFKSEESLPAALQ 269
+
+Query: 78  NLNGYQL 84
+            L G +L
+Sbjct: 270 -LTGQKL 275
+
+
+>GGTG_04162T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:4767395:4771228:
+           -1 gene:GGTG_04162 transcript:GGTG_04162T0
+           description:"nucleic acid-binding protein"
+          Length = 304
+
+ Score = 45.4 bits (106), Expect = 9e-06,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 46/79 (58%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P++ +Y+G+IPY+ T+ ++  L  ++  V ++++  D  TG  +G+A  +F   E++ +A
+Sbjct: 204 PTKSLYIGNIPYETTDVELNKLFRSLDNVTDVRIAVDRSTGWPRGFAHADFSSEEAALAA 263
+
+Query: 76  VRNLNGYQLGSRFLKCGYS 94
+            + L    L  R L+  +S
+Sbjct: 264 GQKLEDMTLLGRQLRIDFS 282
+
+
+
+ Score = 35.8 bits (81), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 32/62 (51%), Gaps = 1/62 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++ +D  EE ++D  S  G +    +  D + G S+GYAF+ F + E    A    
+Sbjct: 104 LFVRNLVFDANEEHLMDAFSKYGEITKTSIARDVR-GLSRGYAFVFFTNAEDMNKAAAGA 162
+
+Query: 80  NG 81
+           NG
+Sbjct: 163 NG 164
+
+
+>GGTG_01702T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:5360138:5362748:
+           1 gene:GGTG_01702 transcript:GGTG_01702T0
+           description:"nucleolar protein 4"
+          Length = 749
+
+ Score = 45.1 bits (105), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 23/73 (31%), Positives = 38/73 (52%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +++ S+P   T E + +  S   PV +  ++ DP+T  S+GY F+ F D + +  A  
+Sbjct: 49  RSLFVRSLPTGATGESLTEFFSQHFPVKHATVVVDPKTKTSRGYGFVTFTDPDDAIQAKE 108
+
+Query: 78  NLNGYQLGSRFLK 90
+            LN   L  R L+
+Sbjct: 109 KLNNELLDGRRLR 121
+
+
+
+ Score = 39.3 bits (90), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 35/65 (53%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            +++ ++P+  T+EQ+ +  S  G V   +++ D  T R  G  F+ F ++E + S  RN
+Sbjct: 357 TLFIRNVPFTTTDEQLKEHFSQFGAVRYARVVMDHATKRPAGKGFVCFFNVEDAESCARN 416
+
+Query: 79  LNGYQ 83
+              Y+
+Sbjct: 417 APRYR 421
+
+
+
+ Score = 28.9 bits (63), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 16/56 (28%), Positives = 26/56 (46%), Gaps = 13/56 (23%)
+
+Query: 42  GPVINLKMMFDPQTG-------------RSKGYAFIEFRDLESSASAVRNLNGYQL 84
+           G V+  K++F+ + G             RS+GY FIE+     +    R LNG+ +
+Sbjct: 593 GIVLQAKIVFESKDGSKVSEVKDADGGARSRGYGFIEYSSHRWALMGARWLNGHSV 648
+
+
+>GGTG_05848T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:2215894:221688
+          2:1 gene:GGTG_05848 transcript:GGTG_05848T0
+          description:"hypothetical protein"
+          Length = 285
+
+ Score = 41.6 bits (96), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 43/77 (55%), Gaps = 3/77 (3%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVG-PVI-NLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           R VY+G++ YD     I ++    G P   ++K+  D  +GR++GYAF++F + E +  
+Sbjct: 17 GRRVYIGNLNYDLQNTDIEEMLGQSGFPAFESVKVPLDQASGRNRGYAFVDFPNHEEADR 76
+
+Query: 75 AVRNLNGYQLGSRFLKC 91
+          AV +L    +G R +K 
+Sbjct: 77 AVNSLQAV-IGGREIKV 92
+
+
+>GGTG_06219T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:3308681:3314075:
+           -1 gene:GGTG_06219 transcript:GGTG_06219T0
+           description:"hypothetical protein"
+          Length = 618
+
+ Score = 42.0 bits (97), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 14/47 (29%), Positives = 28/47 (59%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           +++G +  D T+++  D  +  G V++  +M D  TGR +G+ F+ F
+Sbjct: 202 IFVGGVSQDTTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTF 248
+
+
+
+ Score = 42.0 bits (97), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 31/49 (63%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           +++G + ++ T++ + +  S  G VI   +M D  TGRS+G+ F+ F+D
+Sbjct: 118 MFIGGLNWETTDQSLREYFSQFGEVIECTVMRDGSTGRSRGFGFLTFKD 166
+
+
+>GGTG_03702T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:3380957:3383231:
+           1 gene:GGTG_03702 transcript:GGTG_03702T0
+           description:"hypothetical protein"
+          Length = 327
+
+ Score = 41.6 bits (96), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 19/69 (27%), Positives = 40/69 (57%), Gaps = 1/69 (1%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+             P    + + +I Y+ TEE +  L + +GP+  L +++D ++GRS+G A++ +   + +
+Sbjct: 97  GGPKGTKIRVDNIHYELTEEDLQGLFNGIGPIRELDLVYD-RSGRSEGTAYVVYESYKDA 155
+
+Query: 73  ASAVRNLNG 81
+             AV+  +G
+Sbjct: 156 TLAVKEFDG 164
+
+
+>GGTG_00548T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:1749322:1754113:
+           -1 gene:GGTG_00548 transcript:GGTG_00548T0
+           description:"polyadenylate-binding protein"
+          Length = 773
+
+ Score = 41.6 bits (96), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 21/73 (28%), Positives = 37/73 (50%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+ +I  D T++    L    G V +  +  D +TG+S+G+ F+ F   E ++ AV  L
+Sbjct: 244 IYVKNIQLDVTDDDFRALFEKFGHVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVEEL 303
+
+Query: 80  NGYQLGSRFLKCG 92
+           N  +   + L  G
+Sbjct: 304 NEKEFHGQNLYVG 316
+
+
+
+ Score = 37.4 bits (85), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 19/64 (29%), Positives = 33/64 (51%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +Y+G +    TE  + +L S +G V ++++  D  T RS GYA++ +        A+
+Sbjct: 60  SASLYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTSDGEKAL 119
+
+Query: 77  RNLN 80
+             LN
+Sbjct: 120 DELN 123
+
+
+
+ Score = 35.8 bits (81), Expect = 0.015,   Method: Compositional matrix adjust.
+ Identities = 16/60 (26%), Positives = 35/60 (58%), Gaps = 1/60 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+           + D  +  G +++ K+  D + G SKGY F+ +   E+++ A++++NG  L  + +  G+
+Sbjct: 165 LHDTFAAFGNILSCKVAQD-EHGNSKGYGFVHYETDEAASQAIKHVNGMLLNEKKVYVGH 223
+
+
+
+ Score = 27.7 bits (60), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 12/47 (25%), Positives = 24/47 (51%)
+
+Query: 53  PQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+           P+ G+SKG+ F+ F + + +  AV  +N   +  + L    +   D+
+Sbjct: 423 PKLGKSKGFGFVCFGNPDDATKAVAEMNQRMVNGKPLYVALAQRKDV 469
+
+
+>GGTG_12871T0 pep:known supercontig:Gae_graminis_V2:supercont1.10:95440:98498:1
+           gene:GGTG_12871 transcript:GGTG_12871T0
+           description:"splicing factor U2AF 50 kDa subunit"
+          Length = 623
+
+ Score = 41.2 bits (95), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 25/80 (31%), Positives = 42/80 (52%), Gaps = 1/80 (1%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P ++      PY  TEEQ+ +L  + G +  L ++ D  T  S+G AF E+ D  ++  A
+Sbjct: 415 PHKIGITNLAPY-LTEEQVTELLVSFGELKALVLVKDSGTEESRGIAFCEYVDPVATDVA 473
+
+Query: 76  VRNLNGYQLGSRFLKCGYSS 95
+           +  LN  +LG + L+   +S
+Sbjct: 474 IHGLNNMELGEKRLRVKKAS 493
+
+
+>GGTG_00287T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:928658:929496:-1
+           gene:GGTG_00287 transcript:GGTG_00287T0
+           description:"polyadenylate-binding protein 2"
+          Length = 200
+
+ Score = 40.0 bits (92), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 31/50 (62%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           SR +++G++ Y  + E+I     + G +  + ++ D  TG+ KGYA++EF
+Sbjct: 74  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGYAYVEF 123
+
+
+>GGTG_08321T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:2734893:2736990:
+           -1 gene:GGTG_08321 transcript:GGTG_08321T0
+           description:"RNA-binding protein 8A"
+          Length = 184
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 32/58 (55%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           +V   ++  +  EE I D   + G + NL +  D ++G  KGYA IE+  L+ + +A+
+Sbjct: 60  IVMATNVHEEADEEAIQDKFGDYGEIKNLHLNLDRRSGYVKGYALIEYATLQEARAAI 117
+
+
+>GGTG_08256T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:2536396:2538812:
+           1 gene:GGTG_08256 transcript:GGTG_08256T0
+           description:"hypothetical protein"
+          Length = 668
+
+ Score = 39.3 bits (90), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 16/65 (24%), Positives = 39/65 (60%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +++G++P    E+ +++LCS +G V  ++++    +  ++ +AF+EF   ++   AV 
+Sbjct: 392 RSIFVGNLPVHIEEDAVMELCSIIGKVNKVQLIKKTNSFGTRAFAFVEFDRADTPEIAVS 451
+
+Query: 78  NLNGY 82
+            L+ +
+Sbjct: 452 QLHDH 456
+
+
+>GGTG_09489T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:1497058:1497978:
+           -1 gene:GGTG_09489 transcript:GGTG_09489T0
+           description:"nuclear cap-binding protein subunit 2"
+          Length = 186
+
+ Score = 38.1 bits (87), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 37/72 (51%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            +Y+G++ +  TEEQI +L S  G +  L M  D       G+ F+E+   + +   ++ 
+Sbjct: 47  TLYVGNLSFFTTEEQIYELFSKCGEIKRLVMGLDRFNKTPCGFCFVEYYTHQDALDCMKF 106
+
+Query: 79  LNGYQLGSRFLK 90
+           + G +L  R ++
+Sbjct: 107 IGGTKLDERVIR 118
+
+
+>GGTG_01051T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:3378572:3382232:
+           -1 gene:GGTG_01051 transcript:GGTG_01051T0
+           description:"translation initiation factor 4B"
+          Length = 557
+
+ Score = 38.9 bits (89), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/76 (25%), Positives = 41/76 (53%), Gaps = 2/76 (2%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P    +LG++ YD T+E + D  +    +++++++ D + GR KG+ ++EF   +    A
+Sbjct: 49  PPYTAHLGNLSYDATQEIVSDFFAECE-IVSVRIVEDREQGRPKGFGYVEFASADGLKQA 107
+
+Query: 76  VRNLNGYQLGSRFLKC 91
+           +  L+G     R ++ 
+Sbjct: 108 L-TLDGASFQGRSIRV 122
+
+
+>GGTG_10219T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:3772264:3774058:
+           1 gene:GGTG_10219 transcript:GGTG_10219T0
+           description:"hypothetical protein"
+          Length = 425
+
+ Score = 38.5 bits (88), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 34/62 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G++  + T+E +L   S    V   K++ D +  +SKGY F+ F D +    A + +
+Sbjct: 279 IFVGNLAGETTDESLLKAFSRWKSVAKAKVVRDKRNNKSKGYGFVAFADPDDFFQAAKEM 338
+
+Query: 80  NG 81
+           NG
+Sbjct: 339 NG 340
+
+
+>GGTG_08131T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:2053384:2057587:
+           -1 gene:GGTG_08131 transcript:GGTG_08131T0
+           description:"differentiation regulator"
+          Length = 804
+
+ Score = 37.4 bits (85), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 36/69 (52%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ +  SR VYLG++P D  EE++ +     G +  +K++      R K  AF+ F  + 
+Sbjct: 294 VQQSGASRNVYLGNLPEDIAEEELREDLGKFGAIDTIKIV------REKSIAFVHFLSIA 347
+
+Query: 71  SSASAVRNL 79
+           ++  AV  L
+Sbjct: 348 NAIKAVSQL 356
+
+
+
+ Score = 36.2 bits (82), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 28/90 (31%), Positives = 48/90 (53%), Gaps = 9/90 (10%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G  NN  +R +YLG+I  + T E+I ++    G + +++ + D      K   F+ F D 
+Sbjct: 427 GGLNNLGNRTIYLGNIHPETTIEEICNVVRG-GLLHHIRYIPD------KHICFVTFIDP 479
+
+Query: 70  ESSAS--AVRNLNGYQLGSRFLKCGYSSNS 97
+            ++AS  A+ NL G  + +R LK G+  +S
+Sbjct: 480 TAAASFYALSNLQGLMIHNRRLKIGWGKHS 509
+
+
+
+ Score = 34.7 bits (78), Expect = 0.032,   Method: Compositional matrix adjust.
+ Identities = 25/68 (36%), Positives = 37/68 (54%), Gaps = 12/68 (17%)
+
+Query: 5   SGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFI 64
+           SGV +G      SR VYLG+IP D + E+IL    + G + +++++ D      K  AFI
+Sbjct: 202 SGVVSGT-----SRTVYLGNIPQDTSAEEILGHVRS-GQIESVRLLPD------KNCAFI 249
+
+Query: 65  EFRDLESS 72
+            F D  S+
+Sbjct: 250 SFLDASSA 257
+
+
+>GGTG_11754T0 pep:known supercontig:Gae_graminis_V2:supercont1.7:1301984:1306303:
+           -1 gene:GGTG_11754 transcript:GGTG_11754T0
+           description:"RNA binding protein"
+          Length = 620
+
+ Score = 35.8 bits (81), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 22/80 (27%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTG------RSK---GYAFI 64
+           NPP   +Y+G++P D +EE+             LK  F  Q G      R+K      F+
+Sbjct: 427 NPPCNTLYVGNLPIDTSEEE-------------LKATFSKQRGYKRLCFRTKQNGPMCFV 473
+
+Query: 65  EFRDLESSASAVRNLNGYQL 84
+           EF D+  +  A+ +L G+ L
+Sbjct: 474 EFEDVSFATKALHDLYGHML 493
+
+
+>GGTG_00702T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:2206612:2208334:
+           -1 gene:GGTG_00702 transcript:GGTG_00702T0
+           description:"hypothetical protein"
+          Length = 488
+
+ Score = 34.7 bits (78), Expect = 0.028,   Method: Compositional matrix adjust.
+ Identities = 14/60 (23%), Positives = 31/60 (51%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+G++P+D  E+ +       G +   K+     +G+ KGY +++F +   +  AV+  
+Sbjct: 265 IYVGNLPFDANEDSLWAHFDKCGAIQWAKVATFEDSGKCKGYGWVKFAEPAGAQWAVQGF 324
+
+
+>GGTG_09218T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:670532:671958:1
+           gene:GGTG_09218 transcript:GGTG_09218T0
+           description:"tRNA selenocysteine-associated protein 1"
+          Length = 423
+
+ Score = 34.7 bits (78), Expect = 0.033,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 24/43 (55%)
+
+Query: 48  KMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           K+M D  TG+S+GY F+ F D      A+  + G   G+R ++
+Sbjct: 167 KIMTDAMTGQSRGYGFVRFTDEGDQQRALLEMQGVYCGNRPMR 209
+
+
+
+ Score = 31.6 bits (70), Expect = 0.32,   Method: Compositional matrix adjust.
+ Identities = 22/86 (25%), Positives = 45/86 (52%), Gaps = 5/86 (5%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNV-GPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           ++ +++G +     E  +  +   V G  +N+K++ D Q+G + GY F+EF   E++  A
+Sbjct: 42  AKTLWMGELEPWMDENFVKQVWQTVCGEAVNVKVIRDRQSGNA-GYCFVEFNSAEAANKA 100
+
+Query: 76  VRNLNGYQL--GSRFLKCGYSSNSDI 99
+           ++ LNG  +    R  K  ++S   +
+Sbjct: 101 LQ-LNGSPVPNSQRVFKLNWASGGGL 125
+
+
+
+ Score = 28.9 bits (63), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 15/81 (18%), Positives = 37/81 (45%), Gaps = 6/81 (7%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           +P +  V++G +    TE+++       G +  +K+         KG  F++F    ++ 
+Sbjct: 275 DPNNTTVFVGGLSGYVTEDELRSFFQGFGDITYVKIP------PGKGCGFVQFVHRHAAE 328
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYS 94
+            A+  + GY +G+  ++  + 
+Sbjct: 329 MAINQMQGYPIGNSRVRLSWG 349
+
+
+>GGTG_09543T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:1659825:1665521:
+           -1 gene:GGTG_09543 transcript:GGTG_09543T0
+           description:"hypothetical protein"
+          Length = 1213
+
+ Score = 34.7 bits (78), Expect = 0.042,   Method: Compositional matrix adjust.
+ Identities = 17/69 (24%), Positives = 38/69 (55%), Gaps = 6/69 (8%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P+  ++LGSIP   T   + ++  + GP+++ +++        K   F+ F  ++S+ SA
+Sbjct: 452 PTSALWLGSIPTSTTTSTLTEMFKSYGPILSARVL------THKNCGFVNFERIDSAISA 505
+
+Query: 76  VRNLNGYQL 84
+             ++NG ++
+Sbjct: 506 KASMNGKEI 514
+
+
+>GGTG_10840T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:1349124:1351895:
+           1 gene:GGTG_10840 transcript:GGTG_10840T0
+           description:"hypothetical protein"
+          Length = 260
+
+ Score = 33.5 bits (75), Expect = 0.050,   Method: Compositional matrix adjust.
+ Identities = 21/78 (26%), Positives = 41/78 (52%), Gaps = 2/78 (2%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILD-LCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           P +  + + ++P D TE  I +    ++G V  +++ + P  G S+G A I F   ++++
+Sbjct: 68  PGTSKIVVSNMPKDVTEAHIKEYFGKSIGTVKKVEISYGP-GGVSRGIATIIFAQADAAS 126
+
+Query: 74  SAVRNLNGYQLGSRFLKC 91
+            A + LNG  +  R +K 
+Sbjct: 127 KAFQELNGILIDQRPIKV 144
+
+
+>GGTG_10283T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:3940389:3942180:
+           -1 gene:GGTG_10283 transcript:GGTG_10283T0
+           description:"splicing factor U2AF-associated protein 2"
+          Length = 415
+
+ Score = 33.9 bits (76), Expect = 0.056,   Method: Compositional matrix adjust.
+ Identities = 16/65 (24%), Positives = 36/65 (55%), Gaps = 4/65 (6%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           +E I D C  +G V N+ ++FD +   ++G   + FR  +++ + ++ ++G     R ++
+Sbjct: 335 KEDIRDECEKLGDVTNI-VLFDQE---AEGIVSVRFRQQQAAETCIKLMHGRSFDGRTVE 390
+
+Query: 91  CGYSS 95
+             YS+
+Sbjct: 391 ASYST 395
+
+
+>GGTG_04274T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:5146769:514766
+          2:-1 gene:GGTG_04274 transcript:GGTG_04274T0
+          description:"nuclear cap-binding protein"
+          Length = 154
+
+ Score = 32.3 bits (72), Expect = 0.084,   Method: Compositional matrix adjust.
+ Identities = 18/76 (23%), Positives = 40/76 (52%), Gaps = 3/76 (3%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD--PQTGRS-KGYAFIEFRDLESSASA 75
+           +Y+G +    T   I D     G + ++K+  +  P++  + +G+A++EF D + +  A
+Sbjct: 10 TLYVGGLSNLVTAATIHDAFIPFGEIADVKLPKNDNPKSAETHRGFAYVEFEDADDAKEA 69
+
+Query: 76 VRNLNGYQLGSRFLKC 91
+          + N++  +L  R +K 
+Sbjct: 70 MDNMDQAELFGRIIKV 85
+
+
+>GGTG_02676T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:374391:377908:1
+           gene:GGTG_02676 transcript:GGTG_02676T0
+           description:"hypothetical protein"
+          Length = 318
+
+ Score = 32.3 bits (72), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 29/59 (49%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           E ++  +    G V   ++M DP T  S+G+ F++    E + +A+  L G  +  R L
+Sbjct: 84  EAEVTRMFEKYGEVEKCQIMRDPHTQESRGFGFVKMVTPEQADAAIEGLQGEAIEGRTL 142
+
+
+>GGTG_03954T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:4154055:4157345:
+           1 gene:GGTG_03954 transcript:GGTG_03954T0
+           description:"multiple RNA-binding domain-containing
+           protein 1"
+          Length = 842
+
+ Score = 32.3 bits (72), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 21/37 (56%)
+
+Query: 58  SKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+           S G+ F+EFR  E + +A++ ++GY L    L    S
+Sbjct: 652 SMGFGFVEFRTKEQAHAALKTMDGYTLEGHVLAVKAS 688
+
+
+
+ Score = 28.9 bits (63), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 17/72 (23%), Positives = 32/72 (44%), Gaps = 1/72 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++PY  TE+ +       G V  + +    ++  SKGYA + F    S+  A +  
+Sbjct: 312 LFVRNLPYSATEDDLRSHFEKFGSVEEVHLPV-AKSSASKGYALVLFTSASSAIDAFQKS 370
+
+Query: 80  NGYQLGSRFLKC 91
+           +G     R L  
+Sbjct: 371 DGSLFQGRILHV 382
+
+
+>GGTG_02857T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:977713:980106:1
+           gene:GGTG_02857 transcript:GGTG_02857T0
+           description:"sporulation-specific protein 5"
+          Length = 538
+
+ Score = 32.3 bits (72), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 18/73 (24%), Positives = 33/73 (45%), Gaps = 2/73 (2%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           P ++ VY+  +     ++ +       G V   K + D  TG  KG+ F +F+ +  S  
+Sbjct: 239 PGNKNVYIRGLHPTTDDDLLQKYAERFGEVDQSKAIIDTSTGACKGFGFAKFKSVRDSER 298
+
+Query: 75  AVRNLN--GYQLG 85
+            +R     GY++G
+Sbjct: 299 CIRGFYRLGYEVG 311
+
+
+
+ Score = 29.6 bits (65), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 33/66 (50%), Gaps = 2/66 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+ ++P D TE  ++ +      + + K++ D   G S+G  F  F   E     +R+ 
+Sbjct: 332 LYISNLPKDITEPMLIQIFHPY-QIASSKILRD-SNGNSRGVGFARFESREVCERIIRDY 389
+
+Query: 80  NGYQLG 85
+           NG +LG
+Sbjct: 390 NGLKLG 395
+
+
+>GGTG_08829T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:4224236:422570
+          3:-1 gene:GGTG_08829 transcript:GGTG_08829T0
+          description:"small nuclear ribonucleoprotein"
+          Length = 198
+
+ Score = 31.6 bits (70), Expect = 0.18,   Method: Compositional matrix adjust.
+ Identities = 21/78 (26%), Positives = 41/78 (52%), Gaps = 7/78 (8%)
+
+Query: 14 NPPSRVVYLGS----IPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+          NPP   VY+ +    +  +  +E +  + S+ G ++++    +    R+KG AF+ F D 
+Sbjct: 4  NPPISTVYVRNLEERVKPEALKEVLATIFSDYGTIVDIVAKTNL---RAKGQAFVVFDDP 60
+
+Query: 70 ESSASAVRNLNGYQLGSR 87
+          +S+  AV  + G++L  R
+Sbjct: 61 DSAQRAVDEVQGFELFDR 78
+
+
+>GGTG_02758T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:637664:640104:1
+           gene:GGTG_02758 transcript:GGTG_02758T0
+           description:"hypothetical protein"
+          Length = 382
+
+ Score = 32.0 bits (71), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 22/97 (22%), Positives = 42/97 (43%), Gaps = 16/97 (16%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGP--------------VINLKMMFDPQTGRSKG 60
+           P    V + ++PYD TE ++ ++ +   P              +  L+   +P+ GR  G
+Sbjct: 230 PSKNKVMVANLPYDMTEARLKEVFAAYEPSSAKIALRPIPRFMIKKLQARNEPRKGR--G 287
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+           + F+     E    AV  +NG Q+ +R +    + +S
+Sbjct: 288 FGFVTLASEELQLKAVAEMNGKQIDNREIAVKVAIDS 324
+
+
+
+ Score = 30.8 bits (68), Expect = 0.51,   Method: Compositional matrix adjust.
+ Identities = 17/70 (24%), Positives = 36/70 (51%), Gaps = 1/70 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +Y+G++ Y  +E ++ +       V  + +  +P+T R  GYAF++      +  A+ 
+Sbjct: 46  RRLYIGNLAYATSEGKLKEFFKGY-LVERISIPKNPRTDRPVGYAFVDLSTPNEAERAIA 104
+
+Query: 78  NLNGYQLGSR 87
+            L+G ++  R
+Sbjct: 105 ELSGQEILER 114
+
+
+>GGTG_01840T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:5803547:580533
+          9:-1 gene:GGTG_01840 transcript:GGTG_01840T0
+          description:"hypothetical protein"
+          Length = 192
+
+ Score = 31.2 bits (69), Expect = 0.28,   Method: Compositional matrix adjust.
+ Identities = 15/78 (19%), Positives = 38/78 (48%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +++G + +   E  +       G V    ++ D  TGRS+G+ F+ + + + +  A+  +
+Sbjct: 4  LFIGGLAWHTEEGTLRQKFEEFGAVEEAVVVKDRDTGRSRGFGFVRYTNEDDAQRAISAM 63
+
+Query: 80 NGYQLGSRFLKCGYSSNS 97
+          N  +   R ++   +S++
+Sbjct: 64 NNVEFDGRTIRVDKASDT 81
+
+
+>GGTG_06315T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:3608913:361156
+          3:1 gene:GGTG_06315 transcript:GGTG_06315T0
+          description:"T-complex protein 1 subunit gamma"
+          Length = 540
+
+ Score = 30.0 bits (66), Expect = 0.82,   Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 37/82 (45%), Gaps = 13/82 (15%)
+
+Query: 1  MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTG---R 57
+          MN QSG           R   L +I   +T   I+  C  +GP   LKM+ DP  G    
+Sbjct: 8  MNTQSG------ERQTGRKAQLSNIAAAKTVADIIRSC--LGPKAMLKMLLDPMGGIVLT 59
+
+Query: 58 SKGYAFIEFRDLESSASAVRNL 79
+          + G+A    R++E S  A +++
+Sbjct: 60 NDGHAI--LREIEVSHPAAKSM 79
+
+
+>GGTG_00170T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:578447:581544:1
+           gene:GGTG_00170 transcript:GGTG_00170T0
+           description:"hypothetical protein"
+          Length = 318
+
+ Score = 27.7 bits (60), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 21/80 (26%), Positives = 37/80 (46%), Gaps = 9/80 (11%)
+
+Query: 16  PSRVVY---LGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSK-GYAFIEFRDLES 71
+           P R  Y   +  +P D + + + D          L +++  +TGRS  G  F+EF     
+Sbjct: 104 PRRTPYRMQISGLPNDTSWQDLKDFARQS----QLDVVYS-ETGRSNNGEGFVEFETAAD 158
+
+Query: 72  SASAVRNLNGYQLGSRFLKC 91
+            A+AV  L+G +   + ++C
+Sbjct: 159 LATAVDALDGKEFKEKVVRC 178
+
+
+>GGTG_10310T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:4018799:4020962:
+           -1 gene:GGTG_10310 transcript:GGTG_10310T0
+           description:"nucleolar protein 12"
+          Length = 532
+
+ Score = 27.7 bits (60), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 15/52 (28%), Positives = 27/52 (51%)
+
+Query: 25  IPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           +P D  E        + G V +++++ D  T   KG A+++F D+ S  SA+
+Sbjct: 324 VPMDVEEGLWRTFGKSAGKVESVRVVRDQTTRVGKGIAYVQFYDVNSVESAL 375
+
+
+>GGTG_00170T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:578447:581544:1
+           gene:GGTG_00170 transcript:GGTG_00170T1
+           description:"hypothetical protein"
+          Length = 317
+
+ Score = 27.7 bits (60), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 21/80 (26%), Positives = 37/80 (46%), Gaps = 9/80 (11%)
+
+Query: 16  PSRVVY---LGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSK-GYAFIEFRDLES 71
+           P R  Y   +  +P D + + + D          L +++  +TGRS  G  F+EF     
+Sbjct: 104 PRRTPYRMQISGLPNDTSWQDLKDFARQS----QLDVVYS-ETGRSNNGEGFVEFETAAD 158
+
+Query: 72  SASAVRNLNGYQLGSRFLKC 91
+            A+AV  L+G +   + ++C
+Sbjct: 159 LATAVDALDGKEFKEKVVRC 178
+
+
+>GGTG_10840T1 pep:known supercontig:Gae_graminis_V2:supercont1.6:1349124:1351895:
+           1 gene:GGTG_10840 transcript:GGTG_10840T1
+           description:"hypothetical protein"
+          Length = 228
+
+ Score = 27.3 bits (59), Expect = 4.9,   Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 29/51 (56%), Gaps = 1/51 (1%)
+
+Query: 40  NVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           ++G V  +++ + P  G S+G A I F   ++++ A + LNG  +  R +K
+Sbjct: 62  SIGTVKKVEISYGP-GGVSRGIATIIFAQADAASKAFQELNGILIDQRPIK 111
+
+
+>GGTG_00883T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:2748865:2752945:
+           -1 gene:GGTG_00883 transcript:GGTG_00883T0
+           description:"hypothetical protein"
+          Length = 1272
+
+ Score = 27.7 bits (60), Expect = 5.8,   Method: Composition-based stats.
+ Identities = 15/58 (25%), Positives = 28/58 (48%), Gaps = 1/58 (1%)
+
+Query: 1   MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRS 58
+           +NR+S  N  + + P  R+ +  + P D   + + DL   +G    +K+   P + RS
+Sbjct: 159 LNRKSRANVTMSSAPNGRLRFEATGPQDVAHQALKDLVQQIGAKQTVKVSI-PHSSRS 215
+
+
+>GGTG_11308T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:2802574:2804200:
+           1 gene:GGTG_11308 transcript:GGTG_11308T0
+           description:"hypothetical protein"
+          Length = 374
+
+ Score = 26.9 bits (58), Expect = 7.7,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 35/69 (50%), Gaps = 12/69 (17%)
+
+Query: 154 VNINMTTPAMMISSELAKKPKEVQLKFLQKFQEWTRAHPEDAVSLLELCPQLS------F 207
+           +NI   T A++++  L     +  L    ++++W+ AH +  +  L L PQLS      F
+Sbjct: 5   INIPPVTRALLVALVL-----QSALSAAIRYRQWS-AHSDIVIPYLNLIPQLSLVYPWTF 58
+
+Query: 208 VTAELLLTN 216
+           VT  L+ TN
+Sbjct: 59  VTTTLVETN 67
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 2,932,606
+Number of extensions: 93950
+Number of successful extensions: 274
+Number of sequences better than 10.0: 45
+Number of HSP's gapped: 267
+Number of HSP's successfully gapped: 67
+Length of query: 296
+Length of database: 6,264,428
+Length adjustment: 94
+Effective length of query: 202
+Effective length of database: 4,912,708
+Effective search space: 992367016
+Effective search space used: 992367016
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

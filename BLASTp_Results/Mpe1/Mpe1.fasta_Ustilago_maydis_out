@@ -1,0 +1,170 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM00321P0 pep:known supercontig:UM1:Cont_1.5:159756:161624:1 gen...   215   7e-63
+UM00769P0 pep:known supercontig:UM1:Cont_1.23:71923:73000:-1 gen...    38   0.003
+UM02544P0 pep:known supercontig:UM1:Cont_1.85:15:1166:1 gene:UM0...    37   0.005
+UM02748P0 pep:known supercontig:UM1:Cont_1.92:25486:30190:1 gene...    30   1.7  
+UM00463P0 pep:known supercontig:UM1:Cont_1.9:158417:160606:1 gen...    28   3.6  
+UM04209P0 pep:known supercontig:UM1:Cont_1.149:84812:86947:-1 ge...    28   3.9  
+UM06386P0 pep:known supercontig:UM1:Cont_1.247:93691:95568:1 gen...    28   6.4  
+
+>UM00321P0 pep:known supercontig:UM1:Cont_1.5:159756:161624:1 gene:UM00321
+           transcript:UM00321T0 description:"hypothetical protein"
+          Length = 622
+
+ Score =  215 bits (547), Expect = 7e-63,   Method: Compositional matrix adjust.
+ Identities = 138/405 (34%), Positives = 205/405 (50%), Gaps = 64/405 (15%)
+
+Query: 2   SSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYDD 61
+           S++++Y+FKSQ+  SRI FDGTG++V+DLKREII +NK+G GTDF L +YN DT +EY D
+Sbjct: 3   SASVYYKFKSQKEPSRITFDGTGISVWDLKREIILQNKMGRGTDFDLGVYNSDTNDEYKD 62
+
+Query: 62  DAFVIPRSTSVIVKRSPAIK--SFSVHSRLKGNVGAAALGNATRY-----VTG-RPRVLQ 113
+           D F++PRST VIV+R P  K    +  + +    GAA    A+R+      +G +P   +
+Sbjct: 63  DNFLVPRSTQVIVRRLPPSKPGRGTAQNYVADVNGAADTTGASRFSGTANASGIKPVDAR 122
+
+Query: 114 KRQHXXXXXXNVSGTT----------------------------EEERIASMFAXXXXXX 145
+            + +         G                              E +RIA+MF       
+Sbjct: 123 SQAYRGPMTMRFDGGKDPSMSSTQPSSSTGPSSGGGPAAAATGDEADRIAAMFQATTEQW 182
+
+Query: 146 XXXXXXMSAATPVFFKSQ-----------TNKNSAQENEGPPPPGYMCYRCGGRDHWIKN 194
+                 MS AT      Q           T +   Q  + PPP GY+C+RCG   HWI++
+Sbjct: 183 DETQERMSHATYRDRSGQARRGGPPRPMATQRAQQQLPDRPPPIGYVCFRCGKPGHWIQD 242
+
+Query: 195 CPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETMTPEEMAQRKIMITDEGKFVVQVED 253
+           CPTN D  ++ + R +RTTGIPK  LK++E        +E  +  +M+T +G +VV   D
+Sbjct: 243 CPTNDDKEYDNRPRFKRTTGIPKSMLKTVE-----QPTDEDHRAGVMLTADGTYVVARVD 297
+
+Query: 254 KQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDD--LKCPLTGGLLRQPVKTSKCCNIDF 311
+           ++SW      R+NR     + + +   ++  P D  L CPL   LLR  V T  CC   +
+Sbjct: 298 QESW------RKNRVR--TKPLTQSDVYQSAPTDPSLACPLCSKLLRDAVVTP-CCQTKY 348
+
+Query: 312 SKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKK 356
+            +E ++  L+E +F+C  CE R   L+ L PD +  K V+ ++K+
+Sbjct: 349 CEECIQTHLLEHEFLCAECEKRIADLEQLQPDLETRKRVKEYVKE 393
+
+
+>UM00769P0 pep:known supercontig:UM1:Cont_1.23:71923:73000:-1 gene:UM00769
+           transcript:UM00769T0 description:"hypothetical protein"
+          Length = 330
+
+ Score = 37.7 bits (86), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 42/75 (56%), Gaps = 4/75 (5%)
+
+Query: 287 DLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCP--NCETRDILLDSLVPDQ 344
+           + +CPLT  +L  P+ T+  CN  +S+ A++  +   ++ CP  +C + ++ L  L  D 
+Sbjct: 245 NFRCPLTTNILEDPL-TNPSCNHSYSRSAVQEYVAAGNYKCPASSC-SANLSLRMLRQDP 302
+
+Query: 345 DKEKEVETFLKKQEE 359
+              K+V  F +++EE
+Sbjct: 303 ALVKKVAAFKRREEE 317
+
+
+>UM02544P0 pep:known supercontig:UM1:Cont_1.85:15:1166:1 gene:UM02544
+           transcript:UM02544T0 description:"hypothetical protein"
+          Length = 383
+
+ Score = 37.4 bits (85), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 22/42 (52%), Gaps = 4/42 (9%)
+
+Query: 160 FKSQTNKNSAQENEG----PPPPGYMCYRCGGRDHWIKNCPT 197
+           ++ Q  +N  Q  EG     PPPGY+C  C    H+I+ CP 
+Sbjct: 7   YRFQEPRNKRQRAEGGSEDVPPPGYVCRICNVEGHYIRLCPV 48
+
+
+>UM02748P0 pep:known supercontig:UM1:Cont_1.92:25486:30190:1 gene:UM02748
+            transcript:UM02748T0 description:"DNA topoisomerase"
+          Length = 1325
+
+ Score = 29.6 bits (65), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 11/18 (61%)
+
+Query: 179  GYMCYRCGGRDHWIKNCP 196
+            G  C+RCG   HW  +CP
+Sbjct: 1004 GGGCFRCGQSGHWAPDCP 1021
+
+
+
+ Score = 29.3 bits (64), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 8/17 (47%), Positives = 11/17 (64%)
+
+Query: 182  CYRCGGRDHWIKNCPTN 198
+            C++CG + HW   CP N
+Sbjct: 1065 CFQCGKKGHWSSECPDN 1081
+
+
+>UM00463P0 pep:known supercontig:UM1:Cont_1.9:158417:160606:1 gene:UM00463
+           transcript:UM00463T0 description:"hypothetical protein"
+          Length = 729
+
+ Score = 28.5 bits (62), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 11/20 (55%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCP 196
+           P    C+RCGG  H  + CP
+Sbjct: 252 PMSTSCFRCGGMGHQTRTCP 271
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 3,367,470
+Number of extensions: 142220
+Number of successful extensions: 343
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 336
+Number of HSP's successfully gapped: 16
+Length of query: 441
+Length of database: 3,993,690
+Length adjustment: 95
+Effective length of query: 346
+Effective length of database: 3,374,100
+Effective search space: 1167438600
+Effective search space used: 1167438600
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 53 (25.0 bits)

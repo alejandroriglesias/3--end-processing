@@ -1,0 +1,105 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_03940T0 pep:novel supercontig:GCA_000166175.1:supercont1.40...    54   6e-08
+
+>MVLG_03940T0 pep:novel supercontig:GCA_000166175.1:supercont1.40:110506:113572:1
+           gene:MVLG_03940 transcript:MVLG_03940T0
+           description:"hypothetical protein"
+          Length = 619
+
+ Score = 53.9 bits (128), Expect = 6e-08,   Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 35/75 (46%)
+
+Query: 51  RIEKCMPKQKLYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFK 110
+           R  +  P  KL A Y LDSI KN+G PY   F+R +   +   Y + D  TR K+  +  
+Sbjct: 9   RPHQSPPSFKLPALYLLDSISKNIGPPYLALFARFIKRGFVDAYHVSDPATRVKMEELLG 68
+
+Query: 111 LWLNPNDTGLPLFEG 125
+            W      G  LF G
+Sbjct: 69  TWRTGGADGGELFRG 83
+
+
+
+ Score = 53.1 bits (126), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 51/183 (27%), Positives = 76/183 (41%), Gaps = 29/183 (15%)
+
+Query: 420 KCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTRKNIQS 479
+           +C  CG RF +S   K   +EHLDWHF IN R                +    +R   Q 
+Sbjct: 387 QCQQCGLRFFDSIQGKNKLDEHLDWHF-INKR---------------RIREAVSR--TQG 428
+
+Query: 480 RNWYLSDSQW--AAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLG 537
+           R+W   +  W   +  DDE  S +   D+      K      +       ++   D    
+Sbjct: 429 RSWLSLEEDWFVDSLDDDEQDSMR---DF-----KKGGGGGIVRGGGGGTEQSRKDFKAS 480
+
+Query: 538 SDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIEVNGKYFHS 597
+            D   +L++  K  VV  +  D   +C IC+E     + EE  EWV+ N ++V G  +H+
+Sbjct: 481 QDAKLDLQLLRKSKVVAPSGGDER-RCGICREKFKSEWSEEEEEWVYWNGVKVEGTIYHA 539
+
+Query: 598 TCY 600
+           TCY
+Sbjct: 540 TCY 542
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 4,495,185
+Number of extensions: 175569
+Number of successful extensions: 384
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 383
+Number of HSP's successfully gapped: 10
+Length of query: 626
+Length of database: 4,198,887
+Length adjustment: 98
+Effective length of query: 528
+Effective length of database: 3,432,625
+Effective search space: 1812426000
+Effective search space used: 1812426000
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

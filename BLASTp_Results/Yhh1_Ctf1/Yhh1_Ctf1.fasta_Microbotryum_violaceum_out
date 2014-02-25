@@ -1,0 +1,202 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding subunit of the mRNA cleavage and polyadenylation
+factor; involved in poly(A) site recognition and required for both
+pre-mRNA cleavage and polyadenylation, 51% sequence similarity with
+mammalian AAUAA-binding subunit of CPSF
+         (1357 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_05590T0 pep:novel supercontig:GCA_000166175.1:supercont1.78...   188   1e-48
+MVLG_01815T0 pep:novel supercontig:GCA_000166175.1:supercont1.12...    32   1.5  
+MVLG_03643T0 pep:novel supercontig:GCA_000166175.1:supercont1.36...    29   9.5  
+
+>MVLG_05590T0 pep:novel supercontig:GCA_000166175.1:supercont1.78:53850:58950:-1
+            gene:MVLG_05590 transcript:MVLG_05590T0
+            description:"hypothetical protein"
+          Length = 1411
+
+ Score =  188 bits (478), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 139/576 (24%), Positives = 255/576 (44%), Gaps = 40/576 (6%)
+
+Query: 779  DPSIKQVMINKLGHDNKEEYLTILTFGGEIYQYRKLPQRRS--------------RFYRN 824
+            D  I +V+   +G      +L +L   G +  Y  +P   +              RF + 
+Sbjct: 832  DIQIDRVLCGHVGQSRLRTHLVVLLKNGAMAVYEAMPSITAGESSRPDRTASLGVRFVKM 891
+
+Query: 825  VT-RNDLAITGAPDNAY--AKGVSSIERIMHYFPDYNGYSVIFVTGSVPYILIKEDDSTP 881
+            +T R  L +           + + S  R    F + +G+S  FVTG  P+ LI  D    
+Sbjct: 892  LTKRLPLPVRRKAKRGLDEEEPLPSPRREFIPFTNIDGFSGWFVTGDDPFWLIASDHGPV 951
+
+Query: 882  KIFKFGNIPLVSVTPWSERSVMCVDDIKNARVYTLTTDNMYYGNKLPL-----KQIKISN 936
+            +  +            SE+++       N   Y + + +  Y   LP      +++    
+Sbjct: 952  RYVES-----------SEKNLYGFSPSANGDGYLVQSKDSLYDASLPDDVCFDREMPYHR 1000
+
+Query: 937  VLDDYKTLQKLVYHERAQLFLVSYCKRVPYEALGEDGEKV-IGYDENVPHAEGFQSGILL 995
+            V  D +    + +   + L++        +    ++G+ V +  +  +  A  F+S + L
+Sbjct: 1001 VPKDRR-YAAVTFDLDSGLYVAGALYDTVFMNFDDEGKPVYVNENPEITDAHNFRSTLEL 1059
+
+Query: 996  INPKSWKVIDKIDFPKNSVVNEMRSSMIQINSKTKRKREYIIAGVANATTEDTPPTGAFH 1055
+            I P +W+ ID  +F  N  V+ +++  +   S    ++++I  G      ED    G  +
+Sbjct: 1060 IMPGTWEAIDGFEFRPNEFVSTLKTVTLSSKSTATGRKDFIAVGTTVFRAEDLAARGGIY 1119
+
+Query: 1056 IYDVIEVVPEPGKPDTNYKLKEIFQEEVSGTVSTVCEVSGRFMISQSQKVLVRDIQEDNS 1115
+            +++V+ +VP P +P   +KLK +  E+    V  +C+++G  ++S  QK+  R +++D  
+Sbjct: 1120 LFEVVPIVPSPERPYIAHKLKRLLNEDTKSVVGNICDINGHLIMSMGQKLYARALEQDEV 1179
+
+Query: 1116 VIPVAFLDIPVFVTDSKSFGNLLIIGDAMQGFQFIGFDAEPYRMISLGRSMSKFQTMSLE 1175
+             I V FLD+ V VT   +  N L+IGDA+Q    + F  +PY+++ LGR        +  
+Sbjct: 1180 FIAVGFLDVGVHVTSLTATKNFLLIGDALQSVTLVAFQEDPYKLVLLGRDYRPVGVSNSN 1239
+
+Query: 1176 FLVNGGDMYFAATDADRNVHVLKYAPDEPNSLSGQRLVHCSSFTLHSTNSCMMLLPRNEE 1235
+            FLVN G + F   D D  + + +Y P   +S +GQRL+  + +   S     +L  R   
+Sbjct: 1240 FLVNDGKVAFVVGDLDGVLRMFEYDPLNISSYAGQRLLCRTEYATSSEAQATLLFARRP- 1298
+
+Query: 1236 FGSPQVPSFQN--VGGQVDGSVFKIVPLSEEKYRRLYVIQQQIIDRELQLGGLNPRMERL 1293
+              SP     QN  + G  DGS+  +VP+ +  ++RL  +Q  ++   L  GGLNPR  R+
+Sbjct: 1299 --SPIEDLKQNGILYGTNDGSLMTLVPVRDIVFKRLQSLQMIMMKSVLHFGGLNPRGFRI 1356
+
+Query: 1294 ANDFYQMGHSMRPMLDFNVIRRFCGLAIDRRKSIAQ 1329
+              +        + +LD  ++  F  L++ R+  + +
+Sbjct: 1357 VKNDSVSRAMTKGILDGELLAEFEALSLGRQMELCE 1392
+
+
+
+ Score = 58.5 bits (140), Expect = 8e-09,   Method: Compositional matrix adjust.
+ Identities = 81/358 (22%), Positives = 136/358 (37%), Gaps = 67/358 (18%)
+
+Query: 1   MNVYDDV-LDATVVSHSLATHFTTSD-----------YEELLVVRTNILSVYR------- 41
+           MN Y  V L  T VSH+L+   T +               L+  R ++L V+        
+Sbjct: 1   MNAYHRVQLPPTGVSHALSVRLTAAQDTASTSNDGTVVSHLVTARNHVLQVFEVREYEPV 60
+
+Query: 42  -------PTRDGKLYLTDEFKFHGLITDIGLI---PQKDSPLSCLLLCTGVAKISILKFN 91
+                  PT      LT   + HG +T +  I     K      +L+    AK+S+L++ 
+Sbjct: 61  SVSSHEAPTAGLHHVLTR--RLHGTVTSLARIRTLASKTDGADRVLVSFKDAKLSLLEWT 118
+
+Query: 92  TLTNSIDTLSLHYYEGKFKGKSLVELAKISTLRM-DPGSSCALLF------NNDIIAFLP 144
+              + +  +SLH +E       L ++A+ STL   DP S  ++L        +  +A LP
+Sbjct: 119 PSAHDLLPVSLHTFE------KLPQVAEGSTLAATDPASRLSVLLLPSNTGGDGTLAILP 172
+
+Query: 145 F--------HVNKNXXXXXXXXXXXXXXXXXLIHSMNQKSQGTNTFNKRKRTKLGDKFTA 196
+           F         +  +                  +  +   +  T+     + + L +    
+Sbjct: 173 FFQEEIDLDSLGVDAEAWGPQGIASIPYAPSHLLPLASLTATTSISGPARSSTLSN---- 228
+
+Query: 197 PSVVLVASELYEGAKNIIDIQFLKNFTKPTIALLYQPKLVWAGNTTISKLPTQYVILTLN 256
+            S+ LV        +N+IDI FL  F +PT+A+LY P+  WAG   +  +   Y++  + 
+Sbjct: 229 -SIALVGGT--PPIRNVIDIAFLPGFNEPTLAILYAPEQTWAGR--LENVSNNYLVSLVT 283
+
+Query: 257 IQPAESATKIESTTIAFVKELP------WDLHTIVPVSNGAIIVGTNELAFLDNTGVL 308
+           +    S      TT   +   P        +H   P   GA+I+  N +  L+  G L
+Sbjct: 284 LATGTSKGTDSDTTAVVIATSPPLPHTCLSIHPCPPDLGGALILTANGIMHLEQGGKL 341
+
+
+
+ Score = 38.5 bits (88), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 51/193 (26%), Positives = 78/193 (40%), Gaps = 35/193 (18%)
+
+Query: 505 LRNVGPITSLTVGKVSSIDDVVKGLPNPNKNEYSLVATSGNGSGSHLTVIQTSVQPEIEL 564
+           L + G I SL VG V   DD          +   LVA++G G  S LTV   ++ P    
+Sbjct: 517 LEHYGSIRSLAVGLVG--DD----------SPADLVASTGQGPTSGLTVFHRTIAPRKRR 564
+
+Query: 565 AL--KFISITQIWNLKIKGRDR-YLITTDSTKSRSDIYESDNNFKLHKGGRLRRDATTVY 621
+            L    IS   +W L +KG+    LI++D++ +R     +       +   L       +
+Sbjct: 565 RLDSSAISTNGVWALNLKGQQSPILISSDASTTRFTALATTET----EPTELLGPTIAAF 620
+
+Query: 622 ISMFGEEKRIIQVTTNHLYLYDT-----HFRRLTTIKFDYEVI----HVSVMDPYILVTV 672
+           +S  G    II++T   L++ D      H R  T +      I     V+V  P   V V
+Sbjct: 621 VSPDGTS--IIRITPAELHVLDADLSIRHSRVFTRVSLASRAIISQSLVAVFGPSDKVEV 678
+
+Query: 673 -----SRGDIKIF 680
+                + GD+ +F
+Sbjct: 679 FVYDITSGDVAVF 691
+
+
+>MVLG_01815T0 pep:novel supercontig:GCA_000166175.1:supercont1.12:95144:100858:-1
+            gene:MVLG_01815 transcript:MVLG_01815T0
+            description:"hypothetical protein"
+          Length = 1580
+
+ Score = 31.6 bits (70), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 26/83 (31%), Positives = 33/83 (39%), Gaps = 16/83 (19%)
+
+Query: 1180 GGDMYFAATDADRNVHVLKYAPDEPNSLSGQRLVHCSSFTLHSTNSCMMLLPRNEEFGSP 1239
+            G +  F  T  DRN  V  +  D+PN L  +RL H +              P      SP
+Sbjct: 287  GSEGRFGVTRPDRNFDVTDFQLDDPNHLRERRLSHGT--------------PSGRRSRSP 332
+
+Query: 1240 QVPSFQNVGGQ--VDGSVFKIVP 1260
+               S   V  Q  +DGSV  I+P
+Sbjct: 333  LRQSSTRVFSQPSLDGSVGTIIP 355
+
+
+>MVLG_03643T0 pep:novel supercontig:GCA_000166175.1:supercont1.36:33670:38335:-1
+            gene:MVLG_03643 transcript:MVLG_03643T0
+            description:"hypothetical protein"
+          Length = 1259
+
+ Score = 28.9 bits (63), Expect = 9.5,   Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 39/72 (54%), Gaps = 4/72 (5%)
+
+Query: 993  ILLINPKSWKVIDKIDFPKNSVVNEMRSSMIQINSKTKRKREYIIAGVANATTEDTPPTG 1052
+            +L I     +V ++I+  +N VV E+R+ ++QI S+        +  +A  ++E+  P  
+Sbjct: 865  VLSIESPPKEVKERIEA-ENGVVYELRAMVVQIQSEGDAPH---LVALARVSSEERNPGS 920
+
+Query: 1053 AFHIYDVIEVVP 1064
+            ++H+++   V P
+Sbjct: 921  SWHVFNDFLVRP 932
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.319    0.136    0.390 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 10,136,853
+Number of extensions: 415539
+Number of successful extensions: 793
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 791
+Number of HSP's successfully gapped: 6
+Length of query: 1357
+Length of database: 4,198,887
+Length adjustment: 105
+Effective length of query: 1252
+Effective length of database: 3,377,892
+Effective search space: 4229120784
+Effective search space used: 4229120784
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 58 (26.9 bits)

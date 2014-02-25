@@ -1,0 +1,179 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM03070P0 pep:known supercontig:UM1:Cont_1.103:166568:168457:1 g...    91   8e-20
+UM03048P0 pep:known supercontig:UM1:Cont_1.103:93507:100185:1 ge...    33   0.16 
+UM06201P0 pep:known supercontig:UM1:Cont_1.234:104294:105852:-1 ...    31   0.44 
+UM02618P0 pep:known supercontig:UM1:Cont_1.88:656:2572:-1 gene:U...    29   2.2  
+UM02568P0 pep:known supercontig:UM1:Cont_1.86:29998:34890:-1 gen...    29   2.6  
+UM04056P0 pep:known supercontig:UM1:Cont_1.141:23072:27892:-1 ge...    29   2.7  
+UM01282P0 pep:known supercontig:UM1:Cont_1.46:43202:52273:1 gene...    28   3.6  
+UM03500P0 pep:known supercontig:UM1:Cont_1.117:42797:45876:1 gen...    28   3.9  
+UM05558P0 pep:known supercontig:UM1:Cont_1.201:23454:26843:-1 ge...    28   5.4  
+
+>UM03070P0 pep:known supercontig:UM1:Cont_1.103:166568:168457:1 gene:UM03070
+           transcript:UM03070T0 description:"Protein CLP1"
+          Length = 629
+
+ Score = 90.5 bits (223), Expect = 8e-20,   Method: Compositional matrix adjust.
+ Identities = 118/592 (19%), Positives = 209/592 (35%), Gaps = 195/592 (32%)
+
+Query: 19  GDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGI--------VEIFGTELAVDDE---YT 67
+           G +++ ++ +P  S+++ +L+   +L +++  G          EIFG EL    +   Y 
+Sbjct: 7   GSSQYRRVHLPPRSEYRFELEPHERLSIRLVQGRTQSGEDPDAEIFGAELVGGSQERWYP 66
+
+Query: 68  FQNWKFPIYAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIRMS-------- 119
+           F +      +      +      +T  +  +P+       NLH  LE+ R+         
+Sbjct: 67  FGDEAKAAVSSWRGAEIEVAGSASTEYLAEEPSPVYTAYSNLHLYLERKRIQARQALRAD 126
+
+Query: 120 -------------------------------------------NFEGPRVVIVGGSQTGK 136
+                                                        +GPRV+I+G    GK
+Sbjct: 127 AKLLTTLASSVLDPSYIAPRTTDPNTETESDPSGTAAATVYRPEGQGPRVMILGPESAGK 186
+
+Query: 137 TSLSRTLCSYALKFNA-------------------------------------------- 152
+           TSL + L +YAL+  A                                            
+Sbjct: 187 TSLVKLLANYALRSPAVASLGKGEAAKVAESLRTGGDGIIYPNMEDNLSEEAKKQKREEE 246
+
+Query: 153 -------YQPLYINLDPQQPIFTVPGCISATPISDILDAQLPTWGQS------------L 193
+                  + P+ +NLDP      +P C+SA P+S +  A LP+   +            +
+Sbjct: 247 KRSDITGWWPVVVNLDPSDGAPPLPCCLSALPLSPLPLASLPSASPAYAFGTNTSTTGAI 306
+
+Query: 194 TSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTP 253
+             G +  H   P+    G E + EN+  +   +  L + V +R   D + R SG I+DTP
+Sbjct: 307 PPGTSTAHGVAPLSLWLGKENLRENERHFRRVVDWLAEGVERRFARDFRSRMSGLIIDTP 366
+
+Query: 254 SISQLD--ENLAELHHIIEKLNVNIMLVLCSE---------------TDPLWEKVKKTFG 296
+            +   D     A + H ++   V+ ++VL  E               T     ++  + G
+Sbjct: 367 GVITADARNKYAFIQHCVKAFKVDTIVVLGHEKLNLEMTKLFASPAVTTVETAEIPGSAG 426
+
+Query: 297 PELGNNNIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDT----------------- 339
+             L   N+  +PK  GV  +D+ Y+  L+   ++ YFYG   +                 
+Sbjct: 427 QRLPRVNVIKLPKSGGVVELDETYRSRLKALQVKTYFYGGSTSGSANTDGGVPKPVLPGH 486
+
+Query: 340 --------ALSPYAIGVDYEDLTIWK-------PSNVFDNEVGR--VELFPVTITPSN-- 380
+                   +LSPY+  + ++ L I+K       PS+       R   E   V + P+N  
+Sbjct: 487 SDPLGGVPSLSPYSTTIPFDLLEIYKVGQESLAPSSALPIGASRTVTETQLVKLDPTNSA 546
+
+Query: 381 -----LQHAIIAITFAER------RADQAT------VIKSPILGFALITEVN 415
+                L H+++A+    R      + D +T      +I +PILGF  + +++
+Sbjct: 547 ADQTSLLHSVLALIQPPRGGGGAGQPDSSTNPTDDEIIGAPILGFVHVADID 598
+
+
+>UM03048P0 pep:known supercontig:UM1:Cont_1.103:93507:100185:1 gene:UM03048
+            transcript:UM03048T0 description:"Putative
+            uncharacterized protein"
+          Length = 1945
+
+ Score = 32.7 bits (73), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 35/69 (50%), Gaps = 5/69 (7%)
+
+Query: 93   NTITVKPNHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNA 152
+              I ++  H + Y  NL  +L+ I +S   G RV IVG + +GK+    TL S   +F  
+Sbjct: 1452 GAIEIRDLH-LAYAKNLPDVLDGITLSIRAGERVGIVGATGSGKS----TLVSALFRFFE 1506
+
+Query: 153  YQPLYINLD 161
+            Y+   I +D
+Sbjct: 1507 YRSGQIEID 1515
+
+
+>UM06201P0 pep:known supercontig:UM1:Cont_1.234:104294:105852:-1 gene:UM06201
+           transcript:UM06201T0 description:"RuvB-like helicase 1"
+          Length = 488
+
+ Score = 31.2 bits (69), Expect = 0.44,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 20/30 (66%)
+
+Query: 111 FMLEKIRMSNFEGPRVVIVGGSQTGKTSLS 140
+            +L+ IRM  F G  +++ GG  TGKT+L+
+Sbjct: 68  LVLDLIRMKKFAGKALLLAGGPGTGKTALA 97
+
+
+>UM02618P0 pep:known supercontig:UM1:Cont_1.88:656:2572:-1 gene:UM02618
+           transcript:UM02618T0 description:"Pre-mRNA-processing
+           protein 45"
+          Length = 638
+
+ Score = 28.9 bits (63), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 20/39 (51%)
+
+Query: 303 NIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTAL 341
+           N++  P   G SA   +Y+R   R    + + G+ DTAL
+Sbjct: 516 NLYDKPLFSGSSAAAAIYRRPAARGGANDIYSGADDTAL 554
+
+
+>UM02568P0 pep:known supercontig:UM1:Cont_1.86:29998:34890:-1 gene:UM02568
+            transcript:UM02568T0 description:"Putative
+            uncharacterized protein"
+          Length = 1630
+
+ Score = 28.9 bits (63), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 13/44 (29%), Positives = 26/44 (59%)
+
+Query: 100  NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTL 143
+            +++ +Y   L  +L+K+ +    G R+ +VG +  GK+SL+  L
+Sbjct: 1392 SYSTRYRRELGLVLKKLNLDIKAGERIGVVGRTGAGKSSLTLAL 1435
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 3,206,146
+Number of extensions: 130756
+Number of successful extensions: 279
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 276
+Number of HSP's successfully gapped: 11
+Length of query: 445
+Length of database: 3,993,690
+Length adjustment: 95
+Effective length of query: 350
+Effective length of database: 3,374,100
+Effective search space: 1180935000
+Effective search space used: 1180935000
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

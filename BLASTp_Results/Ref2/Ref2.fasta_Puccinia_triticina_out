@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_00721P0 pep:novel supercontig:ASM15152v1:GG705412:1444413:1...    30   1.2  
+PTTG_02670P0 pep:novel supercontig:ASM15152v1:GG705432:933733:93...    30   2.5  
+
+>PTTG_00721P0 pep:novel supercontig:ASM15152v1:GG705412:1444413:1448104:-1
+           gene:PTTG_00721 transcript:PTTG_00721T0
+           description:"Uncharacterized protein"
+          Length = 995
+
+ Score = 30.4 bits (67), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 23/97 (23%), Positives = 43/97 (44%), Gaps = 9/97 (9%)
+
+Query: 67  RKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVNQLPKFS 126
+           RK   V   D+++ SG ++   D+       + +  H  T  +        ++ Q P  S
+Sbjct: 907 RKTTGVIGGDVKV-SG-RAPGADFQRGTAYCEQQDVHEWTATVREAFRFSAYLRQPPSVS 964
+
+Query: 127 PEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVL 163
+            EE+  Y++ +I       +L +++ L DA+I   VL
+Sbjct: 965 VEEKNAYVEEVI-------QLLELEDLADAMIGFPVL 994
+
+
+>PTTG_02670P0 pep:novel supercontig:ASM15152v1:GG705432:933733:939826:-1
+            gene:PTTG_02670 transcript:PTTG_02670T0
+            description:"Uncharacterized protein"
+          Length = 1830
+
+ Score = 29.6 bits (65), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 26/49 (53%), Gaps = 5/49 (10%)
+
+Query: 71   NVTEADIQLYSGLKSMYLDYLNQLIKLK-----HEKQHHSTPPIANDVS 114
+            N+TE + ++  G+   Y+   NQL +L+     H   +H TPP A  +S
+Sbjct: 1234 NLTEEEFKMIFGISLQYITTHNQLQQLEESRSAHASANHHTPPRAAGIS 1282
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 4,385,848
+Number of extensions: 183257
+Number of successful extensions: 309
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 309
+Number of HSP's successfully gapped: 5
+Length of query: 533
+Length of database: 4,657,481
+Length adjustment: 97
+Effective length of query: 436
+Effective length of database: 3,528,595
+Effective search space: 1538467420
+Effective search space used: 1538467420
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 54 (25.4 bits)

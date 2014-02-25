@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM02841P0 pep:known supercontig:UM1:Cont_1.97:49048:52036:1 gene...    94   6e-20
+UM01434P0 pep:known supercontig:UM1:Cont_1.49:92548:107141:1 gen...    34   0.21 
+
+>UM02841P0 pep:known supercontig:UM1:Cont_1.97:49048:52036:1 gene:UM02841
+           transcript:UM02841T0 description:"hypothetical protein"
+          Length = 979
+
+ Score = 94.0 bits (232), Expect = 6e-20,   Method: Compositional matrix adjust.
+ Identities = 72/288 (25%), Positives = 134/288 (46%), Gaps = 46/288 (15%)
+
+Query: 54  IDVIILSQPTIECLGAHSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGP 113
+           ID+++LS  +++ LG ++  + N       R QVYAT+PV ++G+++ +++  +      
+Sbjct: 127 IDLVLLSHSSLDHLGLYAYAHANLGL----RCQVYATMPVQSMGKLTVLEAIQTW----- 177
+
+Query: 114 YDTNKLDLE----------------DIEISFDHIVPLKYSQLVDLRSRYDGLTLLAYNAG 157
+              +++D+E                 +E +F+ I  ++Y Q   L  +   LTL AYNAG
+Sbjct: 178 --RSEVDIEKECTSASTRRCLATPDQVEDAFEEIKTVRYMQPTHLEGKCASLTLTAYNAG 235
+
+Query: 158 VCPGGSIWCI-STYSEKLVYAKRWNHTRDNILNAASILD----ATGKPLS------TLMR 206
+              GG++W I S  S  +V A  WNH R+  L+   +L     A G P S       + R
+Sbjct: 236 HSLGGAVWKIRSPTSGTVVIALDWNHNRERHLDGTILLSSSAAAPGAPGSGASASDAVRR 295
+
+Query: 207 PSAIITTLDR-FGSSQPFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDLFTQVHELL 265
+           P  +IT ++R    +   K R     D +   + +  S++ PVD S + L+L   + +  
+Sbjct: 296 PDLLITEIERGLVVNTRRKDRDAALIDLVHTTIQAGNSLLFPVDASARLLELMVLLDQ-- 353
+
+Query: 266 FESTKINAHTQVPVLILSYARGRTLTYAKSMLEWLSPSLLKTWENRNN 313
+                   H + P+ ++S      +  +++ +EW++    + W  + N
+Sbjct: 354 -HWAYAYPHARFPLCLISRTGKEVIERSRTYMEWMT----REWATKAN 396
+
+
+
+ Score = 30.4 bits (67), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 21/37 (56%)
+
+Query: 647 VNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVL 683
+           V+VQL C V  + +  L D R+   + P L  R++++
+Sbjct: 750 VSVQLNCKVAFIEMCGLNDGRALKTLIPQLHPRRLIM 786
+
+
+>UM01434P0 pep:known supercontig:UM1:Cont_1.49:92548:107141:1 gene:UM01434
+            transcript:UM01434T0 description:"Putative siderophore
+            peptide synthetase"
+          Length = 4830
+
+ Score = 33.9 bits (76), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 20/69 (28%), Positives = 34/69 (49%)
+
+Query: 248  VDMSGKFLDLFTQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSMLEWLSPSLLKT 307
+            V +   F DL    H+L  E  +    ++   LI S A      + K+++E+  PSLL  
+Sbjct: 3930 VSLPSMFADLRASYHDLTHELVQRPPFSKAADLIASSAHESEQYWLKTLIEFKQPSLLVK 3989
+
+Query: 308  WENRNNTSP 316
+              +R++T+P
+Sbjct: 3990 KSSRSSTTP 3998
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 6,036,667
+Number of extensions: 241025
+Number of successful extensions: 632
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 629
+Number of HSP's successfully gapped: 6
+Length of query: 859
+Length of database: 3,993,690
+Length adjustment: 101
+Effective length of query: 758
+Effective length of database: 3,334,968
+Effective search space: 2527905744
+Effective search space used: 2527905744
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

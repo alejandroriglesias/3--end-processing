@@ -1,0 +1,997 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_08940P0 pep:novel supercontig:ASM15152v1:GG705659:35933:385...    56   3e-09
+PTTG_07144P0 pep:novel supercontig:ASM15152v1:GG705505:190317:19...    53   4e-08
+PTTG_07308P0 pep:novel supercontig:ASM15152v1:GG705515:180538:18...    52   4e-08
+PTTG_00396P0 pep:novel supercontig:ASM15152v1:GG705408:1645532:1...    49   1e-07
+PTTG_04453P0 pep:novel supercontig:ASM15152v1:GG705440:364716:36...    50   1e-07
+PTTG_06273P0 pep:novel supercontig:ASM15152v1:GG705490:181792:18...    47   2e-06
+PTTG_00890P0 pep:novel supercontig:ASM15152v1:GG705410:50472:526...    47   4e-06
+PTTG_05043P0 pep:novel supercontig:ASM15152v1:GG705465:229287:23...    44   1e-05
+PTTG_04499P0 pep:novel supercontig:ASM15152v1:GG705440:812727:81...    42   7e-05
+PTTG_03545P0 pep:novel supercontig:ASM15152v1:GG705430:721482:72...    42   1e-04
+PTTG_05055P0 pep:novel supercontig:ASM15152v1:GG705465:393849:39...    42   1e-04
+PTTG_05122P0 pep:novel supercontig:ASM15152v1:GG705457:482576:48...    41   2e-04
+PTTG_06790P0 pep:novel supercontig:ASM15152v1:GG705496:107135:10...    41   2e-04
+PTTG_00397P0 pep:novel supercontig:ASM15152v1:GG705408:1649262:1...    40   2e-04
+PTTG_05215P0 pep:novel supercontig:ASM15152v1:GG705466:236326:23...    40   5e-04
+PTTG_08369P0 pep:novel supercontig:ASM15152v1:GG705560:127006:12...    40   5e-04
+PTTG_05083P0 pep:novel supercontig:ASM15152v1:GG705457:129404:13...    39   7e-04
+PTTG_05664P0 pep:novel supercontig:ASM15152v1:GG705462:503720:50...    39   8e-04
+PTTG_00788P0 pep:novel supercontig:ASM15152v1:GG705411:712927:71...    39   8e-04
+PTTG_01541P0 pep:novel supercontig:ASM15152v1:GG705413:494325:49...    39   0.001
+PTTG_06854P0 pep:novel supercontig:ASM15152v1:GG705491:279687:28...    39   0.001
+PTTG_03190P0 pep:novel supercontig:ASM15152v1:GG705427:816140:82...    39   0.002
+PTTG_02395P0 pep:novel supercontig:ASM15152v1:GG705418:397078:39...    38   0.002
+PTTG_04640P0 pep:novel supercontig:ASM15152v1:GG705444:334607:33...    37   0.002
+PTTG_03690P0 pep:novel supercontig:ASM15152v1:GG705437:523076:52...    37   0.003
+PTTG_06274P0 pep:novel supercontig:ASM15152v1:GG705490:189338:19...    38   0.003
+PTTG_05898P0 pep:novel supercontig:ASM15152v1:GG705478:214023:21...    37   0.005
+PTTG_02894P0 pep:novel supercontig:ASM15152v1:GG705423:1048580:1...    37   0.005
+PTTG_06570P0 pep:novel supercontig:ASM15152v1:GG705482:118693:12...    37   0.005
+PTTG_05990P0 pep:novel supercontig:ASM15152v1:GG705474:333165:33...    36   0.008
+PTTG_06964P0 pep:novel supercontig:ASM15152v1:GG705541:322879:32...    35   0.010
+PTTG_02523P0 pep:novel supercontig:ASM15152v1:GG705425:438292:44...    35   0.016
+PTTG_02863P0 pep:novel supercontig:ASM15152v1:GG705423:844954:84...    33   0.050
+PTTG_08622P0 pep:novel supercontig:ASM15152v1:GG705698:130182:13...    33   0.089
+PTTG_06503P0 pep:novel supercontig:ASM15152v1:GG705489:100472:10...    32   0.090
+PTTG_06627P0 pep:novel supercontig:ASM15152v1:GG705552:47171:481...    32   0.11 
+PTTG_04358P0 pep:novel supercontig:ASM15152v1:GG705445:665036:66...    32   0.16 
+PTTG_02332P0 pep:novel supercontig:ASM15152v1:GG705424:1227708:1...    32   0.21 
+PTTG_01747P0 pep:novel supercontig:ASM15152v1:GG705416:145688:14...    32   0.25 
+PTTG_02928P0 pep:novel supercontig:ASM15152v1:GG705428:239235:24...    30   0.50 
+PTTG_01099P0 pep:novel supercontig:ASM15152v1:GG705417:594749:59...    30   0.82 
+PTTG_05839P0 pep:novel supercontig:ASM15152v1:GG705472:162572:16...    28   2.4  
+PTTG_06654P0 pep:novel supercontig:ASM15152v1:GG705484:139291:14...    27   3.4  
+PTTG_00213P0 pep:novel supercontig:ASM15152v1:GG705407:2124308:2...    27   3.6  
+PTTG_02709P0 pep:novel supercontig:ASM15152v1:GG705433:365433:36...    27   6.6  
+
+>PTTG_08940P0 pep:novel supercontig:ASM15152v1:GG705659:35933:38505:1
+           gene:PTTG_08940 transcript:PTTG_08940T0
+           description:"Uncharacterized protein"
+          Length = 462
+
+ Score = 55.8 bits (133), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 23/72 (31%), Positives = 45/72 (62%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+GS+ ++ T++ I  +    G +  + +  D  TG+SKGYAF++F+++  + +A   +
+Sbjct: 196 LYVGSLNFNLTDDDIRQVFQPFGDIEYVDLHRDQITGKSKGYAFVQFKNMHDAKNATEKM 255
+
+Query: 80  NGYQLGSRFLKC 91
+           NG+QL  R L+ 
+Sbjct: 256 NGFQLAGRALRV 267
+
+
+>PTTG_07144P0 pep:novel supercontig:ASM15152v1:GG705505:190317:192509:-1
+           gene:PTTG_07144 transcript:PTTG_07144T0
+           description:"Uncharacterized protein"
+          Length = 605
+
+ Score = 52.8 bits (125), Expect = 4e-08,   Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 50/81 (61%), Gaps = 2/81 (2%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           PS  +++G++P+  T++ + ++ +  G V ++++  DP+T R KG+ ++E+  L+S+ +A
+Sbjct: 428 PSTTLFIGNVPFSATQDAVWEIFAEFGDVNSVRLPTDPETQRIKGFGYVEYATLDSAKAA 487
+
+Query: 76  VRNLN--GYQLGSRFLKCGYS 94
+           V      G Q+  R ++  +S
+Sbjct: 488 VEKGRGEGLQIDGRQVRLDFS 508
+
+
+
+ Score = 43.9 bits (102), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 20/78 (25%), Positives = 43/78 (55%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           + V++G + ++   E +     + G V+  ++++D  T +SKG+ +++F   E++  AV 
+Sbjct: 330 KSVFVGGLSWNVDNEWLKSEFESCGTVLAARVIYDRMTEKSKGFGYVDFETSEAAKKAVE 389
+
+Query: 78  NLNGYQLGSRFLKCGYSS 95
+             +G +L  R LK   S+
+Sbjct: 390 TKSGSELDGRTLKVDLST 407
+
+
+>PTTG_07308P0 pep:novel supercontig:ASM15152v1:GG705515:180538:181856:1
+           gene:PTTG_07308 transcript:PTTG_07308T0
+           description:"Uncharacterized protein"
+          Length = 349
+
+ Score = 52.4 bits (124), Expect = 4e-08,   Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 40/73 (54%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VVYLG IP    E ++    +  G V+ L++    +TG+ K YAFIEF+ +E +      
+Sbjct: 181 VVYLGRIPQGFYENEMRAYFTQFGEVLRLRLSRCKRTGKPKHYAFIEFKHVEVAQIVAET 240
+
+Query: 79  LNGYQLGSRFLKC 91
+           ++ Y L  + L+C
+Sbjct: 241 IHNYLLCGKLLQC 253
+
+
+>PTTG_00396P0 pep:novel supercontig:ASM15152v1:GG705408:1645532:1646941:-1
+          gene:PTTG_00396 transcript:PTTG_00396T0
+          description:"Uncharacterized protein"
+          Length = 171
+
+ Score = 49.3 bits (116), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 43/75 (57%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +++G++ +    E +       G V++  +M D +TGRS+G+ FI F+D  ++ +A+  L
+Sbjct: 11 LFVGNLAWSTDSESLRSAFGQYGEVLDAIVMQDRETGRSRGFGFITFKDQANADAAIEAL 70
+
+Query: 80 NGYQLGSRFLKCGYS 94
+          NG  +  R ++  Y+
+Sbjct: 71 NGQAVEGREIRVNYA 85
+
+
+>PTTG_04453P0 pep:novel supercontig:ASM15152v1:GG705440:364716:365740:-1
+           gene:PTTG_04453 transcript:PTTG_04453T0
+           description:"Uncharacterized protein"
+          Length = 194
+
+ Score = 49.7 bits (117), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 24/76 (31%), Positives = 44/76 (57%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VV +  +  + TEE +++  S+ G V+NL M  D +TG  KGYA +E+   + +  A+++
+Sbjct: 83  VVIVQGVHEEATEEDLMEKFSDYGHVMNLAMPLDRRTGYVKGYALVEYETRKEAEMAIKS 142
+
+Query: 79  LNGYQLGSRFLKCGYS 94
+               +L  + LKC ++
+Sbjct: 143 GTESKLLDQTLKCDFA 158
+
+
+>PTTG_06273P0 pep:novel supercontig:ASM15152v1:GG705490:181792:183685:1
+           gene:PTTG_06273 transcript:PTTG_06273T0
+           description:"Uncharacterized protein"
+          Length = 471
+
+ Score = 47.4 bits (111), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 46/79 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           V++G +  +  ++ +    +  G + + ++M+D  +G+S+GY F+ FRD   +  A+  +
+Sbjct: 203 VFVGDLSPEVNDDVLAKAFAAFGSLSDARVMWDMNSGKSRGYGFLAFRDKTDAEQAIATM 262
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+           NG  LGSR ++  +++  +
+Sbjct: 263 NGEWLGSRAIRVNWANQKN 281
+
+
+
+ Score = 39.7 bits (91), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 42/79 (53%), Gaps = 8/79 (10%)
+
+Query: 19  VVYLGS-IPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+            VY G+ +PY  T+  ++ L    G ++ ++M  D      +G+AF++    E++A A+ 
+Sbjct: 326 TVYTGNLVPYC-TQADLIPLYQGFGYIVEIRMQAD------RGFAFVKMDTHENAAMAIV 378
+
+Query: 78  NLNGYQLGSRFLKCGYSSN 96
+           NL G  +  R LKC +  +
+Sbjct: 379 NLTGTPVHGRPLKCSWGKD 397
+
+
+
+ Score = 32.0 bits (71), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 39/67 (58%), Gaps = 3/67 (4%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDP--QTGRSKGYAFIEFRDLESSASAVR 77
+           +Y+G++    TE  + ++ S  GPV  +K++ D   Q G    Y F+E+ ++ S+ +A++
+Sbjct: 110 LYVGNLSPRVTEYMLQEIFSVAGPVQGVKIIPDRNFQHG-GLNYGFVEYYEMRSAETALQ 168
+
+Query: 78  NLNGYQL 84
+            L G ++
+Sbjct: 169 TLGGRKI 175
+
+
+>PTTG_00890P0 pep:novel supercontig:ASM15152v1:GG705410:50472:52618:-1
+           gene:PTTG_00890 transcript:PTTG_00890T0
+           description:"Uncharacterized protein"
+          Length = 620
+
+ Score = 46.6 bits (109), Expect = 4e-06,   Method: Compositional matrix adjust.
+ Identities = 16/66 (24%), Positives = 43/66 (65%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           PS  +++G++P+  T++ + ++ +  G V ++++  DP+T + KG+ ++E+  ++S+ +A
+Sbjct: 439 PSSTLFIGNLPFSATQDAVWEIFAEFGDVNSVRLPTDPETQQIKGFGYVEYATVDSAKAA 498
+
+Query: 76  VRNLNG 81
+           +    G
+Sbjct: 499 IEKGRG 504
+
+
+
+ Score = 45.1 bits (105), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 21/78 (26%), Positives = 43/78 (55%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           + VY+G + ++   E +     + G +++ +++ D  T +SKG+ +I+F   E++  AV 
+Sbjct: 341 KSVYVGGLSWNVDNEWLKSEFESCGTILDARVIVDRMTQKSKGFGYIDFETSEAAKKAVE 400
+
+Query: 78  NLNGYQLGSRFLKCGYSS 95
+             +G +L  R LK   S+
+Sbjct: 401 TKSGVELDGRTLKVDLST 418
+
+
+>PTTG_05043P0 pep:novel supercontig:ASM15152v1:GG705465:229287:230293:-1
+           gene:PTTG_05043 transcript:PTTG_05043T0
+           description:"Uncharacterized protein"
+          Length = 211
+
+ Score = 43.9 bits (102), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 33/52 (63%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           SR VY+G++ Y  T E+I    ++ G +  + ++ D  TG+ KG+A+IEF D
+Sbjct: 96  SRSVYVGNVDYGSTAEEIQAHFASCGTINRITILCDKFTGQPKGFAYIEFAD 147
+
+
+>PTTG_04499P0 pep:novel supercontig:ASM15152v1:GG705440:812727:814223:1
+           gene:PTTG_04499 transcript:PTTG_04499T0
+           description:"Uncharacterized protein"
+          Length = 213
+
+ Score = 41.6 bits (96), Expect = 7e-05,   Method: Compositional matrix adjust.
+ Identities = 21/85 (24%), Positives = 43/85 (50%), Gaps = 2/85 (2%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSN--VGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           +  P   ++++ ++P+  T+ ++ +L  +  V     +   +    GRSKG+ F++F D 
+Sbjct: 126 EGEPSQTLLFVANLPFTVTDAKLKELFGSYKVASAHVVCRKYGATVGRSKGFGFVDFDDH 185
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYS 94
+           ES   A+  + G +L  R L   +S
+Sbjct: 186 ESQLKALEEVQGKELDGRALSLKFS 210
+
+
+>PTTG_03545P0 pep:novel supercontig:ASM15152v1:GG705430:721482:722982:1
+           gene:PTTG_03545 transcript:PTTG_03545T0
+           description:"Uncharacterized protein"
+          Length = 358
+
+ Score = 42.0 bits (97), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 20/81 (24%), Positives = 46/81 (56%), Gaps = 4/81 (4%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMM---FDPQTGRSKGYAFIEFRD 68
+           +  P    +++ ++P+D T+E++ +  ++   V++  ++   +   TGRSKG+ F+EF +
+Sbjct: 245 EGEPSQTSLFVANLPFDVTDEKLKEFFASY-EVVSAHVVSRRYGSSTGRSKGFGFVEFAN 303
+
+Query: 69  LESSASAVRNLNGYQLGSRFL 89
+            E+   A+  + G ++  R L
+Sbjct: 304 EENQLKALEEIQGKEMDGRAL 324
+
+
+>PTTG_05055P0 pep:novel supercontig:ASM15152v1:GG705465:393849:396297:-1
+           gene:PTTG_05055 transcript:PTTG_05055T0
+           description:"Uncharacterized protein"
+          Length = 455
+
+ Score = 41.6 bits (96), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 31/49 (63%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           +++G + ++ TE+ +    +  G V++  +M DP  GRS+G+AF+ F D
+Sbjct: 129 MFVGGLNWETTEDALKQYFTQFGNVVHCTIMRDPTNGRSRGFAFLTFAD 177
+
+
+>PTTG_05122P0 pep:novel supercontig:ASM15152v1:GG705457:482576:484054:1
+           gene:PTTG_05122 transcript:PTTG_05122T0
+           description:"Uncharacterized protein"
+          Length = 336
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 27/81 (33%), Positives = 39/81 (48%), Gaps = 5/81 (6%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           N   S  V++ ++PY      +L L    G      MM     GRSKG   +EF  LE+S
+Sbjct: 240 NQQQSTQVFVNNLPYSTDSAGLLALSP--GATTAEVMMMG---GRSKGMGVLEFPSLEAS 294
+
+Query: 73  ASAVRNLNGYQLGSRFLKCGY 93
+           A A+ +L G+ +G R +   Y
+Sbjct: 295 AEALASLQGHMMGGRPIMVKY 315
+
+
+
+ Score = 33.5 bits (75), Expect = 0.055,   Method: Compositional matrix adjust.
+ Identities = 18/61 (29%), Positives = 31/61 (50%), Gaps = 1/61 (1%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+G++PY     ++ D     G V   +++     GRSKG   +EF   E++  A+  L
+Sbjct: 36 VYVGNLPYAVGWRELKDFMREAGEVSFAEVLMG-NDGRSKGCGVVEFSTGEAAQKAITEL 94
+
+Query: 80 N 80
+          +
+Sbjct: 95 S 95
+
+
+>PTTG_06790P0 pep:novel supercontig:ASM15152v1:GG705496:107135:108318:-1
+           gene:PTTG_06790 transcript:PTTG_06790T0
+           description:"Uncharacterized protein"
+          Length = 274
+
+ Score = 40.8 bits (94), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 39/67 (58%), Gaps = 1/67 (1%)
+
+Query: 29  QTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           +T E  L+   S  G V  + +++D ++ RS+G+ F+  RD++ +++ +  LNG  L  R
+Sbjct: 71  RTREADLEAEFSRYGKVEKVVIVYDQRSDRSRGFGFVTMRDVQDASACISELNGLDLHGR 130
+
+Query: 88  FLKCGYS 94
+            ++  YS
+Sbjct: 131 PIRVDYS 137
+
+
+>PTTG_00397P0 pep:novel supercontig:ASM15152v1:GG705408:1649262:1650789:1
+          gene:PTTG_00397 transcript:PTTG_00397T0
+          description:"Uncharacterized protein"
+          Length = 171
+
+ Score = 40.0 bits (92), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 40/75 (53%), Gaps = 4/75 (5%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +++G++ +      +       G VI    M D +TGRS+G+ FI +++   +  A++ L
+Sbjct: 9  LFVGNLAWTTDTGALKSAFGQFGDVI----MQDRETGRSRGFGFITYKEESDAPGAIQGL 64
+
+Query: 80 NGYQLGSRFLKCGYS 94
+          NG +L  R ++  Y+
+Sbjct: 65 NGQELDGREIRVNYA 79
+
+
+>PTTG_05215P0 pep:novel supercontig:ASM15152v1:GG705466:236326:237804:1
+           gene:PTTG_05215 transcript:PTTG_05215T0 description:"
+           predicted protein \x3a contains exonic Ns"
+          Length = 308
+
+ Score = 39.7 bits (91), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 40/80 (50%), Gaps = 4/80 (5%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQ--TGRSKGYAFIEFRDLESSA 73
+           P+ +V   +IP+    EQ+L +  ++  +I L   F+     G  +G AF  FR    + 
+Sbjct: 43  PTAIVIKTAIPFSVRREQLLAIIEDL--MIPLPYAFNYHFDNGVFRGLAFANFRSASEAD 100
+
+Query: 74  SAVRNLNGYQLGSRFLKCGY 93
+           +AV  LNG+ +  R L+  Y
+Sbjct: 101 AAVAGLNGFDISGRKLRVEY 120
+
+
+>PTTG_08369P0 pep:novel supercontig:ASM15152v1:GG705560:127006:128879:-1
+           gene:PTTG_08369 transcript:PTTG_08369T0
+           description:"Uncharacterized protein"
+          Length = 403
+
+ Score = 39.7 bits (91), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 20/72 (27%), Positives = 38/72 (52%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P R +++  + Y+ TE  +       GP+  L ++ +  TG+S+GYAFI F   +   +A
+Sbjct: 122 PYRTLFISRLSYEVTESDLKREFDMYGPIEKLVIVKNKLTGKSQGYAFILFEREKDMKAA 181
+
+Query: 76  VRNLNGYQLGSR 87
+            ++  G ++  R
+Sbjct: 182 YKDAEGLKIKGR 193
+
+
+>PTTG_05083P0 pep:novel supercontig:ASM15152v1:GG705457:129404:130567:1
+           gene:PTTG_05083 transcript:PTTG_05083T0
+           description:"Eukaryotic translation initiation factor 3
+           subunit G"
+          Length = 318
+
+ Score = 39.3 bits (90), Expect = 7e-04,   Method: Compositional matrix adjust.
+ Identities = 24/97 (24%), Positives = 43/97 (44%), Gaps = 4/97 (4%)
+
+Query: 2   NRQSGVNAGVQNNPPSR----VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGR 57
+           +++ G   G     P+R     + + ++  D  E  + DL    G +  + +  D  TG 
+Sbjct: 213 SQRDGAKRGDSMQKPNRDDLPTLRVTNLSEDVQESDLWDLFGRFGRISRIYVGKDQDTGL 272
+
+Query: 58  SKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+            KG+AF+ F D   +  A++ +NG       L C +S
+Sbjct: 273 CKGFAFVSFEDRMEAERAMKKINGLPYDHLILGCMWS 309
+
+
+>PTTG_05664P0 pep:novel supercontig:ASM15152v1:GG705462:503720:504719:-1
+          gene:PTTG_05664 transcript:PTTG_05664T0
+          description:"Uncharacterized protein"
+          Length = 302
+
+ Score = 38.9 bits (89), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRS-KGYAFIEFRDLESSASA 75
+          S  VY+G +P D TEEQ++ + S   PV+ +++    ++  + + YA I +   + +  A
+Sbjct: 26 SNSVYVGDLPADITEEQLIKVFSQASPVLKVEISSSKRSTEAPRTYAHIRYSSAKDATQA 85
+
+Query: 76 VRNLNGYQLGSR 87
+          +   N  +   +
+Sbjct: 86 IEEFNQVEFSGK 97
+
+
+
+ Score = 36.6 bits (83), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 35/75 (46%), Gaps = 1/75 (1%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G     P   V++ ++P D +     D  +  G +++ K+  D +   SKGY F+++   
+Sbjct: 107 GASKGLPEANVFVKNLPLDLSAVAFHDTFAAYGEILSSKLAVD-KNNTSKGYGFVQYASA 165
+
+Query: 70  ESSASAVRNLNGYQL 84
+           E +  A+   NG  L
+Sbjct: 166 EQAKKAIAETNGSTL 180
+
+
+>PTTG_00788P0 pep:novel supercontig:ASM15152v1:GG705411:712927:715721:1
+           gene:PTTG_00788 transcript:PTTG_00788T0
+           description:"Uncharacterized protein"
+          Length = 705
+
+ Score = 39.3 bits (90), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 20/81 (24%), Positives = 43/81 (53%), Gaps = 1/81 (1%)
+
+Query: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           + P  R++++G++P++   + + DL    G ++   +    + GRS+G+  + F   E +
+Sbjct: 363 SGPACRLLFVGNLPFNLQWQDLKDLFRQAGNILRADVATTVE-GRSRGFGTVLFATAEDA 421
+
+Query: 73  ASAVRNLNGYQLGSRFLKCGY 93
+             A+   +GY+L  R LK  +
+Sbjct: 422 LKALEMYDGYELKGRALKVRF 442
+
+
+
+ Score = 30.0 bits (66), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 16/70 (22%), Positives = 33/70 (47%), Gaps = 1/70 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++P+    + + DL    G V+   +   P   RSKG+  + F +   +  A+   
+Sbjct: 36  LFVNNLPFRVRWQDLKDLFRKAGTVLRADVSLTPDN-RSKGFGTVLFANRNDAFKAIEIY 94
+
+Query: 80  NGYQLGSRFL 89
+           NG+   +R L
+Sbjct: 95  NGFSWQTRIL 104
+
+
+>PTTG_01541P0 pep:novel supercontig:ASM15152v1:GG705413:494325:496630:1
+           gene:PTTG_01541 transcript:PTTG_01541T0
+           description:"Uncharacterized protein"
+          Length = 671
+
+ Score = 38.9 bits (89), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 25/93 (26%), Positives = 50/93 (53%), Gaps = 7/93 (7%)
+
+Query: 1   MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGP--VINLKMMFDPQTGRS 58
+           M R + V   + + PP    ++G++ +   E    +L    GP  + +++++ D  TG+ 
+Sbjct: 105 MERPNRVEVPIPDKPPYNA-FVGNLSW---EVGTTELEEFFGPSHITSIRLITDSATGKP 160
+
+Query: 59  KGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+           KGY +IEF D ++  +A  + +G +LG R ++ 
+Sbjct: 161 KGYGYIEFDDRDALVAAT-DKSGRELGGRPVRV 192
+
+
+>PTTG_06854P0 pep:novel supercontig:ASM15152v1:GG705491:279687:281780:1
+           gene:PTTG_06854 transcript:PTTG_06854T0
+           description:"Uncharacterized protein"
+          Length = 455
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 23/83 (27%), Positives = 45/83 (54%), Gaps = 2/83 (2%)
+
+Query: 15  PPSRVVYLGSI-PYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           PP  ++++  + P  ++E+  L + S  GP+ + +++ DP+T  S  YAFIEF   E + 
+Sbjct: 225 PPENILFVCKLNPITRSEDLEL-IFSRFGPIPSCEVIKDPKTQDSLQYAFIEFDQREGAE 283
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYSSN 96
+            A   ++G  +  R +   +S +
+Sbjct: 284 RAYFKMDGVLIDDRRIHVDFSQS 306
+
+
+>PTTG_03190P0 pep:novel supercontig:ASM15152v1:GG705427:816140:821290:-1
+            gene:PTTG_03190 transcript:PTTG_03190T0
+            description:"Uncharacterized protein"
+          Length = 1193
+
+ Score = 38.5 bits (88), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 26/41 (63%)
+
+Query: 55   TGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSS 95
+            +G+ KG+AF++F  +E + + + NL  +QL  R L   Y+S
+Sbjct: 1037 SGKCKGFAFVDFETVEQATNVLTNLKNHQLDGRILTVEYAS 1077
+
+
+>PTTG_02395P0 pep:novel supercontig:ASM15152v1:GG705418:397078:398035:-1
+           gene:PTTG_02395 transcript:PTTG_02395T0
+           description:"Uncharacterized protein"
+          Length = 281
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 28/47 (59%)
+
+Query: 45  INLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+           +  +++ D  T +SKGY F+ ++D E    A + +NG  +GSR +K 
+Sbjct: 182 VKARVVRDKVTTKSKGYGFVSYKDPEDFMKAWKEMNGKYVGSRPIKI 228
+
+
+>PTTG_04640P0 pep:novel supercontig:ASM15152v1:GG705444:334607:335260:1
+           gene:PTTG_04640 transcript:PTTG_04640T0
+           description:"Uncharacterized protein"
+          Length = 173
+
+ Score = 37.0 bits (84), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 23/73 (31%), Positives = 38/73 (52%), Gaps = 2/73 (2%)
+
+Query: 20  VYLGSIPYDQTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           + + ++P D TE QI +L  + VG V  + + +D + G SKG A +EF+  E +  A + 
+Sbjct: 86  IIVSNLPPDVTENQIRELFYTTVGQVTRVTLSYDSR-GASKGIAQVEFKRNEDATKAFQQ 144
+
+Query: 79  LNGYQLGSRFLKC 91
+            N     +  L C
+Sbjct: 145 YNKVTYKAPILHC 157
+
+
+>PTTG_03690P0 pep:novel supercontig:ASM15152v1:GG705437:523076:524382:-1
+           gene:PTTG_03690 transcript:PTTG_03690T0
+           description:"Uncharacterized protein"
+          Length = 304
+
+ Score = 37.4 bits (85), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 17/64 (26%), Positives = 37/64 (57%), Gaps = 3/64 (4%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           ++ + +L  N GPV+++      ++ R +G AF+ F D E +A AV+ + G+ L  + ++
+Sbjct: 82  KQTLKNLLKNFGPVLDVVAH---RSVRMRGQAFVAFADREVAAKAVKEVKGFPLYGKPIE 138
+
+Query: 91  CGYS 94
+             ++
+Sbjct: 139 IAFA 142
+
+
+>PTTG_06274P0 pep:novel supercontig:ASM15152v1:GG705490:189338:194544:1
+           gene:PTTG_06274 transcript:PTTG_06274T0
+           description:"Uncharacterized protein"
+          Length = 982
+
+ Score = 37.7 bits (86), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 28/97 (28%), Positives = 48/97 (49%), Gaps = 14/97 (14%)
+
+Query: 6   GVNAGVQNNP-----PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+           GV  G   +P     P+R +++GSIP   T   ++D+ S  G + +++++        K 
+Sbjct: 572 GVMLGPNGDPVLQSSPTRALWVGSIPSQTTPNLLMDIFSPYGAIESVRVL------SHKN 625
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQ-LGSRF--LKCGYS 94
+             FI F  L+ +  A + L+G   LGS    +K GY+
+Sbjct: 626 CGFINFEHLDDAVRARKALSGRGILGSEVGAVKIGYA 662
+
+
+
+ Score = 31.2 bits (69), Expect = 0.35,   Method: Compositional matrix adjust.
+ Identities = 15/60 (25%), Positives = 34/60 (56%), Gaps = 6/60 (10%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           PSR +++G+     T ++++++ +  GP+ +L+++ D + G      FI F  +  +A A
+Sbjct: 414 PSRSLWIGNFDPSTTAQELMNVFAVYGPIESLRLLPDKECG------FINFLSMHDAAHA 467
+
+
+>PTTG_05898P0 pep:novel supercontig:ASM15152v1:GG705478:214023:216110:-1
+           gene:PTTG_05898 transcript:PTTG_05898T0
+           description:"Uncharacterized protein"
+          Length = 595
+
+ Score = 37.0 bits (84), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 31/51 (60%), Gaps = 1/51 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQL 84
+           + D  +  G +++ K+  D + G SKGY F+ +   ES+ +A++ +NG QL
+Sbjct: 83  LHDTFAAFGDILSCKVATD-EHGASKGYGFVHYVTGESAEAAIKGVNGMQL 132
+
+
+
+ Score = 35.4 bits (80), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 42/80 (52%), Gaps = 1/80 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+ ++  +  +E++ +  +  G + + K+M D   G SKG+ F+ F   + +  AV  +
+Sbjct: 251 LYVKNLDDEYDDEKLQNEFTPFGTITSCKVMKD-DKGTSKGFGFVCFSSPDEATKAVAEM 309
+
+Query: 80  NGYQLGSRFLKCGYSSNSDI 99
+           NG  LGS+ L    +   ++
+Sbjct: 310 NGKMLGSKPLYVSLAQRKEV 329
+
+
+
+ Score = 29.3 bits (64), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 22/33 (66%)
+
+Query: 34 ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+          + ++ S +GPV ++++  D  T RS GYA++ +
+Sbjct: 2  LYEIFSMIGPVASIRVCRDAVTRRSLGYAYVNY 34
+
+
+>PTTG_02894P0 pep:novel supercontig:ASM15152v1:GG705423:1048580:1051126:-1
+           gene:PTTG_02894 transcript:PTTG_02894T0
+           description:"Uncharacterized protein"
+          Length = 674
+
+ Score = 37.0 bits (84), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 35/69 (50%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ N  +R VYLG++    TE+ + D  S  GP+  +K++      R K   F+ F  + 
+Sbjct: 295 VQQNGATRNVYLGNLEETVTEQSLRDDLSRYGPIDQVKIV------RDKNIGFVHFLSIA 348
+
+Query: 71  SSASAVRNL 79
+           ++   V+ L
+Sbjct: 349 TAIKVVQTL 357
+
+
+
+ Score = 30.4 bits (67), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 42/84 (50%), Gaps = 9/84 (10%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R VY+G++P D   +++L      GP+  +K++ +      K  AFI F D  ++A+   
+Sbjct: 211 RTVYVGNLPADAAVDELLSQV-RFGPIDTVKVLPE------KNCAFISFLDPTTAAAFHS 263
+
+Query: 78  N--LNGYQLGSRFLKCGYSSNSDI 99
+           +  +   QL  + LK G+   S +
+Sbjct: 264 DALMRKIQLHGQELKIGWGKPSAV 287
+
+
+
+ Score = 30.0 bits (66), Expect = 0.65,   Method: Compositional matrix adjust.
+ Identities = 25/89 (28%), Positives = 41/89 (46%), Gaps = 9/89 (10%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+            Q  P +R VYLG+I  + T E+I +     G +  ++ + D      K  AF+ F D  
+Sbjct: 417 TQVQPGNRTVYLGNIHPETTLEEICNTIRG-GILQQIRYIQD------KHIAFVTFVDSN 469
+
+Query: 71  SSAS--AVRNLNGYQLGSRFLKCGYSSNS 97
+           ++ +        G  L +R LK G+  +S
+Sbjct: 470 AAVAFYHTATFQGIALHNRRLKVGWGKHS 498
+
+
+>PTTG_06570P0 pep:novel supercontig:ASM15152v1:GG705482:118693:120300:1
+           gene:PTTG_06570 transcript:PTTG_06570T0
+           description:"Uncharacterized protein"
+          Length = 353
+
+ Score = 36.6 bits (83), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 16/56 (28%), Positives = 32/56 (57%)
+
+Query: 43  PVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           P+   K+  +P TG+S GY F+ +   E++ +A+ ++NG  L ++ +   Y+   D
+Sbjct: 83  PIRVNKIARNPTTGQSNGYGFVAYESFEAADTAIESMNGQFLMNKAITVQYAFKKD 138
+
+
+
+ Score = 32.7 bits (73), Expect = 0.097,   Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 37/72 (51%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VY+G++    T+  + +L    GPV+N+ +  D  +   +GY F EF   + +  A + 
+Sbjct: 14 TVYMGNLDERCTDALVWELMLQAGPVVNVHLPKDRVSMSHQGYGFCEFLTEDDADYACKI 73
+
+Query: 79 LNGYQLGSRFLK 90
+          +N  +L  + ++
+Sbjct: 74 MNQIKLYGKPIR 85
+
+
+>PTTG_05990P0 pep:novel supercontig:ASM15152v1:GG705474:333165:334654:-1
+          gene:PTTG_05990 transcript:PTTG_05990T0
+          description:"Uncharacterized protein"
+          Length = 312
+
+ Score = 35.8 bits (81), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 24/43 (55%)
+
+Query: 54 QTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+          + G+ +G AF+ FRD + +  A+R L+G     R LK  Y+  
+Sbjct: 51 KKGKMRGQAFVVFRDFQGATQAMRQLDGTGFLDRELKITYAKT 93
+
+
+>PTTG_06964P0 pep:novel supercontig:ASM15152v1:GG705541:322879:324264:1
+           gene:PTTG_06964 transcript:PTTG_06964T0
+           description:"Uncharacterized protein"
+          Length = 315
+
+ Score = 35.4 bits (80), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 40/81 (49%), Gaps = 11/81 (13%)
+
+Query: 6   GVNAGVQNNP-----PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+           GV  G   +P     P+R +++GSIP   T   ++D+ S  G + +++++        K 
+Sbjct: 35  GVMLGPNGDPVLQSSPTRALWVGSIPSQTTTNLLMDIFSPYGAIESVRVL------SHKN 88
+
+Query: 61  YAFIEFRDLESSASAVRNLNG 81
+             FI F  L+ +  A + L+G
+Sbjct: 89  CGFINFEHLDDAVRARKALSG 109
+
+
+>PTTG_02523P0 pep:novel supercontig:ASM15152v1:GG705425:438292:441787:-1
+           gene:PTTG_02523 transcript:PTTG_02523T0
+           description:"Uncharacterized protein"
+          Length = 1015
+
+ Score = 35.4 bits (80), Expect = 0.016,   Method: Compositional matrix adjust.
+ Identities = 12/46 (26%), Positives = 29/46 (63%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFI 64
+            +++ ++ ++ TE+++  L    GP+   +++ DP+ GRS+G  F+
+Sbjct: 464 TLFVRNLSFEATEQELHTLFRPFGPLRYARIVMDPKLGRSRGTGFV 509
+
+
+
+ Score = 32.7 bits (73), Expect = 0.098,   Method: Compositional matrix adjust.
+ Identities = 12/46 (26%), Positives = 30/46 (65%)
+
+Query: 33  QILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           ++L+  S++GPV +  ++ DP   +S+G+ ++ F   E + +A+++
+Sbjct: 59  KLLERASSIGPVRDAFVVSDPVKAKSRGFGYVRFVLREDAETALKD 104
+
+
+>PTTG_02863P0 pep:novel supercontig:ASM15152v1:GG705423:844954:845867:-1
+           gene:PTTG_02863 transcript:PTTG_02863T0
+           description:"Uncharacterized protein"
+          Length = 215
+
+ Score = 33.1 bits (74), Expect = 0.050,   Method: Compositional matrix adjust.
+ Identities = 17/69 (24%), Positives = 32/69 (46%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P   +++  I     +  + DL S  G V   ++M DP T   +G+ F+     E +  A
+Sbjct: 32  PGNNIHVSGISLKADDPDLEDLFSKYGTVTKSQLMRDPHTREIRGFGFVTMETSEQADIA 91
+
+Query: 76  VRNLNGYQL 84
+           + +L+G + 
+Sbjct: 92  ISSLHGTEF 100
+
+
+>PTTG_08622P0 pep:novel supercontig:ASM15152v1:GG705698:130182:133058:1
+           gene:PTTG_08622 transcript:PTTG_08622T0
+           description:"Uncharacterized protein"
+          Length = 858
+
+ Score = 33.1 bits (74), Expect = 0.089,   Method: Compositional matrix adjust.
+ Identities = 19/95 (20%), Positives = 51/95 (53%), Gaps = 5/95 (5%)
+
+Query: 4   QSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQT--GRSKGY 61
+           + G  AG + +  +  + + ++P++ + +++ +L    G + ++++   P+    +S+G+
+Sbjct: 713 KKGELAGGKKSKTTSKLMIKNLPFEISRKELSELFGVYGKLKSVRL---PKKLDRKSRGF 769
+
+Query: 62  AFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+            F+EF   + +A A+++L    L  R L   Y+ +
+Sbjct: 770 GFVEFHTKKEAAEALKSLRFSHLLGRHLVIEYAHD 804
+
+
+>PTTG_06503P0 pep:novel supercontig:ASM15152v1:GG705489:100472:101264:-1
+           gene:PTTG_06503 transcript:PTTG_06503T0
+           description:"Uncharacterized protein"
+          Length = 243
+
+ Score = 32.3 bits (72), Expect = 0.090,   Method: Compositional matrix adjust.
+ Identities = 21/82 (25%), Positives = 36/82 (43%), Gaps = 6/82 (7%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           PP  ++++  +      E +  + S  GP+       DP+T  S  YAFIEF   E +  
+Sbjct: 140 PPGNILFVCKLNAITRSEDLELIFSRFGPIK------DPKTEVSLQYAFIEFDQREDTER 193
+
+Query: 75  AVRNLNGYQLGSRFLKCGYSSN 96
+           A    +G  +  R +   +S +
+Sbjct: 194 AYFKTDGVLINDRRIHLDFSQS 215
+
+
+>PTTG_06627P0 pep:novel supercontig:ASM15152v1:GG705552:47171:48199:-1
+          gene:PTTG_06627 transcript:PTTG_06627T0
+          description:"Uncharacterized protein"
+          Length = 278
+
+ Score = 32.3 bits (72), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 18/57 (31%), Positives = 28/57 (49%), Gaps = 4/57 (7%)
+
+Query: 37 LCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+          +  N  P+++    FD   G  +G AF  FR    + +AV  LNG+ +  R L+  Y
+Sbjct: 25 VADNPHPILHYH--FD--NGVFRGLAFANFRSASEADAAVAGLNGFDISGRKLRVEY 77
+
+
+>PTTG_04358P0 pep:novel supercontig:ASM15152v1:GG705445:665036:665971:-1
+          gene:PTTG_04358 transcript:PTTG_04358T0
+          description:"Uncharacterized protein"
+          Length = 242
+
+ Score = 31.6 bits (70), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 33/56 (58%), Gaps = 4/56 (7%)
+
+Query: 42 GPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+          G +  ++++ D Q G SKG++F+EF+  + SA A   +N   L  R  + G++ +S
+Sbjct: 5  GEIKGVRVVLD-QAGHSKGFSFVEFKT-KMSAKAALTMNNVGLKKR--RIGFTISS 56
+
+
+>PTTG_02332P0 pep:novel supercontig:ASM15152v1:GG705424:1227708:1230878:1
+           gene:PTTG_02332 transcript:PTTG_02332T0
+           description:"Uncharacterized protein"
+          Length = 671
+
+ Score = 31.6 bits (70), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 37/69 (53%), Gaps = 4/69 (5%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVI-NLKMMFDPQTGRSKGYAFIEF---RDLESSASA 75
+           V++  +  + TE +++ L +   P   + K+M D  TG S+GYAFI F    D+  + + 
+Sbjct: 211 VFIRDLDREVTEGELVALFTCSFPSTKSAKIMGDLSTGLSRGYAFIRFGEESDMHRALAL 270
+
+Query: 76  VRNLNGYQL 84
+            R+ NG  L
+Sbjct: 271 GRSKNGTGL 279
+
+
+>PTTG_01747P0 pep:novel supercontig:ASM15152v1:GG705416:145688:148468:1
+           gene:PTTG_01747 transcript:PTTG_01747T0
+           description:"Uncharacterized protein"
+          Length = 727
+
+ Score = 31.6 bits (70), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 1/36 (2%)
+
+Query: 47  LKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGY 82
+           ++M  DP   +SKGY FIE    + +  AVRNL+ Y
+Sbjct: 78  IEMPLDPNN-QSKGYLFIELNSPQDADRAVRNLHDY 112
+
+
+>PTTG_02928P0 pep:novel supercontig:ASM15152v1:GG705428:239235:240505:1
+          gene:PTTG_02928 transcript:PTTG_02928T0
+          description:"Uncharacterized protein"
+          Length = 190
+
+ Score = 30.0 bits (66), Expect = 0.50,   Method: Compositional matrix adjust.
+ Identities = 13/44 (29%), Positives = 24/44 (54%)
+
+Query: 54 QTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNS 97
+          ++  +K YAF+EF D   +A A   ++G +L    L   ++ N+
+Sbjct: 38 KSSTAKSYAFVEFEDERDAADAYYEMHGRRLDGDTLNVQWAKNA 81
+
+
+>PTTG_01099P0 pep:novel supercontig:ASM15152v1:GG705417:594749:599923:1
+           gene:PTTG_01099 transcript:PTTG_01099T0
+           description:"Uncharacterized protein"
+          Length = 1196
+
+ Score = 30.0 bits (66), Expect = 0.82,   Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 31/64 (48%), Gaps = 1/64 (1%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGP-VINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           +PPS+ V    +P    E  +       G  V ++ +++D  TG+SK Y F  F  +E +
+Sbjct: 507 SPPSQSVIFMGLPIHTDETNLRAFLEESGAGVDSVTIIYDRITGQSKRYGFARFLSVEHA 566
+
+Query: 73  ASAV 76
+            + V
+Sbjct: 567 RAFV 570
+
+
+>PTTG_05839P0 pep:novel supercontig:ASM15152v1:GG705472:162572:163178:1
+          gene:PTTG_05839 transcript:PTTG_05839T0
+          description:"Uncharacterized protein"
+          Length = 172
+
+ Score = 27.7 bits (60), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 22/95 (23%), Positives = 42/95 (44%), Gaps = 18/95 (18%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMM------------FDPQTG------RSKGY 61
+          +Y+G +    TE  I+ + S  G  +++ +              D  +G      +S+G+
+Sbjct: 5  IYIGGLDTGLTEGDIITIFSQYGEPVDINLPKEKSGPLPSDKPGDAPSGSTSKKPKSRGF 64
+
+Query: 62 AFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+           F+ + +  S+  AV NLNG  +  R L+  +  N
+Sbjct: 65 CFLMYENQLSTNLAVDNLNGAIVLGRTLRVDHCKN 99
+
+
+>PTTG_06654P0 pep:novel supercontig:ASM15152v1:GG705484:139291:140163:1
+           gene:PTTG_06654 transcript:PTTG_06654T0
+           description:"Uncharacterized protein"
+          Length = 231
+
+ Score = 27.3 bits (59), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 25/90 (27%), Positives = 35/90 (38%), Gaps = 19/90 (21%)
+
+Query: 179 KFLQKFQEWTRA----HPEDAVSLLELCPQLSFVTAEL----LLTNGICKVDDLIP---- 226
+           K L+    WTR      PED + ++     L F+T E     L  N  C+   L+P    
+Sbjct: 138 KSLKSRAAWTRKWLAERPEDEIVVVSHGSALRFLTEEYGSHGLWNNCECRSYALVPSSSS 197
+
+Query: 227 -------LASRPQEEASATNNNSVNEVVDP 249
+                  L S PQE+      +S+    DP
+Sbjct: 198 KSFKLVRLPSFPQEQKPIIQQSSLITTCDP 227
+
+
+>PTTG_00213P0 pep:novel supercontig:ASM15152v1:GG705407:2124308:2125310:1
+           gene:PTTG_00213 transcript:PTTG_00213T0
+           description:"Uncharacterized protein"
+          Length = 255
+
+ Score = 27.3 bits (59), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 15/59 (25%), Positives = 33/59 (55%), Gaps = 3/59 (5%)
+
+Query: 42  GPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGS---RFLKCGYSSNS 97
+           G + ++++  DP++  ++ +AFI F++   +  A+ N++   L S   + LK   + NS
+Sbjct: 147 GNICDIQIPTDPRSHTNRNFAFITFQNQIEALDAINNMHLNLLSSDSEKILKVNLARNS 205
+
+
+>PTTG_02709P0 pep:novel supercontig:ASM15152v1:GG705433:365433:366956:-1
+           gene:PTTG_02709 transcript:PTTG_02709T0
+           description:"Uncharacterized protein"
+          Length = 276
+
+ Score = 26.6 bits (57), Expect = 6.6,   Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 32/69 (46%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P   +++  I     +  + +L S  G V   ++M DP T   +G+ F+     E + +A
+Sbjct: 96  PGNNLHVSGISTRAEDADLYELFSKYGRVQKAQLMRDPNTKEVRGFGFVTMETAEEADAA 155
+
+Query: 76  VRNLNGYQL 84
+           +  LNG  L
+Sbjct: 156 MAALNGTDL 164
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 2,314,738
+Number of extensions: 77893
+Number of successful extensions: 259
+Number of sequences better than 10.0: 45
+Number of HSP's gapped: 256
+Number of HSP's successfully gapped: 60
+Length of query: 296
+Length of database: 4,657,481
+Length adjustment: 92
+Effective length of query: 204
+Effective length of database: 3,586,785
+Effective search space: 731704140
+Effective search space used: 731704140
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

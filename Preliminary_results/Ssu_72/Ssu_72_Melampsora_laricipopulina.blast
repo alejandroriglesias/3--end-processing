@@ -1,0 +1,134 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG01914 pep:novel supercontig:GCA_000204055.1:GL883134:445234:4...   201   5e-64
+EGF97586 pep:novel supercontig:GCA_000204055.1:GL883214:5292:580...    28   0.89 
+EGG10969 pep:novel supercontig:GCA_000204055.1:GL883093:1477735:...    28   2.4  
+EGG12255 pep:novel supercontig:GCA_000204055.1:GL883091:2775288:...    27   3.5  
+
+>EGG01914 pep:novel supercontig:GCA_000204055.1:GL883134:445234:446754:1
+           gene:MELLADRAFT_49939 transcript:EGG01914
+           description:"hypothetical protein"
+          Length = 268
+
+ Score =  201 bits (512), Expect = 5e-64,   Method: Compositional matrix adjust.
+ Identities = 93/166 (56%), Positives = 122/166 (73%), Gaps = 5/166 (3%)
+
+Query: 8   NLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYNDI 67
+           N  FC VCASN NRSME H VL    + V+S GTGS VRLPG +IDKPNVY FGTPY+D+
+Sbjct: 78  NWSFCVVCASNQNRSMEGHNVLAREAFRVTSAGTGSMVRLPGPAIDKPNVYPFGTPYDDM 137
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQES-TKVFDFVFTCEERCFDAVCEDL 126
+           Y DL ++    Y +NG+L MLDRNRR+K++PE+WQE  + + D + TCEERCFD+VC+DL
+Sbjct: 138 YQDLKNKDERLYTANGILSMLDRNRRIKRSPERWQEGISGLADIIITCEERCFDSVCDDL 197
+
+Query: 127 MNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQC 172
+             RGG+LNK VH+IN++IKD+ E A +  +A+++L       IE+C
+Sbjct: 198 FYRGGELNKPVHLINLEIKDNHEEAFLAGQALVDLC----GSIEEC 239
+
+
+>EGF97586 pep:novel supercontig:GCA_000204055.1:GL883214:5292:5806:1
+           gene:MELLADRAFT_114215 transcript:EGF97586
+           description:"hypothetical protein"
+          Length = 149
+
+ Score = 28.5 bits (62), Expect = 0.89,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 31/67 (46%), Gaps = 8/67 (11%)
+
+Query: 124 EDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADML------NDKIEQCEKDDI 177
+            DL+N    LN + H IN   +  D N+K GS  ++ L++ L      ND  +Q    + 
+Sbjct: 49  HDLINSSNHLNHLHHQINKTHQTHDLNSKSGS--LINLSNNLSCFQTSNDHQQQLSLTEF 106
+
+Query: 178 PFEDCIM 184
+               C++
+Sbjct: 107 ELSKCVI 113
+
+
+>EGG10969 pep:novel supercontig:GCA_000204055.1:GL883093:1477735:1478913:1
+           gene:MELLADRAFT_92372 transcript:EGG10969
+           description:"hypothetical protein"
+          Length = 354
+
+ Score = 27.7 bits (60), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 21/37 (56%), Gaps = 2/37 (5%)
+
+Query: 164 MLNDKIEQCEKDDIPFEDCIMDILTEWQSSHSQLPSL 200
+           +L  KI+Q   D +P  DC  +  TEW+  ++  PS+
+Sbjct: 221 LLAAKIDQQASDILPHHDCCSE--TEWEPENTHYPSV 255
+
+
+>EGG12255 pep:novel supercontig:GCA_000204055.1:GL883091:2775288:2778100:-1
+           gene:MELLADRAFT_46659 transcript:EGG12255
+           description:"hypothetical protein"
+          Length = 542
+
+ Score = 27.3 bits (59), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 326 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 358
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 2,734,144
+Number of extensions: 113499
+Number of successful extensions: 279
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 278
+Number of HSP's successfully gapped: 12
+Length of query: 206
+Length of database: 6,110,487
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,637,007
+Effective search space: 537892812
+Effective search space used: 537892812
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)
