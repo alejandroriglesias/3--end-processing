@@ -1,0 +1,128 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ68681 pep:novel chromosome:GCA_000230245.1:11:548325:550166:-...   100   1e-22
+CBQ72337 pep:novel chromosome:GCA_000230245.1:4:153668:155632:-1...    30   1.4  
+
+>CBQ68681 pep:novel chromosome:GCA_000230245.1:11:548325:550166:-1
+           gene:sr14964 transcript:CBQ68681 description:"related to
+           PCF11 component of pre-mRNA 3`-end processing factor CF
+           I"
+          Length = 613
+
+ Score =  100 bits (250), Expect = 1e-22,   Method: Compositional matrix adjust.
+ Identities = 65/228 (28%), Positives = 108/228 (47%), Gaps = 9/228 (3%)
+
+Query: 4   DTEVIVKDFNSILEELTFNSRPIITTLTKLAEENIS-CAQYFVDAIESRIEKCMPKQKLY 62
+           D       +NS L+ LTFNS+PIIT LT +A ++ +  A      I+  I +  P  +L 
+Sbjct: 39  DPVAFASMYNSHLKSLTFNSKPIITNLTVIAHDHAARMATVVAKTIDDHIMQSHPSLRLP 98
+
+Query: 63  AFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGLPL 122
+           A Y LDSI KN+G PYT  ++  +  ++  +Y LVD  T+ ++  +   W         L
+Sbjct: 99  ALYTLDSISKNIGHPYTQLWAARIVPVFLESYRLVDQPTKLRMEELLATWKTAGPGARAL 158
+
+Query: 123 FEGSALEKIEQFLIKASALHQKNLQAML----PTPTVPL----LLRDIDKLTCLTSERLK 174
+           F  +A   IE+ L  +  + Q +  A      P           + +ID+L  +  + L 
+Sbjct: 159 FGDNAQWSIERALFGSQGMPQPHAAAAAAVADPRANAARSKSKAIENIDRLLAVDGQSLA 218
+
+Query: 175 NQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQ 222
+             P+D+ L  ++  L+QLKQ +    L+   + Q+  QL  + +  Q+
+Sbjct: 219 ANPSDQALHERVDSLAQLKQVILTADLSTEEMAQIHAQLDSLSAAAQR 266
+
+
+
+ Score = 66.2 bits (160), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 47/202 (23%), Positives = 78/202 (38%), Gaps = 47/202 (23%)
+
+Query: 412 LLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTT 471
+           +L++  P +C  C  R+      +   ++HLDWHF  N R K   ++A  G         
+Sbjct: 384 ILHKHLPLQCRQCANRYPTGGKGQGRMDDHLDWHFTQNRRAK---DSAARG--------- 431
+
+Query: 472 TTRKNIQSRNWY--LSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDE 529
+                 QSR+W+  L       F D    +        D  A     K+AL         
+Sbjct: 432 ------QSRSWFDRLDSFIRGGFDDAASAARGGAAHAPDKDA-----KTAL--------- 471
+
+Query: 530 GSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIE 589
+                +   D++   +    +VV P  +   +  CPICKE     + E+  EW+W N + 
+Sbjct: 472 -----SAAHDKALRAQFAKTFVVAPADAALASQPCPICKEAFKSQWSEDEEEWIWLNAMR 526
+
+Query: 590 VNGK--------YFHSTCYHET 603
+           V+          Y+H++C++  
+Sbjct: 527 VDAHDGAEGGVVYYHASCHYSA 548
+
+
+>CBQ72337 pep:novel chromosome:GCA_000230245.1:4:153668:155632:-1
+           gene:sr13045 transcript:CBQ72337 description:"related to
+           DNA polymerase kappa"
+          Length = 654
+
+ Score = 30.4 bits (67), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 11/19 (57%), Positives = 13/19 (68%)
+
+Query: 559 DMAFKCPICKETVTGVYDE 577
+           D A +CPIC ETV G  D+
+Sbjct: 588 DAAVQCPICAETVHGSNDQ 606
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 4,097,329
+Number of extensions: 156185
+Number of successful extensions: 358
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 354
+Number of HSP's successfully gapped: 6
+Length of query: 626
+Length of database: 3,975,336
+Length adjustment: 98
+Effective length of query: 528
+Effective length of database: 3,321,382
+Effective search space: 1753689696
+Effective search space used: 1753689696
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

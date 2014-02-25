@@ -1,0 +1,134 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP88546 pep:novel supercontig:ASM14992v1:supercont2.53:582472:5...   530   0.0  
+EFP75965 pep:novel supercontig:ASM14992v1:supercont2.3:2298025:2...    30   2.1  
+
+>EFP88546 pep:novel supercontig:ASM14992v1:supercont2.53:582472:585674:1
+           gene:PGTG_14124 transcript:EFP88546 description:"poly(A)
+           polymerase"
+          Length = 671
+
+ Score =  530 bits (1366), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 271/558 (48%), Positives = 367/558 (65%), Gaps = 19/558 (3%)
+
+Query: 2   SSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQR 61
+           +  + +G+TG +S   AT  E +L  SL++ELK+   FE+ +E   R  VL  L  L ++
+Sbjct: 11  TPSRTYGVTGAISLQPATKPEQQLTVSLMEELKRRNIFESPEEARAREIVLGRLDVLVKQ 70
+
+Query: 62  FVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFD 121
+           FV  VS    MS+ +ARD+GGKIFT+GSYRLGVHGPG+DIDTL VVP+H+TRE FF V  
+Sbjct: 71  FVINVSISLGMSEAVARDSGGKIFTFGSYRLGVHGPGADIDTLCVVPRHITREHFFEVLP 130
+
+Query: 122 SLLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLD 181
+           ++L +R E+ E+A VP+AFVPIIK+KFS I +DL+ ARL  P +P SL L D  LL+NLD
+Sbjct: 131 AMLNDRPEVTELATVPEAFVPIIKLKFSSIEVDLLFARLALPSIPDSLELIDDALLKNLD 190
+
+Query: 182 EKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVA 241
+           ++ +R+L G+RVTDEIL LVP   VFR +LRAIKLWA+ RAVY+N+ GF GGVAWAM VA
+Sbjct: 191 DRCVRSLGGSRVTDEILRLVPDVTVFRDSLRAIKLWAKSRAVYSNVMGFCGGVAWAMCVA 250
+
+Query: 242 RICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPL--QVRVWNPKIYAQDRSHR 299
+           R+CQLYPN  +  I+NRFF +LS+WNWP PV+LKPI  GP   Q R+WNPKIY QDR HR
+Sbjct: 251 RVCQLYPNKPAGTIVNRFFAVLSQWNWPSPVLLKPIGPGPPGDQRRIWNPKIYPQDRGHR 310
+
+Query: 300 MPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYK 359
+           MP+ITPAYP MC+THNIT+ST ++++ EF RG+ +T++I +  K WA LF+K+DFF RY+
+Sbjct: 311 MPIITPAYPCMCSTHNITKSTAQIMMTEFKRGLAVTDEIATGTKPWAALFDKHDFFTRYR 370
+
+Query: 360 FYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTED 419
+           +YL+ITA +  ++ Q LKW+G VE+++R LVMK+E +  + +AHPF K FE      T D
+Sbjct: 371 YYLQITASSPNAEIQ-LKWAGTVEARLRQLVMKVEEVETVDLAHPFIKGFERESYYLTSD 429
+
+Query: 420 DYEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIE----NK 475
+           +   IQ           +    L   E KE          Y S+ +IGL    +      
+Sbjct: 430 EVRAIQ----VGDVPPDVKGRTLADIEGKEGSG-----AVYTSSFFIGLLVQPKPAGHTG 480
+
+Query: 476 KEKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKR 535
+             K+DI  P  EF  + + + E Y +  +  + +R++KG  LPD VFD  E+RPS     
+Sbjct: 481 PRKLDISYPVGEFTRMVKQW-EGYAEDSM-GIIVRYIKGAQLPDYVFD-GEQRPSASVPS 537
+
+Query: 536 KNLDARHETVKRSKSDAA 553
+                R +T K  ++ ++
+Sbjct: 538 SKAFKRTKTGKAKQATSS 555
+
+
+>EFP75965 pep:novel supercontig:ASM14992v1:supercont2.3:2298025:2301477:1
+           gene:PGTG_01296 transcript:EFP75965
+           description:"hypothetical protein"
+          Length = 876
+
+ Score = 30.0 bits (66), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 38/73 (52%), Gaps = 4/73 (5%)
+
+Query: 87  YGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFD--SLLRERKELDEIAPVPDAFVPII 144
+           +GS+   ++ P  DID +++  + +  +    ++    L+RE     ++  +  A VPII
+Sbjct: 116 FGSFGTKLYLPAGDIDLVIISTQMMNEQKSRILYKLAPLIRENNIGQDVVVIAKAKVPII 175
+
+Query: 145 KIK--FSGISIDL 155
+           K K  F  I++D+
+Sbjct: 176 KFKTIFGNINVDI 188
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 7,182,259
+Number of extensions: 319392
+Number of successful extensions: 898
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 895
+Number of HSP's successfully gapped: 5
+Length of query: 568
+Length of database: 6,308,381
+Length adjustment: 100
+Effective length of query: 468
+Effective length of database: 4,710,481
+Effective search space: 2204505108
+Effective search space used: 2204505108
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

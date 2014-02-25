@@ -1,0 +1,230 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM03080P0 pep:known supercontig:UM1:Cont_1.103:193367:194362:1 g...   573   0.0  
+UM04827P0 pep:known supercontig:UM1:Cont_1.175:149730:151223:-1 ...   425   e-147
+UM03957P0 pep:known supercontig:UM1:Cont_1.136:87693:89253:1 gen...   289   8e-96
+UM02445P0 pep:known supercontig:UM1:Cont_1.83:301788:302920:-1 g...   263   1e-85
+UM05193P0 pep:known supercontig:UM1:Cont_1.188:331911:332810:-1 ...   245   2e-79
+UM00936P0 pep:known supercontig:UM1:Cont_1.30:151053:152936:1 ge...   232   9e-71
+UM05285P0 pep:known supercontig:UM1:Cont_1.191:119630:121381:1 g...   155   6e-43
+UM01315P0 pep:known supercontig:UM1:Cont_1.46:138273:138891:1 ge...   117   7e-32
+UM01190P0 pep:known supercontig:UM1:Cont_1.42:89644:91812:-1 gen...    30   0.56 
+UM01732P0 pep:known supercontig:UM1:Cont_1.66:130645:132402:1 ge...    30   0.79 
+UM02249P0 pep:known supercontig:UM1:Cont_1.79:344321:346544:1 ge...    30   0.84 
+
+>UM03080P0 pep:known supercontig:UM1:Cont_1.103:193367:194362:1 gene:UM03080
+           transcript:UM03080T0
+           description:"Serine/threonine-protein phosphatase"
+          Length = 331
+
+ Score =  573 bits (1477), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 273/303 (90%), Positives = 286/303 (94%)
+
+Query: 6   VDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIH 65
+           VD+DN+IDRLLEVRGS+PG+ V LEE EI+YLC KAR IFI QPILLELEAPIKICGDIH
+Sbjct: 9   VDLDNVIDRLLEVRGSRPGKPVHLEEYEIKYLCLKARDIFINQPILLELEAPIKICGDIH 68
+
+Query: 66  GQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 125
+           GQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE
+Sbjct: 69  GQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 128
+
+Query: 126 CASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQI 185
+           CASINRIYGFYDECKRR+NIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDL SMEQI
+Sbjct: 129 CASINRIYGFYDECKRRFNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLQSMEQI 188
+
+Query: 186 RRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICR 245
+           RRVMRPTD+PD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+LICR
+Sbjct: 189 RRVMRPTDVPDTGLLCDLLWSDPDKDISGWSENDRGVSFTFGPDVVSRFLQKHDMDLICR 248
+
+Query: 246 AHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSLPRQ 305
+           AHQVVEDGYEFF+KRQLVTLFSAPNYCGEFDNAGAMMSVDE+LLCSFQILKPA+K     
+Sbjct: 249 AHQVVEDGYEFFAKRQLVTLFSAPNYCGEFDNAGAMMSVDETLLCSFQILKPAEKKQKYA 308
+
+Query: 306 AGG 308
+            GG
+Sbjct: 309 YGG 311
+
+
+>UM04827P0 pep:known supercontig:UM1:Cont_1.175:149730:151223:-1 gene:UM04827
+           transcript:UM04827T0
+           description:"Serine/threonine-protein phosphatase"
+          Length = 497
+
+ Score =  425 bits (1093), Expect = e-147,   Method: Compositional matrix adjust.
+ Identities = 194/306 (63%), Positives = 239/306 (78%)
+
+Query: 7   DVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHG 66
+           D+D++I RLLE   S    +  L+  EI  +C  AR IF+ QP L+EL  P+KI GD HG
+Sbjct: 174 DIDDMISRLLEAGYSGKIPKPALKNAEITAVCQAAREIFLSQPTLIELSPPVKIVGDTHG 233
+
+Query: 67  QYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHEC 126
+           QY+DLLRLFE  GFPP +NYLFLGDYVDRGKQSLETI LLL YKIKYPENFF+LRGNHEC
+Sbjct: 234 QYHDLLRLFEMCGFPPSANYLFLGDYVDRGKQSLETILLLLCYKIKYPENFFLLRGNHEC 293
+
+Query: 127 ASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIR 186
+           A++ R+YGFYDECKRR NIK+WKTF D FN LPIAA++  KIFC+HGGLSP L++M+ IR
+Sbjct: 294 ANVTRVYGFYDECKRRVNIKIWKTFIDVFNTLPIAAVVASKIFCVHGGLSPSLSNMDDIR 353
+
+Query: 187 RVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRA 246
+           R+ RPTD+PD GLL DLLWSDP    + W +N+RGVS+ FG  V+ +FL + D +LICRA
+Sbjct: 354 RIERPTDVPDYGLLNDLLWSDPSDTALDWEDNERGVSYCFGKAVIQQFLAQYDFDLICRA 413
+
+Query: 247 HQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSLPRQA 306
+           H VVEDGYEF+++R LVT+FSAPNYCGEFDN GA+MSV E LLC+F++LKP   +  ++ 
+Sbjct: 414 HMVVEDGYEFWNERTLVTIFSAPNYCGEFDNFGAVMSVSEDLLCAFELLKPLDGAALKKE 473
+
+Query: 307 GGRKKK 312
+             + K+
+Sbjct: 474 MAKNKR 479
+
+
+>UM03957P0 pep:known supercontig:UM1:Cont_1.136:87693:89253:1 gene:UM03957
+           transcript:UM03957T0
+           description:"Serine/threonine-protein phosphatase"
+          Length = 332
+
+ Score =  289 bits (739), Expect = 8e-96,   Method: Compositional matrix adjust.
+ Identities = 133/274 (48%), Positives = 188/274 (68%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L EN+I+ LC KAR I + +  +  +  P+ +CGDIHGQ++DL  LF  GG  P++NYLF
+Sbjct: 46  LSENDIKRLCDKAREILLGESNVQPVRCPVTVCGDIHGQFHDLSELFRIGGNSPDTNYLF 105
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A K++Y +   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 106 MGDYVDRGYYSVETVTLLVALKVRYRDRVTILRGNHESRQITQVYGFYDECLRKYGNANV 165
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+ LP+ A+ID++IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 166 WKYFTDLFDYLPLTALIDDQIFCLHGGLSPSIDTLDHIRSIDRIQEVPHEGPMCDLLWSD 225
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + L+ RAHQ+V DG+ +  +R +VT+FS
+Sbjct: 226 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLVARAHQLVMDGFNWSQERNVVTIFS 284
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE+L  +F    PA ++
+Sbjct: 285 APNYCYRCGNQAAIMEIDENLKYTFLQFDPAPRA 318
+
+
+>UM02445P0 pep:known supercontig:UM1:Cont_1.83:301788:302920:-1 gene:UM02445
+           transcript:UM02445T0
+           description:"Serine/threonine-protein phosphatase"
+          Length = 351
+
+ Score =  263 bits (672), Expect = 1e-85,   Method: Compositional matrix adjust.
+ Identities = 118/259 (45%), Positives = 173/259 (66%), Gaps = 2/259 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +I+ LC   R I +++  +  + +P+ +CGDIHGQ++DLL LF  GG PP+++Y+F
+Sbjct: 19  LPEPDIKALCEMVRGILMEESNIQPVSSPVTVCGDIHGQFWDLLELFRVGGEPPDTSYVF 78
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GD+VDRG  SLET  LL+A K ++P    +LRGNHE   I ++YGFYDEC+R+Y N  +
+Sbjct: 79  MGDFVDRGYFSLETFSLLMALKARHPSRITLLRGNHESRQITQVYGFYDECQRKYGNANV 138
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK+    F+ L +AAIID ++ C+HGGLSPD+ +++QIR + R  ++P  G  CDL+WSD
+Sbjct: 139 WKSCCQVFDYLNLAAIIDGRVLCVHGGLSPDVRTLDQIRIIARAQEVPHEGAFCDLMWSD 198
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD DI  W  + RG  + FG  V   F     + LI RAHQ+V++GY+      +VT++S
+Sbjct: 199 PD-DIDTWRVSPRGAGWLFGSAVTKEFNHVNGLSLIARAHQLVQEGYKLMHDNNIVTVWS 257
+
+Query: 268 APNYCGEFDNAGAMMSVDE 286
+           APNYC    N  ++ +VD+
+Sbjct: 258 APNYCYRCGNVASIFAVDD 276
+
+
+>UM05193P0 pep:known supercontig:UM1:Cont_1.188:331911:332810:-1 gene:UM05193
+           transcript:UM05193T0
+           description:"Serine/threonine-protein phosphatase"
+          Length = 299
+
+ Score =  245 bits (626), Expect = 2e-79,   Method: Compositional matrix adjust.
+ Identities = 108/252 (42%), Positives = 168/252 (66%), Gaps = 1/252 (0%)
+
+Query: 34  IRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYV 93
+           ++ +C K + I +++  ++ + AP+ + GDIHGQ+YDL+ +F  GG+ P +NYLFLGDYV
+Sbjct: 2   LKEICEKTKEILMRESNVVHISAPVTVVGDIHGQFYDLIEIFRIGGYAPHTNYLFLGDYV 61
+
+Query: 94  DRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKLWKTFT 152
+           DRG  S+ETI LL   K++YP+   ++RGNHE  ++ + YGFY EC+R+Y +  +W  FT
+Sbjct: 62  DRGLFSVETISLLTCLKLRYPDRVQLIRGNHESRAVTQTYGFYTECQRKYGSANVWTYFT 121
+
+Query: 153 DCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDI 212
+           D F+ L ++ +ID++IFC+HGGLSP +  ++Q++ + R  +IP  G + DL+WSDPD D 
+Sbjct: 122 DMFDFLTLSVVIDDQIFCVHGGLSPSVQYIDQVKIIDRFREIPHEGPMADLVWSDPDPDK 181
+
+Query: 213 VGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFSAPNYC 272
+             ++ + RG  +TFG  VV  FL +  M  I RAHQ+  +G+      +L T++SAPNYC
+Sbjct: 182 EEFAISPRGAGYTFGASVVKHFLHRNSMNHILRAHQLCMEGFSVLYDDRLSTVWSAPNYC 241
+
+Query: 273 GEFDNAGAMMSV 284
+               N  +++ V
+Sbjct: 242 YRCGNMASILEV 253
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 2,518,400
+Number of extensions: 104409
+Number of successful extensions: 190
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 180
+Number of HSP's successfully gapped: 13
+Length of query: 312
+Length of database: 3,993,690
+Length adjustment: 92
+Effective length of query: 220
+Effective length of database: 3,393,666
+Effective search space: 746606520
+Effective search space used: 746606520
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 52 (24.6 bits)

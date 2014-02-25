@@ -1,0 +1,167 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_01151T0 pep:novel supercontig:GCA_000166175.1:supercont1.6:...   151   6e-40
+MVLG_02567T0 pep:novel supercontig:GCA_000166175.1:supercont1.20...    40   6e-04
+MVLG_06530T0 pep:novel supercontig:GCA_000166175.1:supercont1.12...    33   0.088
+MVLG_06018T0 pep:novel supercontig:GCA_000166175.1:supercont1.95...    30   1.4  
+MVLG_06169T0 pep:novel supercontig:GCA_000166175.1:supercont1.10...    30   1.5  
+MVLG_02639T0 pep:novel supercontig:GCA_000166175.1:supercont1.21...    30   1.6  
+MVLG_03740T0 pep:novel supercontig:GCA_000166175.1:supercont1.37...    28   5.2  
+
+>MVLG_01151T0 pep:novel supercontig:GCA_000166175.1:supercont1.6:290085:293496:1
+           gene:MVLG_01151 transcript:MVLG_01151T0
+           description:"hypothetical protein"
+          Length = 720
+
+ Score =  151 bits (381), Expect = 6e-40,   Method: Compositional matrix adjust.
+ Identities = 73/186 (39%), Positives = 111/186 (59%), Gaps = 8/186 (4%)
+
+Query: 171 ENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETM 229
+           E   PPPPGY+CYRCG + HWI+ CPTN+D  ++ + +I+RTTGIPK FL+++E   ++ 
+Sbjct: 237 EQSKPPPPGYICYRCGQKGHWIQECPTNNDHAYDNRPKIKRTTGIPKSFLEAVEGPIDSA 296
+
+Query: 230 TPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLK 289
+           T E++    +M+T EG FVV   D+ SW  +      R I  + +     +      DL 
+Sbjct: 297 TAEDLKASGVMVTAEGGFVVARPDQASWLAH------RAITKNLSALDVQNLAPTDPDLT 350
+
+Query: 290 CPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKE 349
+           CP+   LLR+ V T  CC   F +E +ENAL ++D +CP CETR    + L PD ++ + 
+Sbjct: 351 CPIDSKLLREAVLT-PCCQTSFCRECVENALSDNDLLCPECETRIKSFEKLKPDSERRER 409
+
+Query: 350 VETFLK 355
+           V+ +++
+Sbjct: 410 VKKYIE 415
+
+
+
+ Score =  110 bits (275), Expect = 3e-26,   Method: Compositional matrix adjust.
+ Identities = 54/102 (52%), Positives = 71/102 (69%), Gaps = 3/102 (2%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS +FYRF+SQ+  SRI FDGTG++V+DLK+EII ENK+G G DF   IYN DTEEEY 
+Sbjct: 1   MSSHVFYRFRSQKEPSRIAFDGTGISVWDLKKEIIMENKMGRGADFDFAIYNADTEEEYH 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNAT 102
+           D   V+PRSTSV+ +R P  +        +G + +A +G A+
+Sbjct: 61  DHQ-VVPRSTSVLARRLPPARPG--RGNAQGYMISAEMGPAS 99
+
+
+>MVLG_02567T0 pep:novel supercontig:GCA_000166175.1:supercont1.20:138112:139809:1
+           gene:MVLG_02567 transcript:MVLG_02567T0
+           description:"hypothetical protein"
+          Length = 372
+
+ Score = 40.0 bits (92), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 44/86 (51%), Gaps = 5/86 (5%)
+
+Query: 287 DLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCP--NCETRDILLDSLVPDQ 344
+           D KCPLT  LL  PV ++KC +  +S+ A    + +    CP   C  +D+ ++ +  D 
+Sbjct: 263 DFKCPLTLTLLTDPVTSNKCPH-SYSRAAFVEFVAKGKQNCPVHGCPVKDMTMEHVHEDL 321
+
+Query: 345 DKEKEVETFLKK--QEELHGSSKDGN 368
+             ++ VE   ++  QE  +G +  GN
+Sbjct: 322 GLKRRVEAHKRRVEQERQNGGASMGN 347
+
+
+>MVLG_06530T0 pep:novel supercontig:GCA_000166175.1:supercont1.126:45122:47620:-1
+           gene:MVLG_06530 transcript:MVLG_06530T0
+           description:"hypothetical protein"
+          Length = 631
+
+ Score = 33.5 bits (75), Expect = 0.088,   Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (63%)
+
+Query: 175 PPPPGYMCYRCGGRDHWIKNCP 196
+           PPP  Y C  C  + HWI++CP
+Sbjct: 349 PPPEHYTCNICEQKGHWIQDCP 370
+
+
+>MVLG_06018T0 pep:novel supercontig:GCA_000166175.1:supercont1.95:39561:41828:1
+           gene:MVLG_06018 transcript:MVLG_06018T0
+           description:"hypothetical protein"
+          Length = 320
+
+ Score = 29.6 bits (65), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 13/31 (41%), Positives = 21/31 (67%), Gaps = 1/31 (3%)
+
+Query: 267 RQIDGDETIWR-KGHFKDLPDDLKCPLTGGL 296
+           ++IDG+ ++WR  G  KDLP+ +K    GG+
+Sbjct: 66  KEIDGERSVWRFVGPSKDLPNMMKHVRAGGV 96
+
+
+>MVLG_06169T0 pep:novel supercontig:GCA_000166175.1:supercont1.101:72495:74862:1
+           gene:MVLG_06169 transcript:MVLG_06169T0
+           description:"hypothetical protein"
+          Length = 579
+
+ Score = 29.6 bits (65), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 20/43 (46%), Gaps = 2/43 (4%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNC 330
+           L+CP+   L   PV  + CC+  F    L  +L E    CP C
+Sbjct: 41  LRCPICSELFVGPVILTTCCHT-FCSSCLRQSLSERR-KCPQC 81
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 3,709,246
+Number of extensions: 164444
+Number of successful extensions: 352
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 348
+Number of HSP's successfully gapped: 17
+Length of query: 441
+Length of database: 4,198,887
+Length adjustment: 95
+Effective length of query: 346
+Effective length of database: 3,456,082
+Effective search space: 1195804372
+Effective search space used: 1195804372
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 53 (25.0 bits)

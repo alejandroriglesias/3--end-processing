@@ -1,0 +1,239 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ73275 pep:novel chromosome:GCA_000230245.1:7:199949:201198:1 ...    86   2e-19
+CBQ71460 pep:novel chromosome:GCA_000230245.1:22:131819:133198:1...    59   3e-10
+CBQ68554 pep:novel chromosome:GCA_000230245.1:11:220167:221210:1...    50   1e-07
+CBQ67560 pep:novel chromosome:GCA_000230245.1:1:439098:441251:-1...    51   2e-07
+CBQ70144 pep:novel chromosome:GCA_000230245.1:19:297516:299648:-...    49   6e-07
+CBQ70737 pep:novel chromosome:GCA_000230245.1:2:1506809:1507828:...    47   3e-06
+CBQ70590 pep:novel chromosome:GCA_000230245.1:2:1111817:1113031:...    45   1e-05
+CBQ69109 pep:novel chromosome:GCA_000230245.1:13:523295:524113:-...    45   1e-05
+CBQ73395 pep:novel chromosome:GCA_000230245.1:7:550963:553122:1 ...    44   2e-05
+CBQ69675 pep:novel chromosome:GCA_000230245.1:17:44428:45534:1 g...    44   2e-05
+CBQ71145 pep:novel chromosome:GCA_000230245.1:20:816862:817584:-...    42   4e-05
+CBQ69821 pep:novel chromosome:GCA_000230245.1:17:442758:443638:-...    42   7e-05
+CBQ72928 pep:novel chromosome:GCA_000230245.1:6:149247:152753:-1...    42   8e-05
+CBQ73484 pep:novel chromosome:GCA_000230245.1:7:786622:788638:1 ...    42   1e-04
+CBQ71156 pep:novel chromosome:GCA_000230245.1:20:845509:846920:1...    40   2e-04
+CBQ71105 pep:novel chromosome:GCA_000230245.1:20:714250:717111:-...    41   2e-04
+CBQ71163 pep:novel chromosome:GCA_000230245.1:20:861034:863370:-...    40   3e-04
+CBQ72982 pep:novel chromosome:GCA_000230245.1:6:343978:344435:1 ...    39   3e-04
+CBQ71155 pep:novel chromosome:GCA_000230245.1:20:845509:846605:1...    40   3e-04
+CBQ68985 pep:novel chromosome:GCA_000230245.1:13:200064:200790:1...    39   4e-04
+CBQ69729 pep:novel chromosome:GCA_000230245.1:17:191159:192169:-...    39   5e-04
+CBQ68745 pep:novel chromosome:GCA_000230245.1:12:103600:104374:1...    39   8e-04
+CBQ68570 pep:novel chromosome:GCA_000230245.1:11:259357:260374:-...    39   0.001
+CBQ67927 pep:novel chromosome:GCA_000230245.1:1:1494649:1497768:...    39   0.001
+CBQ73896 pep:novel chromosome:GCA_000230245.1:9:273299:275251:1 ...    39   0.001
+CBQ68234 pep:novel chromosome:GCA_000230245.1:1:2397749:2398789:...    38   0.001
+CBQ67671 pep:novel chromosome:GCA_000230245.1:1:728244:732245:-1...    38   0.002
+CBQ71214 pep:novel chromosome:GCA_000230245.1:20:1018643:1020494...    37   0.004
+CBQ69217 pep:novel chromosome:GCA_000230245.1:14:308861:311014:-...    36   0.007
+CBQ70675 pep:novel chromosome:GCA_000230245.1:2:1353502:1354347:...    36   0.007
+CBQ69996 pep:novel chromosome:GCA_000230245.1:18:436383:437173:-...    35   0.007
+CBQ69540 pep:novel chromosome:GCA_000230245.1:16:152239:153058:-...    35   0.014
+CBQ68395 pep:novel chromosome:GCA_000230245.1:10:376047:378131:1...    35   0.017
+CBQ70682 pep:novel chromosome:GCA_000230245.1:2:1369377:1372283:...    34   0.031
+CBQ68844 pep:novel chromosome:GCA_000230245.1:12:377811:380048:-...    33   0.056
+CBQ73718 pep:novel chromosome:GCA_000230245.1:8:551305:553629:-1...    32   0.12 
+CBQ73632 pep:novel chromosome:GCA_000230245.1:8:290608:290997:-1...    31   0.13 
+CBQ71450 pep:novel chromosome:GCA_000230245.1:22:102114:103796:1...    32   0.19 
+CBQ69492 pep:novel chromosome:GCA_000230245.1:16:16401:17439:-1 ...    31   0.30 
+CBQ69793 pep:novel chromosome:GCA_000230245.1:17:372252:375317:-...    31   0.30 
+CBQ71213 pep:novel chromosome:GCA_000230245.1:20:1017086:1017913...    30   0.35 
+CBQ72943 pep:novel chromosome:GCA_000230245.1:6:192882:193937:-1...    30   0.45 
+CBQ68872 pep:novel chromosome:GCA_000230245.1:12:457102:458277:-...    30   0.50 
+CBQ73890 pep:novel chromosome:GCA_000230245.1:9:258670:260301:-1...    30   0.54 
+CBQ67655 pep:novel chromosome:GCA_000230245.1:1:691710:692999:-1...    30   0.67 
+CBQ71216 pep:novel chromosome:GCA_000230245.1:20:1025493:1027421...    30   0.73 
+CBQ68486 pep:novel chromosome:GCA_000230245.1:11:12190:14639:-1 ...    29   0.88 
+CBQ71368 pep:novel chromosome:GCA_000230245.1:21:300594:302341:1...    28   1.9  
+CBQ72373 pep:novel chromosome:GCA_000230245.1:4:278441:282724:1 ...    27   5.1  
+CBQ67989 pep:novel chromosome:GCA_000230245.1:1:1675957:1681056:...    27   6.2  
+
+>CBQ73275 pep:novel chromosome:GCA_000230245.1:7:199949:201198:1
+          gene:sr13935 transcript:CBQ73275 description:"related
+          to Cleavage stimulation factor"
+          Length = 391
+
+ Score = 85.5 bits (210), Expect = 2e-19,   Method: Compositional matrix adjust.
+ Identities = 38/78 (48%), Positives = 56/78 (71%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+          SRVV++G+IPYD +EEQ+ D+   VG V+  +++ D  TG+ KGY F EF D E++ASAV
+Sbjct: 8  SRVVFVGNIPYDMSEEQLTDVFREVGKVVGFRLVNDRDTGKFKGYGFCEFEDPETAASAV 67
+
+Query: 77 RNLNGYQLGSRFLKCGYS 94
+          RNLN  ++G R L+  ++
+Sbjct: 68 RNLNEVEVGGRPLRISFA 85
+
+
+>CBQ71460 pep:novel chromosome:GCA_000230245.1:22:131819:133198:1
+           gene:sr11309 transcript:CBQ71460 description:"related to
+           NSR1-nuclear localization sequence binding protein"
+          Length = 459
+
+ Score = 59.3 bits (142), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 25/84 (29%), Positives = 51/84 (60%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           Q + PS  +++G++ +D +E+ + +  S  G V  +++  DP +GR KG+ ++EF   ES
+Sbjct: 300 QRSAPSSTLFIGNLSFDISEDDVWNAFSEHGEVSGVRLPKDPDSGRPKGFGYVEFAAQES 359
+
+Query: 72  SASAVRNLNGYQLGSRFLKCGYSS 95
+           + +A+  + G +L  R L+  +S+
+Sbjct: 360 AQAALDAMTGQELAGRPLRLDFST 383
+
+
+
+ Score = 31.6 bits (70), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 14/76 (18%), Positives = 37/76 (48%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           V++G + ++   + +       G V + ++  D  TG+S+G+ +++F    ++  A    
+Sbjct: 209 VWVGQLSWNVDNDWLKSEMEVFGEVTSARVQLDRTTGKSRGFGYVDFATAAAAKKAFEEG 268
+
+Query: 80  NGYQLGSRFLKCGYSS 95
+            G ++  R ++   S+
+Sbjct: 269 QGKEVDGRAIRLDLST 284
+
+
+>CBQ68554 pep:novel chromosome:GCA_000230245.1:11:220167:221210:1
+           gene:sr14843 transcript:CBQ68554 description:"related to
+           NOP15-protein involved in 60S ribosomal subunit
+           biogenesis"
+          Length = 347
+
+ Score = 50.4 bits (119), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 25/81 (30%), Positives = 43/81 (53%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           V+Y+G +P    E+Q+    S  G V  L++  + +TG SK YAF+EF D + +A     
+Sbjct: 175 VLYIGRLPKGFFEKQLKAYFSQFGDVTRLRVSRNKKTGASKHYAFLEFADRDVAAIVQET 234
+
+Query: 79  LNGYQLGSRFLKCGYSSNSDI 99
+           ++ Y +  R L+  + S   +
+Sbjct: 235 MHNYLIDGRLLQVKHVSKDKV 255
+
+
+>CBQ67560 pep:novel chromosome:GCA_000230245.1:1:439098:441251:-1
+           gene:sr11510 transcript:CBQ67560 description:"related to
+           RNA-binding region containing protein 2"
+          Length = 659
+
+ Score = 50.8 bits (120), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 43/73 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+GS+ +  T+E +  +    G +  + +  +P TG+SKG+ FI+F+  E +  A+  +
+Sbjct: 411 LYVGSLHFSLTDENVKAVFEPFGEIEYVDLHREPGTGKSKGFCFIQFKYPEDAKKALEQM 470
+
+Query: 80  NGYQLGSRFLKCG 92
+           NG+ L  R ++ G
+Sbjct: 471 NGFVLAERAIRVG 483
+
+
+>CBQ70144 pep:novel chromosome:GCA_000230245.1:19:297516:299648:-1
+           gene:sr16349 transcript:CBQ70144 description:"related to
+           pre-mRNA splicing factor U2AF large chain"
+          Length = 710
+
+ Score = 48.9 bits (115), Expect = 6e-07,   Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 41/70 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +P   T++Q+++L    G +    ++ D  TG SKG+AF E+ D   +  A + L
+Sbjct: 450 IFVGGLPTYLTDDQVIELLQAFGELRAFNLVKDTGTGASKGFAFCEYVDTALTDLACQGL 509
+
+Query: 80  NGYQLGSRFL 89
+           NG +LG R L
+Sbjct: 510 NGMELGDRNL 519
+
+
+
+ Score = 32.0 bits (71), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 20/70 (28%), Positives = 36/70 (51%), Gaps = 9/70 (12%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDP-------QTGRSKGYAFIEF 66
+           N  +R +Y+G+I +   E  I+   +    ++ LK+  +P       Q    KGYAF+EF
+Sbjct: 335 NRQARRLYVGNITHQTNEHNIVAFFNEQ--MLKLKLGTEPGEPAVSAQVNVDKGYAFVEF 392
+
+Query: 67  RDLESSASAV 76
+           R  + + +A+
+Sbjct: 393 RHPDEATNAM 402
+
+
+
+ Score = 28.5 bits (62), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 11/39 (28%), Positives = 19/39 (48%)
+
+Query: 60  GYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSD 98
+           G  ++ + + E  A A+R + G Q G R + C +    D
+Sbjct: 647 GRVYVRYGETEHCAQALRAIAGRQFGGRTVICAFLKEDD 685
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 1,796,446
+Number of extensions: 56713
+Number of successful extensions: 209
+Number of sequences better than 10.0: 56
+Number of HSP's gapped: 204
+Number of HSP's successfully gapped: 73
+Length of query: 296
+Length of database: 3,975,336
+Length adjustment: 92
+Effective length of query: 204
+Effective length of database: 3,361,420
+Effective search space: 685729680
+Effective search space used: 685729680
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

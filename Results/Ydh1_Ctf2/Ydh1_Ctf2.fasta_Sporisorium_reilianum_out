@@ -1,0 +1,113 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ73226 pep:novel chromosome:GCA_000230245.1:7:68955:72074:1 ge...    89   2e-18
+CBQ72899 pep:novel chromosome:GCA_000230245.1:6:82261:83790:-1 g...    30   2.1  
+
+>CBQ73226 pep:novel chromosome:GCA_000230245.1:7:68955:72074:1 gene:sr13886
+           transcript:CBQ73226 description:"conserved hypothetical
+           protein"
+          Length = 1039
+
+ Score = 89.0 bits (219), Expect = 2e-18,   Method: Compositional matrix adjust.
+ Identities = 67/280 (23%), Positives = 130/280 (46%), Gaps = 41/280 (14%)
+
+Query: 49  KVIPEIDVIILSQPTIECLGAHSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASA 108
+           ++ P ID+++LS  +++ LG    LY    +    R QVYAT+PV ++G+++ +++  + 
+Sbjct: 131 QLAPTIDLVLLSHSSLDHLG----LYAYAHAKLGLRCQVYATMPVQSMGKLTVLEAIQTW 186
+
+Query: 109 GVIGPYDTNKLDLE----------------DIEISFDHIVPLKYSQLVDLRSRYDGLTLL 152
+                   +++D+E                 +E +F+ I  ++Y Q   L  +   LTL 
+Sbjct: 187 -------RSEVDIEREAPSGLARRCLATPDQVEEAFEQIKTVRYMQPTHLEGKCASLTLT 239
+
+Query: 153 AYNAGVCPGGSIWCI-STYSEKLVYAKRWNHTRDNILNAASILDATGKPLS--------- 202
+           AYNAG   GG++W I S  S  +V A  WNH R+  L+   +L ++              
+Sbjct: 240 AYNAGHSLGGAVWKIRSPTSGTVVIALDWNHNRERHLDGTILLSSSAAAPGAPGAASGAD 299
+
+Query: 203 TLMRPSAIITTLDR-FGSSQPFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDLFTQV 261
+            + RP  +IT ++R    +   K R     D +   + +  S++ P+D S + L+L   +
+Sbjct: 300 AVRRPDLLITEIERGLVVNTRRKDRDAALIDLVHTTIQAGHSLLFPIDASARLLELMVLL 359
+
+Query: 262 HELLFESTKINAHTQVPVLILSYARGRTLTYAKSMLEWLS 301
+            +          H + P+ ++S      +  +++ +EW++
+Sbjct: 360 DQ---HWAYAYPHARFPLCLISRTGKEVIERSRTYMEWMT 396
+
+
+>CBQ72899 pep:novel chromosome:GCA_000230245.1:6:82261:83790:-1 gene:sr10991
+           transcript:CBQ72899 description:"related to nucleotide
+           diphosphatase"
+          Length = 509
+
+ Score = 30.0 bits (66), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 25/87 (28%), Positives = 40/87 (45%), Gaps = 8/87 (9%)
+
+Query: 165 WCISTYSEKL-----VYAKRWNHTRDNILNAASILDATG---KPLSTLMRPSAIITTLDR 216
+           W I+T++E       VYA R NH  DN  +  +I  A+G    P+S+          +D 
+Sbjct: 411 WSITTHAEMAGFSDGVYAPRGNHGYDNEEDMHAIFVASGPSFAPVSSAEGSKGKAWNMDG 470
+
+Query: 217 FGSSQPFKKRSKIFKDTLKKGLSSDGS 243
+           FG+ +     S+I      K  S++G+
+Sbjct: 471 FGNIEVHNLVSRILGVRESKRASTNGT 497
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 5,988,563
+Number of extensions: 237864
+Number of successful extensions: 594
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 591
+Number of HSP's successfully gapped: 8
+Length of query: 859
+Length of database: 3,975,336
+Length adjustment: 101
+Effective length of query: 758
+Effective length of database: 3,301,363
+Effective search space: 2502433154
+Effective search space used: 2502433154
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

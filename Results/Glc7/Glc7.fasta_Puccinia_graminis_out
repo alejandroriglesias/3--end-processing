@@ -1,0 +1,226 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP76909 pep:novel supercontig:ASM14992v1:supercont2.5:1429132:1...   573   0.0  
+EFP86224 pep:novel supercontig:ASM14992v1:supercont2.38:236631:2...   382   e-130
+EFP82686 pep:novel supercontig:ASM14992v1:supercont2.22:577805:5...   286   6e-95
+EFP91300 pep:novel supercontig:ASM14992v1:supercont2.83:227590:2...   269   3e-88
+EFP84417 pep:novel supercontig:ASM14992v1:supercont2.29:554294:5...   245   2e-78
+EFP89050 pep:novel supercontig:ASM14992v1:supercont2.58:108572:1...   231   1e-69
+EFP74060 pep:novel supercontig:ASM14992v1:supercont2.1:45595:489...   154   3e-42
+EFP79723 pep:novel supercontig:ASM14992v1:supercont2.12:1159421:...    37   0.010
+EFP79966 pep:novel supercontig:ASM14992v1:supercont2.13:648527:6...    27   5.8  
+
+>EFP76909 pep:novel supercontig:ASM14992v1:supercont2.5:1429132:1431967:1
+           gene:PGTG_02370 transcript:EFP76909
+           description:"serine/threonine-protein phosphatase PP1"
+          Length = 332
+
+ Score =  573 bits (1476), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 270/306 (88%), Positives = 288/306 (94%)
+
+Query: 3   SQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICG 62
+            Q +D+D++IDRLLEVRG++PG+QV L+E EI++LC++AR IFI QPILLELEAPIKICG
+Sbjct: 6   GQDIDLDSVIDRLLEVRGNRPGKQVQLQEYEIKFLCTRAREIFINQPILLELEAPIKICG 65
+
+Query: 63  DIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 122
+           DIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG
+Sbjct: 66  DIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 125
+
+Query: 123 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSM 182
+           NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDL SM
+Sbjct: 126 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLQSM 185
+
+Query: 183 EQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMEL 242
+           EQIRRVMRPTD+PD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV RFLQK DM+L
+Sbjct: 186 EQIRRVMRPTDVPDTGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVTRFLQKHDMDL 245
+
+Query: 243 ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSL 302
+           ICRAHQVVEDGYEFF+KRQLVTLFSAPNYCGEFDNAGAMMSVDE+LLCSFQILKPA+K  
+Sbjct: 246 ICRAHQVVEDGYEFFAKRQLVTLFSAPNYCGEFDNAGAMMSVDETLLCSFQILKPAEKKQ 305
+
+Query: 303 PRQAGG 308
+               GG
+Sbjct: 306 KFMYGG 311
+
+
+>EFP86224 pep:novel supercontig:ASM14992v1:supercont2.38:236631:238141:-1
+           gene:PGTG_12180 transcript:EFP86224 description:"protein
+           phosphatase"
+          Length = 460
+
+ Score =  382 bits (981), Expect = e-130,   Method: Compositional matrix adjust.
+ Identities = 175/271 (64%), Positives = 214/271 (78%), Gaps = 1/271 (0%)
+
+Query: 4   QPVDVDNIIDRLLEV-RGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICG 62
+           Q  D+D II+RLL+V   +K  + V L+ +EI  +   AR + + QP L+EL  P+KI G
+Sbjct: 186 QAFDIDEIINRLLDVGYSTKITKSVCLKNSEITAISLAAREVLLSQPTLIELSPPVKIVG 245
+
+Query: 63  DIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 122
+           D+HGQY DL+RLFE  GFPP +NYLFLGDYVDRGKQSLETI LLL YKIKYPENFF+LRG
+Sbjct: 246 DVHGQYSDLIRLFEMCGFPPMANYLFLGDYVDRGKQSLETILLLLCYKIKYPENFFLLRG 305
+
+Query: 123 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSM 182
+           NHECA++ R+YGFYDECKRR NIK+WKTF D FNCLPI+A++  KIFC+HGGLSP L++M
+Sbjct: 306 NHECANVTRVYGFYDECKRRCNIKIWKTFIDVFNCLPISAVVASKIFCVHGGLSPSLSTM 365
+
+Query: 183 EQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMEL 242
+           + IRR+ RPTD+PD GLL DLLWSDP      W +N+RGVS+ FG  V+  FL + D +L
+Sbjct: 366 DDIRRIQRPTDVPDFGLLNDLLWSDPSDTATDWEDNERGVSYCFGKSVIAEFLARYDFDL 425
+
+Query: 243 ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCG 273
+           ICRAH VVEDGYEF+++R LVT+FSAPNYCG
+Sbjct: 426 ICRAHMVVEDGYEFWNERTLVTIFSAPNYCG 456
+
+
+>EFP82686 pep:novel supercontig:ASM14992v1:supercont2.22:577805:579769:1
+           gene:PGTG_08882 transcript:EFP82686
+           description:"serine/threonine-protein phosphatase PP2A
+           catalytic subunit"
+          Length = 305
+
+ Score =  286 bits (732), Expect = 6e-95,   Method: Compositional matrix adjust.
+ Identities = 130/274 (47%), Positives = 189/274 (68%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +++ LC KAR I +++  +  +  P+ +CGDIHGQ++DL  LF  GG  P++NYLF
+Sbjct: 19  LTEADVKRLCEKAREILMEESNVQPVRCPVTVCGDIHGQFHDLSELFRIGGNAPDTNYLF 78
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A K++Y +   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 79  MGDYVDRGYYSVETVTLLVALKVRYRDRVTILRGNHESRQITQVYGFYDECLRKYGNANV 138
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK+FT+ F+ LP+ A+IDE+IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 139 WKSFTELFDYLPLTALIDEQIFCLHGGLSPSIDTLDHIRSIDRIQEVPHEGPMCDLLWSD 198
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+ + F     + L+ RAHQ+V +GY +  +R +VT+FS
+Sbjct: 199 PD-DRCGWGISPRGAGYTFGQDISDAFNHNNGLTLVARAHQLVMEGYNWSHERNVVTIFS 257
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE+   +F    PA ++
+Sbjct: 258 APNYCYRCGNQAAIMEIDENNKFTFLQFDPAPRA 291
+
+
+>EFP91300 pep:novel supercontig:ASM14992v1:supercont2.83:227590:229511:1
+           gene:PGTG_17157 transcript:EFP91300
+           description:"serine/threonine-protein phosphatase 4
+           catalytic subunit"
+          Length = 310
+
+ Score =  269 bits (688), Expect = 3e-88,   Method: Compositional matrix adjust.
+ Identities = 125/296 (42%), Positives = 197/296 (66%), Gaps = 10/296 (3%)
+
+Query: 17  EVRGSKPGQQVD-------LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYY 69
+           E  GS   QQ++       + E++++ LC KAR I +++  +  +++P+ ICGDIHGQ+ 
+Sbjct: 4   ESGGSDLDQQIEKLKRCEIISESQVKELCLKAREILVEESNVQWIDSPVTICGDIHGQFM 63
+
+Query: 70  DLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASI 129
+           DL  LF  GG+ P++NYLF+GD+VDRG  S+ET  LLLA+K++YP+   ++RGNHE   I
+Sbjct: 64  DLKELFRVGGWCPDTNYLFMGDFVDRGFYSVETFLLLLAFKVRYPDRITLIRGNHESRQI 123
+
+Query: 130 NRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRV 188
+            ++YGFYDEC R+Y +  +W+   + F+ L + A++D ++FC+HGGLSP+++ ++ I+ +
+Sbjct: 124 TQVYGFYDECMRKYGSTSVWRYCCEVFDYLSLGALVDGRVFCVHGGLSPNVHRIDSIKLI 183
+
+Query: 189 MRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQ 248
+            R  ++P  G +CDLLWSDPD DI GW  + RG  + FG D+   F  + D++LI RAHQ
+Sbjct: 184 DRKQEVPHDGPMCDLLWSDPD-DIEGWGLSPRGAGYLFGGDIAKAFSHENDLDLIARAHQ 242
+
+Query: 249 VVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSLPR 304
+           +V +GY+      +VT++SAPNYC    N  +++ +DE L   +Q+ + A +  PR
+Sbjct: 243 LVMEGYKLMFDDSIVTVWSAPNYCYRCGNVASILQLDEHLHSVYQVFEAAPQD-PR 297
+
+
+>EFP84417 pep:novel supercontig:ASM14992v1:supercont2.29:554294:556555:-1
+           gene:PGTG_10137 transcript:EFP84417 description:"protein
+           phosphatase"
+          Length = 337
+
+ Score =  245 bits (625), Expect = 2e-78,   Method: Compositional matrix adjust.
+ Identities = 113/274 (41%), Positives = 177/274 (64%), Gaps = 1/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E  I+ +C K + + +++  ++ + AP+ + GDIHGQ+YDL+ +F  GGF P++NYLF
+Sbjct: 18  LVEALIKEICEKTKELLMRESNVVHISAPVTVVGDIHGQFYDLIEIFRIGGFCPDTNYLF 77
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           LGDYVDRG  S+ETI LL   K++YP+   ++RGNHE  ++ + YGFY EC R+Y +  +
+Sbjct: 78  LGDYVDRGLFSVETISLLTCLKLRYPDRVQLIRGNHESRAVTQTYGFYAECVRKYGSPSV 137
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           W  FTD F+ L ++ +I+++IFC+HGGLSP ++ ++QI+ + R  +IP  G + DL+WSD
+Sbjct: 138 WTYFTDMFDFLTLSVVIEDRIFCVHGGLSPSIHCIDQIKVIDRFREIPHEGPMADLVWSD 197
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D   ++ + RG  +TFG  VV +FL   DM  I RAHQ+  +G+      +L T++S
+Sbjct: 198 PDPDKEDFAISPRGAGYTFGAQVVKKFLTINDMHHILRAHQLCMEGFSVLYDDRLSTVWS 257
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  +++ +       F +   A ++
+Sbjct: 258 APNYCYRCGNMASILEIGPDGHKHFNVFDAAPEN 291
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 4,299,140
+Number of extensions: 185941
+Number of successful extensions: 291
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 280
+Number of HSP's successfully gapped: 9
+Length of query: 312
+Length of database: 6,308,381
+Length adjustment: 95
+Effective length of query: 217
+Effective length of database: 4,790,376
+Effective search space: 1039511592
+Effective search space used: 1039511592
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 53 (25.0 bits)

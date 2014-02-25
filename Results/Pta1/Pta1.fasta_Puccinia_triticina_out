@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_06716P0 pep:novel supercontig:ASM15152v1:GG705493:95628:100...    59   3e-09
+PTTG_02470P0 pep:novel supercontig:ASM15152v1:GG705418:1064758:1...    30   1.9  
+PTTG_09186P0 pep:novel supercontig:ASM15152v1:GG705661:26015:266...    27   8.9  
+
+>PTTG_06716P0 pep:novel supercontig:ASM15152v1:GG705493:95628:100425:1
+           gene:PTTG_06716 transcript:PTTG_06716T0
+           description:"Uncharacterized protein"
+          Length = 1236
+
+ Score = 59.3 bits (142), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 70/166 (42%), Gaps = 36/166 (21%)
+
+Query: 626 WLHVLIRLVTRGIEAQEASDL---------IREELLGFFIQDFEQRVSLIIEWLNEEWFF 676
+           W  +L RLVTRG+     S +         IR+ L  F I DF  R      WL EEW  
+Sbjct: 435 WSMLLSRLVTRGMSGSGDSTVEEIEMRKEDIRQSLFQFVIADFSNRA-----WLMEEWLA 489
+
+Query: 677 QTSLHQDPSN------------YKKWSLRVLESL-------GPFLENKHRRFFIRLMSEL 717
+           + +   DP+             Y++W    L+ +        P   +  R      + +L
+Sbjct: 490 KPT---DPNQFDHPTDLISATPYERWLTMTLDYIVNNVPPSNPVQSDSTRPVLSAFLLDL 546
+
+Query: 718 PSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLL 763
+           P +    L  L+ +C DP + ++GF TL+ L   RP +++   D+L
+Sbjct: 547 PYVSERELMRLQQMCQDPNKLTVGFTTLRDLTATRPTLRNRTLDVL 592
+
+
+>PTTG_02470P0 pep:novel supercontig:ASM15152v1:GG705418:1064758:1068814:1
+            gene:PTTG_02470 transcript:PTTG_02470T0
+            description:"Uncharacterized protein"
+          Length = 1208
+
+ Score = 30.4 bits (67), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 15/59 (25%), Positives = 33/59 (55%), Gaps = 6/59 (10%)
+
+Query: 643  ASDLIREELLG---FFIQDFEQRVSLIIEWLNEEWFFQTSLHQDPSNYKKWSLRVLESL 698
+            A D ++E+++G   + + D EQ+V  ++ WLN +   + +L    +N K+W   +++  
+Sbjct: 1104 AEDELKEQIVGVDEWAVYDTEQQVDELVGWLNGKGVRENALK---ANLKEWKEYIVDGF 1159
+
+
+>PTTG_09186P0 pep:novel supercontig:ASM15152v1:GG705661:26015:26639:1
+           gene:PTTG_09186 transcript:PTTG_09186T0
+           description:"Uncharacterized protein"
+          Length = 122
+
+ Score = 26.9 bits (58), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 10/18 (55%), Positives = 14/18 (77%)
+
+Query: 127 MLKKFVLSHWRTAYPLRA 144
+           +L KFVL HW+ AY ++A
+Sbjct: 54  LLAKFVLKHWKHAYEVQA 71
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 5,917,126
+Number of extensions: 224325
+Number of successful extensions: 741
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 738
+Number of HSP's successfully gapped: 12
+Length of query: 785
+Length of database: 4,657,481
+Length adjustment: 100
+Effective length of query: 685
+Effective length of database: 3,493,681
+Effective search space: 2393171485
+Effective search space used: 2393171485
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

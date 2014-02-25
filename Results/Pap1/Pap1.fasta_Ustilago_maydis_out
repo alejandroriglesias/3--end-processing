@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM05991P0 pep:known supercontig:UM1:Cont_1.224:35061:37159:-1 ge...   542   0.0  
+UM05013P0 pep:known supercontig:UM1:Cont_1.185:70674:74198:-1 ge...    36   0.030
+UM03989P0 pep:known supercontig:UM1:Cont_1.139:16743:18605:1 gen...    28   4.6  
+
+>UM05991P0 pep:known supercontig:UM1:Cont_1.224:35061:37159:-1 gene:UM05991
+           transcript:UM05991T0 description:"hypothetical protein"
+          Length = 667
+
+ Score =  542 bits (1397), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 285/585 (48%), Positives = 373/585 (63%), Gaps = 30/585 (5%)
+
+Query: 7   FGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQRFVYEV 66
+            G+T P++T G T+ E ++  +L+ EL+K+G FE+++E+  R  +L  L  + + FVY V
+Sbjct: 20  LGVTPPIATNGPTSREIEVTKTLVAELEKQGVFESDEESKIREVILGKLDAMVKDFVYRV 79
+
+Query: 67  SKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRE 126
+           S    MS+ +AR AGGKIFT+GSYRLGVHGPGSDIDTL VVPKHV REDFF+VF+S+L+E
+Sbjct: 80  SISHGMSETLARSAGGKIFTFGSYRLGVHGPGSDIDTLCVVPKHVQREDFFSVFESMLKE 139
+
+Query: 127 RKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLR 186
+           R+E+ E+A VP A VP+I  KF G+ ID   ARL  P+V  +L+L D NLLRNLDE+D+R
+Sbjct: 140 REEVTEVAGVPTAHVPLIAAKFMGVDIDFTFARLALPRVEDNLSLEDDNLLRNLDERDVR 199
+
+Query: 187 ALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQL 246
+           +L G+RVTD IL LVP  +VFR+ALR IKLWAQRRA+Y+N+ GF GGVAWAML ARICQL
+Sbjct: 200 SLGGSRVTDGILRLVPNIHVFRMALRCIKLWAQRRAIYSNVMGFLGGVAWAMLTARICQL 259
+
+Query: 247 YPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRMPVITPA 306
+           YPN  +  I++RFFIIL +W WPQPV+L  IEDGPL VRVWNPK+Y  DR HRMP+ITPA
+Sbjct: 260 YPNEAAGAIVSRFFIILYQWKWPQPVLLTQIEDGPLSVRVWNPKLYPSDRLHRMPIITPA 319
+
+Query: 307 YPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKFYLEITA 366
+           YP MCATHN+++ST+ V+  EF R  ++ + +   K +W  LF K+DFFF+YK+YL++ A
+Sbjct: 320 YPGMCATHNVSQSTQMVMTSEFKRAAEVVDRVIIGKTNWDELFAKHDFFFKYKYYLQVIA 379
+
+Query: 367 YTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDDYEMIQD 426
+            + GS +  LKW G VESK+R LVMKLE++  I  AHPF K F+    C   +D+E+   
+Sbjct: 380 -SSGSADLQLKWHGTVESKIRQLVMKLELVPTITCAHPFIKGFDQVSEC--WNDHEVRLV 436
+
+Query: 427 KYGSHKTETALNALKLV----TD---------ENKEEESIKDAPKAYLSTMYIGLDFNIE 473
+             G    E A    K+     TD           +  E  +     Y +T YIGL    +
+Sbjct: 437 ATGDIPEEVAQRTQKVAALPETDEAKQAAAEEAARVTEGKEGHRMIYTTTFYIGLSIEPK 496
+
+Query: 474 NKKE---KVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPS 530
+              E   K+DI  P  EF    + + E Y D     + +R +K   LP  VF+  E R S
+Sbjct: 497 LAGEGPRKLDISYPTAEFTGKVKQW-EQY-DEASMGIVVRHIKWTQLPGYVFEGGENRVS 554
+
+Query: 531 KK--SKRKNLDARHETVKRSKSDA-------ASGDNINGTTAAVD 566
+               SK     A+    K++ SDA       A+    NGT A  D
+Sbjct: 555 AAAVSKVNGKRAKSGNKKKNGSDATTSVGAQAATGQTNGTYADSD 599
+
+
+>UM05013P0 pep:known supercontig:UM1:Cont_1.185:70674:74198:-1 gene:UM05013
+           transcript:UM05013T0 description:"hypothetical protein"
+          Length = 1174
+
+ Score = 35.8 bits (81), Expect = 0.030,   Method: Compositional matrix adjust.
+ Identities = 38/172 (22%), Positives = 65/172 (37%), Gaps = 37/172 (21%)
+
+Query: 81  GGKIFTYGSYRLGVHGPGSDIDTLVVV---------PKHVTREDFFTVFDSLLRERKELD 131
+           G K+  +GS   G     SD+D   ++         P+H   E    +   L+RE  +  
+Sbjct: 390 GAKLLAFGSMANGFALRNSDMDLCCLMGKRDDAQPTPQHTASE-LVEILGQLIREETDFT 448
+
+Query: 132 EIAPVPDAFVPIIKIKFS---GISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLRAL 188
+            + P+P A +PIIKI  S    +  ++ C               D      L  ++ R L
+Sbjct: 449 -VMPLPKARIPIIKISRSPTADLPYEIAC---------------DIGFENRLALENTRLL 492
+
+Query: 189 NGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLV 240
+               + D        P   R  +  +K+WA+RR + +   G      + ++V
+Sbjct: 493 LSYAMVD--------PQRLRTLVLFLKVWAKRRKLNSPYMGTLSSYGYTLMV 536
+
+
+>UM03989P0 pep:known supercontig:UM1:Cont_1.139:16743:18605:1 gene:UM03989
+           transcript:UM03989T0 description:"hypothetical protein"
+          Length = 620
+
+ Score = 28.5 bits (62), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 35/68 (51%), Gaps = 2/68 (2%)
+
+Query: 13  VSTVGATAAENKLNDSLIQELKKEG--SFETEQETANRVQVLKILQELAQRFVYEVSKKK 70
+           +S+    +A N  +DS  +  KK G  S E E+E ANR +  KI++ +       +  + 
+Sbjct: 83  LSSTALPSAYNPSHDSPYRSAKKRGANSIEMEKEEANRQRREKIMRLMQHGHKSVLPPQV 142
+
+Query: 71  NMSDGMAR 78
+            M++ +AR
+Sbjct: 143 GMANSLAR 150
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 4,241,661
+Number of extensions: 178053
+Number of successful extensions: 489
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 487
+Number of HSP's successfully gapped: 8
+Length of query: 568
+Length of database: 3,993,690
+Length adjustment: 97
+Effective length of query: 471
+Effective length of database: 3,361,056
+Effective search space: 1583057376
+Effective search space used: 1583057376
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

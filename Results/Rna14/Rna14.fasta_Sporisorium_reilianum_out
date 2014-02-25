@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ72595 pep:novel chromosome:GCA_000230245.1:5:79890:82676:-1 g...   223   2e-62
+CBQ70681 pep:novel chromosome:GCA_000230245.1:2:1365511:1367487:...    35   0.045
+CBQ73060 pep:novel chromosome:GCA_000230245.1:6:556504:558837:1 ...    32   0.64 
+CBQ72763 pep:novel chromosome:GCA_000230245.1:5:486541:487509:-1...    30   2.1  
+CBQ71009 pep:novel chromosome:GCA_000230245.1:20:476316:479126:-...    29   3.1  
+CBQ71511 pep:novel chromosome:GCA_000230245.1:22:275622:276278:1...    28   3.9  
+CBQ71345 pep:novel chromosome:GCA_000230245.1:21:244122:247256:1...    28   5.6  
+CBQ71419 pep:novel chromosome:GCA_000230245.1:22:9260:12955:-1 g...    28   7.3  
+
+>CBQ72595 pep:novel chromosome:GCA_000230245.1:5:79890:82676:-1 gene:sr13275
+           transcript:CBQ72595 description:"related to
+           RNA14-component of pre-mRNA 3`-end processing factor CF
+           I"
+          Length = 928
+
+ Score =  223 bits (567), Expect = 2e-62,   Method: Compositional matrix adjust.
+ Identities = 169/611 (27%), Positives = 277/611 (45%), Gaps = 76/611 (12%)
+
+Query: 33  ERIKDNPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELARDEF 92
+           ERI+  P +  ++  LI+  +++E     R +Y++F   +P  +  W   L  ELA   F
+Sbjct: 175 ERIRIEPRDGEAWLALIEEAQSREDMQATRALYDRFFKVYPNQARQWLAYLDLELAHSNF 234
+
+Query: 93  ETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLI--TGGQE------ARAVIVKAFQ 144
+             VE I  QCL        + LW  YL Y RR N L   TG +E      AR V+  A++
+Sbjct: 235 AQVEAIFNQCLR---TTPSVELWKFYLSYTRRVNPLPPPTGAEEDAPREQARRVLEGAYE 291
+
+Query: 145 LVMQKCAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQQRIDMLREFYKKMLCVPFDNLEKM 204
+             ++     +  S S W +Y+  +++ +    W+E Q++D LR  Y++ + VP  N+E +
+Sbjct: 292 FALRFIGS-DKDSGSIWTDYILLIKEREARGGWKEGQKMDDLRRVYQRAVSVPLANIEAI 350
+
+Query: 205 WNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNI 264
+           W  Y  +E  +N LTA+KF+ E S  YM AR + ++    T+ L  A P+  R     + 
+Sbjct: 351 WKDYDAYENGLNKLTAKKFLAERSPAYMTARRVLRDLKAYTDHL--AKPLLPRVPVWTSS 408
+
+Query: 265 PQPGTSDSNI-------QQLQIWLNWIKWERENKLMLSE-DMLSQRISYVYKQGIQYMIF 316
+             PG +  +        QQ++ W  ++KWE  N L+L +   L  R++  Y++   Y+ F
+Sbjct: 409 ALPGDAGQDPAQWQRERQQVEAWTEYLKWEESNPLLLEDAAALQARVTSAYRKATMYLRF 468
+
+Query: 317 SAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECY-ELDNDSESVSNC---F 372
+             E+WY  S Y+   S R +   T L    ++ + +F L   Y EL    +S ++C   F
+Sbjct: 469 YPELWYLASRYLVSAS-RADEAATWLKNGIEACTGSFLLHFAYVELGEARKSTADCAGIF 527
+
+Query: 373 DKCTQTLLSQY----KKIASDVNS---------------------------GEDNNTEY- 400
+           D     + +Q      ++  D+ S                           GE+   E  
+Sbjct: 528 DSLLNHVHAQIDARQARLQHDLKSVDTEAEMAKAQAAARRANEGDGDVDVDGEERERERK 587
+
+Query: 401 --EQELLYKQ-------------REKLTFVFCVYMNTMKRISGLSAARTVFGKCRKLKRI 445
+             EQ    KQ             +E    V+  YM+ ++R  G+  AR VF + RK    
+Sbjct: 588 AGEQVQARKQALQAAATPEIEGLKEASALVWIKYMHFLRRTEGIRPARGVFSRARKSAHC 647
+
+Query: 446 LTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTL 505
+            T  V+  +A +E+    D   A KV EL LK F +D  ++ +YLDFLI +N DS  + L
+Sbjct: 648 -TWQVFEASALMEYHCSKDAVVATKVFELALKTFGHDEAFVVRYLDFLISMNDDSNARAL 706
+
+Query: 506 FETSVEKVQDLTQLKEIYKKMISYESKFGNLNNVYSLEKRFFERFPQENLIEVFTSRYQI 565
+           FE  +       + + I+ +   YE  FG+   ++ +E R  + +P E   + F +R   
+Sbjct: 707 FERVIGTFSP-ERARPIWDRWARYEYNFGDSVAMHKIETRLAKTYPDEPATKRFIARSSY 765
+
+Query: 566 QNSNLIKKLEL 576
+            + +L+   +L
+Sbjct: 766 MDLDLVGPRDL 776
+
+
+>CBQ70681 pep:novel chromosome:GCA_000230245.1:2:1365511:1367487:-1
+           gene:sr10389 transcript:CBQ70681 description:"probable
+           aminopeptidase P, cytoplasmic"
+          Length = 658
+
+ Score = 35.0 bits (79), Expect = 0.045,   Method: Compositional matrix adjust.
+ Identities = 23/99 (23%), Positives = 43/99 (43%), Gaps = 6/99 (6%)
+
+Query: 188 EFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNG 247
+           ++ +  L V  +  + +W+   +W  E +    RK +      Y  A ++  E L + + 
+Sbjct: 295 KYVRDTLKVAVEPYDSVWDYLRRWVSEGSE--ERKLVSGEKLSYAVANAVGDEKLALLD- 351
+
+Query: 248 LKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLNWIKW 286
+               SP+ LR A K ++   G   S+I+    W+ W  W
+Sbjct: 352 ---PSPVALRKATKNDVELEGFRISHIRDGAAWVRWAAW 387
+
+
+>CBQ73060 pep:novel chromosome:GCA_000230245.1:6:556504:558837:1 gene:sr13724
+           transcript:CBQ73060 description:"probable protein
+           CCN1-putative cell cycle control protein"
+          Length = 777
+
+ Score = 31.6 bits (70), Expect = 0.64,   Method: Compositional matrix adjust.
+ Identities = 66/332 (19%), Positives = 136/332 (40%), Gaps = 51/332 (15%)
+
+Query: 12  PSADKVAEPSDNIHGDELRLR------ERIKDNPTNILSYFQLIQYLETQESYAKVREVY 65
+           P+A  V +  D    +E R R      +R++ N  N+ ++ +   +  +Q    + R +Y
+Sbjct: 34  PAAAPVQKIEDYEELEEYRGRKRADFEDRLRRNNINMSNWIKYATWEASQGEMDRCRSIY 93
+
+Query: 66  EQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRK 125
+           E+  +  P + P W    + EL     +    +  + +S  L   D  LW  Y+      
+Sbjct: 94  ERALDRDPHFLPLWLRYTEQELKMRNVQHARNLYDRAVS-ILPRID-QLWYKYVHLEELL 151
+
+Query: 126 NNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQQRIDM 185
+            N+    Q            V ++   +EP+  + W+ Y+N   ++         Q++D 
+Sbjct: 152 GNVAGTRQ------------VFERWMAWEPEEKA-WHAYINLEVRY---------QKLDR 189
+
+Query: 186 LREFYKKML-CVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYM--------KARS 236
+               +++ + C P     K W R+ ++E++   L   + + +++ +Y+        KA+S
+Sbjct: 190 ASAIWERAVTCHP---TPKQWIRWAKFEEDRGDLEKARVVFQMALDYIGEDEEAMEKAQS 246
+
+Query: 237 LYQEWLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLNWIKWERENKLMLS- 295
+           ++  +  +   LK       R   K  + +   S S      I+ ++ ++E++   M S 
+Sbjct: 247 VFTAFAKMETRLKEYE--RARVIYKYALERLPRSKSE----GIYSSYTRFEKQFGTMSSV 300
+
+Query: 296 EDML--SQRISYVYKQGIQYMIFSAEMWYDYS 325
+           ED +   +RI Y  +   Q      + W+DYS
+Sbjct: 301 EDTVIGKRRIQYEEELAAQGGASDYDTWFDYS 332
+
+
+>CBQ72763 pep:novel chromosome:GCA_000230245.1:5:486541:487509:-1
+           gene:sr10783 transcript:CBQ72763 description:"conserved
+           hypothetical protein"
+          Length = 322
+
+ Score = 29.6 bits (65), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 20/86 (23%), Positives = 37/86 (43%), Gaps = 10/86 (11%)
+
+Query: 39  PTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFY----------SPAWTLQLKGELA 88
+           P  IL+    +++ E     A++R++YEQ+ +  P Y          SP +    K E  
+Sbjct: 186 PGGILALIWNLEHREAAPWVAQIRDLYEQYEDDTPQYRHMYWRAMYDSPTFARFFKPEEP 245
+
+Query: 89  RDEFETVEKILAQCLSGKLENNDLSL 114
+           R  + T+   L   +   L  + +S+
+Sbjct: 246 RHYYRTIPTTLQGVIDRALSKSYISV 271
+
+
+>CBQ71009 pep:novel chromosome:GCA_000230245.1:20:476316:479126:-1
+           gene:sr13477 transcript:CBQ71009 description:"probable
+           pre-mRNA splicing factor prp1"
+          Length = 936
+
+ Score = 29.3 bits (64), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 34/74 (45%), Gaps = 6/74 (8%)
+
+Query: 70  NTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLI 129
+             FP  +  WT  +  E      E+V  +L + +S   +  D  LW TY        ++ 
+Sbjct: 559 GVFPDRAAIWTQAVALEQQHGSVESVSALLERAVSNCAKAED--LWLTYASVKSDAGDI- 615
+
+Query: 130 TGGQEARAVIVKAF 143
+            GG  AR+V+++AF
+Sbjct: 616 -GG--ARSVLIRAF 626
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 4,624,605
+Number of extensions: 176528
+Number of successful extensions: 470
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 463
+Number of HSP's successfully gapped: 14
+Length of query: 677
+Length of database: 3,975,336
+Length adjustment: 99
+Effective length of query: 578
+Effective length of database: 3,314,709
+Effective search space: 1915901802
+Effective search space used: 1915901802
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,136 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_09462P0 pep:novel supercontig:ASM15152v1:GG705695:16145:202...   265   1e-76
+PTTG_06161P0 pep:novel supercontig:ASM15152v1:GG705488:333020:33...    31   1.0  
+
+>PTTG_09462P0 pep:novel supercontig:ASM15152v1:GG705695:16145:20217:1
+           gene:PTTG_09462 transcript:PTTG_09462T0
+           description:"Uncharacterized protein"
+          Length = 1054
+
+ Score =  265 bits (678), Expect = 1e-76,   Method: Compositional matrix adjust.
+ Identities = 175/580 (30%), Positives = 288/580 (49%), Gaps = 63/580 (10%)
+
+Query: 31  LRERIKDNPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELARD 90
+           LR+R++ +P +  ++ +LI   + +    K REVY  F   FP  +  W      EL   
+Sbjct: 247 LRQRVEKDPMDGEAWIELIADADKKGDLEKTREVYSSFLQHFPDAANQWIAYADLELGHG 306
+
+Query: 91  EFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEA--RAVIVKAFQLVMQ 148
+            F  VE+I ++CL   +    + LW+ YL+YIRR N  + G + A  RA+I+ A+   + 
+Sbjct: 307 HFPEVEQIFSRCLRSSV---SVELWAFYLNYIRRVNP-VEGDKAAASRAIIISAYDFSLN 362
+
+Query: 149 KCAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRY 208
+              I   +S   W +Y+N ++  +    W+EQQ++D LR+ Y++ +C+P DN+E++W  Y
+Sbjct: 363 HVGIDR-ESGQIWLDYINIVKAGEAAGTWQEQQKMDSLRKLYQRAVCIPLDNIEQIWKEY 421
+
+Query: 209 TQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNIPQPG 268
+             +E +++ +TA+KF+ + SA+YM AR   +E  N+T+ L R  P      N K I    
+Sbjct: 422 DSFEHQMSKMTAKKFLADKSAQYMMARGALKEMKNLTHSLPR--PRVPVKPNWKRI---- 475
+
+Query: 269 TSDSNIQQLQIWLNWIKWERENKLMLSE-DMLSQRISYVYKQGIQYMIFSAEMWYDYSMY 327
+              ++ +Q+  W  ++ WE +N L +S+ ++L+ RI Y Y+Q I +M F  E+WY  + +
+Sbjct: 476 ---NDHKQIAQWKTYLAWEEKNPLEISDKNLLNTRIQYAYRQAIMHMRFYPEIWYLAANH 532
+
+Query: 328 ISENSDRQN---ILYTALLANPDSPSLTFKLSECYELDNDSESVSNCFDKCTQTLLSQY- 383
+           + +N   +    +L   L ANP S  LT+ + E  E   +  +    FD   Q   S+  
+Sbjct: 533 LQQNDKAEEALAVLQAGLTANPTSIVLTYAIVEAQENLKNYPACYAAFDSLIQYYHSEID 592
+
+Query: 384 -------KKIASDV--------NSGEDNNTEYEQEL--------------------LYKQ 408
+                  K+IA+ +        N     + E +QEL                    LYK 
+Sbjct: 593 EINKTIEKEIANGIPIIESKTANPTSLPDGEADQELTEEEKLRAKEEEQLRTNITALYKP 652
+
+Query: 409 -----REKLTFVFCVYMNTMKRISGLSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQN 463
+                RE    V+   M   +R  G+  AR VF + RK   I +H V+  +A +E+    
+Sbjct: 653 KIDEFREAAASVWITEMRFARRTEGIKPARAVFTRARKSPYITSH-VFEASAMMEYHWNK 711
+
+Query: 464 DYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIY 523
+           +   A KV +LGLK F  D  Y+ +YL+FLI LN DS  + LFE +V K+   +  + ++
+Sbjct: 712 EAAVATKVFDLGLKTFSEDVNYVLQYLNFLITLNDDSNARALFEKTVSKISPES-ARPLW 770
+
+Query: 524 KKMISYESKFGNLNNVYSLEKRFFERFPQENLIEVFTSRY 563
+           ++  SYE  +G+      L  R  E FP   ++E  + R+
+Sbjct: 771 RRWASYEFIYGDKAASEKLNSRVAEIFPDWGVVERLSDRH 810
+
+
+>PTTG_06161P0 pep:novel supercontig:ASM15152v1:GG705488:333020:335264:-1
+           gene:PTTG_06161 transcript:PTTG_06161T0
+           description:"Uncharacterized protein"
+          Length = 591
+
+ Score = 31.2 bits (69), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 50/119 (42%), Gaps = 23/119 (19%)
+
+Query: 40  TNILSYFQLIQYLETQESYAKVREV--YEQFHNTFPFYSPAWTLQL-KGELARDEFETVE 96
+           T  L Y  LI+YL    ++   R V  + Q H +   +SPA+ L   + +L  D  E  E
+Sbjct: 326 TGFLLYNSLIKYLAFS-AWGNERPVMIFVQPHISMEIFSPAYFLPPNETQLTGDVNEVFE 384
+
+Query: 97  KILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEP 155
+                         DL    T ++ +   N  +  G      I+KAF  ++++C + +P
+Sbjct: 385 --------------DLGFHETGVELLAHSNGTVVSGW-----IIKAFPKLVKRCCLLDP 424
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 5,913,997
+Number of extensions: 239367
+Number of successful extensions: 659
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 652
+Number of HSP's successfully gapped: 9
+Length of query: 677
+Length of database: 4,657,481
+Length adjustment: 99
+Effective length of query: 578
+Effective length of database: 3,505,319
+Effective search space: 2026074382
+Effective search space used: 2026074382
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

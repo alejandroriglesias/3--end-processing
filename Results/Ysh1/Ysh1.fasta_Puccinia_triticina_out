@@ -1,0 +1,175 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_01228P0 pep:novel supercontig:ASM15152v1:GG705415:859819:86...   533   e-180
+PTTG_08562P0 pep:novel supercontig:ASM15152v1:GG705594:102032:10...    50   2e-06
+PTTG_08246P0 pep:novel supercontig:ASM15152v1:GG705573:172187:17...    28   7.4  
+
+>PTTG_01228P0 pep:novel supercontig:ASM15152v1:GG705415:859819:862987:-1
+           gene:PTTG_01228 transcript:PTTG_01228T0
+           description:"Uncharacterized protein"
+          Length = 625
+
+ Score =  533 bits (1373), Expect = e-180,   Method: Compositional matrix adjust.
+ Identities = 289/678 (42%), Positives = 415/678 (61%), Gaps = 99/678 (14%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISH 68
+            K   LG   EVGRSC +++YK  TV+ D GIHPA+ G+A+LPF DE D S VD +LI+H
+Sbjct: 32  MKITMLGAGQEVGRSCCVIEYKSTTVVCDTGIHPAFSGMAALPFIDEIDWSSVDAILITH 91
+
+Query: 69  FHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLF 128
+           FHLDHAASL Y+M+       VFMTHPTKA+YR+L++DFVR+++IG         D  LF
+Sbjct: 92  FHLDHAASLTYIME------NVFMTHPTKAVYRFLMQDFVRMSTIGT--------DSELF 137
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+           ++E ++ S+D I  +DYH  + +  ++FT++ AGHVLGAAMF IEI+G+RVL+TGDYS E
+Sbjct: 138 NEEQMITSYDSINAIDYHQEISLGSLRFTSYPAGHVLGAAMFLIEISGIRVLYTGDYSTE 197
+
+Query: 189 VDRHLNSAEVPPLS--SNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVF 246
+            DRHL  A VP  +   +V+I EST+G  + EPR  +E + T L+ S + RGGRVL+PVF
+Sbjct: 198 EDRHLIPARVPNWNDKPDVMICESTYGVQSLEPRFEKEERFTTLVQSILKRGGRVLMPVF 257
+
+Query: 247 ALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR 306
+           ALGRAQE++LILDE+W+ H +     Q+PI+Y SNLA KCM V+QT+++ MND I++KF 
+Sbjct: 258 ALGRAQELLLILDEHWANHPEL---NQIPIYYISNLAAKCMKVYQTFIHGMNDHIKRKF- 313
+
+Query: 307 DSQTNPFIFKN----------ISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCP 356
+           +   NP+ F            ++ L+ ++ F D GP V++ASPG +QSG+SR+LLERW P
+Sbjct: 314 NQGINPWTFYREGKGVFKKGYVTNLKAIDKFDDRGPCVVMASPGFMQSGVSRELLERWAP 373
+
+Query: 357 EDKNLVLITGYSIEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLE 416
+           + +N +L+TGYSIEGTMA+ ++ EP+ I  +   +  IPRR  V  ISF+AHVD+ +N  
+Sbjct: 374 DRRNALLVTGYSIEGTMAREMLKEPNEIIGMKGNK--IPRRLDVHYISFSAHVDYTQNAA 431
+
+Query: 417 FIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQGVK 476
+           FI+ I   +++LVHGE N M RLK+AL   + +LK +D ++H   PRN   + L FQ  +
+Sbjct: 432 FIDSIMPSHLVLVHGELNNMTRLKNALKDKY-TLKKSDIQIH--TPRNVETLRLTFQASR 488
+
+Query: 477 VAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGLVDEEEHKDIVVSG 536
+           +A+A+G                                  S AE    +        +SG
+Sbjct: 489 IARAIG----------------------------------SLAE----ETTPSAGSSLSG 510
+
+Query: 537 ILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYWHILQMFGEAEVL 596
+           ILVS D  + L  LS +DLRE +  LST+ + ++Q + +N   E + WH+  M+G     
+Sbjct: 511 ILVSKDAAYTL--LSPADLRE-YTGLSTSTILQKQKLIINVGWETVRWHLNGMYGGI--- 564
+
+Query: 597 QDDDRVTNQEPKVKEESKDNLTNTGKLILQIMG--DIKLTIVNTLAVVEWTQDLMNDTVA 654
+                             + L   G L  +++   DIK   VN ++ +EW   + ND +A
+Sbjct: 565 -----------------IEGLDAEGVLTFRVLETVDIKQVTVNQMS-LEWVGSIDNDMIA 606
+
+Query: 655 DSIIAILMNVDSAPASVK 672
+           DS++A+L+ +D +PAS+K
+Sbjct: 607 DSVLALLLGIDQSPASIK 624
+
+
+>PTTG_08562P0 pep:novel supercontig:ASM15152v1:GG705594:102032:105392:1
+           gene:PTTG_08562 transcript:PTTG_08562T0
+           description:"Uncharacterized protein"
+          Length = 956
+
+ Score = 50.1 bits (118), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 59/278 (21%), Positives = 115/278 (41%), Gaps = 44/278 (15%)
+
+Query: 131 EDLVDSFDKIETVDYHSTVDVNG----IKFTAFHAGHVLGAAMFQIE--------IAGLR 178
+           ++L D+FD +  V Y   + + G    +  TA  +GH +G  ++ +          +   
+Sbjct: 174 KELRDAFDSVIAVRYSQPIHLGGKLRPLTLTAHKSGHTIGGTIWSLRSPLHTVSSASSST 233
+
+Query: 179 VLFTGDYSREVDRHLNSAEVPPLSSN-------------VLIVESTFGTATHEPRLNRER 225
+           +++   ++   + HL+SA +   + +             V++V +         + +R+R
+Sbjct: 234 LIYAPIFNHVRESHLDSAALVQATGDGSMRIGLGMSRPMVMVVGTERSLIKGIRKKDRDR 293
+
+Query: 226 KLTQLIHSTVMRGGRVLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKK 285
+            L   I  T+     VL+P     R  E++L+LD +WSQ   +      P+   S   K 
+Sbjct: 294 ILLDSITQTLRASRTVLIPTDPSARLIELLLLLDSHWSQSRLD----SFPLCLVSKTGKD 349
+
+Query: 286 CMSVFQTYVNMMNDDI-RKKF---------RD-SQTNPFIFKNISYLRNLEDFQD----F 330
+            ++  ++    M+  + R  F         RD +   P   ++I +  ++E  +      
+Sbjct: 350 VVTFIRSLTEWMSPALARSSFDQNHHKRGGRDQNDQGPLRLRHIRFFNSVESLEAELPIR 409
+
+Query: 331 GPSVMLASPGMLQSGLSRDLLERWCPEDKNLVLITGYS 368
+            P V+LA P  L  G SR +  R    + NL+++T  S
+Sbjct: 410 QPKVILAVPMSLDYGFSRTMFMRLAGVEGNLIILTSLS 447
+
+
+>PTTG_08246P0 pep:novel supercontig:ASM15152v1:GG705573:172187:176586:-1
+           gene:PTTG_08246 transcript:PTTG_08246T0
+           description:"Uncharacterized protein"
+          Length = 1068
+
+ Score = 28.5 bits (62), Expect = 7.4,   Method: Compositional matrix adjust.
+ Identities = 30/145 (20%), Positives = 60/145 (41%), Gaps = 21/145 (14%)
+
+Query: 277 FYASNLAKKCMSV---FQTYVNMMND-DIRKKFRDSQTNPFIFKNISYLRNLEDFQDFGP 332
+           F    L +KC  +    +  V ++++ D+ KK++ +     +F     L  +       P
+Sbjct: 628 FSPPLLRRKCNDMRDQTKESVKLLDEQDMMKKYKQANKRLLLFDYDGTLTPIVK----NP 683
+
+Query: 333 SVMLASPGMLQSGLSRDLLERWCPEDKNLVLITGYSIEGTMAKFIMLEPDTIPSINNPEI 392
+              +  PG++++      LER C +++N+V    Y I G    F+      IP +    +
+Sbjct: 684 KDAVPPPGLIEA------LERLCADERNIV----YIISGRDGSFLQKHLGAIPGLG---M 730
+
+Query: 393 TIPRRCQVEEISFAAHVDFQENLEF 417
+           +    C + E      +D  EN++ 
+Sbjct: 731 SAEHGCFLREPGAKEWIDLTENIDM 755
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 6,583,984
+Number of extensions: 263157
+Number of successful extensions: 587
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 577
+Number of HSP's successfully gapped: 8
+Length of query: 779
+Length of database: 4,657,481
+Length adjustment: 100
+Effective length of query: 679
+Effective length of database: 3,493,681
+Effective search space: 2372209399
+Effective search space used: 2372209399
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)
