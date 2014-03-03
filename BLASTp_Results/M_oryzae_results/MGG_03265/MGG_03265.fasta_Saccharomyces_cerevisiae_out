@@ -1,0 +1,274 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YMR061W pep:known chromosome:SacCer_Apr2011:XIII:392755:394788:1...   239   8e-68
+YLR117C pep:known chromosome:SacCer_Apr2011:XII:382471:384534:-1...    44   1e-04
+YBR112C pep:known chromosome:SacCer_Apr2011:II:462870:465770:-1 ...    34   0.13 
+YDR235W pep:known chromosome:SacCer_Apr2011:IV:933504:935138:1 g...    34   0.14 
+YDR449C pep:known chromosome:SacCer_Apr2011:IV:1357580:1358902:-...    33   0.30 
+YNL121C pep:known chromosome:SacCer_Apr2011:XIV:398684:400537:-1...    31   0.96 
+YDL058W pep:known chromosome:SacCer_Apr2011:IV:345665:351037:1 g...    30   2.1  
+YHR117W pep:known chromosome:SacCer_Apr2011:VIII:342349:344268:1...    30   2.2  
+YFR019W pep:known chromosome:SacCer_Apr2011:VI:184502:191338:1 g...    30   2.3  
+YGL163C pep:known chromosome:SacCer_Apr2011:VII:193707:196403:-1...    30   3.5  
+YLR383W pep:known chromosome:SacCer_Apr2011:XII:885288:888632:1 ...    29   5.9  
+YBR055C pep:known chromosome:SacCer_Apr2011:II:344602:347301:-1 ...    28   6.5  
+YDL073W pep:known chromosome:SacCer_Apr2011:IV:326613:329567:1 g...    28   6.6  
+YKR021W pep:known chromosome:SacCer_Apr2011:XI:479234:481981:1 g...    28   8.0  
+YHL002W pep:known chromosome:SacCer_Apr2011:VIII:102612:103970:1...    28   8.6  
+
+>YMR061W pep:known chromosome:SacCer_Apr2011:XIII:392755:394788:1
+           gene:YMR061W transcript:YMR061W description:"Component
+           of the cleavage and polyadenylation factor I (CF I)\x3b
+           CF 1, composed of the CF 1A complex (Rna14p, Rna15p,
+           Clp1p, Pcf11p) and Hrp1, is involved in cleavage and
+           polyadenylation of mRNA 3' ends\x3b bridges interaction
+           between Rna15p and Hrp1p in /.../F I complex\x3b mutant
+           displays reduced transcription elongation in the
+           G-less-based run-on (GLRO) assay\x3b required for gene
+           looping"
+          Length = 677
+
+ Score =  239 bits (611), Expect = 8e-68,   Method: Compositional matrix adjust.
+ Identities = 176/610 (28%), Positives = 285/610 (46%), Gaps = 87/610 (14%)
+
+Query: 164 DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+           D + L E R+K++P   + S+  LI     + +  + R+V+E+F   FP  +  W     
+Sbjct: 27  DELRLRE-RIKDNPTNIL-SYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLK 84
+
+Query: 224 MELSQGNFVEAEAIFGKSL---MSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYD 280
+            EL++  F   E I  + L   +   ++ LW+ YLDYIRR+N+L      AR V+ +A+ 
+Sbjct: 85  GELARDEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQ 144
+
+Query: 281 FVIDNVGL-DKDASKIWNDYIQFI-RLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSN 338
+            V+    + +  +S  WN+Y+ F+ +  P     + W++QQ++D LR+ Y++ +C+P  N
+Sbjct: 145 LVMQKCAIFEPKSSSFWNEYLNFLEQWKPF----NKWEEQQRIDMLREFYKKMLCVPFDN 200
+
+Query: 339 VNTLWREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNL-------VRTTL 391
+           +  +W  Y Q+E+ +N  T RK++ E S  YM A+S      N+   L       +RT  
+Sbjct: 201 LEKMWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTAN 260
+
+Query: 392 PRLPPAPGFEGDVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALR 451
+            +  P PG        +Q+ +W  W+KWE+E+ L L+ D   +  +RI Y YKQ I  + 
+Sbjct: 261 KKNIPQPGTSDSN--IQQLQIWLNWIKWERENKLMLSED---MLSQRISYVYKQGIQYMI 315
+
+Query: 452 FCPEIWVDAAEWCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEG 511
+           F  E+W D + +  ENS   N        L   + ANP+S  L  K ++  E        
+Sbjct: 316 FSAEMWYDYSMYISENSDRQN-------ILYTALLANPDSPSLTFKLSECYEL------D 362
+
+Query: 512 DDAKIERGNAVKAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVPEHEIEEGEDCAN 571
+           +D++     +V   ++K   TL  Q K +                     ++  GED   
+Sbjct: 363 NDSE-----SVSNCFDKCTQTLLSQYKKIA-------------------SDVNSGEDNNT 398
+
+Query: 572 PMPSELEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFS 631
+               EL  K    EK            ++FV+      M+RI G       +   R VF 
+Sbjct: 399 EYEQELLYK--QREK------------LTFVFCVYMNTMKRISG-------LSAARTVFG 437
+
+Query: 632 EARKRGR-LTSDVYVAIAQLEWTVYKD-PSGGKIFDRGSKLFPEDEIFMLEYLKYLHSRE 689
+           + RK  R LT DVYV  A LE+    D  +  K+ + G K F  D +++ +YL +L    
+Sbjct: 438 KCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLN 497
+
+Query: 690 DTTNARVVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPED 749
+             +  + +FET V K+      + + K +Y     YESKFG L+    LEKR  E FP++
+Sbjct: 498 KDSQIKTLFETSVEKVQD----LTQLKEIYKKMISYESKFGNLNNVYSLEKRFFERFPQE 553
+
+Query: 750 PSLAHFSARF 759
+             +  F++R+
+Sbjct: 554 NLIEVFTSRY 563
+
+
+
+ Score = 29.3 bits (64), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 16/46 (34%), Positives = 27/46 (58%), Gaps = 1/46 (2%)
+
+Query: 879 IPREINFLLSQLPGAEVYNSTRLSASRVVDTLRD-THVPDYQSWKS 923
+           +P E+  LLS +P  + +N+  L A ++V+ L D   +P  +S KS
+Sbjct: 631 LPTEVLDLLSVIPKRQYFNTNLLDAQKLVNFLNDQVEIPTVESTKS 676
+
+
+>YLR117C pep:known chromosome:SacCer_Apr2011:XII:382471:384534:-1
+           gene:YLR117C transcript:YLR117C description:"Member of
+           the NineTeen Complex (NTC) that contains Prp19p and
+           stabilizes U6 snRNA in catalytic forms of the
+           spliceosome containing U2, U5, and U6 snRNAs\x3b homolog
+           of Drosophila crooked neck protein\x3b interacts with U1
+           snRNP proteins"
+          Length = 687
+
+ Score = 43.9 bits (102), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 35/150 (23%), Positives = 66/150 (44%), Gaps = 15/150 (10%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W   +      NN+E  R ++ ++ ++ P     W  + D E+ Q N+     I+ K +M
+Sbjct: 136 WYKYLIVEESLNNVEIVRSLYTKWCSLEP-GVNAWNSFVDFEIRQKNWNGVREIYSKYVM 194
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFI 303
+           + P +Q W   L ++R  N   ++     +     Y   ID V  +    +IW+D    +
+Sbjct: 195 AHPQMQTW---LKWVRFENRHGNT-----EFTRSVYSLAIDTVA-NLQNLQIWSD----M 241
+
+Query: 304 RLAPGVVGGSAWQ-DQQKMDQLRKAYQRAV 332
+            +A  V   + W+  QQ+ ++    YQ A+
+Sbjct: 242 EVAKLVNSFAHWEAAQQEYERSSALYQIAI 271
+
+
+
+ Score = 37.4 bits (85), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 21/79 (26%), Positives = 39/79 (49%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  M  W+       +++++ + R +FER L V      +W++Y D EL       A  +
+Sbjct: 62  RLDMGQWIRYAQFEIEQHDMRRARSIFERALLVDSSFIPLWIRYIDAELKVKCINHARNL 121
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++ ++P V +LW  YL
+Sbjct: 122 MNRAISTLPRVDKLWYKYL 140
+
+
+
+ Score = 36.2 bits (82), Expect = 0.027,   Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 38/80 (47%), Gaps = 1/80 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I A  +   I   R++  R ++  P   ++W +Y  +E S  N     +++ K   
+Sbjct: 102 WIRYIDAELKVKCINHARNLMNRAISTLPRVDKLWYKYLIVEESLNNVEIVRSLYTKWCS 161
+
+Query: 244 SVPNVQLWTVYLDY-IRRRN 262
+             P V  W  ++D+ IR++N
+Sbjct: 162 LEPGVNAWNSFVDFEIRQKN 181
+
+
+
+ Score = 30.4 bits (67), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 11/46 (23%), Positives = 26/46 (56%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+            ++ R ++E+F+   P   ++W QY ++E + G++     I+  +L
+Sbjct: 453 FDRVRKIYEKFIEFQPSDLQIWSQYGELEENLGDWDRVRGIYTIAL 498
+
+
+>YBR112C pep:known chromosome:SacCer_Apr2011:II:462870:465770:-1
+           gene:YBR112C transcript:YBR112C description:"General
+           transcriptional co-repressor, acts together with
+           Tup1p\x3b also acts as part of a transcriptional
+           co-activator complex that recruits the SWI/SNF and SAGA
+           complexes to promoters\x3b can form the prion"
+          Length = 966
+
+ Score = 34.3 bits (77), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 35/69 (50%), Gaps = 3/69 (4%)
+
+Query: 186 SLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL--M 243
+           SL   YR R+  ++  +++ER L V P  ++VW       L   +   A   + ++L  +
+Sbjct: 85  SLAHLYRSRDMFQRAAELYERALLVNPELSDVWATLGHCYLMLDDLQRAYNAYQQALYHL 144
+
+Query: 244 SVPNV-QLW 251
+           S PNV +LW
+Sbjct: 145 SNPNVPKLW 153
+
+
+>YDR235W pep:known chromosome:SacCer_Apr2011:IV:933504:935138:1 gene:YDR235W
+           transcript:YDR235W description:"U1 snRNP protein
+           involved in splicing, required for U1 snRNP
+           biogenesis\x3b contains multiple tetriatricopeptide
+           repeats"
+          Length = 544
+
+ Score = 33.9 bits (76), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 24/103 (23%), Positives = 47/103 (45%), Gaps = 9/103 (8%)
+
+Query: 201 RDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVP--NVQLWTVYLDYI 258
+           R  +   L  FP+    ++ +A +E   GN   +  IF + L +    ++ LWT YL + 
+Sbjct: 57  RCTYSSMLNEFPYLENYYIDFALLEYKLGNVSMSHKIFQRGLQAFNQRSLLLWTSYLKFC 116
+
+Query: 259 RRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQ 301
+                 N+     +Q+  + Y+   + VGL   + + W+ Y++
+Sbjct: 117 ------NNVISHQKQLF-KKYETAEEYVGLHFFSGEFWDLYLE 152
+
+
+>YDR449C pep:known chromosome:SacCer_Apr2011:IV:1357580:1358902:-1
+           gene:YDR449C transcript:YDR449C description:"Nucleolar
+           protein, component of the small subunit (SSU) processome
+           containing the U3 snoRNA that is involved in processing
+           of pre-18S rRNA"
+          Length = 440
+
+ Score = 32.7 bits (73), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 33/68 (48%), Gaps = 5/68 (7%)
+
+Query: 181 MDSWLSLIA-AYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFG 239
+           +D W+S     Y    N + CR++F+  L   P   ++W +Y   EL   NF+  + I  
+Sbjct: 144 VDIWISCAKYEYEVHANFKSCRNIFQNGLRFNPDVPKLWYEYVKFEL---NFI-TKLINR 199
+
+Query: 240 KSLMSVPN 247
+           + +M + N
+Sbjct: 200 RKVMGLIN 207
+
+
+
+ Score = 31.2 bits (69), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 16/52 (30%), Positives = 26/52 (50%)
+
+Query: 661 GKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARVVFETCVNKLTQNPATV 712
+           G I+ RG+  FP+D  F   YL Y+ +R + T+ + +       L  +P  V
+Sbjct: 93  GFIYQRGTNKFPQDLKFWAMYLNYMKARGNQTSYKKIHNIYNQLLKLHPTNV 144
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 6,019,577
+Number of extensions: 260103
+Number of successful extensions: 888
+Number of sequences better than 10.0: 21
+Number of HSP's gapped: 862
+Number of HSP's successfully gapped: 29
+Length of query: 1057
+Length of database: 3,010,216
+Length adjustment: 100
+Effective length of query: 957
+Effective length of database: 2,341,016
+Effective search space: 2240352312
+Effective search space used: 2240352312
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YJR093C pep:known chromosome:SacCer_Apr2011:X:603220:604203:-1 g...    59   2e-10
+YMR073C pep:known chromosome:SacCer_Apr2011:XIII:412268:412873:-...    26   8.2  
+
+>YJR093C pep:known chromosome:SacCer_Apr2011:X:603220:604203:-1 gene:YJR093C
+           transcript:YJR093C description:"Subunit of cleavage
+           polyadenylation factor (CPF), interacts directly with
+           poly(A) polymerase (Pap1p) to regulate its activity\x3b
+           bridging factor that links Pap1p and the CPF complex via
+           Yth1p"
+          Length = 327
+
+ Score = 59.3 bits (142), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 20/37 (54%), Positives = 30/37 (81%)
+
+Query: 166 PWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYS 202
+           PWR+PG ++SDYFNYGF+EF+W  Y  +Q +L+ +Y+
+Sbjct: 189 PWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYN 225
+
+
+>YMR073C pep:known chromosome:SacCer_Apr2011:XIII:412268:412873:-1
+           gene:YMR073C transcript:YMR073C description:"Putative
+           protein of unknown function\x3b may be involved in
+           resistance to carboplatin and cisplatin\x3b null mutant
+           displays increase in spontaneous Rad52p foci\x3b
+           contains a lipid-binding domain and binds cardiolipin in
+           a large-scale study"
+          Length = 201
+
+ Score = 25.8 bits (55), Expect = 8.2,   Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 20/41 (48%)
+
+Query: 138 PYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYF 178
+           P  +P  K + KPL +  I  D G  A  W    ++ ++Y+
+Sbjct: 35  PLHMPMSKSSRKPLVRTKIRLDPGHSALDWHSLTSNPANYY 75
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,147,913
+Number of extensions: 43884
+Number of successful extensions: 105
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 104
+Number of HSP's successfully gapped: 11
+Length of query: 332
+Length of database: 3,010,216
+Length adjustment: 90
+Effective length of query: 242
+Effective length of database: 2,407,936
+Effective search space: 582720512
+Effective search space used: 582720512
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

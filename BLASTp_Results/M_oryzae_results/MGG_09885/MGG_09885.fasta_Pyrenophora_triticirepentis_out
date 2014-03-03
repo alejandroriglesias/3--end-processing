@@ -1,0 +1,235 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU41499 pep:novel supercontig:GCA_000149985.1:supercont1.1:5935...   167   5e-46
+EDU51034 pep:novel supercontig:GCA_000149985.1:supercont1.8:1760...    70   7e-14
+EDU50848 pep:novel supercontig:GCA_000149985.1:supercont1.8:1187...    67   9e-13
+EDU41365 pep:novel supercontig:GCA_000149985.1:supercont1.1:5549...    66   9e-13
+EDU50895 pep:novel supercontig:GCA_000149985.1:supercont1.8:1309...    56   8e-10
+EDU41975 pep:novel supercontig:GCA_000149985.1:supercont1.10:601...    57   3e-09
+EDU40887 pep:novel supercontig:GCA_000149985.1:supercont1.1:4042...    57   3e-09
+EDU47272 pep:novel supercontig:GCA_000149985.1:supercont1.3:3052...    55   7e-09
+EDU40415 pep:novel supercontig:GCA_000149985.1:supercont1.1:2683...    54   1e-08
+EDU43813 pep:novel supercontig:GCA_000149985.1:supercont1.14:103...    52   2e-08
+EDU44328 pep:novel supercontig:GCA_000149985.1:supercont1.16:516...    52   4e-08
+EDU44493 pep:novel supercontig:GCA_000149985.1:supercont1.17:327...    52   6e-08
+EDU39840 pep:novel supercontig:GCA_000149985.1:supercont1.1:1074...    49   2e-07
+EDU46666 pep:novel supercontig:GCA_000149985.1:supercont1.3:1332...    49   3e-07
+EDU43116 pep:novel supercontig:GCA_000149985.1:supercont1.12:958...    50   4e-07
+EDU39505 pep:novel supercontig:GCA_000149985.1:supercont1.1:1781...    50   7e-07
+EDU47515 pep:novel supercontig:GCA_000149985.1:supercont1.4:4851...    49   9e-07
+EDU50987 pep:novel supercontig:GCA_000149985.1:supercont1.8:1609...    49   1e-06
+EDU40035 pep:novel supercontig:GCA_000149985.1:supercont1.1:1588...    48   2e-06
+EDU48486 pep:novel supercontig:GCA_000149985.1:supercont1.5:7769...    47   3e-06
+EDU39480 pep:novel supercontig:GCA_000149985.1:supercont1.1:1089...    46   6e-06
+EDU47669 pep:novel supercontig:GCA_000149985.1:supercont1.4:1052...    45   2e-05
+EDU44291 pep:novel supercontig:GCA_000149985.1:supercont1.16:424...    45   2e-05
+EDU50972 pep:novel supercontig:GCA_000149985.1:supercont1.8:1554...    42   1e-04
+EDU41403 pep:novel supercontig:GCA_000149985.1:supercont1.1:5643...    41   3e-04
+EDU41458 pep:novel supercontig:GCA_000149985.1:supercont1.1:5805...    39   6e-04
+EDU42240 pep:novel supercontig:GCA_000149985.1:supercont1.10:137...    38   0.002
+EDU43844 pep:novel supercontig:GCA_000149985.1:supercont1.15:955...    37   0.004
+EDU50045 pep:novel supercontig:GCA_000149985.1:supercont1.7:8011...    36   0.010
+EDU50187 pep:novel supercontig:GCA_000149985.1:supercont1.7:1205...    35   0.021
+EDU41712 pep:novel supercontig:GCA_000149985.1:supercont1.1:6656...    35   0.022
+EDU42325 pep:novel supercontig:GCA_000149985.1:supercont1.11:113...    35   0.023
+EDU39754 pep:novel supercontig:GCA_000149985.1:supercont1.1:8318...    33   0.066
+EDU41845 pep:novel supercontig:GCA_000149985.1:supercont1.10:262...    32   0.092
+EDU44054 pep:novel supercontig:GCA_000149985.1:supercont1.15:718...    32   0.22 
+EDU42034 pep:novel supercontig:GCA_000149985.1:supercont1.10:747...    31   0.28 
+EDU45793 pep:novel supercontig:GCA_000149985.1:supercont1.2:2889...    31   0.58 
+EDU48673 pep:novel supercontig:GCA_000149985.1:supercont1.5:1336...    30   0.77 
+EDU45235 pep:novel supercontig:GCA_000149985.1:supercont1.2:1279...    30   1.2  
+EDU42443 pep:novel supercontig:GCA_000149985.1:supercont1.11:472...    29   1.6  
+EDU42039 pep:novel supercontig:GCA_000149985.1:supercont1.10:767...    28   4.1  
+EDU46012 pep:novel supercontig:GCA_000149985.1:supercont1.22:220...    27   5.4  
+EDU40226 pep:novel supercontig:GCA_000149985.1:supercont1.1:2155...    27   7.3  
+
+>EDU41499 pep:novel supercontig:GCA_000149985.1:supercont1.1:5935894:5940949:
+           1 gene:PTRG_02061 transcript:EDU41499
+           description:"copper methylamine oxidase precursor"
+          Length = 1053
+
+ Score =  167 bits (422), Expect = 5e-46,   Method: Compositional matrix adjust.
+ Identities = 102/187 (54%), Positives = 125/187 (66%), Gaps = 3/187 (1%)
+
+Query: 18  GLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNLNDTEIMGR 77
+           G +EE I +   R G+V NFRLVYD+ETG+PKGFGFAE+ D D+AASAVRNLND ++MGR
+Sbjct: 763 GGTEELIIETLGRVGQVNNFRLVYDKETGRPKGFGFAEFADADAAASAVRNLNDYDLMGR 822
+
+Query: 78  KLRVDFSNEKXXXXXXXXXXXXXX---XXXXXXXYQQQQEVPSLPPLPPGKDIPAGVSAT 134
+           KLRVD+SNE                             Q   +L PLPPG ++P  ++  
+Sbjct: 823 KLRVDWSNESGSGDNAPSNRDQGAPPAMNGQQAAPAAAQPSSALGPLPPGVELPPNLTCP 882
+
+Query: 135 DAISRTLRTLPPAQLLDILQQMKTMSGADPARATELLTQAPQLSYAIFQALLLMDLVSPD 194
+           DAISRTL TLPP QLLDIL QMK +   DPA+ATELL QAPQL+YAIFQ+LLL+ LV P 
+Sbjct: 883 DAISRTLSTLPPDQLLDILSQMKGLVMTDPAKATELLRQAPQLAYAIFQSLLLLQLVDPA 942
+
+Query: 195 AIHSVVD 201
+            + S+V+
+Sbjct: 943 ILTSLVE 949
+
+
+
+ Score = 32.0 bits (71), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 22/37 (59%)
+
+Query: 269  ALMQQVLALPQATIDQLPEAERAQIMALRASLMGQAR 305
+            A+  QV+AL Q  ID L    R QI+A+R ++M   R
+Sbjct: 1016 AIYAQVMALTQQQIDALTPEYRNQIIAIRQAIMAGGR 1052
+
+
+>EDU51034 pep:novel supercontig:GCA_000149985.1:supercont1.8:1760858:1762233:
+           -1 gene:PTRG_08115 transcript:EDU51034 description:"RNA
+           binding domain containing protein"
+          Length = 319
+
+ Score = 69.7 bits (169), Expect = 7e-14,   Method: Compositional matrix adjust.
+ Identities = 30/79 (37%), Positives = 52/79 (65%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           PS+ +F+GN+ + +S++ + D+F     V++ R+  DR TG+P+GF  A++ D  SA  A
+Sbjct: 224 PSKTLFIGNMSFEMSDKDLNDLFRDIRNVMDVRVAIDRRTGQPRGFAHADFIDVASATKA 283
+
+Query: 66  VRNLNDTEIMGRKLRVDFS 84
+              L++  I GR+LR+D+S
+Sbjct: 284 KEVLSEKVIYGRQLRIDYS 302
+
+
+
+ Score = 56.6 bits (135), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 26/82 (31%), Positives = 51/82 (62%), Gaps = 1/82 (1%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           P++++++GN+ Y ++ +Q+  +FSR G+V + ++VYD   G  +GFG+ E+ +   A +A
+Sbjct: 127 PNKMLYIGNLYYEVTADQLKRVFSRFGEVESVKIVYDNR-GLSRGFGYVEFANMADAQAA 185
+
+Query: 66  VRNLNDTEIMGRKLRVDFSNEK 87
+           + NL+     GR + V +   K
+Sbjct: 186 IDNLDMQVFEGRNMVVQYHQPK 207
+
+
+>EDU50848 pep:novel supercontig:GCA_000149985.1:supercont1.8:1187131:1188656:
+           1 gene:PTRG_07929 transcript:EDU50848
+           description:"nuclear localization sequence-binding
+           protein"
+          Length = 475
+
+ Score = 67.0 bits (162), Expect = 9e-13,   Method: Compositional matrix adjust.
+ Identities = 29/80 (36%), Positives = 48/80 (60%)
+
+Query: 5   PPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAAS 64
+           PPS  +F+GN+ +  S E I ++F+  G +    L  DR+TG  KGFG+ ++     A +
+Sbjct: 320 PPSNTLFLGNVSFECSNESIQEVFAEYGSITRVSLPTDRDTGALKGFGYVDFSSQQEATA 379
+
+Query: 65  AVRNLNDTEIMGRKLRVDFS 84
+           A+  LN  +I GR +R+D++
+Sbjct: 380 ALEALNGQDIGGRAIRIDYA 399
+
+
+
+ Score = 62.4 bits (150), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 29/75 (38%), Positives = 50/75 (66%)
+
+Query: 10  VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+           +FVGN+ + + E+ +   F   G+++  R++ DRETG+ KGFG+ E+ +   AA A + +
+Sbjct: 223 LFVGNMSWNIDEDWLRREFEGFGEIVGCRVITDRETGRAKGFGYVEFANAADAAKAQKEM 282
+
+Query: 70  NDTEIMGRKLRVDFS 84
+           ++ E+ GR+L VDFS
+Sbjct: 283 HEYELDGRQLNVDFS 297
+
+
+>EDU41365 pep:novel supercontig:GCA_000149985.1:supercont1.1:5549221:5550603:
+           -1 gene:PTRG_01927 transcript:EDU41365 description:"U2
+           snRNP component IST3"
+          Length = 296
+
+ Score = 66.2 bits (160), Expect = 9e-13,   Method: Compositional matrix adjust.
+ Identities = 33/78 (42%), Positives = 47/78 (60%)
+
+Query: 10  VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+           +++G +P+ LSE  I  IFS+ G+ +  +L  DRETGK +GF + +Y D  S   AV NL
+Sbjct: 35  IYIGGLPFELSEGDIITIFSQYGEPVWIKLARDRETGKSRGFAWIKYEDQRSCDLAVDNL 94
+
+Query: 70  NDTEIMGRKLRVDFSNEK 87
+               IM R +RVD +  K
+Sbjct: 95  GGANIMDRIIRVDHARYK 112
+
+
+>EDU50895 pep:novel supercontig:GCA_000149985.1:supercont1.8:1309366:131013
+          9:-1 gene:PTRG_07976 transcript:EDU50895
+          description:"conserved hypothetical protein"
+          Length = 168
+
+ Score = 55.8 bits (133), Expect = 8e-10,   Method: Compositional matrix adjust.
+ Identities = 24/78 (30%), Positives = 48/78 (61%)
+
+Query: 10 VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+          +F+G + +   ++ +   F   G+V    +V DR+TG+ +GFGF  Y  +  A +A++ +
+Sbjct: 4  LFIGGLAWHTDDQALRQKFEEFGQVEEAVVVKDRDTGRSRGFGFVRYAQDTEADAAMQAM 63
+
+Query: 70 NDTEIMGRKLRVDFSNEK 87
+          N+ E  GR++RVD ++++
+Sbjct: 64 NNEEFDGRRIRVDKASDR 81
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 2,363,538
+Number of extensions: 81909
+Number of successful extensions: 418
+Number of sequences better than 10.0: 50
+Number of HSP's gapped: 406
+Number of HSP's successfully gapped: 68
+Length of query: 305
+Length of database: 5,459,076
+Length adjustment: 94
+Effective length of query: 211
+Effective length of database: 4,315,190
+Effective search space: 910505090
+Effective search space used: 910505090
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

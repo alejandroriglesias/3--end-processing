@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa 
+           6448 sequences; 3,139,837 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAG77775 pep:novel chromosome:GCA_000002525.1:F:576042:579393:-1...   129   3e-31
+CAG82882 pep:novel chromosome:GCA_000002525.1:B:1162913:1164022:...    33   0.16 
+CAG82921 pep:novel chromosome:GCA_000002525.1:B:1275037:1285220:...    30   1.7  
+CAG78656 pep:novel chromosome:GCA_000002525.1:F:3221937:3224015:...    30   1.9  
+CAG84144 pep:novel chromosome:GCA_000002525.1:A:1999901:2001424:...    29   2.5  
+CAG80770 pep:novel chromosome:GCA_000002525.1:D:1107136:1108386:...    29   3.6  
+CAG83909 pep:novel chromosome:GCA_000002525.1:A:1179392:1181269:...    28   5.7  
+
+>CAG77775 pep:novel chromosome:GCA_000002525.1:F:576042:579393:-1
+           gene:YALI0_F03883g transcript:CAG77775
+           description:"YALI0F03883p"
+          Length = 756
+
+ Score =  129 bits (323), Expect = 3e-31,   Method: Compositional matrix adjust.
+ Identities = 109/413 (26%), Positives = 190/413 (46%), Gaps = 42/413 (10%)
+
+Query: 9   IAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQS 68
+           + EQ+  L         D  +Y   V  +L +  S+   EL++W ADFL ++ A+  L  
+Sbjct: 3   LTEQLASLGQVADMAAKDAALYEQYVPSLLEL-ASRPEKELQQWLADFLLDALAS-VLAL 60
+
+Query: 69  RDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERIT 128
+             +  ++L  L  +   +          ++ I  +A IYPLV   +  N   ++ W  +T
+Sbjct: 61  EKRRELALKALTVVDKLLNGEP------KTPILLSALIYPLVFSAVSLNPKLSSEWSTLT 114
+
+Query: 129 AIKSRIFQLWSGE-IPGVKICCIKFAQRVVLAQTVSINGEF-------KRDGLDISLSNI 180
+           ++K RI  +WS +  P V+I CIKFAQ++VL Q+   +G          +   + ++S +
+Sbjct: 115 SLKERITSIWSNDPSPSVEIACIKFAQQLVLVQSRGQSGPADPRLAARSKPSAEANMSMV 174
+
+Query: 181 PQGHPVLDPRNLEAEAIGLLDRMLGVL------QDNSSDAL-VVDATLNCVAILIRTRPA 233
+           P  HP++  R+LEAE  G LDR+LG L       DN   A  +  AT+  +A +++ RP 
+Sbjct: 175 PPNHPLIH-RSLEAEGQGSLDRLLGNLTGDDLSHDNQKIAEPIFTATVFALAPILKQRPE 233
+
+Query: 234 TSNRILNAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQH 293
+             NRIL  VL  +P+ +        +++ V+  EK+ +ML+ H +R      +  R+++ 
+Sbjct: 234 YGNRILQTVLAVDPVAMETKFT---SKLAVRFCEKSLKMLVTHCLRNKIHVQLRHRMERF 290
+
+Query: 294 IERLARSRADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXX 353
+           +  + R R    DD+  +++   E    A            +   P+             
+Sbjct: 291 LAEVGRKRPAPVDDHVTKRQKTEEPTTNA------------STPTPVSMSTTMPPNADSY 338
+
+Query: 354 XXXFTL--TNTPGLQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDR 404
+              FTL   N P L +FD   +P +L  +I ++ L  +D+ +L   +  V+ R
+Sbjct: 339 SALFTLIPANDP-LVAFDARTLPQQLALQIALTGLLSVDEAVLRSRVGVVKQR 390
+
+
+
+ Score =  100 bits (250), Expect = 2e-22,   Method: Compositional matrix adjust.
+ Identities = 65/242 (26%), Positives = 123/242 (50%), Gaps = 7/242 (2%)
+
+Query: 474 YKLPPPPVLRPEEASNAGRGIVTNVLGMTKQLEESGSKR---SKAGINRLAASLYDRESW 530
+           ++LPPP  L   E   AG  IV+  L   K +  + +K     K  I++LA + +   SW
+Sbjct: 493 FQLPPPEPLSESEKLTAGTEIVSRFLTQ-KDVAVATAKSLDIQKNAISKLAINEWTGGSW 551
+
+Query: 531 ITVITRLATRSSSALEKTTIKEEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWLSEE 590
+           + +++RL +R  +   +T  +  D     L   +R  L N     F    +  ++WL+EE
+Sbjct: 552 MVILSRLLSRGLAYDPET--EPADSLKVQLSTHIRNQLLNMATTAFTANFEDVMTWLNEE 609
+
+Query: 591 WYNDQLQKRMASDAPLHYDKVALRLVDGITPYLHAQD-KVLTRFLGEIPEVNPAILKRVE 649
+           WY++ ++    + A   Y + A R++D +   +   + K   R +GE+PE++  ++ +++
+Sbjct: 610 WYSELIRYGKVTPATSVYYEYASRIMDTLVQTIDPDNWKYFIRLVGELPELDYGLVSKLK 669
+
+Query: 650 GMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKAFL 709
+            +  DP  + + + SL YL+M+RPP R+  LD ++ ++ E E  R    + L ++R   +
+Sbjct: 670 HLLIDPDRSVIGVRSLKYLIMLRPPTRDYCLDVIEEVYQENESLRGGFKQVLGKYRPLVV 729
+
+Query: 710 EA 711
+           E 
+Sbjct: 730 EG 731
+
+
+>CAG82882 pep:novel chromosome:GCA_000002525.1:B:1162913:1164022:1
+           gene:YALI0_B08404g transcript:CAG82882
+           description:"YALI0B08404p"
+          Length = 369
+
+ Score = 33.1 bits (74), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 23/38 (60%)
+
+Query: 468 SLALGAYKLPPPPVLRPEEASNAGRGIVTNVLGMTKQL 505
+           ++A+  Y    P  +RP+EAS  G G +T VLG+  +L
+Sbjct: 105 TIAVDGYYFDIPANVRPDEASTLGVGCITAVLGLFLKL 142
+
+
+>CAG82921 pep:novel chromosome:GCA_000002525.1:B:1275037:1285220:1
+           gene:YALI0_B09383g transcript:CAG82921
+           description:"YALI0B09383p"
+          Length = 3202
+
+ Score = 30.0 bits (66), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 28/46 (60%)
+
+Query: 1   MASATQSPIAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSA 46
+           + ++ +SP  E I++   +  HV++D K YSS+ Q  + ++ S ++
+Sbjct: 830 LVASAESPSLEHIKEKVVSHGHVVVDEKEYSSLCQPTIDVLKSHAS 875
+
+
+>CAG78656 pep:novel chromosome:GCA_000002525.1:F:3221937:3224015:-1
+           gene:YALI0_F24893g transcript:CAG78656
+           description:"YALI0F24893p"
+          Length = 692
+
+ Score = 29.6 bits (65), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 35/79 (44%), Gaps = 10/79 (12%)
+
+Query: 72  ETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAIK 131
+           +T+   V E LR WV N     YV+ SAI      YP +VR  + +     T E+  A+ 
+Sbjct: 451 KTLRDAVNEALRFWVTNLESTHYVIGSAI--GPHPYPTLVR-TLQSVIGRETKEQFAALN 507
+
+Query: 132 SRIFQLWSGEIPGVKICCI 150
+                  +G +P   + C+
+Sbjct: 508 -------NGALPDAVVACV 519
+
+
+>CAG84144 pep:novel chromosome:GCA_000002525.1:A:1999901:2001424:-1
+           gene:YALI0_A18634g transcript:CAG84144
+           description:"YALI0A18634p"
+          Length = 507
+
+ Score = 29.3 bits (64), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 35/71 (49%), Gaps = 7/71 (9%)
+
+Query: 35  QGILPIIGSKSAPELRRWGADFLAESFATPSLQSRDKETMSLMVLETLRAWVENPSEDAY 94
+           QG+  ++     PELR  GA  L       S    DK+T +L  L+TL A       DA+
+Sbjct: 355 QGLTNLLAFPYIPELRLLGAQILLNVVKHVS----DKDTDAL--LKTLGAQFYKNEADAH 408
+
+Query: 95  VVRSAIQTAAS 105
+            ++S +QTA S
+Sbjct: 409 -IKSVLQTALS 418
+
+
+  Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,139,837
+  Number of sequences in database:  6448
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6448
+Number of Hits to DB: 4,099,875
+Number of extensions: 161952
+Number of successful extensions: 451
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 443
+Number of HSP's successfully gapped: 11
+Length of query: 730
+Length of database: 3,139,837
+Length adjustment: 98
+Effective length of query: 632
+Effective length of database: 2,507,933
+Effective search space: 1585013656
+Effective search space used: 1585013656
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

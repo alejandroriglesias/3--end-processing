@@ -1,0 +1,143 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK16839 pep:novel supercontig:ASM17099v1:90:1576059:1578514:-1 ...   765   0.0  
+EHK26674 pep:novel supercontig:ASM17099v1:2:2468877:2471562:1 ge...    30   2.6  
+
+>EHK16839 pep:novel supercontig:ASM17099v1:90:1576059:1578514:-1
+           gene:TRIVIDRAFT_65418 transcript:EHK16839
+           description:"hypothetical protein"
+          Length = 733
+
+ Score =  765 bits (1975), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 404/737 (54%), Positives = 513/737 (69%), Gaps = 26/737 (3%)
+
+Query: 1   MASATQSPIAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAES 60
+           MA+++   + +QIRQLNDARK VL DVK Y S+V+GILPIIG K+  ELRRW  DFLAE+
+Sbjct: 1   MATSSALSVPDQIRQLNDARKLVLGDVKYYPSVVRGILPIIGPKAPIELRRWVTDFLAEA 60
+
+Query: 61  FATPSLQSRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRW------- 113
+           FATP+L + +KETM   VL TL + +EN   DA V+R+ IQTAASIYPL +RW       
+Sbjct: 61  FATPALPNSEKETMQPYVLTTLESLIEN-EVDAQVLRNVIQTAASIYPLAMRWMSVASLP 119
+
+Query: 114 IINNSYDTTTWERITAIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKRDG- 172
+           IINNSYDT TWER+ +IK +I QLW    P V+ICCIKFAQRVVLAQ+V+   E +  G 
+Sbjct: 120 IINNSYDTVTWERMVSIKQKILQLWDNVPPTVRICCIKFAQRVVLAQSVASGAEHRYGGG 179
+
+Query: 173 LDISLSNIPQGHPVLDPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRP 232
+           LD+SL  +P  H  LDPR LEAEA GLLDRML +LQ N+ D L+VDATLNC++I++RTRP
+Sbjct: 180 LDVSLDKVPPNHQTLDPRTLEAEASGLLDRMLSILQGNN-DGLLVDATLNCLSIMVRTRP 238
+
+Query: 233 ATSNRILNAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQ 292
+           A S+RILNA+LNFNPL+ ANSP+TPKT+V++KSMEKT R+LL+HL +RDP NP+ PRIQQ
+Sbjct: 239 AMSSRILNALLNFNPLQAANSPLTPKTKVMIKSMEKTARLLLIHLSKRDPHNPIVPRIQQ 298
+
+Query: 293 HIERLARSRADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXX 352
+           H+E   R  A++FD +AGRKR L E +     DAKR R+ +  + +P             
+Sbjct: 299 HVEGTMRMVAELFD-SAGRKRPL-EPRPQDGYDAKRPRIEASQIQIP-----PLGPGPHS 351
+
+Query: 353 XXXXFTLTNTPGLQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAA 412
+               FTL    GL+ FDVS VP  L A+I V+TL+R+D Q+L + ++GVR RL+TL  + 
+Sbjct: 352 LADVFTLIGNDGLKFFDVSQVPPSLVARIAVNTLSRLDAQVLAKAVDGVRGRLETLNNSP 411
+
+Query: 413 AQPVLINPATAPLGVXXXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAA--SLA 470
+             P  +NP TAPLGV                   QILNK D       AE + +   +L 
+Sbjct: 412 --PAELNPNTAPLGVEEDEDDYEPDFYQAEDTE-QILNKLDSAPAPAVAEPIISLDDTLG 468
+
+Query: 471 LGAYKLPPPPVLRPEEASNAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESW 530
+           L ++ LP P  L PE A NAG G VT VL M K L+E G+K+ KAG +RLAAS   R+SW
+Sbjct: 469 LRSFSLPQPQQLTPEMALNAGNGTVTRVLDMMKSLDEPGTKKQKAGFSRLAASSESRDSW 528
+
+Query: 531 ITVITRLATRSSSALEKTTIK---EEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWL 587
+           +T++TRLATRSS+ LE+ ++K   +E   P  L + +RE LYNY++EDFRK IDVA+SWL
+Sbjct: 529 MTILTRLATRSSAGLEEISVKAEADESSRPPSLNNSIREILYNYIMEDFRKHIDVAVSWL 588
+
+Query: 588 SEEWYNDQLQKRMASDAPLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPAILKR 647
+            EEWYND++Q++   D PL+Y+K  LRL+DG  PYLH QDKVLTRFL EIPE+N AIL R
+Sbjct: 589 CEEWYNDKVQQKAGGDHPLYYEKCTLRLIDGFLPYLHPQDKVLTRFLSEIPELNRAILSR 648
+
+Query: 648 VEGMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKA 707
+           V+ MCRDPS+  LALTSL+YLV+MRPP +E ALD +Q IWT+YE+AR +A K+LT++R  
+Sbjct: 649 VKHMCRDPSVTQLALTSLLYLVIMRPPIKEAALDTVQDIWTDYEDARTMAGKYLTKYRPL 708
+
+Query: 708 FLEANSGAGQAGQSVAP 724
+           FLE N+  GQ   S AP
+Sbjct: 709 FLE-NATNGQGNGSPAP 724
+
+
+>EHK26674 pep:novel supercontig:ASM17099v1:2:2468877:2471562:1
+           gene:TRIVIDRAFT_77929 transcript:EHK26674
+           description:"hypothetical protein"
+          Length = 718
+
+ Score = 30.0 bits (66), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 23/86 (26%), Positives = 35/86 (40%), Gaps = 11/86 (12%)
+
+Query: 72  ETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAIK 131
+           +T+   V E LRAWV +     Y++ SAI      YP +VR   +   D T         
+Sbjct: 479 KTLRDAVNEALRAWVTDLETTHYIIGSAI--GPHPYPTIVRTFQSVIGDET--------- 527
+
+Query: 132 SRIFQLWSGEIPGVKICCIKFAQRVV 157
+            +  Q   G++P   + C+      V
+Sbjct: 528 KKQMQELRGKLPDAVVACVGGGSNAV 553
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 7,792,941
+Number of extensions: 313163
+Number of successful extensions: 928
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 920
+Number of HSP's successfully gapped: 4
+Length of query: 730
+Length of database: 5,836,678
+Length adjustment: 102
+Effective length of query: 628
+Effective length of database: 4,571,266
+Effective search space: 2870755048
+Effective search space used: 2870755048
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

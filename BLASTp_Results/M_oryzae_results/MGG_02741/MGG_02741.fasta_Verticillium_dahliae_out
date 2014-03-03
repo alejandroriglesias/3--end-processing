@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY20961 pep:novel supercontig:GCA_000150675.1:supercont1.4:4749...   179   7e-52
+
+>EGY20961 pep:novel supercontig:GCA_000150675.1:supercont1.4:474932:476313:-1
+           gene:VDAG_02485 transcript:EGY20961 description:"RRM
+           domain-containing protein"
+          Length = 361
+
+ Score =  179 bits (454), Expect = 7e-52,   Method: Compositional matrix adjust.
+ Identities = 106/218 (48%), Positives = 131/218 (60%), Gaps = 18/218 (8%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXX 60
+           MA+++FEIDIYGDA QE Q G         +  +H           +R+D          
+Sbjct: 1   MADDEFEIDIYGDAPQENQEGHHEYEGGQQQQQEHD----------HREDHDDSGQHEHK 50
+
+Query: 61  XXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREA 120
+                     S+ PQQ    KRK   DDRA+DPGAT+AI IS+L WW TDD+IRGW R A
+Sbjct: 51  EESEQYNDQSSSAPQQG--TKRK--GDDRAVDPGATNAITISDLNWWNTDDEIRGWSRRA 106
+
+Query: 121 GCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIY 180
+            CE+ELKDITFSEHKVNGKSKGQVYIE  SQQAATA KH ++    +G +   ++  V Y
+Sbjct: 107 HCEDELKDITFSEHKVNGKSKGQVYIEFASQQAATATKHLVDKL--EGNTPGQKRYNVAY 164
+
+Query: 181 SSPTMNPFRTLPKDQP-RTGKDGQNRPTSGAGYNNDRT 217
+           S+P +NPFRTLPKD   R  K+GQ    +G  +NND +
+Sbjct: 165 SNPNVNPFRTLPKDTSNRQPKEGQGSRATGT-FNNDNS 201
+
+
+
+ Score = 32.7 bits (73), Expect = 0.18,   Method: Compositional matrix adjust.
+ Identities = 12/14 (85%), Positives = 13/14 (92%)
+
+Query: 411 EWQNPHGAKRPRPE 424
+           +W NPHGAKRPRPE
+Sbjct: 348 DWGNPHGAKRPRPE 361
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 2,752,415
+Number of extensions: 111496
+Number of successful extensions: 395
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 388
+Number of HSP's successfully gapped: 13
+Length of query: 424
+Length of database: 4,984,196
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 3,972,836
+Effective search space: 1303090208
+Effective search space used: 1303090208
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

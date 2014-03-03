@@ -1,0 +1,225 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10195:Serine/threonine-protein phosphatase PP1
+         (309 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_00174 pep:known supercontig:ASM14691v1:supercont1.1:403386:...   617   0.0  
+SNOT_00084 pep:known supercontig:ASM14691v1:supercont1.1:221054:...   360   e-119
+SNOT_08511 pep:known supercontig:ASM14691v1:supercont1.13:94131:...   263   1e-85
+SNOT_08678 pep:known supercontig:ASM14691v1:supercont1.13:431743...   251   3e-81
+SNOT_11233 pep:known supercontig:ASM14691v1:supercont1.18:811372...   225   1e-68
+SNOT_01794 pep:known supercontig:ASM14691v1:supercont1.2:1520302...   210   1e-63
+SNOT_06712 pep:known supercontig:ASM14691v1:supercont1.10:91290:...   202   4e-61
+SNOT_13986 pep:known supercontig:ASM14691v1:supercont1.29:207775...   144   2e-39
+SNOT_02537 pep:known supercontig:ASM14691v1:supercont1.3:1563406...    30   0.89 
+
+>SNOT_00174 pep:known supercontig:ASM14691v1:supercont1.1:403386:404525:-1
+           gene:SNOG_00174 transcript:SNOT_00174
+           description:"Serine/threonine-protein phosphatase"
+          Length = 321
+
+ Score =  617 bits (1591), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 296/302 (98%), Positives = 301/302 (99%)
+
+Query: 4   QHDVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKICG 63
+           +++VDLDSIIDRLLEVRGSRPGKQVQLLE EIRYLCTKAREIFISQPILLELEAPIKICG
+Sbjct: 3   ENEVDLDSIIDRLLEVRGSRPGKQVQLLETEIRYLCTKAREIFISQPILLELEAPIKICG 62
+
+Query: 64  DIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 123
+           DIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFF+LRG
+Sbjct: 63  DIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFVLRG 122
+
+Query: 124 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSM 183
+           NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSM
+Sbjct: 123 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSM 182
+
+Query: 184 EQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDL 243
+           EQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDL
+Sbjct: 183 EQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDL 242
+
+Query: 244 ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKKQ 303
+           ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKKQ
+Sbjct: 243 ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKKQ 302
+
+Query: 304 KF 305
+           K+
+Sbjct: 303 KY 304
+
+
+>SNOT_00084 pep:known supercontig:ASM14691v1:supercont1.1:221054:223250:-1
+           gene:SNOG_00084 transcript:SNOT_00084
+           description:"Serine/threonine-protein phosphatase"
+          Length = 641
+
+ Score =  360 bits (924), Expect = e-119,   Method: Compositional matrix adjust.
+ Identities = 174/293 (59%), Positives = 208/293 (70%), Gaps = 29/293 (9%)
+
+Query: 7   VDLDSIIDRLLEVR-GSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKICGDI 65
+           +DLD +I RLL+     +  K V L  AEI  +C+ ARE+F+SQP LLEL AP+KI GDI
+Sbjct: 211 MDLDDMIQRLLDAAYAGKVTKTVSLKNAEIFAICSAAREVFLSQPALLELSAPVKIVGDI 270
+
+Query: 66  HGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNH 125
+           HGQY DL+R+FE  GFPP +NYLFLGDYVDRGKQSLETI LLL YK+K+PENFF+LRGNH
+Sbjct: 271 HGQYTDLIRMFEMCGFPPNSNYLFLGDYVDRGKQSLETILLLLCYKLKFPENFFLLRGNH 330
+
+Query: 126 ECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSMEQ 185
+           ECA++ R+YGFYDECKRR NIK+WK F D FN LPIAAI+ +KIF +HGGLSP L+ M+ 
+Sbjct: 331 ECANVTRVYGFYDECKRRCNIKVWKAFVDTFNTLPIAAIVAQKIFCVHGGLSPSLSHMDD 390
+
+Query: 186 IRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDLIC 245
+           IR++ RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V+  FLQ+HD DL  
+Sbjct: 391 IRQIARPTDVPDYGLLNDLLWSDPADMENDWESNERGVSYCFGKKVIMEFLQRHDFDL-- 448
+
+Query: 246 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP 298
+                                     YCGEFDN GA+MSV   LLCSF++LKP
+Sbjct: 449 --------------------------YCGEFDNWGAVMSVSGELLCSFELLKP 475
+
+
+>SNOT_08511 pep:known supercontig:ASM14691v1:supercont1.13:94131:95642:-1
+           gene:SNOG_08511 transcript:SNOT_08511
+           description:"Serine/threonine-protein phosphatase"
+          Length = 322
+
+ Score =  263 bits (671), Expect = 1e-85,   Method: Compositional matrix adjust.
+ Identities = 130/278 (46%), Positives = 178/278 (64%), Gaps = 18/278 (6%)
+
+Query: 29  QLLEAEIRYLCTK----------------AREIFISQPILLELEAPIKICGDIHGQYYDL 72
+           QL E++++ LC K                 R    S+ I   +E    +CGDIHGQ++DL
+Sbjct: 42  QLAESDVQRLCEKVCGLRSPIHCPPYDILTRLFVGSRSIAGGVECAASVCGDIHGQFHDL 101
+
+Query: 73  LRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINR 132
+           + LF+ GG  P+ NYLF+GDYVDRG  S+ET+ LL+A KI+YP    ILRGNHE   I +
+Sbjct: 102 MELFKIGGPNPDTNYLFMGDYVDRGYFSVETVTLLVALKIRYPGRITILRGNHESRQITQ 161
+
+Query: 133 IYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSMEQIRRVMR 191
+           +YGFYDEC R+Y N  +WK FTD F+ LP+ A+ID +IF +HGGLSP +++++ IR + R
+Sbjct: 162 VYGFYDECLRKYGNANVWKYFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDR 221
+
+Query: 192 PTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDLICRAHQVV 251
+             ++P  G +CDLLWSDPD D  GW  + RG  +TFG D+   F   + + L+ RAHQ+V
+Sbjct: 222 IQEVPHEGPMCDLLWSDPD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLVARAHQLV 280
+
+Query: 252 EDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESL 289
+            +GY +   R +VT+FSAPNYC    N  A+M +DE L
+Sbjct: 281 MEGYNWSQDRNVVTIFSAPNYCYRCGNQAAIMEIDEHL 318
+
+
+>SNOT_08678 pep:known supercontig:ASM14691v1:supercont1.13:431743:432809:-1
+           gene:SNOG_08678 transcript:SNOT_08678
+           description:"Serine/threonine-protein phosphatase"
+          Length = 317
+
+ Score =  251 bits (641), Expect = 3e-81,   Method: Compositional matrix adjust.
+ Identities = 123/310 (39%), Positives = 194/310 (62%), Gaps = 17/310 (5%)
+
+Query: 7   VDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKICGDIH 66
+           VDLD  I RL         K+  L E+ +  +C K +E+ + +  ++ + AP+ + GDIH
+Sbjct: 8   VDLDECISRL--------SKKELLAESVVEAICAKTKELLMKESNVVHIRAPVTVVGDIH 59
+
+Query: 67  GQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 126
+           GQ++D++ +F+ GG  P+ NYLFLGDYVDRG  S+ETI LL+  K++YP    ++RGNHE
+Sbjct: 60  GQFFDMMEIFKIGGPCPDTNYLFLGDYVDRGLFSVETISLLVCLKLRYPHRVHLIRGNHE 119
+
+Query: 127 CASINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSMEQ 185
+              + + YGFY EC R+Y N  +W  FTD F+ L ++ +I+++IF +HGGLSP ++S++Q
+Sbjct: 120 SRGVTQSYGFYTECSRKYGNASVWHYFTDMFDFLTLSVVINDQIFCVHGGLSPSIHSIDQ 179
+
+Query: 186 IRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDLIC 245
+           I+ + R  +IP  G + DL+WSDPD +   +S + RG  +TFG  VV +FL+ + M  I 
+Sbjct: 180 IKIIDRFREIPHEGPMADLVWSDPDPERDEFSLSPRGAGYTFGAQVVKKFLEVNGMSHIL 239
+
+Query: 246 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP------- 298
+           RAHQ+ ++GY+     +L T++SAPNYC    N  +++ V ++    F +          
+Sbjct: 240 RAHQLCQEGYQVLYDDRLSTVWSAPNYCYRCGNMASVLEVSDTGERFFNVFDASPDNDVH 299
+
+Query: 299 -AEKKQKFGR 307
+            AE++Q+ G+
+Sbjct: 300 RAEQQQQQGK 309
+
+
+>SNOT_11233 pep:known supercontig:ASM14691v1:supercont1.18:811372:813321:1
+           gene:SNOG_11233 transcript:SNOT_11233
+           description:"Serine/threonine-protein phosphatase"
+          Length = 546
+
+ Score =  225 bits (573), Expect = 1e-68,   Method: Compositional matrix adjust.
+ Identities = 107/278 (38%), Positives = 175/278 (62%), Gaps = 13/278 (4%)
+
+Query: 26  KQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPEA 85
+           ++ +L E +  ++  K  EI  ++P LLE++API +CGD+HGQYYDL++LFE GG P E 
+Sbjct: 81  REGRLTEQQALWIIKKGTEILKAEPNLLEMDAPITVCGDVHGQYYDLMKLFEVGGDPAET 140
+
+Query: 86  NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRYN 145
+            YLFLGDYVDRG  S+E +  L + KI YP   ++LRGNHEC  +   + F  ECK +Y+
+Sbjct: 141 RYLFLGDYVDRGYFSIECVLYLWSLKIWYPNTLWLLRGNHECRHLTDYFTFKLECKHKYS 200
+
+Query: 146 IKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSMEQIRRVMRPTDIPDCGLLCDLL 205
+            ++++   D F  LP+AA+++++   +HGGLSP+L++++ ++ + R  + P  GL+CD+L
+Sbjct: 201 EEVYEACMDSFCALPLAAVMNKQFLCIHGGLSPELHTLDDLKSIDRFREPPTHGLMCDIL 260
+
+Query: 206 WSDPDKDITGWSEND-------RGVSFTFGPDVVSRFLQKHDMDLICRAHQVVEDGYEFF 258
+           W+DP ++      ND       RG S+ F       FL+K+++  I RAH+  + GY  +
+Sbjct: 261 WADPLEEFGQEKTNDFFIHNHVRGCSYFFSYPAACAFLEKNNLLSIIRAHEAQDAGYRMY 320
+
+Query: 259 SKRQ------LVTLFSAPNYCGEFDNAGAMMSVDESLL 290
+            K +      ++T+FSAPNY   ++N  A++  + +++
+Sbjct: 321 RKTRTTGFPSVMTIFSAPNYLDVYNNKAAVLKYENNVM 358
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.325    0.144    0.451 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 3,451,564
+Number of extensions: 148826
+Number of successful extensions: 313
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 301
+Number of HSP's successfully gapped: 12
+Length of query: 309
+Length of database: 5,238,126
+Length adjustment: 93
+Effective length of query: 216
+Effective length of database: 4,085,763
+Effective search space: 882524808
+Effective search space used: 882524808
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (21.6 bits)
+S2: 53 (25.0 bits)

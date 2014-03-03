@@ -1,0 +1,103 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa 
+           9115 sequences; 4,489,794 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGR47434 pep:novel supercontig:GCA_000167675.2:GL985068:541350:5...   363   e-127
+EGR48815 pep:novel supercontig:GCA_000167675.2:GL985064:1016386:...    30   0.84 
+
+>EGR47434 pep:novel supercontig:GCA_000167675.2:GL985068:541350:542165:1
+           gene:TRIREDRAFT_108827 transcript:EGR47434
+           description:"predicted protein"
+          Length = 253
+
+ Score =  363 bits (932), Expect = e-127,   Method: Compositional matrix adjust.
+ Identities = 176/233 (75%), Positives = 197/233 (84%)
+
+Query: 27  FKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYD 86
+           +KL+FCTVCASNQNRSMEAHL+LS+ANYPVISFGTGSLVRLPGPTITQPNVY+FN TSYD
+Sbjct: 21  YKLRFCTVCASNQNRSMEAHLRLSQANYPVISFGTGSLVRLPGPTITQPNVYQFNKTSYD 80
+
+Query: 87  AMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAG 146
+           +MYKELE KD RLY  NGILNML RNR VK GPERWQDW +G+PRL+H+SD+GSEGTE G
+Sbjct: 81  SMYKELEAKDPRLYRNNGILNMLGRNRGVKWGPERWQDWPVGVPRLQHSSDKGSEGTEGG 140
+
+Query: 147 VVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLN 206
+           +VD+VFTCEERCWDAV++DL  RGSPLNRPVHVINVDIKDNHEEA +GGQGILDLANSLN
+Sbjct: 141 IVDVVFTCEERCWDAVIDDLLNRGSPLNRPVHVINVDIKDNHEEAHIGGQGILDLANSLN 200
+
+Query: 207 RAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+            AAAEER  +                  RV +++A WQERWPNLP+TWTLAWF
+Sbjct: 201 AAAAEERGTVGSAAFDSGSAAARASFDERVPEIIAAWQERWPNLPSTWTLAWF 253
+
+
+>EGR48815 pep:novel supercontig:GCA_000167675.2:GL985064:1016386:1019415:-1
+           gene:TRIREDRAFT_121901 transcript:EGR48815
+           description:"hypothetical protein"
+          Length = 868
+
+ Score = 29.6 bits (65), Expect = 0.84,   Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 32/60 (53%), Gaps = 11/60 (18%)
+
+Query: 126 QIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNR---PVHVINV 182
+           +I + RLEH   + ++        +V T EE CW +V ED+ +  +P  +   P +++NV
+Sbjct: 436 RIVMRRLEHVYFKPAQ--------VVKTFEENCWKSVGEDVDSTTTPRAQALEPANLVNV 487
+
+
+  Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 4,489,794
+  Number of sequences in database:  9115
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9115
+Number of Hits to DB: 2,395,619
+Number of extensions: 97101
+Number of successful extensions: 204
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 203
+Number of HSP's successfully gapped: 3
+Length of query: 259
+Length of database: 4,489,794
+Length adjustment: 91
+Effective length of query: 168
+Effective length of database: 3,660,329
+Effective search space: 614935272
+Effective search space used: 614935272
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

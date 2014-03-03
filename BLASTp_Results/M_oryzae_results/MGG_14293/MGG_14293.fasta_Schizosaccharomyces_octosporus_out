@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX74550 pep:novel supercontig:GCA_000150505.2:supercont6.1:2707...    70   4e-14
+EPX73446 pep:novel supercontig:GCA_000150505.2:supercont6.1:1078...    27   2.9  
+EPX74099 pep:novel supercontig:GCA_000150505.2:supercont6.1:1695...    27   5.1  
+
+>EPX74550 pep:novel supercontig:GCA_000150505.2:supercont6.1:2707728:2710444:
+           1 gene:SOCG_02033 transcript:EPX74550 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 362
+
+ Score = 70.5 bits (171), Expect = 4e-14,   Method: Compositional matrix adjust.
+ Identities = 36/61 (59%), Positives = 43/61 (70%), Gaps = 3/61 (4%)
+
+Query: 142 PEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEY 201
+           P  K  GK + +V++ E L ED  PWRKPG DISDYFNYGFDEF+WA Y  KQ  LR ++
+Sbjct: 112 PTAKIDGKNIFEVDL-ESL-EDK-PWRKPGADISDYFNYGFDEFTWAAYCAKQTTLRDDF 168
+
+Query: 202 S 202
+           S
+Sbjct: 169 S 169
+
+
+>EPX73446 pep:novel supercontig:GCA_000150505.2:supercont6.1:107832:110587:1
+           gene:SOCG_02670 transcript:EPX73446 description:"G2/M
+           B-type cyclin Cdc13"
+          Length = 477
+
+ Score = 27.3 bits (59), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 26/99 (26%), Positives = 42/99 (42%), Gaps = 18/99 (18%)
+
+Query: 85  AAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLPPVTKSNFDPYAI--- 141
+           A  P  SK + +R        T+   P    P +++DT+K  D  PV+K    P A+   
+Sbjct: 66  ANAPLASKSTNVRH-------TNAVYPIHR-PQERQDTIKAVDDEPVSKKRRQPSALNSL 117
+
+Query: 142 -------PEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTD 173
+                  P    T KP+T+++ +    E+ A  +K   D
+Sbjct: 118 SSFSAAHPVDMATTKPVTELHAETYAKENEALSKKLKKD 156
+
+
+>EPX74099 pep:novel supercontig:GCA_000150505.2:supercont6.1:1695525:1698207:
+           -1 gene:SOCG_03313 transcript:EPX74099 description:"rRNA
+           processing protein Mis3"
+          Length = 328
+
+ Score = 26.6 bits (57), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 19/33 (57%)
+
+Query: 121 DTVKGSDLPPVTKSNFDPYAIPEHKPTGKPLTQ 153
+           D V+GS     T+  FDPYAI + +   K L++
+Sbjct: 87  DLVEGSMTVKTTRKTFDPYAILDARDMIKLLSR 119
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 875,676
+Number of extensions: 33415
+Number of successful extensions: 114
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 114
+Number of HSP's successfully gapped: 15
+Length of query: 332
+Length of database: 2,302,372
+Length adjustment: 89
+Effective length of query: 243
+Effective length of database: 1,858,618
+Effective search space: 451644174
+Effective search space used: 451644174
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

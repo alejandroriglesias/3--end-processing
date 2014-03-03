@@ -1,0 +1,164 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU41983 pep:novel supercontig:GCA_000149985.1:supercont1.10:622...   240   2e-73
+EDU48462 pep:novel supercontig:GCA_000149985.1:supercont1.5:6982...    31   0.57 
+EDU41736 pep:novel supercontig:GCA_000149985.1:supercont1.1:6714...    29   3.7  
+EDU50106 pep:novel supercontig:GCA_000149985.1:supercont1.7:9763...    29   4.0  
+EDU46521 pep:novel supercontig:GCA_000149985.1:supercont1.3:8993...    28   8.6  
+EDU48913 pep:novel supercontig:GCA_000149985.1:supercont1.5:2087...    27   9.0  
+
+>EDU41983 pep:novel supercontig:GCA_000149985.1:supercont1.10:622394:623925:1
+           gene:PTRG_08932 transcript:EDU41983 description:"mRNA
+           cleavage and polyadenylation factor IA/II complex"
+          Length = 463
+
+ Score =  240 bits (612), Expect = 2e-73,   Method: Compositional matrix adjust.
+ Identities = 153/472 (32%), Positives = 244/472 (51%), Gaps = 27/472 (5%)
+
+Query: 1   MSIPGLGLIPEK------PATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTE 54
+           +S+PGL L  +       P ++A+RT  L    EYRF V+   ++TI L  GTAE  GTE
+Sbjct: 2   ISLPGLNLSSQSVDPHNTPTSTATRTQELAANTEYRFEVAFSHTLTIKLQSGTAEFFGTE 61
+
+Query: 55  LALNVAYTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQXXXXXX 114
+           LA +  YT  G K  I +WHG  L I G  + E VA  ++    +  NLH  L+      
+Sbjct: 62  LAPSTTYTFQGTKGAIFTWHGCKLDIGGQAEGEYVA--EETPMMSAANLHFALENLRDKS 119
+
+Query: 115 XXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXXXXX 174
+                       GPR+LV G    G+TSLV+ L ++A +   QPMVV+ D          
+Sbjct: 120 VASGSVEM----GPRILVVGPENSGKTSLVKILTSYAVKMDRQPMVVNLDPRQGMLSVPG 175
+
+Query: 175 XXSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXX 234
+             SAA F +++D+                +PVK+PLV++YG +  EE R ++K +V    
+Sbjct: 176 SFSAAAFSSIVDI--EEGWGSSPISGPSPIPVKMPLVYHYGLKDPEEGR-VFKPLVTRMA 232
+
+Query: 235 XXXXXXXXDDPAVRSAGMLIDTPPYV-EGKGA--DVLIHIAEELNVNIIVTIDTPSLHTE 291
+                   +D   + AG +ID+P  + +G+    D + HI  E +VN++VTI +  L+++
+Sbjct: 233 LAVTSRLEEDKLSKQAGFIIDSPGAISQGRNGVYDNIEHIVSEFSVNVLVTIGSERLYSD 292
+
+Query: 292 LTQRFSGVKNVL-GEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFT 350
+           L+++F+        E VSV+ +DKS G ++R E +++ +  A I+EYFFG    TL+P +
+Sbjct: 293 LSRKFTSRPGSDPSEAVSVIRIDKSGGCVDRSEEYMKTLRHAQIREYFFGKGDETLAPSS 352
+
+Query: 351 QQVAFDELAIYTSPEA-----SDY--SAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPH 403
+           Q     +L I+   +       DY  + E    +++  P   M + +LA+  A+PND   
+Sbjct: 353 QNADTADLNIFRVSDGHGIIVDDYGVTQERQVFDKV-APTESMENHILAVTTASPNDSQT 411
+
+Query: 404 KIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+            IR + + G++YVA VD  ++++K+L+P+ G+     ++ G WPE    L+G
+Sbjct: 412 VIRDSSIRGYIYVADVDDAKKKVKLLSPLPGQTPGNAMILGSWPEAVEGLVG 463
+
+
+>EDU48462 pep:novel supercontig:GCA_000149985.1:supercont1.5:698263:700068:-1
+           gene:PTRG_05542 transcript:EDU48462
+           description:"conserved hypothetical protein"
+          Length = 397
+
+ Score = 31.2 bits (69), Expect = 0.57,   Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 20/39 (51%)
+
+Query: 246 AVRSAGMLIDTPPYVEGKGADVLIHIAEELNVNIIVTID 284
+           AVRSAGM +DTP +   K A   + I   +N N     D
+Sbjct: 16  AVRSAGMKLDTPGFHHTKTASASVDIMSPVNQNGCFEFD 54
+
+
+>EDU41736 pep:novel supercontig:GCA_000149985.1:supercont1.1:6714131:6716333:
+           -1 gene:PTRG_02298 transcript:EDU41736
+           description:"iron-sulfur clusters transporter atm1,
+           mitochondrial precursor"
+          Length = 692
+
+ Score = 28.9 bits (63), Expect = 3.7,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 17/23 (73%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTL 147
+           P G +V + G +GCG+++++R L
+Sbjct: 461 PAGKKVAIVGPSGCGKSTILRLL 483
+
+
+>EDU50106 pep:novel supercontig:GCA_000149985.1:supercont1.7:976346:978884:1
+           gene:PTRG_07187 transcript:EDU50106
+           description:"conserved hypothetical protein"
+          Length = 813
+
+ Score = 28.9 bits (63), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 10/19 (52%), Positives = 18/19 (94%)
+
+Query: 129 RVLVAGKTGCGRTSLVRTL 147
+           +V+VAG+TG G++SL+R++
+Sbjct: 234 KVMVAGETGLGKSSLIRSI 252
+
+
+>EDU46521 pep:novel supercontig:GCA_000149985.1:supercont1.3:899372:907504:-1
+            gene:PTRG_03683 transcript:EDU46521
+            description:"phenolpthiocerol synthesis polyketide
+            synthase ppsA"
+          Length = 2589
+
+ Score = 27.7 bits (60), Expect = 8.6,   Method: Compositional matrix adjust.
+ Identities = 14/44 (31%), Positives = 19/44 (43%)
+
+Query: 326  LQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAIYTSPEASDY 369
+             Q      I   FF +AKI     T ++AF  L I   P+A  +
+Sbjct: 1508 FQEYAYTDISAGFFEEAKIRFKDHTSRLAFKTLDIEKEPQAQGF 1551
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 4,709,456
+Number of extensions: 191096
+Number of successful extensions: 468
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 463
+Number of HSP's successfully gapped: 13
+Length of query: 455
+Length of database: 5,459,076
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,278,683
+Effective search space: 1531768514
+Effective search space used: 1531768514
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

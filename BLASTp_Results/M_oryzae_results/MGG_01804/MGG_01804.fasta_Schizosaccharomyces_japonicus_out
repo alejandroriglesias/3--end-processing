@@ -1,0 +1,218 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB09385 pep:novel supercontig:GCA_000149845.2:supercont5.3:5639...   653   0.0  
+EEB08093 pep:novel supercontig:GCA_000149845.2:supercont5.2:6724...   106   2e-24
+EEB05970 pep:novel supercontig:GCA_000149845.2:supercont5.1:2204...    32   0.34 
+EEB07743 pep:novel supercontig:GCA_000149845.2:supercont5.1:1597...    30   0.78 
+EEB06057 pep:novel supercontig:GCA_000149845.2:supercont5.1:2019...    30   1.4  
+EEB06591 pep:novel supercontig:GCA_000149845.2:supercont5.3:2039...    29   1.9  
+EEB05400 pep:novel supercontig:GCA_000149845.2:supercont5.1:3396...    28   8.0  
+
+>EEB09385 pep:novel supercontig:GCA_000149845.2:supercont5.3:563937:568583:-1
+           gene:SJAG_04587 transcript:EEB09385 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit Ysh1"
+          Length = 800
+
+ Score =  653 bits (1685), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 337/660 (51%), Positives = 431/660 (65%), Gaps = 73/660 (11%)
+
+Query: 16  DEPVDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLS 75
+           DE VDP D L F  LG GNEVGRSCHIIQ+KGKT+MLDAG HPAY G AALPFFD+FDLS
+Sbjct: 10  DEYVDPNDILHFVNLGAGNEVGRSCHIIQFKGKTIMLDAGIHPAYSGFAALPFFDEFDLS 69
+
+Query: 76  TVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTS 135
+           TVD+LLI+HFH+DHAA+LPYV+ KTNF+GRVFMTHPTKA+ KWL+ D VRV N       
+Sbjct: 70  TVDILLITHFHLDHAAALPYVMQKTNFRGRVFMTHPTKAVCKWLLSDYVRVSNVG---VE 126
+
+Query: 136 QPVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGD 195
+             +Y E+D    F ++EA+DY++T  +  ++ TP+ AGHVLGA M+ IEIAG+ + +TGD
+Sbjct: 127 DQLYDEKDLAAAFERMEAVDYHSTIEVEGVKFTPFHAGHVLGACMYFIEIAGVKLLYTGD 186
+
+Query: 196 YSREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLM 255
+           +SRE+DRHL  AEVP   K ++LI+ESTYG ASH PR+++E  L+  +   +  GGRVLM
+Sbjct: 187 FSREEDRHLNIAEVPPQ-KPNILISESTYGTASHQPRLDKEARLLNLVHTTVRNGGRVLM 245
+
+Query: 256 PVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFR 315
+           PVFALGRAQELLLILDEYW  H E + VPIYYAS+LARKCM VYQTY+  MND I++ F 
+Sbjct: 246 PVFALGRAQELLLILDEYWHSHAELRSVPIYYASSLARKCMAVYQTYINMMNDKIRKAFA 305
+
+Query: 316 ERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLER 375
+           ER                P+ F+YI+SL+++D+FDD+GP V+LASPGMLQNGVSR LLER
+Sbjct: 306 ER---------------NPFIFRYIKSLRSIDKFDDIGPSVILASPGMLQNGVSRTLLER 350
+
+Query: 376 WAPSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVA 435
+           WAP  +N +++TGYSVEGTMAK I  EP +I  +             G+K  IPRR +V 
+Sbjct: 351 WAPDARNTLLLTGYSVEGTMAKLIANEPIEITTL------------SGQK--IPRRMTVE 396
+
+Query: 436 EFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLLSLNATKTEKVKIYSPRN 495
+           E SFAAHVD  +N EFI+ V    +ILVHGEQ N  RLKS L+S    K   VK+Y+P+N
+Sbjct: 397 ELSFAAHVDYIQNSEFIDAVNPDHIILVHGEQTNTGRLKSALMSKYHNKKMDVKVYNPKN 456
+
+Query: 496 CEELRIPFKTDKTAKVVGKLASITPPTRLPTDDDYHLHPQLVTGVLVQNDFKLSLMAPED 555
+           C  L + FK D+  K +G +A      +   ++D      +V+G+LVQ D    LM  E+
+Sbjct: 457 CVPLELHFKGDRIVKALGNIA-----IKKAKEND------IVSGILVQKDSIFKLMVAEN 505
+
+Query: 556 LREYAGLTTTTIVCRQKIMLAAAGVDLIRWALESTFGAVDELPEMRQLHKEVPNGDDMIL 615
+           LR+++ LTTT ++ +Q I    A   L R+ LE  FG +    E R    EV        
+Sbjct: 506 LRDFSDLTTTVVMQKQVIPF-YANFSLARYHLEQMFGNI---KETRNKQNEVQ------- 554
+
+Query: 616 DAKXXXXXXXXXXRPVAGYIVMGSINVRCFGSGEVELEWEGNTMNDGFADAVMAVLLTVE 675
+                             Y+VM ++ +    S ++ LEW GN MND   D+V+A+LL VE
+Sbjct: 555 ------------------YVVMDAVTITQTASSKLVLEWVGNVMNDTIVDSVIAILLGVE 596
+
+
+>EEB08093 pep:novel supercontig:GCA_000149845.2:supercont5.2:672429:676025:1
+           gene:SJAG_03226 transcript:EEB08093
+           description:"cleavage factor two Cft2/polyadenylation
+           factor CPSF-73"
+          Length = 786
+
+ Score =  106 bits (265), Expect = 2e-24,   Method: Compositional matrix adjust.
+ Identities = 96/406 (23%), Positives = 186/406 (45%), Gaps = 64/406 (15%)
+
+Query: 25  LVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQ-----HPAYDGLAALPFFDDFDLSTVDV 79
+           L + C+   +  G S  +++  G  +++D G      HP+ D    +P          D+
+Sbjct: 2   LFYWCIQSKSSCGTS--LLELDGVHILIDPGSDNSLTHPSID---VVP----------DL 46
+
+Query: 80  LLISHFHVDHAASLPYVLSKTNFK-GRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPV 138
+           +L+SH  + H   L Y     N+K   ++ T P   + +  + D+++     SN  +   
+Sbjct: 47  ILLSHSDLAHLGGLVYACRHYNWKTAFIYATLPVINMGRMTMYDAIK-----SNLVTDIT 101
+
+Query: 139 YTEQDHLNTFPQIEAIDYYTTHTI----SSIRITPYPAGHVLGAAMFLIEIAGMNIFFTG 194
+             + D +  F  I  + Y    ++    + I IT + AGH LG  ++ I     ++ +  
+Sbjct: 102 IADVDLV--FDSITTLRYSQPASLMGKCNGINITAFNAGHTLGGTLWSITKESESLVYAV 159
+
+Query: 195 DYSREQDRHLVSAEVPRGVKI-------DVLITESTYGIASHVPRVEREQALMKSITGIL 247
+           D++  +D+HL    +    +I       + L+T++   + S   R +R++AL++++   L
+Sbjct: 160 DWNHSKDKHLNGTALYSNGQILEILTRPNTLVTDANNALISIPARKKRDEALIEAVMSTL 219
+
+Query: 248 NRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMN 307
+            +GG VL+P+ A  R  EL   LD +W   Q     PIY+ S  + K +   ++ +  M 
+Sbjct: 220 LKGGSVLLPMDAASRVIELCYFLDTHWASSQPPLSFPIYFLSYSSAKTIGYAKSMIEWMG 279
+
+Query: 308 DNIKRLF--RERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDL--GPCVMLASPGM 363
+           DNI R F   E L                 +F++I+++ +  +   +  GP V++A+   
+Sbjct: 280 DNIVRDFGMNESLL----------------EFRHIQTITHPSQLSQISPGPKVIIATSLT 323
+
+Query: 364 LQNGVSRELLERWAPSDKNGVVI----TGYSVEGTMAKQIMQEPEQ 405
+           L++G S+ +L    P + N +++    + YS E ++AKQ  +  E+
+Sbjct: 324 LESGFSQNVLLDIMPDNSNNLILLTQKSRYS-ENSLAKQFYRYWER 368
+
+
+>EEB05970 pep:novel supercontig:GCA_000149845.2:supercont5.1:2204737:2207004:
+           1 gene:SJAG_00997 transcript:EEB05970
+           description:"3'-tRNA processing endonuclease Trz2"
+          Length = 755
+
+ Score = 32.0 bits (71), Expect = 0.34,   Method: Compositional matrix adjust.
+ Identities = 43/162 (26%), Positives = 67/162 (41%), Gaps = 19/162 (11%)
+
+Query: 46  KGKTVMLDAGQHPAYDGLAALPFFDDF--DLSTVDVLLISHFHVDHAASLPYVLSK---- 99
+           K   ++LD G+     G  A  F D    +L+ +  + ISH H DH A +  +L      
+Sbjct: 488 KTYNILLDCGE--GTLGRMARQFGDRLTEELAALRWIYISHMHADHHAGVNGILQAWAKV 545
+
+Query: 100 TNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYTEQDHL-NTFPQI-EAIDYY 157
+           T     +F+T P +A Y WL +         S P  + V+     L N  P I EA    
+Sbjct: 546 TEPDQVLFITAP-QAFYNWLSE----YATLDSLPMDRVVFINNTALRNDRPNITEACSRE 600
+
+Query: 158 TTHTISSIRITPY---PAGHVLGAAMFLIEIA-GMNIFFTGD 195
+            +H  +S+ +      PA H   +      ++ G  I ++GD
+Sbjct: 601 ISHLFNSLGLNSLLTVPAIHCAYSFCVAFTLSNGCKIAYSGD 642
+
+
+>EEB07743 pep:novel supercontig:GCA_000149845.2:supercont5.1:1597924:1598892:
+           1 gene:SJAG_02847 transcript:EEB07743
+           description:"hemolysin-III family protein"
+          Length = 322
+
+ Score = 30.4 bits (67), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 16/62 (25%), Positives = 33/62 (53%), Gaps = 1/62 (1%)
+
+Query: 174 HVLGAAMFLIEIAGMNIFFTGDYSREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRV 233
+           H+LGA  FL  I G+    + D +  +DR++V   +     + + ++ + + + +H PRV
+Sbjct: 94  HLLGALYFLYMIHGVRNLLSRDTTTAEDRYVVLVFIVSAFTM-LAMSTAYHTLCNHSPRV 152
+
+Query: 234 ER 235
+            +
+Sbjct: 153 AK 154
+
+
+>EEB06057 pep:novel supercontig:GCA_000149845.2:supercont5.1:2019314:2023061:
+           -1 gene:SJAG_01083 transcript:EEB06057
+           description:"karyopherin Kap113"
+          Length = 689
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 31/61 (50%), Gaps = 5/61 (8%)
+
+Query: 219 ITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQ 278
+           +T+S   +A      E  Q ++ S+T +LNR G+ + P      A+ ++ +L + W   +
+Sbjct: 281 VTQSMINLAPSFDVAESRQLVLDSLTALLNRLGKSVTP-----YAETIVNLLLQLWTDWE 335
+
+Query: 279 E 279
+           E
+Sbjct: 336 E 336
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 3,306,705
+Number of extensions: 130622
+Number of successful extensions: 290
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 281
+Number of HSP's successfully gapped: 10
+Length of query: 829
+Length of database: 2,277,407
+Length adjustment: 96
+Effective length of query: 733
+Effective length of database: 1,809,119
+Effective search space: 1326084227
+Effective search space used: 1326084227
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

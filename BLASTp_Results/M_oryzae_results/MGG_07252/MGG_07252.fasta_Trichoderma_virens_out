@@ -1,0 +1,193 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK16606 pep:novel supercontig:ASM17099v1:90:821134:821756:1 gen...   226   4e-75
+EHK15764 pep:novel supercontig:ASM17099v1:92:1809820:1810925:1 g...    57   4e-10
+EHK26292 pep:novel supercontig:ASM17099v1:2:1225685:1226872:1 ge...    54   5e-09
+EHK17615 pep:novel supercontig:ASM17099v1:88:711396:713797:1 gen...    53   8e-09
+EHK17040 pep:novel supercontig:ASM17099v1:89:455620:456262:-1 ge...    47   3e-07
+EHK26580 pep:novel supercontig:ASM17099v1:2:2155031:2158164:-1 g...    45   6e-06
+EHK26821 pep:novel supercontig:ASM17099v1:1:304667:305929:-1 gen...    43   2e-05
+EHK24525 pep:novel supercontig:ASM17099v1:4:999240:1001756:1 gen...    39   4e-04
+EHK18266 pep:novel supercontig:ASM17099v1:86:34493:35810:-1 gene...    39   7e-04
+EHK18117 pep:novel supercontig:ASM17099v1:87:869855:871790:-1 ge...    38   0.001
+EHK22258 pep:novel supercontig:ASM17099v1:6:473608:474843:-1 gen...    37   0.003
+EHK16842 pep:novel supercontig:ASM17099v1:90:1583103:1584899:1 g...    37   0.003
+EHK17495 pep:novel supercontig:ASM17099v1:88:328818:329629:1 gen...    36   0.003
+EHK17720 pep:novel supercontig:ASM17099v1:88:1059631:1061871:-1 ...    36   0.004
+EHK25440 pep:novel supercontig:ASM17099v1:3:1234983:1235473:-1 g...    35   0.006
+EHK20344 pep:novel supercontig:ASM17099v1:80:354875:356364:-1 ge...    35   0.006
+EHK16797 pep:novel supercontig:ASM17099v1:90:1434395:1436552:-1 ...    35   0.007
+EHK23837 pep:novel supercontig:ASM17099v1:5:2044704:2047926:1 ge...    35   0.007
+EHK22571 pep:novel supercontig:ASM17099v1:6:1507135:1507588:-1 g...    34   0.009
+EHK27252 pep:novel supercontig:ASM17099v1:1:1626921:1628500:-1 g...    35   0.009
+EHK25033 pep:novel supercontig:ASM17099v1:4:2648222:2651392:1 ge...    35   0.013
+EHK25002 pep:novel supercontig:ASM17099v1:4:2574476:2576050:-1 g...    34   0.014
+EHK24824 pep:novel supercontig:ASM17099v1:4:1974538:1976164:-1 g...    33   0.015
+EHK17102 pep:novel supercontig:ASM17099v1:89:673849:676206:1 gen...    34   0.019
+EHK21274 pep:novel supercontig:ASM17099v1:73:168768:170427:-1 ge...    33   0.042
+EHK24489 pep:novel supercontig:ASM17099v1:4:887088:887599:-1 gen...    32   0.051
+EHK21528 pep:novel supercontig:ASM17099v1:70:152265:153796:-1 ge...    32   0.068
+EHK25268 pep:novel supercontig:ASM17099v1:3:654495:657424:1 gene...    31   0.20 
+EHK18960 pep:novel supercontig:ASM17099v1:85:1065928:1066954:1 g...    31   0.24 
+EHK15146 pep:novel supercontig:ASM17099v1:93:66996:68841:-1 gene...    30   0.27 
+EHK23243 pep:novel supercontig:ASM17099v1:5:81426:83287:-1 gene:...    30   0.44 
+EHK24245 pep:novel supercontig:ASM17099v1:4:184297:186980:1 gene...    28   1.6  
+EHK22530 pep:novel supercontig:ASM17099v1:6:1367797:1370651:1 ge...    28   2.7  
+EHK17373 pep:novel supercontig:ASM17099v1:89:1489072:1489821:1 g...    27   3.7  
+EHK15215 pep:novel supercontig:ASM17099v1:92:11308:12783:1 gene:...    27   6.1  
+
+>EHK16606 pep:novel supercontig:ASM17099v1:90:821134:821756:1
+           gene:TRIVIDRAFT_19040 transcript:EHK16606
+           description:"hypothetical protein"
+          Length = 171
+
+ Score =  226 bits (576), Expect = 4e-75,   Method: Compositional matrix adjust.
+ Identities = 108/128 (84%), Positives = 120/128 (93%), Gaps = 1/128 (0%)
+
+Query: 29  EEISAMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEE 88
+           EEI AMK+RVAEMEEEA KLREMQA+L+ QS +L+ + ++ VD+RSIFVGNVDYSASPEE
+Sbjct: 1   EEIQAMKRRVAEMEEEAKKLREMQATLEQQSADLA-DDKESVDARSIFVGNVDYSASPEE 59
+
+Query: 89  IQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPK 148
+           +QAHFQSCGSINRVTILLDKFTGQPKG+AYVEFTEPSLVAQALVLNESVFKGRNIKV+PK
+Sbjct: 60  VQAHFQSCGSINRVTILLDKFTGQPKGYAYVEFTEPSLVAQALVLNESVFKGRNIKVTPK 119
+
+Query: 149 RTNYPGMS 156
+           RTN PGMS
+Sbjct: 120 RTNIPGMS 127
+
+
+>EHK15764 pep:novel supercontig:ASM17099v1:92:1809820:1810925:1
+           gene:TRIVIDRAFT_38275 transcript:EHK15764
+           description:"hypothetical protein"
+          Length = 300
+
+ Score = 56.6 bits (135), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           SR +FVGN+ Y  S E+I   F S G + R  ++ D  TG+PKGF + ++ +    + A+
+Sbjct: 7   SRVVFVGNIPYGLSEEQITDIFSSAGKVERFRLVYDSETGRPKGFGFADYPDTDSASSAV 66
+
+Query: 132 V-LNESVFKGRNIKV 145
+             LNE    GR ++V
+Sbjct: 67  RNLNEYEIMGRKLRV 81
+
+
+>EHK26292 pep:novel supercontig:ASM17099v1:2:1225685:1226872:1
+           gene:TRIVIDRAFT_36431 transcript:EHK26292
+           description:"hypothetical protein"
+          Length = 395
+
+ Score = 53.5 bits (127), Expect = 5e-09,   Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 46/83 (55%), Gaps = 1/83 (1%)
+
+Query: 50  EMQASLDSQSQELSTESRDDVD-SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDK 108
+           E     D+ S +  TE R + + SR +FVGN+ +  + E++  +F+ CG I    +   +
+Sbjct: 184 EAAGKSDAASSKNKTEQRQETNASRKVFVGNLSFKVTEEDLIRNFEKCGEIEWAKLATFE 243
+
+Query: 109 FTGQPKGFAYVEFTEPSLVAQAL 131
+            +G+ KG+ +++F EP   A A+
+Sbjct: 244 DSGKCKGYGWIKFKEPEAAAWAV 266
+
+
+
+ Score = 31.2 bits (69), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 19/30 (63%)
+
+Query: 114 KGFAYVEFTEPSLVAQALVLNESVFKGRNI 143
+           KGFAYV+FT+      A+ L+E+   GR +
+Sbjct: 135 KGFAYVDFTDIGGKVAAIALSETELSGRKL 164
+
+
+>EHK17615 pep:novel supercontig:ASM17099v1:88:711396:713797:1
+           gene:TRIVIDRAFT_80616 transcript:EHK17615
+           description:"hypothetical protein"
+          Length = 556
+
+ Score = 53.1 bits (126), Expect = 8e-09,   Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 41/72 (56%), Gaps = 1/72 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+ Y A+ E +   F  C  ++ V I+ D+   +PKGF YVEF     + +AL L
+Sbjct: 78  TAHLGNLSYDATSESVTDFFADCDVVS-VRIIEDRELQRPKGFGYVEFGNLDGLKKALTL 136
+
+Query: 134 NESVFKGRNIKV 145
+           +   F+GR IK+
+Sbjct: 137 DGQSFEGRMIKI 148
+
+
+>EHK17040 pep:novel supercontig:ASM17099v1:89:455620:456262:-1
+           gene:TRIVIDRAFT_41964 transcript:EHK17040
+           description:"hypothetical protein"
+          Length = 178
+
+ Score = 47.4 bits (111), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 30/48 (62%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+           +++VGN+ +  + E++   F  CG I R+ + LD+F   P GF +VE+
+Sbjct: 57  TLYVGNLSFYTTEEQVYELFSKCGEIKRLIMGLDRFNKTPCGFCFVEY 104
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 1,524,701
+Number of extensions: 52569
+Number of successful extensions: 276
+Number of sequences better than 10.0: 49
+Number of HSP's gapped: 273
+Number of HSP's successfully gapped: 57
+Length of query: 193
+Length of database: 5,836,678
+Length adjustment: 89
+Effective length of query: 104
+Effective length of database: 4,732,544
+Effective search space: 492184576
+Effective search space used: 492184576
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 51 (24.3 bits)

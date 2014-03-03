@@ -1,0 +1,137 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN96666 pep:novel supercontig:ASM14694v1:CH476622:1331421:13337...   226   1e-64
+EDN96700 pep:novel supercontig:ASM14694v1:CH476622:1420470:14231...    31   0.90 
+
+>EDN96666 pep:novel supercontig:ASM14694v1:CH476622:1331421:1333758:-1
+           gene:SS1G_01592 transcript:EDN96666
+           description:"hypothetical protein"
+          Length = 618
+
+ Score =  226 bits (575), Expect = 1e-64,   Method: Compositional matrix adjust.
+ Identities = 109/138 (78%), Positives = 120/138 (86%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           VAEDYK ALE LT N+R EISNLT+IA+ENTE A AI+E L +HIKQ  P +KLPA Y+L
+Sbjct: 10  VAEDYKKALEDLTMNSRYEISNLTVIAKENTEHALAISEALKNHIKQTSPQKKLPAFYVL 69
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+           DS+VKNVGTPYTLFFGR+LY TFMEAYA V +  RRKMDEMLKTWKEPVPGS+DTRPVFP
+Sbjct: 70  DSVVKNVGTPYTLFFGRQLYSTFMEAYALVSHDVRRKMDEMLKTWKEPVPGSIDTRPVFP 129
+
+Query: 130 PEVVRPIENALIKARTSA 147
+           PEV RPIENALIKARTSA
+Sbjct: 130 PEVTRPIENALIKARTSA 147
+
+
+
+ Score =  202 bits (515), Expect = 2e-56,   Method: Compositional matrix adjust.
+ Identities = 115/272 (42%), Positives = 150/272 (55%), Gaps = 41/272 (15%)
+
+Query: 422 LLAALRSKGILSAGPLPPVVAPTPVS------------HAPGLPSVIAPPVAPA-HVEIM 468
+           LL  LR+ G+L   P  P VA TP+                 LP + APPV+    +EI 
+Sbjct: 362 LLERLRAAGML---PSVPAVASTPIQPPSVLGGTMPAGFPASLPFISAPPVSRTPLIEIP 418
+
+Query: 469 GDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARI 528
+            D+ L  +SLK  R +L+++LY+ LG PCTQCGRRF++D  GR  KTAHMDWHFRV  R+
+Sbjct: 419 NDVVLKPASLKMFRPHLISSLYEKLGAPCTQCGRRFQSDAEGRKKKTAHMDWHFRVHQRM 478
+
+Query: 529 AEAEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXX 588
+           AEAEK+GQHRS+YVD  DW+ SRE  D                                 
+Sbjct: 479 AEAEKRGQHRSWYVDEMDWIKSREPEDDLVNDTLDNTHSVASSSSAANAKPKL------- 531
+
+Query: 589 XXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNR 648
+                        +++ VPD  +   SVCPICQE+FE+KWLD+AQE+VWMDA +   G+R
+Sbjct: 532 -------------QYLAVPDDPALAGSVCPICQEKFEMKWLDDAQEFVWMDATK--VGDR 576
+
+Query: 649 VFHASCHSEVTGRGATLTPPVGMVLGKRKADD 680
+           ++H SC++E T    T  P    +LGKRKA+D
+Sbjct: 577 IYHGSCYAEATKDRGTPDP---TILGKRKAED 605
+
+
+
+ Score = 39.7 bits (91), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/64 (29%), Positives = 35/64 (54%)
+
+Query: 255 SIEALSNDVLQLIAATRAEIARNPYDTSQKPMXXXXXXXXXXXXXGNLPRDQLVVVKSRI 314
+           S++AL+ D+  LI +++AE  ++PYD S +                 LP DQ+ ++K ++
+Sbjct: 198 SVDALNRDISYLITSSKAEFTQSPYDGSIQTRLKALLDLQTILQTQRLPPDQIAMIKDQV 257
+
+Query: 315 DELS 318
+            +LS
+Sbjct: 258 AQLS 261
+
+
+>EDN96700 pep:novel supercontig:ASM14694v1:CH476622:1420470:1423125:1
+          gene:SS1G_01626 transcript:EDN96700
+          description:"hypothetical protein"
+          Length = 694
+
+ Score = 30.8 bits (68), Expect = 0.90,   Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 25/46 (54%)
+
+Query: 29 ISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVK 74
+          I +LT +  +N +   A+ + L  H K+     KL  LY++DS+ +
+Sbjct: 28 IQSLTNLCTQNIQQESALVQKLYVHFKKTPGTHKLGTLYVVDSVTR 73
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 4,202,226
+Number of extensions: 172661
+Number of successful extensions: 715
+Number of sequences better than 10.0: 20
+Number of HSP's gapped: 701
+Number of HSP's successfully gapped: 26
+Length of query: 695
+Length of database: 3,721,581
+Length adjustment: 98
+Effective length of query: 597
+Effective length of database: 2,724,431
+Effective search space: 1626485307
+Effective search space used: 1626485307
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

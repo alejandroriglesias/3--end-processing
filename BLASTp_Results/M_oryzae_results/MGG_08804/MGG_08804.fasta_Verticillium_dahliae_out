@@ -1,0 +1,170 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY16825 pep:novel supercontig:GCA_000150675.1:supercont1.18:621...   364   e-121
+EGY22585 pep:novel supercontig:GCA_000150675.1:supercont1.6:1548...    30   1.0  
+EGY23706 pep:novel supercontig:GCA_000150675.1:supercont1.9:5891...    28   5.3  
+EGY14767 pep:novel supercontig:GCA_000150675.1:supercont1.11:938...    28   6.7  
+EGY13865 pep:novel supercontig:GCA_000150675.1:supercont1.1:1796...    28   6.7  
+EGY17922 pep:novel supercontig:GCA_000150675.1:supercont1.2:2414...    27   8.9  
+
+>EGY16825 pep:novel supercontig:GCA_000150675.1:supercont1.18:621493:623895:1
+           gene:VDAG_07989 transcript:EGY16825 description:"Clp1
+           protein"
+          Length = 459
+
+ Score =  364 bits (935), Expect = e-121,   Method: Compositional matrix adjust.
+ Identities = 204/466 (43%), Positives = 269/466 (57%), Gaps = 18/466 (3%)
+
+Query: 1   MSIPGLGL--IPEKPAT----SASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTE 54
+           MSIPGLGL     +PA     S +R   L+   E+RF V   + + + L  G AE+DGTE
+Sbjct: 1   MSIPGLGLETFAAQPAAPTGASTTRVIKLDQLSEWRFEVGFSSEVEVKLVAGVAEKDGTE 60
+
+Query: 55  LALNVAYTLSGVKSKILSWHGANLSIEGITDHESVAG---PDDAANTAHLNLHAFLQXXX 111
+           LA +  Y  SGVK+KIL++ G  L + G  D E +A    P D+   ++LNLH  L    
+Sbjct: 61  LAAHHVYRFSGVKTKILTFMGCQLEVTGTCDDEFLADFPKPTDSPMNSYLNLHFKLHALR 120
+
+Query: 112 XXXXXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXX 171
+                          GPRV++ G    G+TS+ RTL ++ATR   QP++V+ D       
+Sbjct: 121 QHAAAAKA------EGPRVMICGPPNTGKTSVARTLTSYATRLEGQPLMVNMDPKEGMLS 174
+
+Query: 172 XXXXXSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVN 231
+                SA+   +++D+                VPVKLPL FYYGR    ED   Y  +V+
+Sbjct: 175 LPGTLSASALASILDIEAVDGWGTTPTSGPSQVPVKLPLAFYYGRTSPAEDPKKYLELVS 234
+
+Query: 232 XXXXXXXXXXXDDPAVRSAGMLIDTPPYVEGKGA--DVLIHIAEELNVNIIVTIDTPSLH 289
+                       DP V+S+GM+IDTP   E   A  DVL+HIAEEL+ NII+ + +  ++
+Sbjct: 235 RLAGSVTSRFTQDPDVKSSGMIIDTPSMDEKSKASMDVLVHIAEELSANIILVLGSSRVN 294
+
+Query: 290 TELTQRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPF 349
+           TEL++RF+  +  LGE + V+ LD+S GV  RDEG++Q   EASI+EYFFG+   TLSP 
+Sbjct: 295 TELSRRFANERTGLGEQIHVIHLDRSEGVATRDEGYMQQACEASIREYFFGNIGRTLSPA 354
+
+Query: 350 TQQVAFDELAIYTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAP 409
+           TQQV FD L IY   + S Y      L  + +P   MAHW LA+M A+  D P  IR A 
+Sbjct: 355 TQQVDFDSLTIYRLGDYSVYGNGDEGL-MLSEPSGLMAHWTLAVMYASTKDSPETIRNAN 413
+
+Query: 410 VSGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+           V G+VYVA VDKERR+MK+LAPVSGRLGD+PL+WGKWPEP +NLLG
+Sbjct: 414 VMGYVYVAEVDKERRKMKVLAPVSGRLGDRPLLWGKWPEPFVNLLG 459
+
+
+>EGY22585 pep:novel supercontig:GCA_000150675.1:supercont1.6:1548343:1550284:
+           1 gene:VDAG_04023 transcript:EGY22585
+           description:"iron-sulfur clusters transporter atm1"
+          Length = 628
+
+ Score = 30.4 bits (67), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 11/23 (47%), Positives = 17/23 (73%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTL 147
+           P G +V V G +GCG+++L+R L
+Sbjct: 387 PAGKKVAVVGPSGCGKSTLLRLL 409
+
+
+>EGY23706 pep:novel supercontig:GCA_000150675.1:supercont1.9:589101:590057:1
+           gene:VDAG_05144 transcript:EGY23706
+           description:"hypothetical protein"
+          Length = 238
+
+ Score = 27.7 bits (60), Expect = 5.3,   Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 34/69 (49%), Gaps = 5/69 (7%)
+
+Query: 348 PFTQQVAFDELAIYT--SPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPND---PP 402
+           P  Q V F E A+ T  SP+ S  + +  A   +P  L E+   V  + DA+P       
+Sbjct: 53  PVGQAVLFAEEAVQTATSPKVSSLTPDVAAPAALPYGLLEIGKTVATLSDASPQTDLLAH 112
+
+Query: 403 HKIRYAPVS 411
+           HK++ AP+S
+Sbjct: 113 HKLKKAPLS 121
+
+
+>EGY14767 pep:novel supercontig:GCA_000150675.1:supercont1.11:938722:940408:-
+           1 gene:VDAG_05931 transcript:EGY14767
+           description:"hypothetical protein"
+          Length = 446
+
+ Score = 27.7 bits (60), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 25/53 (47%), Gaps = 4/53 (7%)
+
+Query: 334 IKEYFFGDAKITLSPFTQQVAFDELAIYTSPEASDYSAEPGALERI----PQP 382
+           IKE  F D K+ ++      +FD + I    E S+ +AEP    +     PQP
+Sbjct: 94  IKELDFQDCKVRVTNVDSMASFDNIVIQVIGETSNKAAEPQKFVQTFVLAPQP 146
+
+
+>EGY13865 pep:novel supercontig:GCA_000150675.1:supercont1.1:1796658:179793
+          3:-1 gene:VDAG_00547 transcript:EGY13865
+          description:"cyclin domain-containing protein"
+          Length = 297
+
+ Score = 27.7 bits (60), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 31/65 (47%), Gaps = 7/65 (10%)
+
+Query: 7  GLIPEKPATSAS-------RTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALNV 59
+          G++ E P ++ +       R + +EP   Y FS +  AS+ +    G+  R   +L+   
+Sbjct: 29 GMLLELPQSTTAQANVILARYWLVEPPMAYEFSDASAASLYLVAKMGSFPRSQRDLSNVY 88
+
+Query: 60 AYTLS 64
+          AY LS
+Sbjct: 89 AYLLS 93
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 4,386,989
+Number of extensions: 181403
+Number of successful extensions: 477
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 473
+Number of HSP's successfully gapped: 11
+Length of query: 455
+Length of database: 4,984,196
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 3,962,301
+Effective search space: 1418503758
+Effective search space used: 1418503758
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

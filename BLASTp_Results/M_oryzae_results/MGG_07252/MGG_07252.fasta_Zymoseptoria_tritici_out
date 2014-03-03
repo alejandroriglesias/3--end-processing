@@ -1,0 +1,201 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P77177 pep:known chromosome:MG2:12:137291:138278:-1 gene:M...   208   9e-68
+Mycgr3P108180 pep:known chromosome:MG2:2:2468167:2470305:1 gene:...    67   3e-13
+Mycgr3P85600 pep:known chromosome:MG2:4:821121:823821:1 gene:Myc...    58   2e-10
+Mycgr3P102491 pep:known chromosome:MG2:1:3051529:3053904:1 gene:...    57   4e-10
+Mycgr3P30158 pep:known chromosome:MG2:1:4807299:4808264:1 gene:M...    54   2e-09
+Mycgr3P31509 pep:known chromosome:MG2:1:2238027:2239310:1 gene:M...    54   3e-09
+Mycgr3P73484 pep:known chromosome:MG2:6:2338654:2339863:-1 gene:...    53   7e-09
+Mycgr3P102763 pep:known chromosome:MG2:1:4341871:4343564:-1 gene...    50   8e-08
+Mycgr3P28846 pep:known chromosome:MG2:6:679008:679542:-1 gene:My...    47   4e-07
+Mycgr3P104484 pep:known chromosome:MG2:5:1190080:1191397:-1 gene...    43   8e-06
+Mycgr3P36576 pep:known chromosome:MG2:2:3435842:3437799:-1 gene:...    44   1e-05
+Mycgr3P56466 pep:known chromosome:MG2:3:1121577:1124634:1 gene:M...    39   3e-04
+Mycgr3P52616 pep:known chromosome:MG2:1:2024742:2028873:-1 gene:...    38   0.001
+Mycgr3P101997 pep:known chromosome:MG2:1:447066:448162:-1 gene:M...    37   0.001
+Mycgr3P88390 pep:known chromosome:MG2:13:222493:223410:1 gene:My...    37   0.001
+Mycgr3P69454 pep:known chromosome:MG2:3:746442:748886:-1 gene:My...    36   0.004
+Mycgr3P70735 pep:known chromosome:MG2:4:495016:495872:1 gene:Myc...    35   0.005
+Mycgr3P35430 pep:known chromosome:MG2:2:2831842:2833299:-1 gene:...    35   0.010
+Mycgr3P100220 pep:known chromosome:MG2:5:1298633:1299569:1 gene:...    34   0.013
+Mycgr3P31414 pep:known chromosome:MG2:1:3907116:3909410:1 gene:M...    34   0.015
+Mycgr3P65137 pep:known chromosome:MG2:1:966520:968989:-1 gene:My...    33   0.031
+Mycgr3P30795 pep:known chromosome:MG2:6:1593126:1593470:-1 gene:...    31   0.061
+Mycgr3P107156 pep:known chromosome:MG2:1:2590990:2593136:-1 gene...    32   0.081
+Mycgr3P49733 pep:known chromosome:MG2:11:83426:87920:1 gene:Mycg...    31   0.20 
+Mycgr3P46623 pep:known chromosome:MG2:8:330979:332136:-1 gene:My...    29   0.62 
+Mycgr3P101124 pep:known chromosome:MG2:9:137659:139163:-1 gene:M...    28   1.7  
+Mycgr3P85217 pep:known chromosome:MG2:3:1835237:1838858:1 gene:M...    28   1.7  
+Mycgr3P97226 pep:known chromosome:MG2:12:1365442:1366917:-1 gene...    28   2.1  
+Mycgr3P70762 pep:known chromosome:MG2:4:586501:587925:-1 gene:My...    27   3.3  
+Mycgr3P28783 pep:known chromosome:MG2:7:2555130:2555451:-1 gene:...    26   3.3  
+Mycgr3P73322 pep:known chromosome:MG2:6:1801360:1802162:1 gene:M...    26   3.7  
+Mycgr3P49688 pep:known chromosome:MG2:11:950274:950978:1 gene:My...    26   4.8  
+Mycgr3P101108 pep:known chromosome:MG2:8:2211904:2215129:1 gene:...    27   5.5  
+Mycgr3P99129 pep:known chromosome:MG2:2:1848922:1850904:1 gene:M...    26   5.9  
+Mycgr3P77869 pep:known chromosome:MG2:13:669641:671484:-1 gene:M...    26   7.2  
+
+>Mycgr3P77177 pep:known chromosome:MG2:12:137291:138278:-1 gene:Mycgr3G77177
+           transcript:Mycgr3T77177 description:"Putative
+           uncharacterized protein"
+          Length = 199
+
+ Score =  208 bits (529), Expect = 9e-68,   Method: Compositional matrix adjust.
+ Identities = 106/158 (67%), Positives = 125/158 (79%), Gaps = 3/158 (1%)
+
+Query: 1   MADVE--KKEEPVATEQHENXXXXXXXXXXEEISAMKKRVAEMEEEAAKLREMQASLDSQ 58
+           MAD E  K+EE    EQ +           EEI+AMKKRV EME EAAKLRE+QA++DSQ
+Sbjct: 1   MADTEDVKREEREEDEQLDRQQEDDDLGDEEEIAAMKKRVEEMEAEAAKLRELQANIDSQ 60
+
+Query: 59  SQELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAY 118
+           +  L  E+++D+D+RS+FVGNVDY ASPEEIQAHFQSCGSINRVTILLDKFTG PKG+AY
+Sbjct: 61  ADNLR-ENKEDIDARSVFVGNVDYGASPEEIQAHFQSCGSINRVTILLDKFTGHPKGYAY 119
+
+Query: 119 VEFTEPSLVAQALVLNESVFKGRNIKVSPKRTNYPGMS 156
+           VEF+EP+LV  ALVLN+S F+GR IKV PKRTN PGM+
+Sbjct: 120 VEFSEPNLVTPALVLNDSTFRGRAIKVVPKRTNLPGMT 157
+
+
+>Mycgr3P108180 pep:known chromosome:MG2:2:2468167:2470305:1 gene:Mycgr3G108180
+           transcript:Mycgr3T108180 description:"Putative
+           uncharacterized protein"
+          Length = 566
+
+ Score = 66.6 bits (161), Expect = 3e-13,   Method: Compositional matrix adjust.
+ Identities = 32/73 (43%), Positives = 45/73 (61%), Gaps = 1/73 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+DY+ +  +I+     C S+  V I+ DK   +PKGF YVEF  P  + QAL  
+Sbjct: 102 TAHLGNLDYNVTSVDIEEFLSDC-SVTTVRIMEDKVDRKPKGFGYVEFGSPEGLRQALTK 160
+
+Query: 134 NESVFKGRNIKVS 146
+           +ES F GRNIK+S
+Sbjct: 161 SESSFMGRNIKIS 173
+
+
+>Mycgr3P85600 pep:known chromosome:MG2:4:821121:823821:1 gene:Mycgr3G85600
+           transcript:Mycgr3T85600 description:"Putative
+           uncharacterized protein"
+          Length = 770
+
+ Score = 57.8 bits (138), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 47/84 (55%), Gaps = 4/84 (4%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           S  +FV N+ ++   E++QA F S G++  V + LD  TG  KGF Y++F+ P    QA 
+Sbjct: 246 SMRLFVRNLPFNVQKEDLQAEFASYGNLEEVHVPLDPKTGAGKGFGYIQFSNPDSAEQAF 305
+
+Query: 132 VLNES-VFKGRNIKVSP---KRTN 151
+           V  +   F+GR + V P   KR N
+Sbjct: 306 VDRDGQTFQGRLLHVLPGSAKREN 329
+
+
+>Mycgr3P102491 pep:known chromosome:MG2:1:3051529:3053904:1 gene:Mycgr3G102491
+           transcript:Mycgr3T102491 description:"Putative
+           uncharacterized protein"
+          Length = 505
+
+ Score = 57.0 bits (136), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 32/116 (27%), Positives = 64/116 (55%), Gaps = 5/116 (4%)
+
+Query: 46  AKLREMQASLDSQSQELSTESRDD-VDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTI 104
+           +K R+ +A     +++  T++ D+   + ++FVGN+ ++   E +   F+  G +  V I
+Sbjct: 214 SKKRKAEAEPAHATKKNKTDAVDESAPTGNLFVGNISWNVDEEWLTREFEEFGELAGVRI 273
+
+Query: 105 LLDKFTGQPKGFAYVEFTEPSLVAQAL-VLNESVFKGRNIKV---SPKRTNYPGMS 156
+           + D+ +G+ KGF YVEF++P    +AL   N +   GR +++   +P+  + PG  
+Sbjct: 274 ITDRDSGRSKGFGYVEFSDPQNAKKALEAKNGAELDGRELRLDFSTPRTNDGPGAG 329
+
+
+
+ Score = 51.6 bits (122), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 40/79 (50%), Gaps = 4/79 (5%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           ++FVGN+ + A    I  +FQ  G+I  V +  D+ TG PKGF YVE +       A   
+Sbjct: 349 TLFVGNISFDADENAITEYFQEHGTIKAVRLPTDRETGAPKGFGYVEMSSIEEAQAAF-- 406
+
+Query: 134 NESVFKGRNIKVSPKRTNY 152
+             +  +G +I   P R +Y
+Sbjct: 407 --TALQGADIAGRPIRLDY 423
+
+
+>Mycgr3P30158 pep:known chromosome:MG2:1:4807299:4808264:1 gene:Mycgr3G30158
+           transcript:Mycgr3T30158 description:"Putative
+           uncharacterized protein"
+          Length = 298
+
+ Score = 54.3 bits (129), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 27/69 (39%), Positives = 40/69 (57%), Gaps = 1/69 (1%)
+
+Query: 71  DSRSIFVGNVDYSASPEE-IQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQ 129
+           + R IF+GN+ + A  EE +   F  CG++  V ++ D  T   KG AYV+FT+ + V  
+Sbjct: 151 NHRCIFIGNLGFPADVEEGLWRTFSKCGTVESVRVIRDSTTRVGKGIAYVQFTDENAVEA 210
+
+Query: 130 ALVLNESVF 138
+           AL+ NE  F
+Sbjct: 211 ALLYNEKKF 219
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 1,238,710
+Number of extensions: 42617
+Number of successful extensions: 234
+Number of sequences better than 10.0: 57
+Number of HSP's gapped: 230
+Number of HSP's successfully gapped: 68
+Length of query: 193
+Length of database: 4,742,065
+Length adjustment: 88
+Effective length of query: 105
+Effective length of database: 3,780,137
+Effective search space: 396914385
+Effective search space used: 396914385
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 50 (23.9 bits)

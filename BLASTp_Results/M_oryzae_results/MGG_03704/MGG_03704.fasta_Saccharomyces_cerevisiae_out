@@ -1,0 +1,133 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YNL222W pep:known chromosome:SacCer_Apr2011:XIV:229094:229714:1 ...   193   3e-61
+YJR042W pep:known chromosome:SacCer_Apr2011:X:514055:516289:1 ge...    28   2.1  
+YHR023W pep:known chromosome:SacCer_Apr2011:VIII:151666:157452:1...    26   6.2  
+
+>YNL222W pep:known chromosome:SacCer_Apr2011:XIV:229094:229714:1
+           gene:YNL222W transcript:YNL222W
+           description:"Transcription/RNA-processing factor that
+           associates with TFIIB and cleavage/polyadenylation
+           factor Pta1p\x3b exhibits phosphatase activity on
+           serine-5 of the RNA polymerase II C-terminal domain\x3b
+           affects start site selection in vivo"
+          Length = 206
+
+ Score =  193 bits (491), Expect = 3e-61,   Method: Compositional matrix adjust.
+ Identities = 105/232 (45%), Positives = 137/232 (59%), Gaps = 35/232 (15%)
+
+Query: 29  LKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAM 88
+           LKFCTVCASN NRSME+H  L +A Y V S+GTGS VRLPG +I +PNVY F  T Y+ +
+Sbjct: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF-GTPYNDI 67
+
+Query: 89  YKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVV 148
+           Y +L  +    Y +NG+L ML+RNR +K+ PE+WQ                 E T+  V 
+Sbjct: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQ-----------------ESTK--VF 108
+
+Query: 149 DIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRA 208
+           D VFTCEERC+DAV EDL  RG  LN+ VHVINVDIKD+ E A +G + IL+LA+ LN  
+Sbjct: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+
+Query: 209 AAE-ERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+             + E+D I                   + D+L EWQ     LP+ +  +++
+Sbjct: 169 IEQCEKDDIPFEDC--------------IMDILTEWQSSHSQLPSLYAPSYY 206
+
+
+>YJR042W pep:known chromosome:SacCer_Apr2011:X:514055:516289:1 gene:YJR042W
+           transcript:YJR042W description:"Subunit of the Nup84p
+           subcomplex of the nuclear pore complex (NPC)\x3b
+           required for assembly of the subcomplex and also for
+           formation of the nucleocytoplasmic Gsp1p concentration
+           gradient that plays a role in nuclear trafficking\x3b
+           the Nup84 subcomplex h /.../ole in transcription
+           elongation"
+          Length = 744
+
+ Score = 27.7 bits (60), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 20/76 (26%), Positives = 33/76 (43%), Gaps = 5/76 (6%)
+
+Query: 98  RLYTANGILNMLERNRNVKRGPERWQDWQIG-----IPRLEHASDRGSEGTEAGVVDIVF 152
+           R Y  + +L +    R + +    W +   G     IP LE +++      EA VVDI  
+Sbjct: 329 RDYIEDFLLVIGGNQRKILQYSRTWYESFCGFLLYYIPSLELSAEYLQMSLEANVVDITN 388
+
+Query: 153 TCEERCWDAVVEDLHA 168
+             E+ C D +   +H+
+Sbjct: 389 DWEQPCVDIISGKIHS 404
+
+
+>YHR023W pep:known chromosome:SacCer_Apr2011:VIII:151666:157452:1 gene:YHR023W
+            transcript:YHR023W description:"Type II myosin heavy
+            chain, required for wild-type cytokinesis and cell
+            separation\x3b localizes to the actomyosin ring\x3b binds
+            to myosin light chains Mlc1p and Mlc2p through its IQ1
+            and IQ2 motifs respectively"
+          Length = 1928
+
+ Score = 26.2 bits (56), Expect = 6.2,   Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 27/55 (49%), Gaps = 2/55 (3%)
+
+Query: 153  TCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNR 207
+            T  ER  +A +E LH++ + L + +  +N DI       ++  +  L L N + R
+Sbjct: 967  TIRER--EATLEKLHSKNNELIKQISDLNCDISKEQSSQSLIKESKLKLENEIKR 1019
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,479,111
+Number of extensions: 59404
+Number of successful extensions: 125
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 122
+Number of HSP's successfully gapped: 5
+Length of query: 259
+Length of database: 3,010,216
+Length adjustment: 88
+Effective length of query: 171
+Effective length of database: 2,421,320
+Effective search space: 414045720
+Effective search space used: 414045720
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

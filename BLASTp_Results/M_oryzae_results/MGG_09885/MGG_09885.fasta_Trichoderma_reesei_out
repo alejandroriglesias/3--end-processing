@@ -1,0 +1,211 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa 
+           9115 sequences; 4,489,794 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGR51003 pep:novel supercontig:GCA_000167675.2:GL985059:1739892:...   265   5e-87
+EGR46910 pep:novel supercontig:GCA_000167675.2:GL985071:754123:7...    76   1e-17
+EGR45024 pep:novel supercontig:GCA_000167675.2:GL985082:85482:86...    55   8e-09
+EGR50767 pep:novel supercontig:GCA_000167675.2:GL985059:1815713:...    54   1e-08
+EGR50641 pep:novel supercontig:GCA_000167675.2:GL985059:797681:7...    52   1e-08
+EGR52553 pep:novel supercontig:GCA_000167675.2:GL985056:3283446:...    53   3e-08
+EGR46523 pep:novel supercontig:GCA_000167675.2:GL985072:320479:3...    49   2e-07
+EGR45566 pep:novel supercontig:GCA_000167675.2:GL985078:431215:4...    47   3e-07
+EGR51696 pep:novel supercontig:GCA_000167675.2:GL985057:826942:8...    50   3e-07
+EGR52332 pep:novel supercontig:GCA_000167675.2:GL985056:1702211:...    49   5e-07
+EGR52452 pep:novel supercontig:GCA_000167675.2:GL985056:2599230:...    49   6e-07
+EGR47807 pep:novel supercontig:GCA_000167675.2:GL985067:610357:6...    48   1e-06
+EGR51224 pep:novel supercontig:GCA_000167675.2:GL985058:1383556:...    47   1e-06
+EGR50447 pep:novel supercontig:GCA_000167675.2:GL985060:1150085:...    48   1e-06
+EGR48641 pep:novel supercontig:GCA_000167675.2:GL985064:916812:9...    48   1e-06
+EGR50951 pep:novel supercontig:GCA_000167675.2:GL985059:1405880:...    46   2e-06
+EGR48835 pep:novel supercontig:GCA_000167675.2:GL985064:1140023:...    48   2e-06
+EGR47358 pep:novel supercontig:GCA_000167675.2:GL985069:779763:7...    48   2e-06
+EGR52496 pep:novel supercontig:GCA_000167675.2:GL985056:2849547:...    47   2e-06
+EGR45845 pep:novel supercontig:GCA_000167675.2:GL985076:366918:3...    46   5e-06
+EGR51272 pep:novel supercontig:GCA_000167675.2:GL985058:1778705:...    44   1e-05
+EGR49067 pep:novel supercontig:GCA_000167675.2:GL985063:87139:90...    45   1e-05
+EGR52845 pep:novel supercontig:GCA_000167675.2:GL985056:1585928:...    40   1e-04
+EGR47415 pep:novel supercontig:GCA_000167675.2:GL985068:388332:3...    41   3e-04
+EGR51844 pep:novel supercontig:GCA_000167675.2:GL985057:1957338:...    40   3e-04
+EGR46378 pep:novel supercontig:GCA_000167675.2:GL985073:615164:6...    38   0.001
+EGR44578 pep:novel supercontig:GCA_000167675.2:GL985087:93764:95...    37   0.003
+EGR50050 pep:novel supercontig:GCA_000167675.2:GL985061:1407038:...    37   0.006
+EGR52685 pep:novel supercontig:GCA_000167675.2:GL985056:456385:4...    34   0.008
+EGR48054 pep:novel supercontig:GCA_000167675.2:GL985066:280094:2...    36   0.008
+EGR46817 pep:novel supercontig:GCA_000167675.2:GL985071:49229:52...    35   0.026
+EGR51986 pep:novel supercontig:GCA_000167675.2:GL985057:1057243:...    34   0.040
+EGR45921 pep:novel supercontig:GCA_000167675.2:GL985076:345819:3...    33   0.042
+EGR53108 pep:novel supercontig:GCA_000167675.2:GL985056:3429024:...    34   0.049
+EGR46724 pep:novel supercontig:GCA_000167675.2:GL985071:129930:1...    32   0.10 
+EGR50730 pep:novel supercontig:GCA_000167675.2:GL985059:1564554:...    33   0.11 
+EGR49003 pep:novel supercontig:GCA_000167675.2:GL985063:1069777:...    32   0.16 
+EGR50020 pep:novel supercontig:GCA_000167675.2:GL985061:1140831:...    31   0.28 
+EGR48571 pep:novel supercontig:GCA_000167675.2:GL985064:446941:4...    30   0.65 
+EGR51400 pep:novel supercontig:GCA_000167675.2:GL985058:666129:6...    29   1.1  
+EGR49241 pep:novel supercontig:GCA_000167675.2:GL985063:1330928:...    29   1.2  
+EGR50408 pep:novel supercontig:GCA_000167675.2:GL985060:927857:9...    29   1.2  
+EGR49847 pep:novel supercontig:GCA_000167675.2:GL985061:1270188:...    28   2.0  
+EGR46612 pep:novel supercontig:GCA_000167675.2:GL985072:97873:10...    28   2.1  
+EGR50013 pep:novel supercontig:GCA_000167675.2:GL985061:1060776:...    28   2.9  
+EGR47247 pep:novel supercontig:GCA_000167675.2:GL985069:770021:7...    27   6.5  
+
+>EGR51003 pep:novel supercontig:GCA_000167675.2:GL985059:1739892:1741054:-1
+           gene:TRIREDRAFT_57252 transcript:EGR51003
+           description:"predicted protein"
+          Length = 307
+
+ Score =  265 bits (678), Expect = 5e-87,   Method: Compositional matrix adjust.
+ Identities = 137/202 (67%), Positives = 154/202 (76%), Gaps = 1/202 (0%)
+
+Query: 1   MSSKPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDND 60
+           MSS+PPSRVVFVGNIPYGLSEEQITDIFS AGKV  FRLVYD ETG+PKGFGFA+YPD D
+Sbjct: 1   MSSRPPSRVVFVGNIPYGLSEEQITDIFSSAGKVERFRLVYDSETGRPKGFGFADYPDTD 60
+
+Query: 61  SAASAVRNLNDTEIMGRKLRVDFSNE-KXXXXXXXXXXXXXXXXXXXXXYQQQQEVPSLP 119
+           SA+SAVRNLN+ EIMGRKLRVDFSNE K                          +   LP
+Sbjct: 61  SASSAVRNLNEYEIMGRKLRVDFSNEQKSGDDDGQAPGQNTSASNGGASSSYSSQSIPLP 120
+
+Query: 120 PLPPGKDIPAGVSATDAISRTLRTLPPAQLLDILQQMKTMSGADPARATELLTQAPQLSY 179
+           PLP GK+IP G++ TD+ISRTL TLPP QLLDIL QMK ++ ++P RATELL QAPQL+Y
+Sbjct: 121 PLPAGKEIPPGLTCTDSISRTLNTLPPPQLLDILSQMKALATSEPQRATELLQQAPQLAY 180
+
+Query: 180 AIFQALLLMDLVSPDAIHSVVD 201
+           A+FQALLLM LVSP+AI SVVD
+Sbjct: 181 AVFQALLLMGLVSPEAIQSVVD 202
+
+
+
+ Score = 53.9 bits (128), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 27/41 (65%), Positives = 31/41 (75%)
+
+Query: 265 QDTDALMQQVLALPQATIDQLPEAERAQIMALRASLMGQAR 305
+           QD DALM+ V+ LPQA ID LPEA+R QIMALRA+   Q R
+Sbjct: 267 QDPDALMRAVMELPQAQIDMLPEADRQQIMALRATFAAQRR 307
+
+
+>EGR46910 pep:novel supercontig:GCA_000167675.2:GL985071:754123:754401:-1
+          gene:TRIREDRAFT_33815 transcript:EGR46910
+          description:"predicted protein"
+          Length = 93
+
+ Score = 75.9 bits (185), Expect = 1e-17,   Method: Composition-based stats.
+ Identities = 38/73 (52%), Positives = 48/73 (65%)
+
+Query: 10 VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+          ++ G +PY LSE  I  IFS+ G+ +  +LV D+ETGK KGFG+ +Y D  S   AV NL
+Sbjct: 16 IYFGGLPYDLSEGDIITIFSQYGEPVFLKLVRDKETGKSKGFGWLKYEDQRSTDLAVDNL 75
+
+Query: 70 NDTEIMGRKLRVD 82
+            TEI GR LRVD
+Sbjct: 76 GGTEIGGRLLRVD 88
+
+
+>EGR45024 pep:novel supercontig:GCA_000167675.2:GL985082:85482:86970:1
+           gene:TRIREDRAFT_81716 transcript:EGR45024
+           description:"predicted protein"
+          Length = 471
+
+ Score = 54.7 bits (130), Expect = 8e-09,   Method: Compositional matrix adjust.
+ Identities = 29/81 (35%), Positives = 43/81 (53%)
+
+Query: 4   KPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAA 63
+           KPP  V+FV  +     +E +  IF R GK+L+  ++ D++TG    + F EY D  S  
+Sbjct: 247 KPPENVLFVCKLNPVTQDEDLELIFGRFGKILSCEVIRDQKTGDSLQYAFIEYEDKASCE 306
+
+Query: 64  SAVRNLNDTEIMGRKLRVDFS 84
+            A   + D  I  R++ VDFS
+Sbjct: 307 LAYSKMQDVLIDDRRIHVDFS 327
+
+
+>EGR50767 pep:novel supercontig:GCA_000167675.2:GL985059:1815713:1817570:1
+           gene:TRIREDRAFT_37761 transcript:EGR50767
+           description:"predicted protein"
+          Length = 539
+
+ Score = 54.3 bits (129), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 45/73 (61%), Gaps = 1/73 (1%)
+
+Query: 10  VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAAS-AVRN 68
+           + + NIP  L+EEQI ++ +  GK  +F LV DR T + +G  F EY D  SA   A+ +
+Sbjct: 350 LCITNIPTFLNEEQIIELLAAFGKPKSFVLVKDRSTEESRGIAFTEYLDPSSANEPALNS 409
+
+Query: 69  LNDTEIMGRKLRV 81
+           LN  ++ G+KL+V
+Sbjct: 410 LNGMDVAGKKLKV 422
+
+
+>EGR50641 pep:novel supercontig:GCA_000167675.2:GL985059:797681:798297:1
+           gene:TRIREDRAFT_57869 transcript:EGR50641
+           description:"predicted protein"
+          Length = 168
+
+ Score = 52.0 bits (123), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+           +R +FVGN+ Y  S E++   F   G +    ++ D+ TG+PKG+ + E+ +    A A+
+Sbjct: 43  ARSIFVGNVDYSASPEEVQAHFQSCGSINRVTILLDKFTGQPKGYAYVEFTEPSLVAQAL 102
+
+Query: 67  RNLNDTEIMGRKLRV 81
+             LN++   GR ++V
+Sbjct: 103 V-LNESVFKGRNIKV 116
+
+
+  Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 4,489,794
+  Number of sequences in database:  9115
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9115
+Number of Hits to DB: 1,947,267
+Number of extensions: 67696
+Number of successful extensions: 334
+Number of sequences better than 10.0: 52
+Number of HSP's gapped: 322
+Number of HSP's successfully gapped: 69
+Length of query: 305
+Length of database: 4,489,794
+Length adjustment: 92
+Effective length of query: 213
+Effective length of database: 3,651,214
+Effective search space: 777708582
+Effective search space used: 777708582
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

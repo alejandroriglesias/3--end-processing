@@ -1,0 +1,346 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY19510 pep:novel supercontig:GCA_000150675.1:supercont1.29:348...   655   0.0  
+EGY18494 pep:novel supercontig:GCA_000150675.1:supercont1.22:519...    44   2e-04
+EGY20793 pep:novel supercontig:GCA_000150675.1:supercont1.39:104...    42   6e-04
+EGY21683 pep:novel supercontig:GCA_000150675.1:supercont1.5:4191...    41   0.002
+EGY13330 pep:novel supercontig:GCA_000150675.1:supercont1.1:5509...    36   0.060
+EGY17729 pep:novel supercontig:GCA_000150675.1:supercont1.2:1807...    31   1.3  
+EGY20018 pep:novel supercontig:GCA_000150675.1:supercont1.3:1290...    30   2.3  
+EGY16814 pep:novel supercontig:GCA_000150675.1:supercont1.18:589...    30   2.9  
+EGY13597 pep:novel supercontig:GCA_000150675.1:supercont1.1:9127...    30   4.5  
+
+>EGY19510 pep:novel supercontig:GCA_000150675.1:supercont1.29:34880:38429:1
+           gene:VDAG_09844 transcript:EGY19510 description:"mRNA
+           3'-end-processing protein RNA14"
+          Length = 990
+
+ Score =  655 bits (1690), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 312/553 (56%), Positives = 423/553 (76%), Gaps = 11/553 (1%)
+
+Query: 164 DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+           D +  LE R+KEDPRG MD+WL+L A  R+ ++++  R  ++RF+  FP AA++WV++  
+Sbjct: 254 DVVGRLEDRIKEDPRGDMDAWLALFAELRRLSHVDALRQAYDRFVTTFPQAADIWVEWIK 313
+
+Query: 224 MELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDL-NDSSGRARQVVTQAYDFV 282
+           +EL   N   AEA+F +SL++V +VQLWT Y++YIRRRNDL ND +G+ARQV++Q+Y+F+
+Sbjct: 314 LELDSMNTTAAEALFQRSLLTVSDVQLWTTYINYIRRRNDLSNDPNGQARQVISQSYEFI 373
+
+Query: 283 IDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTL 342
+           IDNVG+D+++  +W D+IQFI+  PGVVGG  WQDQQKMDQLRKAY RA+ +P+S +  L
+Sbjct: 374 IDNVGMDRESGSLWKDWIQFIKSGPGVVGGPGWQDQQKMDQLRKAYHRAITVPMSALTEL 433
+
+Query: 343 WREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEG 402
+           W++YDQFE GLN  TGR+++ +RSP YMTAKSA+  ++  + NL RT+LPRLPPAPGF G
+Sbjct: 434 WKDYDQFELGLNKATGRQFIQKRSPGYMTAKSASLQMDRKIGNLNRTSLPRLPPAPGFAG 493
+
+Query: 403 DVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAE 462
+             E+ EQV++WK+W++WEKEDPL LA D+PE+ K+RILY YKQA+MALRF PE+WVDAAE
+Sbjct: 494 ATEYMEQVNIWKQWIQWEKEDPLVLADDEPEVLKQRILYVYKQALMALRFWPEMWVDAAE 553
+
+Query: 463 WCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAV 522
+           WCFEN+I  +G D G++FLT+GI ANPESVLLALKH DRIE T PV + +++K ER  A+
+Sbjct: 554 WCFENNIFKDGVDLGIKFLTDGIAANPESVLLALKHGDRIEMTLPVADTEESKEERAKAI 613
+
+Query: 523 KAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVPEH--EIEEGEDCANPMPSELEEK 580
+           +APY+++L+TLY  ++ LKE+EK E+ K+ ++A    EH    +  ++        LE++
+Sbjct: 614 RAPYDQVLETLYHMMQKLKEREKNELAKIEKAA---TEHAGRNDGDDNDDQDQTLALEQR 670
+
+Query: 581 ISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARKRGRLT 640
+             A+++GF  QT+LL RT+SF+WIAL RAMRR QGK   GS   G+RQVF+EAR +G+LT
+Sbjct: 671 TQAVKQGFSLQTELLKRTISFIWIALCRAMRRTQGK---GSQTKGLRQVFTEARGKGQLT 727
+
+Query: 641 SDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARVV--F 698
+           SDVYVA+A +E  VYKDP+GGKIFDRG+KLFPEDE FMLEY+KYLH ++DTT    V  F
+Sbjct: 728 SDVYVAVALIESVVYKDPAGGKIFDRGAKLFPEDEGFMLEYIKYLHLKDDTTKRYSVDSF 787
+
+Query: 699 ETCVNKLTQNPAT 711
+           +    +L  +PA 
+Sbjct: 788 DPIAYRLIISPAV 800
+
+
+
+ Score =  139 bits (349), Expect = 1e-33,   Method: Compositional matrix adjust.
+ Identities = 88/198 (44%), Positives = 111/198 (56%), Gaps = 34/198 (17%)
+
+Query: 736 AKLEKRMAELFPEDPSLA-------HF----SARFMSDRFDPIAARIIVSPAAQLRPKMV 784
+            K+  R A+LFPED           H     + R+  D FDPIA R+I+SPA QLRP +V
+Sbjct: 748 GKIFDRGAKLFPEDEGFMLEYIKYLHLKDDTTKRYSVDSFDPIAYRLIISPAVQLRPNLV 807
+
+Query: 785 MPSIE--ANARAGSPMIRPLNSPKVGFLQAVNSPKRPLPADDFEDLNPPKKIQRNDQREF 842
+           MPSIE   + R  +P+  P  SP   +L   NSPKRP P DD E+ N P+K+        
+Sbjct: 808 MPSIEQATSVRDATPL--PTASPVPQYLGTTNSPKRPYPGDDQEEYNRPRKL-------- 857
+
+Query: 843 QRAESPLKGAAGRRLENQRRIHGQGPASYNTAPAPAIPREINFLLSQLPGAEVYNSTRLS 902
+            R +SPLKGAAGRRL+ QR+  G        AP   + R+I F L  LP    YN+   S
+Sbjct: 858 ARGQSPLKGAAGRRLDQQRQNQG--------AP---LARDITFFLGILPPTHSYNAQLFS 906
+
+Query: 903 ASRVVDTLRDTHVPDYQS 920
+           AS +V+ LRDT VPDY+S
+Sbjct: 907 ASGLVNLLRDTPVPDYKS 924
+
+
+>EGY18494 pep:novel supercontig:GCA_000150675.1:supercont1.22:519987:522008:-
+           1 gene:VDAG_08828 transcript:EGY18494
+           description:"pre-mRNA-splicing factor clf1"
+          Length = 673
+
+ Score = 43.9 bits (102), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 20/63 (31%), Positives = 37/63 (58%), Gaps = 5/63 (7%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIF----GKSLMSVPNVQLWTVY 254
+           +CR ++ERFL   P  ++ WV++A++E    +     AIF    G+ ++ +P + LW  Y
+Sbjct: 453 RCRTLYERFLQYNPANSQTWVKFAELERGLDDLDRTRAIFELAVGQPVLDMPEL-LWKAY 511
+
+Query: 255 LDY 257
+           +D+
+Sbjct: 512 IDF 514
+
+
+
+ Score = 42.7 bits (99), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/93 (23%), Positives = 42/93 (45%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W   I A  +  NI   R++ +R +A  P   ++W +Y  ME   GN      +F + + 
+Sbjct: 109 WHRYIEAEMKTRNINHARNLLDRAVARLPRVDKMWYKYVYMEEMLGNVPGTRQVFDRWMQ 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVT 276
+             P+   W+ Y+   +R  + + +    R+ +T
+Sbjct: 169 WHPDEAAWSAYIKLEKRYGEFDRARDVFRRFIT 201
+
+
+
+ Score = 41.2 bits (95), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 40/79 (50%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  +++WL       Q   + + R +FER L V P++  +W +Y + E+   N   A  +
+Sbjct: 69  RVQLNNWLRYADWEIQNKELARARSIFERALDVHPNSVSLWHRYIEAEMKTRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V ++W  Y+
+Sbjct: 129 LDRAVARLPRVDKMWYKYV 147
+
+
+
+ Score = 35.8 bits (81), Expect = 0.070,   Method: Compositional matrix adjust.
+ Identities = 17/66 (25%), Positives = 34/66 (51%), Gaps = 4/66 (6%)
+
+Query: 195 NNIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQL 250
+            +IE+ R +++  L + PH     A++W+  A  E+ QG    A    G+++   P  +L
+Sbjct: 378 KDIERARQIYKVCLDLIPHKKYTFAKIWLLKAQFEIRQGELTTARKTLGQAIGMCPKDKL 437
+
+Query: 251 WTVYLD 256
+           +  Y++
+Sbjct: 438 FRGYIE 443
+
+
+
+ Score = 33.9 bits (76), Expect = 0.24,   Method: Compositional matrix adjust.
+ Identities = 50/202 (24%), Positives = 89/202 (44%), Gaps = 45/202 (22%)
+
+Query: 170 ELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE---------VWVQ 220
+           E +VKE+P+   D W           ++++ RDV+ER +A  P A E         +WV 
+Sbjct: 310 ENQVKENPKN-YDIWFDYTRLEETSGDVDRIRDVYERAVAQVPPAQEKRFWRRYIYLWVY 368
+
+Query: 221 YADMELSQGNFVE-AEAIFGKSLMSVPN-----VQLWTVYLDYIRRRNDLNDSSGRARQV 274
+           YA  E  +   +E A  I+   L  +P+      ++W +   +  R+ +L      AR+ 
+Sbjct: 369 YALWEELEAKDIERARQIYKVCLDLIPHKKYTFAKIWLLKAQFEIRQGELTT----ARKT 424
+
+Query: 275 VTQAYDFVIDNVGLD-KDASKIWNDYIQF-IRLAPGVVGGSAWQDQQKMDQLRKAYQRAV 332
+           + QA       +G+  KD  K++  YI+  ++L   V             + R  Y+R +
+Sbjct: 425 LGQA-------IGMCPKD--KLFRGYIELELKLFEFV-------------RCRTLYERFL 462
+
+Query: 333 CIPLSNVNTLWREYDQFEKGLN 354
+               +N  T W ++ + E+GL+
+Sbjct: 463 QYNPANSQT-WVKFAELERGLD 483
+
+
+
+ Score = 32.7 bits (73), Expect = 0.49,   Method: Compositional matrix adjust.
+ Identities = 22/98 (22%), Positives = 42/98 (42%), Gaps = 2/98 (2%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W + I   ++    ++ RDVF RF+ V P     W+++A  E   G       +F  ++
+Sbjct: 175 AWSAYIKLEKRYGEFDRARDVFRRFITVHPEPRN-WIKWAKFEEEYGTSDMVREVFNMAI 233
+
+Query: 243 MSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYD 280
+             +       +++ Y R    L +   R+R +   A D
+Sbjct: 234 QELDEFADEKLFIAYARYEAKLKEYE-RSRLIYKIALD 270
+
+
+>EGY20793 pep:novel supercontig:GCA_000150675.1:supercont1.39:10410:13190:-1
+           gene:VDAG_10422 transcript:EGY20793
+           description:"pre-mRNA-splicing factor SYF1"
+          Length = 822
+
+ Score = 42.4 bits (98), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 41/182 (22%), Positives = 84/182 (46%), Gaps = 20/182 (10%)
+
+Query: 185 LSLIAAYRQRNNIEQCRD---VFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           L++I   R R+++    D   V+E+ +     + + W+ Y   +L  G   E   +F ++
+Sbjct: 4   LTVINGGRVRSDMNLVADEDSVYEQDILRNSGSTKPWLAYIQFKLQHGTIHEQAFVFERA 63
+
+Query: 242 LMSVP-NVQLWTVYLDY-IRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDY 299
+            + +P + +LW +YL++ ++  + LN +   A      A  F    + L+K   ++W  Y
+Sbjct: 64  CLQLPRSYKLWKMYLEFRVKHVSRLNAAIFAAEYRKVNAL-FERSLILLNK-MPRVWELY 121
+
+Query: 300 IQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREYDQFEKGLNPTTG 358
+           ++F+   P V               R+A+ RA+  +P++  + +WR Y  F   L+  + 
+Sbjct: 122 LKFLLRQPLV------------SNTRRAFDRALRALPVTQHSRIWRLYRPFANSLSGISA 169
+
+Query: 359 RK 360
+            K
+Sbjct: 170 VK 171
+
+
+
+ Score = 36.2 bits (82), Expect = 0.044,   Method: Compositional matrix adjust.
+ Identities = 30/149 (20%), Positives = 64/149 (42%), Gaps = 20/149 (13%)
+
+Query: 179 GAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQ---------- 228
+           G+   WL+ I    Q   I +   VFER     P + ++W  Y +  +            
+Sbjct: 35  GSTKPWLAYIQFKLQHGTIHEQAFVFERACLQLPRSYKLWKMYLEFRVKHVSRLNAAIFA 94
+
+Query: 229 GNFVEAEAIFGKSLMSVPNV-QLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVG 287
+             + +  A+F +SL+ +  + ++W +YL ++ R+  ++++         +A+D  +  + 
+Sbjct: 95  AEYRKVNALFERSLILLNKMPRVWELYLKFLLRQPLVSNTR--------RAFDRALRALP 146
+
+Query: 288 LDKDASKIWNDYIQFIRLAPGVVGGSAWQ 316
+           + +  S+IW  Y  F     G+     W+
+Sbjct: 147 VTQH-SRIWRLYRPFANSLSGISAVKIWR 174
+
+
+
+ Score = 32.0 bits (71), Expect = 0.96,   Method: Compositional matrix adjust.
+ Identities = 26/118 (22%), Positives = 52/118 (44%), Gaps = 27/118 (22%)
+
+Query: 177 PRGAMDSWLSLIAAY----RQRNNIEQCRDVFERFLAV----FPHAAEVWVQYADMELSQ 228
+           P+ A+ S+  L A Y     +  ++   R + E+ + V        A++W+++A+MEL  
+Sbjct: 400 PKKAVGSFYQLWAGYAKFYERGGDMRNARIIAEKAVKVPFRSVAELADMWIEWAEMELRN 459
+
+Query: 229 GNFVEAEAIFGKSLMS-------------------VPNVQLWTVYLDYIRRRNDLNDS 267
+            NF +A  I  K++ +                     + +LW+ Y+D +     L+D+
+Sbjct: 460 DNFDDAVRIMAKAVQAPKRSAVDYFDETLSPQQRVHKSWKLWSFYVDLVESVGSLDDT 517
+
+
+>EGY21683 pep:novel supercontig:GCA_000150675.1:supercont1.5:419126:421518:-1
+           gene:VDAG_03123 transcript:EGY21683
+           description:"pre-mRNA-processing factor 39"
+          Length = 576
+
+ Score = 40.8 bits (94), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 47/195 (24%), Positives = 80/195 (41%), Gaps = 39/195 (20%)
+
+Query: 166 IALLELRVKEDPRGAMDSWLSLIAAYR------QRNNIEQC----RDVFERFLAVFPHAA 215
+           I  LE  V+ DP    ++W  LI A         RN+  Q     R+ F+ FL  FP   
+Sbjct: 16  IKKLEAEVEADPDN-FETWEKLIRACEGLEGGLNRNSSPQALAALRNAFDGFLLKFPLLF 74
+
+Query: 216 EVWVQYADMELSQGNFVEAEAIFGKSLM-SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             W +YAD+E +      AE    + L   + N+Q W+V +  I               +
+Sbjct: 75  GYWKKYADLEFNIAGPESAELHAARPLEPLLMNLQAWSVMIGPI---------------I 119
+
+Query: 275 VTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCI 334
+            ++ ++    +VGLD  A   W+ YI++             + Q+  D++    +R V +
+Sbjct: 120 ASRLFERGATHVGLDFLAHPFWDKYIEYE------------ERQEAEDRVLAILRRIVTL 167
+
+Query: 335 PLSNVNTLWREYDQF 349
+           PL   +  + ++ Q 
+Sbjct: 168 PLHQYSRYYEKFRQL 182
+
+
+>EGY13330 pep:novel supercontig:GCA_000150675.1:supercont1.1:55094:58291:1
+           gene:VDAG_00012 transcript:EGY13330
+           description:"pre-mRNA-splicing factor prp1"
+          Length = 718
+
+ Score = 35.8 bits (81), Expect = 0.060,   Method: Compositional matrix adjust.
+ Identities = 38/171 (22%), Positives = 69/171 (40%), Gaps = 30/171 (17%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           D+W+        R   E  R ++   L VF ++  +W+  AD+E + G       +  K+
+Sbjct: 391 DTWMDDARGSINRGMYETARAIYSYALRVFVNSRTLWMAAADLERNHGTRASLCQVLDKA 450
+
+Query: 242 LMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQ 301
+           + + P  +  +V  + +    D       A  +V QA  +          A+K+W     
+Sbjct: 451 VDACPKSE--SVVFERVLGHTDA------ALDLVQQALQYF-------PAAAKLW----- 490
+
+Query: 302 FIRLAPGVVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREYDQFEK 351
+                  ++ G  ++D  K+ Q R+AY   V  +P S    LW  Y + E+
+Sbjct: 491 -------MLKGQIYEDLDKLGQAREAYSTGVKAVPAS--VPLWLLYARLEE 532
+
+
+
+ Score = 35.4 bits (80), Expect = 0.086,   Method: Compositional matrix adjust.
+ Identities = 19/85 (22%), Positives = 40/85 (47%), Gaps = 1/85 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+     Y   + + Q R+ +   +   P +  +W+ YA +E   G  V+A ++  ++ +
+Sbjct: 490 WMLKGQIYEDLDKLGQAREAYSTGVKAVPASVPLWLLYARLEERAGLVVKARSVLDRARL 549
+
+Query: 244 SVPNV-QLWTVYLDYIRRRNDLNDS 267
+           +VP    LW   +   RR  ++N +
+Sbjct: 550 AVPRSPALWCESVRVERRAGNVNQA 574
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 11,309,796
+Number of extensions: 533206
+Number of successful extensions: 2296
+Number of sequences better than 10.0: 69
+Number of HSP's gapped: 2253
+Number of HSP's successfully gapped: 82
+Length of query: 1057
+Length of database: 4,984,196
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 3,888,556
+Effective search space: 3705793868
+Effective search space used: 3705793868
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 57 (26.6 bits)

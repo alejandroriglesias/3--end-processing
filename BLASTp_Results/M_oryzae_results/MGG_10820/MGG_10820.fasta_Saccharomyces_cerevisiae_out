@@ -1,0 +1,106 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YAL043C pep:known chromosome:SacCer_Apr2011:I:58695:61052:-1 gen...    93   5e-20
+
+>YAL043C pep:known chromosome:SacCer_Apr2011:I:58695:61052:-1 gene:YAL043C
+           transcript:YAL043C description:"Subunit of holo-CPF, a
+           multiprotein complex and functional homolog of mammalian
+           CPSF, required for the cleavage and polyadenylation of
+           mRNA and snoRNA 3' ends\x3b involved in pre-tRNA
+           processing\x3b binds to the phosphorylated CTD of
+           RNAPII"
+          Length = 785
+
+ Score = 93.2 bits (230), Expect = 5e-20,   Method: Compositional matrix adjust.
+ Identities = 50/177 (28%), Positives = 89/177 (50%), Gaps = 18/177 (10%)
+
+Query: 530 WITVITRLATRSSSALEKTTIKEEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWLSE 589
+           W+ V+ RL TR   A E +             D +RE L  + ++DF +R+ + I WL+E
+Sbjct: 626 WLHVLIRLVTRGIEAQEAS-------------DLIREELLGFFIQDFEQRVSLIIEWLNE 672
+
+Query: 590 EWYNDQLQKRMASDAPLHYDKVALRLVDGITPYLHAQDK-VLTRFLGEIPEVNPAILKRV 648
+           EW+    Q  +  D P +Y K +LR+++ + P+L  + +    R + E+P +    L+ +
+Sbjct: 673 EWF---FQTSLHQD-PSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLEAL 728
+
+Query: 649 EGMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWR 705
+           + +C DP+ +SL   +L +L+M RPP ++   D +  +  E E         L R +
+Sbjct: 729 KPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLLDRLK 785
+
+
+
+ Score = 72.4 bits (176), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 84/178 (47%), Gaps = 30/178 (16%)
+
+Query: 92  DAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAIKSRIFQLWSGEIP-------- 143
+           D  V ++ +    + YPLV+  +   S +   ++++  +K  +   W    P        
+Sbjct: 91  DVLVYKNIVLIMCASYPLVLDLVAKTS-NQEMFDQLCMLKKFVLSHWRTAYPLRATVDDE 149
+
+Query: 144 --------------GVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLDP 189
+                         GVK+  IKF   VVL+QT S +G       +I+ S IP  HPVL+ 
+Sbjct: 150 TDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSGN------EINSSTIPDNHPVLNK 203
+
+Query: 190 RNLEAEAIGLLDRMLGVL-QDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFN 246
+             LE+EA  LLD +L  L ++    + V    +N ++ +I+ RP T+ RIL+ +L FN
+Sbjct: 204 PALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLLRFN 261
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 3,688,393
+Number of extensions: 141385
+Number of successful extensions: 361
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 357
+Number of HSP's successfully gapped: 5
+Length of query: 730
+Length of database: 3,010,216
+Length adjustment: 97
+Effective length of query: 633
+Effective length of database: 2,361,092
+Effective search space: 1494571236
+Effective search space used: 1494571236
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

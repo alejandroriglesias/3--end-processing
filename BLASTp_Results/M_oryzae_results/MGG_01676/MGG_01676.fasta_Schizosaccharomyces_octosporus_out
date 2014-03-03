@@ -1,0 +1,155 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX74911 pep:novel supercontig:GCA_000150505.2:supercont6.1:3504...    29   0.69 
+EPX74108 pep:novel supercontig:GCA_000150505.2:supercont6.1:1718...    28   1.8  
+EPX70423 pep:novel supercontig:GCA_000150505.2:supercont6.3:6995...    27   2.8  
+EPX72015 pep:novel supercontig:GCA_000150505.2:supercont6.2:7043...    26   3.8  
+EPX71356 pep:novel supercontig:GCA_000150505.2:supercont6.3:2281...    26   6.9  
+EPX75354 pep:novel supercontig:GCA_000150505.2:supercont6.1:4487...    25   7.7  
+EPX73986 pep:novel supercontig:GCA_000150505.2:supercont6.1:1454...    25   9.3  
+EPX74349 pep:novel supercontig:GCA_000150505.2:supercont6.1:2233...    25   9.5  
+
+>EPX74911 pep:novel supercontig:GCA_000150505.2:supercont6.1:3504054:3506185:
+           -1 gene:SOCG_02391 transcript:EPX74911
+           description:"CAMK/CAMKL/AMPK protein kinase Ppk9"
+          Length = 528
+
+ Score = 28.9 bits (63), Expect = 0.69,   Method: Compositional matrix adjust.
+ Identities = 17/64 (26%), Positives = 28/64 (43%), Gaps = 3/64 (4%)
+
+Query: 25  QPETIRLYPL---SNYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEH 81
+            P  + LY +     YT    E    +  S+LA+ KRL+E       ++    +  CH++
+Sbjct: 80  HPNILSLYQVLRVPKYTVLALEYMDTDLHSILAKCKRLDEFVARKIFQQIVSAVEYCHQN 139
+
+Query: 82  NHPH 85
+           N  H
+Sbjct: 140 NVSH 143
+
+
+>EPX74108 pep:novel supercontig:GCA_000150505.2:supercont6.1:1718520:1720890:
+           1 gene:SOCG_03321 transcript:EPX74108
+           description:"cytoplasmic proline-tRNA ligase Prs1"
+          Length = 716
+
+ Score = 27.7 bits (60), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 29/75 (38%), Gaps = 14/75 (18%)
+
+Query: 85  HILMLQIANAFFKL--PGDYLRPEDDEVEGFKARLDERLAPVGRLGEGEEAGDWQIGDCL 142
+            I  L + N +F L      L  E D VEGF   +    A V R G  E      I    
+Sbjct: 258 QIKKLGVRNGYFPLFVSSKVLEKEKDHVEGFAPEV----AWVTRAGSTELEEPIAI---- 309
+
+Query: 143 AQWWRPNFETFMYPF 157
+               RP  ET MYP+
+Sbjct: 310 ----RPTSETVMYPY 320
+
+
+>EPX70423 pep:novel supercontig:GCA_000150505.2:supercont6.3:69954:72282:-1
+           gene:SOCG_04782 transcript:EPX70423
+           description:"RNA-binding protein"
+          Length = 436
+
+ Score = 26.9 bits (58), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 20/47 (42%), Gaps = 1/47 (2%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRP 165
+           ER   V    E   A  W+IG CL   W     T  Y  V + +T+P
+Sbjct: 263 ERTVEVHGTVENLHAAIWEIGKCLIDDWERGAGTVFYNPV-SRITQP 308
+
+
+>EPX72015 pep:novel supercontig:GCA_000150505.2:supercont6.2:704344:705196:1
+           gene:SOCG_03948 transcript:EPX72015
+           description:"hypothetical protein"
+          Length = 270
+
+ Score = 26.2 bits (56), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 27/66 (40%), Gaps = 3/66 (4%)
+
+Query: 80  EHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDERLAPVGRLGEG---EEAGDW 136
+           EH H  I  +        L  D+L P  +E  GF   L E +  +G+  EG   + +  W
+Sbjct: 173 EHRHQLIQAMNRMVYHASLEDDFLEPYTNEDVGFAEFLTENVHEIGKKLEGSYKQGSKAW 232
+
+Query: 137 QIGDCL 142
+            I   L
+Sbjct: 233 HITSQL 238
+
+
+>EPX71356 pep:novel supercontig:GCA_000150505.2:supercont6.3:2281093:2284313:
+           1 gene:SOCG_01574 transcript:EPX71356
+           description:"RNA-binding protein Prp24"
+          Length = 1013
+
+ Score = 25.8 bits (55), Expect = 6.9,   Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 8/63 (12%)
+
+Query: 42  KETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGD 101
+           K+ +PE+D S+L R +  E+H N     R    +LV    N PH +  +    FFK  G 
+Sbjct: 559 KKRKPEDDESLLKRSRLPEKHRN-----REEFTVLVS---NLPHDITEKDLQQFFKECGK 610
+
+Query: 102 YLR 104
+            L+
+Sbjct: 611 VLQ 613
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 1,370,385
+Number of extensions: 62500
+Number of successful extensions: 120
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 120
+Number of HSP's successfully gapped: 8
+Length of query: 266
+Length of database: 2,302,372
+Length adjustment: 86
+Effective length of query: 180
+Effective length of database: 1,873,576
+Effective search space: 337243680
+Effective search space used: 337243680
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 49 (23.5 bits)

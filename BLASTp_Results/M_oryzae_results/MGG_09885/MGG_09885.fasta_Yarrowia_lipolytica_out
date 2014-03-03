@@ -1,0 +1,224 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa 
+           6448 sequences; 3,139,837 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAG79313 pep:novel chromosome:GCA_000002525.1:E:1096953:1097714:...   132   9e-37
+CAG79617 pep:novel chromosome:GCA_000002525.1:E:1957339:1957956:...    60   2e-11
+CAG83659 pep:novel chromosome:GCA_000002525.1:A:408835:409827:-1...    60   7e-11
+CAG78182 pep:novel chromosome:GCA_000002525.1:F:1803786:1805054:...    60   7e-11
+CAG82220 pep:novel chromosome:GCA_000002525.1:C:2311185:2312347:...    58   4e-10
+CAG79917 pep:novel chromosome:GCA_000002525.1:E:2788497:2790362:...    57   1e-09
+CAG78213 pep:novel chromosome:GCA_000002525.1:F:1915539:1916366:...    55   5e-09
+CAG81062 pep:novel chromosome:GCA_000002525.1:D:1928726:1930150:...    54   1e-08
+CAG80148 pep:novel chromosome:GCA_000002525.1:E:3467719:3468529:...    52   1e-08
+CAG79393 pep:novel chromosome:GCA_000002525.1:E:1348774:1349811:...    50   1e-07
+CAG81584 pep:novel chromosome:GCA_000002525.1:C:73275:75164:1 ge...    50   2e-07
+CAG79041 pep:novel chromosome:GCA_000002525.1:E:280113:280608:-1...    47   3e-07
+CAG79520 pep:novel chromosome:GCA_000002525.1:E:1692283:1695087:...    48   1e-06
+CAG79312 pep:novel chromosome:GCA_000002525.1:E:1095212:1096195:...    47   1e-06
+CAG82565 pep:novel chromosome:GCA_000002525.1:B:62217:64289:-1 g...    48   1e-06
+CAG83108 pep:novel chromosome:GCA_000002525.1:B:1859342:1859683:...    43   6e-06
+CAG77862 pep:novel chromosome:GCA_000002525.1:F:875608:877137:1 ...    45   1e-05
+CAG82118 pep:novel chromosome:GCA_000002525.1:C:1923886:1924989:...    44   2e-05
+CAG79572 pep:novel chromosome:GCA_000002525.1:E:1828327:1829004:...    44   2e-05
+CAG83649 pep:novel chromosome:GCA_000002525.1:A:387008:389113:-1...    43   4e-05
+CAG83635 pep:novel chromosome:GCA_000002525.1:A:351994:353625:-1...    42   5e-05
+CAG80245 pep:novel chromosome:GCA_000002525.1:E:3724391:3727196:...    42   9e-05
+CAG81845 pep:novel chromosome:GCA_000002525.1:C:942074:943894:1 ...    41   2e-04
+CAG80213 pep:novel chromosome:GCA_000002525.1:E:3639293:3640651:...    39   5e-04
+CAG84190 pep:novel chromosome:GCA_000002525.1:A:2115799:2118270:...    39   0.001
+CAG79094 pep:novel chromosome:GCA_000002525.1:E:426909:427793:-1...    38   0.001
+CAG77947 pep:novel chromosome:GCA_000002525.1:F:1127647:1128606:...    37   0.002
+CAG83044 pep:novel chromosome:GCA_000002525.1:B:1633688:1636174:...    38   0.002
+CAG80002 pep:novel chromosome:GCA_000002525.1:E:3073242:3074153:...    37   0.002
+CAG79345 pep:novel chromosome:GCA_000002525.1:E:1215043:1216848:...    37   0.004
+CAG78535 pep:novel chromosome:GCA_000002525.1:F:2889633:2891081:...    35   0.013
+CAG80739 pep:novel chromosome:GCA_000002525.1:D:1012121:1012699:...    33   0.038
+CAG82180 pep:novel chromosome:GCA_000002525.1:C:2151479:2153833:...    33   0.048
+CAG80636 pep:novel chromosome:GCA_000002525.1:D:716029:717871:1 ...    33   0.051
+CAG78293 pep:novel chromosome:GCA_000002525.1:F:2163187:2165340:...    32   0.12 
+CAG78135 pep:novel chromosome:GCA_000002525.1:F:1658059:1659936:...    32   0.13 
+CAG81306 pep:novel chromosome:GCA_000002525.1:D:2714487:2715250:...    31   0.18 
+CAG78651 pep:novel chromosome:GCA_000002525.1:F:3207583:3208575:...    31   0.19 
+CAG80611 pep:novel chromosome:GCA_000002525.1:D:627424:628716:1 ...    30   0.36 
+CAG77631 pep:novel chromosome:GCA_000002525.1:F:103582:104676:1 ...    30   0.39 
+CAR65189 pep:novel chromosome:GCA_000002525.1:A:2241780:2243514:...    30   0.39 
+CAG77686 pep:novel chromosome:GCA_000002525.1:F:309394:311823:-1...    26   9.6  
+
+>CAG79313 pep:novel chromosome:GCA_000002525.1:E:1096953:1097714:-1
+           gene:YALI0_E09174g transcript:CAG79313
+           description:"YALI0E09174p"
+          Length = 253
+
+ Score =  132 bits (332), Expect = 9e-37,   Method: Compositional matrix adjust.
+ Identities = 74/200 (37%), Positives = 109/200 (54%), Gaps = 23/200 (11%)
+
+Query: 8   RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           RVV+VG+IPY  +EEQ+ DIF   G V++ +L++D+ETG+ KG+GFAEYPD D+A SA+R
+Sbjct: 4   RVVYVGSIPYDQTEEQMLDIFKSVGPVISLKLMFDKETGRSKGYGFAEYPDADTARSAIR 63
+
+Query: 68  NLNDTEIMGRKLRVDFSNEKXXXXXXXXXXXXXXXXXXXXXYQQQQEVPS-------LPP 120
+           NLN  ++  R+LRVD S+E                      +  Q   P+        P 
+Sbjct: 64  NLNGFQVGSRQLRVDHSHEG----------------QVREFFASQNRFPNPNVSKNGRPG 107
+
+Query: 121 LPPGKDIPAGVSATDAISRTLRTLPPAQLLDILQQMKTMSGADPARATELLTQAPQLSYA 180
+           LP G  +  G+     +S T+     +Q++ ++  + +MS   P    +L  QAPQL+YA
+Sbjct: 108 LPAGVPLRQGLEPAQQVSETMNGYTKSQMVAVVTDLMSMSKNSPQLLADLFAQAPQLAYA 167
+
+Query: 181 IFQALLLMDLVSPDAIHSVV 200
+             Q LL + LV    + SVV
+Sbjct: 168 AVQCLLNLGLVDEQRVLSVV 187
+
+
+>CAG79617 pep:novel chromosome:GCA_000002525.1:E:1957339:1957956:1
+           gene:YALI0_E16500g transcript:CAG79617
+           description:"YALI0E16500p"
+          Length = 184
+
+ Score = 60.1 bits (144), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 26/75 (34%), Positives = 45/75 (60%), Gaps = 1/75 (1%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+           +R ++VGN+ YG + +++   F + G V    ++ D+ TG PKG+ + E+ +    A AV
+Sbjct: 67  ARSIYVGNVDYGATPQELEKHFEKCGSVQRVTILMDKFTGNPKGYAYIEFAEPKDVAQAV 126
+
+Query: 67  RNLNDTEIMGRKLRV 81
+             LND+E   R+L+V
+Sbjct: 127 -TLNDSEFRQRQLKV 140
+
+
+>CAG83659 pep:novel chromosome:GCA_000002525.1:A:408835:409827:-1
+           gene:YALI0_A03773g transcript:CAG83659
+           description:"YALI0A03773p"
+          Length = 330
+
+ Score = 60.5 bits (145), Expect = 7e-11,   Method: Compositional matrix adjust.
+ Identities = 28/76 (36%), Positives = 45/76 (59%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+           SRV+FVGN+P+  +EE + D F   G +   R++   +TGK KGF F ++ D D+   A+
+Sbjct: 164 SRVLFVGNLPFNATEEMLQDHFKSCGDIRRVRMMSFEDTGKSKGFSFVDFYDADATRKAL 223
+
+Query: 67  RNLNDTEIMGRKLRVD 82
+           +      + GR LR++
+Sbjct: 224 KGRLYKYLEGRTLRLE 239
+
+
+
+ Score = 27.3 bits (59), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 25/98 (25%), Positives = 43/98 (43%), Gaps = 16/98 (16%)
+
+Query: 3   SKPPSRVVFVGNIPYGLSEEQITD-IFSRAGK--------------VLNFRLVYDRETGK 47
+           SK     V++GN+ +   +E I   I ++ GK              +L   L   + T K
+Sbjct: 52  SKKSEHGVWIGNLSFDTCKEDIKRFILAKLGKSEEDSDAVVIEEDDLLRINLPKSKVTKK 111
+
+Query: 48  PKGFGFAEYPDNDSAASAVRNLNDTEIMGRKLRVDFSN 85
+            KGF + + P  +     V +L++  + GRKL +  +N
+Sbjct: 112 VKGFAYVDVPTAEKMERLV-SLSEQILNGRKLLIKNAN 148
+
+
+>CAG78182 pep:novel chromosome:GCA_000002525.1:F:1803786:1805054:1
+           gene:YALI0_F13475g transcript:CAG78182
+           description:"YALI0F13475p"
+          Length = 422
+
+ Score = 60.5 bits (145), Expect = 7e-11,   Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 49/82 (59%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           P+  +FVGN+ +  + + +  IF   G V++ RL    ET +PKGFG+ ++   D A +A
+Sbjct: 268 PADTLFVGNLSFDTNRDDLFGIFGEYGSVVSIRLPTHPETEQPKGFGYVQFGSVDEAKAA 327
+
+Query: 66  VRNLNDTEIMGRKLRVDFSNEK 87
+           +  L+  E +GR  R+D+++ K
+Sbjct: 328 LEGLSGYEYLGRSFRLDYTSPK 349
+
+
+
+ Score = 56.6 bits (135), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 45/78 (57%), Gaps = 1/78 (1%)
+
+Query: 8   RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           + VFVG + + + ++ +T  F+ AG V + R++ ++ TG+ KGFG+ ++     A   V 
+Sbjct: 168 KTVFVGGLSWNVDDDWLTKEFADAGAV-SARVITEKATGRSKGFGYVDFASGADAQKCVE 226
+
+Query: 68  NLNDTEIMGRKLRVDFSN 85
+              D EI GR +R+D S 
+Sbjct: 227 EFQDKEIDGRTVRLDIST 244
+
+
+>CAG82220 pep:novel chromosome:GCA_000002525.1:C:2311185:2312347:1
+           gene:YALI0_C16368g transcript:CAG82220
+           description:"YALI0C16368p"
+          Length = 320
+
+ Score = 58.2 bits (139), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 45/75 (60%)
+
+Query: 10  VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+           +++G +   L+E  I  +FS+ G   + +L  D++TGK +GF + +Y D  S   AV N 
+Sbjct: 35  IYIGGLESKLTEMDIATVFSQFGNPTHVKLSRDQKTGKSRGFAWLKYEDQRSTVLAVDNF 94
+
+Query: 70  NDTEIMGRKLRVDFS 84
+           N  E++GR +RVD +
+Sbjct: 95  NGVELLGRTMRVDHT 109
+
+
+  Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,139,837
+  Number of sequences in database:  6448
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6448
+Number of Hits to DB: 1,312,652
+Number of extensions: 44980
+Number of successful extensions: 209
+Number of sequences better than 10.0: 45
+Number of HSP's gapped: 205
+Number of HSP's successfully gapped: 70
+Length of query: 305
+Length of database: 3,139,837
+Length adjustment: 90
+Effective length of query: 215
+Effective length of database: 2,559,517
+Effective search space: 550296155
+Effective search space used: 550296155
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

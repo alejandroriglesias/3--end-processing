@@ -1,0 +1,158 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU44085 pep:novel supercontig:GCA_000149985.1:supercont1.15:816...   400   e-141
+EDU50729 pep:novel supercontig:GCA_000149985.1:supercont1.8:8688...    32   0.24 
+EDU45986 pep:novel supercontig:GCA_000149985.1:supercont1.21:103...    30   0.89 
+EDU47073 pep:novel supercontig:GCA_000149985.1:supercont1.3:2488...    29   1.5  
+EDU42285 pep:novel supercontig:GCA_000149985.1:supercont1.10:153...    28   2.8  
+EDU39547 pep:novel supercontig:GCA_000149985.1:supercont1.1:2850...    28   4.0  
+EDU50652 pep:novel supercontig:GCA_000149985.1:supercont1.8:6155...    27   5.9  
+EDU50545 pep:novel supercontig:GCA_000149985.1:supercont1.8:3308...    27   6.5  
+
+>EDU44085 pep:novel supercontig:GCA_000149985.1:supercont1.15:816807:818207:1
+           gene:PTRG_11035 transcript:EDU44085
+           description:"cleavage and polyadenylation specificity
+           factor subunit 5"
+          Length = 261
+
+ Score =  400 bits (1027), Expect = e-141,   Method: Compositional matrix adjust.
+ Identities = 200/263 (76%), Positives = 215/263 (81%), Gaps = 16/263 (6%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTI   A QS  PP+IP  FN NQP+TIRL+PLSNYTFG K+ QPEEDPSVLARLKRLE
+Sbjct: 1   MSTIVKEASQSSYPPVIPKDFNGNQPKTIRLFPLSNYTFGTKDGQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  HGMRRTCEGIL              IANAFFKLPGDYLR EDDE+EGFKARL+ER
+Sbjct: 61  EHYAEHGMRRTCEGIL--------------IANAFFKLPGDYLRAEDDEIEGFKARLNER 106
+
+Query: 121 LAPVGRLGEGEEAGD-WQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE   D W +GD LAQWWRPNFETFMYPF+PAHVTRPKECKKLYFIQLP S
+Sbjct: 107 LAPVGTQFTGEGVNDEWVVGDTLAQWWRPNFETFMYPFIPAHVTRPKECKKLYFIQLPRS 166
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE+GNV A TPGSG 
+Sbjct: 167 KVLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDEKGNVAACTPGSGA 226
+
+Query: 240 GEGDHVPKTKVLAGGDDVDMKQE 262
+            +G H P+TKVLAGGD  D++ E
+Sbjct: 227 PDGYH-PQTKVLAGGDGDDVRME 248
+
+
+>EDU50729 pep:novel supercontig:GCA_000149985.1:supercont1.8:868829:874478:1
+           gene:PTRG_07810 transcript:EDU50729 description:"LEA
+           domain containing protein"
+          Length = 1864
+
+ Score = 31.6 bits (70), Expect = 0.24,   Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 20/34 (58%), Gaps = 5/34 (14%)
+
+Query: 105 PEDDEVEGFKAR-----LDERLAPVGRLGEGEEA 133
+           PE DE+EGFK       LDE   P+G L EG+ A
+Sbjct: 663 PEIDELEGFKVNKKGQVLDEEGEPIGELVEGDAA 696
+
+
+>EDU45986 pep:novel supercontig:GCA_000149985.1:supercont1.21:103479:113070:1
+           gene:PTRG_11830 transcript:EDU45986 description:"fatty
+           acid synthase S-acetyltransferase"
+          Length = 2585
+
+ Score = 30.0 bits (66), Expect = 0.89,   Method: Compositional matrix adjust.
+ Identities = 20/43 (46%), Positives = 23/43 (53%), Gaps = 3/43 (6%)
+
+Query: 34  LSNYTFGVKETQ---PEEDPSVLARLKRLEEHYNAHGMRRTCE 73
+           LS  T  VKE       E P VLARL R+E  Y++H M R  E
+Sbjct: 643 LSGDTEAVKEVLRNIQAERPGVLARLLRVERAYHSHHMLRHGE 685
+
+
+>EDU47073 pep:novel supercontig:GCA_000149985.1:supercont1.3:2488025:2490415:
+           -1 gene:PTRG_04235 transcript:EDU47073
+           description:"conserved hypothetical protein"
+          Length = 491
+
+ Score = 28.9 bits (63), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 18/55 (32%), Positives = 30/55 (54%), Gaps = 4/55 (7%)
+
+Query: 6   TTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKET----QPEEDPSVLARL 56
+           T+ L+S QP I   S+N +    +  YP SN T  +++      P++D + LA+L
+Sbjct: 380 TSLLRSAQPRITTCSWNQHSTGRVEGYPESNPTPQLQDYLEYFSPDQDAASLAQL 434
+
+
+>EDU42285 pep:novel supercontig:GCA_000149985.1:supercont1.10:1539607:1542349
+           :1 gene:PTRG_09234 transcript:EDU42285 description:"tRNA
+           nucleotidyltransferase"
+          Length = 897
+
+ Score = 28.1 bits (61), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 18/74 (24%), Positives = 34/74 (45%), Gaps = 3/74 (4%)
+
+Query: 81  HNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDERLAPVGRLGEGEEAG---DWQ 137
+           HN+   +M+ +   +     +  +P   +VEG KA++ + +A +  + +G+E G    W 
+Sbjct: 813 HNYRANIMMGLCVLWSTCLEEQKKPSGQDVEGVKAQVKDTVAMLDAVMQGQEDGLVDTWN 872
+
+Query: 138 IGDCLAQWWRPNFE 151
+              C      P FE
+Sbjct: 873 QEKCNVVQAAPGFE 886
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 3,469,194
+Number of extensions: 164934
+Number of successful extensions: 360
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 356
+Number of HSP's successfully gapped: 8
+Length of query: 266
+Length of database: 5,459,076
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,339,528
+Effective search space: 755077872
+Effective search space used: 755077872
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

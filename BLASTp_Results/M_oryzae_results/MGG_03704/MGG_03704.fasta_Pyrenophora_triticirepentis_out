@@ -1,0 +1,130 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU43766 pep:novel supercontig:GCA_000149985.1:supercont1.14:875...   332   e-114
+EDU41790 pep:novel supercontig:GCA_000149985.1:supercont1.10:110...    31   0.31 
+EDU44498 pep:novel supercontig:GCA_000149985.1:supercont1.17:337...    28   2.3  
+
+>EDU43766 pep:novel supercontig:GCA_000149985.1:supercont1.14:875853:876918:-
+           1 gene:PTRG_10716 transcript:EDU43766 description:"RNA
+           polymerase II subunit A C-terminal domain phosphatase
+           SSU72"
+          Length = 281
+
+ Score =  332 bits (850), Expect = e-114,   Method: Compositional matrix adjust.
+ Identities = 163/256 (63%), Positives = 192/256 (75%), Gaps = 2/256 (0%)
+
+Query: 3   QPQTDAVGGLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTG 62
+           QP T  + G + T+A      DD FKLKFCTVCASNQNRSMEAHLQL+ A+ P ISFGTG
+Sbjct: 27  QPMT--MDGANDTHAKQNMVPDDSFKLKFCTVCASNQNRSMEAHLQLASAHLPTISFGTG 84
+
+Query: 63  SLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERW 122
+           SLVRLPGPTITQPNVY+FN T+Y A++ EL  ++  LYT NG+LNML RN N+K  PER+
+Sbjct: 85  SLVRLPGPTITQPNVYRFNDTTYRAIHDELTEQNAALYTHNGLLNMLGRNLNIKGYPERF 144
+
+Query: 123 QDWQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINV 182
+           QDW  G PRL+HA D+GS+GTE+GVVD+V TCEERC+DAV+EDLH +G  LNRPVHV NV
+Sbjct: 145 QDWVPGKPRLDHAEDKGSQGTESGVVDVVITCEERCFDAVLEDLHNKGGKLNRPVHVFNV 204
+
+Query: 183 DIKDNHEEAAVGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAE 242
+           DIKDNHEEA VGG+ ILDLA +LN AAA+ERD                    RV ++LA 
+Sbjct: 205 DIKDNHEEALVGGKAILDLALTLNEAAAKERDIHGDSGWQSGGGAARSGFDERVPELLAA 264
+
+Query: 243 WQERWPNLPATWTLAW 258
+           WQERWPN+PA W+LAW
+Sbjct: 265 WQERWPNMPALWSLAW 280
+
+
+>EDU41790 pep:novel supercontig:GCA_000149985.1:supercont1.10:110941:113695:-
+           1 gene:PTRG_08739 transcript:EDU41790
+           description:"sensor protein rcsC"
+          Length = 884
+
+ Score = 31.2 bits (69), Expect = 0.31,   Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 46/99 (46%), Gaps = 10/99 (10%)
+
+Query: 38  NQNRSMEAHLQLS-KANYPVISFG-TGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGK 95
+            Q+ S+     LS K  Y VI+   TGS +    P    PN++K  S   D+M ++ EG 
+Sbjct: 549 TQDGSITLQATLSAKGRYIVINIKDTGSGI----PAAFLPNLFKPFSREDDSMTRQSEGL 604
+
+Query: 96  DRRLYTANGILNMLERN----RNVKRGPERWQDWQIGIP 130
+              L  A GI   L  +    R+   GP R  ++++ +P
+Sbjct: 605 GLGLMVAKGIARKLGGDLFCLRSHVSGPGRGSEFEMRVP 643
+
+
+>EDU44498 pep:novel supercontig:GCA_000149985.1:supercont1.17:337982:339033:-
+           1 gene:PTRG_11448 transcript:EDU44498
+           description:"retinol dehydrogenase 12"
+          Length = 321
+
+ Score = 28.1 bits (61), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 30/68 (44%), Gaps = 9/68 (13%)
+
+Query: 61  TGSLVRLPGPTITQPNVYKFNSTSY------DAMYKELEGKDRRLYTANGILNMLERNRN 114
+           T S++  P P  T+ N+   +   Y        + KEL    R LY+ NGI+ +  RN  
+Sbjct: 4   TWSMLFPPAPQFTEANLSDLSGKVYIVTGSSAGLGKELA---RILYSHNGIVYLATRNAE 60
+
+Query: 115 VKRGPERW 122
+              G + W
+Sbjct: 61  KTEGVKTW 68
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 2,939,025
+Number of extensions: 119401
+Number of successful extensions: 277
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 276
+Number of HSP's successfully gapped: 6
+Length of query: 259
+Length of database: 5,459,076
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,339,528
+Effective search space: 724701176
+Effective search space used: 724701176
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,118 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB08469 pep:novel supercontig:GCA_000149845.2:supercont5.2:1494...   219   1e-71
+EEB08360 pep:novel supercontig:GCA_000149845.2:supercont5.2:1247...    27   1.7  
+EEB09226 pep:novel supercontig:GCA_000149845.2:supercont5.2:2453...    26   6.0  
+
+>EEB08469 pep:novel supercontig:GCA_000149845.2:supercont5.2:1494882:1495605:
+           1 gene:SJAG_03624 transcript:EEB08469
+           description:"phosphoric ester hydrolase Ssu72"
+          Length = 197
+
+ Score =  219 bits (558), Expect = 1e-71,   Method: Compositional matrix adjust.
+ Identities = 113/231 (48%), Positives = 137/231 (59%), Gaps = 40/231 (17%)
+
+Query: 29  LKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAM 88
+           LK   +CASNQNRSMEAH  L  A Y V SFGTGS VRLPGP+I +PN+Y+F   SYD +
+Sbjct: 7   LKISVICASNQNRSMEAHNVLKNAGYEVQSFGTGSAVRLPGPSIDKPNIYQF-GYSYDNI 65
+
+Query: 89  YKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVV 148
+           Y ELE +D RLYTANG+L ML+RNR +K  PERWQD                   +    
+Sbjct: 66  YNELEAQDARLYTANGLLKMLDRNRRIKTAPERWQD-------------------QRNTF 106
+
+Query: 149 DIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRA 208
+           DIV TCEERC+DAV EDL  RG   N PV +INVDIKDNHEEA+VGG+ IL L   L  A
+Sbjct: 107 DIVITCEERCFDAVCEDLFRRGEKQNYPVFLINVDIKDNHEEASVGGKAILALVEKLTDA 166
+
+Query: 209 AAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+             +  +K                      D++ EWQ ++P LP  +T+ +F
+Sbjct: 167 GDDLEEKF--------------------TDIMTEWQTKYPKLPVLFTIHYF 197
+
+
+>EEB08360 pep:novel supercontig:GCA_000149845.2:supercont5.2:1247966:1249335:
+           1 gene:SJAG_03509 transcript:EEB08360 description:"C-5
+           sterol desaturase Erg32"
+          Length = 323
+
+ Score = 27.3 bits (59), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 11/19 (57%), Positives = 15/19 (78%)
+
+Query: 86  DAMYKELEGKDRRLYTANG 104
+           D++ KE+EGKD R+Y  NG
+Sbjct: 302 DSIQKEVEGKDDRVYAHNG 320
+
+
+>EEB09226 pep:novel supercontig:GCA_000149845.2:supercont5.2:2453997:2458075:
+           1 gene:SJAG_04410 transcript:EEB09226
+           description:"aprataxin"
+          Length = 259
+
+ Score = 25.8 bits (55), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 19/35 (54%)
+
+Query: 149 DIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVD 183
+           DI    EE  W+ +    H++ S +N  VH+I+ D
+Sbjct: 136 DIETVDEEEIWNFLNIGFHSKPSEMNLHVHIISKD 170
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,117,211
+Number of extensions: 43693
+Number of successful extensions: 91
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 88
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 2,277,407
+Length adjustment: 86
+Effective length of query: 173
+Effective length of database: 1,857,899
+Effective search space: 321416527
+Effective search space used: 321416527
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

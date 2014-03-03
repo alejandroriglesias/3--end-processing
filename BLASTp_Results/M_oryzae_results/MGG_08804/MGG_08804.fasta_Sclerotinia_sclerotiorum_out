@@ -1,0 +1,159 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN92508 pep:novel supercontig:ASM14694v1:CH476631:664593:668358...   207   1e-59
+EDO04736 pep:novel supercontig:ASM14694v1:CH476629:749796:751546...    29   1.9  
+EDO02995 pep:novel supercontig:ASM14694v1:CH476626:1696665:16973...    27   2.1  
+EDO02196 pep:novel supercontig:ASM14694v1:CH476625:1814547:18213...    29   2.6  
+EDO01903 pep:novel supercontig:ASM14694v1:CH476625:1065545:10667...    28   4.6  
+EDN98640 pep:novel supercontig:ASM14694v1:CH476645:339586:341338...    27   9.4  
+
+>EDN92508 pep:novel supercontig:ASM14694v1:CH476631:664593:668358:-1
+           gene:SS1G_08371 transcript:EDN92508
+           description:"hypothetical protein"
+          Length = 656
+
+ Score =  207 bits (526), Expect = 1e-59,   Method: Compositional matrix adjust.
+ Identities = 106/225 (47%), Positives = 149/225 (66%), Gaps = 13/225 (5%)
+
+Query: 243 DDPAVRSAGMLIDTPPYV-EGKGADVLI-HIAEELNVNIIVTIDTPSLHTELTQRFSGVK 300
+           DD   R  GM+IDTP  + +GKG   LI HI  E +VNII+ + +  LH+++ +RFS  K
+Sbjct: 433 DDVKCRETGMIIDTPGVISQGKGGYELISHIVSEFSVNIILVLGSERLHSDMIRRFSAHK 492
+
+Query: 301 NVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAI 360
+              GE +++V LDKS G ++RD+ F+Q M +A+IKEYFFGDAK TLSP TQ V +DEL+I
+Sbjct: 493 TDSGEAITLVRLDKSGGCVDRDDAFMQQMRDAAIKEYFFGDAKRTLSPHTQVVNYDELSI 552
+
+Query: 361 YTSPEA----------SDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPV 410
+           +   EA           +  AEP   E++ +P+P M H + A+M A+  D    IR A V
+Sbjct: 553 FKVREAHSMHSAFLPGGEEDAEPTQYEKV-EPVPMMLHCIFAVMHASTRDSQDTIRDASV 611
+
+Query: 411 SGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+            GFVYVA VD++++R+KILAP++ R+ D+PL+WG WPE  +NL+G
+Sbjct: 612 MGFVYVAEVDEKKKRLKILAPLNTRVTDRPLIWGSWPEAPVNLMG 656
+
+
+
+ Score = 63.2 bits (152), Expect = 5e-11,   Method: Compositional matrix adjust.
+ Identities = 30/63 (47%), Positives = 39/63 (61%)
+
+Query: 16  SASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALNVAYTLSGVKSKILSWHG 75
+           S +  + L+   E+RF V+ G+SI + +  GTAE  GTELALN  YT  G KS I +WHG
+Sbjct: 354 SHTNIHELQANSEWRFEVAIGSSIDVKVLSGTAEIFGTELALNHTYTFRGTKSSIYTWHG 413
+
+Query: 76  ANL 78
+             L
+Sbjct: 414 CRL 416
+
+
+>EDO04736 pep:novel supercontig:ASM14694v1:CH476629:749796:751546:1
+           gene:SS1G_07219 transcript:EDO04736
+           description:"hypothetical protein"
+          Length = 533
+
+ Score = 29.3 bits (64), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 17/49 (34%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query: 329 MGEASIKEYF----FGDAKITLSPFTQQVAFDELAIYTSPEASDYSAEP 373
+           +G A I+E      F D K+ ++    Q +FD + I    E S+ SAEP
+Sbjct: 87  VGRAGIQERIRDLDFQDCKVRVTNVDSQSSFDNIVIQVIGETSNKSAEP 135
+
+
+>EDO02995 pep:novel supercontig:ASM14694v1:CH476626:1696665:1697329:1
+           gene:SS1G_05472 transcript:EDO02995
+           description:"predicted protein"
+          Length = 65
+
+ Score = 26.6 bits (57), Expect = 2.1,   Method: Composition-based stats.
+ Identities = 17/46 (36%), Positives = 25/46 (54%), Gaps = 3/46 (6%)
+
+Query: 279 IIVTIDTPSLHTELTQRFSGVKNVLGEHVSVVALDKSSGVMERDEG 324
+           +I+T+  P  HT +      V  V G  V VVAL  ++ ++ RDEG
+Sbjct: 21  VIITVSLPK-HTSILN--CNVIAVAGMTVVVVALKNTTDMLWRDEG 63
+
+
+>EDO02196 pep:novel supercontig:ASM14694v1:CH476625:1814547:1821317:-1
+            gene:SS1G_04672 transcript:EDO02196
+            description:"predicted protein"
+          Length = 2237
+
+ Score = 28.9 bits (63), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 20/39 (51%)
+
+Query: 13   PATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERD 51
+            PA  ASR Y  + R+  R S   G  I +T+T   +E D
+Sbjct: 1918 PAEDASRAYRRDDRKTRRSSRDVGPEIDVTMTGAVSEED 1956
+
+
+>EDO01903 pep:novel supercontig:ASM14694v1:CH476625:1065545:1066748:-1
+           gene:SS1G_04378 transcript:EDO01903
+           description:"hypothetical protein"
+          Length = 306
+
+ Score = 27.7 bits (60), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 19/28 (67%)
+
+Query: 43  LTRGTAERDGTELALNVAYTLSGVKSKI 70
+           L RGT+ RDG  +AL++A  LS  ++ I
+Sbjct: 102 LGRGTSTRDGLAIALSIAEALSQTRAVI 129
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 3,107,033
+Number of extensions: 122316
+Number of successful extensions: 300
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 298
+Number of HSP's successfully gapped: 8
+Length of query: 455
+Length of database: 3,721,581
+Length adjustment: 94
+Effective length of query: 361
+Effective length of database: 2,765,131
+Effective search space: 998212291
+Effective search space used: 998212291
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

@@ -1,0 +1,185 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YPR107C pep:known chromosome:SacCer_Apr2011:XVI:741438:742064:-1...   171   2e-52
+YOR091W pep:known chromosome:SacCer_Apr2011:XV:493433:494470:1 g...    31   0.15 
+YPL054W pep:known chromosome:SacCer_Apr2011:XVI:455759:456664:1 ...    30   0.23 
+YLR401C pep:known chromosome:SacCer_Apr2011:XII:922442:924448:-1...    31   0.23 
+YDR151C pep:known chromosome:SacCer_Apr2011:IV:764178:765155:-1 ...    29   0.70 
+YLR136C pep:known chromosome:SacCer_Apr2011:XII:415801:416658:-1...    27   3.0  
+
+>YPR107C pep:known chromosome:SacCer_Apr2011:XVI:741438:742064:-1
+           gene:YPR107C transcript:YPR107C description:"Essential
+           RNA-binding component of cleavage and polyadenylation
+           factor, contains five zinc fingers\x3b required for
+           pre-mRNA 3'-end processing and polyadenylation"
+          Length = 208
+
+ Score =  171 bits (433), Expect = 2e-52,   Method: Compositional matrix adjust.
+ Identities = 86/188 (45%), Positives = 112/188 (59%), Gaps = 23/188 (12%)
+
+Query: 12  AMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASG---GNCPNGTRCLERHVADPS 68
+           +++     KY F F PFL+Q Y  SL  DRPIC+ Y S     +CP G  C ++HV    
+Sbjct: 2   SLIHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVL--- 58
+
+Query: 69  QLSNAQSGYGSGKRDGPAF-NSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNG 127
+                           P F N +VC+HWLRGLCKK D CE+LHEYNLR+MPEC F+ +NG
+Sbjct: 59  ----------------PIFQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNG 102
+
+Query: 128 YCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFCPDGRLC 187
+           YC    +C YLHIDP SK+P C +Y+ GFCPLG  C ++H+++  C  Y+ GFCP G+  
+Sbjct: 103 YCTQSPDCQYLHIDPASKIPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDE 162
+
+Query: 188 KQGAHPGW 195
+               HP +
+Sbjct: 163 CDMEHPQF 170
+
+
+>YOR091W pep:known chromosome:SacCer_Apr2011:XV:493433:494470:1 gene:YOR091W
+           transcript:YOR091W description:"Protein of unknown
+           function that associates with translating ribosomes\x3b
+           interacts with GTPase Rbg1p"
+          Length = 345
+
+ Score = 31.2 bits (69), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 15/36 (41%), Positives = 22/36 (61%), Gaps = 1/36 (2%)
+
+Query: 89  SLVCKHWLRGLCKKGDGCEFLHEYNL-RRMPECNFY 123
+           S+VC  +  G C KG  C+F H+ N+ RRM + + Y
+Sbjct: 90  SMVCALFKLGNCNKGAKCKFSHDLNVGRRMEKKDLY 125
+
+
+>YPL054W pep:known chromosome:SacCer_Apr2011:XVI:455759:456664:1
+           gene:YPL054W transcript:YPL054W description:"Zinc-finger
+           protein of unknown function"
+          Length = 301
+
+ Score = 30.4 bits (67), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 25/52 (48%), Gaps = 4/52 (7%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLH---IDPQSKLPPCPHYDQGFCPLGPRCSKKHV 168
+           C F+ + G CQ G  C + H   I   +   PC ++ +G C  G +C   HV
+Sbjct: 93  CKFF-KMGNCQAGSSCPFSHSPDIISSANNLPCKYFAKGNCKFGNKCVNAHV 143
+
+
+
+ Score = 28.5 bits (62), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 28/55 (50%), Gaps = 6/55 (10%)
+
+Query: 92  CKHWLRGLCKKGDGCEFLHEYNL----RRMPECNFYIRNGYCQNGEECLYLHIDP 142
+           CK +  G C+ G  C F H  ++      +P C ++ + G C+ G +C+  H+ P
+Sbjct: 93  CKFFKMGNCQAGSSCPFSHSPDIISSANNLP-CKYFAK-GNCKFGNKCVNAHVLP 145
+
+
+
+ Score = 26.2 bits (56), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 21/67 (31%), Positives = 30/67 (44%), Gaps = 17/67 (25%)
+
+Query: 44  CKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKG 103
+           CK +   GNC  G+ C   H   P  +S+A              N+L CK++ +G CK G
+Sbjct: 93  CKFFK-MGNCQAGSSCPFSH--SPDIISSA--------------NNLPCKYFAKGNCKFG 135
+
+Query: 104 DGCEFLH 110
+           + C   H
+Sbjct: 136 NKCVNAH 142
+
+
+>YLR401C pep:known chromosome:SacCer_Apr2011:XII:922442:924448:-1
+           gene:YLR401C transcript:YLR401C
+           description:"Dihydrouridine synthase, member of a
+           widespread family of conserved proteins including Smm1p,
+           Dus1p, and Dus4p\x3b contains a consensus oleate
+           response element (ORE) in its promoter region"
+          Length = 668
+
+ Score = 30.8 bits (68), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 27/68 (39%), Gaps = 25/68 (36%)
+
+Query: 100 CKKGDGCEFLHEYNL---RRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQ-G 155
+           C  GD C F+H+ NL    + PE    I                      P CP ++  G
+Sbjct: 109 CSFGDNCRFVHDINLYLSTKKPEVESNI---------------------FPSCPVFNSLG 147
+
+Query: 156 FCPLGPRC 163
+           FCP+G +C
+Sbjct: 148 FCPMGFKC 155
+
+
+>YDR151C pep:known chromosome:SacCer_Apr2011:IV:764178:765155:-1
+           gene:YDR151C transcript:YDR151C description:"Member of
+           the CCCH zinc finger family\x3b has similarity to
+           mammalian Tis11 protein, which activates transcription
+           and also has a role in mRNA degradation\x3b may function
+           with Tis11p in iron homeostasis"
+          Length = 325
+
+ Score = 29.3 bits (64), Expect = 0.70,   Method: Compositional matrix adjust.
+ Identities = 19/64 (29%), Positives = 29/64 (45%), Gaps = 10/64 (15%)
+
+Query: 114 LRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLP---------PCPHYDQ-GFCPLGPRC 163
+           L +   C  +   GYC+ G +C + H   + K           PC ++ + G+CP G RC
+Sbjct: 204 LYKTELCESFTIKGYCKYGNKCQFAHGLNELKFKKKSNNYRTKPCINWSKLGYCPYGKRC 263
+
+Query: 164 SKKH 167
+             KH
+Sbjct: 264 CFKH 267
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,577,169
+Number of extensions: 69610
+Number of successful extensions: 124
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 112
+Number of HSP's successfully gapped: 18
+Length of query: 276
+Length of database: 3,010,216
+Length adjustment: 89
+Effective length of query: 187
+Effective length of database: 2,414,628
+Effective search space: 451535436
+Effective search space used: 451535436
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 50 (23.9 bits)

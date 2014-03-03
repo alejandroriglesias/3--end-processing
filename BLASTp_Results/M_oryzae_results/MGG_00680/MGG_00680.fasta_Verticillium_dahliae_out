@@ -1,0 +1,201 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY15660 pep:novel supercontig:GCA_000150675.1:supercont1.14:738...   230   1e-72
+EGY18365 pep:novel supercontig:GCA_000150675.1:supercont1.22:360...    50   3e-07
+EGY19222 pep:novel supercontig:GCA_000150675.1:supercont1.26:454...    39   0.001
+EGY18132 pep:novel supercontig:GCA_000150675.1:supercont1.20:538...    30   0.97 
+EGY15846 pep:novel supercontig:GCA_000150675.1:supercont1.15:390...    29   1.2  
+EGY21058 pep:novel supercontig:GCA_000150675.1:supercont1.4:7487...    29   1.5  
+EGY22848 pep:novel supercontig:GCA_000150675.1:supercont1.7:6834...    29   1.7  
+EGY14835 pep:novel supercontig:GCA_000150675.1:supercont1.12:101...    27   5.5  
+EGY19883 pep:novel supercontig:GCA_000150675.1:supercont1.3:8988...    27   6.5  
+EGY22762 pep:novel supercontig:GCA_000150675.1:supercont1.7:3909...    27   6.7  
+
+>EGY15660 pep:novel supercontig:GCA_000150675.1:supercont1.14:738682:740079:-
+           1 gene:VDAG_06824 transcript:EGY15660 description:"mRNA
+           3'-end-processing protein YTH1"
+          Length = 395
+
+ Score =  230 bits (586), Expect = 1e-72,   Method: Compositional matrix adjust.
+ Identities = 118/209 (56%), Positives = 138/209 (66%), Gaps = 34/209 (16%)
+
+Query: 1   MASPSVA--KIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTR 58
+            A PS+A  + A  + +H+ P  +F FTPFL+ T+QH+L +D       A GG       
+Sbjct: 143 TAHPSLAPSRAAPDLASHTEPAATFDFTPFLRATHQHALAAD------SAPGG------- 189
+
+Query: 59  CLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMP 118
+                     Q ++  +G G          SLVCKHWLRGLCKKG  CEFLHEYNLR+MP
+Sbjct: 190 ----------QPAHTHAGRGP---------SLVCKHWLRGLCKKGAHCEFLHEYNLRKMP 230
+
+Query: 119 ECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLC 178
+           ECNF+ RNGYC NGEECLYLHIDPQSKLPPCPHYD GFCPLGP C+KKHVRR LC +YL 
+Sbjct: 231 ECNFFTRNGYCSNGEECLYLHIDPQSKLPPCPHYDMGFCPLGPACAKKHVRRALCLFYLA 290
+
+Query: 179 GFCPDGRLCKQGAHPGWNPKLDPPTVKVE 207
+           GFCP GR C+ GAHP W   L+ P +KVE
+Sbjct: 291 GFCPAGRDCRDGAHPRWRKDLERPKLKVE 319
+
+
+>EGY18365 pep:novel supercontig:GCA_000150675.1:supercont1.22:36038:37655:-1
+           gene:VDAG_08699 transcript:EGY18365 description:"CCCH
+           zinc finger protein"
+          Length = 449
+
+ Score = 50.1 bits (118), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 41/141 (29%), Positives = 66/141 (46%), Gaps = 28/141 (19%)
+
+Query: 44  CKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWL-RGLCKK 102
+           C++++S G+CP G  C  R++ + S+++                   VC+ +L +G C  
+Sbjct: 264 CRMFSSTGSCPKGPNC--RYIHNASKVA-------------------VCRDFLQKGKCAN 302
+
+Query: 103 GDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPC-PHYDQGFCPLGP 161
+           G+ C+  H+   +R P C  +I+ G C N  EC Y H +       C P    GFC  G 
+Sbjct: 303 GEDCDLSHDLCPQRTPTCLHFIK-GNCAN-HECPYAHNNVSPGALVCRPFGLYGFCEAGQ 360
+
+Query: 162 RCSKKHVRRNLCP-YYLCGFC 181
+            C+++HV    CP +   G C
+Sbjct: 361 ECTERHVSE--CPDFSNTGVC 379
+
+
+
+ Score = 44.3 bits (103), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 30/97 (30%), Positives = 46/97 (47%), Gaps = 8/97 (8%)
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFC 157
+           G C KG  C ++H  N  ++  C  +++ G C NGE+C   H     + P C H+ +G C
+Sbjct: 271 GSCPKGPNCRYIH--NASKVAVCRDFLQKGKCANGEDCDLSHDLCPQRTPTCLHFIKGNC 328
+
+Query: 158 PLGPRCSKKHVRRN----LC-PYYLCGFCPDGRLCKQ 189
+                C   H   +    +C P+ L GFC  G+ C +
+Sbjct: 329 A-NHECPYAHNNVSPGALVCRPFGLYGFCEAGQECTE 364
+
+
+
+ Score = 26.6 bits (57), Expect = 8.4,   Method: Compositional matrix adjust.
+ Identities = 26/120 (21%), Positives = 43/120 (35%), Gaps = 27/120 (22%)
+
+Query: 39  SDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRG 98
+           S   +C+ +   G C NG  C   H   P +                   +  C H+++G
+Sbjct: 286 SKVAVCRDFLQKGKCANGEDCDLSHDLCPQR-------------------TPTCLHFIKG 326
+
+Query: 99  LCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHY-DQGFC 157
+            C   + C + H         C  +   G+C+ G+EC   H+        CP + + G C
+Sbjct: 327 NCANHE-CPYAHNNVSPGALVCRPFGLYGFCEAGQECTERHVS------ECPDFSNTGVC 379
+
+
+>EGY19222 pep:novel supercontig:GCA_000150675.1:supercont1.26:454125:456013:1
+           gene:VDAG_09556 transcript:EGY19222
+           description:"hypothetical protein"
+          Length = 591
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 32/66 (48%), Gaps = 1/66 (1%)
+
+Query: 80  GKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLH 139
+           G R  P  + + CK + +G C+ G  C F H+        C ++ + G C+ G +C  +H
+Sbjct: 35  GPRSPPNTSHVPCKFFRQGACQAGSACPFSHDLGASAETICKYFAK-GNCKFGPKCANIH 93
+
+Query: 140 IDPQSK 145
+           I P  +
+Sbjct: 94  ILPDGR 99
+
+
+
+ Score = 37.0 bits (84), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 22/71 (30%), Positives = 30/71 (42%), Gaps = 13/71 (18%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCG 179
+           C F+ R G CQ G  C + H    S    C ++ +G C  GP+C+  H+           
+Sbjct: 47  CKFF-RQGACQAGSACPFSHDLGASAETICKYFAKGNCKFGPKCANIHI----------- 94
+
+Query: 180 FCPDGRLCKQG 190
+             PDGR    G
+Sbjct: 95  -LPDGRRINYG 104
+
+
+>EGY18132 pep:novel supercontig:GCA_000150675.1:supercont1.20:538938:540308:1
+           gene:VDAG_08466 transcript:EGY18132
+           description:"pre-mRNA-splicing factor CWC2"
+          Length = 411
+
+ Score = 29.6 bits (65), Expect = 0.97,   Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (63%)
+
+Query: 89  SLVCKHWLRGLCKKGDGCEFLH 110
+           S  C  + RG+C KG  CE+LH
+Sbjct: 124 SFFCLFFARGICPKGQDCEYLH 145
+
+
+>EGY15846 pep:novel supercontig:GCA_000150675.1:supercont1.15:390248:392219:-
+           1 gene:VDAG_07010 transcript:EGY15846 description:"CCCH
+           zinc finger DNA binding protein"
+          Length = 479
+
+ Score = 29.3 bits (64), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 22/50 (44%), Gaps = 2/50 (4%)
+
+Query: 88  NSLVCKHWLRGLCKKGDGCEFLHEY--NLRRMPECNFYIRNGYCQNGEEC 135
+           + L   H+LRG C KG  C F H Y   L  +       R   C  G+EC
+Sbjct: 416 DKLCNNHYLRGPCVKGSDCCFEHRYKPTLDEIHAIAHLARLNPCTKGQEC 465
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 3,000,083
+Number of extensions: 147471
+Number of successful extensions: 321
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 300
+Number of HSP's successfully gapped: 20
+Length of query: 276
+Length of database: 4,984,196
+Length adjustment: 92
+Effective length of query: 184
+Effective length of database: 4,014,976
+Effective search space: 738755584
+Effective search space used: 738755584
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

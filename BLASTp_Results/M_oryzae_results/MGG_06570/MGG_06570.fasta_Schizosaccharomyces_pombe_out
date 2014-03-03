@@ -1,0 +1,200 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBC1709.15c.1:pep pep:known chromosome:ASM294v2:II:1127954:1130...   277   4e-80
+SPAC17G6.16c.1:pep pep:known chromosome:ASM294v2:I:3620761:36237...    56   1e-08
+SPAC222.05c.1:pep pep:known chromosome:ASM294v2:I:950912:953006:...    29   3.7  
+
+>SPBC1709.15c.1:pep pep:known chromosome:ASM294v2:II:1127954:1130425:-1
+           gene:SPBC1709.15c transcript:SPBC1709.15c.1
+           description:"cleavage factor two Cft2/polyadenylation
+           factor CPSF-73 (predicted)"
+          Length = 797
+
+ Score =  277 bits (708), Expect = 4e-80,   Method: Compositional matrix adjust.
+ Identities = 255/967 (26%), Positives = 416/967 (43%), Gaps = 178/967 (18%)
+
+Query: 1   MFTFSPLQGALSEATASQSLLELDGGVKVLIDIGWDETFDVEKLKEVEKQVPTLSLILLT 60
+           M  +  L+   +++    S +ELDG + + ID G D++    K  EV +Q     LILL+
+Sbjct: 1   MLNYQCLE---TDSYCGTSHIELDG-IHIYIDPGSDDSL---KHPEVPEQP---DLILLS 50
+
+Query: 61  HATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAE 120
+           H+ + H+  LV+    +  +    IYAT P I++GR  + D   S   +  S  D     
+Sbjct: 51  HSDLAHIGGLVYAYYKYD-WKNAYIYATLPTINMGRMTMLDAIKSNYISDMSKAD----- 104
+
+Query: 121 ASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAY 180
+                                   +   F  I PL+Y QP   L        +GLTITAY
+Sbjct: 105 ------------------------VDAVFDSIIPLRYQQPTLLLGK-----CSGLTITAY 135
+
+Query: 181 NAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKPTA 240
+           NAGH+LGGT+W +    ES++YAVDWN ++D                   ++E L +P  
+Sbjct: 136 NAGHTLGGTLWSLIKESESVLYAVDWNHSKDK------HLNGAALYSNGHILEALNRPNT 189
+
+Query: 241 LVCSTRTAEGGL-TRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLEHAWRSE 299
+           L+     +   + +R  RD+  ++++  ++ +GGTVL+PVD+++RVLEL  +L++ W   
+Sbjct: 190 LITDANNSLVSIPSRKKRDEAFIESVMSSLLKGGTVLLPVDAASRVLELCCILDNHW--- 246
+
+Query: 300 ASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFRRTXXXXXXX 359
+            S     L    L+L+  S   TI  AKSM EWM ++IV++F  G ++            
+Sbjct: 247 -SASQPPLPFPILFLSPTST-KTIDYAKSMIEWMGDNIVRDF--GINENL---------- 292
+
+Query: 360 XXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLEWGFSKDIISAIA 419
+                     +F+ +  +   +Q+   + P       KVILAT  +LE GFS+ I+  + 
+Sbjct: 293 ---------LEFRNINTITDFSQI-SHIGPGP-----KVILATALTLECGFSQRILLDLM 337
+
+Query: 420 NDSRNMVILPEKPAESSRDNPSISRQLWRWWKERRDGVADEQSSGAGSAEQVFAGGRELQ 479
+           +++ N +IL  + +   ++  S++ Q  R+W+       D        AEQ         
+Sbjct: 338 SENSNDLILFTQRSRCPQN--SLANQFIRYWERASKKKRDIPHPVGLYAEQA-------- 387
+
+Query: 480 IRESKKVPLADSELSIYQQWLATQRQLNATVQGGGXXXXXXXXXXXXXXXXXXXXXXXXX 539
+           ++   K PL   EL  YQ+   ++R  N   +                            
+Sbjct: 388 VKIKTKEPLEGEELRSYQELEFSKR--NKDAEDTALEFRNRTILDEDLSSSSSSEDDDLD 445
+
+Query: 540 XNEQQGKALNASTTQASRKKVVLQDEDLGVMILLKKPGVYDFPVKGKKGRERMFPLAVRR 599
+            N +       S+     K   L          L+ P V     K K     MFP   +R
+Sbjct: 446 LNTEVPHVALGSSAFLMGKSFDLN---------LRDPAVQALHTKYK-----MFPYIEKR 491
+
+Query: 600 KRNDEFGELIRPEDYLRAEEREENERPDTQQLQSDGQDGF----GQKRKWDDAGSRNAAN 655
+           +R DE+GE+I+ +D+        NE  +T +L++D  D        KRKW +       +
+Sbjct: 492 RRIDEYGEIIKHQDFSMI-----NEPANTLELENDSDDNALSNSNGKRKWSEIN-----D 541
+
+Query: 656 GLNXXXXXXXXXXXXXXXXXSGPAPXXXXXXXXXXXXXXTGPAKLVHTSTTVSVNLRLAL 715
+           GL                                       P+K++    T+ V+ ++  
+Sbjct: 542 GLQQKKEEEDEDEV---------------------------PSKIITDEKTIRVSCQVQF 574
+
+Query: 716 IDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRRNAI---EVFTPPVGAVV 772
+           ID  GLHD RSL  +IP + PR+L+L+  S +E E +   C   +    +V+ P  G ++
+Sbjct: 575 IDIEGLHDGRSLKTIIPQVNPRRLVLIHASTEEKEDMKKTCASLSAFTKDVYIPNYGEII 634
+
+Query: 773 DASVDTNAWVVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQKNGIPLLIADDDGAN 832
+           + S+D NA+ +KLAD L+K L W +V    +  + A++  +  +++      +   DG  
+Sbjct: 635 NVSIDVNAFSLKLADDLIKNLIWTKVGNCEVSHMLAKVEISKPSEEEDKKEEVEKKDG-- 692
+
+Query: 833 KRQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSASRSAAQVLHVGELRLADLRRTM 892
+                     D +    + E+   +P L+ L +    A    A  L VG +RLA LR+ +
+Sbjct: 693 ----------DKERNEEKKEEKETLPVLNALTLRSDLARAPRAAPLLVGNIRLAYLRKAL 742
+
+Query: 893 QNLGHSADFRGEGTLLIDGTVVVRKTAAGRVEIESXXXXXXXXXXXXXXXXXFYAVKKTI 952
+            + G SA+ +GEG LL  G V VRK + G++ +E                  F+ ++K +
+Sbjct: 743 LDQGISAELKGEGVLLCGGAVAVRKLSGGKISVEG------------SLSNRFFEIRKLV 790
+
+Query: 953 YDGLAVV 959
+           YD LAVV
+Sbjct: 791 YDALAVV 797
+
+
+>SPAC17G6.16c.1:pep pep:known chromosome:ASM294v2:I:3620761:3623784:-1
+           gene:SPAC17G6.16c transcript:SPAC17G6.16c.1
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex endoribonuclease subunit
+           Ysh1"
+          Length = 757
+
+ Score = 56.2 bits (134), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 77/382 (20%), Positives = 145/382 (37%), Gaps = 86/382 (22%)
+
+Query: 48  EKQVPTLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTP 107
+           E  + T+ ++L++H  + H+++L +  +      R+  + T P   + + L+ D      
+Sbjct: 65  EFDLSTVDVLLISHFHLDHVASLPYVMQKTNFRGRV--FMTHPTKAVCKWLLSDY---VK 119
+
+Query: 108 AAATSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASP 167
+            +   + D    E               LL A    E   Y S I+              
+Sbjct: 120 VSNVGMEDQLYDEKD-------------LLAAFDRIEAVDYHSTIE-------------- 152
+
+Query: 168 FSPPLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXX 227
+               + G+  T Y+AGH LG  ++ ++    +I++  D++   D                
+Sbjct: 153 ----VEGIKFTPYHAGHVLGACMYFVEMAGVNILFTGDYSREEDR------------HLH 196
+
+Query: 228 XXEVIEQLRKPTALVC-STRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVL 286
+             EV    ++P  L+  ST        R  ++ +LL+ +   I  GG VL+PV +  R  
+Sbjct: 197 VAEVPP--KRPDVLITESTYGTASHQPRLEKEARLLNIIHSTIRNGGRVLMPVFALGRAQ 254
+
+Query: 287 ELAYLLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGAD 346
+           EL  +L+  W +        L +  +Y A       + + ++    M+++I + F     
+Sbjct: 255 ELLLILDEYWNNHLD-----LRSVPIYYASSLARKCMAIFQTYVNMMNDNIRKIF----- 304
+
+Query: 347 QGFRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSL 406
+                                PF F++++ L R  +    + PS       VILA+   L
+Sbjct: 305 -----------------AERNPFIFRFVKSL-RNLEKFDDIGPS-------VILASPGML 339
+
+Query: 407 EWGFSKDIISAIANDSRNMVIL 428
+           + G S+ ++   A D RN ++L
+Sbjct: 340 QNGVSRTLLERWAPDPRNTLLL 361
+
+
+>SPAC222.05c.1:pep pep:known chromosome:ASM294v2:I:950912:953006:-1 gene:SPAC222.05c
+           transcript:SPAC222.05c.1 description:"mitochondrial
+           GTPase (predicted)"
+          Length = 496
+
+ Score = 28.9 bits (63), Expect = 3.7,   Method: Compositional matrix adjust.
+ Identities = 20/61 (32%), Positives = 31/61 (50%), Gaps = 7/61 (11%)
+
+Query: 819 NGIPLLIADDDGANK---RQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSASRSAA 875
+           NG P+L++D  G  K    Q+I+  G++  +  AE+  +    TL V P+   S S S  
+Sbjct: 285 NGFPVLLSDTAGLRKGEDVQEIEKIGIEIAKARAEESQL----TLFVFPINYHSFSESLK 340
+
+Query: 876 Q 876
+           Q
+Sbjct: 341 Q 341
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 3,679,596
+Number of extensions: 141287
+Number of successful extensions: 383
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 375
+Number of HSP's successfully gapped: 9
+Length of query: 962
+Length of database: 2,387,769
+Length adjustment: 98
+Effective length of query: 864
+Effective length of database: 1,883,657
+Effective search space: 1627479648
+Effective search space used: 1627479648
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 54 (25.4 bits)

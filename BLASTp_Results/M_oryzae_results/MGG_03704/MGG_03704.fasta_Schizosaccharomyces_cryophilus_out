@@ -1,0 +1,124 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY53396 pep:novel supercontig:GCA_000004155.2:supercont4.1:7925...   227   2e-74
+EPY53960 pep:novel supercontig:GCA_000004155.2:supercont4.1:2017...    28   1.8  
+EPY52350 pep:novel supercontig:GCA_000004155.2:supercont4.2:3190...    26   6.0  
+
+>EPY53396 pep:novel supercontig:GCA_000004155.2:supercont4.1:792520:793514:-1
+           gene:SPOG_03921 transcript:EPY53396
+           description:"phosphoric ester hydrolase Ssu72"
+          Length = 197
+
+ Score =  227 bits (578), Expect = 2e-74,   Method: Compositional matrix adjust.
+ Identities = 114/232 (49%), Positives = 145/232 (62%), Gaps = 40/232 (17%)
+
+Query: 28  KLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDA 87
+           +L+   +CASNQNRSMEAH  L  A Y V SFGTGS VRLPGP+I +PN+Y F    YD+
+Sbjct: 6   QLEISVICASNQNRSMEAHNLLKNAGYQVDSFGTGSAVRLPGPSIDKPNIYPF-GYPYDS 64
+
+Query: 88  MYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGV 147
+           +YKELE +D RLYTANG+L ML+RNR++KR P RWQD                   +  +
+Sbjct: 65  IYKELESQDSRLYTANGLLKMLDRNRHIKRAPNRWQD-------------------QESI 105
+
+Query: 148 VDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNR 207
+            D+V TCEERC+DA+ EDL+ RG   +RPV++INVDIKDNHEEA+VGG+ ILDL   LN 
+Sbjct: 106 YDVVITCEERCYDAICEDLYRRGESKSRPVYLINVDIKDNHEEASVGGKAILDLVQRLND 165
+
+Query: 208 AAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           A     D+                      +V+AEWQ + P LPA +T+ +F
+Sbjct: 166 AKDSFEDEF--------------------TNVMAEWQAKHPTLPALYTIHFF 197
+
+
+>EPY53960 pep:novel supercontig:GCA_000004155.2:supercont4.1:2017408:2020015:
+           1 gene:SPOG_02817 transcript:EPY53960
+           description:"transcription factor TFIID complex subunit
+           Taf5-like protein"
+          Length = 641
+
+ Score = 27.7 bits (60), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 18/59 (30%), Positives = 29/59 (49%), Gaps = 1/59 (1%)
+
+Query: 72  ITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIP 130
+           + QP  Y  N+++ D     L+   R+ Y+    +  LE + +V   PE  QDW +G P
+Sbjct: 1   MAQPTSYNSNNSTSDLNKIVLDYLYRKGYSRTEAMLRLEIS-SVGAIPEEQQDWHVGAP 58
+
+
+>EPY52350 pep:novel supercontig:GCA_000004155.2:supercont4.2:319083:321342:1
+           gene:SPOG_01676 transcript:EPY52350 description:"GRIP
+           domain-containing protein"
+          Length = 715
+
+ Score = 25.8 bits (55), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 37/75 (49%), Gaps = 22/75 (29%)
+
+Query: 42  SMEAHLQLSKANYPVISFGTGSLVRLPGPTITQ--------PNV-YKFNS---TSYDAMY 89
+           S+EA+LQLS  + P            P PT+T+        P++ +K +    T  +++ 
+Sbjct: 272 SVEAYLQLSNISIPST----------PSPTLTKAEDVFLQLPSIPFKKDEALPTIVESLR 321
+
+Query: 90  KELEGKDRRLYTANG 104
+           KELE  +++L T + 
+Sbjct: 322 KELEAAEKKLKTESA 336
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 1,153,341
+Number of extensions: 45578
+Number of successful extensions: 109
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 106
+Number of HSP's successfully gapped: 7
+Length of query: 259
+Length of database: 2,338,516
+Length adjustment: 86
+Effective length of query: 173
+Effective length of database: 1,893,036
+Effective search space: 327495228
+Effective search space used: 327495228
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBC215.08c.1:pep pep:known chromosome:ASM294v2:II:4041439:40454...    28   1.0  
+SPBC19C7.06.1:pep pep:known chromosome:ASM294v2:II:2831724:28341...    28   1.9  
+SPBC1773.08c.1:pep pep:known chromosome:ASM294v2:II:297726:29909...    25   8.8  
+
+>SPBC215.08c.1:pep pep:known chromosome:ASM294v2:II:4041439:4045476:-1
+           gene:SPBC215.08c transcript:SPBC215.08c.1
+           description:"arginine specific carbamoyl-phosphate
+           synthase Arg4 (predicted)"
+          Length = 1160
+
+ Score = 28.5 bits (62), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 19/62 (30%), Positives = 28/62 (45%), Gaps = 2/62 (3%)
+
+Query: 124 VGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHV-TRPKECKKLYFIQLPNSKVL 182
+           V R+G   E  DW    C     +    T M  + P  V T   EC++LYF +L   +V+
+Sbjct: 638 VYRIGSSVEF-DWCGVSCARTLRKLGHSTIMVNYNPETVSTDFDECERLYFEELSYERVM 696
+
+Query: 183 SV 184
+            +
+Sbjct: 697 DI 698
+
+
+>SPBC19C7.06.1:pep pep:known chromosome:ASM294v2:II:2831724:2834130:1 gene:SPBC19C7.06
+           transcript:SPBC19C7.06.1 description:"cytoplasmic
+           proline-tRNA ligase Prs1 (predicted)"
+          Length = 716
+
+ Score = 27.7 bits (60), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 32/75 (42%), Gaps = 14/75 (18%)
+
+Query: 85  HILMLQIANAFFKL--PGDYLRPEDDEVEGFKARLDERLAPVGRLGEGEEAGDWQIGDCL 142
+            I  L + N +F L      L  E D VEGF   +    A V R G  E      + + +
+Sbjct: 258 EIKKLGVRNGYFPLFVSSKVLEKEKDHVEGFAPEV----AWVTRAGTSE------LDEPI 307
+
+Query: 143 AQWWRPNFETFMYPF 157
+           A   RP  ET MYP+
+Sbjct: 308 AI--RPTSETVMYPY 320
+
+
+>SPBC1773.08c.1:pep pep:known chromosome:ASM294v2:II:297726:299093:-1 gene:SPBC1773.08c
+           transcript:SPBC1773.08c.1
+           description:"alpha-1,2-mannosyltransferase Omh4
+           (predicted)"
+          Length = 440
+
+ Score = 25.4 bits (54), Expect = 8.8,   Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 22/37 (59%), Gaps = 1/37 (2%)
+
+Query: 30  RLYPLSNYTFGVKETQPEEDPSVLARLKRLEEHYNAH 66
+           +L+P  N TF V   +  + P V++ +  LE+H+N H
+Sbjct: 87  QLHPRMNATF-VMLARNSDLPGVVSSINSLEKHFNRH 122
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 1,396,364
+Number of extensions: 62680
+Number of successful extensions: 143
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 143
+Number of HSP's successfully gapped: 8
+Length of query: 266
+Length of database: 2,387,769
+Length adjustment: 87
+Effective length of query: 179
+Effective length of database: 1,940,241
+Effective search space: 347303139
+Effective search space used: 347303139
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 49 (23.5 bits)

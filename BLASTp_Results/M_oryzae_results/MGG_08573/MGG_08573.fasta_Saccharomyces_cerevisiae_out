@@ -1,0 +1,151 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YDR228C pep:known chromosome:SacCer_Apr2011:IV:921926:923806:-1 ...   106   2e-24
+YNL251C pep:known chromosome:SacCer_Apr2011:XIV:172588:174315:-1...    31   0.78 
+YPR013C pep:known chromosome:SacCer_Apr2011:XVI:584632:585585:-1...    28   5.2  
+
+>YDR228C pep:known chromosome:SacCer_Apr2011:IV:921926:923806:-1
+           gene:YDR228C transcript:YDR228C description:"mRNA 3' end
+           processing factor, essential component of cleavage and
+           polyadenylation factor IA (CF IA), involved in pre-mRNA
+           3' end processing and in transcription termination\x3b
+           binds C-terminal domain of largest subunit of RNA pol II
+           (Rpo21p)\x3b require /.../gene looping"
+          Length = 626
+
+ Score =  106 bits (264), Expect = 2e-24,   Method: Compositional matrix adjust.
+ Identities = 61/151 (40%), Positives = 80/151 (52%), Gaps = 6/151 (3%)
+
+Query: 5   DHAAGV-AEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKL 63
+           DH   V  +D+   LE LT N+R  I+ LT +A EN   A    + +   I++  P +KL
+Sbjct: 2   DHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKL 61
+
+Query: 64  PALYLLDSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLD 123
+            A Y LDSI KNVG+PYT++F R L+  +   Y  VDN TR K+  M K W  P    L 
+Sbjct: 62  YAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL- 120
+
+Query: 124 TRPVFPPEVVRPIENALIKARTSALQAQQEQ 154
+             P+F    +  IE  LIKA  SAL  +  Q
+Sbjct: 121 --PLFEGSALEKIEQFLIKA--SALHQKNLQ 147
+
+
+
+ Score = 72.8 bits (177), Expect = 8e-14,   Method: Compositional matrix adjust.
+ Identities = 47/233 (20%), Positives = 91/233 (39%), Gaps = 31/233 (13%)
+
+Query: 460 VAPAHVEIMGD--IQLTTSSLKQP----RLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAA 513
+            A  +++++ +  +QL+  +L Q     +  L++ LY      C+ CG+RF N E+ +  
+Sbjct: 378 FATVNIDVLNNPSLQLSEQTLLQENPIVQNNLIHLLYRSKPNKCSVCGKRFGNSESEKLL 437
+
+Query: 514 KTAHMDWHFRVAARIAEAE------------------KKGQHRSYYVDVRDWVGSR--EA 553
+           +  H+DWHFR+  RI  ++                  K  Q R++Y+    W   +  E 
+Sbjct: 438 QNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEI 497
+
+Query: 554 VDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXXXXXXXXXXXXXK---RWIPVPDAG 610
+                                          E               +   +++ VP+  
+Sbjct: 498 TSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLGSDRSNELEIRGKYVVVPETS 557
+
+Query: 611 SNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNRVFHASCHSEVTGRGA 663
+            ++   CPIC+E     + +E+ EWVW + +   G  + FH++C+ E +   +
+Sbjct: 558 QDMAFKCPICKETVTGVYDEESGEWVWKNTIEVNG--KYFHSTCYHETSQNSS 608
+
+
+>YNL251C pep:known chromosome:SacCer_Apr2011:XIV:172588:174315:-1
+          gene:YNL251C transcript:YNL251C
+          description:"RNA-binding protein, subunit of Nrd1
+          complex (Nrd1p-Nab3p-Sen1p)\x3b complex mediates
+          termination of snoRNAs and cryptic unstable transcripts
+          (CUTs)\x3b interacts with the C-terminal domain of the
+          RNA polymerase II large subunit (Rpo21p),
+          preferentially a /.../phorylated Ser5\x3b H3K4
+          trimethylation of transcribed regions by Set1p enhances
+          recruitment of Nrd1p to those sites\x3b required for 3'
+          end maturation of nonpolyadenylated RNAs"
+          Length = 575
+
+ Score = 30.8 bits (68), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 20/72 (27%), Positives = 37/72 (51%), Gaps = 5/72 (6%)
+
+Query: 3  EEDHAAGVA--EDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPP 60
+          ++D    VA  E +KD   G++ +    I  LT  A ++ +    I  +++D+ +     
+Sbjct: 4  DDDFQNFVATLESFKDLKSGISGS---RIKKLTTYALDHIDIESKIISLIIDYSRLCPDS 60
+
+Query: 61 RKLPALYLLDSI 72
+           KL +LY++DSI
+Sbjct: 61 HKLGSLYIIDSI 72
+
+
+>YPR013C pep:known chromosome:SacCer_Apr2011:XVI:584632:585585:-1
+           gene:YPR013C transcript:YPR013C description:"Putative
+           zinc finger protein\x3b YPR013C is not an essential
+           gene"
+          Length = 317
+
+ Score = 28.1 bits (61), Expect = 5.2,   Method: Compositional matrix adjust.
+ Identities = 16/56 (28%), Positives = 28/56 (50%), Gaps = 7/56 (12%)
+
+Query: 81  TLFFGRKLYQTFMEAYASVDNATRRKM---DEMLKTWKEPVPGSLDTRPVFPPEVV 133
+           T F+G   Y+   E Y    N+T+  +     +L  ++   P ++D+R  FPP+ V
+Sbjct: 52  TQFYGHNSYKNERECY----NSTKINLPPISSLLPNFENNTPPNVDSRVQFPPQQV 103
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,959,416
+Number of extensions: 107138
+Number of successful extensions: 322
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 319
+Number of HSP's successfully gapped: 12
+Length of query: 695
+Length of database: 3,010,216
+Length adjustment: 97
+Effective length of query: 598
+Effective length of database: 2,361,092
+Effective search space: 1411933016
+Effective search space used: 1411933016
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 54 (25.4 bits)

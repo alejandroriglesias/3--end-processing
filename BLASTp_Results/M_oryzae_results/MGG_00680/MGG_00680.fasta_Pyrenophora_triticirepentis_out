@@ -1,0 +1,176 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU50436 pep:novel supercontig:GCA_000149985.1:supercont1.8:4423...   221   2e-70
+EDU41401 pep:novel supercontig:GCA_000149985.1:supercont1.1:5636...    42   1e-04
+EDU50469 pep:novel supercontig:GCA_000149985.1:supercont1.8:1338...    40   7e-04
+EDU46392 pep:novel supercontig:GCA_000149985.1:supercont1.3:5344...    33   0.051
+EDU40845 pep:novel supercontig:GCA_000149985.1:supercont1.1:3930...    32   0.23 
+EDU39761 pep:novel supercontig:GCA_000149985.1:supercont1.1:8513...    31   0.40 
+EDU49591 pep:novel supercontig:GCA_000149985.1:supercont1.6:1359...    30   0.67 
+EDU46147 pep:novel supercontig:GCA_000149985.1:supercont1.25:377...    29   1.3  
+EDU39963 pep:novel supercontig:GCA_000149985.1:supercont1.1:1384...    29   1.4  
+EDU47832 pep:novel supercontig:GCA_000149985.1:supercont1.4:1572...    29   1.5  
+EDU42255 pep:novel supercontig:GCA_000149985.1:supercont1.10:145...    27   4.1  
+EDU45727 pep:novel supercontig:GCA_000149985.1:supercont1.2:2718...    27   4.9  
+EDU40551 pep:novel supercontig:GCA_000149985.1:supercont1.1:3065...    27   5.4  
+EDU48102 pep:novel supercontig:GCA_000149985.1:supercont1.4:2462...    27   6.7  
+EDU40315 pep:novel supercontig:GCA_000149985.1:supercont1.1:2387...    27   8.5  
+
+>EDU50436 pep:novel supercontig:GCA_000149985.1:supercont1.8:44235:45312:-1
+           gene:PTRG_07517 transcript:EDU50436 description:"mRNA
+           3'-end-processing protein yth1"
+          Length = 275
+
+ Score =  221 bits (562), Expect = 2e-70,   Method: Compositional matrix adjust.
+ Identities = 113/217 (52%), Positives = 146/217 (67%), Gaps = 21/217 (9%)
+
+Query: 1   MASPSVAKIADAMLAHSA-PKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRC 59
+           + +P  A+ ++   A +  P+Y+F F+ FL++ Y+  L  DRP CK Y  G +CP+G RC
+Sbjct: 24  VMTPVPAQASEQKPAEAQQPQYTFKFSEFLRREYRFGLNPDRPTCKAYLQG-HCPDGNRC 82
+
+Query: 60  LERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPE 119
+             +H        N  S Y          N+LVCKHWLRGLCKKG+ CEFLHEYNLRRMPE
+Sbjct: 83  PNKH--------NVTSSY----------NNLVCKHWLRGLCKKGETCEFLHEYNLRRMPE 124
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRN-LCPYYLC 178
+           C++Y R   C NG++CLYLHIDP++K P CPHYD+GFCPLGP CS KH +++ LCP+YLC
+Sbjct: 125 CSYYARTQTCSNGDDCLYLHIDPEAKRPSCPHYDRGFCPLGPHCSLKHNKKDKLCPFYLC 184
+
+Query: 179 GFCPDGRLCKQGAHPGWNPKLDPPTVKVEKPAGEEDA 215
+           GFCP+G+ CK GAHP +   L  P V+VEK   E +A
+Sbjct: 185 GFCPEGKGCKYGAHPRYPTDLKKPEVRVEKSPEELEA 221
+
+
+>EDU41401 pep:novel supercontig:GCA_000149985.1:supercont1.1:5636364:5638417:
+           1 gene:PTRG_01963 transcript:EDU41401
+           description:"hypothetical protein"
+          Length = 651
+
+ Score = 42.4 bits (98), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 21/53 (39%), Positives = 31/53 (58%), Gaps = 2/53 (3%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHID-PQSKLPPCPHYDQGFCPLGPRCSKKHVRRN 171
+           C FY R G CQ G+ C +LH D P ++  PC ++ +G C  G +C+  H+  N
+Sbjct: 111 CKFY-RQGACQAGKACPFLHSDEPLTERAPCKYFTKGNCKFGQKCALAHILPN 162
+
+
+
+ Score = 36.2 bits (82), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 20/53 (37%), Positives = 29/53 (54%), Gaps = 4/53 (7%)
+
+Query: 92  CKHWLRGLCKKGDGCEFLH--EYNLRRMPECNFYIRNGYCQNGEECLYLHIDP 142
+           CK + +G C+ G  C FLH  E    R P C ++ + G C+ G++C   HI P
+Sbjct: 111 CKFYRQGACQAGKACPFLHSDEPLTERAP-CKYFTK-GNCKFGQKCALAHILP 161
+
+
+>EDU50469 pep:novel supercontig:GCA_000149985.1:supercont1.8:133821:136211:1
+           gene:PTRG_07550 transcript:EDU50469 description:"CCCH
+           zinc finger and SMR domain containing protein"
+          Length = 726
+
+ Score = 39.7 bits (91), Expect = 7e-04,   Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 61/139 (43%), Gaps = 31/139 (22%)
+
+Query: 39  SDRPICKVY-ASGGNCPNGTRCLERHVADPSQLSNA---QSGYGSGKRDGPAF------- 87
+           SD  + +V  A+G         L     D  QL  A    SGY  GK   PAF       
+Sbjct: 216 SDEELERVLEANGYELSAALLALMGQQLDVQQLPTAPSEHSGYVIGKSMSPAFRPATPAG 275
+
+Query: 88  ---NSLVCKHWL-RGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQ 143
+              +++VCK++L  G C + D C F H+ +      C +Y+ NG C  G+ CL+ H DP 
+Sbjct: 276 QQKSNIVCKYFLSTGHCARAD-CRFSHDTSKTL---CKYYL-NGNCLAGDTCLFSH-DPS 329
+
+Query: 144 SKL----------PPCPHY 152
+           + +          PP P++
+Sbjct: 330 ALMARMAVSDVATPPIPNF 348
+
+
+>EDU46392 pep:novel supercontig:GCA_000149985.1:supercont1.3:534495:536655:-1
+           gene:PTRG_03554 transcript:EDU46392
+           description:"conserved hypothetical protein"
+          Length = 500
+
+ Score = 33.5 bits (75), Expect = 0.051,   Method: Compositional matrix adjust.
+ Identities = 29/92 (31%), Positives = 35/92 (38%), Gaps = 29/92 (31%)
+
+Query: 91  VCKHW-LRGLCKKGDGCEFLHE-------YNLRRMPECNFYIRNGYCQN-----GEECLY 137
+           VC HW L G C+ G  C F HE        N  R    +   +N YC+N     G +C  
+Sbjct: 402 VCNHWHLGGHCENGAFCNFQHEPKLTAGELNALRYKTRSLACKNRYCENIDCYLGHQC-- 459
+
+Query: 138 LHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVR 169
+                          DQGFCP    C   H+R
+Sbjct: 460 -----------ALERDQGFCPYPENC---HLR 477
+
+
+>EDU40845 pep:novel supercontig:GCA_000149985.1:supercont1.1:3930366:3933672:-1
+            gene:PTRG_01407 transcript:EDU40845
+            description:"conserved hypothetical protein"
+          Length = 1067
+
+ Score = 31.6 bits (70), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 23/48 (47%), Gaps = 5/48 (10%)
+
+Query: 71   SNAQSGYGSGKR-----DGPAFNSLVCKHWLRGLCKKGDGCEFLHEYN 113
+            SN  +    GKR     D      L CK + +G C KG+ C ++H+ N
+Sbjct: 1018 SNGSNDRNQGKRPKNRGDHKPHKVLACKFFHKGQCNKGENCTYIHDLN 1065
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 3,236,885
+Number of extensions: 156660
+Number of successful extensions: 315
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 295
+Number of HSP's successfully gapped: 23
+Length of query: 276
+Length of database: 5,459,076
+Length adjustment: 93
+Effective length of query: 183
+Effective length of database: 4,327,359
+Effective search space: 791906697
+Effective search space used: 791906697
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

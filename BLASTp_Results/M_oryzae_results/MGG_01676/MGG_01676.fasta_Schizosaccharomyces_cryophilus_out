@@ -1,0 +1,138 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY51025 pep:novel supercontig:GCA_000004155.2:supercont4.5:1006...    29   0.47 
+EPY53833 pep:novel supercontig:GCA_000004155.2:supercont4.1:1736...    28   1.8  
+EPY51583 pep:novel supercontig:GCA_000004155.2:supercont4.3:2616...    27   3.0  
+EPY53796 pep:novel supercontig:GCA_000004155.2:supercont4.1:1655...    26   7.2  
+
+>EPY51025 pep:novel supercontig:GCA_000004155.2:supercont4.5:1006619:1008672:
+           -1 gene:SPOG_04886 transcript:EPY51025
+           description:"CAMK/CAMKL/AMPK protein kinase Ppk9"
+          Length = 531
+
+ Score = 29.3 bits (64), Expect = 0.47,   Method: Compositional matrix adjust.
+ Identities = 20/64 (31%), Positives = 27/64 (42%), Gaps = 3/64 (4%)
+
+Query: 25  QPETIRLYPLS---NYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEH 81
+            P  I LY +     YT    E    +  S+LAR KRL E       ++    I  CH++
+Sbjct: 80  HPNIISLYQVLRVPKYTVLALEFMETDLHSMLARCKRLNEAVARRIFQQVVFAIEYCHQN 139
+
+Query: 82  NHPH 85
+           N  H
+Sbjct: 140 NVSH 143
+
+
+>EPY53833 pep:novel supercontig:GCA_000004155.2:supercont4.1:1736060:1738421:
+           -1 gene:SPOG_02935 transcript:EPY53833
+           description:"cytoplasmic proline-tRNA ligase Prs1"
+          Length = 717
+
+ Score = 27.7 bits (60), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 33/75 (44%), Gaps = 14/75 (18%)
+
+Query: 85  HILMLQIANAFFKL--PGDYLRPEDDEVEGFKARLDERLAPVGRLGEGEEAGDWQIGDCL 142
+            I  L + N +F L      L  E D VEGF   +    A V R      AG  ++ + +
+Sbjct: 259 QIKKLGVRNGYFPLFVSSKVLEKEKDHVEGFAPEV----AWVTR------AGSTELDEPI 308
+
+Query: 143 AQWWRPNFETFMYPF 157
+           A   RP  ET MYP+
+Sbjct: 309 AI--RPTSETVMYPY 321
+
+
+>EPY51583 pep:novel supercontig:GCA_000004155.2:supercont4.3:26163:28445:-1
+           gene:SPOG_00009 transcript:EPY51583
+           description:"RNA-binding protein"
+          Length = 432
+
+ Score = 26.9 bits (58), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 20/47 (42%), Gaps = 1/47 (2%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRP 165
+           ER   V    E   A  W+IG CL   W     T  Y  V + +T+P
+Sbjct: 259 ERTVEVHGTVENLHAAIWEIGKCLIDDWERGAGTVFYNPV-SRITQP 304
+
+
+>EPY53796 pep:novel supercontig:GCA_000004155.2:supercont4.1:1655389:1658058:
+           -1 gene:SPOG_02971 transcript:EPY53796 description:"RSC
+           complex subunit Rsc9"
+          Length = 787
+
+ Score = 25.8 bits (55), Expect = 7.2,   Method: Compositional matrix adjust.
+ Identities = 40/148 (27%), Positives = 57/148 (38%), Gaps = 34/148 (22%)
+
+Query: 103 LRPEDDEVEGFKARLDERLAPVGRLGEGEEAGDWQ------IGDCL---AQWWRPNFETF 153
+           L P +  + G K     R  P+  +GE  +   W+       G+ +      W    E  
+Sbjct: 599 LLPVEYVINGIK----RRELPISLIGEKYQVCRWKKDNGTLCGETVLGTKSTWAHLQEFH 654
+
+Query: 154 MYPFVPAHVTRPKECK---KLYFIQLPNSKVLSVPKNMKLLAVPLFELYDN----SARYG 206
+           ++P     V   K C+     Y+I    S   SVP +  LL   L  LYDN    +   G
+Sbjct: 655 IFP----QVLEEKHCRWGDCTYYIHSDQSGGSSVPSHQSLLKHILTHLYDNNLQSTTNEG 710
+
+Query: 207 PQLS-----AIPHLLSKYNFEFVDEQGN 229
+            +L       IP LL+      VDEQG+
+Sbjct: 711 RKLCPSREFRIPLLLTA-----VDEQGD 733
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 1,389,830
+Number of extensions: 62895
+Number of successful extensions: 129
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 129
+Number of HSP's successfully gapped: 5
+Length of query: 266
+Length of database: 2,338,516
+Length adjustment: 87
+Effective length of query: 179
+Effective length of database: 1,887,856
+Effective search space: 337926224
+Effective search space used: 337926224
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 49 (23.5 bits)

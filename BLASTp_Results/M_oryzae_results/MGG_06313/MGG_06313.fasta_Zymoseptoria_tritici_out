@@ -1,0 +1,141 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P101366 pep:known chromosome:MG2:10:357048:361261:1 gene:M...   452   e-152
+Mycgr3P106884 pep:known chromosome:MG2:1:1247206:1249637:-1 gene...    30   1.5  
+Mycgr3P39612 pep:known chromosome:MG2:3:539058:540888:-1 gene:My...    28   9.3  
+
+>Mycgr3P101366 pep:known chromosome:MG2:10:357048:361261:1 gene:Mycgr3G101366
+           transcript:Mycgr3T101366 description:"Putative
+           uncharacterized protein"
+          Length = 559
+
+ Score =  452 bits (1163), Expect = e-152,   Method: Compositional matrix adjust.
+ Identities = 225/438 (51%), Positives = 302/438 (68%), Gaps = 8/438 (1%)
+
+Query: 6   QLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIADAFVKT 65
+           Q GV+PP+S   P  ++   ++SL+ EL+AQN+FE P ET+KR  VL  LQ++    V+ 
+Sbjct: 8   QYGVSPPISTDPPKPQDLALSESLMEELKAQNNFESPDETKKRGDVLARLQKLLHQLVQI 67
+
+Query: 66  VARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGLL 125
+           V ++K+  N +L K++ GK+F YGS RLGV+GPGSDIDTL+VAPR+VTRED+FEH P LL
+Sbjct: 68  VGKQKKLPNEIL-KESGGKIFTYGSYRLGVYGPGSDIDTLMVAPRHVTREDFFEHMPTLL 126
+
+Query: 126 VEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSDSNLLR 185
+            +   P+ +T+L+ V    VPIIK E  G+SIDLIFS    + +     N  L+D+NLLR
+Sbjct: 127 RQATTPDELTELTPVPGITVPIIKLELCGVSIDLIFS---ALDRASVPKNLELTDNNLLR 183
+
+Query: 186 GLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAM 245
+           GL E +LR VNGTRVTD I+ LVP+  VFR ALRA+KLWAQRRAIYGN+VGFPGGVA+AM
+Sbjct: 184 GLTEVDLRCVNGTRVTDRILQLVPQTRVFRVALRAVKLWAQRRAIYGNVVGFPGGVAYAM 243
+
+Query: 246 LVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDRYH 305
+           +VAR+CQLYPRA A ++V KFF ++  W WP+ + L+  E GPL  + W+P +   D+ H
+Sbjct: 244 MVARICQLYPRAAAPMIVQKFFFVISNWQWPRAITLQTREKGPLAEKEWDPTLNRWDKMH 303
+
+Query: 306 LMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHTFFTKD 365
+           LMP+ITPAYP M +T +I  S+K V+  EL +  D+   I  GK  WKDLF K  FF++ 
+Sbjct: 304 LMPVITPAYPCMNSTMSIMPSTKAVLLTELKRGHDIMEEIYGGKKQWKDLFVKQKFFSEA 363
+
+Query: 366 FKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERH--ESIAVARPFIKGYDRSHRYY 423
+           +++YI VI A K KE+ + WSG V+S++R L+QG+E+   +S+ + +PF KG DR H   
+Sbjct: 364 YQHYICVITAGKTKEAQQAWSGLVQSRLRRLIQGIEQSDADSVELVQPFNKGIDRVHECK 423
+
+Query: 424 DDSQFNQILEGSLANLCQ 441
+            D      L GSL   CQ
+Sbjct: 424 TDEDRENTLAGSLD--CQ 439
+
+
+>Mycgr3P106884 pep:known chromosome:MG2:1:1247206:1249637:-1 gene:Mycgr3G106884
+           transcript:Mycgr3T106884 description:"Putative
+           uncharacterized protein"
+          Length = 614
+
+ Score = 30.4 bits (67), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 17/34 (50%), Positives = 19/34 (55%)
+
+Query: 65  TVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGP 98
+           TV    EPD+AVL K    K  A G+L LG  GP
+Sbjct: 118 TVNAMAEPDHAVLAKRKEAKRIAQGNLGLGWVGP 151
+
+
+>Mycgr3P39612 pep:known chromosome:MG2:3:539058:540888:-1 gene:Mycgr3G39612
+           transcript:Mycgr3T39612
+           description:"Topoisomerase-related protein"
+          Length = 565
+
+ Score = 27.7 bits (60), Expect = 9.3,   Method: Compositional matrix adjust.
+ Identities = 27/143 (18%), Positives = 63/143 (44%), Gaps = 21/143 (14%)
+
+Query: 87  AYGSLRLGVWGPGSDIDTLVVAPRYVT--REDYFEHFPGL-----LVEMAPPNAITDLSV 139
+           ++GS    ++ P SD+D + V+  Y+   R+ + +    +      +E +   A   ++ 
+Sbjct: 291 SFGSFASNLYLPNSDMDLVAVSESYLQGGRQVFCQSKNQMRQLQFYLERSGIAAHGTVTG 350
+
+Query: 140 VVDAFVPIIKF--EFSGISIDLIFSRIATMKQLPADPNWN------------LSDSNLLR 185
+           ++ A VPIIKF    +G+ +D+ F   + ++ +     W             +    L+R
+Sbjct: 351 ILGAKVPIIKFIDAKTGLKVDISFENDSGLRAIETFEAWKEQFPEMPVLVTIIKQFLLMR 410
+
+Query: 186 GLDEKELRSVNGTRVTDEIISLV 208
+            ++E     + G  +   ++S++
+Sbjct: 411 NMNEVHTGGIGGFTIICLVVSML 433
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 5,786,454
+Number of extensions: 240135
+Number of successful extensions: 500
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 496
+Number of HSP's successfully gapped: 3
+Length of query: 616
+Length of database: 4,742,065
+Length adjustment: 99
+Effective length of query: 517
+Effective length of database: 3,659,896
+Effective search space: 1892166232
+Effective search space used: 1892166232
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,191 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ92368 pep:novel supercontig:GCA_000166005.1:GL534338:34610:37...   503   e-167
+EFQ95211 pep:novel supercontig:GCA_000166005.1:GL532890:51384:54...    31   1.6  
+EFQ91530 pep:novel supercontig:GCA_000166005.1:GL534744:33756:37...    30   2.4  
+EFQ89315 pep:novel supercontig:GCA_000166005.1:GL535833:95198:98...    30   2.6  
+EFQ86604 pep:novel supercontig:GCA_000166005.1:GL537344:74737:76...    29   5.8  
+EFQ86297 pep:novel supercontig:GCA_000166005.1:GL537478:791:5424...    29   6.4  
+EFQ96583 pep:novel supercontig:GCA_000166005.1:GL531823:17063:18...    28   6.5  
+
+>EFQ92368 pep:novel supercontig:GCA_000166005.1:GL534338:34610:37252:-1
+           gene:PTT_10537 transcript:EFQ92368
+           description:"hypothetical protein"
+          Length = 754
+
+ Score =  503 bits (1294), Expect = e-167,   Method: Compositional matrix adjust.
+ Identities = 290/735 (39%), Positives = 427/735 (58%), Gaps = 53/735 (7%)
+
+Query: 10  AEQIRQLNDARKHVLLDVKVYSSIVQGILPIIG--SKSAPELRRWGADFLAESFATPSLQ 67
+           ++ I+Q+  AR   L D + Y +I+ G+LPIIG     + +++RWGADFLAE+FA+P+  
+Sbjct: 3   SQTIQQMESARSLALGDGRYYPTIIPGVLPIIGYSEDQSVDIQRWGADFLAEAFASPTWP 62
+
+Query: 68  SRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERI 127
+              K+  +  VL TL+A+++N  +D  V++S+IQ AAS+YPLV +  +++  D   W+ +
+Sbjct: 63  QEIKQNNAPSVLATLKAYLDN-VDDKSVIKSSIQAAASVYPLVYKHTVSDPSDAQKWQLM 121
+
+Query: 128 TAIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVL 187
+             IKS I +      PGV+ICC+KF Q+VVL QT  I    + D  DISLS +P+ HP++
+Sbjct: 122 AGIKSNILRRMDTAAPGVRICCVKFLQQVVLVQTPGIADPRRADHNDISLSLVPRDHPLI 181
+
+Query: 188 DPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFNP 247
+              +LEAE  GLLDR+L ++  + SD L+V ATLN + +LI  RP  +N+I+N+V NFNP
+Sbjct: 182 PYASLEAEGHGLLDRLLDIIHGDHSDGLLVTATLNSLGMLIHRRPNAANKIMNSVFNFNP 241
+
+Query: 248 LKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLARSRADIFDD 307
+           LKLANSPMTPK +V++KS+E+TTR LL+++++R+P+NP+N RIQQ +ER+ R+R ++FD+
+Sbjct: 242 LKLANSPMTPKNKVIMKSIERTTRALLVNIMKRNPENPVNGRIQQFLERMHRTRVEVFDE 301
+
+Query: 308 NAGRKRALAEQQAAALGDAKRQRLAS-----GAVVVPLQEXXXXXXXXXXXXXXFTLTNT 362
+            + RKR    +    L  AKRQRL +        V PL                +TL + 
+Sbjct: 302 -SNRKRPAPTEPTDGLDQAKRQRLVAEPPSRTPSVQPL------PPGEVSWRQLYTLNSE 354
+
+Query: 363 PGLQSFDVSVV--PAELTAKICVSTLARIDQQLLDRGINGVRDRLKTL-EAAAAQPVLIN 419
+               +FDV     P +L  +I +  L  ++   L++ IN VR R + L +  A+QP    
+Sbjct: 355 GSTANFDVQNFRDPEQLL-RIVIPVLQSVNPLKLEQAINAVRARYQILRQTVASQPQ--R 411
+
+Query: 420 PATAPLGVXXXXXXXXXXXXXXXXXXXQILNKQDG-PSRQEEAEKMEAASLALGAYKLPP 478
+           P TAP                      QI+NK DG PS    ++     S  L  YKLP 
+Sbjct: 412 PPTAP----AAEDEEEYEPDFEPEDAEQIINKIDGIPSNPFASQS--GPSTTLAPYKLPE 465
+
+Query: 479 PPVLRPEEASNAGRGIVTNVLGMTKQLEESGSKRS-KAGINRLAASLYDRESWITVITRL 537
+            P L  ++    G   V    GM   ++E+   R+ K G NRLAA  Y R++W+T+++RL
+Sbjct: 466 APPLSEQDVQKYGDMTVQRAFGMLSSVDETQKSRTNKGGFNRLAAIDYTRDAWVTILSRL 525
+
+Query: 538 ATRSSSAL--------EKTTIKEEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWLSE 589
+           ATR+S+ L        ++  +K   G  + L D VR+ LY Y++ D++KRIDVAISWL+E
+Sbjct: 526 ATRASAGLDDPEEGIKDEYAVKSAKGNTK-LSDAVRDGLYQYIMYDWKKRIDVAISWLNE 584
+
+Query: 590 EWYNDQLQKRMASDAPL---------------HYDKVALRLVDGITPYLHAQDKVLTRFL 634
+           EWYND +  + A D+                 +Y + ALRL+DGI PY+   DK+L RFL
+Sbjct: 585 EWYNDMILSQAAEDSATNGSSNGHTTSKPTKGNYHRCALRLIDGILPYIEHTDKILLRFL 644
+
+Query: 635 GEIPEVNPAILKRVEGMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEAR 694
+            E+P ++ +IL R++ M  DP    LA  +L YL M RPP R++ +D +  +W E + A+
+Sbjct: 645 SEVPTIDYSILVRLKKMAEDPERIDLACNALHYLYMFRPPVRKIVVDILAEMWMENDRAK 704
+
+Query: 695 PLAAKFLTRWRKAFL 709
+           P A K L RWR   L
+Sbjct: 705 PSARKLLIRWRPEVL 719
+
+
+>EFQ95211 pep:novel supercontig:GCA_000166005.1:GL532890:51384:54653:1
+           gene:PTT_06870 transcript:EFQ95211
+           description:"hypothetical protein"
+          Length = 1073
+
+ Score = 30.8 bits (68), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 30/63 (47%)
+
+Query: 605 PLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPAILKRVEGMCRDPSLASLALTS 664
+           P+ +D V L + +G   YLH      +     IP+ + A +  +  + + P++AS   T 
+Sbjct: 184 PIEHDAVPLHVDEGAVAYLHHTSGTSSGLPKPIPQTHRAAIGVLPHLPKIPAIASFTTTP 243
+
+Query: 665 LVY 667
+           L +
+Sbjct: 244 LYH 246
+
+
+>EFQ91530 pep:novel supercontig:GCA_000166005.1:GL534744:33756:37266:1
+           gene:PTT_11621 transcript:EFQ91530
+           description:"hypothetical protein"
+          Length = 1135
+
+ Score = 30.4 bits (67), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 25/95 (26%), Positives = 40/95 (42%), Gaps = 10/95 (10%)
+
+Query: 529 SWITVITRLATR---SSSALEKTTIK-EEDGTPQILGDKVREALYNYVLEDFRKRIDVAI 584
+           +W + IT  A +    S A+  T  + +EDG P  +G K   AL     E       + +
+Sbjct: 524 TWASAITPAAKKLIIQSVAINSTAFEGQEDGNPVFIGSKTETALLQLAKE------HLGL 577
+
+Query: 585 SWLSEEWYNDQLQKRMASDAPLHYDKVALRLVDGI 619
+             LSE   N+Q+  R   D+        ++  DG+
+Sbjct: 578 VSLSETRDNEQVMHRFPFDSGKKCMGAVIKTQDGV 612
+
+
+>EFQ89315 pep:novel supercontig:GCA_000166005.1:GL535833:95198:98541:-1
+           gene:PTT_14492 transcript:EFQ89315
+           description:"hypothetical protein"
+          Length = 1079
+
+ Score = 30.0 bits (66), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 3/42 (7%)
+
+Query: 651 MCRD---PSLASLALTSLVYLVMMRPPAREMALDAMQGIWTE 689
+           +C D   PSL  L  +S+  +V +R PA  M +  MQ I+T+
+Sbjct: 539 ICNDVYHPSLRPLRQSSMAEIVHIRKPALSMVVSRMQDIFTK 580
+
+
+>EFQ86604 pep:novel supercontig:GCA_000166005.1:GL537344:74737:76032:-1
+           gene:PTT_18129 transcript:EFQ86604
+           description:"hypothetical protein"
+          Length = 399
+
+ Score = 28.9 bits (63), Expect = 5.8,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 25/47 (53%)
+
+Query: 232 PATSNRILNAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLI 278
+           PAT   +++A L ++ L++    MT   R+LVK  E T   L  + I
+Sbjct: 197 PATQVVVVSATLPYDVLEMTTKFMTDPVRILVKRDELTLEGLKQYFI 243
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 7,382,740
+Number of extensions: 299099
+Number of successful extensions: 793
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 786
+Number of HSP's successfully gapped: 12
+Length of query: 730
+Length of database: 5,457,232
+Length adjustment: 101
+Effective length of query: 629
+Effective length of database: 4,265,533
+Effective search space: 2683020257
+Effective search space used: 2683020257
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

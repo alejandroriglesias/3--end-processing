@@ -1,0 +1,160 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY14602 pep:novel supercontig:GCA_000150675.1:supercont1.11:405...   487   e-175
+EGY15879 pep:novel supercontig:GCA_000150675.1:supercont1.15:509...    32   0.18 
+EGY21524 pep:novel supercontig:GCA_000150675.1:supercont1.42:227...    28   1.7  
+EGY15005 pep:novel supercontig:GCA_000150675.1:supercont1.12:685...    27   4.3  
+EGY16292 pep:novel supercontig:GCA_000150675.1:supercont1.16:842...    27   8.1  
+EGY20613 pep:novel supercontig:GCA_000150675.1:supercont1.34:229...    27   8.4  
+
+>EGY14602 pep:novel supercontig:GCA_000150675.1:supercont1.11:405304:406192:-
+           1 gene:VDAG_05766 transcript:EGY14602
+           description:"cleavage and polyadenylation specificity
+           factor subunit 5"
+          Length = 268
+
+ Score =  487 bits (1254), Expect = e-175,   Method: Compositional matrix adjust.
+ Identities = 235/269 (87%), Positives = 248/269 (92%), Gaps = 6/269 (2%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTIT  AL+SGQPP+IPLSFNANQP TIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTITPEALESGQPPVIPLSFNANQPSTIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  +GMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDE EGFKARLDER
+Sbjct: 61  EHYTQYGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDESEGFKARLDER 120
+
+Query: 121 LAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+           LAPVGR+GEGEE GDWQ+GDCLAQWWRPNFETFMYPF+PAHVTRPKECKKLYFIQLP SK
+Sbjct: 121 LAPVGRIGEGEEKGDWQLGDCLAQWWRPNFETFMYPFIPAHVTRPKECKKLYFIQLPKSK 180
+
+Query: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPG 240
+           VLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE G VVA TPG+GP 
+Sbjct: 181 VLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDEDGKVVAMTPGTGPP 240
+
+Query: 241 EGDHVPKTKVLAGGDDVDM----KQENGA 265
+           +G +VP TKVLA GDD +M    K+ENG 
+Sbjct: 241 DG-YVPTTKVLA-GDDTEMAEEVKEENGT 267
+
+
+>EGY15879 pep:novel supercontig:GCA_000150675.1:supercont1.15:509403:511174:-
+           1 gene:VDAG_07043 transcript:EGY15879
+           description:"myo-inositol transporter 1"
+          Length = 569
+
+ Score = 31.6 bits (70), Expect = 0.18,   Method: Compositional matrix adjust.
+ Identities = 28/103 (27%), Positives = 37/103 (35%), Gaps = 7/103 (6%)
+
+Query: 170 KLYFIQLPNSKVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPH-----LLSKYNFEFV 224
+           +L     P    LSV     +  V    L D   R    L ++P      LL+ Y F F+
+Sbjct: 356 RLVGFHTPTLTALSVAVTNFVFTVAALLLIDKIGRRRIMLYSLPFMIAGLLLAAYGFSFL 415
+
+Query: 225 DEQGNVVAQTPGSG--PGEGDHVPKTKVLAGGDDVDMKQENGA 265
+           D   +    T G    P  GD      V  GG+D      +GA
+Sbjct: 416 DLAPSTSTSTAGDAPPPDAGDPGSTPSVPGGGEDEGASTSHGA 458
+
+
+>EGY21524 pep:novel supercontig:GCA_000150675.1:supercont1.42:22733:24242:-1
+           gene:VDAG_10506 transcript:EGY21524
+           description:"hypothetical protein"
+          Length = 368
+
+ Score = 28.5 bits (62), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 19/74 (25%), Positives = 35/74 (47%), Gaps = 6/74 (8%)
+
+Query: 25  QPETIRLYPLSN--YTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEHN 82
+           Q + +RL P+ +  Y+     T P     + +  +R E  +  H +  +     V H  N
+Sbjct: 91  QGKKLRLKPVGDLGYSGSTFFTTPNSKYLIKSLPRRFEHTFFTHDLFDSY----VDHMRN 146
+
+Query: 83  HPHILMLQIANAFF 96
+           HPH L+++IA+  +
+Sbjct: 147 HPHSLLVRIADMVY 160
+
+
+>EGY15005 pep:novel supercontig:GCA_000150675.1:supercont1.12:685288:687405:1
+           gene:VDAG_06495 transcript:EGY15005
+           description:"Poly(rC)-binding protein"
+          Length = 514
+
+ Score = 27.3 bits (59), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 17/37 (45%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMY 155
+           ER+  V    +G  A  W+I  CL   W+    T +Y
+Sbjct: 178 ERIVEVQGTPDGIRAAIWEISKCLVDDWQRGTGTVLY 214
+
+
+>EGY16292 pep:novel supercontig:GCA_000150675.1:supercont1.16:842005:848292:1
+            gene:VDAG_07456 transcript:EGY16292
+            description:"nucleoporin nup189"
+          Length = 1956
+
+ Score = 26.6 bits (57), Expect = 8.1,   Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 23/41 (56%), Gaps = 2/41 (4%)
+
+Query: 196  FELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPG 236
+            +++Y+N    GP L    HL ++   +  D+ G+ + +TPG
+Sbjct: 1163 YDMYENEDGTGPSLEQ--HLAAEQQTDSSDDPGSPIIETPG 1201
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 3,178,985
+Number of extensions: 151421
+Number of successful extensions: 346
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 344
+Number of HSP's successfully gapped: 9
+Length of query: 266
+Length of database: 4,984,196
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,014,976
+Effective search space: 698605824
+Effective search space used: 698605824
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,105 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gen...    30   0.53 
+YDR143C pep:known chromosome:SacCer_Apr2011:IV:742042:743874:-1 ...    28   2.0  
+
+>YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gene:YOL123W
+           transcript:YOL123W description:"Subunit of cleavage
+           factor I, a five-subunit complex required for the
+           cleavage and polyadenylation of pre-mRNA 3' ends\x3b
+           RRM-containing heteronuclear RNA binding protein and
+           hnRNPA/B family member that binds to poly (A) signal
+           sequences"
+          Length = 534
+
+ Score = 30.4 bits (67), Expect = 0.53,   Method: Compositional matrix adjust.
+ Identities = 23/106 (21%), Positives = 43/106 (40%), Gaps = 20/106 (18%)
+
+Query: 96  TSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAAT 155
+           +  + I  L W  T+D++R +  + G    + D+   +    G+S+G  ++      +  
+Sbjct: 158 SCKMFIGGLNWDTTEDNLREYFGKYGT---VTDLKIMKDPATGRSRGFGFLSFEKPSSVD 214
+
+Query: 156 AVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKD-QPRTGK 200
+            V                 K Q I     ++P R +P+D Q +TGK
+Sbjct: 215 EV----------------VKTQHILDGKVIDPKRAIPRDEQDKTGK 244
+
+
+>YDR143C pep:known chromosome:SacCer_Apr2011:IV:742042:743874:-1
+           gene:YDR143C transcript:YDR143C
+           description:"Ubiquitin-protein ligase\x3b involved in
+           the proteasome-dependent degradation of aberrant nuclear
+           proteins\x3b targets substrates with regions of exposed
+           hydrophobicity containing 5 or more contiguous
+           hydrophobic residues\x3b contains intrinsically
+           disordere /.../ons that contribute to substrate
+           recognition"
+          Length = 610
+
+ Score = 28.5 bits (62), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 21/60 (35%), Positives = 28/60 (46%), Gaps = 5/60 (8%)
+
+Query: 163 SSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDG-----QNRPTSGAGYNNDRT 217
+           SSGE   S+ G         P  NP R  P D  R G +G     QN P++  G NN+++
+Sbjct: 346 SSGEQMLSRTGFFLVPQNGQPLHNPVRLPPNDSDRNGVNGPSSTTQNPPSNSGGSNNNQS 405
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,492,831
+Number of extensions: 58894
+Number of successful extensions: 261
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 237
+Number of HSP's successfully gapped: 27
+Length of query: 424
+Length of database: 3,010,216
+Length adjustment: 93
+Effective length of query: 331
+Effective length of database: 2,387,860
+Effective search space: 790381660
+Effective search space used: 790381660
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

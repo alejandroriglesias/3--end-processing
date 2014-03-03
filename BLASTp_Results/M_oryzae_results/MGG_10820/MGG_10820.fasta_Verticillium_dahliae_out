@@ -1,0 +1,167 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY21860 pep:novel supercontig:GCA_000150675.1:supercont1.5:1035...   736   0.0  
+EGY17572 pep:novel supercontig:GCA_000150675.1:supercont1.2:1330...    30   2.3  
+EGY22519 pep:novel supercontig:GCA_000150675.1:supercont1.6:1342...    30   3.0  
+EGY18976 pep:novel supercontig:GCA_000150675.1:supercont1.25:248...    28   7.7  
+
+>EGY21860 pep:novel supercontig:GCA_000150675.1:supercont1.5:1035353:1037822:
+           -1 gene:VDAG_03300 transcript:EGY21860
+           description:"hypothetical protein"
+          Length = 719
+
+ Score =  736 bits (1901), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 400/715 (55%), Positives = 518/715 (72%), Gaps = 21/715 (2%)
+
+Query: 1   MASATQSPIAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAES 60
+           MAS  Q  +++QIRQLNDARK VL DVK YS++V+ IL I+   +  ELRRWGA+FLAE+
+Sbjct: 1   MASP-QLSVSDQIRQLNDARKLVLSDVKYYSNVVKSILQIVVPSAHLELRRWGAEFLAEA 59
+
+Query: 61  FATPSLQSRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYD 120
+           FATP+L   +KETM L VLETL+  +E+P+ED  V+RSAIQ +ASIYP+ +RWIINNSYD
+Sbjct: 60  FATPALPLSEKETMQLFVLETLKDLLEDPNEDLQVLRSAIQASASIYPIALRWIINNSYD 119
+
+Query: 121 TTTWERITAIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKR-DGLDISLSN 179
+             TWER+  IK+RI ++W    P ++ICC+KFAQRVVLAQ+V+   E +R D LD+SL  
+Sbjct: 120 NMTWERMVKIKTRILRIWENAEPSLRICCMKFAQRVVLAQSVANPQEPRRGDSLDVSLDK 179
+
+Query: 180 IPQGHPVLDPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRIL 239
+           +P+ H  LD + LEAEA GLLDR+LG LQD +SDAL+VDATLNC++IL+RTRP T+NRIL
+Sbjct: 180 VPRNHQTLDHQTLEAEAAGLLDRILGGLQDQASDALLVDATLNCLSILVRTRPTTANRIL 239
+
+Query: 240 NAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLAR 299
+            AVL FNPLKLANSPMTP+ RVLVKSMEKTTRMLLMH+ +RDP NP+ PRIQQH+E + R
+Sbjct: 240 AAVLQFNPLKLANSPMTPRIRVLVKSMEKTTRMLLMHIAKRDPHNPIVPRIQQHVEGMMR 299
+
+Query: 300 SRADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQ-EXXXXXXXXXXXXXXFT 358
+            R++I D+++ RKR L      A  D KRQR  + A   P Q E              +T
+Sbjct: 300 MRSEILDESS-RKRGLEVMPEGA--DLKRQRTLAPA---PQQLEVTPLAPGQHSLADVYT 353
+
+Query: 359 LTNTPGLQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAAQPV-L 417
+           LT + GL++FD+S VPAEL A+I VSTL+RID QLL + ++G++ RL  L   AA PV  
+Sbjct: 354 LTGSEGLKAFDISTVPAELVARINVSTLSRIDPQLLYKAVDGIKGRLAAL---AAMPVPE 410
+
+Query: 418 INPATAPLGVXXXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLALGAYKLP 477
+           INP TAPLGV                   QILNK D     E   K++   + L A+KLP
+Sbjct: 411 INPETAPLGV-DDDDDEYEPDDYPAEDTEQILNKLDS----EPLVKVDNTDVGLKAFKLP 465
+
+Query: 478 PPPVLRPEEASNAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRL 537
+           PPP L PE A   G+  V ++L   K LEE+ +KR ++G+NRLAAS  DRESWI +ITRL
+Sbjct: 466 PPPPLTPELALRGGQVSVLSILEFIKSLEEA-NKRVRSGVNRLAASSNDRESWIAIITRL 524
+
+Query: 538 ATRSSSALEKTTIKEEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQ 597
+           A+RS++  +   +KEE  +   L + +RE+LY+YVLEDFR+RIDVAI+WL+EEWYND+L+
+Sbjct: 525 ASRSATEPDH-AVKEEVKSAPTLNNSIRESLYSYVLEDFRRRIDVAITWLTEEWYNDRLR 583
+
+Query: 598 KRMASD-APLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPAILKRVEGMCRDPS 656
+           ++   D AP  Y+  A++L+DG + YLHAQDKVLTRFLGE+P+++P IL R++ +CRDPS
+Sbjct: 584 QKTEGDGAPRQYETWAVKLIDGFSQYLHAQDKVLTRFLGEVPDLSPTILARIKLICRDPS 643
+
+Query: 657 LASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKAFLEA 711
+           +  L LTSL+Y+VMMRPPA+EMALD +Q IW EYEEARPLA+K+L ++R AF+E+
+Sbjct: 644 VVPLVLTSLLYVVMMRPPAKEMALDTVQDIWVEYEEARPLASKYLNKFRPAFVES 698
+
+
+>EGY17572 pep:novel supercontig:GCA_000150675.1:supercont1.2:1330837:1333256:
+           1 gene:VDAG_01254 transcript:EGY17572
+           description:"tryptophan synthase"
+          Length = 714
+
+ Score = 30.0 bits (66), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 23/86 (26%), Positives = 37/86 (43%), Gaps = 13/86 (15%)
+
+Query: 73  TMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAIKS 132
+           T+   V E LRAWV N     Y++ SAI      +P +VR          T++ +   ++
+Sbjct: 476 TLRDAVNEALRAWVVNLETTHYIIGSAI--GPHPFPTIVR----------TFQSVIGEET 523
+
+Query: 133 -RIFQLWSGEIPGVKICCIKFAQRVV 157
+            R  Q   G++P   + C+      V
+Sbjct: 524 KRQMQEKRGKLPDAVVACVGGGSNAV 549
+
+
+>EGY22519 pep:novel supercontig:GCA_000150675.1:supercont1.6:1342036:1344504:
+           -1 gene:VDAG_03957 transcript:EGY22519
+           description:"hypothetical protein"
+          Length = 822
+
+ Score = 29.6 bits (65), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 12/31 (38%), Positives = 22/31 (70%)
+
+Query: 654 DPSLASLALTSLVYLVMMRPPAREMALDAMQ 684
+           +P+L S ++++L ++ M +PPA  +AL A Q
+Sbjct: 105 EPTLPSTSMSNLSHMSMAQPPAANLALTASQ 135
+
+
+>EGY18976 pep:novel supercontig:GCA_000150675.1:supercont1.25:248712:250137:1
+           gene:VDAG_09310 transcript:EGY18976
+           description:"ATP-dependent RNA helicase FAL1"
+          Length = 400
+
+ Score = 28.1 bits (61), Expect = 7.7,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%)
+
+Query: 232 PATSNRILNAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLI 278
+           PAT   +++A L ++ L +    MT   R+LVK  E T   L  + I
+Sbjct: 199 PATQVVVVSATLPYDVLDMTTKFMTDPVRILVKRDELTLEGLKQYFI 245
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 6,819,087
+Number of extensions: 278636
+Number of successful extensions: 804
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 796
+Number of HSP's successfully gapped: 9
+Length of query: 730
+Length of database: 4,984,196
+Length adjustment: 101
+Effective length of query: 629
+Effective length of database: 3,920,161
+Effective search space: 2465781269
+Effective search space used: 2465781269
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

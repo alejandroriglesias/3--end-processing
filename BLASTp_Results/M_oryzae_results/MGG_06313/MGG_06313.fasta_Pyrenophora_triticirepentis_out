@@ -1,0 +1,198 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU43425 pep:novel supercontig:GCA_000149985.1:supercont1.13:852...   461   e-155
+EDU45869 pep:novel supercontig:GCA_000149985.1:supercont1.2:3097...    60   1e-09
+EDU51143 pep:novel supercontig:GCA_000149985.1:supercont1.9:3701...    36   0.025
+EDU39716 pep:novel supercontig:GCA_000149985.1:supercont1.1:7351...    32   0.69 
+EDU39583 pep:novel supercontig:GCA_000149985.1:supercont1.1:3868...    31   0.74 
+EDU50927 pep:novel supercontig:GCA_000149985.1:supercont1.8:1382...    30   1.7  
+
+>EDU43425 pep:novel supercontig:GCA_000149985.1:supercont1.13:852018:854058:1
+           gene:PTRG_10374 transcript:EDU43425 description:"Poly(A)
+           polymerase"
+          Length = 579
+
+ Score =  461 bits (1186), Expect = e-155,   Method: Compositional matrix adjust.
+ Identities = 247/576 (42%), Positives = 345/576 (59%), Gaps = 60/576 (10%)
+
+Query: 5   RQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIADAFVK 64
+           RQ GVT  +S   PTE++ +  DSL+  L+ +N FE P   ++R +VL+ +Q + + FV+
+Sbjct: 9   RQFGVTSAISEAPPTEQDIRKNDSLITTLKDENVFETPEGNQQRESVLKDIQNVVEEFVR 68
+
+Query: 65  TVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGL 124
+            V +KK    ++ I  A GK+F +GS  LGV GP SDIDTLVVAP++V+ +D+F  FP  
+Sbjct: 69  RVGKKKGVQQSI-IDAAGGKIFTFGSFALGVHGPKSDIDTLVVAPKFVSIDDFFAIFPST 127
+
+Query: 125 LVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSDSNLL 184
+             E+     I +   V DAFVPIIK E+ G+SIDL+F  +     +P   N    +   L
+Sbjct: 128 FKELCNEKDIQEFVPVEDAFVPIIKMEYQGVSIDLLFCSLPKRPSIPL--NMTTIEKKDL 185
+
+Query: 185 RGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWA 244
+            GL E   RSVNGTRVT+E++  VP++  FR ALRAIKLW+ RR IYG + G+PGGVAWA
+Sbjct: 186 EGLSESATRSVNGTRVTNELLDSVPQKVSFRHALRAIKLWSNRRGIYGAVFGYPGGVAWA 245
+
+Query: 245 MLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDRY 304
+           ++VAR+CQLYP A  + +V+KFF ++ KW WP+PV+LK IE+G +  R+WNP++Y GDR 
+Sbjct: 246 IMVARICQLYPMANGATIVSKFFSLMYKWTWPRPVMLKHIEEGDMGLRVWNPQVYGGDRA 305
+
+Query: 305 HLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHTFFTK 364
+           HLMPIITPA+PSMCAT  +  S+  ++  E  +A  +   I   K  WK LF++HTFFTK
+Sbjct: 306 HLMPIITPAFPSMCATHTVMPSTLRIMKEEFGRADSILQDIFANKKDWKALFERHTFFTK 365
+
+Query: 365 DFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLER-HESIAVARPFIKGYDRSHRYY 423
+           D KYY+ V+AAS+ KE++  +SG V+SK+R +++G++  +  IA ARP+I+ ++R+HR  
+Sbjct: 366 DHKYYLSVVAASRTKEANSTFSGLVQSKIRHIIKGIDDGNTGIATARPYIEYFERAHRIT 425
+
+Query: 424 DDSQFNQILEGSLANLCQDKDPQXXXXXXXXXXXXXXSNGTHTNGIAVKDEVAIKQEGHA 483
+           DD QF ++ +GSL                                    D +  K E  A
+Sbjct: 426 DD-QFKEVAQGSL------------------------------------DYLIPKSEADA 448
+
+Query: 484 RIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLEL--RPEAKSLDLSFQVNDFKWLC 541
+                         E      G ++ ++TTTFYIGL L      KSLD+S+ V+ FK   
+Sbjct: 449 --------------EGTLEANGDTTIVHTTTFYIGLTLPTGEATKSLDISYPVSQFKSYI 494
+
+Query: 542 YDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGET 577
+            D   Y EDL  +  V+    RS ALPDD+F  GET
+Sbjct: 495 TDSDLYNEDLMSVKVVHT---RSSALPDDVFVEGET 527
+
+
+>EDU45869 pep:novel supercontig:GCA_000149985.1:supercont1.2:3097010:3100952:
+           -1 gene:PTRG_03346 transcript:EDU45869
+           description:"Poly(A) polymerase type 3"
+          Length = 1151
+
+ Score = 60.5 bits (145), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 52/199 (26%), Positives = 95/199 (47%), Gaps = 24/199 (12%)
+
+Query: 89  GSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGLLVEMAPPNAITDLSVVVDAFVPII 148
+           GS  LGVW   SDID L +    ++ + +F+     +++ +    +  L  V  +   ++
+Sbjct: 588 GSYALGVWTSDSDIDCLCIGT--ISSKTFFKLARQRIIK-SDNRGVRILRKVEASTGTML 644
+
+Query: 149 KFEFSGISIDL-------IFSRIATMKQLPA-DPNWNLSDSNLLRGLDEKELRSVNGTRV 200
+           +   +G+ +DL       +  R +  + +PA DP +NLS  +L +    ++L  +  T  
+Sbjct: 645 ELSVNGVLMDLQYCPATQVVERWSEFRNIPASDPIFNLSLLSLRKLKPYRDLLYIQRT-- 702
+
+Query: 201 TDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLVARVCQLYP----R 256
+                  +P  + FR A R IKLWA +R +Y    GF GGV   ++++ +C+        
+Sbjct: 703 -------LPSLSSFRLAYRCIKLWAVQRGLYSAKFGFLGGVHITLMLSWICKRLAYDSGS 755
+
+Query: 257 ATASVVVNKFFCILMKWPW 275
+           A+A+ +V  FF    ++ W
+Sbjct: 756 ASAADLVTSFFHHYGQFDW 774
+
+
+>EDU51143 pep:novel supercontig:GCA_000149985.1:supercont1.9:370163:372228:-1
+           gene:PTRG_08224 transcript:EDU51143
+           description:"PAP-associated domain containing protein 5"
+          Length = 599
+
+ Score = 36.2 bits (82), Expect = 0.025,   Method: Compositional matrix adjust.
+ Identities = 33/150 (22%), Positives = 68/150 (45%), Gaps = 24/150 (16%)
+
+Query: 83  GKVFAYGSLRLGVWGPGSDIDTLVVAPRY------VTREDYFEHFPGLLVEMAPPNAITD 136
+           G++  +GS  +G++ P +D+D + V+ R+      V      +   G+L + A     TD
+Sbjct: 297 GRLLCFGSFPVGLYLPTADLDLVYVSDRHYRGGEPVIDVSDRKASKGILFKAARRLKDTD 356
+
+Query: 137 L----SVVVDAFVPIIKFE--FSGISIDLIFSRIATMKQLPADPNWNLSDSNL------- 183
+           +    + V++A VPIIKF+   + + +D+ F  ++ ++       W     ++       
+Sbjct: 357 IPQGYAQVINAKVPIIKFQDKLTKLQVDISFENLSGVQAQATFVEWKAKYPDMIYMVALM 416
+
+Query: 184 -----LRGLDEKELRSVNGTRVTDEIISLV 208
+                +RGL+E     + G  +   I+S +
+Sbjct: 417 KQFLVMRGLNEVHTGGIGGYSIICLIVSYL 446
+
+
+>EDU39716 pep:novel supercontig:GCA_000149985.1:supercont1.1:735154:736349:-1
+           gene:PTRG_00278 transcript:EDU39716
+           description:"S-(hydroxymethyl)glutathione dehydrogenase"
+          Length = 357
+
+ Score = 31.6 bits (70), Expect = 0.69,   Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 30/71 (42%), Gaps = 4/71 (5%)
+
+Query: 155 ISIDLIFSRIATMKQLPADPNWNLSDSNLLRGLDEKELRSVNGTRVTDEIISLVPEQNVF 214
+           +++D + SR+   K L A+P WN        G   KEL    G  +  E++ L P     
+Sbjct: 206 LAVDSVPSRLDLAKSLGAEP-WNFQSDREGLGKRVKELTDGRGADIVIEVVGLSP---AL 261
+
+Query: 215 RTALRAIKLWA 225
+           R     I+ W 
+Sbjct: 262 RMGYELIRPWG 272
+
+
+>EDU39583 pep:novel supercontig:GCA_000149985.1:supercont1.1:386865:388136:-1
+           gene:PTRG_00145 transcript:EDU39583
+           description:"conserved hypothetical protein"
+          Length = 362
+
+ Score = 31.2 bits (69), Expect = 0.74,   Method: Compositional matrix adjust.
+ Identities = 23/87 (26%), Positives = 41/87 (47%), Gaps = 11/87 (12%)
+
+Query: 170 LPADPNWNLSDSNLLRGLDEKELRSVNGT--RVTDEIISLVPEQNVFRTALRAIKLWAQR 227
+           +P D  WN+        LDE ++R  N T   VTD +++++P + ++       KL   R
+Sbjct: 158 IPVDAFWNVMKKPTAHCLDEPKVRYANSTINTVTDLMLAVLPVRRIY-------KLQIVR 210
+
+Query: 228 RAIYGNIVGFPGGVAWAMLVARVCQLY 254
+           R     IV     +AW + +  V +++
+Sbjct: 211 RQKIVLIVIL--SLAWIVCIVSVVRIH 235
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 6,731,495
+Number of extensions: 282857
+Number of successful extensions: 539
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 532
+Number of HSP's successfully gapped: 12
+Length of query: 616
+Length of database: 5,459,076
+Length adjustment: 100
+Effective length of query: 516
+Effective length of database: 4,242,176
+Effective search space: 2188962816
+Effective search space used: 2188962816
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)

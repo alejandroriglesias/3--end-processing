@@ -1,0 +1,518 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_05325:Polyadenylation factor subunit 2
+         (655 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YNL317W pep:known chromosome:SacCer_Apr2011:XIV:40619:42016:1 ge...   325   e-104
+YDL145C pep:known chromosome:SacCer_Apr2011:IV:194571:198176:-1 ...    79   1e-15
+YCR084C pep:known chromosome:SacCer_Apr2011:III:260311:262452:-1...    69   1e-12
+YCR072C pep:known chromosome:SacCer_Apr2011:III:240805:242352:-1...    68   2e-12
+YLR222C pep:known chromosome:SacCer_Apr2011:XII:579318:581771:-1...    68   3e-12
+YBR198C pep:known chromosome:SacCer_Apr2011:II:616127:618523:-1 ...    64   6e-11
+YIL046W pep:known chromosome:SacCer_Apr2011:IX:268651:270573:1 g...    62   1e-10
+YMR116C pep:known chromosome:SacCer_Apr2011:XIII:499456:500688:-...    61   1e-10
+YGL137W pep:known chromosome:SacCer_Apr2011:VII:249869:252738:1 ...    62   2e-10
+YPL151C pep:known chromosome:SacCer_Apr2011:XVI:266180:267535:-1...    61   3e-10
+YDR267C pep:known chromosome:SacCer_Apr2011:IV:1002510:1003502:-...    59   5e-10
+YCR057C pep:known chromosome:SacCer_Apr2011:III:220457:223228:-1...    60   7e-10
+YBR103W pep:known chromosome:SacCer_Apr2011:II:447709:449316:1 g...    57   4e-09
+YFL009W pep:known chromosome:SacCer_Apr2011:VI:116145:118484:1 g...    57   7e-09
+YLR129W pep:known chromosome:SacCer_Apr2011:XII:399657:402488:1 ...    57   8e-09
+YJL112W pep:known chromosome:SacCer_Apr2011:X:205305:207449:1 ge...    55   3e-08
+YPR178W pep:known chromosome:SacCer_Apr2011:XVI:892332:893729:1 ...    54   4e-08
+YMR092C pep:known chromosome:SacCer_Apr2011:XIII:451632:453479:-...    53   1e-07
+YGL116W pep:known chromosome:SacCer_Apr2011:VII:289809:291641:1 ...    50   6e-07
+YLR409C pep:known chromosome:SacCer_Apr2011:XII:934414:937233:-1...    49   2e-06
+YLR429W pep:known chromosome:SacCer_Apr2011:XII:990777:992732:1 ...    49   3e-06
+YKL021C pep:known chromosome:SacCer_Apr2011:XI:397344:398750:-1 ...    47   7e-06
+YGR200C pep:known chromosome:SacCer_Apr2011:VII:899904:902270:-1...    46   1e-05
+YKR036C pep:known chromosome:SacCer_Apr2011:XI:508702:510633:-1 ...    44   7e-05
+YAR003W pep:known chromosome:SacCer_Apr2011:I:155005:156285:1 ge...    43   9e-05
+YNL006W pep:known chromosome:SacCer_Apr2011:XIV:620067:620978:1 ...    42   2e-04
+YNL035C pep:known chromosome:SacCer_Apr2011:XIV:568522:569691:-1...    42   2e-04
+YBR175W pep:known chromosome:SacCer_Apr2011:II:582408:583355:1 g...    41   3e-04
+YOR272W pep:known chromosome:SacCer_Apr2011:XV:832813:834195:1 g...    41   4e-04
+YML102W pep:known chromosome:SacCer_Apr2011:XIII:68294:69700:1 g...    40   7e-04
+YGL003C pep:known chromosome:SacCer_Apr2011:VII:492474:494174:-1...    40   8e-04
+YGL004C pep:known chromosome:SacCer_Apr2011:VII:490703:491956:-1...    40   0.001
+YDR030C pep:known chromosome:SacCer_Apr2011:IV:501753:503273:-1 ...    40   0.001
+YDR142C pep:known chromosome:SacCer_Apr2011:IV:740473:741600:-1 ...    39   0.002
+YKL213C pep:known chromosome:SacCer_Apr2011:XI:31960:34107:-1 ge...    39   0.002
+YNL253W pep:known chromosome:SacCer_Apr2011:XIV:170018:171286:1 ...    39   0.002
+YDL195W pep:known chromosome:SacCer_Apr2011:IV:107208:111029:1 g...    39   0.002
+YMR146C pep:known chromosome:SacCer_Apr2011:XIII:557481:558524:-...    38   0.003
+YOR212W pep:known chromosome:SacCer_Apr2011:XV:742910:744181:1 g...    38   0.005
+YDR364C pep:known chromosome:SacCer_Apr2011:IV:1202843:1204210:-...    37   0.006
+YER107C pep:known chromosome:SacCer_Apr2011:V:373448:374545:-1 g...    37   0.009
+YGR145W pep:known chromosome:SacCer_Apr2011:VII:781767:783890:1 ...    37   0.009
+YMR131C pep:known chromosome:SacCer_Apr2011:XIII:533163:534698:-...    37   0.011
+YLR208W pep:known chromosome:SacCer_Apr2011:XII:559551:560444:1 ...    36   0.016
+YGL100W pep:known chromosome:SacCer_Apr2011:VII:313234:314283:1 ...    36   0.016
+YLR196W pep:known chromosome:SacCer_Apr2011:XII:543968:545698:1 ...    36   0.016
+YPR137W pep:known chromosome:SacCer_Apr2011:XVI:802359:804080:1 ...    35   0.028
+YER066W pep:known chromosome:SacCer_Apr2011:V:290242:290799:1 ge...    34   0.029
+YKL018W pep:known chromosome:SacCer_Apr2011:XI:404102:405091:1 g...    34   0.051
+YLL011W pep:known chromosome:SacCer_Apr2011:XII:127523:128992:1 ...    34   0.078
+YCL039W pep:known chromosome:SacCer_Apr2011:III:52645:54882:1 ge...    34   0.082
+YBL008W pep:known chromosome:SacCer_Apr2011:II:209653:212175:1 g...    33   0.12 
+YBR195C pep:known chromosome:SacCer_Apr2011:II:610614:611882:-1 ...    33   0.19 
+YOL138C pep:known chromosome:SacCer_Apr2011:XV:61325:65350:-1 ge...    32   0.28 
+YOR269W pep:known chromosome:SacCer_Apr2011:XV:826385:827869:1 g...    32   0.37 
+YEL056W pep:known chromosome:SacCer_Apr2011:V:47168:48373:1 gene...    31   0.45 
+YGL213C pep:known chromosome:SacCer_Apr2011:VII:90054:91247:-1 g...    31   0.54 
+YMR093W pep:known chromosome:SacCer_Apr2011:XIII:454015:455556:1...    31   0.59 
+YPL247C pep:known chromosome:SacCer_Apr2011:XVI:82625:84196:-1 g...    30   1.4  
+YOR026W pep:known chromosome:SacCer_Apr2011:XV:379781:380806:1 g...    30   1.6  
+YML012C-A pep:known chromosome:SacCer_Apr2011:XIII:245537:245914...    28   1.7  
+YFL048C pep:known chromosome:SacCer_Apr2011:VI:38843:40180:-1 ge...    29   1.9  
+YDR128W pep:known chromosome:SacCer_Apr2011:IV:709549:712995:1 g...    30   2.0  
+YMR049C pep:known chromosome:SacCer_Apr2011:XIII:368094:370517:-...    29   3.3  
+YPL183C pep:known chromosome:SacCer_Apr2011:XVI:199495:202536:-1...    28   4.4  
+YPL126W pep:known chromosome:SacCer_Apr2011:XVI:310210:312900:1 ...    28   5.0  
+YOR229W pep:known chromosome:SacCer_Apr2011:XV:768409:769812:1 g...    28   6.1  
+YDR324C pep:known chromosome:SacCer_Apr2011:IV:1114433:1116763:-...    28   6.6  
+YMR102C pep:known chromosome:SacCer_Apr2011:XIII:469848:472352:-...    28   6.9  
+YOR230W pep:known chromosome:SacCer_Apr2011:XV:770800:772113:1 g...    27   7.9  
+YML088W pep:known chromosome:SacCer_Apr2011:XIII:92235:94241:1 g...    27   8.1  
+YIR012W pep:known chromosome:SacCer_Apr2011:IX:378486:379781:1 g...    27   9.6  
+
+>YNL317W pep:known chromosome:SacCer_Apr2011:XIV:40619:42016:1 gene:YNL317W
+           transcript:YNL317W description:"Integral subunit of the
+           pre-mRNA cleavage and polyadenylation factor (CPF)
+           complex\x3b plays an essential role in mRNA 3'-end
+           formation by bridging different processing factors and
+           thereby promoting the assembly of the processing
+           complex"
+          Length = 465
+
+ Score =  325 bits (833), Expect = e-104,   Method: Compositional matrix adjust.
+ Identities = 159/367 (43%), Positives = 231/367 (62%), Gaps = 34/367 (9%)
+
+Query: 65  RPSPSYIVDMLPPHA-RPNNAADTIPVRHLHSSLNKVKHPINVVKWTPEGRRLLTASSGG 123
+            P  SY +D++PP+A R  +    +P +  H S NKVKH I  ++WTPEGRRL+ A+  G
+Sbjct: 56  EPETSYTIDIMPPNAYRGRDRVINLPSKFTHLSSNKVKHVIPAIQWTPEGRRLVVATYSG 115
+
+Query: 124 EFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVETIRDS 183
+           EF+LWN + F FET+MQAH+SA+  + YSH  +W++SGD DG+I  WQPNF+ V+ I  +
+Sbjct: 116 EFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAA 175
+
+Query: 184 -KDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIV 242
+             +++RD+AFS NDSKFV  +DD  LK+++F+   +E  LSGHHW+ K+CDWHP  GLI 
+Sbjct: 176 HTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIA 235
+
+Query: 243 SGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRM-M 301
+           S SKD+LVKLWDPR+G C++++   K+T+ KT F+  +G  L   ++D++  VFD+R  M
+Sbjct: 236 SASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSM 295
+
+Query: 302 RDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHY-ILDEPNTPDGRQQTIAPYDSP 360
+           +++  +R  E D  TL WHP++ +M +    +GS+ H+ +L   N               
+Sbjct: 296 KELMCVRD-ETDYMTLEWHPINESMFTLACYDGSLKHFDLLQNLNE-------------- 340
+
+Query: 361 DPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFWTRARPGD----D 416
+                      P   +P+AHD  I SL ++P+GHI A+ + DR  RFWTRARP D    D
+Sbjct: 341 -----------PILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFWTRARPIDPNAYD 389
+
+Query: 417 DEVLNDR 423
+           D   N++
+Sbjct: 390 DPTYNNK 396
+
+
+>YDL145C pep:known chromosome:SacCer_Apr2011:IV:194571:198176:-1
+           gene:YDL145C transcript:YDL145C description:"Alpha
+           subunit of COPI vesicle coatomer complex, which
+           surrounds transport vesicles in the early secretory
+           pathway"
+          Length = 1201
+
+ Score = 78.6 bits (192), Expect = 1e-15,   Method: Compositional matrix adjust.
+ Identities = 60/234 (25%), Positives = 104/234 (44%), Gaps = 12/234 (5%)
+
+Query: 182 DSKDT-VRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGL 240
+           +SK T  + IAF P+    +VA   + ++++D+   T       H    +  D+HPT+ +
+Sbjct: 8   ESKSTRAKGIAFHPSRPWVLVALFSSTIQLWDYRMGTLLHRFEDHEGPVRGLDFHPTQPI 67
+
+Query: 241 IVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRM 300
+            VS   D+ +K+W   T +CL TL GH + + +TVF       + +++ DQT  +++ + 
+Sbjct: 68  FVSAGDDYTIKVWSLDTNKCLYTLTGHLDYV-RTVFFHRELPWIISASDDQTIRIWNWQN 126
+
+Query: 301 MRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHYIL------DEPNTPDGRQQTI 354
+            ++I  L GH   +    +HP    ++S    E      I         P T    +Q  
+Sbjct: 127 RKEIACLTGHNHFVMCAQFHPTDDLIVSASLDETIRIWDISGLRKRHSAPGTSSFEEQMS 186
+
+Query: 355 APYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFW 408
+           A  +  D +     V F        H  G+    +HP   ++ SGS+DR  + W
+Sbjct: 187 AQQNLLDGSLGDCVVKFILE----GHTRGVNWASFHPTLPLIVSGSDDRQVKLW 236
+
+
+
+ Score = 61.2 bits (147), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 56/262 (21%), Positives = 106/262 (40%), Gaps = 37/262 (14%)
+
+Query: 116 LLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFN 175
+           +L A       LW+          + HE  +R L +       +S   D  I  W  + N
+Sbjct: 26  VLVALFSSTIQLWDYRMGTLLHRFEDHEGPVRGLDFHPTQPIFVSAGDDYTIKVWSLDTN 85
+
+Query: 176 N-VETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDW 234
+             + T+    D VR + F       + A+DD  ++++++      A L+GH+       +
+Sbjct: 86  KCLYTLTGHLDYVRTVFFHRELPWIISASDDQTIRIWNWQNRKEIACLTGHNHFVMCAQF 145
+
+Query: 235 HPTKGLIVSGSKDHLVKLWD----------PRTGRCLTTLRGHKN--------TITKTVF 276
+           HPT  LIVS S D  +++WD          P T      +   +N         + K + 
+Sbjct: 146 HPTDDLIVSASLDETIRIWDISGLRKRHSAPGTSSFEEQMSAQQNLLDGSLGDCVVKFIL 205
+
+Query: 277 E-KVRGM----------CLATSARDQTAHVFDLRMMR----DICLLRGHEKDITTLTWHP 321
+           E   RG+           + + + D+   ++ +   +    D C  RGH  ++ ++ +HP
+Sbjct: 206 EGHTRGVNWASFHPTLPLIVSGSDDRQVKLWRMSATKAWEVDTC--RGHTNNVDSVIFHP 263
+
+Query: 322 VHPNMLSTGGSEGSMCHYILDE 343
+            H N++ + G + ++  + LD+
+Sbjct: 264 -HQNLIISVGEDKTLRVWDLDK 284
+
+
+>YCR084C pep:known chromosome:SacCer_Apr2011:III:260311:262452:-1
+           gene:YCR084C transcript:YCR084C description:"General
+           repressor of transcription, forms complex with Cyc8p,
+           involved in the establishment of repressive chromatin
+           structure through interactions with histones H3 and H4,
+           appears to enhance expression of some genes"
+          Length = 713
+
+ Score = 68.6 bits (166), Expect = 1e-12,   Method: Compositional matrix adjust.
+ Identities = 61/252 (24%), Positives = 106/252 (42%), Gaps = 26/252 (10%)
+
+Query: 104 INVVKWTPEGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDH 163
+           I  V ++P+G+ L T +      +W+        I+Q HE  I +L Y    + L+SG  
+Sbjct: 446 IRSVCFSPDGKFLATGAEDRLIRIWDIENRKIVMILQGHEQDIYSLDYFPSGDKLVSGSG 505
+
+Query: 164 DGIIHYWQPNFNNVETIRDSKDTVRDIAFSPNDSKFVVA-TDDAALKVYDFAGA------ 216
+           D  +  W             +D V  +A SP D K++ A + D A++V+D          
+Sbjct: 506 DRTVRIWDLRTGQCSLTLSIEDGVTTVAVSPGDGKYIAAGSLDRAVRVWDSETGFLVERL 565
+
+Query: 217 -TREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWD------------PRTGRCLTT 263
+            +   + +GH     +  +      +VSGS D  VKLW+            P +G C  T
+Sbjct: 566 DSENESGTGHKDSVYSVVFTRDGQSVVSGSLDRSVKLWNLQNANNKSDSKTPNSGTCEVT 625
+
+Query: 264 LRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITTLTW---H 320
+             GHK+ +      +     L+ S +D+    +D +    + +L+GH   + ++      
+Sbjct: 626 YIGHKDFVLSVATTQNDEYILSGS-KDRGVLFWDKKSGNPLLMLQGHRNSVISVAVANGS 684
+
+Query: 321 PVHP--NMLSTG 330
+           P+ P  N+ +TG
+Sbjct: 685 PLGPEYNVFATG 696
+
+
+
+ Score = 64.3 bits (155), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 55/231 (23%), Positives = 97/231 (41%), Gaps = 24/231 (10%)
+
+Query: 187 VRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSK 246
+           +R + FSP+        +D  ++++D         L GH  +  + D+ P+   +VSGS 
+Sbjct: 446 IRSVCFSPDGKFLATGAEDRLIRIWDIENRKIVMILQGHEQDIYSLDYFPSGDKLVSGSG 505
+
+Query: 247 DHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDL-------R 299
+           D  V++WD RTG+C  TL   ++ +T        G  +A  + D+   V+D        R
+Sbjct: 506 DRTVRIWDLRTGQCSLTL-SIEDGVTTVAVSPGDGKYIAAGSLDRAVRVWDSETGFLVER 564
+
+Query: 300 MMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHYILDEPNTPDGRQQTIAPYDS 359
+           +  +     GH+  + ++ +     +++S G  + S+  + L   N            DS
+Sbjct: 565 LDSENESGTGHKDSVYSVVFTRDGQSVVS-GSLDRSVKLWNLQNANNKS---------DS 614
+
+Query: 360 PDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFWTR 410
+             P     +V +  HK     DF + S+        + SGS DR   FW +
+Sbjct: 615 KTPNSGTCEVTYIGHK-----DF-VLSVATTQNDEYILSGSKDRGVLFWDK 659
+
+
+>YCR072C pep:known chromosome:SacCer_Apr2011:III:240805:242352:-1
+           gene:YCR072C transcript:YCR072C description:"WD-repeat
+           protein involved in ribosome biogenesis\x3b may interact
+           with ribosomes\x3b required for maturation and efficient
+           intra-nuclear transport or pre-60S ribosomal subunits,
+           localizes to the nucleolus"
+          Length = 515
+
+ Score = 67.8 bits (164), Expect = 2e-12,   Method: Compositional matrix adjust.
+ Identities = 43/144 (29%), Positives = 72/144 (50%), Gaps = 12/144 (8%)
+
+Query: 186 TVRDIAFSP-NDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSG 244
+           T+   AF+P   S+ V    D   +++D    T   TL GH+       W P   +I +G
+Sbjct: 145 TILCSAFAPHTSSRMVTGAGDNTARIWDCDTQTPMHTLKGHYNWVLCVSWSPDGEVIATG 204
+
+Query: 245 SKDHLVKLWDPRTGRCL-TTLRGHKNTITKTVFEKVRGMC------LATSARDQTAHVFD 297
+           S D+ ++LWDP++G+CL   LRGH   IT   +E +  +       LA+S++D T  ++D
+Sbjct: 205 SMDNTIRLWDPKSGQCLGDALRGHSKWITSLSWEPIHLVKPGSKPRLASSSKDGTIKIWD 264
+
+Query: 298 LRMMRDIC--LLRGHEKDITTLTW 319
+              +  +C   + GH   ++ + W
+Sbjct: 265 --TVSRVCQYTMSGHTNSVSCVKW 286
+
+
+
+ Score = 62.4 bits (150), Expect = 1e-10,   Method: Compositional matrix adjust.
+ Identities = 59/275 (21%), Positives = 114/275 (41%), Gaps = 48/275 (17%)
+
+Query: 102 HPINVVKWTPEGR-RLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLS 160
+            PI++VK  P  + RL ++S  G   +W+      +  M  H +++  + +  +   L S
+Sbjct: 238 EPIHLVK--PGSKPRLASSSKDGTIKIWDTVSRVCQYTMSGHTNSVSCVKWGGQGL-LYS 294
+
+Query: 161 GDHDGIIHYWQPNFNN--VETIRDSKDTVRDIAFSPN----------------------- 195
+           G HD  +  W  N     +  ++     V  ++ S +                       
+Sbjct: 295 GSHDRTVRVWDINSQGRCINILKSHAHWVNHLSLSTDYALRIGAFDHTGKKPSTPEEAQK 354
+
+Query: 196 ----------------DSKFVVATDDAALKVYDFAGATRE-ATLSGHHWETKACDWHPTK 238
+                           +   V A+DD  + +++   +T+  A ++GH        + P  
+Sbjct: 355 KALENYEKICKKNGNSEEMMVTASDDYTMFLWNPLKSTKPIARMTGHQKLVNHVAFSPDG 414
+
+Query: 239 GLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDL 298
+             IVS S D+ +KLWD R G+ ++T RGH  ++ +  +     + L + ++D T  V+D+
+Sbjct: 415 RYIVSASFDNSIKLWDGRDGKFISTFRGHVASVYQVAWSSDCRL-LVSCSKDTTLKVWDV 473
+
+Query: 299 RMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSE 333
+           R  +    L GH+ ++ T+ W  V    + +GG +
+Sbjct: 474 RTRKLSVDLPGHKDEVYTVDW-SVDGKRVCSGGKD 507
+
+
+
+ Score = 60.5 bits (145), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 72/343 (20%), Positives = 126/343 (36%), Gaps = 49/343 (14%)
+
+Query: 115 RLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNF 174
+           R++T +      +W+         ++ H + +  +++S   E + +G  D  I  W P  
+Sbjct: 158 RMVTGAGDNTARIWDCDTQTPMHTLKGHYNWVLCVSWSPDGEVIATGSMDNTIRLWDPKS 217
+
+Query: 175 NNV--ETIRDSKDTVRDIAFSP-------NDSKFVVATDDAALKVYDFAGATREATLSGH 225
+                + +R     +  +++ P       +  +   ++ D  +K++D      + T+SGH
+Sbjct: 218 GQCLGDALRGHSKWITSLSWEPIHLVKPGSKPRLASSSKDGTIKIWDTVSRVCQYTMSGH 277
+
+Query: 226 HWETKACDWHPTKGLIVSGSKDHLVKLWDPRT-GRCLTTLRGHKNTITKTVFEKVRGMCL 284
+                   W   +GL+ SGS D  V++WD  + GRC+  L+ H + +            L
+Sbjct: 278 TNSVSCVKWG-GQGLLYSGSHDRTVRVWDINSQGRCINILKSHAHWVNHLSLST--DYAL 334
+
+Query: 285 ATSARDQT---------AHVFDLRMMRDICLLRGHEK--------DITTLTWHPVHPN-- 325
+              A D T         A    L     IC   G+ +        D T   W+P+     
+Sbjct: 335 RIGAFDHTGKKPSTPEEAQKKALENYEKICKKNGNSEEMMVTASDDYTMFLWNPLKSTKP 394
+
+Query: 326 MLSTGGSEGSMCHYILDEPNTPDGRQQTIAPYDSPDPT--GAPAQVIFPAHKLPFAHDFG 383
+           +    G +  + H       +PDGR    A +D+      G   + I         H   
+Sbjct: 395 IARMTGHQKLVNHVAF----SPDGRYIVSASFDNSIKLWDGRDGKFISTFR----GHVAS 446
+
+Query: 384 IWSLDWHPLGHILASGSNDRITRFW-TRAR------PGDDDEV 419
+           ++ + W     +L S S D   + W  R R      PG  DEV
+Sbjct: 447 VYQVAWSSDCRLLVSCSKDTTLKVWDVRTRKLSVDLPGHKDEV 489
+
+
+
+ Score = 55.1 bits (131), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 61/221 (27%), Positives = 93/221 (42%), Gaps = 30/221 (13%)
+
+Query: 210 VYDFAGATREATLSGHHWETKACDWHP--TKGLIVSGSKDHLVKLWDPRTGRCLTTLRGH 267
+           V+     TR ++    H  T  C      T   +V+G+ D+  ++WD  T   + TL+GH
+Sbjct: 126 VFKVKPVTRSSSAIAGHGSTILCSAFAPHTSSRMVTGAGDNTARIWDCDTQTPMHTLKGH 185
+
+Query: 268 KNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICL---LRGHEKDITTLTWHPVHP 324
+            N +   V     G  +AT + D T  ++D +  +  CL   LRGH K IT+L+W P+H 
+Sbjct: 186 YNWVL-CVSWSPDGEVIATGSMDNTIRLWDPKSGQ--CLGDALRGHSKWITSLSWEPIH- 241
+
+Query: 325 NMLSTGGSEGSMCHYILDEPNTPDGRQQTIAPYDSPDPTGAPAQVIFPAHKLPFAHDFGI 384
+             L   GS+  +        ++ DG   TI  +D+         V          H   +
+Sbjct: 242 --LVKPGSKPRL------ASSSKDG---TIKIWDT---------VSRVCQYTMSGHTNSV 281
+
+Query: 385 WSLDWHPLGHILASGSNDRITRFWTRARPGDDDEVLNDRYH 425
+             + W   G +L SGS+DR  R W     G    +L    H
+Sbjct: 282 SCVKWGGQG-LLYSGSHDRTVRVWDINSQGRCINILKSHAH 321
+
+
+
+ Score = 54.7 bits (130), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 41/165 (24%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 134 NFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQP--NFNNVETIRDSKDTVRDIA 191
+           N+E I + + ++         +E +++   D  +  W P  +   +  +   +  V  +A
+Sbjct: 359 NYEKICKKNGNS---------EEMMVTASDDYTMFLWNPLKSTKPIARMTGHQKLVNHVA 409
+
+Query: 192 FSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVK 251
+           FSP+    V A+ D ++K++D       +T  GH        W     L+VS SKD  +K
+Sbjct: 410 FSPDGRYIVSASFDNSIKLWDGRDGKFISTFRGHVASVYQVAWSSDCRLLVSCSKDTTLK 469
+
+Query: 252 LWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVF 296
+           +WD RT +    L GHK+ +  TV   V G  + +  +D+   ++
+Sbjct: 470 VWDVRTRKLSVDLPGHKDEVY-TVDWSVDGKRVCSGGKDKMVRLW 513
+
+
+
+ Score = 46.6 bits (109), Expect = 8e-06,   Method: Compositional matrix adjust.
+ Identities = 34/150 (22%), Positives = 55/150 (36%), Gaps = 41/150 (27%)
+
+Query: 104 INVVKWTPEGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDH 163
+           +N V ++P+GR +++AS      LW+G    F +  + H +++  +A+S     L+S   
+Sbjct: 405 VNHVAFSPDGRYIVSASFDNSIKLWDGRDGKFISTFRGHVASVYQVAWSSDCRLLVS--- 461
+
+Query: 164 DGIIHYWQPNFNNVETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLS 223
+                                                  + D  LKV+D         L 
+Sbjct: 462 --------------------------------------CSKDTTLKVWDVRTRKLSVDLP 483
+
+Query: 224 GHHWETKACDWHPTKGLIVSGSKDHLVKLW 253
+           GH  E    DW      + SG KD +V+LW
+Sbjct: 484 GHKDEVYTVDWSVDGKRVCSGGKDKMVRLW 513
+
+
+
+ Score = 33.5 bits (75), Expect = 0.10,   Method: Compositional matrix adjust.
+ Identities = 23/101 (22%), Positives = 46/101 (45%), Gaps = 8/101 (7%)
+
+Query: 243 SGSKDHLVKLWDPR-------TGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHV 295
+           + ++D +  L+ PR         R  + + GH +TI  + F       + T A D TA +
+Sbjct: 111 NSTEDQITLLYTPRAVFKVKPVTRSSSAIAGHGSTILCSAFAPHTSSRMVTGAGDNTARI 170
+
+Query: 296 FDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSM 336
+           +D      +  L+GH   +  ++W P    +++TG  + ++
+Sbjct: 171 WDCDTQTPMHTLKGHYNWVLCVSWSP-DGEVIATGSMDNTI 210
+
+
+>YLR222C pep:known chromosome:SacCer_Apr2011:XII:579318:581771:-1
+           gene:YLR222C transcript:YLR222C description:"Nucleolar
+           protein, component of the small subunit (SSU) processome
+           containing the U3 snoRNA that is involved in processing
+           of pre-18S rRNA"
+          Length = 817
+
+ Score = 67.8 bits (164), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 37/130 (28%), Positives = 60/130 (46%), Gaps = 1/130 (0%)
+
+Query: 141 AHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVE-TIRDSKDTVRDIAFSPNDSKF 199
+           AHE  I AL+ S  D    +  +D     W      +E T+ + K  + D++F   D   
+Sbjct: 489 AHEKDINALSVSPNDSIFATASYDKTCKIWNLENGELEATLANHKRGLWDVSFCQYDKLL 548
+
+Query: 200 VVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRTGR 259
+             ++ D  +K++     +   TL GH    + C +   +  ++S   D L+K+WD  +G 
+Sbjct: 549 ATSSGDKTVKIWSLDTFSVMKTLEGHTNAVQRCSFINKQKQLISCGADGLIKIWDCSSGE 608
+
+Query: 260 CLTTLRGHKN 269
+           CL TL GH N
+Sbjct: 609 CLKTLDGHNN 618
+
+
+
+ Score = 65.9 bits (159), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 58/230 (25%), Positives = 99/230 (43%), Gaps = 27/230 (11%)
+
+Query: 104 INVVKWTPEGRRLLTASSGGEFTLW----NGTGFNFETIMQAHESAIRALAYSH-----R 154
+           +N +  T +G  + TAS      +W    N   F+       H +A+ A+   +      
+Sbjct: 391 LNSLDATEDGLWIATASKDNTAIVWRYNENSCKFDIYAKYIGHSAAVTAVGLPNIVSKGY 450
+
+Query: 155 DEWLLSGDHDGIIHYW---QPNFN-NVETIRDSKDT-------VRDIAFSPNDSKFVVAT 203
+            E+LL+  +D  I  W   +P  + +V+ I+ S+ T       +  ++ SPNDS F  A+
+Sbjct: 451 PEFLLTASNDLTIKKWIIPKPTASMDVQIIKVSEYTRHAHEKDINALSVSPNDSIFATAS 510
+
+Query: 204 DDAALKVYDFAGATREATLSGHH---WETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRC 260
+            D   K+++      EATL+ H    W+   C +     L+ + S D  VK+W   T   
+Sbjct: 511 YDKTCKIWNLENGELEATLANHKRGLWDVSFCQYDK---LLATSSGDKTVKIWSLDTFSV 567
+
+Query: 261 LTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGH 310
+           + TL GH N + +  F   +   ++  A D    ++D      +  L GH
+Sbjct: 568 MKTLEGHTNAVQRCSFINKQKQLISCGA-DGLIKIWDCSSGECLKTLDGH 616
+
+
+
+ Score = 47.8 bits (112), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 35/168 (20%), Positives = 66/168 (39%), Gaps = 7/168 (4%)
+
+Query: 91  RHLHSSLNKVKHPINVVKWTPEGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALA 150
+           RH H      +  IN +  +P      TAS      +WN      E  +  H+  +  ++
+Sbjct: 487 RHAH------EKDINALSVSPNDSIFATASYDKTCKIWNLENGELEATLANHKRGLWDVS 540
+
+Query: 151 YSHRDEWLLSGDHDGIIHYWQPN-FNNVETIRDSKDTVRDIAFSPNDSKFVVATDDAALK 209
+           +   D+ L +   D  +  W  + F+ ++T+    + V+  +F     + +    D  +K
+Sbjct: 541 FCQYDKLLATSSGDKTVKIWSLDTFSVMKTLEGHTNAVQRCSFINKQKQLISCGADGLIK 600
+
+Query: 210 VYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRT 257
+           ++D +      TL GH+    A        +IVS   D + + W   T
+Sbjct: 601 IWDCSSGECLKTLDGHNNRLWALSTMNDGDMIVSADADGVFQFWKDCT 648
+
+
+
+ Score = 33.5 bits (75), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 36/135 (26%), Positives = 58/135 (42%), Gaps = 23/135 (17%)
+
+Query: 281 GMCLATSARDQTAHVFDLRMMRDICLLR------GHEKDITTLTWHPVHPNMLSTGGSEG 334
+           G+ +AT+++D TA V+  R   + C         GH   +T +      PN++S G  E 
+Sbjct: 400 GLWIATASKDNTAIVW--RYNENSCKFDIYAKYIGHSAAVTAVGL----PNIVSKGYPE- 452
+
+Query: 335 SMCHYILDEPNTPDGRQQTIAPYDSPDPTGA-PAQVIFPAHKLPFAHDFGIWSLDWHPLG 393
+               ++L   N       TI  +  P PT +   Q+I  +     AH+  I +L   P  
+Sbjct: 453 ----FLLTASN-----DLTIKKWIIPKPTASMDVQIIKVSEYTRHAHEKDINALSVSPND 503
+
+Query: 394 HILASGSNDRITRFW 408
+            I A+ S D+  + W
+Sbjct: 504 SIFATASYDKTCKIW 518
+
+
+
+ Score = 31.2 bits (69), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 32/66 (48%), Gaps = 5/66 (7%)
+
+Query: 240 LIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKV-----RGMCLATSARDQTAH 294
+           L+ SG  + +VK+WD    +CL TL+ H + +      +V       + L +  RD   +
+Sbjct: 162 LLASGDTNGMVKVWDLVKRKCLHTLQEHTSAVRGLDIIEVPDNDEPSLNLLSGGRDDIIN 221
+
+Query: 295 VFDLRM 300
+           ++D  M
+Sbjct: 222 LWDFNM 227
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.318    0.134    0.423 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 3,248,951
+Number of extensions: 130297
+Number of successful extensions: 713
+Number of sequences better than 10.0: 74
+Number of HSP's gapped: 561
+Number of HSP's successfully gapped: 188
+Length of query: 655
+Length of database: 3,010,216
+Length adjustment: 96
+Effective length of query: 559
+Effective length of database: 2,367,784
+Effective search space: 1323591256
+Effective search space used: 1323591256
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

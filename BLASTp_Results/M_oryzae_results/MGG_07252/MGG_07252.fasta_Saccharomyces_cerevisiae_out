@@ -1,0 +1,205 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1 ...   106   2e-28
+YOL041C pep:known chromosome:SacCer_Apr2011:XV:251267:252646:-1 ...    68   5e-14
+YPL178W pep:known chromosome:SacCer_Apr2011:XVI:212158:212784:1 ...    54   1e-09
+YPR112C pep:known chromosome:SacCer_Apr2011:XVI:749256:751919:-1...    54   3e-09
+YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1 ...    54   4e-09
+YNL175C pep:known chromosome:SacCer_Apr2011:XIV:307401:308612:-1...    50   4e-08
+YIL061C pep:known chromosome:SacCer_Apr2011:IX:244657:245559:-1 ...    47   3e-07
+YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gen...    46   9e-07
+YNL004W pep:known chromosome:SacCer_Apr2011:XIV:622915:624621:1 ...    46   1e-06
+YIR005W pep:known chromosome:SacCer_Apr2011:IX:364889:365335:1 g...    40   7e-05
+YGR159C pep:known chromosome:SacCer_Apr2011:VII:806412:807656:-1...    40   2e-04
+YER165W pep:known chromosome:SacCer_Apr2011:V:510373:512106:1 ge...    39   2e-04
+YCL011C pep:known chromosome:SacCer_Apr2011:III:102075:103358:-1...    39   2e-04
+YGL044C pep:known chromosome:SacCer_Apr2011:VII:416146:417036:-1...    39   3e-04
+YBR212W pep:known chromosome:SacCer_Apr2011:II:647886:649904:1 g...    37   0.001
+YGR250C pep:known chromosome:SacCer_Apr2011:VII:991176:993521:-1...    37   0.002
+YNL016W pep:known chromosome:SacCer_Apr2011:XIV:602907:604268:1 ...    36   0.002
+YHR086W pep:known chromosome:SacCer_Apr2011:VIII:278153:279724:1...    36   0.003
+YHR015W pep:known chromosome:SacCer_Apr2011:VIII:134554:136533:1...    36   0.004
+YNL110C pep:known chromosome:SacCer_Apr2011:XIV:417826:418488:-1...    33   0.022
+YHL024W pep:known chromosome:SacCer_Apr2011:VIII:56649:58790:1 g...    33   0.024
+YDR429C pep:known chromosome:SacCer_Apr2011:IV:1324477:1325301:-...    32   0.041
+YOR319W pep:known chromosome:SacCer_Apr2011:XV:912822:913463:1 g...    32   0.044
+YKR001C pep:known chromosome:SacCer_Apr2011:XI:440608:442722:-1 ...    27   2.7  
+YNL286W pep:known chromosome:SacCer_Apr2011:XIV:95223:96080:1 ge...    26   3.3  
+YOR227W pep:known chromosome:SacCer_Apr2011:XV:762825:766565:1 g...    27   3.4  
+YBL061C pep:known chromosome:SacCer_Apr2011:II:105316:107406:-1 ...    26   6.1  
+
+>YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1
+           gene:YIR001C transcript:YIR001C description:"Cytoplasmic
+           RNA-binding protein, contains an RNA recognition motif
+           (RRM)\x3b may have a role in mRNA translation, as
+           suggested by genetic interactions with genes encoding
+           proteins involved in translational initiation"
+          Length = 250
+
+ Score =  106 bits (265), Expect = 2e-28,   Method: Compositional matrix adjust.
+ Identities = 50/102 (49%), Positives = 67/102 (65%), Gaps = 4/102 (3%)
+
+Query: 59  SQELSTESRD----DVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPK 114
+           SQ+LS E +     + DSRSIFVGN+    +PE+I+ HF+ CG I R+T+L D+ TG PK
+Sbjct: 46  SQKLSKEEKHAHQLEADSRSIFVGNITPDVTPEQIEDHFKDCGQIKRITLLYDRNTGTPK 105
+
+Query: 115 GFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPKRTNYPGMS 156
+           G+ Y+EF  P+   +AL LN    KG+ I VS KRTN PG +
+Sbjct: 106 GYGYIEFESPAYREKALQLNGGELKGKKIAVSRKRTNIPGFN 147
+
+
+>YOL041C pep:known chromosome:SacCer_Apr2011:XV:251267:252646:-1
+           gene:YOL041C transcript:YOL041C description:"Nucleolar
+           protein involved in pre-25S rRNA processing and
+           biogenesis of large 60S ribosomal subunit\x3b contains
+           an RNA recognition motif (RRM)\x3b binds to Ebp2\x3b
+           similar to Nop13p and Nsr1p"
+          Length = 459
+
+ Score = 68.2 bits (165), Expect = 5e-14,   Method: Compositional matrix adjust.
+ Identities = 32/67 (47%), Positives = 41/67 (61%)
+
+Query: 73  RSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALV 132
+           RSIFVGN+D+    E +  HF+ CG I  V I+ D  T   KGFAYV+F +   V +AL+
+Sbjct: 279 RSIFVGNLDFEEIEESLWKHFEPCGDIEYVRIIRDSKTNMGKGFAYVQFKDLQSVNKALL 338
+
+Query: 133 LNESVFK 139
+           LNE   K
+Sbjct: 339 LNEKPMK 345
+
+
+>YPL178W pep:known chromosome:SacCer_Apr2011:XVI:212158:212784:1
+           gene:YPL178W transcript:YPL178W description:"Small
+           subunit of the heterodimeric cap binding complex that
+           also contains Sto1p, component of the spliceosomal
+           commitment complex\x3b interacts with Npl3p, possibly to
+           package mRNA for export from the nucleus\x3b contains an
+           RNA-binding motif"
+          Length = 208
+
+ Score = 53.9 bits (128), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 24/67 (35%), Positives = 39/67 (58%)
+
+Query: 65  ESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEP 124
+           E R+ + S +I+VGN+ +  S E+I   F  CG+I R+ + LD+F   P GF ++ ++ P
+Sbjct: 38  ELRESMKSSTIYVGNLSFYTSEEQIYELFSKCGTIKRIIMGLDRFKFTPCGFCFIIYSCP 97
+
+Query: 125 SLVAQAL 131
+                AL
+Sbjct: 98  DEALNAL 104
+
+
+>YPR112C pep:known chromosome:SacCer_Apr2011:XVI:749256:751919:-1
+           gene:YPR112C transcript:YPR112C description:"Essential
+           conserved protein that is part of the 90S
+           preribosome\x3b required for production of 18S rRNA and
+           small ribosomal subunit\x3b contains five consensus
+           RNA-binding domains"
+          Length = 887
+
+ Score = 53.5 bits (127), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 26/74 (35%), Positives = 42/74 (56%), Gaps = 1/74 (1%)
+
+Query: 75  IFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALV-L 133
+           +F+ N+ Y++  E+ +  F   G +  V + LD  TGQ KGFAYV F +      A V L
+Sbjct: 347 LFLRNILYTSKEEDFRKLFSPFGELEEVHVALDTRTGQSKGFAYVLFKDSKNAVNAYVEL 406
+
+Query: 134 NESVFKGRNIKVSP 147
+           ++ +F+GR + + P
+Sbjct: 407 DKQIFQGRLLHILP 420
+
+
+
+ Score = 39.3 bits (90), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 30/101 (29%), Positives = 49/101 (48%), Gaps = 6/101 (5%)
+
+Query: 31  ISAMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEEIQ 90
+           I+AM   V +  +   KL   QAS     Q  +T+++ +  S  I V N+ + A+ +++ 
+Sbjct: 726 IAAMDGTVIDGHKIQLKLSHRQAS-----QSGNTKTKSNKKSGKIIVKNLPFEATRKDVF 780
+
+Query: 91  AHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+             F S G +  V +   KF    +GFA+VEF  P     A+
+Sbjct: 781 ELFNSFGQLKSVRVP-KKFDKSARGFAFVEFLLPKEAENAM 820
+
+
+>YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1
+           gene:YPL043W transcript:YPL043W description:"Nucleolar
+           protein, essential for processing and maturation of 27S
+           pre-rRNA and large ribosomal subunit biogenesis\x3b
+           constituent of 66S pre-ribosomal particles\x3b contains
+           four RNA recognition motifs (RRMs)"
+          Length = 685
+
+ Score = 53.5 bits (127), Expect = 4e-09,   Method: Compositional matrix adjust.
+ Identities = 35/112 (31%), Positives = 55/112 (49%), Gaps = 19/112 (16%)
+
+Query: 52  QASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTG 111
+           QAS + +S+  +   R+D    S+FV NV Y A+ E +  HF   GS+     ++DK TG
+Sbjct: 272 QASKNKESKRKAQNKREDF---SVFVRNVPYDATEESLAPHFSKFGSVKYALPVIDKSTG 328
+
+Query: 112 QPKGFAYVEFTE----------------PSLVAQALVLNESVFKGRNIKVSP 147
+             KG A+V F +                 SL+    V+ E V++GR + ++P
+Sbjct: 329 LAKGTAFVAFKDQYTYNECIKNAPAAGSTSLLIGDDVMPEYVYEGRVLSITP 380
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 796,500
+Number of extensions: 28242
+Number of successful extensions: 163
+Number of sequences better than 10.0: 42
+Number of HSP's gapped: 163
+Number of HSP's successfully gapped: 52
+Length of query: 193
+Length of database: 3,010,216
+Length adjustment: 85
+Effective length of query: 108
+Effective length of database: 2,441,396
+Effective search space: 263670768
+Effective search space used: 263670768
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 49 (23.5 bits)

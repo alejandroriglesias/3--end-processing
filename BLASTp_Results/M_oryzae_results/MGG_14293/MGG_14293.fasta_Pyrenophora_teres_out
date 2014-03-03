@@ -1,0 +1,99 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ95954 pep:novel supercontig:GCA_000166005.1:GL532382:11049:12...    82   7e-18
+EFQ94023 pep:novel supercontig:GCA_000166005.1:GL533554:79346:80...    27   9.4  
+
+>EFQ95954 pep:novel supercontig:GCA_000166005.1:GL532382:11049:12118:1
+           gene:PTT_03997 transcript:EFQ95954
+           description:"hypothetical protein"
+          Length = 317
+
+ Score = 81.6 bits (200), Expect = 7e-18,   Method: Compositional matrix adjust.
+ Identities = 44/110 (40%), Positives = 62/110 (56%), Gaps = 7/110 (6%)
+
+Query: 86  APPSQSKYSEIRSIPQRSVATD-GTAPAKAAPNKKEDTVKGSDLPPVTKSNFDPYAIPEH 144
+           APP  +  S+ + +P R+V T  GT P  +A       + G+  P    S  D    P +
+Sbjct: 79  APPPSTTPSQ-QQVPTRTVPTSSGTVPQLSA-----SALSGTAFPAQRTSTIDVNGNPIY 132
+
+Query: 145 KPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQ 194
+            P GK +  ++ID +L E+   WR+PG D SDYFNYGFDEF+W +Y Q+Q
+Sbjct: 133 PPQGKEILSIDIDANLAEEQKIWRRPGEDQSDYFNYGFDEFTWELYRQRQ 182
+
+
+>EFQ94023 pep:novel supercontig:GCA_000166005.1:GL533554:79346:80522:-1
+           gene:PTT_08448 transcript:EFQ94023
+           description:"hypothetical protein"
+          Length = 359
+
+ Score = 26.9 bits (58), Expect = 9.4,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 28/67 (41%), Gaps = 9/67 (13%)
+
+Query: 114 AAPNKKEDTVKGSDLPPVTKSNFDPYAIPEHKPTGKPLT--------QVNIDE-DLGEDA 164
+           +A  K  +T++  D+ P   SN       E + +             Q  +DE DL ED 
+Sbjct: 293 SAHRKSHETLRPGDMKPNRSSNVRGRGSLEQQASHMKAEAARKRYGPQQEVDEFDLREDL 352
+
+Query: 165 APWRKPG 171
+             WR+PG
+Sbjct: 353 CSWRRPG 359
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 2,275,949
+Number of extensions: 92546
+Number of successful extensions: 353
+Number of sequences better than 10.0: 29
+Number of HSP's gapped: 351
+Number of HSP's successfully gapped: 30
+Length of query: 332
+Length of database: 5,457,232
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 4,348,126
+Effective search space: 1034853988
+Effective search space used: 1034853988
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

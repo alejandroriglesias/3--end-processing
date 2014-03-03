@@ -1,0 +1,206 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX73888 pep:novel supercontig:GCA_000150505.2:supercont6.1:1084...   253   1e-73
+EPX70729 pep:novel supercontig:GCA_000150505.2:supercont6.3:7258...    30   1.1  
+EPX70485 pep:novel supercontig:GCA_000150505.2:supercont6.3:2012...    29   1.9  
+EPX73603 pep:novel supercontig:GCA_000150505.2:supercont6.1:4513...    29   2.3  
+EPX70658 pep:novel supercontig:GCA_000150505.2:supercont6.3:5768...    28   4.9  
+EPX73548 pep:novel supercontig:GCA_000150505.2:supercont6.1:3202...    27   7.1  
+EPX70902 pep:novel supercontig:GCA_000150505.2:supercont6.3:1104...    27   7.5  
+
+>EPX73888 pep:novel supercontig:GCA_000150505.2:supercont6.1:1084361:1086908:
+           1 gene:SOCG_03107 transcript:EPX73888 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit Pta1"
+          Length = 732
+
+ Score =  253 bits (647), Expect = 1e-73,   Method: Compositional matrix adjust.
+ Identities = 188/730 (25%), Positives = 331/730 (45%), Gaps = 56/730 (7%)
+
+Query: 11  EQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQSRD 70
+           E I +LN AR  V  D  ++  IV+ IL +  + S    ++W + FL   F++  +    
+Sbjct: 8   EHIARLNQARDIVKEDESLFPEIVKNILSV-ANYSDLRFKKWMSSFLWFGFSSKRVDFDQ 66
+
+Query: 71  KETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAI 130
+           K  +++  L T+   +   +E+  V +  I    ++YPLV       + DT +WE ++ I
+Sbjct: 67  KVELAVACLGTISTLLSFDNEE--VKKDIILCCCTLYPLVFFHCCTCADDTQSWETVSKI 124
+
+Query: 131 KSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLDPR 190
+           K  I  L+      +KI CIKF   ++L Q+  I         D+SLS +P  HP L+P 
+Sbjct: 125 KQDILSLFDSSTNHLKISCIKFISTIILTQSSGIRDPRLVTKSDVSLSKVPTNHPFLNPT 184
+
+Query: 191 NLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNF---NP 247
+            L+ EA  +  ++  V        L + + LN + I+ + R      I+  +L+F   NP
+Sbjct: 185 VLKQEAFDIFHKLFTVFSSKVLSPLFITSVLNVLPIIAKRRKEHGPLIVENLLDFHLPNP 244
+
+Query: 248 LKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRR-DPQNPMNPRIQQHIE-RLARSRADIF 305
+            K  N       ++  + +EK  ++ L+HL +     + +  +I  ++  ++ +++ D  
+Sbjct: 245 -KETNGETAALDKLARRCIEKNLKVTLLHLTKNAGISSSLVEKIHAYLSGQIYQNKTD-- 301
+
+Query: 306 DDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTN---- 361
+             +  +KR      A+       +R  S AV   +                  L N    
+Sbjct: 302 --DQAKKR-----HASTPNFISSKRAKSSAVQSLMDRIQPREVEEDSIALNNPLVNIFAS 354
+
+Query: 362 ---TPGLQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAAQPVLI 418
+              T  L SFDV+ +P E+  +I ++ L ++D     + IN +R+R+++L          
+Sbjct: 355 QAATNPLASFDVTAIPVEVVTEIVLACLRQLDNDYFHQQINMLRERVRSLS--------- 405
+
+Query: 419 NPATAPLGVXXXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLAL---GAYK 475
+            P T  LG+                   Q +N     S + EA + E  + ++     ++
+Sbjct: 406 EPET--LGLDQEADEEEDDDYEPPEVDVQTINA----SVEREAARFEGITPSVVNTDTFE 459
+
+Query: 476 LPPPPVLRPEEASNAGRGIVTNVLGMTKQLEE---SGSKRSKAGINRLAASLYDRESWIT 532
+           LP P  L P          ++ +   + Q E    S S      ++ +  +++D+  W  
+Sbjct: 460 LPTPEALSPMAVLEYFHSSLSRLFDYSSQFERTIVSSSNLQNLTLDNVDNTVWDKHHWSL 519
+
+Query: 533 VITRLATRSSSALEKTTIKEEDGTPQI-LGDKVREALYNYVLEDFRKRIDVAISWLSEEW 591
+           ++ RL TR  +  +     E+ G     L   VR  L+ Y+  ++R   ++ ++WLSEEW
+Sbjct: 520 LLPRLCTRGLNNYQPVNPDEQQGESSFTLSSFVRGQLFTYIASNWRACTNLTLNWLSEEW 579
+
+Query: 592 YNDQL--------QKRMASDAPLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPA 643
+           YND+L        +  +  + P  Y++ ALR++D + PYL  +DKV   FL E+PE+  A
+Sbjct: 580 YNDRLMMENETKEESSVKWEGP-QYERWALRIIDSVLPYLEMKDKVFMIFLSELPELTDA 638
+
+Query: 644 ILKRVEGMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTR 703
+           ++++V+ +C DP  + L   +L YL+  R PAR   LD +Q +W E E+ R  A   L R
+Sbjct: 639 MIEKVKFICLDPDKSKLGFMTLQYLIKFRLPARNQCLDLLQKMWWENEDVRRSAQTLLER 698
+
+Query: 704 WRKAFLEANS 713
+           WR  F+++ S
+Sbjct: 699 WRPDFVKSAS 708
+
+
+>EPX70729 pep:novel supercontig:GCA_000150505.2:supercont6.3:725847:728300:-1
+           gene:SOCG_04228 transcript:EPX70729
+           description:"tryptophan synthase"
+          Length = 697
+
+ Score = 30.0 bits (66), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 30/124 (24%), Positives = 54/124 (43%), Gaps = 26/124 (20%)
+
+Query: 49  LRRWGADFLAESFATPSLQSRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYP 108
+           +R  GAD +  +  T +L  RD       V E LRAWVE+     Y++ SAI      +P
+Sbjct: 443 IRLLGADVIPVTSGTQTL--RD------AVNEALRAWVEDIDTTHYLIGSAI--GPHPFP 492
+
+Query: 109 LVVRWIINNSYDTTTWERITAIKSRI-FQLWSGEIPGVKICCIKFAQRVVLAQTVSINGE 167
+            +V+          T++ +   +++   Q   G++P   + C+        + ++ +   
+Sbjct: 493 TIVK----------TFQSVIGKETKAQMQEKRGKLPDAVVACVGGG-----SNSIGLFSP 537
+
+Query: 168 FKRD 171
+           FK D
+Sbjct: 538 FKED 541
+
+
+>EPX70485 pep:novel supercontig:GCA_000150505.2:supercont6.3:201288:203392:-1
+           gene:SOCG_04721 transcript:EPX70485 description:"meiotic
+           RNA-binding protein 1"
+          Length = 610
+
+ Score = 29.3 bits (64), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 22/96 (22%), Positives = 40/96 (41%), Gaps = 4/96 (4%)
+
+Query: 26  DVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQSRDKETMSLMVLETLRAW 85
+           D+K   +I  G++ ++   S+P   R  +D +  S  TP  Q R  + +         ++
+Sbjct: 42  DIKKTENIDSGVV-LLTPGSSPHTTRGSSDMVLSSDQTPGSQRRHYQGVQTQYTNQTDSY 100
+
+Query: 86  VENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDT 121
+             N   + Y+     QT    +P    +I NN+  T
+Sbjct: 101 YMNTQTEQYINEPTTQTR---FPESNAYISNNNVTT 133
+
+
+>EPX73603 pep:novel supercontig:GCA_000150505.2:supercont6.1:451302:454665:-1
+           gene:SOCG_02822 transcript:EPX73603
+           description:"sulfonate dioxygenase"
+          Length = 416
+
+ Score = 28.9 bits (63), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 17/37 (45%), Positives = 20/37 (54%), Gaps = 3/37 (8%)
+
+Query: 537 LATRSSSALEKTTIKEEDGTPQILGD--KVREALYNY 571
+           L T    A EK  I   DG+  ++ D  KVRE LYNY
+Sbjct: 315 LQTHGCCA-EKIYIDHPDGSTTVIDDLAKVREILYNY 350
+
+
+>EPX70658 pep:novel supercontig:GCA_000150505.2:supercont6.3:576840:579205:-1
+           gene:SOCG_04298 transcript:EPX70658 description:"heat
+           shock protein S"
+          Length = 639
+
+ Score = 28.1 bits (61), Expect = 4.9,   Method: Compositional matrix adjust.
+ Identities = 42/175 (24%), Positives = 69/175 (39%), Gaps = 20/175 (11%)
+
+Query: 21  KHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQSRDKETMSLMV-L 79
+           + VL D KV  S V  I+ + GS   P +++  +DF        S+   +       V  
+Sbjct: 316 EKVLRDAKVDKSSVDEIVLVGGSTRIPRIQKLVSDFFHGKEPCKSINPDEAVAYGAAVQA 375
+
+Query: 80  ETLRAWVENPSEDAYVVRSA-----IQTAASIY-PLVVRWIINNSYDTTTWERITAIKSR 133
+             L       ++D  ++  A     I+TA  +  PL+ R       +TT    I   KS 
+Sbjct: 376 AILTGDTSEKAQDLLLLDVAPLSMGIETAGGVMTPLIKR-------NTT----IPTKKSE 424
+
+Query: 134 IFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLD 188
+           +F  +S   PGV I    F       +  ++ G+F+  G+  +   +PQ     D
+Sbjct: 425 VFSTYSDNQPGVLIQV--FEGERARTKDCNLLGKFELSGIPPAPRGVPQIEVTFD 477
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 2,873,776
+Number of extensions: 111982
+Number of successful extensions: 337
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 334
+Number of HSP's successfully gapped: 10
+Length of query: 730
+Length of database: 2,302,372
+Length adjustment: 95
+Effective length of query: 635
+Effective length of database: 1,828,702
+Effective search space: 1161225770
+Effective search space used: 1161225770
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

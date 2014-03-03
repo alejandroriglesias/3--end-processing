@@ -1,0 +1,220 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YGL044C pep:known chromosome:SacCer_Apr2011:VII:416146:417036:-1...    97   7e-24
+YNL175C pep:known chromosome:SacCer_Apr2011:XIV:307401:308612:-1...    64   7e-12
+YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1 ...    60   3e-11
+YGR250C pep:known chromosome:SacCer_Apr2011:VII:991176:993521:-1...    60   2e-10
+YIR005W pep:known chromosome:SacCer_Apr2011:IX:364889:365335:1 g...    53   3e-09
+YGR159C pep:known chromosome:SacCer_Apr2011:VII:806412:807656:-1...    54   7e-09
+YER165W pep:known chromosome:SacCer_Apr2011:V:510373:512106:1 ge...    54   1e-08
+YNL110C pep:known chromosome:SacCer_Apr2011:XIV:417826:418488:-1...    53   1e-08
+YPL178W pep:known chromosome:SacCer_Apr2011:XVI:212158:212784:1 ...    51   3e-08
+YBL051C pep:known chromosome:SacCer_Apr2011:II:122753:124759:-1 ...    50   2e-07
+YIL061C pep:known chromosome:SacCer_Apr2011:IX:244657:245559:-1 ...    47   2e-06
+YNL016W pep:known chromosome:SacCer_Apr2011:XIV:602907:604268:1 ...    47   2e-06
+YCL011C pep:known chromosome:SacCer_Apr2011:III:102075:103358:-1...    45   7e-06
+YNL004W pep:known chromosome:SacCer_Apr2011:XIV:622915:624621:1 ...    44   1e-05
+YHR015W pep:known chromosome:SacCer_Apr2011:VIII:134554:136533:1...    44   2e-05
+YHR086W pep:known chromosome:SacCer_Apr2011:VIII:278153:279724:1...    44   2e-05
+YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gen...    43   4e-05
+YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1 ...    41   2e-04
+YPR112C pep:known chromosome:SacCer_Apr2011:XVI:749256:751919:-1...    40   3e-04
+YOR361C pep:known chromosome:SacCer_Apr2011:XV:1015361:1017652:-...    40   5e-04
+YFR023W pep:known chromosome:SacCer_Apr2011:VI:199874:201709:1 g...    39   7e-04
+YOL041C pep:known chromosome:SacCer_Apr2011:XV:251267:252646:-1 ...    39   9e-04
+YBR212W pep:known chromosome:SacCer_Apr2011:II:647886:649904:1 g...    38   0.001
+YFR032C pep:known chromosome:SacCer_Apr2011:VI:222090:222959:-1 ...    38   0.001
+YGR156W pep:known chromosome:SacCer_Apr2011:VII:800546:801823:1 ...    36   0.007
+YOR319W pep:known chromosome:SacCer_Apr2011:XV:912822:913463:1 g...    35   0.008
+YNL197C pep:known chromosome:SacCer_Apr2011:XIV:267608:269593:-1...    36   0.008
+YDR429C pep:known chromosome:SacCer_Apr2011:IV:1324477:1325301:-...    33   0.031
+YPL190C pep:known chromosome:SacCer_Apr2011:XVI:185317:187725:-1...    34   0.035
+YDR432W pep:known chromosome:SacCer_Apr2011:IV:1328783:1330027:1...    33   0.041
+YBR119W pep:known chromosome:SacCer_Apr2011:II:479338:480323:1 g...    30   0.46 
+YCL045C pep:known chromosome:SacCer_Apr2011:III:44623:46905:-1 g...    28   1.6  
+YDL224C pep:known chromosome:SacCer_Apr2011:IV:54397:56346:-1 ge...    28   2.6  
+YPL184C pep:known chromosome:SacCer_Apr2011:XVI:195950:197788:-1...    28   2.7  
+YIR009W pep:known chromosome:SacCer_Apr2011:IX:374525:374860:1 g...    26   5.3  
+YHL024W pep:known chromosome:SacCer_Apr2011:VIII:56649:58790:1 g...    27   5.3  
+
+>YGL044C pep:known chromosome:SacCer_Apr2011:VII:416146:417036:-1
+           gene:YGL044C transcript:YGL044C description:"Component
+           of the cleavage and polyadenylation factor I (CF I)\x3b
+           CF 1, composed of the CF 1A complex (Rna14p, Rna15p,
+           Clp1p, Pcf11p) and Hrp1, is involved in cleavage and
+           polyadenylation of mRNA 3' ends\x3b interacts with the
+           A-rich polyadenylation signa /.../omplex with Rna14p and
+           Hrp1p\x3b mutant displays reduced transcription
+           elongation in the G-less-based run-on (GLRO) assay\x3b
+           required for gene looping"
+          Length = 296
+
+ Score = 97.4 bits (241), Expect = 7e-24,   Method: Compositional matrix adjust.
+ Identities = 65/210 (30%), Positives = 97/210 (46%), Gaps = 18/210 (8%)
+
+Query: 3   SKPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSA 62
+           + PPSRVV++G+IPY  +EEQI D+ S  G V+N ++++D +TG+ KG+ F E+ D +S+
+Sbjct: 13  NNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+
+Query: 63  ASAVRNLNDTEIMGRKLRVDFSNEKXXXXXXXXXXXXXXXXXXXXX-------------Y 109
+           ASAVRNLN  ++  R L+  +S+                                    +
+Sbjct: 73  ASAVRNLNGYQLGSRFLKCGYSSNSDISGVSQQQQQQYNNINGNNNNNGNNNNNSNGPDF 132
+
+Query: 110 QQQQEVPSL----PPLPPGKDIPAGVSA-TDAISRTLRTLPPAQLLDILQQMKTMSGADP 164
+           Q       L    P LP G D+   ++     IS  L   P    L  LQ+ +  + A P
+Sbjct: 133 QNSGNANFLSQKFPELPSGIDVNINMTTPAMMISSELAKKPKEVQLKFLQKFQEWTRAHP 192
+
+Query: 165 ARATELLTQAPQLSYAIFQALLLMDLVSPD 194
+             A  LL   PQLS+   + LL   +   D
+Sbjct: 193 EDAVSLLELCPQLSFVTAELLLTNGICKVD 222
+
+
+>YNL175C pep:known chromosome:SacCer_Apr2011:XIV:307401:308612:-1
+           gene:YNL175C transcript:YNL175C description:"Nucleolar
+           protein found in preribosomal complexes\x3b contains an
+           RNA recognition motif (RRM)"
+          Length = 403
+
+ Score = 63.5 bits (153), Expect = 7e-12,   Method: Compositional matrix adjust.
+ Identities = 25/87 (28%), Positives = 55/87 (63%)
+
+Query: 1   MSSKPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDND 60
+           MS  PPSR++FVGN+ + ++++ +   F   G ++  R+    ++GK KGF F ++ + +
+Sbjct: 232 MSKNPPSRILFVGNLSFDVTDDLLRKHFQHCGDIVKIRMATFEDSGKCKGFAFIDFKNEE 291
+
+Query: 61  SAASAVRNLNDTEIMGRKLRVDFSNEK 87
+            + +A+++ +  +I GR LR+++  ++
+Sbjct: 292 GSTNALKDKSCRKIAGRPLRMEYGEDR 318
+
+
+>YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1
+           gene:YIR001C transcript:YIR001C description:"Cytoplasmic
+           RNA-binding protein, contains an RNA recognition motif
+           (RRM)\x3b may have a role in mRNA translation, as
+           suggested by genetic interactions with genes encoding
+           proteins involved in translational initiation"
+          Length = 250
+
+ Score = 60.5 bits (145), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 45/75 (60%), Gaps = 1/75 (1%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+           SR +FVGNI   ++ EQI D F   G++    L+YDR TG PKG+G+ E+        A+
+Sbjct: 63  SRSIFVGNITPDVTPEQIEDHFKDCGQIKRITLLYDRNTGTPKGYGYIEFESPAYREKAL 122
+
+Query: 67  RNLNDTEIMGRKLRV 81
+           + LN  E+ G+K+ V
+Sbjct: 123 Q-LNGGELKGKKIAV 136
+
+
+>YGR250C pep:known chromosome:SacCer_Apr2011:VII:991176:993521:-1
+           gene:YGR250C transcript:YGR250C description:"Putative
+           RNA binding protein\x3b localizes to stress granules
+           induced by glucose deprivation\x3b interacts with Rbg1p
+           in a two-hybrid"
+          Length = 781
+
+ Score = 59.7 bits (143), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 47/78 (60%)
+
+Query: 10  VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+           +FVG I   LS  +++ +FS+ G +L+ +L+YD+  G+P G+GF  YP    A+  ++ L
+Sbjct: 197 IFVGGIAKSLSIGELSFLFSKYGPILSMKLIYDKTKGEPNGYGFISYPLGSQASLCIKEL 256
+
+Query: 70  NDTEIMGRKLRVDFSNEK 87
+           N   + G  L +++  E+
+Sbjct: 257 NGRTVNGSTLFINYHVER 274
+
+
+
+ Score = 26.2 bits (56), Expect = 9.1,   Method: Compositional matrix adjust.
+ Identities = 18/93 (19%), Positives = 44/93 (47%), Gaps = 20/93 (21%)
+
+Query: 1   MSSKPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLV--------YDRET------- 45
+           MS++  S + +V +IP   ++E + D +   G++++ +++        Y +++       
+Sbjct: 534 MSNQQESNL-YVKHIPLSWTDEDLYDFYKSFGEIISVKVITVGGSKNKYRQQSNDSSSDN 592
+
+Query: 46  ----GKPKGFGFAEYPDNDSAASAVRNLNDTEI 74
+               G  +G+GF  +     AA A+ N +  ++
+Sbjct: 593 DLPVGSSRGYGFVSFESPLDAAKAILNTDGYQV 625
+
+
+>YIR005W pep:known chromosome:SacCer_Apr2011:IX:364889:365335:1 gene:YIR005W
+           transcript:YIR005W description:"Component of the U2
+           snRNP, required for the first catalytic step of splicing
+           and for spliceosomal assembly\x3b interacts with Rds3p
+           and is required for Mer1p-activated splicing"
+          Length = 148
+
+ Score = 53.1 bits (126), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 43/75 (57%)
+
+Query: 10  VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+           +++GN+   L+E  I  +FS  G  ++  L  D  TG+ +GF + +Y D  S   AV NL
+Sbjct: 33  IYIGNLNRELTEGDILTVFSEYGVPVDVILSRDENTGESQGFAYLKYEDQRSTILAVDNL 92
+
+Query: 70  NDTEIMGRKLRVDFS 84
+           N  +I GR L++D +
+Sbjct: 93  NGFKIGGRALKIDHT 107
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,155,857
+Number of extensions: 37847
+Number of successful extensions: 167
+Number of sequences better than 10.0: 37
+Number of HSP's gapped: 157
+Number of HSP's successfully gapped: 65
+Length of query: 305
+Length of database: 3,010,216
+Length adjustment: 90
+Effective length of query: 215
+Effective length of database: 2,407,936
+Effective search space: 517706240
+Effective search space used: 517706240
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

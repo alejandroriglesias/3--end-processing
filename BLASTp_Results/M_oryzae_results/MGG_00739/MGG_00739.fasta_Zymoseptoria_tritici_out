@@ -1,0 +1,240 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P100364 pep:known chromosome:MG2:5:2626911:2631252:1 gene:...   852   0.0  
+Mycgr3P101791 pep:known chromosome:MG2:12:1085573:1089472:-1 gen...    32   1.4  
+Mycgr3P87400 pep:known chromosome:MG2:9:377859:381339:1 gene:Myc...    32   1.8  
+Mycgr3P65910 pep:known chromosome:MG2:1:2484776:2485726:1 gene:M...    30   3.6  
+Mycgr3P111796 pep:known chromosome:MG2:20:72494:74944:1 gene:Myc...    30   3.9  
+Mycgr3P32474 pep:known chromosome:MG2:1:379302:381080:-1 gene:My...    30   4.3  
+Mycgr3P47603 pep:known chromosome:MG2:9:1675677:1677387:-1 gene:...    30   5.3  
+Mycgr3P51145 pep:known chromosome:MG2:13:340725:342464:1 gene:My...    29   6.7  
+
+>Mycgr3P100364 pep:known chromosome:MG2:5:2626911:2631252:1 gene:Mycgr3G100364
+            transcript:Mycgr3T100364 description:"Putative
+            uncharacterized protein"
+          Length = 1333
+
+ Score =  852 bits (2200), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 536/1482 (36%), Positives = 784/1482 (52%), Gaps = 179/1482 (12%)
+
+Query: 1    MQCYTELTPPSAVTHSLTLPFTSPKSNNLVVAKSSLLQIFATRLVPAELDGTSQSAKATH 60
+            M+CYTEL  P+AVTHSL LPF +  +NNL+V K+SLLQ+FA                   
+Sbjct: 1    MECYTELIAPTAVTHSLALPFLTTDANNLIVVKTSLLQVFA------------------- 41
+
+Query: 61   NYDTKLNDDEGLEASFLGGDAAIIRSDRNHTKLVLVAEFPLSGTITGLARVKANATKTXX 120
+                 L+D +                    +KLVL+  +PL+GT+T +ARVK   T+T  
+Sbjct: 42   -----LHDAQ--------------------SKLVLIGGYPLAGTVTSIARVKTLDTRTGG 76
+
+Query: 121  XXXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSDY 180
+                       + +L+AFK+AKLSL+EWDP+   + T+SIHYYE   + + P+   L +Y
+Sbjct: 77   -----------EAILLAFKNAKLSLIEWDPENHRISTVSIHYYEGENVIAQPYGPSLGEY 125
+
+Query: 181  VNFLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAATNG 240
+             + L  DPGSRCAALKFGAR LAI+PF+Q   ++  ++  E  +       K   A  NG
+Sbjct: 126  ESILTVDPGSRCAALKFGARQLAILPFRQFGDELLGEEEGEFENANDGTTSKKHDAMQNG 185
+
+Query: 241  TTDNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGILSSNITPSTYL--AR 298
+              ++  E TPY  SFVL L  LDPAL H + LAFL+EYREPTFGI+SS I PS  L   R
+Sbjct: 186  --EDEAEQTPYKQSFVLPLTTLDPALSHTIDLAFLHEYREPTFGIISSAIEPSYALFDER 243
+
+Query: 299  KDHLTYTVFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIHIDQSGK 358
+            KD L+YTVFTLDL+QKAST +++V  LP  L +V+ LP+P+GGALL+G+NE IH+DQSGK
+Sbjct: 244  KDILSYTVFTLDLEQKASTNLITVPNLPSTLWKVVPLPSPIGGALLIGTNEFIHVDQSGK 303
+
+Query: 359  ANGVAVNPMTKSCTSFSLADQSDLGLRLEGCMINVLSAEDGQFIIVLNDGRLATLVFHID 418
+            AN  AVN      + F +ADQS L L+LEGC + +L+A  G+ ++VL DG LAT+ F + 
+Sbjct: 304  ANATAVNEFAMKESDFGMADQSGLNLKLEGCSVEILNASTGEMLVVLRDGSLATVDFKML 363
+
+Query: 419  GRTVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVFGWNRKHNQVSKR 478
+            GR++S + + +++ E GG++  T+ SC++RL +N LF GS+ G S + G     + +S++
+Sbjct: 364  GRSISAVIVTIISSENGGKVFSTAPSCVSRLDQNNLFIGSEDGSSSLLGCTNSQSGLSRK 423
+
+Query: 479  KPKIQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDLIFRVHDLMV 538
+            +   Q                                               F + D + 
+Sbjct: 424  RSHAQMLGQNSGDEEEDVLDEDDDDLYDAEPDSKKRATSVAEQSAGDSSTH-FVIKDDLH 482
+
+Query: 539  SIAPIRDVTFGKPPPPTDAERNTKDPAAVQSELQLVAVVGRDKASSLAIINREMTPVSIG 598
+            SI PI +   G+              AA + +LQL+A  G+ ++S LA INR++ P  I 
+Sbjct: 483  SIGPINNTCVGR------------SNAAGEDKLQLLAGTGKSRSSRLACINRDIIPQHIR 530
+
+Query: 599  RFEFPEARGLWTLSTQKPLPKPLQASNKNPKTAAATESILSAQYDQYMIVAKEDDDGFET 658
+            + +F  AR  W +           A  KN                     A +D+ G   
+Sbjct: 531  KNQFEGARHAWAVC----------AREKN---------------------ANDDEAG--- 556
+
+Query: 659  SDVYALTAAGFETLSGTEFEPAAGFTIEAGTMGDHTKIIQVLKSEVRCYDGDLGLTQIIP 718
+                     G+   S TEFE   G T+E  T+G  T ++QV + E+R YD  L L+QIIP
+Sbjct: 557  -------EGGYTERSATEFE-HDGETLEVLTLGHGTAVVQVRRMEIRTYDSHLALSQIIP 608
+
+Query: 719  MLDEETGHEPRATSASIADPYLLIIRDDSSAFIAHVNXXXXXXXXXXXXXXXXXTKWSTG 778
+            M+D+ET  E      S  DPYLL+IRDDSS  I  +                   +W +G
+Sbjct: 609  MIDDETDAEFSIVHTSACDPYLLVIRDDSS--IQVLQHERKDIEPLDITPDAADKQWMSG 666
+
+Query: 779  CLYADSKGAFAATQQTAKSPKSTPTIMMFLLSAAGALYIYALPDISRPVYVAEGLCYVPP 838
+            C+Y+   G F           +     +FLLSA G+L++  LPD+ + VY+   L ++PP
+Sbjct: 667  CVYS---GEF-----------TDGNAALFLLSAEGSLHVLTLPDL-QLVYMTPALPHLPP 711
+
+Query: 839  YLSADYSARKGMARETISEILVTDLGDTVFKSPHVILRHSNHDLTIYEPYRIAEDSQS-- 896
+             LSAD S R+   +ET++E+LV DLG+     P++ +R +  D+ +YEP+  +  + +  
+Sbjct: 712  VLSADVSHRRMGVKETLTELLVADLGNDGVLQPYLTVRTAMDDVVLYEPFHSSPSASTGP 771
+
+Query: 897  LTKILRLRKLPNPAVAK---APEATNSEDPPLMSRNMPLRACANIAGYSAVFMPGHSPSF 953
+                LR RK+P P + K   +P    +  PP + R         I GY+ V +PG     
+Sbjct: 772  WHSNLRFRKVPVPYIPKYNDSPLEDPNARPPALRR-------MQIGGYNTVSIPGAPSCL 824
+
+Query: 954  LIKSAKATPKVIGL----RGSGVRAMSSFHTEGCERGFIYADSAGVARVAQIPKDTSFSE 1009
+            L+K A   PK++ +    R +    ++  +  GCE GF   D  G     Q+P D  FS 
+Sbjct: 825  LLKEASGPPKILEVNEPKRSNATTILTPLNRIGCENGFATVDVNGALHECQLPPDAWFST 884
+
+Query: 1010 LGLSVKKVPLGIDADGI---AYHSPTGVYVLTCSYWEPFELPKDDDYHCEWAKENISFKP 1066
+             G S++++ LG DA  +   AYH   G++V        F   ++D  H E  +++IS +P
+Sbjct: 885  -GWSIRQIDLGDDAREVRHLAYHEARGIFVAATCTTVDFYFAEEDGRHPE--QDDISIRP 941
+
+Query: 1067 MVERSVLKVINPINWSDIWTEEFEQHEVAMCIRSLNLEVSQSTNERRQLITVGTAMCKGE 1126
+             V +  + +I+      I T +    E    ++ +  EVS+ ++E + ++ V T   +GE
+Sbjct: 942  QVPQYSVHLISAKTHKIIHTHKLPYLETVTALKVMPAEVSELSHEVKPVVVVSTGAQRGE 1001
+
+Query: 1127 DLPVRGGIYVFDLASVVPQKGRPETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQ 1186
+            D+P +G + VFD+  VVP     E+   L  +A+EE  RGA+T+L+     G++  AQG 
+Sbjct: 1002 DMPAKGALIVFDVIDVVPDPDVEESGLHLHVLAREE-SRGAITALASF-PGGMIGTAQGL 1059
+
+Query: 1187 KTLVRGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLCVMADAFKGVWFCGYTEGPYKMML 1246
+            K ++RG++EDG   PVAF+D  CY + +K L   GL +  DA+KG+WF G+T+ PYK+ L
+Sbjct: 1060 KLMIRGMREDGSCLPVAFLDAQCYTSLLKTLDSRGLWLAGDAWKGLWFGGFTQEPYKLTL 1119
+
+Query: 1247 FGKS-STNLECMNVDLLPDGKDLLIVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTTFST 1305
+             GKS  T +E +  D LP    L ++  D+D +LHVLQ+DPE+PKSL G  LL+R+TF  
+Sbjct: 1120 LGKSPRTEMEVIEADFLPFDGALFLLVLDADADLHVLQYDPENPKSLNGQRLLHRSTFHI 1179
+
+Query: 1306 GAHHPQKSLLLPTT------DPRPSTNQPSSDAERQ-------HILMASPTGVLAAVQPL 1352
+            G H P  S+LLP+T        R   N  S D +++       H+L  + +G +  + PL
+Sbjct: 1180 G-HFPTGSMLLPSTLAPFTEQARDLPNGDSEDTKQEEVNSPLFHVLTTTSSGSIGLITPL 1238
+
+Query: 1353 SQSTYTRLSALASNLMASVPHHAALNPKAYRLPPTSTRNQVAAVDISVG--RAVVDGSLL 1410
+             +STY RLSAL  +L   + H A LNP+ YR     T  ++ A D  +G  + VVDGSL+
+Sbjct: 1239 DESTYRRLSALQGHLTNILEHAAGLNPRMYR-----TDTEMKATDSEMGGAKGVVDGSLI 1293
+
+Query: 1411 ARWAELASGRRAEVAGRAGFSGAAEVRSELEAVLGWSIMSYF 1452
+             R +EL + RRA+V  R G     ++RS+LE V G   + Y 
+Sbjct: 1294 RRISELGAARRADVLSRVG-GDVWQLRSDLE-VCGGGGLGYL 1333
+
+
+>Mycgr3P101791 pep:known chromosome:MG2:12:1085573:1089472:-1 gene:Mycgr3G101791
+            transcript:Mycgr3T101791 description:"Putative
+            uncharacterized protein"
+          Length = 1261
+
+ Score = 32.0 bits (71), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 21/83 (25%), Positives = 38/83 (45%), Gaps = 6/83 (7%)
+
+Query: 1162 EIPRGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMNCYVTCVK---ELA 1218
+            E+ RG+V +  +    G++ V  G+   +  L+     PP+AF ++    + +       
+Sbjct: 345  EVSRGSVNTPDD---HGVVAVIDGKTLKITPLRTANVPPPMAFDEVELKHSAIDVAVSRD 401
+
+Query: 1219 GTGLCVMADAFKGVWFCGYTEGP 1241
+            GT + V+ D+   VW C Y   P
+Sbjct: 402  GTQIAVLHDSCISVWKCNYGSKP 424
+
+
+>Mycgr3P87400 pep:known chromosome:MG2:9:377859:381339:1 gene:Mycgr3G87400
+          transcript:Mycgr3T87400 description:"Putative
+          uncharacterized protein"
+          Length = 1143
+
+ Score = 31.6 bits (70), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 24/32 (75%)
+
+Query: 11 SAVTHSLTLPFTSPKSNNLVVAKSSLLQIFAT 42
+          S+V H++ L F  P + +L+VAK++ L+I+++
+Sbjct: 11 SSVRHAIKLSFLGPDTQDLIVAKANRLEIWSS 42
+
+
+>Mycgr3P65910 pep:known chromosome:MG2:1:2484776:2485726:1 gene:Mycgr3G65910
+           transcript:Mycgr3T65910 description:"Putative
+           uncharacterized protein"
+          Length = 288
+
+ Score = 30.0 bits (66), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 31/60 (51%), Gaps = 1/60 (1%)
+
+Query: 341 GALLVGSNELIHIDQSGKANGVAVNPMTKSCTSFSLADQSDLGLRLEGCMINVLSAEDGQ 400
+           G + +GS  +  I + G   GV V   TK  TS + A   D  L+L+GC++N+     G+
+Sbjct: 101 GFIQLGSTGIWQIPR-GHDEGVWVTRKTKYDTSNARAVAEDELLKLDGCVLNLAGLWGGE 159
+
+
+>Mycgr3P111796 pep:known chromosome:MG2:20:72494:74944:1 gene:Mycgr3G111796
+            transcript:Mycgr3T111796 description:"Putative
+            uncharacterized protein"
+          Length = 816
+
+ Score = 30.4 bits (67), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 35/120 (29%), Positives = 47/120 (39%), Gaps = 28/120 (23%)
+
+Query: 1267 DLLIVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQKSL----LLPTTDP- 1321
+            D  I+  ++D + ++L FD  H  SLQ       T   +  H   +      L P  DP 
+Sbjct: 382  DAEILVDNTDTDTNILSFDQRHQHSLQT------TAKPSSVHQTTRPFDALDLRPPEDPS 435
+
+Query: 1322 --------RPSTNQPSSDAERQHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPH 1373
+                    RP +  PS D E +HI      G  A      +S   RL  LA N+M S  H
+Sbjct: 436  SDMLHKRLRPRS--PSGDGENKHI------GTTAKFWNQHRSCSQRLR-LARNVMTSFCH 486
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 13,414,978
+Number of extensions: 585007
+Number of successful extensions: 1717
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 1703
+Number of HSP's successfully gapped: 22
+Length of query: 1452
+Length of database: 4,742,065
+Length adjustment: 105
+Effective length of query: 1347
+Effective length of database: 3,594,310
+Effective search space: 4841535570
+Effective search space used: 4841535570
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

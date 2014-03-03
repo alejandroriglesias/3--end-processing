@@ -1,0 +1,94 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P74666 pep:known chromosome:MG2:8:1008508:1009386:-1 gene:...   380   e-133
+
+>Mycgr3P74666 pep:known chromosome:MG2:8:1008508:1009386:-1 gene:Mycgr3G74666
+           transcript:Mycgr3T74666 description:"Putative
+           uncharacterized protein"
+          Length = 274
+
+ Score =  380 bits (977), Expect = e-133,   Method: Compositional matrix adjust.
+ Identities = 191/267 (71%), Positives = 211/267 (79%), Gaps = 9/267 (3%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           M+T+     +S  PP   L FN  Q  TIRLYPLSNYTFG KETQPEEDPSV  RL+RLE
+Sbjct: 1   MATVPPKHQESKFPPPEILPFNERQQPTIRLYPLSNYTFGTKETQPEEDPSVKDRLRRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY+ HGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYL  + DE+EGFK RL+ER
+Sbjct: 61  EHYDKHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLPHDVDEIEGFKTRLNER 120
+
+Query: 121 LAPVGRLGEGEEA-GDWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAP G L   E A  DW + D LAQW+RPNFETFMYPF+P HVTRPKECKKLYFIQLP +
+Sbjct: 121 LAPTGSLSTVEAADSDWDVADTLAQWYRPNFETFMYPFLPPHVTRPKECKKLYFIQLPRA 180
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ RYGPQLSAIPH LS+Y +EFVDE+G VV+ TPG   
+Sbjct: 181 KVLSVPKNMKLLAVPLFELYDNTQRYGPQLSAIPHYLSRYRWEFVDEEGEVVSYTPG--- 237
+
+Query: 240 GEGDHVPKTKVLAGGDDVDMKQENGAH 266
+           G  D   KTK+LAGG      +ENG +
+Sbjct: 238 GPIDERVKTKILAGG-----SEENGVN 259
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 2,979,842
+Number of extensions: 139850
+Number of successful extensions: 308
+Number of sequences better than 10.0: 1
+Number of HSP's gapped: 306
+Number of HSP's successfully gapped: 1
+Length of query: 266
+Length of database: 4,742,065
+Length adjustment: 91
+Effective length of query: 175
+Effective length of database: 3,747,344
+Effective search space: 655785200
+Effective search space used: 655785200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

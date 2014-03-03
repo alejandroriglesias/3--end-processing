@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Tuber_melanosporum.ASM15164v1.21.pep.all.fa 
+           7496 sequences; 3,280,570 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAZ80607 pep:novel supercontig:ASM15164v1:FN430032:240083:242340...   165   3e-46
+CAZ84774 pep:novel supercontig:ASM15164v1:FN430333:308703:311052...    28   2.2  
+
+>CAZ80607 pep:novel supercontig:ASM15164v1:FN430032:240083:242340:-1
+           gene:GSTUM_00002679001 transcript:CAZ80607
+           description:""
+          Length = 433
+
+ Score =  165 bits (418), Expect = 3e-46,   Method: Compositional matrix adjust.
+ Identities = 86/194 (44%), Positives = 116/194 (59%), Gaps = 2/194 (1%)
+
+Query: 4   EDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXXXXX 63
+           +DF+IDIYGD N ++      K D+     D   G    DN+Q     +           
+Sbjct: 3   DDFDIDIYGDLNPDEPATTFKKEDEDLFL-DQNQGDTNGDNKQNTAAGEDTNMGSAAGDG 61
+
+Query: 64  XXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREAGCE 123
+                +     + +   K+K   DDR  DP AT+A+ +++L WW TDDDIRGW+ E GCE
+Sbjct: 62  DNSGNSAVVKEEAAVQPKQKRKLDDRPFDPAATTALYVADLHWWTTDDDIRGWVNECGCE 121
+
+Query: 124 EELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSP 183
+           +ELKDITFSEHKVNGKSKG  ++E TS QAATAVK+++E  G   A   G++  V Y++P
+Sbjct: 122 DELKDITFSEHKVNGKSKGVAFVEFTSPQAATAVKNKIEVGGSQPAYM-GKRHTVSYTNP 180
+
+Query: 184 TMNPFRTLPKDQPR 197
+           ++NPFRTLPKD P+
+Sbjct: 181 SINPFRTLPKDAPQ 194
+
+
+
+ Score = 28.1 bits (61), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 10/13 (76%), Positives = 11/13 (84%)
+
+Query: 411 EWQNPHGAKRPRP 423
+           +W NPH AKRPRP
+Sbjct: 419 QWDNPHPAKRPRP 431
+
+
+>CAZ84774 pep:novel supercontig:ASM15164v1:FN430333:308703:311052:1
+           gene:GSTUM_00009180001 transcript:CAZ84774
+           description:""
+          Length = 559
+
+ Score = 28.5 bits (62), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 22/86 (25%), Positives = 39/86 (45%), Gaps = 10/86 (11%)
+
+Query: 99  ILISELQWWITDDDIRGWIR-EAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAV 157
+           + +  L W + +    GW+R E     E+  +     + +G+SKG  Y+E T+ +AA   
+Sbjct: 304 LFVGSLSWNVDE----GWLRNEFEQFGEIAAVRVVTDRESGRSKGFGYVEYTTNEAAKKA 359
+
+Query: 158 KHRLESSGEDGASQAGRKQQVIYSSP 183
+              ++    D     GR   V +S+P
+Sbjct: 360 LEEMKGKDID-----GRTINVDFSAP 380
+
+
+  Database: Tuber_melanosporum.ASM15164v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,280,570
+  Number of sequences in database:  7496
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7496
+Number of Hits to DB: 1,781,060
+Number of extensions: 71792
+Number of successful extensions: 241
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 234
+Number of HSP's successfully gapped: 13
+Length of query: 424
+Length of database: 3,280,570
+Length adjustment: 93
+Effective length of query: 331
+Effective length of database: 2,583,442
+Effective search space: 855119302
+Effective search space used: 855119302
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

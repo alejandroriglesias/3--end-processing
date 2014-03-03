@@ -1,0 +1,104 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK22553 pep:novel supercontig:ASM17099v1:6:1453667:1456343:1 ge...   133   1e-35
+EHK24476 pep:novel supercontig:ASM17099v1:4:865873:868515:-1 gen...    32   0.43 
+
+>EHK22553 pep:novel supercontig:ASM17099v1:6:1453667:1456343:1
+           gene:TRIVIDRAFT_216056 transcript:EHK22553
+           description:"hypothetical protein"
+          Length = 283
+
+ Score =  133 bits (334), Expect = 1e-35,   Method: Compositional matrix adjust.
+ Identities = 56/97 (57%), Positives = 75/97 (77%)
+
+Query: 100 LISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKH 159
+           +ISEL WW TDDDIRGW+R+AGCE+E+K++TFSEHKVNGKSKGQ Y+E  ++QA+TA K 
+Sbjct: 1   MISELSWWTTDDDIRGWLRKAGCEKEIKELTFSEHKVNGKSKGQAYVEFHTRQASTAAKR 60
+
+Query: 160 RLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQP 196
+           ++++   D      +K  + Y +P +NPFRTLPKD P
+Sbjct: 61  QIDTVAMDSVQPGQKKMTISYWNPGVNPFRTLPKDAP 97
+
+
+
+ Score = 31.6 bits (70), Expect = 0.35,   Method: Compositional matrix adjust.
+ Identities = 12/13 (92%), Positives = 12/13 (92%)
+
+Query: 412 WQNPHGAKRPRPE 424
+           W NPHGAKRPRPE
+Sbjct: 271 WGNPHGAKRPRPE 283
+
+
+>EHK24476 pep:novel supercontig:ASM17099v1:4:865873:868515:-1
+           gene:TRIVIDRAFT_11899 transcript:EHK24476
+           description:"hypothetical protein"
+          Length = 648
+
+ Score = 32.0 bits (71), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 30/51 (58%), Gaps = 2/51 (3%)
+
+Query: 98  AILISELQWWITDDDI--RGWIREAGCEEELKDITFSEHKVNGKSKGQVYI 146
+           A++ +EL+  I+D  I    WI +A   E+L+ ++ S+ K  GK + QV +
+Sbjct: 339 AMIDAELRMTISDQRILSESWINKAQLAEQLQQLSLSQDKKLGKLEAQVNL 389
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 3,087,143
+Number of extensions: 121230
+Number of successful extensions: 397
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 392
+Number of HSP's successfully gapped: 13
+Length of query: 424
+Length of database: 5,836,678
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,633,296
+Effective search space: 1515087792
+Effective search space used: 1515087792
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

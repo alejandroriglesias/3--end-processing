@@ -1,0 +1,205 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY49387 pep:novel supercontig:GCA_000004155.2:supercont4.9:4353...   285   5e-79
+EPY49714 pep:novel supercontig:GCA_000004155.2:supercont4.8:6296...    30   2.6  
+EPY53386 pep:novel supercontig:GCA_000004155.2:supercont4.1:7759...    26   5.8  
+
+>EPY49387 pep:novel supercontig:GCA_000004155.2:supercont4.9:435370:439864:-1
+            gene:SPOG_04263 transcript:EPY49387 description:"cleavage
+            factor one Cft1"
+          Length = 1426
+
+ Score =  285 bits (730), Expect = 5e-79,   Method: Compositional matrix adjust.
+ Identities = 182/640 (28%), Positives = 315/640 (49%), Gaps = 32/640 (5%)
+
+Query: 805  MMFLLSAAGALYIYALPDISRPVYVAEGLCYVPPYL----SADYSARKGMARETISEILV 860
+            ++F L+A G L ++ L D S  + +   +  +PP L     ++ +     + + + E+LV
+Sbjct: 784  ILFALTAEGVLKVFNLIDFS--ILMECDVFDLPPTLCNGLKSETTYFNSESSQELVELLV 841
+
+Query: 861  TDLGDTVFKSPHVILRHSNHDLTIYEPYRIAEDSQSLTKILRLRKLPNPAVAKAPE---- 916
+             DLGD  FK PH+ LR   +++T+Y+ + +  D      +L   K+P   + +  +    
+Sbjct: 842  ADLGDD-FKEPHLFLRSRMNEITVYKAF-VFYDETLQRNLLSFAKVPQEGMTREYQVGGA 899
+
+Query: 917  ------ATNSEDPPLMSRNMPLRACANIAGYSAVFMPGHSPSFLIKSAKATPKVIGLRG- 969
+                  +T+ E       +  + A   +   SAVF+ G  P +++ +  +  K   +   
+Sbjct: 900  LPRDAGSTSYEKSTSSIDHSKMVAIERVGSRSAVFVTGSKPFYILSTKHSNAKFYPVTSE 959
+
+Query: 970  SGVRAMSSFHTEGCERGFIYADSAGVARVAQIPKDTSFSELGLSVKKVPLGIDADGIAYH 1029
+            S + +++ F++E    G+IY D     R+ +   D ++     + KK+ L    +GIAYH
+Sbjct: 960  SSILSIAPFNSEHTPHGYIYVDENSFIRICKFQDDFNYDS-RWAYKKIQLDKQINGIAYH 1018
+
+Query: 1030 SPTGVYVLTCSYWEPFELPKDDDYHCEWAKENISFKPMVERSVLKVINPINWSDIWTEEF 1089
+                +Y +       F +  +D        ++  + P      L +I+P+ W+ I +  F
+Sbjct: 1019 PTKMIYAVGSCVPSEFTVTDEDGNELYLLNDDKDYLPYANTGSLDLISPLTWTVIDSYGF 1078
+
+Query: 1090 EQHEVAMCIRSLNLEVSQSTNERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVPQKGRP 1149
+              +E+ + +  +NLEVS++T  R+  I VGT++ KGED+ VRG  Y+F++  VVPQ G+P
+Sbjct: 1079 LPYEIPLSVSVVNLEVSETTKLRKPYIAVGTSITKGEDVAVRGATYLFEVIDVVPQPGQP 1138
+
+Query: 1150 ETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMNC 1209
+            ET  KLK V +EEI +G V  + E+   G ++  QGQK ++R L+++  L  VAF+D+  
+Sbjct: 1139 ETRHKLKLVTREEI-KGTVAVVCEV--DGYLLSGQGQKIIIRALEDEDHLVGVAFIDLGS 1195
+
+Query: 1210 YVTCVKELAGTGLCVMADAFKGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLPDGKDLL 1269
+            Y    K L    L +  D  + V F G++E PY+M LF K          D L  G++L 
+Sbjct: 1196 YTVTAKCLR--NLLLFGDIRQSVSFVGFSEEPYRMTLFAKGQDAFSVTAADFLVQGENLY 1253
+
+Query: 1270 IVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQPS 1329
+             V AD+ GNL +L +DPE+P+S  G  L+ R  F  G H      ++P        +   
+Sbjct: 1254 FVVADTKGNLRLLAYDPENPESHSGERLVTRGDFHIG-HIITAMKIVPKEKKSRQDDYEY 1312
+
+Query: 1330 SDAERQHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPHHAALNPKAYRLPPTST 1389
+                    +M +  G L  + P+S+  Y RL+ + + L   V     LNP+++RL  T++
+Sbjct: 1313 DTGNDFSCVMVNADGGLQMISPVSERVYRRLNIIQNYLANRVDSVGGLNPRSHRLISTAS 1372
+
+Query: 1390 RNQVAAVDISVGRAVVDGSLLARWAELASGRRAEVAGRAG 1429
+                AA        ++DG+L+ R+  ++   R E+A + G
+Sbjct: 1373 NLSNAA------HRILDGTLIERFTYMSVAHRHEMAHKCG 1406
+
+
+
+ Score =  259 bits (663), Expect = 6e-71,   Method: Compositional matrix adjust.
+ Identities = 212/750 (28%), Positives = 331/750 (44%), Gaps = 91/750 (12%)
+
+Query: 4   YTELTPPSAVTHSLTLPFTSPKSNNLVVAKSSLLQIFATRLVPAELDGTSQSAKATHNYD 63
+           +  LT  +AV +++    +SP SNNL+V K   L +F    V  +       A   ++Y 
+Sbjct: 5   FQSLTDSTAVKNAVQGKLSSPSSNNLIVGKVDSLYVFEIEKVQKD----ESEASTQNDYT 60
+
+Query: 64  TKLNDDEGLEASFLGGDAAIIRSDRNHTKLVL--VAEFPLSGTITGLARVKANATKTXXX 121
+             L DD     +F+  +  +IR+   HT  VL  V++F + GT+T L+ ++    K    
+Sbjct: 61  NNLIDDS---QAFMETNMHLIRT-HEHTSYVLRLVSQFQVFGTVTALSILEGKGNK---- 112
+
+Query: 122 XXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSDYV 181
+                     D L++    AK+S++EWD   +SL T S+HYYE       P     +   
+Sbjct: 113 --------GCDLLVMLTDYAKISILEWDMKTQSLVTTSLHYYEV----VKPTMPCTNHSP 160
+
+Query: 182 NFLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAATNGT 241
+             L+ DP S C  L+F    +AIIPF + D D+ M++    +DGP+              
+Sbjct: 161 TQLIVDPDSNCCLLRFHTDMMAIIPFPKLD-DLEMEE--ATIDGPKSILNSI-------- 209
+
+Query: 242 TDNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGILSS--NITPSTYLARK 299
+                  TPY PSFVL    L+  +   + + FL+ YREPT  IL S    T  T    K
+Sbjct: 210 -------TPYKPSFVLDSSQLESTIARILDVKFLHGYREPTLAILYSPQQTTTVTLPIVK 262
+
+Query: 300 DHLTYTVFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIHIDQSGKA 359
+           D++ +++ TLDL Q AS  I ++  LP D+ +++ +P P+GG+LL+G NELI++D +G+ 
+Sbjct: 263 DNVCFSLVTLDLDQGASAVITTIQNLPYDIFQLVPIPMPLGGSLLIGGNELIYVDSAGRT 322
+
+Query: 360 NGVAVNPMTKSCTSFSLADQSDLGLRLEGCMINVL---SAEDGQFIIVLNDGRLATLVFH 416
+            GV VN     CT+F L DQS+  + LEG M   L     E+   +++L  G+   + F 
+Sbjct: 323 VGVGVNTFYPKCTNFPLQDQSNFNMELEGTMAVPLVNSKVENPFVLLILTSGQFFYVDFI 382
+
+Query: 417 IDGRTVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVFGWNRKHNQVS 476
+           +DG+TV GL ++ +  +     L+  V+    +G N +F GS   DS +  WNR H+ +S
+Sbjct: 383 LDGKTVKGLSLQNLNLDLNDDFLRAGVTTALPIGENMIFLGSQVTDSYLVHWNR-HSNLS 441
+
+Query: 477 KRKPKIQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDLIFRVHDL 536
+           K     +                                             L   + D+
+Sbjct: 442 KSTEDNENEDFYSTNDAEMEEMLDIYDTNDRNDTEGKVLFENGP--------LRISIFDV 493
+
+Query: 537 MVSIAPIRDVTFGKPPPPTDAERNTKDPAAVQSELQLVAVVGRDKASSLAIINREMTPVS 596
+           +++I PI D   GK        ++   P      L+LV   G   A  L +  R + P+ 
+Sbjct: 494 LLNIGPITDFAIGKAGSLAYYPQDNHGP------LELVGTSGAGGAGGLVVFRRSIFPLV 547
+
+Query: 597 IGRFEFPEARGLWTLS---TQKPLPKPLQASNKNPKTAAATESILSAQYDQYMIVAKEDD 653
+            G F F     LW++S    Q+   + +Q S  N +  A    +LS   + +M  A E  
+Sbjct: 548 AGEFVFQGCEALWSVSLTGRQRRSRRRVQTSYMNMEPDAYL--VLSVNDESFMFSAGETF 605
+
+Query: 654 DGFETSDVYALTAAGFETLSGTEFEPAAGFTIEAGTMGDHTKIIQVLKSEVRCYDGDLGL 713
+           D  E SD        F   S          TI  G++    +++Q+  + +  YD  L  
+Sbjct: 606 DEVENSD--------FNKHSK---------TINVGSLMSGMRMVQICPTSIHVYDSTLKR 648
+
+Query: 714 TQIIPMLDEETGHEPRATSASIADPYLLII 743
+           TQ+        G      S SI DP ++I+
+Sbjct: 649 TQLFNF-----GKNQVVVSTSICDPCIVIV 673
+
+
+>EPY49714 pep:novel supercontig:GCA_000004155.2:supercont4.8:629631:632079:-1
+           gene:SPOG_01594 transcript:EPY49714
+           description:"structure-specific endonuclease catalytic
+           subunit"
+          Length = 263
+
+ Score = 29.6 bits (65), Expect = 2.6,   Method: Composition-based stats.
+ Identities = 12/37 (32%), Positives = 22/37 (59%)
+
+Query: 296 LARKDHLTYTVFTLDLQQKASTTILSVGGLPKDLTRV 332
+           +ARK+H  Y  + +  ++KAS+  L +G  P  + R+
+Sbjct: 1   MARKEHPFYCCYLIQSKKKASSRSLYIGSTPNPIRRL 37
+
+
+>EPY53386 pep:novel supercontig:GCA_000004155.2:supercont4.1:775952:776223:-1
+            gene:SPOG_03912 transcript:EPY53386
+            description:"hypothetical protein"
+          Length = 56
+
+ Score = 26.2 bits (56), Expect = 5.8,   Method: Composition-based stats.
+ Identities = 13/45 (28%), Positives = 25/45 (55%)
+
+Query: 1408 SLLARWAELASGRRAEVAGRAGFSGAAEVRSELEAVLGWSIMSYF 1452
+            S+L    EL   R A+V GR  +S  A   ++++ +LG+ ++  +
+Sbjct: 4    SILVAMMELNGSREAKVGGRLIYSRLAHGVTKVDKILGFIVIKNY 48
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 6,138,898
+Number of extensions: 254453
+Number of successful extensions: 655
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 643
+Number of HSP's successfully gapped: 9
+Length of query: 1452
+Length of database: 2,338,516
+Length adjustment: 101
+Effective length of query: 1351
+Effective length of database: 1,815,336
+Effective search space: 2452518936
+Effective search space used: 2452518936
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

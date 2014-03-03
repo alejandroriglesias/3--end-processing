@@ -1,0 +1,218 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ91831 pep:novel supercontig:GCA_000166005.1:GL534596:2113:459...   958   0.0  
+EFQ92764 pep:novel supercontig:GCA_000166005.1:GL534185:43202:46...    69   3e-12
+EFQ86823 pep:novel supercontig:GCA_000166005.1:GL537232:114102:1...    39   0.006
+EFQ85312 pep:novel supercontig:GCA_000166005.1:GL537940:3000:528...    34   0.23 
+EFQ94935 pep:novel supercontig:GCA_000166005.1:GL533053:9343:110...    32   0.90 
+EFQ85609 pep:novel supercontig:GCA_000166005.1:GL537846:10500:11...    31   1.4  
+EFQ85422 pep:novel supercontig:GCA_000166005.1:GL537886:10127:11...    30   2.5  
+EFQ94083 pep:novel supercontig:GCA_000166005.1:GL533511:7110:841...    29   4.8  
+EFQ95534 pep:novel supercontig:GCA_000166005.1:GL532710:399:1919...    29   5.6  
+EFQ89329 pep:novel supercontig:GCA_000166005.1:GL535824:10556:11...    29   6.6  
+
+>EFQ91831 pep:novel supercontig:GCA_000166005.1:GL534596:2113:4591:1
+           gene:PTT_11224 transcript:EFQ91831
+           description:"hypothetical protein"
+          Length = 705
+
+ Score =  958 bits (2477), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 476/692 (68%), Positives = 546/692 (78%), Gaps = 26/692 (3%)
+
+Query: 1   MASKRKASAMNVAAP--DEPVDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHP 58
+           MA+KRKA++M   AP  D+P+DP+DEL+F CLGGGNEVGRSCHIIQYKGKTVMLDAG HP
+Sbjct: 1   MAAKRKAASM---APEDDDPIDPSDELMFLCLGGGNEVGRSCHIIQYKGKTVMLDAGMHP 57
+
+Query: 59  AYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKW 118
+           A++GL+A+PF+DDFDLSTVDVLLISHFHVDHAASLPYVL+KTNFKGRVFMTHPTKAIYKW
+Sbjct: 58  AHEGLSAMPFYDDFDLSTVDVLLISHFHVDHAASLPYVLAKTNFKGRVFMTHPTKAIYKW 117
+
+Query: 119 LIQDSVRVGNTSSNPTSQ-PVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLG 177
+           LIQDSVRVGN SSN  ++  +YTE DHLNT+P IE+ID+YTTHT+S +RITPYPAGHVLG
+Sbjct: 118 LIQDSVRVGNMSSNSETKIQMYTEADHLNTYPMIESIDFYTTHTVSGVRITPYPAGHVLG 177
+
+Query: 178 AAMFLIEIAGMNIFFTGDYSREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQ 237
+           AAMFL+EIAG+ I FTGDYSRE DRHLVSA VP GVK+DVLITEST+GI+ H PRVERE 
+Sbjct: 178 AAMFLMEIAGLKILFTGDYSREDDRHLVSASVPAGVKVDVLITESTFGISMHTPRVEREA 237
+
+Query: 238 ALMKSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMV 297
+            LMK+IT +LNRGGR L+PVFALGRAQELLLILDEYW KH E QK+PIYY S+LARKCM 
+Sbjct: 238 QLMKAITDVLNRGGRALLPVFALGRAQELLLILDEYWSKHPEVQKIPIYYNSSLARKCMQ 297
+
+Query: 298 VYQTYVGAMNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVM 357
+           VYQTYV AMNDNIKRLF ER+                WDFK++RSLK+L+RFDDLG CVM
+Sbjct: 298 VYQTYVSAMNDNIKRLFAERMAEAEAAGDTGRRGA--WDFKFVRSLKSLERFDDLGGCVM 355
+
+Query: 358 LASPGMLQNGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAA 417
+           LASPGM+Q+G SRELLERWAP  +NGV+ITGYSVEGTMAKQI+ EP+QIPAIMTR +  A
+Sbjct: 356 LASPGMMQSGTSRELLERWAPDPRNGVIITGYSVEGTMAKQIVHEPDQIPAIMTRASNTA 415
+
+Query: 418 SR--RADGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKS 475
+            R  + + E+ MIPRRC+V E+SFAAHVDG EN EF++EVAAPVVILVHGE+ NM RLKS
+Sbjct: 416 RRPGQRENEQTMIPRRCTVQEYSFAAHVDGKENMEFVQEVAAPVVILVHGEKGNMTRLKS 475
+
+Query: 476 KLLSLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPT-RLPTDDDYHLHP 534
+           KLLS NA K    KIYSP NCEELRIPFKTDK AKVVGKLASITPP  R  T     ++ 
+Sbjct: 476 KLLSFNAQKAIPTKIYSPANCEELRIPFKTDKIAKVVGKLASITPPVPRSLTPGGSEVNQ 535
+
+Query: 535 Q-----------LVTGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLI 583
+           +           L++GVL+QNDFK+SLMAPEDL+EYAGLTTTTI+CRQ + L+AAG+DLI
+Sbjct: 536 KGGKEEESEKVDLISGVLIQNDFKISLMAPEDLKEYAGLTTTTILCRQHLTLSAAGIDLI 595
+
+Query: 584 RWALESTFGAVDELPEMRQLHKEVPNGDDMILDAKXXXXXXXXXXRPVAGYIVMGSINVR 643
+           RWALE TFGA+ E      L     NG     +            R    + VM  + V 
+Sbjct: 596 RWALEGTFGAIKE----SSLTDATVNGKMNGAENGHKEEADEEVSRTQTKFTVMDCVGVL 651
+
+Query: 644 CFGSGEVELEWEGNTMNDGFADAVMAVLLTVE 675
+               G VE+EWEGN +NDG ADAV+AVL TVE
+Sbjct: 652 VKNGGRVEVEWEGNVINDGIADAVLAVLFTVE 683
+
+
+>EFQ92764 pep:novel supercontig:GCA_000166005.1:GL534185:43202:46182:-1
+           gene:PTT_10086 transcript:EFQ92764
+           description:"hypothetical protein"
+          Length = 953
+
+ Score = 69.3 bits (168), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 84/383 (21%), Positives = 157/383 (40%), Gaps = 68/383 (17%)
+
+Query: 76  TVDVLLISHFHVDHAASLPYVLSKTNF----KGRVFMTHPTKAIYKWLIQDSVRVGNTSS 131
+           T+  +L++H    H  +  YV    NF    +  V+ T+P  ++ + L+QD       +S
+Sbjct: 53  TISFILLTHATTAHLGA--YVHCCKNFPLFTRIPVYATNPVISLGRTLLQDLYESTPLAS 110
+
+Query: 132 N--PT---SQPVY-------------------TEQDHLNTFPQIEAIDYYTTHT------ 161
+           +  PT   ++  Y                   T Q+  + F +I  + Y   H       
+Sbjct: 111 SIIPTEALNESAYSFSSALKGGKNPNILLQAPTSQEIGDYFARISPLRYSQPHQPIPSPH 170
+
+Query: 162 ---ISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQDRHLVSA----------- 207
+              ++ + IT Y AGH LG +++ I+    ++ +  D+++ ++  L  A           
+Sbjct: 171 SPPLNGLTITAYSAGHTLGGSIWHIQHGMESVVYAVDWNQAREHVLSGAAWLGGPGTGGS 230
+
+Query: 208 ---EVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQ 264
+              E  R     +  +++T  +       ER++AL++ I   ++ GG VL+P  +  R  
+Sbjct: 231 EVLEQLRHPTALICSSKNTGMVKKARSPNERDEALLEMIRNTVSNGGTVLIPSDSSARIL 290
+
+Query: 265 ELLLILDEYWGKHQE-------YQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFR-- 315
+           EL  +L+E W + +             +Y AS      M   ++ +  M + I + F   
+Sbjct: 291 ELAYLLEETWEREETQGDGSGPLSTTKLYLASRTGGATMRYVRSMLEWMEEGIVKEFEAS 350
+
+Query: 316 --ERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDL----GPCVMLASPGMLQNGVS 369
+             ++                P+DF++I  L+   R   +    GP V+LAS   L+ G S
+Sbjct: 351 AADQDRRTKGGKEDERVAKVPFDFRHITLLERKTRVARMLAGAGPRVILASDATLEWGFS 410
+
+Query: 370 RELLERWAPSDKNGVVITGYSVE 392
+           ++ +   A  +KN V++T  S E
+Sbjct: 411 KDAIRTLASDEKNLVILTERSGE 433
+
+
+>EFQ86823 pep:novel supercontig:GCA_000166005.1:GL537232:114102:121697:-1
+            gene:PTT_17857 transcript:EFQ86823
+            description:"hypothetical protein"
+          Length = 2332
+
+ Score = 39.3 bits (90), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 36/122 (29%), Positives = 53/122 (43%), Gaps = 9/122 (7%)
+
+Query: 81   LISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYT 140
+             +SH H DH A L  + S       V+ +  TK I   L +   R+        S+ V T
+Sbjct: 1687 FLSHVHSDHLAGLQSLRSPF-----VYCSAATKEILLRLEKFYYRMNFAKGILESRNV-T 1740
+
+Query: 141  EQDHLNTFPQIEAIDYYTTHTIS---SIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYS 197
+                +    +   +D  T   ++   +IR+T   A H +GA MFLIE  G  + +TGD  
+Sbjct: 1741 YDRSMRKLAKALPLDTPTEIELAPGNNIRVTLIDANHCVGAVMFLIEGDGKAVLYTGDIR 1800
+
+Query: 198  RE 199
+             E
+Sbjct: 1801 AE 1802
+
+
+>EFQ85312 pep:novel supercontig:GCA_000166005.1:GL537940:3000:5284:1
+           gene:PTT_19767 transcript:EFQ85312
+           description:"hypothetical protein"
+          Length = 728
+
+ Score = 33.9 bits (76), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 41/102 (40%), Gaps = 3/102 (2%)
+
+Query: 25  LVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLISH 84
+           L+  C   G    R   +  YK     +   QH  +  LAA+   DD  LS   +   S 
+Sbjct: 407 LMSLCFAYGTAKDRKLFLRPYKDTIETMAFDQHAHHVLLAAMAVTDDTKLSAKSIF--SE 464
+
+Query: 85  FHVDHAASLPYVLSKTN-FKGRVFMTHPTKAIYKWLIQDSVR 125
+              ++      VL+  N  + R  + +P  A  KWL+ D+ R
+Sbjct: 465 LLPNNDTLAEKVLNIVNDTRARTVLLYPFAADAKWLLDDNTR 506
+
+
+>EFQ94935 pep:novel supercontig:GCA_000166005.1:GL533053:9343:11017:-1
+           gene:PTT_07231 transcript:EFQ94935
+           description:"hypothetical protein"
+          Length = 501
+
+ Score = 31.6 bits (70), Expect = 0.90,   Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 24/57 (42%), Gaps = 3/57 (5%)
+
+Query: 421 ADGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKL 477
+           AD   P  P   S    SF  H     NR++  E  AP  I  HG+ N  M L+  L
+Sbjct: 362 ADVNSPATP---SSTNLSFRLHSRQFSNRKYSVESPAPSPISAHGQLNREMTLRMTL 415
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 8,390,110
+Number of extensions: 343872
+Number of successful extensions: 724
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 716
+Number of HSP's successfully gapped: 12
+Length of query: 829
+Length of database: 5,457,232
+Length adjustment: 102
+Effective length of query: 727
+Effective length of database: 4,253,734
+Effective search space: 3092464618
+Effective search space used: 3092464618
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

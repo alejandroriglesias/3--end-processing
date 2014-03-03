@@ -1,0 +1,190 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBC646.04.1:pep pep:known chromosome:ASM294v2:II:928847:931046:...   520   e-178
+SPAC12G12.13c.1:pep pep:known chromosome:ASM294v2:I:321764:32412...    40   6e-04
+SPAC17H9.01.1:pep pep:known chromosome:ASM294v2:I:2000656:200481...    40   9e-04
+SPCC297.06c.1:pep pep:known chromosome:ASM294v2:III:1885725:1886...    30   0.58 
+SPAC26F1.13c.1:pep pep:known chromosome:ASM294v2:I:5148780:51524...    29   2.5  
+SPAC1610.04.1:pep pep:known chromosome:ASM294v2:I:1796057:179814...    28   4.7  
+
+>SPBC646.04.1:pep pep:known chromosome:ASM294v2:II:928847:931046:1 gene:SPBC646.04
+           transcript:SPBC646.04.1 description:"poly(A) polymerase
+           Pla1"
+          Length = 566
+
+ Score =  520 bits (1340), Expect = e-178,   Method: Compositional matrix adjust.
+ Identities = 278/584 (47%), Positives = 374/584 (64%), Gaps = 58/584 (9%)
+
+Query: 3   TERQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIADAF 62
+           T +Q G+TPP+S    TE+E     +L+ EL+ QN FE P E+EKR  VL  LQ+I   F
+Sbjct: 2   TTKQWGITPPISTAPATEQENALNTALINELKNQNLFESPAESEKRVKVLDELQQITTEF 61
+
+Query: 63  VKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFP 122
+           VK V+  K   N  +  +A GK+F YGS RLGV+GPGSDIDTLVV P++V+R+++F+   
+Sbjct: 62  VKKVSLAKHM-NEKMANEAGGKIFTYGSYRLGVYGPGSDIDTLVVVPKHVSRDNFFQDLE 120
+
+Query: 123 GLLVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSDSN 182
+            +L E      +TDL+ V DA+VPIIKF+F GISIDLIF+R+ ++ ++P D    LSD+N
+Sbjct: 121 PMLRER---EEVTDLAAVPDAYVPIIKFKFLGISIDLIFARL-SVPRVPRD--LELSDNN 174
+
+Query: 183 LLRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVA 242
+           LL+G++E+ + S+NGTRVTD+I+ LVP + VF+ ALRAIK WAQRRAIY N+VGFPGGVA
+Sbjct: 175 LLKGVEERCVLSLNGTRVTDQILQLVPNRAVFKHALRAIKFWAQRRAIYANVVGFPGGVA 234
+
+Query: 243 WAMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGD 302
+           WAM+VAR+CQLYP A +SV+V KFF IL +W WPQP+LLK IEDGPLQ RIWNPK+YP D
+Sbjct: 235 WAMMVARICQLYPNAVSSVIVAKFFRILHQWNWPQPILLKPIEDGPLQVRIWNPKLYPSD 294
+
+Query: 303 RYHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHTFF 362
+           + H MPIITPAYPSMCAT NIT S++ +I RE+V+A ++ + IMV  LPW  LFQKH FF
+Sbjct: 295 KAHRMPIITPAYPSMCATHNITLSTQTIILREMVRAGEIADQIMVKALPWSALFQKHDFF 354
+
+Query: 363 TKDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSHRY 422
+            + +K+Y+ + AA+K  E+   W+G VESK+R LV  LE  ++IA+A PF KG+D+ +  
+Sbjct: 355 HR-YKHYLTITAAAKTAEAQLKWAGLVESKLRHLVTRLELVDAIALAHPFNKGFDKVYNC 413
+
+Query: 423 YDDSQFNQILEGSLANLCQDKDPQXXXXXXXXXXXXXXSNGTHTNGIAVKDEVAIKQEGH 482
+             + +  Q+  G                                    V  EVA +   H
+Sbjct: 414 SSEEEAQQVASG------------------------------------VTLEVAYESTDH 437
+
+Query: 483 ARIKSEDCVDPQPLTENIPGFKGPSSD------MYTTTFYIGLELRPEA----KSLDLSF 532
+            ++ + D V+ +          G  +       +YTTT YIGLEL  +     K LD+S+
+Sbjct: 438 EKL-ANDTVNEEKADNTESKADGSENGEKQIFPVYTTTCYIGLELEKKKGHPIKRLDISW 496
+
+Query: 533 QVNDFKWLCYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGE 576
+              +F  LC  W KY + L     V IK+ ++ ALPD++F PGE
+Sbjct: 497 PTQEFYELCKKWDKYDDTLMN---VFIKNTKNTALPDEVFEPGE 537
+
+
+>SPAC12G12.13c.1:pep pep:known chromosome:ASM294v2:I:321764:324129:1 gene:SPAC12G12.13c
+           transcript:SPAC12G12.13c.1 description:"poly(A)
+           polymerase Cid14"
+          Length = 684
+
+ Score = 40.4 bits (93), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 46/205 (22%), Positives = 83/205 (40%), Gaps = 41/205 (20%)
+
+Query: 73  DNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYV---TREDYFEHFPGLLVEMA 129
+           + AVL K     ++ +GS    ++ P SD+D ++++P +    T++D F     L   + 
+Sbjct: 270 NQAVLQKWPDVSLYVFGSFETKLYLPTSDLDLVIISPEHHYRGTKKDMF----VLAHHLK 325
+
+Query: 130 PPNAITDLSVVVDAFVPIIKF--EFSGISIDLIFSRIATMKQLPADPNWNLSDSNLLRGL 187
+                +++ V+  A VPIIKF    + + +D+ F++   +K                   
+Sbjct: 326 KLKLASEVQVITTANVPIIKFVDPLTKVHVDISFNQPGGLKTCLV--------------- 370
+
+Query: 188 DEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLV 247
+                  VNG          + +    R  +  IK +   RA+    +G     A   LV
+Sbjct: 371 -------VNG---------FMKKYPALRPLVIIIKHFLNMRALNEVFLGGLSSYAIVCLV 414
+
+Query: 248 ARVCQLYPR-ATASVVVNKFFCILM 271
+               QL+PR +T S+     F +L+
+Sbjct: 415 VSFLQLHPRLSTGSMREEDNFGVLL 439
+
+
+>SPAC17H9.01.1:pep pep:known chromosome:ASM294v2:I:2000656:2004811:1 gene:SPAC17H9.01
+            transcript:SPAC17H9.01.1 description:"poly(A) polymerase
+            Cid16 (predicted)"
+          Length = 1202
+
+ Score = 40.0 bits (92), Expect = 9e-04,   Method: Compositional matrix adjust.
+ Identities = 42/173 (24%), Positives = 69/173 (39%), Gaps = 38/173 (21%)
+
+Query: 84   KVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGLLVEMAPPNAITDLSVVVDA 143
+            K+  +GS R G+    SD+D ++    Y ++E    ++    V+    N  +++  +  A
+Sbjct: 923  KIACFGSYRTGLMTKNSDLDLVI----YSSKEALLPYYDR--VKSIIKNEFSNVMPIRGA 976
+
+Query: 144  FVPIIKFEFS-GISIDLIFSRIATMKQLPADPNWNLSDSNLLRGLDEKELRSVNGTRVTD 202
+             +PIIKF     I  DL F  +     LP      + +S+L+                  
+Sbjct: 977  RIPIIKFTGQYNIHCDLSFDNL-----LP------IHNSDLILNY--------------- 1010
+
+Query: 203  EIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLVARVCQLYP 255
+               SL+ E+   +T L  +K WA  R I      FP    W ++V    Q  P
+Sbjct: 1011 ---SLIDER--VKTLLMLVKYWASNRLIDKTHHAFPSSYTWCIMVIFYLQQIP 1058
+
+
+>SPCC297.06c.1:pep pep:known chromosome:ASM294v2:III:1885725:1886860:-1
+           gene:SPCC297.06c transcript:SPCC297.06c.1
+           description:"conserved fungal protein"
+          Length = 230
+
+ Score = 30.0 bits (66), Expect = 0.58,   Method: Compositional matrix adjust.
+ Identities = 19/49 (38%), Positives = 28/49 (57%), Gaps = 6/49 (12%)
+
+Query: 346 MVGKLPWKDLFQKHTFFTKDFKYYI----QVIAASKDKES-HKLWSGFV 389
+           M GK+ +KD+ QK   F + FK Y+    Q+   + D++S H LW  FV
+Sbjct: 1   MQGKINYKDITQKE-MFNEIFKEYVKEEKQIDLGTCDQDSVHDLWRRFV 48
+
+
+>SPAC26F1.13c.1:pep pep:known chromosome:ASM294v2:I:5148780:5152492:1 gene:SPAC26F1.13c
+           transcript:SPAC26F1.13c.1 description:"cytoplasmic
+           leucine-tRNA ligase Lrs1 (predicted)"
+          Length = 1111
+
+ Score = 28.9 bits (63), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 7/44 (15%)
+
+Query: 303 RYHLMPII-TPAYPSMCATFNITK----SSKDVIGRELVKAADL 341
+           +Y  +PII TP+Y  MCA F   K    S KDV  ++L +A +L
+Sbjct: 449 KYEAVPIIRTPSYGDMCAEFLCKKLKIQSPKDV--KQLAQAKEL 490
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,784,999
+Number of extensions: 115982
+Number of successful extensions: 258
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 250
+Number of HSP's successfully gapped: 11
+Length of query: 616
+Length of database: 2,387,769
+Length adjustment: 94
+Effective length of query: 522
+Effective length of database: 1,904,233
+Effective search space: 994009626
+Effective search space used: 994009626
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 53 (25.0 bits)

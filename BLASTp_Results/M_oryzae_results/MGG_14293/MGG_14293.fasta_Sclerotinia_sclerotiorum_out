@@ -1,0 +1,112 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN99197 pep:novel supercontig:ASM14694v1:CH476649:97302:98400:-...   138   6e-38
+EDN99172 pep:novel supercontig:ASM14694v1:CH476649:22694:23697:1...    27   5.6  
+
+>EDN99197 pep:novel supercontig:ASM14694v1:CH476649:97302:98400:-1
+           gene:SS1G_14057 transcript:EDN99197
+           description:"hypothetical protein"
+          Length = 313
+
+ Score =  138 bits (347), Expect = 6e-38,   Method: Compositional matrix adjust.
+ Identities = 83/201 (41%), Positives = 110/201 (54%), Gaps = 15/201 (7%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIP-------QRSVATDGTAPA--KAAPNKKEDT--VKGSD 127
+           +KDG  A PPS+ K +   ++P       + +   D  APA     P K  +T  + G++
+Sbjct: 64  KKDG--APPPSKPKGANYDNLPNDLPSHTKSTAEADAKAPAVKTEKPKKASETQAISGAE 121
+
+Query: 128 LPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSW 187
+           LP +  S  D  A P ++P GKP+TQ+NIDEDL E+  PWR+PGTDISDYFNYGFDEF+W
+Sbjct: 122 LPGLAISKIDVNAKPMYEPAGKPITQINIDEDLNENDKPWRRPGTDISDYFNYGFDEFTW 181
+
+Query: 188 AIYAQKQNQLRSEYSADAMSQNSKKMMEDLNXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 247
+           A+YA KQ  LRSE+  + ++QN+KKM ED+N                             
+Sbjct: 182 ALYANKQESLRSEFDPNKIAQNNKKMFEDMN--MMMAMGGMPGMPAGGGMPGMEGMTPEM 239
+
+Query: 248 XXXXXXXXXXSGMDPSQMDPA 268
+                     SGMDPSQMDP+
+Sbjct: 240 MQQMQQMMAASGMDPSQMDPS 260
+
+
+
+ Score = 29.3 bits (64), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 11/16 (68%), Positives = 15/16 (93%)
+
+Query: 3  VEMDEDDDFYAPEEPI 18
+          +++DEDDDFYAPEE +
+Sbjct: 1  MDIDEDDDFYAPEESV 16
+
+
+>EDN99172 pep:novel supercontig:ASM14694v1:CH476649:22694:23697:1
+           gene:SS1G_14032 transcript:EDN99172
+           description:"hypothetical protein"
+          Length = 309
+
+ Score = 26.9 bits (58), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 14/20 (70%)
+
+Query: 162 EDAAPWRKPGTDISDYFNYG 181
+            D   W +PG+D++ Y+NYG
+Sbjct: 45  SDNQVWVQPGSDLTWYYNYG 64
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 1,503,562
+Number of extensions: 59306
+Number of successful extensions: 190
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 188
+Number of HSP's successfully gapped: 16
+Length of query: 332
+Length of database: 3,721,581
+Length adjustment: 91
+Effective length of query: 241
+Effective length of database: 2,795,656
+Effective search space: 673753096
+Effective search space used: 673753096
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

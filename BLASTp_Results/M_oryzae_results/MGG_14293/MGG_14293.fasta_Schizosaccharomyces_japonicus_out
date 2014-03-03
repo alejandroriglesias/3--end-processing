@@ -1,0 +1,97 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB05935 pep:novel supercontig:GCA_000149845.2:supercont5.1:2295...    69   8e-14
+EEB08898 pep:novel supercontig:GCA_000149845.2:supercont5.2:3152...    28   2.3  
+
+>EEB05935 pep:novel supercontig:GCA_000149845.2:supercont5.1:2295530:2297754:
+           1 gene:SJAG_00961 transcript:EEB05935 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 326
+
+ Score = 68.9 bits (167), Expect = 8e-14,   Method: Compositional matrix adjust.
+ Identities = 25/37 (67%), Positives = 32/37 (86%)
+
+Query: 166 PWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYS 202
+           PWRKPG DI+DYFNYGFDEF+WA Y  KQ+++R +Y+
+Sbjct: 137 PWRKPGADITDYFNYGFDEFTWAAYCTKQSKIREDYT 173
+
+
+>EEB08898 pep:novel supercontig:GCA_000149845.2:supercont5.2:3152430:3155575:
+           -1 gene:SJAG_04070 transcript:EEB08898
+           description:"coatomer beta' subunit"
+          Length = 790
+
+ Score = 27.7 bits (60), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 35/82 (42%), Gaps = 18/82 (21%)
+
+Query: 91  SKYSEIRSIPQRSVA----TDGTAPAKAAPNKKEDTVKGSDLPPVTKSNFDPYAIPEHKP 146
+           S YSEI+S   + VA    TDG++      N    ++  SD  PV           +H P
+Sbjct: 315 STYSEIQSAMIKPVANEEVTDGSSI-----NLSPKSLGNSDTIPVKM---------QHSP 360
+
+Query: 147 TGKPLTQVNIDEDLGEDAAPWR 168
+            G+ +T    DE +   A  WR
+Sbjct: 361 NGRFVTVCGSDEYIVYTALAWR 382
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 848,603
+Number of extensions: 31685
+Number of successful extensions: 93
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 93
+Number of HSP's successfully gapped: 10
+Length of query: 332
+Length of database: 2,277,407
+Length adjustment: 89
+Effective length of query: 243
+Effective length of database: 1,843,265
+Effective search space: 447913395
+Effective search space used: 447913395
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

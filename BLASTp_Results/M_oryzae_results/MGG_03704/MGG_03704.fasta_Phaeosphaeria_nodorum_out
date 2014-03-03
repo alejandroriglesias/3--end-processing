@@ -1,0 +1,125 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_00546 pep:known supercontig:ASM14691v1:supercont1.1:1251650...   311   e-106
+SNOT_07201 pep:known supercontig:ASM14691v1:supercont1.10:119511...    27   7.0  
+SNOT_04842 pep:known supercontig:ASM14691v1:supercont1.7:139022:...    27   7.4  
+
+>SNOT_00546 pep:known supercontig:ASM14691v1:supercont1.1:1251650:1252551:-1
+           gene:SNOG_00546 transcript:SNOT_00546
+           description:"Putative uncharacterized protein"
+          Length = 284
+
+ Score =  311 bits (796), Expect = e-106,   Method: Compositional matrix adjust.
+ Identities = 150/241 (62%), Positives = 177/241 (73%)
+
+Query: 11  GLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGP 70
+           G +  +A      DD FKLKFCTVCASNQNRSMEAHLQL+ A+ P ISFGTGSLVRLPGP
+Sbjct: 35  GTNDAHAESNSVPDDKFKLKFCTVCASNQNRSMEAHLQLASAHLPTISFGTGSLVRLPGP 94
+
+Query: 71  TITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIP 130
+           T  QPNVY FNST+Y A++ EL  ++  LYT NG+LNML RN N+K  PER+QDW  G P
+Sbjct: 95  TAMQPNVYHFNSTTYRAIHDELAQQNTALYTHNGLLNMLGRNLNIKGFPERFQDWVPGKP 154
+
+Query: 131 RLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEE 190
+           RLEHA D+G +GTE+GV D+V TCEERC+DAV+EDLH +G  LNRPVHV NVDIKDNHEE
+Sbjct: 155 RLEHAEDKGFQGTESGVADVVITCEERCFDAVLEDLHNKGGKLNRPVHVFNVDIKDNHEE 214
+
+Query: 191 AAVGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNL 250
+           A VGG+ ILDLA SLN AAA+ER+                    +V ++LA WQ+RWPN+
+Sbjct: 215 ALVGGKAILDLALSLNEAAAKEREAYGESGWEQGGGAARTGFDEKVPEILAAWQDRWPNM 274
+
+Query: 251 P 251
+           P
+Sbjct: 275 P 275
+
+
+>SNOT_07201 pep:known supercontig:ASM14691v1:supercont1.10:1195118:1196958:1
+           gene:SNOG_07201 transcript:SNOT_07201
+           description:"Putative uncharacterized protein"
+          Length = 546
+
+ Score = 26.9 bits (58), Expect = 7.0,   Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 24/63 (38%), Gaps = 5/63 (7%)
+
+Query: 106 LNMLERNRNVKRGPERWQD-----WQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWD 160
+           L  +  N N+  G ER         Q   P  E   D  S  T       +  C +RCWD
+Sbjct: 149 LGYIRHNENIAHGVERRTPALRAPVQPPRPSSESERDDASHNTAVKFCLPLKNCLKRCWD 208
+
+Query: 161 AVV 163
+           A+V
+Sbjct: 209 AMV 211
+
+
+>SNOT_04842 pep:known supercontig:ASM14691v1:supercont1.7:139022:141200:-1
+           gene:SNOG_04842 transcript:SNOT_04842
+           description:"Putative uncharacterized protein"
+          Length = 575
+
+ Score = 26.6 bits (57), Expect = 7.4,   Method: Compositional matrix adjust.
+ Identities = 10/24 (41%), Positives = 14/24 (58%)
+
+Query: 235 RVADVLAEWQERWPNLPATWTLAW 258
+           RV  ++ E QER P  P++W   W
+Sbjct: 491 RVRPIVVEEQERKPPAPSSWNSGW 514
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 2,815,122
+Number of extensions: 113663
+Number of successful extensions: 237
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 236
+Number of HSP's successfully gapped: 5
+Length of query: 259
+Length of database: 5,238,126
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,098,154
+Effective search space: 684391718
+Effective search space used: 684391718
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

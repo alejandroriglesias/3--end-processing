@@ -1,0 +1,91 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX71394 pep:novel supercontig:GCA_000150505.2:supercont6.3:2376...   228   6e-75
+
+>EPX71394 pep:novel supercontig:GCA_000150505.2:supercont6.3:2376152:2376806:
+           1 gene:SOCG_01612 transcript:EPX71394
+           description:"phosphoric ester hydrolase Ssu72"
+          Length = 197
+
+ Score =  228 bits (581), Expect = 6e-75,   Method: Compositional matrix adjust.
+ Identities = 114/232 (49%), Positives = 144/232 (62%), Gaps = 40/232 (17%)
+
+Query: 28  KLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDA 87
+           KL    +CASNQNRSMEAH  L  A Y V SFGTGS VRLPGP+I +PN+Y F    YD+
+Sbjct: 6   KLDISVICASNQNRSMEAHNLLKNAGYQVDSFGTGSAVRLPGPSIDKPNIYPF-GYPYDS 64
+
+Query: 88  MYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGV 147
+           +YKELE +D RLYTANG+L ML+RNR++KR P RWQD +                    +
+Sbjct: 65  IYKELESQDSRLYTANGLLKMLDRNRHIKRSPNRWQDQEF-------------------I 105
+
+Query: 148 VDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNR 207
+            D+V TCEERC+DA+ EDL+ RG   +RPV++INVDIKDNHEEA+VGG+ ILDL   L  
+Sbjct: 106 YDVVITCEERCFDAICEDLYRRGESKSRPVYLINVDIKDNHEEASVGGKAILDLVQQLTD 165
+
+Query: 208 AAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           A     D+                      D++A+WQ + PNLPA +T+ +F
+Sbjct: 166 AKDSFEDEF--------------------TDIMAQWQAKHPNLPALYTIHFF 197
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 1,137,767
+Number of extensions: 45068
+Number of successful extensions: 124
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 121
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 2,302,372
+Length adjustment: 86
+Effective length of query: 173
+Effective length of database: 1,873,576
+Effective search space: 324128648
+Effective search space used: 324128648
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

@@ -1,0 +1,141 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX74344 pep:novel supercontig:GCA_000150505.2:supercont6.1:2214...   504   e-172
+EPX72777 pep:novel supercontig:GCA_000150505.2:supercont6.2:2482...    41   4e-04
+
+>EPX74344 pep:novel supercontig:GCA_000150505.2:supercont6.1:2214189:2216358:
+           -1 gene:SOCG_03554 transcript:EPX74344
+           description:"poly(A) polymerase Pla1"
+          Length = 558
+
+ Score =  504 bits (1298), Expect = e-172,   Method: Compositional matrix adjust.
+ Identities = 276/578 (47%), Positives = 365/578 (63%), Gaps = 58/578 (10%)
+
+Query: 5   RQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIADAFVK 64
+           +Q G+TPP+S    TE+E     +L+ EL+ QN FE   E+E+R  VL  LQ IA  FVK
+Sbjct: 4   KQWGITPPISTAPATEQENALNTALIDELKRQNLFESSAESERRIKVLDDLQRIATEFVK 63
+
+Query: 65  TVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGL 124
+            V+  K   N  +  +A GK+F YGS RLGV+GPGSDIDTL+V P++V+RE++F+    +
+Sbjct: 64  KVSLAKHM-NEKMANEAGGKIFTYGSYRLGVYGPGSDIDTLLVVPKHVSRENFFQDLEPM 122
+
+Query: 125 LVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADP-NWNLSDSNL 183
+           L E      IT+L+ V DA+VPIIKF++  ISIDLIF+R++    +P  P    LSD+NL
+Sbjct: 123 LRER---EEITELASVPDAYVPIIKFKYFDISIDLIFARLS----VPKVPRTLELSDNNL 175
+
+Query: 184 LRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAW 243
+           L+G++E+ + S+NGTRVTD+I+ LVP + VF+ ALRA+K WAQRRAIY N++GFPGGVAW
+Sbjct: 176 LKGVEERCILSLNGTRVTDQILQLVPNRAVFKHALRAVKFWAQRRAIYANVIGFPGGVAW 235
+
+Query: 244 AMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDR 303
+           AM+VAR+CQLYP A +SV+V KFF IL +W WPQP+LLK IEDGPLQ RIWNPK+YP D+
+Sbjct: 236 AMMVARICQLYPNAVSSVIVAKFFRILHQWNWPQPILLKPIEDGPLQVRIWNPKLYPSDK 295
+
+Query: 304 YHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHTFFT 363
+            H MPIITPAYPSMCAT NIT S++ +I  E+V+A ++ + IMVG + W  LFQKH FF 
+Sbjct: 296 AHRMPIITPAYPSMCATHNITPSTQAIILSEMVRAGEIADQIMVGSVGWSALFQKHDFFH 355
+
+Query: 364 KDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSHRYY 423
+           + +K+Y+ + AASK  E    WSG VESK+R LV  LE  E+IA+A PF KG+D+ H   
+Sbjct: 356 R-YKHYLMITAASKTAEGQLKWSGLVESKLRHLVTRLELVEAIALAHPFNKGFDKIHNCK 414
+
+Query: 424 DDSQFNQILEG-SLANLCQDKDPQXXXXXXXXXXXXXXSNGTHTNGIAVKDEVAIKQEGH 482
+            + + +Q+  G SL    Q  D +                    NG          Q  +
+Sbjct: 415 SEEEAHQLASGISLDVASQTADLERL--------------AADANG----------QNEN 450
+
+Query: 483 ARIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPEA----KSLDLSFQVNDFK 538
+              K E  + P                +YTTTFYIGLEL  +     K LD+S+   +F 
+Sbjct: 451 EDEKEEKKIYP----------------VYTTTFYIGLELEKKKGQPIKKLDISWPAQEFY 494
+
+Query: 539 WLCYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGE 576
+            LC  W +Y E       V IK+ R+  LPD++F PGE
+Sbjct: 495 ELCKKWDRYDETQVN---VFIKNTRNVNLPDEVFEPGE 529
+
+
+>EPX72777 pep:novel supercontig:GCA_000150505.2:supercont6.2:2482901:2485182:
+           1 gene:SOCG_00538 transcript:EPX72777
+           description:"poly(A) polymerase Cid14"
+          Length = 676
+
+ Score = 40.8 bits (94), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 46/192 (23%), Positives = 76/192 (39%), Gaps = 35/192 (18%)
+
+Query: 73  DNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGLLVEMAPPN 132
+           +NAV+ K     V+ +GS    ++ P SD+D ++++     R    + F  L   +    
+Sbjct: 263 NNAVVKKWPDVSVYVFGSFETRLYLPTSDLDMVIMSSDSHYRGSKKDMFV-LAHHLRKSK 321
+
+Query: 133 AITDLSVVVDAFVPIIKF--EFSGISIDLIFSRIATMKQLPADPNWNLSDSNLLRGLDEK 190
+             TD+ V+  A VPIIKF    + I +D+ F++   +K                      
+Sbjct: 322 VATDIQVITTANVPIIKFVDPITKIHVDVSFNQAGGLKTCLV------------------ 363
+
+Query: 191 ELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLVARV 250
+               VNG          + +    R  +  IK +   RA+    +G     A   LV   
+Sbjct: 364 ----VNG---------FLKKYPALRPLVIIIKHYLNMRALNEVFLGGLSSYAIVCLVVSF 410
+
+Query: 251 CQLYPR-ATASV 261
+            QL+PR +T S+
+Sbjct: 411 LQLHPRLSTGSI 422
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 2,708,369
+Number of extensions: 113108
+Number of successful extensions: 247
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 240
+Number of HSP's successfully gapped: 6
+Length of query: 616
+Length of database: 2,302,372
+Length adjustment: 94
+Effective length of query: 522
+Effective length of database: 1,833,688
+Effective search space: 957185136
+Effective search space used: 957185136
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 53 (25.0 bits)

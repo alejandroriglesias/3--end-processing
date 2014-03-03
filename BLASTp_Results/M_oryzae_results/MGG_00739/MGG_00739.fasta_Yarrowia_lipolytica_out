@@ -1,0 +1,198 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa 
+           6448 sequences; 3,139,837 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAG79101 pep:novel chromosome:GCA_000002525.1:E:441705:445514:-1...   245   2e-66
+CAG81373 pep:novel chromosome:GCA_000002525.1:D:2983459:2986131:...    30   3.9  
+CAG79756 pep:novel chromosome:GCA_000002525.1:E:2360125:2363859:...    29   8.9  
+
+>CAG79101 pep:novel chromosome:GCA_000002525.1:E:441705:445514:-1
+            gene:YALI0_E03982g transcript:CAG79101
+            description:"YALI0E03982p"
+          Length = 1269
+
+ Score =  245 bits (626), Expect = 2e-66,   Method: Compositional matrix adjust.
+ Identities = 209/775 (26%), Positives = 348/775 (44%), Gaps = 82/775 (10%)
+
+Query: 684  TIEAGTMGDHTKIIQVLKSEVRCYDGDLGLTQIIPMLDEETGHEPRATSASIADPYLLII 743
+            TI + +M D + ++QV    V  YD  +G      +    T  E R     +   Y+L++
+Sbjct: 554  TIFSSSMLD-SALLQVCLETVNIYDAKIGQPHKYSLPQGTTAVEAR-----VLGNYVLVL 607
+
+Query: 744  RDDSSAFI---AHVNXXXXXXXXXXXXXXXXXTKWSTGCLYADSKGAFAA-----TQQTA 795
+              D    I     +N                 +K + G    DS   F A     T+Q +
+Sbjct: 608  LSDGQVKILEAVSINKRPFLKAAQVSIEPASESK-AIGIYATDSSLTFGAPSKKRTRQGS 666
+
+Query: 796  KSPKSTPTIMMFLLSAAGALYIYALPDISRPVYVAEGLCYVPPYLSADYSARKGMARET- 854
+             +  S P +++    A G+L +  L    R +  A  L       S     + G   +  
+Sbjct: 667  PAQDSRPVVVV--CYADGSLLLQGLNSDDRLILDASDL-------SGFIKEKDGQLYDAP 717
+
+Query: 855  --ISEILVTDLGDTVFKSPHVILRHSNHDLTIYEPYRIAEDSQSLTKILRLRKLPNPAVA 912
+              + +I ++ LGD      +++L  +   L +YEPY   +        LR RK+      
+Sbjct: 718  LELVDIALSPLGDDHILRDYLVLL-TPQQLVVYEPYHYNDK-------LRFRKI------ 763
+
+Query: 913  KAPEATNSEDPPLMSRNMPLRACANIAGYSAVFMPGHSPSFLIKSAKATPKVIGL-RGSG 971
+                    E  P ++ +  L     I G   + + G +   L+K+   +P++I      G
+Sbjct: 764  ------FLERTPTINSDRRLTQVPLINGKHTLGVTGETAYILVKTLHTSPRLIEFGETKG 817
+
+Query: 972  VRAMSSFHTEGCERGFIYADSAGVARVAQIPKDTSFS-ELGLSVKKVPL-GIDADGIAYH 1029
+              A +S+  +     F Y   AG   VA+   D SFS E    VK V L G     + YH
+Sbjct: 818  AVAFTSWDGK-----FAYLTQAG--EVAECRFDPSFSLETNWPVKHVQLCGETISKVTYH 870
+
+Query: 1030 SPTGVYVLTCSYWEPFELPKDDDYHCEWAKENISFKPMVERSVLKVINPINWSDIWTEEF 1089
+                VYV+      P  +  +DD   E    +I       +  ++++NP +W+ I + EF
+Sbjct: 871  ETMDVYVIATHKTVPHVVRDEDDEVIESLTPDI-MPATTYQGAIRIVNPYSWTVIDSYEF 929
+
+Query: 1090 EQ-HEVAMCIRSLNLEVSQSTNERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVPQKGR 1148
+            E   E A+C  S+ L +S   +++R+++ VGT++ +GEDL  RG +Y+FD+  +VP+K R
+Sbjct: 930  EMPAEAALCCESVKLSISDRKSQKREVVAVGTSILRGEDLAARGALYLFDVIEIVPEKER 989
+
+Query: 1149 PETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMN 1208
+            PET+++LK++ ++ + RGA T++ E+   G ++  QGQK LV+ LQ+D  L PVAF+DM 
+Sbjct: 990  PETNRRLKKLVQDRV-RGAFTAVCEVS--GRLLAVQGQKLLVQALQDDLTLVPVAFLDMQ 1046
+
+Query: 1209 CYVTCVKELAGTGLCVMADAFKGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLPDGKDL 1268
+             YV   K L    + ++ DA + V F G++  PY+M+ F +    +     D   +G++L
+Sbjct: 1047 TYVAVAKSL--NSMLLLGDATRSVQFVGFSMDPYQMIPFARDLQRVLVTTCDFAIEGENL 1104
+
+Query: 1269 LIVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQP 1328
+              V AD    LH+L++DP+ P+S  G  LL R+ F +G      S ++P  +        
+Sbjct: 1105 TFVVADLQKRLHILEYDPDDPQSYSGARLLRRSVFYSG-KVIDSSAMVPINE-------- 1155
+
+Query: 1329 SSDAERQHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPHHAALNPKAYRLPPTS 1388
+                +R  ++     G +  V P  +  Y RL A+ + +     H   L+P+AYR  P  
+Sbjct: 1156 ----DRFMVIGVCSDGSVTDVVPCPEDAYRRLYAIQTQITDKEAHVCGLHPRAYRYDPI- 1210
+
+Query: 1389 TRNQVAAVDISVGRAVVDGSLLARWAELASGRRAEVAGRAGFSGAAEVRSELEAV 1443
+                +     S  R ++DG  L R+A L   ++   A R G      +  +LE +
+Sbjct: 1211 ----LPGTGNSPHRPILDGHTLIRFANLPRNKQNVYANRLGQRYQQLIWKDLELI 1261
+
+
+
+ Score =  172 bits (437), Expect = 7e-44,   Method: Compositional matrix adjust.
+ Identities = 136/473 (28%), Positives = 219/473 (46%), Gaps = 90/473 (19%)
+
+Query: 1   MQCYTELTPPSAVTHSLTLPFTSPKSNNLVVAK-SSLLQIFATRLVPAELDGTSQSAKAT 59
+           M  +  LT P+AVTHSL+  FT  +  NLV+ K S LLQIF                   
+Sbjct: 1   MHIFKNLTEPTAVTHSLSCNFTGER--NLVLVKGSQLLQIF------------------- 39
+
+Query: 60  HNYDTKLNDDEGLEASFLGGDAAIIRSDRNHTKLVLVAEFPLSGTITGLARVKANATKTX 119
+                +  DD              I +     +L L+ E+ L GT+TG+ R+K       
+Sbjct: 40  -----RYKDD--------------IPTKDEAPRLELITEYYLDGTVTGVTRIKT------ 74
+
+Query: 120 XXXXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSD 179
+                       D L I+ K AK  +V W+    +++T S+HYYE+  ++S+ +    S 
+Sbjct: 75  ------IDNYDLDSLYISVKHAKAVIVAWNASSFTIDTKSLHYYEKGLVESNFFEPECS- 127
+
+Query: 180 YVNFLVADPG-SRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAAT 238
+             +  V+D   S    L F    +A +P  +     G+DD            E P +   
+Sbjct: 128 --SVAVSDEANSFYTCLLFQNDRMAFLPIIEK----GLDD-----------DEMPESGQV 170
+
+Query: 239 NGTTDNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGILSSNITPSTYLAR 298
+                       + PSF+++   LD  + + + + FL+EYRE T GIL         +  
+Sbjct: 171 ------------FDPSFIVKASRLDKRIENVMDICFLHEYRETTMGILFQPKRAWVGMKN 218
+
+Query: 299 --KDHLTYTVFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIHIDQS 356
+             KD ++Y + ++D+ QK ST I ++ GLP D  +VI LPAP+GG+L++ +N +++ID S
+Sbjct: 219 ILKDTVSYAIVSVDVHQKNSTVIGTLNGLPVDAQKVIPLPAPLGGSLIICANTILYIDSS 278
+
+Query: 357 GKANGVAVNPMTKSCTSFSLA-DQSDLGLRLEGCMINVLSAEDGQFIIVLNDGRLATLVF 415
+               GV VN   +  +   ++ DQS L LRLEG  +  +       ++V  DG+  +L+F
+Sbjct: 279 ASYTGVMVNNTHRQNSDLIVSRDQSTLDLRLEGAEVCFIQELGNTALLVTEDGQFFSLLF 338
+
+Query: 416 HIDGRTVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVFGW 468
+           + DGR V+ L+++ + P+     + +  S +       +F GS  GDS++  W
+Sbjct: 339 NKDGRRVASLELRPIEPD---NFILSQPSSVAAGPDGTIFLGSRAGDSLLVKW 388
+
+
+>CAG81373 pep:novel chromosome:GCA_000002525.1:D:2983459:2986131:-1
+            gene:YALI0_D23001g transcript:CAG81373
+            description:"YALI0D23001p"
+          Length = 890
+
+ Score = 30.0 bits (66), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 22/67 (32%), Positives = 32/67 (47%), Gaps = 11/67 (16%)
+
+Query: 1234 FCGYTEGPYKMMLFGKSSTNL--------ECM-NVDLLPDGKDLLIVAADSDGNLHVLQF 1284
+             C Y++   ++  +  SS  L         C+ NVDL+ D K  LI A  +DG+L V + 
+Sbjct: 708  LCVYSDSSLRLWKYDNSSFTLVSDLKYTQHCLLNVDLVEDDKSALISA--TDGSLSVYEL 765
+
+Query: 1285 DPEHPKS 1291
+                PKS
+Sbjct: 766  PSLRPKS 772
+
+
+>CAG79756 pep:novel chromosome:GCA_000002525.1:E:2360125:2363859:1
+           gene:YALI0_E19767g transcript:CAG79756
+           description:"YALI0E19767p"
+          Length = 1244
+
+ Score = 28.9 bits (63), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 40/78 (51%), Gaps = 9/78 (11%)
+
+Query: 286 LSSNITPSTYLARKDHLTYTVF-----TLDLQQKASTTILSVGGLPKDLTRVIALPAPVG 340
+           +  N   + ++AR     + VF     T+D++  ++TT  ++  LPK +  ++ +P   G
+Sbjct: 448 IGGNAAQAVFVARN---RFAVFNKNAQTIDIRDLSNTTTRTIK-LPKQVKDIVVVPGSSG 503
+
+Query: 341 GALLVGSNELIHIDQSGK 358
+             LL+G + +  +D + K
+Sbjct: 504 QLLLLGPSHVYLLDVAQK 521
+
+
+  Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,139,837
+  Number of sequences in database:  6448
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6448
+Number of Hits to DB: 8,679,956
+Number of extensions: 376828
+Number of successful extensions: 1139
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 1127
+Number of HSP's successfully gapped: 10
+Length of query: 1452
+Length of database: 3,139,837
+Length adjustment: 103
+Effective length of query: 1349
+Effective length of database: 2,475,693
+Effective search space: 3339709857
+Effective search space used: 3339709857
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

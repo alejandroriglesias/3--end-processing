@@ -1,0 +1,103 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC3G9.04.1:pep pep:known chromosome:ASM294v2:I:3176427:3177452...   221   3e-72
+SPCC737.04.1:pep pep:known chromosome:ASM294v2:III:1891328:18938...    28   1.6  
+
+>SPAC3G9.04.1:pep pep:known chromosome:ASM294v2:I:3176427:3177452:-1 gene:SPAC3G9.04
+           transcript:SPAC3G9.04.1 description:"phosphoric ester
+           hydrolase Ssu72 (predicted)"
+          Length = 197
+
+ Score =  221 bits (563), Expect = 3e-72,   Method: Compositional matrix adjust.
+ Identities = 113/231 (48%), Positives = 143/231 (61%), Gaps = 40/231 (17%)
+
+Query: 29  LKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAM 88
+           L+   +CASNQNRSMEAH  L  A Y V SFGTGS VRLPGP+I +PN+Y+F    YD +
+Sbjct: 7   LQISVICASNQNRSMEAHNVLKNAGYQVDSFGTGSAVRLPGPSIDKPNIYQF-GYPYDEI 65
+
+Query: 89  YKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVV 148
+           YKELE +D RLYTANG+L ML+RNR +KR P RWQD                   +  + 
+Sbjct: 66  YKELEAQDSRLYTANGLLKMLDRNRRIKRAPCRWQD-------------------QDSIY 106
+
+Query: 149 DIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRA 208
+           +IV TCEERC+DA+ EDL+ RG  LNRPV++INVDIKDNHEEA+VGG+ ILDL N L   
+Sbjct: 107 NIVITCEERCYDAICEDLYRRGETLNRPVYLINVDIKDNHEEASVGGKAILDLVNKL--- 163
+
+Query: 209 AAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+             E +DK+                      ++A++Q   P LP  +T+ +F
+Sbjct: 164 -TEAQDKLEEL----------------FPSIMADFQSNHPKLPVLYTIHFF 197
+
+
+>SPCC737.04.1:pep pep:known chromosome:ASM294v2:III:1891328:1893817:1 gene:SPCC737.04
+           transcript:SPCC737.04.1 description:"S. pombe specific
+           UPF0300 family protein 6"
+          Length = 421
+
+ Score = 27.7 bits (60), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 22/40 (55%)
+
+Query: 145 AGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDI 184
+            G+VDIV   +++ +   VE + +  SP+   V+   VD+
+Sbjct: 105 GGLVDIVMRRQDKLYLKSVEQVSSEYSPMQEQVYEFKVDM 144
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 1,167,018
+Number of extensions: 45923
+Number of successful extensions: 89
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 87
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 2,387,769
+Length adjustment: 86
+Effective length of query: 173
+Effective length of database: 1,945,385
+Effective search space: 336551605
+Effective search space used: 336551605
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

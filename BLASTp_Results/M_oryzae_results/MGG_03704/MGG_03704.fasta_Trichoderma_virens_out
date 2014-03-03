@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK25214 pep:novel supercontig:ASM17099v1:3:494438:495251:-1 gen...   366   e-128
+EHK17322 pep:novel supercontig:ASM17099v1:89:1340231:1341085:1 g...    28   2.5  
+
+>EHK25214 pep:novel supercontig:ASM17099v1:3:494438:495251:-1
+           gene:TRIVIDRAFT_32134 transcript:EHK25214
+           description:"hypothetical protein"
+          Length = 253
+
+ Score =  366 bits (939), Expect = e-128,   Method: Compositional matrix adjust.
+ Identities = 184/246 (74%), Positives = 202/246 (82%), Gaps = 1/246 (0%)
+
+Query: 15  TNAAVEKPRDDG-FKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTIT 73
+           T A    P ++G +KLKFCTVCASNQNRSMEAHL+LS+ANYPVISFGTGSLVRLPGPTIT
+Sbjct: 8   TAAQNGSPNENGDYKLKFCTVCASNQNRSMEAHLRLSQANYPVISFGTGSLVRLPGPTIT 67
+
+Query: 74  QPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLE 133
+           QPNVY+FN TSYD+MYKELE KD RLY  NGILNML RNR VK GPERWQDW +G+PRL+
+Sbjct: 68  QPNVYQFNKTSYDSMYKELEAKDPRLYRNNGILNMLGRNRGVKWGPERWQDWPVGVPRLQ 127
+
+Query: 134 HASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAV 193
+           H SDRGSEGTE GVVD+VFTCEERCWDAV++DL  RGSPLNRPVHVINVDIKDNHEEA +
+Sbjct: 128 HTSDRGSEGTEGGVVDVVFTCEERCWDAVIDDLLNRGSPLNRPVHVINVDIKDNHEEAHI 187
+
+Query: 194 GGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPAT 253
+           GGQGILDLANSLN AAAEER  I                  RV +++A WQERWPNLP+T
+Sbjct: 188 GGQGILDLANSLNAAAAEERGAIGPAAFDSGSAAARASFDERVPEIIAAWQERWPNLPST 247
+
+Query: 254 WTLAWF 259
+           WTLAWF
+Sbjct: 248 WTLAWF 253
+
+
+>EHK17322 pep:novel supercontig:ASM17099v1:89:1340231:1341085:1
+           gene:TRIVIDRAFT_66259 transcript:EHK17322
+           description:"hypothetical protein"
+          Length = 284
+
+ Score = 28.1 bits (61), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 24/83 (28%), Positives = 36/83 (43%), Gaps = 9/83 (10%)
+
+Query: 50  SKANYPVISFGTGSLVRLPG--PTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILN 107
+           SKA   ++SFG  S V+  G    + +P  ++      D  ++   G D       GI +
+Sbjct: 150 SKAALRLLSFGLASEVKPLGIKHLLVEPGRFRTELLKQDGNFRTSNGSD-------GIAD 202
+
+Query: 108 MLERNRNVKRGPERWQDWQIGIP 130
+             E +  VK+G  R  D Q G P
+Sbjct: 203 YREISEAVKQGIARESDKQPGDP 225
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 3,103,148
+Number of extensions: 124973
+Number of successful extensions: 245
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 244
+Number of HSP's successfully gapped: 2
+Length of query: 259
+Length of database: 5,836,678
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,695,326
+Effective search space: 784119442
+Effective search space used: 784119442
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

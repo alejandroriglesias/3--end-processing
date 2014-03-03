@@ -1,0 +1,517 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09505:Polyadenylate-binding protein, cytoplasmic and
+nuclear
+         (762 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC57A7.04c.1:pep pep:known chromosome:ASM294v2:I:1540606:15452...   548   0.0  
+SPAC31G5.01.1:pep pep:known chromosome:ASM294v2:I:2989280:299081...   117   4e-29
+SPBC660.15.1:pep pep:known chromosome:ASM294v2:II:224297:228689:...    87   1e-18
+SPBC23E6.01c.1:pep pep:known chromosome:ASM294v2:II:3835397:3837...    84   1e-17
+SPAC140.02.1:pep pep:known chromosome:ASM294v2:I:1897448:1899491...    76   6e-15
+SPAC328.05.1:pep pep:known chromosome:ASM294v2:I:3484543:3486956...    75   7e-15
+SPAC17A2.09c.1:pep pep:known chromosome:ASM294v2:I:3570007:35723...    74   4e-14
+SPAC25G10.01.1:pep pep:known chromosome:ASM294v2:I:4295138:42973...    62   4e-11
+SPAC1610.03c.1:pep pep:known chromosome:ASM294v2:I:1792433:17949...    62   1e-10
+SPAC19G12.07c.1:pep pep:known chromosome:ASM294v2:I:4053604:4056...    62   2e-10
+SPAC343.07.1:pep pep:known chromosome:ASM294v2:I:1651012:1652981...    60   7e-10
+SPBC4F6.14.1:pep pep:known chromosome:ASM294v2:II:2716857:271912...    60   7e-10
+SPBC1861.04c.1:pep pep:known chromosome:ASM294v2:II:4135960:4139...    59   2e-09
+SPBC660.11.1:pep pep:known chromosome:ASM294v2:II:215127:216901:...    57   3e-09
+SPBC18H10.03.1:pep pep:known chromosome:ASM294v2:II:1772999:1774...    55   1e-08
+SPBP22H7.02c.1:pep pep:known chromosome:ASM294v2:II:1433225:1436...    55   3e-08
+SPBC146.07.1:pep pep:known chromosome:ASM294v2:II:1013254:101517...    54   5e-08
+SPBC428.12c.1:pep pep:known chromosome:ASM294v2:II:467841:468829...    48   4e-07
+SPBC29A10.02.1:pep pep:known chromosome:ASM294v2:II:2536164:2538...    50   1e-06
+SPAC22E12.02.1:pep pep:known chromosome:ASM294v2:I:5021952:50241...    47   2e-06
+SPBC3B9.11c.1:pep pep:known chromosome:ASM294v2:II:4006607:40080...    48   3e-06
+SPAC23A1.09.1:pep pep:known chromosome:ASM294v2:I:4093921:409514...    45   3e-06
+SPBC887.05c.1:pep pep:known chromosome:ASM294v2:II:3548811:35499...    46   7e-06
+SPCC74.09.1:pep pep:known chromosome:ASM294v2:III:1917714:192273...    47   7e-06
+SPBC17G9.05.1:pep pep:known chromosome:ASM294v2:II:2177733:21794...    46   1e-05
+SPAC644.16.1:pep pep:known chromosome:ASM294v2:I:2701588:2703006...    46   2e-05
+SPBC13G1.14c.1:pep pep:known chromosome:ASM294v2:II:3726995:3728...    45   2e-05
+SPAC16E8.06c.1:pep pep:known chromosome:ASM294v2:I:3508514:35100...    45   2e-05
+SPAC3G6.04.1:pep pep:known chromosome:ASM294v2:I:5385758:5387132...    45   3e-05
+SPAC2F7.11.1:pep pep:known chromosome:ASM294v2:I:555277:559051:1...    44   5e-05
+SPAC13G7.13c.1:pep pep:known chromosome:ASM294v2:I:2318492:23226...    44   5e-05
+SPCC306.04c.1:pep pep:known chromosome:ASM294v2:III:412293:41603...    43   1e-04
+SPBC29A3.07c.1:pep pep:known chromosome:ASM294v2:II:2049997:2050...    40   2e-04
+SPAC16.02c.1:pep pep:known chromosome:ASM294v2:I:4424648:4427046...    42   2e-04
+SPBC18H10.04c.1:pep pep:known chromosome:ASM294v2:II:1775169:177...    42   3e-04
+SPBC1289.12.1:pep pep:known chromosome:ASM294v2:II:4405835:44078...    41   3e-04
+SPBC16E9.12c.1:pep pep:known chromosome:ASM294v2:II:1939371:1940...    39   5e-04
+SPBC13A2.01c.1:pep pep:known chromosome:ASM294v2:II:3397894:3400...    38   0.002
+SPBC16A3.18.1:pep pep:known chromosome:ASM294v2:II:4261818:42641...    39   0.002
+SPCC1827.05c.1:pep pep:known chromosome:ASM294v2:III:2384639:238...    38   0.003
+SPAC19A8.13.1:pep pep:known chromosome:ASM294v2:I:2461151:246226...    37   0.005
+SPBC365.04c.1:pep pep:known chromosome:ASM294v2:II:2504152:25051...    37   0.007
+SPAC12G12.03.1:pep pep:known chromosome:ASM294v2:I:342090:345182...    37   0.013
+SPBP8B7.11.1:pep pep:known chromosome:ASM294v2:II:3652214:365425...    36   0.015
+SPAC57A7.13.1:pep pep:known chromosome:ASM294v2:I:1512683:151483...    36   0.018
+SPBC8D2.09c.1:pep pep:known chromosome:ASM294v2:II:1374989:13757...    33   0.029
+SPBP16F5.06.1:pep pep:known chromosome:ASM294v2:II:1907890:19099...    35   0.032
+SPBP35G2.14.1:pep pep:known chromosome:ASM294v2:II:992679:996435...    34   0.062
+SPAC17H9.04c.1:pep pep:known chromosome:ASM294v2:I:2009345:20119...    34   0.064
+SPAC222.18.1:pep pep:known chromosome:ASM294v2:I:978722:979643:1...    32   0.069
+SPCC126.11c.1:pep pep:known chromosome:ASM294v2:III:2135604:2136...    33   0.10 
+SPBC11C11.08.1:pep pep:known chromosome:ASM294v2:II:3362789:3364...    33   0.13 
+SPBC4B4.07c.1:pep pep:known chromosome:ASM294v2:II:3423222:34246...    31   0.52 
+SPAP8A3.06.1:pep pep:known chromosome:ASM294v2:I:5325582:5326435...    30   0.79 
+SPBC1289.02c.1:pep pep:known chromosome:ASM294v2:II:4384037:4385...    30   1.0  
+SPAC26H5.10c.1:pep pep:known chromosome:ASM294v2:I:4141281:41423...    29   1.3  
+SPBC336.10c.1:pep pep:known chromosome:ASM294v2:II:2758645:27592...    29   1.4  
+SPCC550.02c.1:pep pep:known chromosome:ASM294v2:III:1186393:1187...    29   1.8  
+SPBC56F2.08c.1:pep pep:known chromosome:ASM294v2:II:4096919:4100...    30   1.8  
+SPBC839.10.1:pep pep:known chromosome:ASM294v2:II:618349:620884:...    29   2.1  
+SPAC23D3.12.1:pep pep:known chromosome:ASM294v2:I:4362493:436512...    29   2.2  
+SPBC16G5.16.1:pep pep:known chromosome:ASM294v2:II:4243768:42474...    29   2.2  
+SPAC3H8.09c.1:pep pep:known chromosome:ASM294v2:I:604312:607742:...    29   3.0  
+SPAC10F6.06.1:pep pep:known chromosome:ASM294v2:I:1217077:121822...    27   5.7  
+SPBC28E12.05.1:pep pep:known chromosome:ASM294v2:II:1844942:1850...    27   9.2  
+
+>SPAC57A7.04c.1:pep pep:known chromosome:ASM294v2:I:1540606:1545221:1 gene:SPAC57A7.04c
+           transcript:SPAC57A7.04c.1 description:"mRNA export
+           shuttling protein"
+          Length = 653
+
+ Score =  548 bits (1411), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 271/457 (59%), Positives = 321/457 (70%), Gaps = 51/457 (11%)
+
+Query: 63  LYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTADGEKALEEL 122
+           LYVGELDPSVTEAMLFELF+ IG VASIRVCRDAVTRRSLGYAYVN++   DGEKAL+EL
+Sbjct: 82  LYVGELDPSVTEAMLFELFNSIGPVASIRVCRDAVTRRSLGYAYVNFHNMEDGEKALDEL 141
+
+Query: 123 NYTLIKGRPCRIMWSQRDPALRKTGQGNVFIKNLDVAIDNKALHDTFAAFGNILSCKVAQ 182
+           NYTLIKGRPCRIMWSQRDP+LRK G GNVFIKNLD AIDNKALHDTF+AFG ILSCKVA 
+Sbjct: 142 NYTLIKGRPCRIMWSQRDPSLRKMGTGNVFIKNLDPAIDNKALHDTFSAFGKILSCKVAV 201
+
+Query: 183 DENGNSKGYGFVHYETDEAASQAIKHVNGMLLNEKKVYVGHHIPKKDRQSKFDEMKANFT 242
+           DE GN+KGYGFVH+++ E+A+ AI+HVNGMLLN+KKVYVGHH+ +++RQSK + +KANFT
+Sbjct: 202 DELGNAKGYGFVHFDSVESANAAIEHVNGMLLNDKKVYVGHHVSRRERQSKVEALKANFT 261
+
+Query: 243 NIYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQE 302
+           N+Y+KN++ E+T+ EF  LF ++G++TS SL +DQ   K RGFGFVN+ +HE A KAV E
+Sbjct: 262 NVYIKNLDTEITEQEFSDLFGQFGEITSLSLVKDQ-NDKPRGFGFVNYANHECAQKAVDE 320
+
+Query: 303 LNEKEFHGQNLYVGRAQKKHEREEELRKSYEAARQEKASKYQGVNLYIKNLDDEVDDEKL 362
+           LN+KE+ G+ LYVGRAQKKHEREEELRK YE  + EK +KYQGVNL+IKNL DEVDDE+L
+Sbjct: 321 LNDKEYKGKKLYVGRAQKKHEREEELRKRYEQMKLEKMNKYQGVNLFIKNLQDEVDDERL 380
+
+Query: 363 RQLFSEFGPITSAKVMRDSITXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 422
+           +  FS FG ITSAK+M D                                          
+Sbjct: 381 KAEFSAFGTITSAKIMTDE----------------------------------------- 399
+
+Query: 423 XXXXXXXXXXXXFGFVCFANPDDATKAVAEMNQRMVNNKPLYVALAQRKDVRKNQLEQSI 482
+                       FGFVC+  P++A KAV EMNQRM+  KPLYVALAQRK+VR++QLE  I
+Sbjct: 400 ------QGKSKGFGFVCYTTPEEANKAVTEMNQRMLAGKPLYVALAQRKEVRRSQLEAQI 453
+
+Query: 483 XXXXX---XXXXXXXXXXXXXXXXXXXPVFYGPGSQP 516
+                                      P+ YGPG  P
+Sbjct: 454 QARNQFRLQQQVAAAAGIPAVQYGATGPLIYGPGGYP 490
+
+
+
+ Score = 77.4 bits (189), Expect = 2e-15,   Method: Compositional matrix adjust.
+ Identities = 48/140 (34%), Positives = 69/140 (49%), Gaps = 16/140 (11%)
+
+Query: 243 NIYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQE 302
+           ++YV  ++P VT+     LF   G V S  + RD  T +S G+ +VNF + ED  KA+ E
+Sbjct: 81  SLYVGELDPSVTEAMLFELFNSIGPVASIRVCRDAVTRRSLGYAYVNFHNMEDGEKALDE 140
+
+Query: 303 LNEKEFHGQNLYVGRAQKKHEREEELRKSYEAARQEKASKYQGVNLYIKNLDDEVDDEKL 362
+           LN     G+   +  +Q    R+  LRK                N++IKNLD  +D++ L
+Sbjct: 141 LNYTLIKGRPCRIMWSQ----RDPSLRKMGTG------------NVFIKNLDPAIDNKAL 184
+
+Query: 363 RQLFSEFGPITSAKVMRDSI 382
+              FS FG I S KV  D +
+Sbjct: 185 HDTFSAFGKILSCKVAVDEL 204
+
+
+
+ Score = 72.8 bits (177), Expect = 7e-14,   Method: Compositional matrix adjust.
+ Identities = 36/74 (48%), Positives = 54/74 (72%), Gaps = 2/74 (2%)
+
+Query: 670 LAAVADNPGQQKQILGEAIFPKIQAIHPELAGKITGMLLEMDNTELVALVENDGALRSKV 729
+           LAAV +    +KQ+LGE ++PK+     +L+GKITGMLLEM N+EL+ L+E+D AL  +V
+Sbjct: 577 LAAVPEE--SRKQVLGELLYPKVFVREEKLSGKITGMLLEMPNSELLELLEDDSALNERV 634
+
+Query: 730 DEALAVYDDYVRQQ 743
+           +EA+ V  ++V Q+
+Sbjct: 635 NEAIGVLQEFVDQE 648
+
+
+
+ Score = 39.3 bits (90), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 26/124 (20%), Positives = 45/124 (36%), Gaps = 46/124 (37%)
+
+Query: 347 NLYIKNLDDEVDDEKLRQLFSEFGPITSAKVMRDSITXXXXXXXXXXXXXXXXXXXXXXX 406
+           +LY+  LD  V +  L +LF+  GP+ S +V RD++T                       
+Sbjct: 81  SLYVGELDPSVTEAMLFELFNSIGPVASIRVCRDAVT----------------------- 117
+
+Query: 407 XXXXXXXXXXXXXXXXXXXXXXXXXXXXFGFVCFANPDDATKAVAEMNQRMVNNKPLYVA 466
+                                       + +V F N +D  KA+ E+N  ++  +P  + 
+Sbjct: 118 -----------------------RRSLGYAYVNFHNMEDGEKALDELNYTLIKGRPCRIM 154
+
+Query: 467 LAQR 470
+            +QR
+Sbjct: 155 WSQR 158
+
+
+>SPAC31G5.01.1:pep pep:known chromosome:ASM294v2:I:2989280:2990817:1 gene:SPAC31G5.01
+           transcript:SPAC31G5.01.1 description:"U2
+           snRNP-associated RNA-binding protein Sap49"
+          Length = 335
+
+ Score =  117 bits (294), Expect = 4e-29,   Method: Compositional matrix adjust.
+ Identities = 61/162 (37%), Positives = 95/162 (58%), Gaps = 1/162 (0%)
+
+Query: 63  LYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTADGEKALEEL 122
+           +Y+G LD  VT+++LFEL  Q G V +I + RD V     G+ +  +    D E A + L
+Sbjct: 13  IYLGNLDEKVTDSILFELCLQAGPVVNIHIPRDRVRNSHNGFGFCEFLHEQDVEYACQIL 72
+
+Query: 123 NYTLIKGRPCRIMWSQRDPALRKTGQGNVFIKNLDVAIDNKALHDTFAAFGNIL-SCKVA 181
+           N   + G+P R+  + +D  +      N+F+ NLD  +D + L+DTF+A G ++ + +VA
+Sbjct: 73  NQVKLFGKPIRVNRASQDRGVNTLIGANLFVGNLDPLVDERVLYDTFSALGQLVKAPQVA 132
+
+Query: 182 QDENGNSKGYGFVHYETDEAASQAIKHVNGMLLNEKKVYVGH 223
+           +DENG SKGYGFV Y++ E A  AI+ +N   L  K + V +
+Sbjct: 133 RDENGRSKGYGFVSYDSFETADAAIEAMNNQFLMNKPITVSY 174
+
+
+
+ Score = 62.4 bits (150), Expect = 6e-11,   Method: Compositional matrix adjust.
+ Identities = 41/138 (29%), Positives = 62/138 (44%), Gaps = 17/138 (12%)
+
+Query: 244 IYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQEL 303
+           IY+ N++ +VTD     L  + G V +  + RD+      GFGF  F   +D   A Q L
+Sbjct: 13  IYLGNLDEKVTDSILFELCLQAGPVVNIHIPRDRVRNSHNGFGFCEFLHEQDVEYACQIL 72
+
+Query: 304 NEKEFHGQNLYVGRAQKKHEREEELRKSYEAARQEKASKYQGVNLYIKNLDDEVDDEKLR 363
+           N+ +  G+ + V RA                ++    +   G NL++ NLD  VD+  L 
+Sbjct: 73  NQVKLFGKPIRVNRA----------------SQDRGVNTLIGANLFVGNLDPLVDERVLY 116
+
+Query: 364 QLFSEFGPITSA-KVMRD 380
+             FS  G +  A +V RD
+Sbjct: 117 DTFSALGQLVKAPQVARD 134
+
+
+
+ Score = 60.1 bits (144), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 46/180 (25%), Positives = 90/180 (50%), Gaps = 11/180 (6%)
+
+Query: 151 VFIKNLDVAIDNKALHDTFAAFGNILSCKVAQDENGNS-KGYGFVHYETDEAASQAIKHV 209
+           +++ NLD  + +  L +     G +++  + +D   NS  G+GF  +  ++    A +  
+Sbjct: 13  IYLGNLDEKVTDSILFELCLQAGPVVNIHIPRDRVRNSHNGFGFCEFLHEQDVEYACQ-- 70
+
+Query: 210 NGMLLNEKKVYVGHHIPKKDRQSKFDEMKANF-TNIYVKNINPEVTDDEFRTLFEKYGD- 267
+              +LN+ K++ G  I + +R S+   +      N++V N++P V +      F   G  
+Sbjct: 71  ---ILNQVKLF-GKPI-RVNRASQDRGVNTLIGANLFVGNLDPLVDERVLYDTFSALGQL 125
+
+Query: 268 VTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQELNEKEFHGQNLYVGRAQKKHEREEE 327
+           V +  +ARD E G+S+G+GFV++ S E A  A++ +N +    + + V  A K+  + E 
+Sbjct: 126 VKAPQVARD-ENGRSKGYGFVSYDSFETADAAIEAMNNQFLMNKPITVSYAFKREGKGER 184
+
+
+
+ Score = 32.3 bits (72), Expect = 0.19,   Method: Compositional matrix adjust.
+ Identities = 13/41 (31%), Positives = 24/41 (58%)
+
+Query: 342 KYQGVNLYIKNLDDEVDDEKLRQLFSEFGPITSAKVMRDSI 382
+           + Q   +Y+ NLD++V D  L +L  + GP+ +  + RD +
+Sbjct: 7   RNQDATIYLGNLDEKVTDSILFELCLQAGPVVNIHIPRDRV 47
+
+
+
+ Score = 27.7 bits (60), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 12/38 (31%), Positives = 24/38 (63%)
+
+Query: 435 FGFVCFANPDDATKAVAEMNQRMVNNKPLYVALAQRKD 472
+           +GFV + + + A  A+  MN + + NKP+ V+ A +++
+Sbjct: 142 YGFVSYDSFETADAAIEAMNNQFLMNKPITVSYAFKRE 179
+
+
+>SPBC660.15.1:pep pep:known chromosome:ASM294v2:II:224297:228689:1 gene:SPBC660.15
+           transcript:SPBC660.15.1 description:"mRNA cleavage
+           factor complex subunit (predicted)"
+          Length = 474
+
+ Score = 87.0 bits (214), Expect = 1e-18,   Method: Compositional matrix adjust.
+ Identities = 50/177 (28%), Positives = 94/177 (53%), Gaps = 18/177 (10%)
+
+Query: 149 GNVFIKNLDVAIDNKALHDTFAAFGNILSCKVAQDEN-GNSKGYGFVHYETDEAASQAIK 207
+           G +FI  L+    + +L D F  FG +L C V +D   G S+G+GF+ ++  +  ++ + 
+Sbjct: 163 GKMFIGGLNWETTDDSLRDYFEQFGEVLDCTVMRDSTTGRSRGFGFLTFKNPKCVNEVMS 222
+
+Query: 208 ---HVNGMLLNEKKVYVGHHIPKKDRQSKFDEMKANFTNIYVKNINPEVTDDEFRTLFEK 264
+              H++G +++ K+      IP+++++            ++V  +  + T++EFR  F +
+Sbjct: 223 KEHHLDGKIIDPKRA-----IPREEQEKT--------AKMFVGGVPGDCTEEEFRNFFNQ 269
+
+Query: 265 YGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQELNEKEFHGQNLYVGRAQKK 321
+           +G V  ++L  D++TG+ RGFGFV +  +E A +A         HG+ + V RA  K
+Sbjct: 270 FGRVLDATLMMDKDTGRPRGFGFVTY-ENESAVEATMSQPYITIHGKPVEVKRATPK 325
+
+
+
+ Score = 71.2 bits (173), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 44/142 (30%), Positives = 72/142 (50%), Gaps = 24/142 (16%)
+
+Query: 244 IYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQEL 303
+           +++  +N E TDD  R  FE++G+V   ++ RD  TG+SRGFGF+ F +     K V E+
+Sbjct: 165 MFIGGLNWETTDDSLRDYFEQFGEVLDCTVMRDSTTGRSRGFGFLTFKN----PKCVNEV 220
+
+Query: 304 NEKEFH--GQNLYVGRAQKKHEREEELRKSYEAARQEKASKYQGVNLYIKNLDDEVDDEK 361
+             KE H  G+ +   RA  + E             QEK +K     +++  +  +  +E+
+Sbjct: 221 MSKEHHLDGKIIDPKRAIPREE-------------QEKTAK-----MFVGGVPGDCTEEE 262
+
+Query: 362 LRQLFSEFGPITSAKVMRDSIT 383
+            R  F++FG +  A +M D  T
+Sbjct: 263 FRNFFNQFGRVLDATLMMDKDT 284
+
+
+
+ Score = 55.8 bits (133), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 45/196 (22%), Positives = 86/196 (43%), Gaps = 16/196 (8%)
+
+Query: 63  LYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTADGEKALEEL 122
+           +++G L+   T+  L + F Q G V    V RD+ T RS G+ ++ +       + + + 
+Sbjct: 165 MFIGGLNWETTDDSLRDYFEQFGEVLDCTVMRDSTTGRSRGFGFLTFKNPKCVNEVMSKE 224
+
+Query: 123 NYTLIKGR---PCRIMWSQRDPALRKTGQGNVFIKNLDVAIDNKALHDTFAAFGNILSCK 179
+           ++  + G+   P R +     P   +     +F+  +      +   + F  FG +L   
+Sbjct: 225 HH--LDGKIIDPKRAI-----PREEQEKTAKMFVGGVPGDCTEEEFRNFFNQFGRVLDAT 277
+
+Query: 180 VAQDEN-GNSKGYGFVHYETDEAASQAIKHVNGMLLNEKKVYVGHHIPKKDRQSKFDEMK 238
+           +  D++ G  +G+GFV YE +E+A +A      + ++ K V V    PK   +   D  +
+Sbjct: 278 LMMDKDTGRPRGFGFVTYE-NESAVEATMSQPYITIHGKPVEVKRATPKASLRDSHDRHQ 336
+
+Query: 239 ----ANFTNIYVKNIN 250
+                N    Y +N+N
+Sbjct: 337 HGYHGNANPYYAQNMN 352
+
+
+>SPBC23E6.01c.1:pep pep:known chromosome:ASM294v2:II:3835397:3837278:-1
+           gene:SPBC23E6.01c transcript:SPBC23E6.01c.1
+           description:"mRNA processing factor"
+          Length = 473
+
+ Score = 84.0 bits (206), Expect = 1e-17,   Method: Compositional matrix adjust.
+ Identities = 57/271 (21%), Positives = 127/271 (46%), Gaps = 37/271 (13%)
+
+Query: 63  LYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTADGEKALEEL 122
+           L++GEL+P VTEA + ++++ +G    +++ R+  T  + GY +V + +  +   A+  +
+Sbjct: 95  LWMGELEPWVTEAFIQQVWNTLGKAVKVKLIRNRYTGMNAGYCFVEFASPHEASSAM-SM 153
+
+Query: 123 NYTLIKG--RPCRIMWSQ----RDPALRKTGQGNVFIKNLDVAIDNKALHDTFAA-FGNI 175
+           N   I G     ++ W+     R+ ++ K  + ++F+ +L   ++   ++  FA+ + + 
+Sbjct: 154 NNKPIPGTNHLFKLNWASGGGLREKSISKASEYSIFVGDLSPNVNEFDVYSLFASRYNSC 213
+
+Query: 176 LSCKVAQDENGN-SKGYGFVHYETDEAASQAIKHVNGMLLNEKKVYVGHHIPKKDRQ--S 232
+            S K+  D   N S+GYGFV +  +     A+  + G +  ++ + VG   PK      S
+Sbjct: 214 KSAKIMTDPQTNVSRGYGFVRFTDENDQKSALAEMQGQICGDRPIRVGLATPKSKAHVFS 273
+
+Query: 233 KFDEMKANF--------------------TNIYVKNINPEVTDDEFRTLFEKYGDVTSSS 272
+             + +  +                     + ++V  ++  V+++E + LF+ +G++    
+Sbjct: 274 PVNVVPVSMPPVGFYSAAQPVPQFADTANSTVFVGGLSKFVSEEELKYLFQNFGEIVYVK 333
+
+Query: 273 LARDQETGKSRGFGFVNFTSHEDASKAVQEL 303
+           +         +G GFV F + + A  A+ +L
+Sbjct: 334 IP------PGKGCGFVQFVNRQSAEIAINQL 358
+
+
+
+ Score = 62.4 bits (150), Expect = 1e-10,   Method: Compositional matrix adjust.
+ Identities = 57/246 (23%), Positives = 107/246 (43%), Gaps = 25/246 (10%)
+
+Query: 151 VFIKNLDVAIDNKALHDTFAAFGNILSCKVAQDE-NGNSKGYGFVHYETDEAASQAIKHV 209
+           +++  L+  +    +   +   G  +  K+ ++   G + GY FV + +   AS A    
+Sbjct: 95  LWMGELEPWVTEAFIQQVWNTLGKAVKVKLIRNRYTGMNAGYCFVEFASPHEASSA---- 150
+
+Query: 210 NGMLLNEKKVYVGHHIPKKDRQS-----KFDEMKANFTNIYVKNINPEVTDDEFRTLF-E 263
+             M +N K +   +H+ K +  S     +    KA+  +I+V +++P V + +  +LF  
+Sbjct: 151 --MSMNNKPIPGTNHLFKLNWASGGGLREKSISKASEYSIFVGDLSPNVNEFDVYSLFAS 208
+
+Query: 264 KYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQELNEKEFHGQNLYVGRAQKKHE 323
+           +Y    S+ +  D +T  SRG+GFV FT   D   A+ E+  +    + + VG A  K +
+Sbjct: 209 RYNSCKSAKIMTDPQTNVSRGYGFVRFTDENDQKSALAEMQGQICGDRPIRVGLATPKSK 268
+
+Query: 324 RE-----------EELRKSYEAARQ-EKASKYQGVNLYIKNLDDEVDDEKLRQLFSEFGP 371
+                              Y AA+   + +      +++  L   V +E+L+ LF  FG 
+Sbjct: 269 AHVFSPVNVVPVSMPPVGFYSAAQPVPQFADTANSTVFVGGLSKFVSEEELKYLFQNFGE 328
+
+Query: 372 ITSAKV 377
+           I   K+
+Sbjct: 329 IVYVKI 334
+
+
+
+ Score = 60.5 bits (145), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 46/186 (24%), Positives = 73/186 (39%), Gaps = 34/186 (18%)
+
+Query: 63  LYVGELDPSVTEAMLFELF-SQIGSVASIRVCRDAVTRRSLGYAYVNYNTTADGEKALEE 121
+           ++VG+L P+V E  ++ LF S+  S  S ++  D  T  S GY +V +    D + AL E
+Sbjct: 188 IFVGDLSPNVNEFDVYSLFASRYNSCKSAKIMTDPQTNVSRGYGFVRFTDENDQKSALAE 247
+
+Query: 122 LNYTLIKGRPCRI----------------------------MWSQRDPALRKTGQGNVFI 153
+           +   +   RP R+                              +Q  P    T    VF+
+Sbjct: 248 MQGQICGDRPIRVGLATPKSKAHVFSPVNVVPVSMPPVGFYSAAQPVPQFADTANSTVFV 307
+
+Query: 154 KNLDVAIDNKALHDTFAAFGNILSCKVAQDENGNSKGYGFVHYETDEAASQAIKHVNGML 213
+             L   +  + L   F  FG I+  K+        KG GFV +   ++A  AI  + G  
+Sbjct: 308 GGLSKFVSEEELKYLFQNFGEIVYVKIPP-----GKGCGFVQFVNRQSAEIAINQLQGYP 362
+
+Query: 214 LNEKKV 219
+           L   ++
+Sbjct: 363 LGNSRI 368
+
+
+
+ Score = 53.1 bits (126), Expect = 8e-08,   Method: Compositional matrix adjust.
+ Identities = 56/243 (23%), Positives = 94/243 (38%), Gaps = 62/243 (25%)
+
+Query: 232 SKFDEMKANFTNIYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFT 291
+           S  DE     T +++  + P VT+   + ++   G      L R++ TG + G+ FV F 
+Sbjct: 83  SSRDENVYQKTTLWMGELEPWVTEAFIQQVWNTLGKAVKVKLIRNRYTGMNAGYCFVEFA 142
+
+Query: 292 SHEDASKAVQELNEKEFHGQN--LYVGRAQKKHEREEELRKSYEAARQEKASKYQGVNLY 349
+           S  +AS A+  +N K   G N    +  A     RE+ +          KAS+Y   +++
+Sbjct: 143 SPHEASSAM-SMNNKPIPGTNHLFKLNWASGGGLREKSI---------SKASEY---SIF 189
+
+Query: 350 IKNLDDEVDDEKLRQLF-SEFGPITSAKVMRDSITXXXXXXXXXXXXXXXXXXXXXXXXX 408
+           + +L   V++  +  LF S +    SAK+M D  T                         
+Sbjct: 190 VGDLSPNVNEFDVYSLFASRYNSCKSAKIMTDPQTNVSRG-------------------- 229
+
+Query: 409 XXXXXXXXXXXXXXXXXXXXXXXXXXFGFVCFANPDDATKAVAEMNQRMVNNKPLYVALA 468
+                                     +GFV F + +D   A+AEM  ++  ++P+ V LA
+Sbjct: 230 --------------------------YGFVRFTDENDQKSALAEMQGQICGDRPIRVGLA 263
+
+Query: 469 QRK 471
+             K
+Sbjct: 264 TPK 266
+
+
+>SPAC140.02.1:pep pep:known chromosome:ASM294v2:I:1897448:1899491:1 gene:SPAC140.02
+           transcript:SPAC140.02.1 description:"nucleolar protein
+           required for rRNA processing"
+          Length = 500
+
+ Score = 75.9 bits (185), Expect = 6e-15,   Method: Compositional matrix adjust.
+ Identities = 55/185 (29%), Positives = 91/185 (49%), Gaps = 15/185 (8%)
+
+Query: 130 RPCRIMWSQRDPALRKTGQGNVFIKNLDVAIDNKALHDTFAAFGNILSCKVAQD-ENGNS 188
+           RP +I      P+        VF+  L   +D++ L   F  +G I+  +V  D ++G S
+Sbjct: 248 RPAKIT----KPSQDSNETCTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRS 303
+
+Query: 189 KGYGFVHYETDEAAS-----QAIKHVNGMLLNEKKVYVGHHIPK---KDRQSKF-DEMKA 239
+           KGYG+V +ET EAA         K ++G ++N          P+   + R   F D++  
+Sbjct: 304 KGYGYVDFETPEAAKAAVAANGTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSE 363
+
+Query: 240 NFTNIYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKA 299
+               ++V N++   T+D+  T F   GD+ S  L  D ++G+ +GFG+V F+  + A K 
+Sbjct: 364 PSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKC 423
+
+Query: 300 VQELN 304
+           V E+N
+Sbjct: 424 V-EMN 427
+
+
+
+ Score = 55.5 bits (132), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 45/181 (24%), Positives = 78/181 (43%), Gaps = 17/181 (9%)
+
+Query: 63  LYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTADGEKALEEL 122
+           ++VG L  +V +  L + F + G++   RV  D  + RS GY YV++ T    + A+   
+Sbjct: 265 VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN 324
+
+Query: 123 NYTLIKGRPCRIMWSQRDPA----LRKTGQGN-----------VFIKNLDVAIDNKALHD 167
+               I GR   +  S   PA      +   GN           VF+ NL        L  
+Sbjct: 325 GTKEIDGRMVNLDLSNPRPANPQPYAQQRAGNFGDQLSEPSDTVFVGNLSFNATEDDLST 384
+
+Query: 168 TFAAFGNILSCKVAQD-ENGNSKGYGFVHYETDEAASQAIKHVNGMLLNEKKVYVGHHIP 226
+            F   G+I S ++  D ++G  KG+G+V +   ++A + +  +NG  +  +   +    P
+Sbjct: 385 AFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKCV-EMNGHFIAGRPCRLDFSTP 443
+
+Query: 227 K 227
+           +
+Sbjct: 444 R 444
+
+
+
+ Score = 38.9 bits (89), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 21/68 (30%), Positives = 38/68 (55%)
+
+Query: 244 IYVKNINPEVTDDEFRTLFEKYGDVTSSSLARDQETGKSRGFGFVNFTSHEDASKAVQEL 303
+           ++V  ++  V D      FE+YG +  + +  D ++G+S+G+G+V+F + E A  AV   
+Sbjct: 265 VFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAAN 324
+
+Query: 304 NEKEFHGQ 311
+             KE  G+
+Sbjct: 325 GTKEIDGR 332
+
+
+
+ Score = 29.6 bits (65), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 20/35 (57%)
+
+Query: 346 VNLYIKNLDDEVDDEKLRQLFSEFGPITSAKVMRD 380
+             +++  L   VDD+ L Q F E+G I  A+V+ D
+Sbjct: 263 CTVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMD 297
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.313    0.131    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,507,076
+Number of extensions: 95358
+Number of successful extensions: 568
+Number of sequences better than 10.0: 79
+Number of HSP's gapped: 492
+Number of HSP's successfully gapped: 199
+Length of query: 762
+Length of database: 2,387,769
+Length adjustment: 96
+Effective length of query: 666
+Effective length of database: 1,893,945
+Effective search space: 1261367370
+Effective search space used: 1261367370
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

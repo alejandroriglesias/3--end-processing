@@ -1,0 +1,287 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06881:Putative uncharacterized protein
+         (568 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU44493 pep:novel supercontig:GCA_000149985.1:supercont1.17:327...   208   1e-60
+EDU50848 pep:novel supercontig:GCA_000149985.1:supercont1.8:1187...    92   5e-20
+EDU40887 pep:novel supercontig:GCA_000149985.1:supercont1.1:4042...    79   9e-16
+EDU51034 pep:novel supercontig:GCA_000149985.1:supercont1.8:1760...    74   2e-14
+EDU43116 pep:novel supercontig:GCA_000149985.1:supercont1.12:958...    73   6e-14
+EDU50895 pep:novel supercontig:GCA_000149985.1:supercont1.8:1309...    66   1e-12
+EDU40415 pep:novel supercontig:GCA_000149985.1:supercont1.1:2683...    55   2e-08
+EDU39505 pep:novel supercontig:GCA_000149985.1:supercont1.1:1781...    54   9e-08
+EDU47515 pep:novel supercontig:GCA_000149985.1:supercont1.4:4851...    54   1e-07
+EDU41365 pep:novel supercontig:GCA_000149985.1:supercont1.1:5549...    49   2e-06
+EDU39480 pep:novel supercontig:GCA_000149985.1:supercont1.1:1089...    49   2e-06
+EDU47665 pep:novel supercontig:GCA_000149985.1:supercont1.4:1044...    49   2e-06
+EDU41712 pep:novel supercontig:GCA_000149985.1:supercont1.1:6656...    47   5e-06
+EDU41975 pep:novel supercontig:GCA_000149985.1:supercont1.10:601...    48   6e-06
+EDU50187 pep:novel supercontig:GCA_000149985.1:supercont1.7:1205...    46   2e-05
+EDU46666 pep:novel supercontig:GCA_000149985.1:supercont1.3:1332...    44   3e-05
+EDU44328 pep:novel supercontig:GCA_000149985.1:supercont1.16:516...    45   3e-05
+EDU49072 pep:novel supercontig:GCA_000149985.1:supercont1.5:2498...    43   3e-05
+EDU42325 pep:novel supercontig:GCA_000149985.1:supercont1.11:113...    43   2e-04
+EDU47272 pep:novel supercontig:GCA_000149985.1:supercont1.3:3052...    42   5e-04
+EDU47669 pep:novel supercontig:GCA_000149985.1:supercont1.4:1052...    41   7e-04
+EDU43813 pep:novel supercontig:GCA_000149985.1:supercont1.14:103...    38   0.002
+EDU48486 pep:novel supercontig:GCA_000149985.1:supercont1.5:7769...    40   0.002
+EDU39840 pep:novel supercontig:GCA_000149985.1:supercont1.1:1074...    38   0.002
+EDU44054 pep:novel supercontig:GCA_000149985.1:supercont1.15:718...    39   0.003
+EDU41403 pep:novel supercontig:GCA_000149985.1:supercont1.1:5643...    37   0.012
+EDU50972 pep:novel supercontig:GCA_000149985.1:supercont1.8:1554...    33   0.18 
+EDU46012 pep:novel supercontig:GCA_000149985.1:supercont1.22:220...    33   0.20 
+EDU46465 pep:novel supercontig:GCA_000149985.1:supercont1.3:7262...    33   0.29 
+EDU41458 pep:novel supercontig:GCA_000149985.1:supercont1.1:5805...    30   0.97 
+EDU41499 pep:novel supercontig:GCA_000149985.1:supercont1.1:5935...    31   1.1  
+EDU51406 pep:novel supercontig:GCA_000149985.1:supercont1.9:1170...    30   2.0  
+EDU49050 pep:novel supercontig:GCA_000149985.1:supercont1.5:2446...    29   2.5  
+
+>EDU44493 pep:novel supercontig:GCA_000149985.1:supercont1.17:327928:329256:-
+           1 gene:PTRG_11443 transcript:EDU44493
+           description:"heterogeneous nuclear ribonucleoprotein D0"
+          Length = 442
+
+ Score =  208 bits (530), Expect = 1e-60,   Method: Compositional matrix adjust.
+ Identities = 103/145 (71%), Positives = 115/145 (79%), Gaps = 16/145 (11%)
+
+Query: 151 MRDGTTGRSRGFGFLTFKDPKTVNIVMVKEHYLDGKI----------------IDPKRAI 194
+           MRD  TGRSRGFGFLTFKDPK VNIVMVKEHYLDGKI                IDPKRAI
+Sbjct: 1   MRDSATGRSRGFGFLTFKDPKCVNIVMVKEHYLDGKIVCKPSTITKLPANANEIDPKRAI 60
+
+Query: 195 PRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESE 254
+           PR+EQE+TSKIFVGGVSQE T+++F +FF QFGRVVDATLMMDK+TGRPRGFGFVTF+ +
+Sbjct: 61  PREEQERTSKIFVGGVSQEATEEDFTNFFKQFGRVVDATLMMDKETGRPRGFGFVTFDGD 120
+
+Query: 255 AGVEACLARDLEIHGKLIEVKKAQP 279
+           A V+A L   L+I GK IEVK+AQP
+Sbjct: 121 AAVDATLREPLQILGKQIEVKRAQP 145
+
+
+
+ Score = 74.7 bits (182), Expect = 1e-14,   Method: Compositional matrix adjust.
+ Identities = 34/77 (44%), Positives = 50/77 (64%)
+
+Query: 120 KMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVK 179
+           K+F+GG++ E T+E   ++F QFG V++ T+M D  TGR RGFGF+TF     V+  + +
+Sbjct: 70  KIFVGGVSQEATEEDFTNFFKQFGRVVDATLMMDKETGRPRGFGFVTFDGDAAVDATLRE 129
+
+Query: 180 EHYLDGKIIDPKRAIPR 196
+              + GK I+ KRA PR
+Sbjct: 130 PLQILGKQIEVKRAQPR 146
+
+
+>EDU50848 pep:novel supercontig:GCA_000149985.1:supercont1.8:1187131:1188656:
+           1 gene:PTRG_07929 transcript:EDU50848
+           description:"nuclear localization sequence-binding
+           protein"
+          Length = 475
+
+ Score = 92.0 bits (227), Expect = 5e-20,   Method: Compositional matrix adjust.
+ Identities = 53/181 (29%), Positives = 96/181 (53%), Gaps = 24/181 (13%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVM--V 178
+           +F+G ++W   ++ LR  F  FGE++ C V+ D  TGR++GFG++ F +          +
+Sbjct: 223 LFVGNMSWNIDEDWLRREFEGFGEIVGCRVITDRETGRAKGFGYVEFANAADAAKAQKEM 282
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQEK----------------TSKIFVGGVSQETTDQEFKDF 222
+            E+ LDG+ ++   + PR + +                 ++ +F+G VS E +++  ++ 
+Sbjct: 283 HEYELDGRQLNVDFSTPRAKPDANGGARANKYGDKRSPPSNTLFLGNVSFECSNESIQEV 342
+
+Query: 223 FAQFGRVVDATLMMDKDTGRPRGFGFVTFESE----AGVEACLARDLEIHGKLIEVKKAQ 278
+           FA++G +   +L  D+DTG  +GFG+V F S+    A +EA   +D  I G+ I +  A 
+Sbjct: 343 FAEYGSITRVSLPTDRDTGALKGFGYVDFSSQQEATAALEALNGQD--IGGRAIRIDYAT 400
+
+Query: 279 P 279
+           P
+Sbjct: 401 P 401
+
+
+>EDU40887 pep:novel supercontig:GCA_000149985.1:supercont1.1:4042918:4045032:
+           -1 gene:PTRG_01449 transcript:EDU40887
+           description:"polyadenylate-binding protein"
+          Length = 704
+
+ Score = 79.3 bits (194), Expect = 9e-16,   Method: Compositional matrix adjust.
+ Identities = 46/175 (26%), Positives = 90/175 (51%), Gaps = 20/175 (11%)
+
+Query: 119 GKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMV 178
+           G +FI  L+    +++L D F+ FG ++ C V +D   G S+G+GF+ ++  +  N  + 
+Sbjct: 136 GNVFIKNLDHAIDNKALHDTFAAFGNILSCKVAQD-ELGNSKGYGFVHYETAEAANNAI- 193
+
+Query: 179 KEHYLDGKIIDPKRA-----IPRDEQEKT--------SKIFVGGVSQETTDQEFKDFFAQ 225
+              +++G +++ K+      IP+ E+           + I+V  +  + +D++F+D F +
+Sbjct: 194 --KHVNGMLLNEKKVFVGHHIPKKERMSKFEEMKANFTNIYVKNIDLDVSDEDFRDLFEK 251
+
+Query: 226 FGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL--ARDLEIHGKLIEVKKAQ 278
+            G +  A++  D D G+ RGFGFV +       A +    D +  G+ + V +AQ
+Sbjct: 252 HGDITSASIARD-DQGKSRGFGFVNYIKHEAASAAVDALNDTDFRGQKLYVGRAQ 305
+
+
+
+ Score = 58.9 bits (141), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 40/171 (23%), Positives = 77/171 (45%), Gaps = 14/171 (8%)
+
+Query: 114 NSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTV 173
+           +++    +++G L+   T+  L + FS  G+V    V RD  T RS G+ ++ +   +  
+Sbjct: 43  HNQNSASLYVGELDPSVTEAMLFELFSSIGQVASIRVCRDAVTRRSLGYAYVNYNSSEDG 102
+
+Query: 174 NIVMVKEHY--LDGKIIDPKRAI-----PRDEQEKTSKIFVGGVSQETTDQEFKDFFAQF 226
+              + + +Y  + GK   P R +     P   +     +F+  +     ++   D FA F
+Sbjct: 103 EKALEELNYTVIKGK---PCRIMWSQRDPALRKTGQGNVFIKNLDHAIDNKALHDTFAAF 159
+
+Query: 227 GRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLARDLEIHGKLIEVKKA 277
+           G ++   +  D + G  +G+GFV +E+    EA       ++G L+  KK 
+Sbjct: 160 GNILSCKVAQD-ELGNSKGYGFVHYET---AEAANNAIKHVNGMLLNEKKV 206
+
+
+
+ Score = 52.0 bits (123), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 31/137 (22%), Positives = 66/137 (48%), Gaps = 21/137 (15%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTF--KDPKTVNIVMV 178
+           +++  ++ + +DE  RD F + G++   ++ RD   G+SRGFGF+ +   +  +  +  +
+Sbjct: 231 IYVKNIDLDVSDEDFRDLFEKHGDITSASIARD-DQGKSRGFGFVNYIKHEAASAAVDAL 289
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQE-------------KTSK-----IFVGGVSQETTDQEFK 220
+            +    G+ +   RA  + E+E             K SK     +++  ++ +  D++ +
+Sbjct: 290 NDTDFRGQKLYVGRAQKKHEREEELRKQYEAARLEKQSKYQGVNLYIKNLNDDVDDEKLR 349
+
+Query: 221 DFFAQFGRVVDATLMMD 237
+           D F  FG +  A +M D
+Sbjct: 350 DMFTPFGTITSAKVMRD 366
+
+
+
+ Score = 37.4 bits (85), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 20/34 (58%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDG 154
+           ++I  LN +  DE LRD F+ FG +    VMRD 
+Sbjct: 334 LYIKNLNDDVDDEKLRDMFTPFGTITSAKVMRDA 367
+
+
+>EDU51034 pep:novel supercontig:GCA_000149985.1:supercont1.8:1760858:1762233:
+           -1 gene:PTRG_08115 transcript:EDU51034 description:"RNA
+           binding domain containing protein"
+          Length = 319
+
+ Score = 73.6 bits (179), Expect = 2e-14,   Method: Compositional matrix adjust.
+ Identities = 47/186 (25%), Positives = 90/186 (48%), Gaps = 25/186 (13%)
+
+Query: 114 NSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTV 173
+           N++ +  ++IG L +E T + L+  FS+FGEV    ++ D   G SRGFG++ F +    
+Sbjct: 124 NTEPNKMLYIGNLYYEVTADQLKRVFSRFGEVESVKIVYDNR-GLSRGFGYVEFANMADA 182
+
+Query: 174 NIVMVKEHYLDGKIIDPKRAIPRDEQEK-----------------TSKIFVGGVSQETTD 216
+              +     LD ++ + +  + +  Q K                 +  +F+G +S E +D
+Sbjct: 183 QAAI---DNLDMQVFEGRNMVVQYHQPKPNSMSRNASGSFDANAPSKTLFIGNMSFEMSD 239
+
+Query: 217 QEFKDFFAQFGRVVDATLMMDKDTGRPRGFG---FVTFESEAGVEACLARDLEIHGKLIE 273
+           ++  D F     V+D  + +D+ TG+PRGF    F+   S    +  L+  + I+G+ + 
+Sbjct: 240 KDLNDLFRDIRNVMDVRVAIDRRTGQPRGFAHADFIDVASATKAKEVLSEKV-IYGRQLR 298
+
+Query: 274 VKKAQP 279
+           +  ++P
+Sbjct: 299 IDYSKP 304
+
+
+>EDU43116 pep:novel supercontig:GCA_000149985.1:supercont1.12:958023:959756:1
+           gene:PTRG_10065 transcript:EDU43116
+           description:"nucleolysin TIA-1 isoform p40"
+          Length = 470
+
+ Score = 73.2 bits (178), Expect = 6e-14,   Method: Compositional matrix adjust.
+ Identities = 50/151 (33%), Positives = 71/151 (47%), Gaps = 20/151 (13%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTG----RSRGF--GFLTFKDPKTVN 174
+           +++GGL+   T++ LR  F   G V    ++ D T       S+GF  GF+ + DP    
+Sbjct: 85  LYVGGLDPRVTEDVLRQIFETTGHVQSVKIIPDKTASSPSFNSKGFNYGFVEYDDPGAAE 144
+
+Query: 175 IVMVKEHYLDGKIIDPKRAIPRDEQEKTS---KIFVGGVSQETTDQEFKDFFAQFGRVVD 231
+             M     L+G+ I           E TS    IFVG +S E  D+     F+ FG V +
+Sbjct: 145 RGMAT---LNGRRIH--------NNEDTSNHFHIFVGDLSNEVNDEVLLQAFSTFGPVSE 193
+
+Query: 232 ATLMMDKDTGRPRGFGFVTFESEAGVEACLA 262
+           A +M D  TGR RG+GFV F   A  +  L+
+Sbjct: 194 ARVMWDMKTGRSRGYGFVAFRDRADADRALS 224
+
+
+
+ Score = 58.9 bits (141), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 48/203 (23%), Positives = 77/203 (37%), Gaps = 58/203 (28%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVKE 180
+           +F+G L+ E  DE L   FS FG V E  VM D  TGRSRG+GF+ F+D    +  +   
+Sbjct: 167 IFVGDLSNEVNDEVLLQAFSTFGPVSEARVMWDMKTGRSRGYGFVAFRDRADADRALSS- 225
+
+Query: 181 HYLDGKIIDPKRAI----------PRDEQEKT---------------------------- 202
+             +DG+ +   RAI          P   Q++                             
+Sbjct: 226 --MDGEWLG-SRAIRCNWANQKGQPSISQQQAMASMGMTPTTPFGHHHFPTHGVQSYDMV 282
+
+Query: 203 --------SKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESE 254
+                   +  +VG ++  T+  +    F  FG V +     D      RGF F+  ++ 
+Sbjct: 283 VAQTPAWQTTCYVGNLTPYTSQSDLVPLFQNFGYVTETRFQSD------RGFAFIKMDTH 336
+
+Query: 255 --AGVEACLARDLEIHGKLIEVK 275
+             A +  C      ++G+ ++  
+Sbjct: 337 ENAAMAICQLNGYNVNGRPLKCS 359
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.313    0.134    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 4,035,545
+Number of extensions: 135216
+Number of successful extensions: 354
+Number of sequences better than 10.0: 36
+Number of HSP's gapped: 330
+Number of HSP's successfully gapped: 73
+Length of query: 568
+Length of database: 5,459,076
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 4,254,345
+Effective search space: 1995287805
+Effective search space used: 1995287805
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

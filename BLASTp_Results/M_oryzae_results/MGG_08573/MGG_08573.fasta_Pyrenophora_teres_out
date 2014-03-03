@@ -1,0 +1,122 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ85514 pep:novel supercontig:GCA_000166005.1:GL537856:22417:24...   189   3e-51
+
+>EFQ85514 pep:novel supercontig:GCA_000166005.1:GL537856:22417:24616:-1
+           gene:PTT_19526 transcript:EFQ85514
+           description:"hypothetical protein"
+          Length = 687
+
+ Score =  189 bits (479), Expect = 3e-51,   Method: Compositional matrix adjust.
+ Identities = 129/317 (40%), Positives = 162/317 (51%), Gaps = 50/317 (15%)
+
+Query: 7   AAGVAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPAL 66
+           AA VA D++DAL+ L  N+R EISNLTLIA+ENTE A AI+  L  HI+   P  KLPAL
+Sbjct: 5   AAEVAADFRDALQDLKMNSRPEISNLTLIAKENTEYAEAISNELDKHIRTTRPEYKLPAL 64
+
+Query: 67  YLLDSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRP 126
+           Y+LDSIVKNVGTPYT++ GR LY+TFME+Y  +D  TR+ M+ +LKTWK PVP S+D RP
+Sbjct: 65  YVLDSIVKNVGTPYTVYIGRNLYKTFMESYLVMDQGTRKSMEGLLKTWKMPVPESMDPRP 124
+
+Query: 127 VFPPEVVRPIENALIKARTSALQAQQEQMRSQHHLLXXXXXXXXXXXXXXXXYRETPTPP 186
+           VF  +V + IENAL K R     A Q+Q+R QH L                 +R T TPP
+Sbjct: 125 VFQADVTQDIENALAKFR-----AAQQQIRPQHAL-------PPRPPSLNVAWRGTSTPP 172
+
+Query: 187 --GAR--GPNG--YGQSYPPPNGRGPENSQFPT---PQPHHPQGMPILSHXXXXXXXXXX 237
+             G R   PN      S+PP    GP  +  PT    QP  PQ M               
+Sbjct: 173 QTGPRYAAPNDPRTRPSHPPTPQYGPAPTATPTMAYNQPQQPQPM--------------- 217
+
+Query: 238 XXXXXXXXXXXXTPDGISIEALSNDVLQLIAATRAEIARNPYDTSQKPMXXXXXXXXXXX 297
+                           + +  L  +V QLI+ T+   A NP D + +             
+Sbjct: 218 --------------SSVDLADLKVEVTQLISTTQNMFAHNPADAALRTKLSALLSLKQIL 263
+
+Query: 298 XXGNLPRDQLVVVKSRI 314
+               LP  QL  V+ +I
+Sbjct: 264 DTQTLPPQQLEAVRRQI 280
+
+
+
+ Score =  142 bits (358), Expect = 1e-35,   Method: Compositional matrix adjust.
+ Identities = 85/250 (34%), Positives = 120/250 (48%), Gaps = 32/250 (12%)
+
+Query: 444 TPVSHAPGLPSVIAPPVAPAHVEIMGDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRR 503
+           TPV+  P  P  I     PA   +M  I LTT+S+KQPR  L++ LY+     C  CGRR
+Sbjct: 467 TPVNAMPMAPQSITQ-QTPAPTSLMDQIALTTASMKQPRFNLISRLYEAKPNICATCGRR 525
+
+Query: 504 FRNDEAGRAAKTAHMDWHFRVAARIAEAEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXX 563
+           F N   G+  K  HMDWHF+V  +  +A K+G HRS+Y+  ++WV  RE  +        
+Sbjct: 526 FENTTEGKEKKARHMDWHFKV--KDPDAAKRGFHRSWYIPEKEWVEYREVDETAPNQSN- 582
+
+Query: 564 XXXXXXXXXXXXXXXXXXXGPEAXXXXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQER 623
+                                                 R++ VP   +   + CPICQE+
+Sbjct: 583 -----------------------DSAGGAAKAKKQTKDRYVSVPQDVTLQQAPCPICQEK 619
+
+Query: 624 FELKWLDEAQEWVWMDAVRPGGGNRVFHASCHSEVT-GRGATLTPPVGMVLGKRKAD--D 680
+           FE +W   A ++VWMDA+  GG  +++HA+C  E + G G  +      VLGKRKAD   
+Sbjct: 620 FETQWNVGANDFVWMDALCVGG--KIYHATCFEEYSKGVGIEMPGTPDSVLGKRKADINA 677
+
+Query: 681 AYAGRKIKKY 690
+              G+K++ Y
+Sbjct: 678 NMDGKKVRAY 687
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 6,437,212
+Number of extensions: 276481
+Number of successful extensions: 1330
+Number of sequences better than 10.0: 30
+Number of HSP's gapped: 1308
+Number of HSP's successfully gapped: 36
+Length of query: 695
+Length of database: 5,457,232
+Length adjustment: 101
+Effective length of query: 594
+Effective length of database: 4,265,533
+Effective search space: 2533726602
+Effective search space used: 2533726602
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

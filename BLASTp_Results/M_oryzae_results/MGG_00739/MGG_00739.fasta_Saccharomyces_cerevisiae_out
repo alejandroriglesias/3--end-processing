@@ -1,0 +1,202 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YDR301W pep:known chromosome:SacCer_Apr2011:IV:1063352:1067425:1...   237   1e-63
+YBR019C pep:known chromosome:SacCer_Apr2011:II:276253:278352:-1 ...    30   2.9  
+
+>YDR301W pep:known chromosome:SacCer_Apr2011:IV:1063352:1067425:1 gene:YDR301W
+            transcript:YDR301W description:"RNA-binding subunit of
+            the mRNA cleavage and polyadenylation factor\x3b involved
+            in poly(A) site recognition and required for both
+            pre-mRNA cleavage and polyadenylation, 51% sequence
+            similarity with mammalian AAUAA-binding subunit of CPSF"
+          Length = 1357
+
+ Score =  237 bits (604), Expect = 1e-63,   Method: Compositional matrix adjust.
+ Identities = 223/909 (24%), Positives = 381/909 (41%), Gaps = 101/909 (11%)
+
+Query: 539  SIAPIRDVTFGKPPPPTDAERNTKDPAAVQSELQLVAVVGRDKASSLAIINREMTPVSIG 598
+            ++ PI  +T GK     D  +   +P   ++E  LVA  G    S L +I   + P    
+Sbjct: 507  NVGPITSLTVGKVSSIDDVVKGLPNPN--KNEYSLVATSGNGSGSHLTVIQTSVQPEIEL 564
+
+Query: 599  RFEFPEARGLWTLSTQKPLPKPLQASNKNPKTAAATESILSAQYDQYMIVAKEDDDGFET 658
+              +F     +W L  +                            D+Y+I     D     
+Sbjct: 565  ALKFISITQIWNLKIKGR--------------------------DRYLITT---DSTKSR 595
+
+Query: 659  SDVYALTAAGFETLSGTEFEPAAGFTIEAGTMGDHTKIIQVLKSEVRCYDGDLGLTQIIP 718
+            SD+Y  +   F+   G      A  T+     G+  +IIQV  + +  YD        I 
+Sbjct: 596  SDIYE-SDNNFKLHKGGRLRRDAT-TVYISMFGEEKRIIQVTTNHLYLYDTHFRRLTTIK 653
+
+Query: 719  MLDEETGHEPRATSASIADPYLLII--RDDSSAFIAHVNXXXXXXXXXXXXXXXXXTKWS 776
+              D E  H       S+ DPY+L+   R D   F                         S
+Sbjct: 654  -FDYEVIH------VSVMDPYILVTVSRGDIKIFELEEKNKRKLLKVDLPEILNEMVITS 706
+
+Query: 777  TGCLYADSKGAFAATQQTAKSPKSTPTIMMFLLSAAGALYIYALPDISRPVYVAEGLCYV 836
+               L ++    F          KS    ++F    A    I+   D +  ++   G+  +
+Sbjct: 707  GLILKSNMCNEFLIGLS-----KSQEEQLLFTFVTADNQIIFFTKDHNDRIFQLNGVDQL 761
+
+Query: 837  PP--YLSADYSARKGMARETISEILVTDLGDTVFKSPHVILRHSNHD--LTIY----EPY 888
+                Y+S      + +   +I ++++  LG            H N +  LTI     E Y
+Sbjct: 762  NESLYISTYQLGDEIVPDPSIKQVMINKLG------------HDNKEEYLTILTFGGEIY 809
+
+Query: 889  RIAEDSQSLTKILRLRKLPNPAVAKAPEATNSEDPPLMSRNMPLRACANIAGYSAVFMPG 948
+            +  +  Q  ++  R     + A+  AP+   ++    + R M      N  GYS +F+ G
+Sbjct: 810  QYRKLPQRRSRFYRNVTRNDLAITGAPDNAYAKGVSSIERIMHYFPDYN--GYSVIFVTG 867
+
+Query: 949  HSPSFLIKSAKATPKVIGLRGSGVRAMSSFHTEGCERGFIYADSAGVARVAQIPKDTSFS 1008
+              P  LIK   +TPK+       + ++    T   ER  +  D    ARV  +  D  + 
+Sbjct: 868  SVPYILIKEDDSTPKIFKFGNIPLVSV----TPWSERSVMCVDDIKNARVYTLTTDNMYY 923
+
+Query: 1009 ELGLSVKKVPLGIDADG------IAYHSPTGVYVLTCSYWEPFELPKDDDYHCEWAKENI 1062
+               L +K++ +    D       + YH    +++++     P+E   +D        EN+
+Sbjct: 924  GNKLPLKQIKISNVLDDYKTLQKLVYHERAQLFLVSYCKRVPYEALGEDGEKVIGYDENV 983
+
+Query: 1063 SFKPMVERSVLKVINPINWSDIWTEEFEQHEVAMCIRSLNLEVSQSTNERRQLITVGTAM 1122
+                  +  +L +INP +W  I   +F ++ V   +RS  ++++  T  +R+ I  G A 
+Sbjct: 984  PHAEGFQSGIL-LINPKSWKVIDKIDFPKNSVVNEMRSSMIQINSKTKRKREYIIAGVAN 1042
+
+Query: 1123 CKGEDLPVRGGIYVFDLASVVPQKGRPETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMV 1182
+               ED P  G  +++D+  VVP+ G+P+T+ KLK++ +EE+  G V+++ E+   G  M+
+Sbjct: 1043 ATTEDTPPTGAFHIYDVIEVVPEPGKPDTNYKLKEIFQEEVS-GTVSTVCEVS--GRFMI 1099
+
+Query: 1183 AQGQKTLVRGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLCVMADAFKGVWFCGYTEGPY 1242
+            +Q QK LVR +QED  + PVAF+D+  +VT  K      L ++ DA +G  F G+   PY
+Sbjct: 1100 SQSQKVLVRDIQEDNSVIPVAFLDIPVFVTDSKSFGN--LLIIGDAMQGFQFIGFDAEPY 1157
+
+Query: 1243 KMMLFGKSSTNLECMNVDLLPDGKDLLIVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTT 1302
+            +M+  G+S +  + M+++ L +G D+   A D+D N+HVL++ P+ P SL G  L++ ++
+Sbjct: 1158 RMISLGRSMSKFQTMSLEFLVNGGDMYFAATDADRNVHVLKYAPDEPNSLSGQRLVHCSS 1217
+
+Query: 1303 FSTGAHHPQKS--LLLPTTDPRPSTNQPSSDAERQHILMASPTGVLAAVQPLSQSTYTRL 1360
+            F+    H   S  +LLP  +   S   PS        +     G +  + PLS+  Y RL
+Sbjct: 1218 FTL---HSTNSCMMLLPRNEEFGSPQVPSFQN-----VGGQVDGSVFKIVPLSEEKYRRL 1269
+
+Query: 1361 SALASNLMASVPHHAALNPKAYRLPPTSTRNQVAAVDISVGRAVVDGSLLARWAELASGR 1420
+              +   ++        LNP+  RL      N    +  S+ R ++D +++ R+  LA  R
+Sbjct: 1270 YVIQQQIIDRELQLGGLNPRMERLA-----NDFYQMGHSM-RPMLDFNVIRRFCGLAIDR 1323
+
+Query: 1421 RAEVAGRAG 1429
+            R  +A +AG
+Sbjct: 1324 RKSIAQKAG 1332
+
+
+
+ Score = 62.8 bits (151), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 95/379 (25%), Positives = 151/379 (39%), Gaps = 95/379 (25%)
+
+Query: 1   MQCYTELTPPSAVTHSLTLPFTSPKSNNLVVAKSSLLQIFA-TRLVPAELDGTSQSAKAT 59
+           M  Y ++   + V+HSL   FT+     L+V ++++L ++  TR      DG        
+Sbjct: 1   MNVYDDVLDATVVSHSLATHFTTSDYEELLVVRTNILSVYRPTR------DG-------- 46
+
+Query: 60  HNYDTKLNDDEGLEASFLGGDAAIIRSDRNHTKLVLVAEFPLSGTITGLARVKANATKTX 119
+                                           KL L  EF   G IT +  +    +   
+Sbjct: 47  --------------------------------KLYLTDEFKFHGLITDIGLIPQKDSPLS 74
+
+Query: 120 XXXXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYE-QNELQSSPWAAPLS 178
+                         LL+    AK+S+++++    S++T+S+HYYE + + +S    A +S
+Sbjct: 75  C-------------LLLCTGVAKISILKFNTLTNSIDTLSLHYYEGKFKGKSLVELAKIS 121
+
+Query: 179 DYVNFLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPA------QEK 232
+                L  DPGS CA L F    +A +PF     D   ++ DE+ +           Q+ 
+Sbjct: 122 T----LRMDPGSSCALL-FNNDIIAFLPFHVNKNDDDEEEEDEDENIDDSELIHSMNQKS 176
+
+Query: 233 PATAATNGTTDNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGIL------ 286
+             T   N      + D    PS VL    L     + + + FL  + +PT  +L      
+Sbjct: 177 QGTNTFNKRKRTKLGDKFTAPSVVLVASELYEGAKNIIDIQFLKNFTKPTIALLYQPKLV 236
+
+Query: 287 -SSNITPSTYLARKDHLTYTVFTLDLQ------QKASTTILSVGGLPKDLTRVIALPAPV 339
+            + N T S     K    Y + TL++Q      +  STTI  V  LP DL  ++    PV
+Sbjct: 237 WAGNTTIS-----KLPTQYVILTLNIQPAESATKIESTTIAFVKELPWDLHTIV----PV 287
+
+Query: 340 -GGALLVGSNELIHIDQSG 357
+             GA++VG+NEL  +D +G
+Sbjct: 288 SNGAIIVGTNELAFLDNTG 306
+
+
+>YBR019C pep:known chromosome:SacCer_Apr2011:II:276253:278352:-1 gene:YBR019C
+            transcript:YBR019C description:"UDP-glucose-4-epimerase,
+            catalyzes the interconversion of UDP-galactose and
+            UDP-D-glucose in galactose metabolism\x3b also catalyzes
+            the conversion of alpha-D-glucose or alpha-D-galactose to
+            their beta-anomers"
+          Length = 699
+
+ Score = 30.0 bits (66), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 54/233 (23%), Positives = 88/233 (37%), Gaps = 30/233 (12%)
+
+Query: 820  LPDISRPVYVAEGLCYVPPYLSADYSARKGMARETISEILVTDLGDTVFKSPHVILRHSN 879
+            + D    V +A+G      YL A Y+  +G+ RE     L +  G TVF+  H   + S 
+Sbjct: 245  IRDYIHVVDLAKGHIAALQYLEA-YNENEGLCREWN---LGSGKGSTVFEVYHAFCKASG 300
+
+Query: 880  HDLTIYEPYRIAEDSQSLTKILRLRKLPNPAVAKAPEATN--------------SEDP-P 924
+             DL    PY++    +    +L L   P+ A  +    T               +E+P  
+Sbjct: 301  IDL----PYKVT--GRRAGDVLNLTAKPDRAKRELKWQTELQVEDSCKDLWKWTTENPFG 354
+
+Query: 925  LMSRNMPLRACANIAGYSAVFMP-GHSPSFLIKSAKATPKVIGLRGSGVRAMSSFHTEGC 983
+               R +  R  A    Y A F+  G    F    A     ++ L+ +G   +  +     
+Sbjct: 355  YQLRGVEARFSAEDMRYDARFVTIGAGTRFQATFANLGASIVDLKVNGQSVVLGYEN--- 411
+
+Query: 984  ERGFIYADSAGV-ARVAQIPKDTSFSELGLSVKKVPLGIDADGIAYHSPTGVY 1035
+            E G++  DSA + A + +     S  +  L  K   L ++    A HS  G +
+Sbjct: 412  EEGYLNPDSAYIGATIGRYANRISKGKFSLCNKDYQLTVNNGVNANHSSIGSF 464
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 7,780,178
+Number of extensions: 318807
+Number of successful extensions: 834
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 826
+Number of HSP's successfully gapped: 10
+Length of query: 1452
+Length of database: 3,010,216
+Length adjustment: 102
+Effective length of query: 1350
+Effective length of database: 2,327,632
+Effective search space: 3142303200
+Effective search space used: 3142303200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

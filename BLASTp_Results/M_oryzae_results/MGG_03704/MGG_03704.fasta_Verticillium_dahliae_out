@@ -1,0 +1,104 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY17336 pep:novel supercontig:GCA_000150675.1:supercont1.2:6733...   349   e-121
+EGY13572 pep:novel supercontig:GCA_000150675.1:supercont1.1:8495...    27   2.8  
+
+>EGY17336 pep:novel supercontig:GCA_000150675.1:supercont1.2:673394:674224:1
+           gene:VDAG_01018 transcript:EGY17336 description:"RNA
+           polymerase II subunit A C-terminal domain phosphatase
+           SSU72"
+          Length = 258
+
+ Score =  349 bits (895), Expect = e-121,   Method: Compositional matrix adjust.
+ Identities = 162/234 (69%), Positives = 191/234 (81%)
+
+Query: 26  GFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSY 85
+           GFKLKFCTVCASNQNRSM +HL+L++ANYPVISFGTGSLVRLPGP+ITQPNVY FN TSY
+Sbjct: 25  GFKLKFCTVCASNQNRSMVSHLRLAEANYPVISFGTGSLVRLPGPSITQPNVYHFNKTSY 84
+
+Query: 86  DAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEA 145
+           D++Y+EL+ KD +LY  NG+LNM++RNRNVK GPERWQDWQ+G+PRL+   DRGS+G E 
+Sbjct: 85  DSIYRELQSKDPKLYVQNGVLNMVDRNRNVKWGPERWQDWQVGMPRLDKPDDRGSQGVEG 144
+
+Query: 146 GVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSL 205
+           G+VDIV TCEERCWDAV++DL ARG+P+NRPVHVINVDIKDNHEEA+VGG+ ILDLAN+L
+Sbjct: 145 GIVDIVITCEERCWDAVIDDLMARGAPMNRPVHVINVDIKDNHEEASVGGRAILDLANTL 204
+
+Query: 206 NRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           N AA E R                     +V D+LA WQ+RWP+LPA WTLAWF
+Sbjct: 205 NAAATEARQAAGAANFDSGSAGARASFDEQVPDILAAWQDRWPHLPALWTLAWF 258
+
+
+>EGY13572 pep:novel supercontig:GCA_000150675.1:supercont1.1:849517:850113:1
+           gene:VDAG_00254 transcript:EGY13572
+           description:"hypothetical protein"
+          Length = 123
+
+ Score = 26.9 bits (58), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 9/31 (29%), Positives = 19/31 (61%)
+
+Query: 109 LERNRNVKRGPERWQDWQIGIPRLEHASDRG 139
+           LER +++KRG + W+ W++ +  +    + G
+Sbjct: 86  LERIKDIKRGLKNWEGWRLDLVEIRRGGEEG 116
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 2,697,330
+Number of extensions: 109624
+Number of successful extensions: 249
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 248
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 4,984,196
+Length adjustment: 91
+Effective length of query: 168
+Effective length of database: 4,025,511
+Effective search space: 676285848
+Effective search space used: 676285848
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

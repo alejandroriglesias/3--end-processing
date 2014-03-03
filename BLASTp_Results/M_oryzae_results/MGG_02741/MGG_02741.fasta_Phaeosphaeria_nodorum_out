@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_00769 pep:known supercontig:ASM14691v1:supercont1.1:1727714...   148   4e-40
+SNOT_14970 pep:known supercontig:ASM14691v1:supercont1.35:33328:...    28   5.5  
+
+>SNOT_00769 pep:known supercontig:ASM14691v1:supercont1.1:1727714:1730059:1
+           gene:SNOG_00769 transcript:SNOT_00769
+           description:"Putative uncharacterized protein"
+          Length = 410
+
+ Score =  148 bits (374), Expect = 4e-40,   Method: Compositional matrix adjust.
+ Identities = 88/223 (39%), Positives = 127/223 (56%), Gaps = 33/223 (14%)
+
+Query: 1   MAEED-FEIDIYGD-------ANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQ 52
+           MA++D F+IDIYGD       A Q+    D N  + +  GG+  D    + N +   DQ 
+Sbjct: 1   MADDDNFDIDIYGDDSYQDTNAQQDTAVSDANTSNANTNGGESSD----STNMKTEGDQA 56
+
+Query: 53  XXXXXXXXXXXXXXXXTESATPQ------------------QSNPLKRKEGSDD-RAIDP 93
+                            E +T Q                  Q    KRK+G DD R  DP
+Sbjct: 57  AKQEPSGDASMNGDTPQEHSTQQIASTGGSTGNHEVHKQAPQKQGTKRKQGEDDDRPTDP 116
+
+Query: 94  GATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQA 153
+           GAT+A++I+++ WW++++DIRGW  ++GCE+EL ++TF+EHKVNGKSKGQVY++L S QA
+Sbjct: 117 GATAALMINDVNWWVSEEDIRGWANQSGCEDELNEVTFNEHKVNGKSKGQVYVQLQSPQA 176
+
+Query: 154 ATAVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQP 196
+           ATA+KH++++  +D A    +K   I++ P  NPF+TLPKD P
+Sbjct: 177 ATALKHQIDNLFKDQAH--AKKPTAIFNPPQHNPFKTLPKDVP 217
+
+
+>SNOT_14970 pep:known supercontig:ASM14691v1:supercont1.35:33328:35717:-1
+           gene:SNOG_14970 transcript:SNOT_14970
+           description:"Putative uncharacterized protein"
+          Length = 787
+
+ Score = 28.1 bits (61), Expect = 5.5,   Method: Compositional matrix adjust.
+ Identities = 37/140 (26%), Positives = 57/140 (40%), Gaps = 19/140 (13%)
+
+Query: 78  NPLKRKEGSD--DRAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHK 135
+            PLK ++ S   +  IDP   +A+   +L+   TDDDI    R      +++D  F    
+Sbjct: 452 TPLKCQQSSSAQNTEIDPAIFAAMNSPDLELIDTDDDISDGFRPFF---DIEDSAFM--- 505
+
+Query: 136 VNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLP--- 192
+              K+  Q  + LTS Q     K  LE         +   +   +S+P++ P  T P   
+Sbjct: 506 ---KTTIQTALSLTSNQDLLLPK-VLELWNFTRILTSRTLEWQFFSNPSLAPMATSPTMS 561
+
+Query: 193 ----KDQPRTGKDGQNRPTS 208
+               +D  RT     N P+S
+Sbjct: 562 ETDIEDPARTSITALNHPSS 581
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 2,830,973
+Number of extensions: 112346
+Number of successful extensions: 342
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 333
+Number of HSP's successfully gapped: 20
+Length of query: 424
+Length of database: 5,238,126
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 4,048,590
+Effective search space: 1327937520
+Effective search space used: 1327937520
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

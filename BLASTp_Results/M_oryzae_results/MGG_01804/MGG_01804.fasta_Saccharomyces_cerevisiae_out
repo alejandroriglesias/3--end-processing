@@ -1,0 +1,216 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YLR277C pep:known chromosome:SacCer_Apr2011:XII:697156:699495:-1...   609   0.0  
+YBR131W pep:known chromosome:SacCer_Apr2011:II:497163:499277:1 g...    30   1.7  
+YBR218C pep:known chromosome:SacCer_Apr2011:II:658707:662249:-1 ...    30   1.8  
+YKR079C pep:known chromosome:SacCer_Apr2011:XI:586789:589305:-1 ...    30   2.1  
+YGL062W pep:known chromosome:SacCer_Apr2011:VII:385196:388732:1 ...    29   3.1  
+YPR139C pep:known chromosome:SacCer_Apr2011:XVI:813156:814058:-1...    29   3.6  
+YJL187C pep:known chromosome:SacCer_Apr2011:X:76803:79262:-1 gen...    28   5.7  
+
+>YLR277C pep:known chromosome:SacCer_Apr2011:XII:697156:699495:-1
+           gene:YLR277C transcript:YLR277C description:"Putative
+           endoribonuclease, subunit of the mRNA cleavage and
+           polyadenylation specificity complex\x3b required for 3'
+           processing, splicing, and transcriptional termination of
+           mRNAs and snoRNAs"
+          Length = 779
+
+ Score =  609 bits (1570), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 329/694 (47%), Positives = 441/694 (63%), Gaps = 84/694 (12%)
+
+Query: 27  FTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLISHFH 86
+           F  LGG NEVGRSCHI+QYKGKTVMLDAG HPAY GLA+LPF+D+FDLS VD+LLISHFH
+Sbjct: 11  FFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFH 70
+
+Query: 87  VDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSS-----NPTSQPVYTE 141
+           +DHAASLPYV+ +TNF+GRVFMTHPTKAIY+WL++D VRV +  S         + ++++
+Sbjct: 71  LDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGSSSSSMGTKDEGLFSD 130
+
+Query: 142 QDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQD 201
+           +D +++F +IE +DY++T  ++ I+ T + AGHVLGAAMF IEIAG+ + FTGDYSRE D
+Sbjct: 131 EDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVD 190
+
+Query: 202 RHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALG 261
+           RHL SAEVP  +  +VLI EST+G A+H PR+ RE+ L + I   + RGGRVL+PVFALG
+Sbjct: 191 RHLNSAEVP-PLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALG 249
+
+Query: 262 RAQELLLILDEYWGKHQEY---QKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERL 318
+           RAQE++LILDEYW +H +     +VPI+YASNLA+KCM V+QTYV  MND+I++ FR+  
+Sbjct: 250 RAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRD-- 307
+
+Query: 319 XXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERWAP 378
+                          P+ FK I  L+NL+ F D GP VMLASPGMLQ+G+SR+LLERW P
+Sbjct: 308 -----------SQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCP 356
+
+Query: 379 SDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAEFS 438
+            DKN V+ITGYS+EGTMAK IM EP+ IP+I            +  +  IPRRC V E S
+Sbjct: 357 EDKNLVLITGYSIEGTMAKFIMLEPDTIPSI------------NNPEITIPRRCQVEEIS 404
+
+Query: 439 FAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLL----SLNATKTEKVKIYSPR 494
+           FAAHVD  EN EFIE+++AP +ILVHGE N M RLKS LL    SL  T  E V +++PR
+Sbjct: 405 FAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNE-VHVFNPR 463
+
+Query: 495 NCEELRIPFKTDKTAKVVG----------------KLASITPPTRLPTDDDYHLHPQ--- 535
+           NC E+ + F+  K AK VG                ++A+   P +   +D+     +   
+Sbjct: 464 NCVEVDLEFQGVKVAKAVGNIVNEIYKEENVEIKEEIAAKIEPIKEENEDNLDSQAEKGL 523
+
+Query: 536 ---------LVTGVLVQND--FKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLIR 584
+                    +V+G+LV +D  F+L  ++  DLRE+    +TTI+  ++ +      +LI 
+Sbjct: 524 VDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIY 583
+
+Query: 585 WALESTFGAVDELPEMRQLHKEVPNGDDMILDAKXXXXXXXXXXRPVAGYI---VMGSIN 641
+           W +   FG             EV   DD + + +              G +   +MG I 
+Sbjct: 584 WHILQMFGEA-----------EVLQDDDRVTNQEPKVKEESKDNLTNTGKLILQIMGDIK 632
+
+Query: 642 VRCFGSGEVELEWEGNTMNDGFADAVMAVLLTVE 675
+           +    +  V +EW  + MND  AD+++A+L+ V+
+Sbjct: 633 LTIVNTLAV-VEWTQDLMNDTVADSIIAILMNVD 665
+
+
+>YBR131W pep:known chromosome:SacCer_Apr2011:II:497163:499277:1 gene:YBR131W
+           transcript:YBR131W description:"Protein involved in
+           vacuolar assembly, essential for autophagy and the
+           cytoplasm-to-vacuole pathway"
+          Length = 704
+
+ Score = 30.0 bits (66), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 31/141 (21%), Positives = 65/141 (46%), Gaps = 9/141 (6%)
+
+Query: 116 YKWLIQDSVRVGNTSSNPTSQPVYTEQDHLNTFP-QIEAIDYYTTHTISSIRITPYPAGH 174
+           + ++I+D+V     SS P   P +T  + ++T    I  ID +     +S+ +  +    
+Sbjct: 504 FAYVIRDNVTKEIDSSVPFGSPKFTSDESISTLQLAINGIDQFINDNSNSLSLANWNPIT 563
+
+Query: 175 VLGAAMFLIEIAGMNIFFTG--DYSREQDR------HLVSAEVPRGVKIDVLITESTYGI 226
+           ++G +  + +      F  G  D +++  R      +L+SAE    +++DVL   ++   
+Sbjct: 564 IMGGSNAISKKNTTEGFGNGVNDKTQKFKRKYLNFLNLMSAEKLWDLQVDVLQFLTSLQN 623
+
+Query: 227 ASHVPRVEREQALMKSITGIL 247
+           +   P   +E+ L+K   G+L
+Sbjct: 624 SKRDPDYFQEERLLKLNNGVL 644
+
+
+>YBR218C pep:known chromosome:SacCer_Apr2011:II:658707:662249:-1
+           gene:YBR218C transcript:YBR218C description:"Pyruvate
+           carboxylase isoform, cytoplasmic enzyme that converts
+           pyruvate to oxaloacetate\x3b highly similar to isoform
+           Pyc1p but differentially regulated\x3b mutations in the
+           human homolog are associated with lactic acidosis"
+          Length = 1180
+
+ Score = 30.0 bits (66), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 39/146 (26%), Positives = 58/146 (39%), Gaps = 24/146 (16%)
+
+Query: 465 GEQNNMMRLKSKLLSLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPTRL 524
+           G+  N++  +++ L L     E  + Y   N     I  K   T+KVVG LA      +L
+Sbjct: 860 GQLTNLL-FQAQQLGLGEQWAETKRAYREANYLLGDI-VKVTPTSKVVGDLAQFMVSNKL 917
+
+Query: 525 PTDDDYHLHPQLVTGVLVQNDFKLSLMA-------------PEDLR-EYAGLTTTTIVCR 570
+            +DD   L   L        DF  S+M              PE LR +        + CR
+Sbjct: 918 TSDDIRRLANSL--------DFPDSVMDFFEGLIGQPYGGFPEPLRSDVLRNKRRKLTCR 969
+
+Query: 571 QKIMLAAAGVDLIRWALESTFGAVDE 596
+             + L    ++ IR  L++ FG +DE
+Sbjct: 970 PGLELEPFDLEKIREDLQNRFGDIDE 995
+
+
+>YKR079C pep:known chromosome:SacCer_Apr2011:XI:586789:589305:-1
+           gene:YKR079C transcript:YKR079C description:"tRNA 3'-end
+           processing endonuclease tRNase Z\x3b also localized to
+           mitochondria and interacts genetically with Rex2
+           exonuclease\x3b homolog of the human candidate prostate
+           cancer susceptibility gene ELAC2"
+          Length = 838
+
+ Score = 29.6 bits (65), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 17/59 (28%), Positives = 27/59 (45%), Gaps = 11/59 (18%)
+
+Query: 47  GKTVMLDAGQ------HPAYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSK 99
+            + +MLDAG+      H  +  LA    F D  +     + +SH H DH   +  VL++
+Sbjct: 502 NRNIMLDAGENTLGTIHRMFSQLAVKSIFQDLKM-----IYLSHLHADHHLGIISVLNE 555
+
+
+>YGL062W pep:known chromosome:SacCer_Apr2011:VII:385196:388732:1
+           gene:YGL062W transcript:YGL062W description:"Pyruvate
+           carboxylase isoform, cytoplasmic enzyme that converts
+           pyruvate to oxaloacetate\x3b highly similar to isoform
+           Pyc2p but differentially regulated\x3b mutations in the
+           human homolog are associated with lactic acidosis"
+          Length = 1178
+
+ Score = 29.3 bits (64), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 39/146 (26%), Positives = 57/146 (39%), Gaps = 24/146 (16%)
+
+Query: 465 GEQNNMMRLKSKLLSLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPTRL 524
+           G+  N++  +++ L L     E  + Y   N     I  K   T+KVVG LA      +L
+Sbjct: 859 GQLTNLL-FQAQQLGLGEQWAETKRAYREANYLLGDI-VKVTPTSKVVGDLAQFMVSNKL 916
+
+Query: 525 PTDDDYHLHPQLVTGVLVQNDFKLSLMA-------------PEDLR-EYAGLTTTTIVCR 570
+            +DD   L   L        DF  S+M              PE  R +        + CR
+Sbjct: 917 TSDDVRRLANSL--------DFPDSVMDFFEGLIGQPYGGFPEPFRSDVLRNKRRKLTCR 968
+
+Query: 571 QKIMLAAAGVDLIRWALESTFGAVDE 596
+             + L    ++ IR  L++ FG VDE
+Sbjct: 969 PGLELEPFDLEKIREDLQNRFGDVDE 994
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 4,403,666
+Number of extensions: 176247
+Number of successful extensions: 383
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 373
+Number of HSP's successfully gapped: 10
+Length of query: 829
+Length of database: 3,010,216
+Length adjustment: 98
+Effective length of query: 731
+Effective length of database: 2,354,400
+Effective search space: 1721066400
+Effective search space used: 1721066400
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

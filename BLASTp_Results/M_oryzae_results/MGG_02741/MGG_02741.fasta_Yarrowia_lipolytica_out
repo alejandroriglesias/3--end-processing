@@ -1,0 +1,113 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa 
+           6448 sequences; 3,139,837 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAG80771 pep:novel chromosome:GCA_000002525.1:D:1111385:1112704:...    80   1e-16
+CAG82238 pep:novel chromosome:GCA_000002525.1:C:2361066:2362169:...    33   0.066
+CAG79808 pep:novel chromosome:GCA_000002525.1:E:2491799:2497934:...    28   3.2  
+
+>CAG80771 pep:novel chromosome:GCA_000002525.1:D:1111385:1112704:1
+           gene:YALI0_D08646g transcript:CAG80771
+           description:"YALI0D08646p"
+          Length = 439
+
+ Score = 79.7 bits (195), Expect = 1e-16,   Method: Compositional matrix adjust.
+ Identities = 41/122 (33%), Positives = 64/122 (52%), Gaps = 6/122 (4%)
+
+Query: 71  SATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDIT 130
+           ++ P Q+ P K K   +  ++D   ++ + I  L WW  ++ +RGW  + G E+ ++ + 
+Sbjct: 116 ASVPAQAKPTKSKLSME--SLDSLESNCLYILNLDWWTNEEIVRGWAVDCGFEDSVETVV 173
+
+Query: 131 FSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVI----YSSPTMN 186
+           F EHK NGKSKG VY++  S  AA AVK  +E       S   + + V     Y+ PT  
+Sbjct: 174 FDEHKPNGKSKGVVYMQFASLAAARAVKQHVEQLSPRTQSPGSQSEDVAYIVSYAQPTST 233
+
+Query: 187 PF 188
+           PF
+Sbjct: 234 PF 235
+
+
+>CAG82238 pep:novel chromosome:GCA_000002525.1:C:2361066:2362169:-1
+           gene:YALI0_C16775g transcript:CAG82238
+           description:"YALI0C16775p"
+          Length = 367
+
+ Score = 33.1 bits (74), Expect = 0.066,   Method: Compositional matrix adjust.
+ Identities = 17/45 (37%), Positives = 25/45 (55%), Gaps = 1/45 (2%)
+
+Query: 130 TFSEHKVNGKSKGQVYIELTSQQA-ATAVKHRLESSGEDGASQAG 173
+            F E  + GK+ G++Y EL + +   TA   R   +GE G +QAG
+Sbjct: 6   VFFEVAIGGKTIGKIYFELFADKVPKTAENFRALCTGEKGNTQAG 50
+
+
+>CAG79808 pep:novel chromosome:GCA_000002525.1:E:2491799:2497934:-1
+           gene:YALI0_E21021g transcript:CAG79808
+           description:"YALI0E21021p"
+          Length = 1934
+
+ Score = 28.1 bits (61), Expect = 3.2,   Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 20/38 (52%)
+
+Query: 15  NQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQ 52
+           NQ  QG +  +++Q Y+G  +Q   G +   QY D  Q
+Sbjct: 103 NQYNQGYNQGQYNQGYQGQYNQGYGGYDQYGQYNDASQ 140
+
+
+  Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,139,837
+  Number of sequences in database:  6448
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6448
+Number of Hits to DB: 1,669,940
+Number of extensions: 69115
+Number of successful extensions: 340
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 336
+Number of HSP's successfully gapped: 28
+Length of query: 424
+Length of database: 3,139,837
+Length adjustment: 93
+Effective length of query: 331
+Effective length of database: 2,540,173
+Effective search space: 840797263
+Effective search space used: 840797263
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

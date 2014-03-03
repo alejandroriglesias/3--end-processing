@@ -1,0 +1,122 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK24404 pep:novel supercontig:ASM17099v1:4:649970:651124:1 gene...   150   3e-42
+EHK17350 pep:novel supercontig:ASM17099v1:89:1420227:1425040:-1 ...    28   4.0  
+EHK25353 pep:novel supercontig:ASM17099v1:3:942758:946188:-1 gen...    28   4.0  
+
+>EHK24404 pep:novel supercontig:ASM17099v1:4:649970:651124:1
+           gene:TRIVIDRAFT_71755 transcript:EHK24404
+           description:"hypothetical protein"
+          Length = 328
+
+ Score =  150 bits (380), Expect = 3e-42,   Method: Compositional matrix adjust.
+ Identities = 79/145 (54%), Positives = 95/145 (65%), Gaps = 11/145 (7%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDL---------- 128
+           RKDGT AAPP Q+KYS+IR+IPQRS + D +  A A   + ED+   S L          
+Sbjct: 60  RKDGTKAAPPPQAKYSDIRNIPQRSASNDISGKASAPVKRDEDSKTTSALNIAAPSADQT 119
+
+Query: 129 -PPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSW 187
+               +KS  D  A P H   GKP+TQVNIDEDL +   PWRKPGTDISDYFNYGFDEF+W
+Sbjct: 120 SAAASKSTIDINANPVHPAAGKPITQVNIDEDLPDSDKPWRKPGTDISDYFNYGFDEFTW 179
+
+Query: 188 AIYAQKQNQLRSEYSADAMSQNSKK 212
+           A+YA KQ  +R E+ ADA + N+KK
+Sbjct: 180 ALYAAKQESIRGEFGADAFAANNKK 204
+
+
+
+ Score = 28.5 bits (62), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 11/15 (73%), Positives = 13/15 (86%)
+
+Query: 3  VEMDEDDDFYAPEEP 17
+          ++MDEDDD Y PEEP
+Sbjct: 1  MDMDEDDDLYQPEEP 15
+
+
+>EHK17350 pep:novel supercontig:ASM17099v1:89:1420227:1425040:-1
+            gene:TRIVIDRAFT_205942 transcript:EHK17350
+            description:"hypothetical protein"
+          Length = 1423
+
+ Score = 28.5 bits (62), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 19/33 (57%)
+
+Query: 174  ISDYFNYGFDEFSWAIYAQKQNQLRSEYSADAM 206
+            I  YF+  F+ +SW I A +  +  + YS +A+
+Sbjct: 1263 IRSYFHQPFNRYSWVILADRDGKAMAYYSEEAI 1295
+
+
+>EHK25353 pep:novel supercontig:ASM17099v1:3:942758:946188:-1
+           gene:TRIVIDRAFT_198325 transcript:EHK25353
+           description:"hypothetical protein"
+          Length = 965
+
+ Score = 28.1 bits (61), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 17/55 (30%), Positives = 29/55 (52%), Gaps = 8/55 (14%)
+
+Query: 150 PLTQVNIDEDLGEDAAPWRKPGTDISDYF-NYGFDEFSWAIYAQKQNQLRSEYSA 203
+           P+  V  DE+ G  A        D++ +F  +GF+     I ++K +Q++SE SA
+Sbjct: 808 PVEPVQADEEEGHLAE-------DVTTWFEGFGFETHGELIASEKSSQMKSERSA 855
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 2,338,155
+Number of extensions: 90720
+Number of successful extensions: 271
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 269
+Number of HSP's successfully gapped: 18
+Length of query: 332
+Length of database: 5,836,678
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,658,108
+Effective search space: 1103971596
+Effective search space used: 1103971596
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

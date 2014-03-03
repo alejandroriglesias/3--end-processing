@@ -1,0 +1,92 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC22G7.10.1:pep pep:known chromosome:ASM294v2:I:753624:755676:...    70   6e-14
+SPAC4F10.13c.1:pep pep:known chromosome:ASM294v2:I:4856730:48600...    26   9.8  
+
+>SPAC22G7.10.1:pep pep:known chromosome:ASM294v2:I:753624:755676:1 gene:SPAC22G7.10
+           transcript:SPAC22G7.10.1 description:"mRNA cleavage and
+           polyadenylation specificity factor complex subunit, Fip1
+           homolog (predicted)"
+          Length = 344
+
+ Score = 69.7 bits (169), Expect = 6e-14,   Method: Compositional matrix adjust.
+ Identities = 30/55 (54%), Positives = 39/55 (70%), Gaps = 3/55 (5%)
+
+Query: 148 GKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYS 202
+           GK + +++++     D  PWRKPG DISDYFNYGFDEF+WA Y  KQ  LR ++S
+Sbjct: 115 GKNIFEIDLES---FDDKPWRKPGADISDYFNYGFDEFTWAAYCAKQTTLRDDFS 166
+
+
+>SPAC4F10.13c.1:pep pep:known chromosome:ASM294v2:I:4856730:4860090:-1
+           gene:SPAC4F10.13c transcript:SPAC4F10.13c.1
+           description:"GYF domain protein"
+          Length = 992
+
+ Score = 25.8 bits (55), Expect = 9.8,   Method: Compositional matrix adjust.
+ Identities = 17/39 (43%), Positives = 22/39 (56%), Gaps = 3/39 (7%)
+
+Query: 119 KEDTVKGSD-LPPVTKSNFD--PYAIPEHKPTGKPLTQV 154
+           +E ++  S+ LP V KSN D  P AIP    TG P  +V
+Sbjct: 644 REMSIASSEALPQVEKSNSDQPPVAIPSTSKTGSPWAKV 682
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 887,919
+Number of extensions: 33002
+Number of successful extensions: 92
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 92
+Number of HSP's successfully gapped: 5
+Length of query: 332
+Length of database: 2,387,769
+Length adjustment: 89
+Effective length of query: 243
+Effective length of database: 1,929,953
+Effective search space: 468978579
+Effective search space used: 468978579
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

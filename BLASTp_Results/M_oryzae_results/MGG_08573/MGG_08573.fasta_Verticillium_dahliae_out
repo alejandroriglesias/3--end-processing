@@ -1,0 +1,140 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY15606 pep:novel supercontig:GCA_000150675.1:supercont1.14:552...   210   7e-60
+EGY19146 pep:novel supercontig:GCA_000150675.1:supercont1.26:216...    33   0.35 
+EGY22507 pep:novel supercontig:GCA_000150675.1:supercont1.6:1296...    29   4.5  
+EGY17289 pep:novel supercontig:GCA_000150675.1:supercont1.2:5069...    29   4.6  
+
+>EGY15606 pep:novel supercontig:GCA_000150675.1:supercont1.14:552602:554258:1
+           gene:VDAG_06770 transcript:EGY15606
+           description:"hypothetical protein"
+          Length = 499
+
+ Score =  210 bits (535), Expect = 7e-60,   Method: Compositional matrix adjust.
+ Identities = 133/320 (41%), Positives = 175/320 (54%), Gaps = 18/320 (5%)
+
+Query: 3   EEDHAAGVAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRK 62
+            E   A VAEDYK ALE L S  R +IS LT IARENTE A  I ++L  HI +    +K
+Sbjct: 4   NEQSGADVAEDYKQALEDLNSTNRADISTLTTIARENTEHAQIITDILQRHIIKAPAHKK 63
+
+Query: 63  LPALYLLDSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSL 122
+           LPA+Y+LDSIVKNVGTPYTLFFG +L+QTFMEAYA+VD   RRKM+E L+TWK+PVP SL
+Sbjct: 64  LPAIYVLDSIVKNVGTPYTLFFGAQLFQTFMEAYAAVDGHVRRKMEETLQTWKQPVPQSL 123
+
+Query: 123 DTRPVFPPEVVRPIENALIKARTSALQAQQEQMRSQHHLLXXXXXXXXXXXXXXXXYRET 182
+           D RPVFPPEV +PIE +L KAR SAL A Q Q R                      +R T
+Sbjct: 124 DDRPVFPPEVTKPIEESLNKARNSAL-ALQAQGRGH----------PVGRARGAGIHRAT 172
+
+Query: 183 PTPPGAR-GPNGYGQSYPPPNGRGPENSQFPTPQPHHPQGMPILSHXXXXXXXXXXXXXX 241
+           PTPPG R G +  G   PPP+    +  Q    +P   Q     +               
+Sbjct: 173 PTPPGMRPGSSQPGYPGPPPHA---QQQQLNGSRPPSVQQQQAPAPYPPPQAYGGLQPTA 229
+
+Query: 242 XXXXXXXXTP---DGISIEALSNDVLQLIAATRAEIARNPYDTSQKPMXXXXXXXXXXXX 298
+                   +P   + ++I  L +D+ +LI A+  E A+ P+D   K              
+Sbjct: 230 GAPTPFQASPSQHNSVNIAVLKHDIQELITASTLEAAQYPHDGVIKARLQGLHDLQRLLQ 289
+
+Query: 299 XGNLPRDQLVVVKSRIDELS 318
+             ++P+D L+++K+++ +L+
+Sbjct: 290 TQDMPQDHLILIKNQVADLA 309
+
+
+>EGY19146 pep:novel supercontig:GCA_000150675.1:supercont1.26:216717:218935:-
+           1 gene:VDAG_09480 transcript:EGY19146
+           description:"ADP-ribosylation factor-binding protein
+           GGA2"
+          Length = 650
+
+ Score = 32.7 bits (73), Expect = 0.35,   Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 22/40 (55%)
+
+Query: 50  LVDHIKQIHPPRKLPALYLLDSIVKNVGTPYTLFFGRKLY 89
+           +V +I   +P   L AL+LLD  VKN G P+ L    K +
+Sbjct: 67  IVSYINHRNPSVALLALHLLDICVKNCGYPFHLQISTKEF 106
+
+
+>EGY22507 pep:novel supercontig:GCA_000150675.1:supercont1.6:1296710:130009
+          1:-1 gene:VDAG_03945 transcript:EGY22507
+          description:"Rpb7-binding protein seb1"
+          Length = 703
+
+ Score = 29.3 bits (64), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 12/46 (26%), Positives = 25/46 (54%)
+
+Query: 29 ISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVK 74
+          IS++T +   + +S   + + +  H K+     KL  LY++DS+ +
+Sbjct: 28 ISSITALCVGSVQSESVLIQKIYTHFKKTAGDHKLGVLYVVDSVTR 73
+
+
+>EGY17289 pep:novel supercontig:GCA_000150675.1:supercont1.2:506969:512573:-1
+           gene:VDAG_00971 transcript:EGY17289 description:"paired
+           amphipathic helix protein Sin3b"
+          Length = 1488
+
+ Score = 29.3 bits (64), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 16/35 (45%), Positives = 19/35 (54%)
+
+Query: 185 PPGARGPNGYGQSYPPPNGRGPENSQFPTPQPHHP 219
+           P   RGPN    + PP  G+ P N+Q PTPQ   P
+Sbjct: 377 PGHQRGPNQMPGNAPPVAGQPPRNAQTPTPQAGAP 411
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 5,978,943
+Number of extensions: 261881
+Number of successful extensions: 1362
+Number of sequences better than 10.0: 44
+Number of HSP's gapped: 1345
+Number of HSP's successfully gapped: 48
+Length of query: 695
+Length of database: 4,984,196
+Length adjustment: 100
+Effective length of query: 595
+Effective length of database: 3,930,696
+Effective search space: 2338764120
+Effective search space used: 2338764120
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

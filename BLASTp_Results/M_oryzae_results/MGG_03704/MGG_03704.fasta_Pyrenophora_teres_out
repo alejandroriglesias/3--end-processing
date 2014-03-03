@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ93404 pep:novel supercontig:GCA_000166005.1:GL533866:1344:223...   330   e-113
+EFQ87947 pep:novel supercontig:GCA_000166005.1:GL536686:18846:21...    32   0.20 
+
+>EFQ93404 pep:novel supercontig:GCA_000166005.1:GL533866:1344:2239:-1
+           gene:PTT_09232 transcript:EFQ93404
+           description:"hypothetical protein"
+          Length = 282
+
+ Score =  330 bits (847), Expect = e-113,   Method: Compositional matrix adjust.
+ Identities = 160/248 (64%), Positives = 187/248 (75%)
+
+Query: 11  GLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGP 70
+           G S  +A      DD FKLKFCTVCASNQNRSMEAHLQL+ A+ P ISFGTGSLVRLPGP
+Sbjct: 34  GASDAHAKQNMVPDDSFKLKFCTVCASNQNRSMEAHLQLASAHLPTISFGTGSLVRLPGP 93
+
+Query: 71  TITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIP 130
+           TITQPNVY+FN T+Y A+++EL  ++  LYT NG+LNML RN N+K  PER+QDW  G P
+Sbjct: 94  TITQPNVYRFNDTTYRAIHEELSEQNAALYTHNGLLNMLGRNLNIKGYPERFQDWVPGKP 153
+
+Query: 131 RLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEE 190
+           RL+HA D+GS+GTE+GVVD+V TCEERC+DAV+EDLH +G  LNRPVHV NVDIKDNHEE
+Sbjct: 154 RLDHAEDKGSQGTESGVVDVVITCEERCFDAVLEDLHNKGGKLNRPVHVFNVDIKDNHEE 213
+
+Query: 191 AAVGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNL 250
+           A VGG+ ILDLA +LN AAA ERD                    RV ++LA WQERWPN+
+Sbjct: 214 ALVGGKAILDLALTLNEAAARERDIHGESGWQSGGGAARSGFDERVPELLAAWQERWPNM 273
+
+Query: 251 PATWTLAW 258
+           PA W+LAW
+Sbjct: 274 PALWSLAW 281
+
+
+>EFQ87947 pep:novel supercontig:GCA_000166005.1:GL536686:18846:21602:-1
+           gene:PTT_16367 transcript:EFQ87947
+           description:"hypothetical protein"
+          Length = 884
+
+ Score = 32.0 bits (71), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 46/99 (46%), Gaps = 10/99 (10%)
+
+Query: 38  NQNRSMEAHLQLS-KANYPVISFG-TGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGK 95
+            Q+ S+     LS K  Y VI+   TGS +    P    PN++K  S   D+M ++ EG 
+Sbjct: 549 TQDGSIRLQATLSAKGRYIVINIKDTGSGI----PAAFLPNLFKPFSREDDSMTRQSEGL 604
+
+Query: 96  DRRLYTANGILNMLERN----RNVKRGPERWQDWQIGIP 130
+              L  A GI   L  +    R+   GP R  ++++ +P
+Sbjct: 605 GLGLMVAKGIARKLGGDLFCLRSHVSGPARGSEFEMRVP 643
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 2,934,576
+Number of extensions: 118858
+Number of successful extensions: 258
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 257
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 5,457,232
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,371,724
+Effective search space: 730077908
+Effective search space used: 730077908
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

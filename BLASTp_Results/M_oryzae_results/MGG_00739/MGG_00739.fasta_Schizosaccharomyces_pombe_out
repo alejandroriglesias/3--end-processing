@@ -1,0 +1,175 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBC1709.08.1:pep pep:known chromosome:ASM294v2:II:1113294:11182...   293   2e-81
+
+>SPBC1709.08.1:pep pep:known chromosome:ASM294v2:II:1113294:1118228:1 gene:SPBC1709.08
+            transcript:SPBC1709.08.1 description:"cleavage factor one
+            Cft1 (predicted)"
+          Length = 1441
+
+ Score =  293 bits (750), Expect = 2e-81,   Method: Compositional matrix adjust.
+ Identities = 192/642 (29%), Positives = 318/642 (49%), Gaps = 36/642 (5%)
+
+Query: 805  MMFLLSAAGALYIYALPDISRPVYVAEGLCYVPPYL-SADYSARKGMARET---ISEILV 860
+            ++F L+  G L +Y L D S  + +   +  +PP L +   S R    +E+   + E+LV
+Sbjct: 799  ILFALTDEGKLKVYNLADFS--LLMECDVFDLPPTLFNGMESERTYFNKESSQELVELLV 856
+
+Query: 861  TDLGDTVFKSPHVILRHSNHDLTIYEPYRIAEDSQSLTKILRLRKLP----------NPA 910
+             DLGD  FK PH+ LR   +++T+Y+ + +  ++     +L   K+P          N  
+Sbjct: 857  ADLGDD-FKEPHLFLRSRLNEITVYKAF-LYSNTDKHKNLLAFAKVPQETMTREFQANVG 914
+
+Query: 911  VAKAPEATNSEDPPLMSRNMPLRACANIAGYSAVFMPGHSPSFLIKSAKATPKVIGLRGS 970
+              +  E+T  +       ++ + A   +  +SAVF+ G  P  ++ +  +  K   +  +
+Sbjct: 915  TPRDAESTMEKKASSSVDHLKMTALEVVGNHSAVFVTGRKPFLILSTLHSNAKFFPISSN 974
+
+Query: 971  -GVRAMSSFHTEGCERGFIYADSAGVARVAQIPKDTSFSELGLSVKKVPLGIDADGIAYH 1029
+              + +++ FH     +G+IY D     R+ +  +D  +       KKV LG   +GIAYH
+Sbjct: 975  IPILSVAPFHAHHAPQGYIYVDENSFIRICKFQEDFEYDN-KWPYKKVSLGKQINGIAYH 1033
+
+Query: 1030 SPTGVYVLTCSYWEPFELPKDDDYHCEWAKENISFKPMVERSVLKVINPINWSDIWTEEF 1089
+                VY +  +    F++  +D        ++  + PM     L +++P+ W+ I + EF
+Sbjct: 1034 PTKMVYAVGSAVPIEFKVTDEDGNEPYAITDDNDYLPMANTGSLDLVSPLTWTVIDSYEF 1093
+
+Query: 1090 EQHEVAMCIRSLNLEVSQSTNERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVPQKGRP 1149
+            +Q E+ + +  +NLEVS++T  R+  I VGT++ KGED+ VRG  Y+F++  VVPQ GRP
+Sbjct: 1094 QQFEIPLSVALVNLEVSETTKLRKPYIAVGTSITKGEDIAVRGSTYLFEIIDVVPQPGRP 1153
+
+Query: 1150 ETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMNC 1209
+            ET  KLK V +EEI +G V  + E+   G ++  QGQK +VR L+++  L  V+F+D+  
+Sbjct: 1154 ETRHKLKLVTREEI-KGTVAVVCEV--DGYLLSGQGQKVIVRALEDEDHLVGVSFIDLGS 1210
+
+Query: 1210 YVTCVKELAGTGLCVMADAFKGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLPDGKDLL 1269
+            Y    K L    L +  D  + V F G+ E PY+M LF K    L     D L  G++L 
+Sbjct: 1211 YTLSAKCLR--NLLLFGDVRQNVTFVGFAEEPYRMTLFSKGQEALNVSAADFLVQGENLY 1268
+
+Query: 1270 IVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQPS 1329
+             V AD+ GNL +L +DPE+P+S  G  L+ R  F  G      + +LP      +     
+Sbjct: 1269 FVVADTSGNLRLLAYDPENPESHSGERLVTRGDFHIGNVITAMT-ILPKEKKHQNAEYGY 1327
+
+Query: 1330 SDAERQHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPHHAALNPKAYRL--PPT 1387
+               +    +M +  G L  + P+S   Y RL+ + + L   V     LNPK+YRL   P+
+Sbjct: 1328 DTGDDFSCVMVNSDGGLQMLVPISDRVYRRLNIIQNYLANRVNTIGGLNPKSYRLITSPS 1387
+
+Query: 1388 STRNQVAAVDISVGRAVVDGSLLARWAELASGRRAEVAGRAG 1429
+            +  N          R ++DG L+  +  ++   R E+A + G
+Sbjct: 1388 NLTNPT--------RRILDGMLIDYFTYMSVAHRHEMAHKCG 1421
+
+
+
+ Score =  205 bits (521), Expect = 7e-54,   Method: Compositional matrix adjust.
+ Identities = 145/474 (30%), Positives = 240/474 (50%), Gaps = 45/474 (9%)
+
+Query: 4   YTELTPPSAVTHSLTLPFTSPKSNNLVVAKSSLLQIFATRLVPAELDGTSQSAKATHNYD 63
+           + +L   + + +++   FTS  SNNLVV+K + L +F    +  +           + + 
+Sbjct: 5   FQDLVDSTVIKNAVQGQFTSLVSNNLVVSKVNSLHLFEIEKIQKDESSFPLDDSLQNEFS 64
+
+Query: 64  TKLNDDEGLEASFLGGDAAIIRSDRNHTKLV-LVAEFPLSGTITGLARVKANATKTXXXX 122
+           T + D+     +F+  +  +IR++   T ++ LV++  + GTIT ++ +K   +      
+Sbjct: 65  TSIIDES---QAFMETNMHLIRTNEQTTYVLRLVSQVKVFGTITEISALKGKGSN----- 116
+
+Query: 123 XXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSDYVN 182
+                    D L++    AK+S +EWD   +S  T S+HYYE  +++SS   +  S    
+Sbjct: 117 -------GCDLLIMLTDYAKVSTLEWDMQSQSFVTNSLHYYE--DVKSSNICS--SHTPT 165
+
+Query: 183 FLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAATNGTT 242
+            L+ DP S C  L+F    +AIIP+            +E+LD    A E    +++    
+Sbjct: 166 QLLVDPDSDCCLLRFLTDMMAIIPYPA----------NEDLDMEEAAIENSKISSSYA-- 213
+
+Query: 243 DNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGILSSNITPSTYLA--RKD 300
+                   Y PSFVL    LD ++   + + FLY YREPT  IL S    ST     RKD
+Sbjct: 214 --------YKPSFVLASSQLDASISRILDVKFLYGYREPTLAILYSPEQTSTVTLPLRKD 265
+
+Query: 301 HLTYTVFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIHIDQSGKAN 360
+            + +++ TLDL+Q+AS  I ++  LP D+   +++P P+GG+LL+G NELI++D +G+  
+Sbjct: 266 TVLFSLVTLDLEQRASAVITTIQSLPYDIYASVSIPTPLGGSLLLGGNELIYVDSAGRTV 325
+
+Query: 361 GVAVNPMTKSCTSFSLADQSDLGLRLEGCMINVLSAEDGQ---FIIVLNDGRLATLVFHI 417
+           G+ VN     CT F L DQSD  L LEG +   L++   +    ++V   G+   L F +
+Sbjct: 326 GIGVNSYYSKCTDFPLQDQSDFNLELEGTIAIPLTSSKTETPFVVLVHTSGQFFYLDFLL 385
+
+Query: 418 DGRTVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVFGWNRK 471
+           DG++V GL ++ +  E     L++ ++C    G N +F GS   DS +  W+R+
+Sbjct: 386 DGKSVKGLSLQALDLEINDDFLKSGITCAVPAGENLVFLGSQTTDSYLLRWSRR 439
+
+
+
+ Score = 62.0 bits (149), Expect = 5e-10,   Method: Compositional matrix adjust.
+ Identities = 51/218 (23%), Positives = 98/218 (44%), Gaps = 33/218 (15%)
+
+Query: 529 LIFRVHDLMVSIAPIRDVTFGKPPPPTDAERNTKDPAAVQSELQLVAVVGRDKASSLAII 588
+           L   + D++ +I PI D   GK    +   ++   P      L+LV   G D A  L + 
+Sbjct: 488 LRLEICDVLTNIGPITDFAVGKAGSYSYFPQDNHGP------LELVGTAGADGAGGLVVF 541
+
+Query: 589 NREMTPVSIGRFEFPEARGLWTLSTQ---KPLPKPLQASNKNPKTAAATESILSAQYDQY 645
+            R + P+  G F+F     LWT+S     + +   +QA   NP            + + Y
+Sbjct: 542 RRNIFPLIAGEFQFDGCEALWTVSISGKLRNMKSRIQAQYSNP------------ELETY 589
+
+Query: 646 MIVAKEDDDGFETSDVYALTAAGFETLSGTEFEPAAGFTIEAGTMGDHTKIIQVLKSEVR 705
+           ++++KE +     S ++ L    F+ +  ++F   +  T+  G++    +++Q+  + +R
+Sbjct: 590 LVLSKEKE-----SFIF-LAGETFDEVQHSDFSKDSK-TLNVGSLLSGMRMVQICPTSLR 642
+
+Query: 706 CYDGDLGLTQIIPMLDEETGHEPRATSASIADPYLLII 743
+            YD +L LTQ+     ++        S SI DP ++++
+Sbjct: 643 VYDSNLRLTQLFNFSKKQI-----VVSTSICDPCIIVV 675
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 6,204,742
+Number of extensions: 255181
+Number of successful extensions: 692
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 680
+Number of HSP's successfully gapped: 9
+Length of query: 1452
+Length of database: 2,387,769
+Length adjustment: 101
+Effective length of query: 1351
+Effective length of database: 1,868,225
+Effective search space: 2523971975
+Effective search space used: 2523971975
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

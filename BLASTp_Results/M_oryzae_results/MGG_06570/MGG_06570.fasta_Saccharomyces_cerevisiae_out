@@ -1,0 +1,222 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YLR115W pep:known chromosome:SacCer_Apr2011:XII:377985:380564:1 ...   111   1e-25
+YLR277C pep:known chromosome:SacCer_Apr2011:XII:697156:699495:-1...    63   1e-10
+YGR071C pep:known chromosome:SacCer_Apr2011:VII:631481:634063:-1...    33   0.29 
+YER025W pep:known chromosome:SacCer_Apr2011:V:205251:206834:1 ge...    31   0.94 
+YPR148C pep:known chromosome:SacCer_Apr2011:XVI:826833:828140:-1...    28   9.7  
+
+>YLR115W pep:known chromosome:SacCer_Apr2011:XII:377985:380564:1
+           gene:YLR115W transcript:YLR115W description:"Subunit of
+           the mRNA cleavage and polyadenlylation factor (CPF)\x3b
+           required for pre-mRNA cleavage, polyadenylation and
+           poly(A) site recognition, 43% similarity with the
+           mammalian CPSF-100 protein."
+          Length = 859
+
+ Score =  111 bits (278), Expect = 1e-25,   Method: Compositional matrix adjust.
+ Identities = 103/337 (30%), Positives = 152/337 (45%), Gaps = 48/337 (14%)
+
+Query: 14  ATASQSLLELDGGVKVLIDIGWDET-FDVEK-LKEVEKQVPTLSLILLTHATVPHLSALV 71
+            T   S++  D  V +LID GW+ +    E+ +K  EK +P + +I+L+  T+  L A  
+Sbjct: 13  GTTVGSVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHS 71
+
+Query: 72  HCCKNFP--LFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAEASYSFSQTQ 129
+               NF     +RI +YAT P I+LGR    D Y+S                        
+Sbjct: 72  LLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGV----------------IGPYD 115
+
+Query: 130 TNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAYNAGHSLGGT 189
+           TN           ++I   F  I PLKYSQ    L S +    +GLT+ AYNAG   GG+
+Sbjct: 116 TNKLDL-------EDIEISFDHIVPLKYSQLVD-LRSRY----DGLTLLAYNAGVCPGGS 163
+
+Query: 190 IWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKPTALVCSTRTAE 249
+           IW I    E +VYA  WN  RDN+                + +  L +P+A++ +     
+Sbjct: 164 IWCISTYSEKLVYAKRWNHTRDNIL-----NAASILDATGKPLSTLMRPSAIITTLDRFG 218
+
+Query: 250 GGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAY----LLEHAWRSEASTEGG 305
+                  R K   DT++  +S  G+V+IPVD S + L+L      LL  + +  A T+  
+Sbjct: 219 SSQPFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVP 278
+
+Query: 306 GLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFE 342
+            L  +  Y  GR    T+  AKSM EW+  S+++ +E
+Sbjct: 279 VLILS--YARGR----TLTYAKSMLEWLSPSLLKTWE 309
+
+
+
+ Score = 69.3 bits (168), Expect = 2e-12,   Method: Compositional matrix adjust.
+ Identities = 56/219 (25%), Positives = 102/219 (46%), Gaps = 36/219 (16%)
+
+Query: 703 TSTTVSVNLRLALI--DFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRRNA 760
+           T +TV+V L+ +++  +   L D+RS +++ P ++ RK++L A    + E +     +  
+Sbjct: 643 TISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQNEEITAKLIKKN 702
+
+Query: 761 IEVFTPPVGAVVDASVDTNAWVVKLADPLVKRLKWQQVR-GLGIVTVTAQLTATPAAQKN 819
+           IEV   P+  +V+ S       + +   L   LKWQ++     + TV  +L       K 
+Sbjct: 703 IEVVNMPLNKIVEFSTTIKTLDISIDSNLDNLLKWQRISDSYTVATVVGRLV------KE 756
+
+Query: 820 GIPLLIADDDGANKRQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSASRSAAQ-VL 878
+            +P                   V++ + TA    + + P        +  +SRS     L
+Sbjct: 757 SLP------------------QVNNHQKTASRSKLVLKP--------LHGSSRSHKTGAL 790
+
+Query: 879 HVGELRLADLRRTMQNLGHSADFRGEGTLLIDGTVVVRK 917
+            +G++RLA L++ +    + A+F+GEGTL+I+  V VRK
+Sbjct: 791 SIGDVRLAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRK 829
+
+
+>YLR277C pep:known chromosome:SacCer_Apr2011:XII:697156:699495:-1
+           gene:YLR277C transcript:YLR277C description:"Putative
+           endoribonuclease, subunit of the mRNA cleavage and
+           polyadenylation specificity complex\x3b required for 3'
+           processing, splicing, and transcriptional termination of
+           mRNAs and snoRNAs"
+          Length = 779
+
+ Score = 63.2 bits (152), Expect = 1e-10,   Method: Compositional matrix adjust.
+ Identities = 88/440 (20%), Positives = 168/440 (38%), Gaps = 97/440 (22%)
+
+Query: 2   FTFSPLQGALSEATASQSLLELDGGVKVLIDIG-------------WDETFDVEKLKEVE 48
+           F F  L G+ +E   S  +L+  G   V++D G             +DE FD+ K+    
+Sbjct: 9   FKFFSLGGS-NEVGRSCHILQYKGKT-VMLDAGIHPAYQGLASLPFYDE-FDLSKV---- 61
+
+Query: 49  KQVPTLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPA 108
+                  ++L++H  + H ++L +  +      R+  + T P   + R L++D    T  
+Sbjct: 62  ------DILLISHFHLDHAASLPYVMQRTNFQGRV--FMTHPTKAIYRWLLRDFVRVTSI 113
+
+Query: 109 AATSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPF 168
+            ++S       E  +S                  +++   F  I+ + Y           
+Sbjct: 114 GSSSSSMGTKDEGLFS-----------------DEDLVDSFDKIETVDYHS--------- 147
+
+Query: 169 SPPLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXX 228
+           +  +NG+  TA++AGH LG  ++ I+     +++  D++   D                 
+Sbjct: 148 TVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE---------- 197
+
+Query: 229 XEVIEQLRKPTALVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLEL 288
+              +  L     +V ST        R  R+++L   +   + RGG VL+PV +  R  E+
+Sbjct: 198 ---VPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQEI 254
+
+Query: 289 AYLLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQG 348
+             +L+  W   A   GGG     ++ A       + + ++    M++ I ++F       
+Sbjct: 255 MLILDEYWSQHADELGGG--QVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRDS---- 308
+
+Query: 349 FRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLEW 408
+                              PF FK +  L R  +  +   PS       V+LA+   L+ 
+Sbjct: 309 ----------------QTNPFIFKNISYL-RNLEDFQDFGPS-------VMLASPGMLQS 344
+
+Query: 409 GFSKDIISAIANDSRNMVIL 428
+           G S+D++     + +N+V++
+Sbjct: 345 GLSRDLLERWCPEDKNLVLI 364
+
+
+>YGR071C pep:known chromosome:SacCer_Apr2011:VII:631481:634063:-1
+           gene:YGR071C transcript:YGR071C description:"Protein
+           proposed to be involved in vacuolar functions\x3b mutant
+           shows defect in CPY processing and fragmented
+           vacuoles\x3b deletion mutant has increased glycogen
+           accumulation and displays elongated buds\x3b green
+           fluorescent protein (GFP)-fusion protein loc /.../ to
+           the nucleus"
+          Length = 860
+
+ Score = 32.7 bits (73), Expect = 0.29,   Method: Compositional matrix adjust.
+ Identities = 23/80 (28%), Positives = 35/80 (43%), Gaps = 11/80 (13%)
+
+Query: 99  IQDLYSSTPAAATSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLI------ 152
+           + +LYS  P    S+    L ++ Y+      N H F   + S  EI KY + I      
+Sbjct: 347 LNNLYSKYPGLQKSVISITLPQSHYTMVLENRNSHNFTFHSGSVREI-KYHTCIVSELLH 405
+
+Query: 153 ---QPLKYSQPHQPLASPFS 169
+              QPL ++ P + + S FS
+Sbjct: 406 CFLQPL-FNVPTESMLSSFS 424
+
+
+>YER025W pep:known chromosome:SacCer_Apr2011:V:205251:206834:1 gene:YER025W
+           transcript:YER025W description:"Gamma subunit of the
+           translation initiation factor eIF2, involved in the
+           identification of the start codon\x3b binds GTP when
+           forming the ternary complex with GTP and tRNAi-Met"
+          Length = 527
+
+ Score = 31.2 bits (69), Expect = 0.94,   Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 25/46 (54%), Gaps = 2/46 (4%)
+
+Query: 160 PHQPLASPFSPPLNGLTITAYNAGHSLG-GTIWHIQHGMESIVYAV 204
+           P QPL   FS  LN L+    N   ++  GTI H+ HG  ++V A+
+Sbjct: 76  PEQPLNPDFSK-LNPLSAEIINRQATINIGTIGHVAHGKSTVVRAI 120
+
+
+>YPR148C pep:known chromosome:SacCer_Apr2011:XVI:826833:828140:-1
+           gene:YPR148C transcript:YPR148C description:"Protein of
+           unknown function that may interact with ribosomes, based
+           on co-purification experiments\x3b green fluorescent
+           protein (GFP)-fusion protein localizes to the cytoplasm
+           in a punctate pattern"
+          Length = 435
+
+ Score = 27.7 bits (60), Expect = 9.7,   Method: Compositional matrix adjust.
+ Identities = 13/44 (29%), Positives = 27/44 (61%)
+
+Query: 828 DDGANKRQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSAS 871
+           DD A++++ +K+  V+D+ P  E ED  ++  L+   V+  +A+
+Sbjct: 345 DDVADRKEDLKSNKVNDEPPIEESEDNKLLEKLEDEFVSNTTAA 388
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 4,645,480
+Number of extensions: 179156
+Number of successful extensions: 524
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 520
+Number of HSP's successfully gapped: 10
+Length of query: 962
+Length of database: 3,010,216
+Length adjustment: 99
+Effective length of query: 863
+Effective length of database: 2,347,708
+Effective search space: 2026072004
+Effective search space used: 2026072004
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,170 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa 
+           9115 sequences; 4,489,794 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGR50849 pep:novel supercontig:GCA_000167675.2:GL985059:690906:6...   514   e-174
+EGR51832 pep:novel supercontig:GCA_000167675.2:GL985057:1897325:...    41   8e-04
+EGR46647 pep:novel supercontig:GCA_000167675.2:GL985072:342497:3...    32   0.61 
+EGR52167 pep:novel supercontig:GCA_000167675.2:GL985056:360280:3...    31   1.1  
+EGR47454 pep:novel supercontig:GCA_000167675.2:GL985068:724437:7...    28   5.0  
+
+>EGR50849 pep:novel supercontig:GCA_000167675.2:GL985059:690906:693082:-1
+           gene:TRIREDRAFT_2869 transcript:EGR50849
+           description:"predicted protein"
+          Length = 636
+
+ Score =  514 bits (1324), Expect = e-174,   Method: Compositional matrix adjust.
+ Identities = 239/344 (69%), Positives = 287/344 (83%), Gaps = 4/344 (1%)
+
+Query: 14  EPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVV 73
+           EPTRVEFDGTGISVFELKR+II KSGLGDGTDFDL IYT+D +EEYDDDTTI+PRST V+
+Sbjct: 14  EPTRVEFDGTGISVFELKREIINKSGLGDGTDFDLFIYTDDNSEEYDDDTTIVPRSTTVI 73
+
+Query: 74  ARRLPSMKPGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXXXQMSNAVTEEER 133
+           ARR P++KPGAGRAARYVSGK PV AKN+ RKEQ               QM++A+TEE+R
+Sbjct: 74  ARRQPAIKPGAGRAARYVSGKMPVAAKNAGRKEQSSKVSASKPSTNAFSQMNDAMTEEDR 133
+
+Query: 134 LAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWI 193
+           +AAMF AQ+EQW+AQQEELSHQ P+   KPG  KRPANVPDH+PPNGYICYRCG KGHWI
+Sbjct: 134 MAAMFAAQTEQWSAQQEELSHQAPV-PFKPG-SKRPANVPDHDPPNGYICYRCGNKGHWI 191
+
+Query: 194 QLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGEEGKVPSGVMVNADGD 253
+           QLCPTND+P+FDNRPRVKRTTGIP+SFL+ VDK+ +L Q+  +G++ K PSG+MVNA+GD
+Sbjct: 192 QLCPTNDDPDFDNRPRVKRTTGIPRSFLQKVDKSVILAQS--EGDDTKRPSGIMVNAEGD 249
+
+Query: 254 FVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDRGLECPMDKRLFNEPMKTPCCEK 313
+           FVIA+PDKA+WE+FQA+             ++KE+Q+RGLEC +DK++F EPMKTPCC+K
+Sbjct: 250 FVIAEPDKASWEQFQAKAKSSSAAAKSSQAEDKEVQERGLECSIDKKMFIEPMKTPCCQK 309
+
+Query: 314 TYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIKQY 357
+           T+CNDCITNALIESDFVCP CQ EGVLID+L+PD+E + KI++Y
+Sbjct: 310 TFCNDCITNALIESDFVCPACQTEGVLIDDLQPDEEASKKIQEY 353
+
+
+
+ Score = 67.4 bits (163), Expect = 5e-12,   Method: Compositional matrix adjust.
+ Identities = 29/41 (70%), Positives = 34/41 (82%)
+
+Query: 619 DFKQFSNQAATEDDAYFRKPVNPHRHQNRQKRVRPSDYREL 659
+           +F Q    A  ++DAYFRKPVNPHRHQN+Q+RVRPSDYREL
+Sbjct: 596 NFPQGGAVAGGDEDAYFRKPVNPHRHQNKQRRVRPSDYREL 636
+
+
+>EGR51832 pep:novel supercontig:GCA_000167675.2:GL985057:1897325:1898749:1
+           gene:TRIREDRAFT_104000 transcript:EGR51832
+           description:"predicted protein"
+          Length = 453
+
+ Score = 40.8 bits (94), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 20/45 (44%), Positives = 26/45 (57%), Gaps = 2/45 (4%)
+
+Query: 292 GLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQA 336
+            L C + K L+  PM T CC  T+C+ CI  AL  +D  CP C+A
+Sbjct: 26  ALRCQVCKDLYKTPMITSCCH-TFCSICIRRAL-SNDGKCPMCRA 68
+
+
+>EGR46647 pep:novel supercontig:GCA_000167675.2:GL985072:342497:345865:-1
+           gene:TRIREDRAFT_123014 transcript:EGR46647
+           description:"predicted protein"
+          Length = 957
+
+ Score = 31.6 bits (70), Expect = 0.61,   Method: Compositional matrix adjust.
+ Identities = 17/65 (26%), Positives = 29/65 (44%), Gaps = 4/65 (6%)
+
+Query: 293 LECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTA 352
+           L C    +L    ++ PCCE+  C  C +N L +S   CP C+   +   +  P+     
+Sbjct: 25  LRCANCSKLAVNALRLPCCEQAICETCHSN-LPQS---CPVCEHSPLSAADCNPNKSLRT 80
+
+Query: 353 KIKQY 357
+            I+ +
+Sbjct: 81  TIRVF 85
+
+
+>EGR52167 pep:novel supercontig:GCA_000167675.2:GL985056:360280:362491:1
+          gene:TRIREDRAFT_102464 transcript:EGR52167
+          description:"predicted protein"
+          Length = 708
+
+ Score = 30.8 bits (68), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 29/69 (42%), Gaps = 14/69 (20%)
+
+Query: 28 FELKRDIILKSGLGDGTDFDLAIYTEDGAEEY--------------DDDTTIIPRSTIVV 73
+          F+   DI   + +GDG  FD   + +DG+                  D ++II RS  ++
+Sbjct: 22 FQQFLDITAMANMGDGMQFDFQGFPDDGSHSIMGQHRQTTDAIMGDTDPSSIIARSDGLL 81
+
+Query: 74 ARRLPSMKP 82
+              P+M P
+Sbjct: 82 QNHTPAMAP 90
+
+
+>EGR47454 pep:novel supercontig:GCA_000167675.2:GL985068:724437:725974:1
+           gene:TRIREDRAFT_79381 transcript:EGR47454
+           description:"predicted protein"
+          Length = 438
+
+ Score = 28.5 bits (62), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 18/54 (33%), Positives = 23/54 (42%), Gaps = 4/54 (7%)
+
+Query: 295 CPMDKRLFNE---PMKTPCCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLK 345
+           CP+ K    E    M  PC     C + + N    S + CP C  EG L D +K
+Sbjct: 383 CPVSKEQTTEQNPAMMLPCGH-VICRESLHNMAKGSRYKCPYCPTEGHLKDAIK 435
+
+
+  Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 4,489,794
+  Number of sequences in database:  9115
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9115
+Number of Hits to DB: 4,449,306
+Number of extensions: 187852
+Number of successful extensions: 631
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 623
+Number of HSP's successfully gapped: 18
+Length of query: 659
+Length of database: 4,489,794
+Length adjustment: 99
+Effective length of query: 560
+Effective length of database: 3,587,409
+Effective search space: 2008949040
+Effective search space used: 2008949040
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 55 (25.8 bits)

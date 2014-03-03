@@ -1,0 +1,333 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06881:Putative uncharacterized protein
+         (568 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gen...   206   4e-59
+YER165W pep:known chromosome:SacCer_Apr2011:V:510373:512106:1 ge...    85   6e-18
+YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1 ...    66   9e-12
+YGR159C pep:known chromosome:SacCer_Apr2011:VII:806412:807656:-1...    64   3e-11
+YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1 ...    57   1e-09
+YNL004W pep:known chromosome:SacCer_Apr2011:XIV:622915:624621:1 ...    59   1e-09
+YNL016W pep:known chromosome:SacCer_Apr2011:XIV:602907:604268:1 ...    58   2e-09
+YCL011C pep:known chromosome:SacCer_Apr2011:III:102075:103358:-1...    56   8e-09
+YIL061C pep:known chromosome:SacCer_Apr2011:IX:244657:245559:-1 ...    52   1e-07
+YNL175C pep:known chromosome:SacCer_Apr2011:XIV:307401:308612:-1...    50   7e-07
+YPR112C pep:known chromosome:SacCer_Apr2011:XVI:749256:751919:-1...    50   1e-06
+YOL041C pep:known chromosome:SacCer_Apr2011:XV:251267:252646:-1 ...    48   2e-06
+YFR023W pep:known chromosome:SacCer_Apr2011:VI:199874:201709:1 g...    48   3e-06
+YGR250C pep:known chromosome:SacCer_Apr2011:VII:991176:993521:-1...    48   4e-06
+YIR005W pep:known chromosome:SacCer_Apr2011:IX:364889:365335:1 g...    44   6e-06
+YGL044C pep:known chromosome:SacCer_Apr2011:VII:416146:417036:-1...    45   1e-05
+YHR015W pep:known chromosome:SacCer_Apr2011:VIII:134554:136533:1...    44   7e-05
+YNL110C pep:known chromosome:SacCer_Apr2011:XIV:417826:418488:-1...    40   3e-04
+YHR086W pep:known chromosome:SacCer_Apr2011:VIII:278153:279724:1...    37   0.008
+YBR212W pep:known chromosome:SacCer_Apr2011:II:647886:649904:1 g...    35   0.029
+YDR429C pep:known chromosome:SacCer_Apr2011:IV:1324477:1325301:-...    33   0.073
+YHL024W pep:known chromosome:SacCer_Apr2011:VIII:56649:58790:1 g...    30   1.7  
+YOR361C pep:known chromosome:SacCer_Apr2011:XV:1015361:1017652:-...    29   2.4  
+YPL178W pep:known chromosome:SacCer_Apr2011:XVI:212158:212784:1 ...    28   2.8  
+YNL197C pep:known chromosome:SacCer_Apr2011:XIV:267608:269593:-1...    28   6.3  
+
+>YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gene:YOL123W
+           transcript:YOL123W description:"Subunit of cleavage
+           factor I, a five-subunit complex required for the
+           cleavage and polyadenylation of pre-mRNA 3' ends\x3b
+           RRM-containing heteronuclear RNA binding protein and
+           hnRNPA/B family member that binds to poly (A) signal
+           sequences"
+          Length = 534
+
+ Score =  206 bits (524), Expect = 4e-59,   Method: Compositional matrix adjust.
+ Identities = 91/166 (54%), Positives = 130/166 (78%), Gaps = 1/166 (0%)
+
+Query: 115 SKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVN 174
+           SKE  KMFIGGLNW+TT+++LR+YF ++G V +  +M+D  TGRSRGFGFL+F+ P +V+
+Sbjct: 155 SKESCKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVD 214
+
+Query: 175 IVMVKEHYLDGKIIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATL 234
+            V+  +H LDGK+IDPKRAIPRDEQ+KT KIFVGG+  +   +EF++FF+Q+G ++DA L
+Sbjct: 215 EVVKTQHILDGKVIDPKRAIPRDEQDKTGKIFVGGIGPDVRPKEFEEFFSQWGTIIDAQL 274
+
+Query: 235 MMDKDTGRPRGFGFVTFESEAGVE-ACLARDLEIHGKLIEVKKAQP 279
+           M+DKDTG+ RGFGFVT++S   V+  C  + ++   + IE+K+A+P
+Sbjct: 275 MLDKDTGQSRGFGFVTYDSADAVDRVCQNKFIDFKDRKIEIKRAEP 320
+
+
+
+ Score = 71.6 bits (174), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 30/83 (36%), Positives = 54/83 (65%)
+
+Query: 197 DEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAG 256
+           D  +++ K+F+GG++ +TT+   +++F ++G V D  +M D  TGR RGFGF++FE  + 
+Sbjct: 153 DLSKESCKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSS 212
+
+Query: 257 VEACLARDLEIHGKLIEVKKAQP 279
+           V+  +     + GK+I+ K+A P
+Sbjct: 213 VDEVVKTQHILDGKVIDPKRAIP 235
+
+
+>YER165W pep:known chromosome:SacCer_Apr2011:V:510373:512106:1 gene:YER165W
+           transcript:YER165W description:"Poly(A) binding protein,
+           part of the 3'-end RNA-processing complex, mediates
+           interactions between the 5' cap structure and the 3'
+           mRNA poly(A) tail, involved in control of poly(A) tail
+           length, interacts with translation factor eIF-4G"
+          Length = 577
+
+ Score = 85.1 bits (209), Expect = 6e-18,   Method: Compositional matrix adjust.
+ Identities = 57/175 (32%), Positives = 99/175 (56%), Gaps = 14/175 (8%)
+
+Query: 116 KEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVN- 174
+           K  G +FI  L+ +  +++L D FS FG+++   +  D   G+S+GFGF+ F++      
+Sbjct: 123 KGSGNIFIKNLHPDIDNKALYDTFSVFGDILSSKIATD-ENGKSKGFGFVHFEEEGAAKE 181
+
+Query: 175 -IVMVKEHYLDGKIIDPKRAIPRDEQEKT--------SKIFVGGVSQETTDQEFKDFFAQ 225
+            I  +    L+G+ I     + R E++          + ++V  ++ ETTD++F++ FA+
+Sbjct: 182 AIDALNGMLLNGQEIYVAPHLSRKERDSQLEETKAHYTNLYVKNINSETTDEQFQELFAK 241
+
+Query: 226 FGRVVDATLMMDKDTGRPRGFGFVTFES-EAGVEACLA-RDLEIHGKLIEVKKAQ 278
+           FG +V A+L  D D G+ +GFGFV +E  E  V+A  A  D E++G+ + V +AQ
+Sbjct: 242 FGPIVSASLEKDAD-GKLKGFGFVNYEKHEDAVKAVEALNDSELNGEKLYVGRAQ 295
+
+
+
+ Score = 65.9 bits (159), Expect = 8e-12,   Method: Compositional matrix adjust.
+ Identities = 49/180 (27%), Positives = 94/180 (52%), Gaps = 24/180 (13%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTF-KDPKTVNIV-MV 178
+           +++  +N ETTDE  ++ F++FG ++  ++ +D   G+ +GFGF+ + K    V  V  +
+Sbjct: 221 LYVKNINSETTDEQFQELFAKFGPIVSASLEKDAD-GKLKGFGFVNYEKHEDAVKAVEAL 279
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQ-------------EKTSK-----IFVGGVSQETTDQEFK 220
+            +  L+G+ +   RA  ++E+             EK +K     +FV  +     D++ +
+Sbjct: 280 NDSELNGEKLYVGRAQKKNERMHVLKKQYEAYRLEKMAKYQGVNLFVKNLDDSVDDEKLE 339
+
+Query: 221 DFFAQFGRVVDATLMMDKDTGRPRGFGFVTFES-EAGVEACLARDLEI-HGKLIEVKKAQ 278
+           + FA +G +  A +M  ++ G+ +GFGFV F + E   +A   ++ +I  GK + V  AQ
+Sbjct: 340 EEFAPYGTITSAKVMRTEN-GKSKGFGFVCFSTPEEATKAITEKNQQIVAGKPLYVAIAQ 398
+
+
+
+ Score = 60.8 bits (146), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 36/145 (24%), Positives = 71/145 (48%), Gaps = 5/145 (3%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVKE 180
+           +++G L    ++  L D FS  G V    V RD  T  S G+ ++ F D +     + + 
+Sbjct: 40  LYVGDLEPSVSEAHLYDIFSPIGSVSSIRVCRDAITKTSLGYAYVNFNDHEAGRKAIEQL 99
+
+Query: 181 HY--LDGKI--IDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMM 236
+           +Y  + G++  I   +  P   ++ +  IF+  +  +  ++   D F+ FG ++ + +  
+Sbjct: 100 NYTPIKGRLCRIMWSQRDPSLRKKGSGNIFIKNLHPDIDNKALYDTFSVFGDILSSKIAT 159
+
+Query: 237 DKDTGRPRGFGFVTFESEAGVEACL 261
+           D++ G+ +GFGFV FE E   +  +
+Sbjct: 160 DEN-GKSKGFGFVHFEEEGAAKEAI 183
+
+
+
+ Score = 30.0 bits (66), Expect = 0.99,   Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 36/79 (45%), Gaps = 2/79 (2%)
+
+Query: 202 TSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTF-ESEAGVEAC 260
+           ++ ++VG +    ++    D F+  G V    +  D  T    G+ +V F + EAG +A 
+Sbjct: 37  SASLYVGDLEPSVSEAHLYDIFSPIGSVSSIRVCRDAITKTSLGYAYVNFNDHEAGRKAI 96
+
+Query: 261 LARDLE-IHGKLIEVKKAQ 278
+              +   I G+L  +  +Q
+Sbjct: 97  EQLNYTPIKGRLCRIMWSQ 115
+
+
+>YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1
+           gene:YPL043W transcript:YPL043W description:"Nucleolar
+           protein, essential for processing and maturation of 27S
+           pre-rRNA and large ribosomal subunit biogenesis\x3b
+           constituent of 66S pre-ribosomal particles\x3b contains
+           four RNA recognition motifs (RRMs)"
+          Length = 685
+
+ Score = 65.9 bits (159), Expect = 9e-12,   Method: Compositional matrix adjust.
+ Identities = 57/212 (26%), Positives = 91/212 (42%), Gaps = 55/212 (25%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTF--KDPKTVNIVMV 178
+           +F+  +  + TDE L D+FS F  +    V++D T  RSRGFGF++F  +D     +   
+Sbjct: 28  LFVRSIPQDVTDEQLADFFSNFAPIKHAVVVKD-TNKRSRGFGFVSFAVEDDTKEALAKA 86
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQEKTSKIFVGGV---SQETTDQ------------------ 217
+           ++   +G I+    A  RD  +KTS++        S++ T Q                  
+Sbjct: 87  RKTKFNGHILRVDIAKRRDRSKKTSEVVEKSTPESSEKITGQNNEDEDDADGEDSMLKGK 146
+
+Query: 218 ----------------EFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL 261
+                           + K  F ++G VV+AT+   +D G+  GF FVT +  +     L
+Sbjct: 147 PKLIIRNMPWSCRDPVKLKKIFGRYGTVVEATIPRKRD-GKLCGFAFVTMKKISNCRIAL 205
+
+Query: 262 --ARDLEIHGKLIEV------------KKAQP 279
+              +DL+I G+ + V            KKAQP
+Sbjct: 206 ENTKDLKIDGRKVAVDFAVQKNRWEDYKKAQP 237
+
+
+
+ Score = 47.8 bits (112), Expect = 4e-06,   Method: Compositional matrix adjust.
+ Identities = 23/64 (35%), Positives = 38/64 (59%)
+
+Query: 111 RGPNSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP 170
+           +  N +ED  +F+  + ++ T+ESL  +FS+FG V     + D +TG ++G  F+ FKD 
+Sbjct: 282 KAQNKREDFSVFVRNVPYDATEESLAPHFSKFGSVKYALPVIDKSTGLAKGTAFVAFKDQ 341
+
+Query: 171 KTVN 174
+            T N
+Sbjct: 342 YTYN 345
+
+
+
+ Score = 46.6 bits (109), Expect = 8e-06,   Method: Compositional matrix adjust.
+ Identities = 48/202 (23%), Positives = 77/202 (38%), Gaps = 61/202 (30%)
+
+Query: 120 KMFIGGLNWETTD-ESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVM- 177
+           K+ I  + W   D   L+  F ++G V+E T+ R    G+  GF F+T K      I + 
+Sbjct: 148 KLIIRNMPWSCRDPVKLKKIFGRYGTVVEATIPR-KRDGKLCGFAFVTMKKISNCRIALE 206
+
+Query: 178 -VKEHYLDGKII------------DPKRAIP----RDEQE-------------------- 200
+             K+  +DG+ +            D K+A P    +D+ E                    
+Sbjct: 207 NTKDLKIDGRKVAVDFAVQKNRWEDYKKAQPEMNDKDDNESGNEDAEENHDDEEDENEEE 266
+
+Query: 201 ----------KTSK-----------IFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKD 239
+                     K SK           +FV  V  + T++     F++FG V  A  ++DK 
+Sbjct: 267 DRQVDQASKNKESKRKAQNKREDFSVFVRNVPYDATEESLAPHFSKFGSVKYALPVIDKS 326
+
+Query: 240 TGRPRGFGFVTFESEAGVEACL 261
+           TG  +G  FV F+ +     C+
+Sbjct: 327 TGLAKGTAFVAFKDQYTYNECI 348
+
+
+
+ Score = 28.9 bits (63), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 14/18 (77%)
+
+Query: 154 GTTGRSRGFGFLTFKDPK 171
+            T GRSRG+GF+ F+D K
+Sbjct: 547 STAGRSRGYGFVEFRDHK 564
+
+
+>YGR159C pep:known chromosome:SacCer_Apr2011:VII:806412:807656:-1
+           gene:YGR159C transcript:YGR159C description:"Nucleolar
+           protein that binds nuclear localization sequences,
+           required for pre-rRNA processing and ribosome
+           biogenesis"
+          Length = 414
+
+ Score = 63.5 bits (153), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 77/164 (46%), Gaps = 19/164 (11%)
+
+Query: 115 SKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP---- 170
+           ++E   +F+G L+W   DE L+  F   G VI   V+ +  T RSRG+G++ F++     
+Sbjct: 164 TEEPATIFVGRLSWSIDDEWLKKEFEHIGGVIGARVIYERGTDRSRGYGYVDFENKSYAE 223
+
+Query: 171 KTVNIVMVKEHYLDGKII--DPKRAIPRDEQEKTSK-----------IFVGGVSQETTDQ 217
+           K +  +  KE  +DG+ I  D   + P    ++  K           +F+G +S      
+Sbjct: 224 KAIQEMQGKE--IDGRPINCDMSTSKPAGNNDRAKKFGDTPSEPSDTLFLGNLSFNADRD 281
+
+Query: 218 EFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL 261
+              + FA+ G VV   +    +T +P+GFG+V F +    +  L
+Sbjct: 282 AIFELFAKHGEVVSVRIPTHPETEQPKGFGYVQFSNMEDAKKAL 325
+
+
+
+ Score = 48.1 bits (113), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 26/77 (33%), Positives = 44/77 (57%), Gaps = 3/77 (3%)
+
+Query: 197 DEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAG 256
+           +E E+ + IFVG +S    D+  K  F   G V+ A ++ ++ T R RG+G+V FE+++ 
+Sbjct: 162 EETEEPATIFVGRLSWSIDDEWLKKEFEHIGGVIGARVIYERGTDRSRGYGYVDFENKSY 221
+
+Query: 257 VEACLARDLEIHGKLIE 273
+            E  +    E+ GK I+
+Sbjct: 222 AEKAIQ---EMQGKEID 235
+
+
+>YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1
+           gene:YIR001C transcript:YIR001C description:"Cytoplasmic
+           RNA-binding protein, contains an RNA recognition motif
+           (RRM)\x3b may have a role in mRNA translation, as
+           suggested by genetic interactions with genes encoding
+           proteins involved in translational initiation"
+          Length = 250
+
+ Score = 57.4 bits (137), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 27/73 (36%), Positives = 45/73 (61%), Gaps = 1/73 (1%)
+
+Query: 205 IFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLARD 264
+           IFVG ++ + T ++ +D F   G++   TL+ D++TG P+G+G++ FES A  E  L  +
+Sbjct: 66  IFVGNITPDVTPEQIEDHFKDCGQIKRITLLYDRNTGTPKGYGYIEFESPAYREKALQLN 125
+
+Query: 265 -LEIHGKLIEVKK 276
+             E+ GK I V +
+Sbjct: 126 GGELKGKKIAVSR 138
+
+
+
+ Score = 43.1 bits (100), Expect = 5e-05,   Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 30/50 (60%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP 170
+           +F+G +  + T E + D+F   G++   T++ D  TG  +G+G++ F+ P
+Sbjct: 66  IFVGNITPDVTPEQIEDHFKDCGQIKRITLLYDRNTGTPKGYGYIEFESP 115
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.313    0.134    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,037,751
+Number of extensions: 66864
+Number of successful extensions: 208
+Number of sequences better than 10.0: 28
+Number of HSP's gapped: 190
+Number of HSP's successfully gapped: 63
+Length of query: 568
+Length of database: 3,010,216
+Length adjustment: 95
+Effective length of query: 473
+Effective length of database: 2,374,476
+Effective search space: 1123127148
+Effective search space used: 1123127148
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 53 (25.0 bits)

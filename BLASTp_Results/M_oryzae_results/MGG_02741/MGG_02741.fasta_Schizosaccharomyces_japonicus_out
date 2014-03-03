@@ -1,0 +1,113 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB09692 pep:novel supercontig:GCA_000149845.2:supercont5.2:2227...    31   0.28 
+EEB08823 pep:novel supercontig:GCA_000149845.2:supercont5.2:3332...    30   0.59 
+EEB08347 pep:novel supercontig:GCA_000149845.2:supercont5.2:1201...    30   0.76 
+
+>EEB09692 pep:novel supercontig:GCA_000149845.2:supercont5.2:2227689:2229084:
+           -1 gene:SJAG_04914 transcript:EEB09692
+           description:"RNA-binding protein Rsd1"
+          Length = 353
+
+ Score = 30.8 bits (68), Expect = 0.28,   Method: Compositional matrix adjust.
+ Identities = 13/50 (26%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query: 99  ILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIEL 148
+           + +++L   +T  ++R +  +AG    ++D      +V G+SKG  Y+E 
+Sbjct: 32  VFVTQLANRLTTHELREFFEQAGA---VRDAQIVRDRVTGRSKGVAYVEF 78
+
+
+>EEB08823 pep:novel supercontig:GCA_000149845.2:supercont5.2:3332894:3335560:
+           -1 gene:SJAG_03995 transcript:EEB08823 description:"U2AF
+           large subunit"
+          Length = 523
+
+ Score = 30.0 bits (66), Expect = 0.59,   Method: Compositional matrix adjust.
+ Identities = 20/87 (22%), Positives = 43/87 (49%), Gaps = 8/87 (9%)
+
+Query: 73  TPQQSNPLKRKEGSDD---RAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDI 129
+            PQ S+ + +K   +D   + +D  +   + I  L  ++ +D I   ++  G   EL+ +
+Sbjct: 287 VPQISSEVAQKRPKNDLNQKVLD--SADKVYIGSLPLYLNEDQISELLKPFG---ELQSL 341
+
+Query: 130 TFSEHKVNGKSKGQVYIELTSQQAATA 156
+             +++  +  S+G  + E  S ++ATA
+Sbjct: 342 FLAKNSADMTSRGYAFCEYISSESATA 368
+
+
+>EEB08347 pep:novel supercontig:GCA_000149845.2:supercont5.2:1201032:1215164:1
+            gene:SJAG_03496 transcript:EEB08347 description:"midasin"
+          Length = 4710
+
+ Score = 30.0 bits (66), Expect = 0.76,   Method: Composition-based stats.
+ Identities = 18/99 (18%), Positives = 39/99 (39%)
+
+Query: 5    DFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXXXXXX 64
+            + E  + G   +++   + N  D+  +G   ++ + +NDNEQ  D++             
+Sbjct: 3936 EMEDGLNGGQEEQKDAEESNDEDELSDGDLDEEVNSSNDNEQSLDEKLWDEPNEETLGDN 3995
+
+Query: 65   XXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISE 103
+                 E +    +  L   E   D  +D  A+ +  ++E
+Sbjct: 3996 ESKSKERSKQNNTENLVSNEDGGDSEVDEEASDSEAVNE 4034
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,071,985
+Number of extensions: 39290
+Number of successful extensions: 92
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 92
+Number of HSP's successfully gapped: 9
+Length of query: 424
+Length of database: 2,277,407
+Length adjustment: 91
+Effective length of query: 333
+Effective length of database: 1,833,509
+Effective search space: 610558497
+Effective search space used: 610558497
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

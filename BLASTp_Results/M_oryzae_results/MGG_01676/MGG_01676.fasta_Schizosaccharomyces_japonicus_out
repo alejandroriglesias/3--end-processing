@@ -1,0 +1,145 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB05400 pep:novel supercontig:GCA_000149845.2:supercont5.1:3396...    31   0.14 
+EEB09120 pep:novel supercontig:GCA_000149845.2:supercont5.2:2681...    29   0.72 
+EEB05960 pep:novel supercontig:GCA_000149845.2:supercont5.1:2232...    27   2.6  
+EEB09607 pep:novel supercontig:GCA_000149845.2:supercont5.3:6045...    26   4.3  
+EEB06342 pep:novel supercontig:GCA_000149845.2:supercont5.3:1520...    25   6.0  
+EEB05508 pep:novel supercontig:GCA_000149845.2:supercont5.1:3182...    25   6.7  
+
+>EEB05400 pep:novel supercontig:GCA_000149845.2:supercont5.1:3396457:3399962:
+           1 gene:SJAG_00412 transcript:EEB05400
+           description:"arginine specific carbamoyl-phosphate
+           synthase Arg4"
+          Length = 1125
+
+ Score = 31.2 bits (69), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 29/62 (46%), Gaps = 2/62 (3%)
+
+Query: 124 VGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHV-TRPKECKKLYFIQLPNSKVL 182
+           V R+G   E  DW    C     R   +T M  + P  V T   EC++LYF +L   +V+
+Sbjct: 604 VYRIGSSVEF-DWCGVSCARGLRRVGMKTIMINYNPETVSTDFDECERLYFDELSYERVM 662
+
+Query: 183 SV 184
+            +
+Sbjct: 663 DI 664
+
+
+>EEB09120 pep:novel supercontig:GCA_000149845.2:supercont5.2:2681609:268339
+          7:1 gene:SJAG_04297 transcript:EEB09120
+          description:"sulfonate dioxygenase"
+          Length = 396
+
+ Score = 28.9 bits (63), Expect = 0.72,   Method: Compositional matrix adjust.
+ Identities = 15/40 (37%), Positives = 20/40 (50%)
+
+Query: 1  MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFG 40
+          MS  +TT LQS +  +       NQ E + + PL  Y FG
+Sbjct: 1  MSVSSTTTLQSAEKKVRLNDSLTNQQEKLDIEPLEGYDFG 40
+
+
+>EEB05960 pep:novel supercontig:GCA_000149845.2:supercont5.1:2232199:2234351:
+           1 gene:SJAG_00987 transcript:EEB05960 description:"MBF
+           transcription factor complex subunit Res2"
+          Length = 657
+
+ Score = 26.9 bits (58), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 20/38 (52%)
+
+Query: 33  PLSNYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRR 70
+           P  N TFG  +   +  PS+ A+  +L E YNA  + +
+Sbjct: 457 PSINNTFGTSQAFGKAIPSISAKFAQLAETYNAQLLEK 494
+
+
+>EEB09607 pep:novel supercontig:GCA_000149845.2:supercont5.3:60453:62526:1
+           gene:SJAG_04825 transcript:EEB09607
+           description:"RNA-binding protein"
+          Length = 395
+
+ Score = 26.2 bits (56), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 24/68 (35%), Gaps = 9/68 (13%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMY--------PFVPAHVTRPKECKK 170
+           ER   V    E   A  W+IG CL   W     T  Y        PF P   T P+   +
+Sbjct: 230 ERTVEVHGTVENLHAAIWEIGKCLIDDWERGAGTVFYNPVSRLTQPF-PTVATSPRAVSQ 288
+
+Query: 171 LYFIQLPN 178
+                +P+
+Sbjct: 289 QMTPAIPS 296
+
+
+>EEB06342 pep:novel supercontig:GCA_000149845.2:supercont5.3:1520464:1521221:
+           -1 gene:SJAG_01385 transcript:EEB06342 description:"NuA4
+           histone acetyltransferase complex subunit"
+          Length = 150
+
+ Score = 25.4 bits (54), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 19/55 (34%), Positives = 25/55 (45%), Gaps = 11/55 (20%)
+
+Query: 27  ETIRLYPLSNYTFGVKETQ-----------PEEDPSVLARLKRLEEHYNAHGMRR 70
+           E+ RL+ LS+ T GVK TQ            E   S   R KR    +NA+  +R
+Sbjct: 89  ESDRLFSLSSSTAGVKGTQMFSRLYTDEDGDENTSSSNRRRKRKSADHNAYDHKR 143
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,334,087
+Number of extensions: 59975
+Number of successful extensions: 113
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 113
+Number of HSP's successfully gapped: 7
+Length of query: 266
+Length of database: 2,277,407
+Length adjustment: 86
+Effective length of query: 180
+Effective length of database: 1,857,899
+Effective search space: 334421820
+Effective search space used: 334421820
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 49 (23.5 bits)

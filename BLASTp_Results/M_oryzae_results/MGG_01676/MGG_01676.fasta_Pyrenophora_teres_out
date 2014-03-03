@@ -1,0 +1,144 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ84874 pep:novel supercontig:GCA_000166005.1:GL538174:65557:66...   442   e-157
+EFQ96067 pep:novel supercontig:GCA_000166005.1:GL532293:1253:648...    30   0.80 
+EFQ86624 pep:novel supercontig:GCA_000166005.1:GL537338:24022:26...    28   2.2  
+EFQ86288 pep:novel supercontig:GCA_000166005.1:GL537489:85310:87...    28   2.9  
+
+>EFQ84874 pep:novel supercontig:GCA_000166005.1:GL538174:65557:66529:1
+           gene:PTT_20368 transcript:EFQ84874
+           description:"hypothetical protein"
+          Length = 275
+
+ Score =  442 bits (1137), Expect = e-157,   Method: Compositional matrix adjust.
+ Identities = 215/263 (81%), Positives = 229/263 (87%), Gaps = 2/263 (0%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTI   A QS  PP+IP  FN NQP+TIRL+PLSNYTFG K+ QPEEDPSVLARLKRLE
+Sbjct: 1   MSTIVKEASQSSYPPVIPKDFNGNQPKTIRLFPLSNYTFGTKDGQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  HGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLR EDDEVEGFKARL+ER
+Sbjct: 61  EHYAEHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRAEDDEVEGFKARLNER 120
+
+Query: 121 LAPVGRLGEGEEAGD-WQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE   D W +GD LAQWWRPNFETFMYPF+PAHVTRPKECKKLYFIQLP S
+Sbjct: 121 LAPVGTQFTGEGVNDEWVVGDTLAQWWRPNFETFMYPFIPAHVTRPKECKKLYFIQLPRS 180
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE+GNV A TPGSG 
+Sbjct: 181 KVLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDEKGNVAACTPGSGA 240
+
+Query: 240 GEGDHVPKTKVLAGGDDVDMKQE 262
+            +G H P+TKVLAGGD  D++ E
+Sbjct: 241 PDGYH-PQTKVLAGGDGDDVRME 262
+
+
+>EFQ96067 pep:novel supercontig:GCA_000166005.1:GL532293:1253:6482:1
+           gene:PTT_03376 transcript:EFQ96067
+           description:"hypothetical protein"
+          Length = 1724
+
+ Score = 30.0 bits (66), Expect = 0.80,   Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 20/34 (58%), Gaps = 5/34 (14%)
+
+Query: 105 PEDDEVEGFKAR-----LDERLAPVGRLGEGEEA 133
+           PE DE+EGFK       LDE   P+G L +G+ A
+Sbjct: 663 PEIDELEGFKVNKKGQVLDEEGEPIGELVKGDAA 696
+
+
+>EFQ86624 pep:novel supercontig:GCA_000166005.1:GL537338:24022:26022:-1
+           gene:PTT_18091 transcript:EFQ86624
+           description:"hypothetical protein"
+          Length = 666
+
+ Score = 28.5 bits (62), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 29/65 (44%)
+
+Query: 175 QLPNSKVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQT 234
+           Q+     +++P    L A P  E   + A  GP +SA+     +   E   +Q  V +QT
+Sbjct: 216 QISGENKVTIPGRSGLTARPAKENSSDLASRGPHVSAVDDNKKQDKTESGGQQPKVSSQT 275
+
+Query: 235 PGSGP 239
+           P S P
+Sbjct: 276 PSSTP 280
+
+
+>EFQ86288 pep:novel supercontig:GCA_000166005.1:GL537489:85310:87497:-1
+           gene:PTT_18549 transcript:EFQ86288
+           description:"hypothetical protein"
+          Length = 667
+
+ Score = 28.1 bits (61), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 23/77 (29%), Positives = 33/77 (42%), Gaps = 9/77 (11%)
+
+Query: 2   STITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLEE 61
+           +T+T + LQ+  P +  L     +P   R+  +  +    K    +  PSVL     L  
+Sbjct: 413 ATVTESDLQNSLPNVHRLP----KPAQDRILAIVRH-HKFKSWMTDTKPSVLF----LNG 463
+
+Query: 62  HYNAHGMRRTCEGILVC 78
+           HY AHG  R C    VC
+Sbjct: 464 HYTAHGSMRQCPTSFVC 480
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 3,465,217
+Number of extensions: 164512
+Number of successful extensions: 388
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 387
+Number of HSP's successfully gapped: 7
+Length of query: 266
+Length of database: 5,457,232
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,371,724
+Effective search space: 760679976
+Effective search space used: 760679976
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,265 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC644.16.1:pep pep:known chromosome:ASM294v2:I:2701588:2703006...   128   3e-34
+SPBC3B9.11c.1:pep pep:known chromosome:ASM294v2:II:4006607:40080...    96   3e-23
+SPBC887.05c.1:pep pep:known chromosome:ASM294v2:II:3548811:35499...    67   6e-14
+SPAC328.05.1:pep pep:known chromosome:ASM294v2:I:3484543:3486956...    63   7e-12
+SPAC140.02.1:pep pep:known chromosome:ASM294v2:I:1897448:1899491...    62   2e-11
+SPAC57A7.04c.1:pep pep:known chromosome:ASM294v2:I:1540606:15452...    61   5e-11
+SPAC3G6.04.1:pep pep:known chromosome:ASM294v2:I:5385758:5387132...    57   8e-10
+SPBC13A2.01c.1:pep pep:known chromosome:ASM294v2:II:3397894:3400...    55   1e-09
+SPBC660.15.1:pep pep:known chromosome:ASM294v2:II:224297:228689:...    56   2e-09
+SPBC146.07.1:pep pep:known chromosome:ASM294v2:II:1013254:101517...    52   4e-08
+SPAC23A1.09.1:pep pep:known chromosome:ASM294v2:I:4093921:409514...    49   7e-08
+SPCC1827.05c.1:pep pep:known chromosome:ASM294v2:III:2384639:238...    50   1e-07
+SPBC18H10.03.1:pep pep:known chromosome:ASM294v2:II:1772999:1774...    49   2e-07
+SPBC17G9.05.1:pep pep:known chromosome:ASM294v2:II:2177733:21794...    49   3e-07
+SPBC4F6.14.1:pep pep:known chromosome:ASM294v2:II:2716857:271912...    49   3e-07
+SPAC25G10.01.1:pep pep:known chromosome:ASM294v2:I:4295138:42973...    49   3e-07
+SPBC16E9.12c.1:pep pep:known chromosome:ASM294v2:II:1939371:1940...    47   4e-07
+SPAC19G12.07c.1:pep pep:known chromosome:ASM294v2:I:4053604:4056...    47   2e-06
+SPBC16A3.18.1:pep pep:known chromosome:ASM294v2:II:4261818:42641...    47   2e-06
+SPBC365.04c.1:pep pep:known chromosome:ASM294v2:II:2504152:25051...    46   2e-06
+SPBP22H7.02c.1:pep pep:known chromosome:ASM294v2:II:1433225:1436...    47   2e-06
+SPAC31G5.01.1:pep pep:known chromosome:ASM294v2:I:2989280:299081...    45   4e-06
+SPBC18H10.04c.1:pep pep:known chromosome:ASM294v2:II:1775169:177...    45   6e-06
+SPBC839.10.1:pep pep:known chromosome:ASM294v2:II:618349:620884:...    45   6e-06
+SPAC22E12.02.1:pep pep:known chromosome:ASM294v2:I:5021952:50241...    44   7e-06
+SPAC12G12.03.1:pep pep:known chromosome:ASM294v2:I:342090:345182...    44   1e-05
+SPBC13G1.14c.1:pep pep:known chromosome:ASM294v2:II:3726995:3728...    42   3e-05
+SPAC16E8.06c.1:pep pep:known chromosome:ASM294v2:I:3508514:35100...    41   1e-04
+SPAC17A2.09c.1:pep pep:known chromosome:ASM294v2:I:3570007:35723...    40   2e-04
+SPAC343.07.1:pep pep:known chromosome:ASM294v2:I:1651012:1652981...    39   4e-04
+SPAC16.02c.1:pep pep:known chromosome:ASM294v2:I:4424648:4427046...    39   5e-04
+SPBC29A10.02.1:pep pep:known chromosome:ASM294v2:II:2536164:2538...    39   5e-04
+SPAC13G7.13c.1:pep pep:known chromosome:ASM294v2:I:2318492:23226...    39   6e-04
+SPBC4B4.07c.1:pep pep:known chromosome:ASM294v2:II:3423222:34246...    37   0.002
+SPBC428.12c.1:pep pep:known chromosome:ASM294v2:II:467841:468829...    35   0.002
+SPAC19A8.13.1:pep pep:known chromosome:ASM294v2:I:2461151:246226...    36   0.004
+SPCC16C4.07.1:pep pep:known chromosome:ASM294v2:III:673476:67525...    36   0.005
+SPAC1610.03c.1:pep pep:known chromosome:ASM294v2:I:1792433:17949...    35   0.008
+SPBC23E6.01c.1:pep pep:known chromosome:ASM294v2:II:3835397:3837...    35   0.011
+SPCC74.09.1:pep pep:known chromosome:ASM294v2:III:1917714:192273...    34   0.016
+SPBP35G2.14.1:pep pep:known chromosome:ASM294v2:II:992679:996435...    34   0.028
+SPAC10F6.06.1:pep pep:known chromosome:ASM294v2:I:1217077:121822...    31   0.11 
+SPAC2F7.11.1:pep pep:known chromosome:ASM294v2:I:555277:559051:1...    30   0.52 
+SPBC1289.02c.1:pep pep:known chromosome:ASM294v2:II:4384037:4385...    29   0.59 
+SPAC57A7.13.1:pep pep:known chromosome:ASM294v2:I:1512683:151483...    27   2.3  
+SPCC306.04c.1:pep pep:known chromosome:ASM294v2:III:412293:41603...    27   5.2  
+SPBP16F5.06.1:pep pep:known chromosome:ASM294v2:II:1907890:19099...    26   5.8  
+
+>SPAC644.16.1:pep pep:known chromosome:ASM294v2:I:2701588:2703006:1 gene:SPAC644.16
+           transcript:SPAC644.16.1 description:"RNA-binding protein
+           (predicted)"
+          Length = 422
+
+ Score =  128 bits (322), Expect = 3e-34,   Method: Compositional matrix adjust.
+ Identities = 78/212 (36%), Positives = 106/212 (50%), Gaps = 25/212 (11%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           PS VV+VGNIPY ++EEQ+ DIF ++G V +F+LV D E+G+PKG+GF EY D  +AASA
+Sbjct: 3   PSCVVYVGNIPYEMAEEQVIDIFKQSGPVKSFQLVIDPESGQPKGYGFCEYHDPATAASA 62
+
+Query: 66  VRNLNDTEIMGRKLRVDFSN----EKXXXXXXXXXXXXXXXXXXXXXYQQQQEVPSLPPL 121
+           VRNLN+ +   R+LRVDF       +                     Y       S PP 
+Sbjct: 63  VRNLNNYDAGTRRLRVDFPTADQIRRLDKLLGPSRYGYYPQSYANQSYTYGNNFGSYPPT 122
+
+Query: 122 PP---------------------GKDIPAGVSATDAISRTLRTLPPAQLLDILQQMKTMS 160
+            P                     G   P+GV A D + R L  L P ++  +L  +K + 
+Sbjct: 123 QPSTQPLPQSYGYPSYPPAGYRGGSARPSGVLANDEVYRVLAQLAPNEIDYMLSAIKALC 182
+
+Query: 161 GADPARATELLTQAPQLSYAIFQALLLMDLVS 192
+              P +A +L    PQLSYA+FQA+L+    S
+Sbjct: 183 LEAPEQAAQLFETNPQLSYAVFQAMLMKRYTS 214
+
+
+>SPBC3B9.11c.1:pep pep:known chromosome:ASM294v2:II:4006607:4008054:-1
+          gene:SPBC3B9.11c transcript:SPBC3B9.11c.1
+          description:"mRNA cleavage and polyadenylation
+          specificity factor complex subunit Ctf1"
+          Length = 363
+
+ Score = 95.9 bits (237), Expect = 3e-23,   Method: Compositional matrix adjust.
+ Identities = 42/76 (55%), Positives = 59/76 (77%)
+
+Query: 8  RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           VVFVGNIPY +SE+Q+T+IF++ G V  F+LV D ETG  KG+GF E+ D+++ A AVR
+Sbjct: 7  NVVFVGNIPYDVSEQQMTEIFNQVGPVKTFKLVLDPETGSGKGYGFCEFFDSETTAMAVR 66
+
+Query: 68 NLNDTEIMGRKLRVDF 83
+           LN++E+  RK+RV+F
+Sbjct: 67 KLNNSELGPRKIRVEF 82
+
+
+
+ Score = 47.4 bits (111), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 40/73 (54%)
+
+Query: 128 PAGVSATDAISRTLRTLPPAQLLDILQQMKTMSGADPARATELLTQAPQLSYAIFQALLL 187
+           P  +    ++ + L T    +LL++L +++T+    P  A  LL   P L YA FQA+LL
+Sbjct: 209 PTSIPLAPSVVQVLSTFSAQELLNMLSKLQTVVHIAPEEARRLLIANPALPYAAFQAMLL 268
+
+Query: 188 MDLVSPDAIHSVV 200
+           M+LV  + +  VV
+Sbjct: 269 MNLVDANVLQQVV 281
+
+
+
+ Score = 31.6 bits (70), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 15/29 (51%), Positives = 22/29 (75%)
+
+Query: 269 ALMQQVLALPQATIDQLPEAERAQIMALR 297
+           AL+QQ+LAL    I+ LP A+R QI+++R
+Sbjct: 329 ALIQQLLALTPEQINALPPAQRDQILSIR 357
+
+
+>SPBC887.05c.1:pep pep:known chromosome:ASM294v2:II:3548811:3549913:-1
+           gene:SPBC887.05c transcript:SPBC887.05c.1
+           description:"RNA-binding protein Cwf29"
+          Length = 217
+
+ Score = 67.4 bits (163), Expect = 6e-14,   Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 49/76 (64%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+           S  +++GN+ + L+E+ I  +FS  G+ ++  LV D+ETGK KGF F +Y D  S   AV
+Sbjct: 30  SAYIYIGNLDFDLNEDDILCVFSEFGEPVDINLVRDKETGKSKGFAFLKYEDQRSTVLAV 89
+
+Query: 67  RNLNDTEIMGRKLRVD 82
+            N+ + +++ R +RVD
+Sbjct: 90  DNMTNVKLLDRLVRVD 105
+
+
+>SPAC328.05.1:pep pep:known chromosome:ASM294v2:I:3484543:3486956:1 gene:SPAC328.05
+           transcript:SPAC328.05.1 description:"RNA-binding protein
+           involved in export of mRNAs (predicted)"
+          Length = 464
+
+ Score = 63.2 bits (152), Expect = 7e-12,   Method: Compositional matrix adjust.
+ Identities = 27/81 (33%), Positives = 50/81 (61%), Gaps = 1/81 (1%)
+
+Query: 5   PPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAAS 64
+           P S  ++VGN+P+  S+  + D+F+  G V+  R+ Y+  TG+ KGFG  ++ + + AAS
+Sbjct: 307 PCSDCIYVGNLPWATSDRNLLDLFTDIGSVIRARIAYE-PTGRSKGFGVVQFENENDAAS 365
+
+Query: 65  AVRNLNDTEIMGRKLRVDFSN 85
+           ++  LN     GR L++ +++
+Sbjct: 366 SIEKLNGYRYGGRPLQLSYAH 386
+
+
+
+ Score = 52.4 bits (124), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 26/76 (34%), Positives = 44/76 (57%), Gaps = 1/76 (1%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           P R +FVGN+PY +  + + D+F +AG V+   +  ++E G+ +G G         A  A
+Sbjct: 177 PDRQLFVGNLPYNVRWQDLKDLFRQAGSVIRADIQMNQE-GRSRGIGIVVMSSMKEAMHA 235
+
+Query: 66  VRNLNDTEIMGRKLRV 81
+           ++ L++T+ MGR L V
+Sbjct: 236 IQMLHNTDFMGRTLEV 251
+
+
+
+ Score = 42.4 bits (98), Expect = 5e-05,   Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 40/74 (54%), Gaps = 1/74 (1%)
+
+Query: 8   RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           R V+VGN+ Y +   ++ +   + G VLN  ++ +   G  KG    EY   + A +A++
+Sbjct: 77  RRVYVGNLSYQVRWFELKEFMGQVGNVLNCEIL-NLPNGLSKGCAIIEYSTAEEARTAIK 135
+
+Query: 68  NLNDTEIMGRKLRV 81
+            L++ + MGR + +
+Sbjct: 136 TLSNQKFMGRLVYI 149
+
+
+>SPAC140.02.1:pep pep:known chromosome:ASM294v2:I:1897448:1899491:1 gene:SPAC140.02
+           transcript:SPAC140.02.1 description:"nucleolar protein
+           required for rRNA processing"
+          Length = 500
+
+ Score = 62.0 bits (149), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 46/79 (58%), Gaps = 1/79 (1%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           PS  VFVGN+ +  +E+ ++  F   G + + RL  D ++G+ KGFG+  + D DSA   
+Sbjct: 364 PSDTVFVGNLSFNATEDDLSTAFGGCGDIQSIRLPTDPQSGRLKGFGYVTFSDIDSAKKC 423
+
+Query: 66  VRNLNDTEIMGRKLRVDFS 84
+           V  +N   I GR  R+DFS
+Sbjct: 424 VE-MNGHFIAGRPCRLDFS 441
+
+
+
+ Score = 45.1 bits (105), Expect = 7e-06,   Method: Compositional matrix adjust.
+ Identities = 22/77 (28%), Positives = 44/77 (57%)
+
+Query: 9   VVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRN 68
+            VFVG + + + ++ +   F   G ++  R++ D ++G+ KG+G+ ++   ++A +AV  
+Sbjct: 264 TVFVGRLSWNVDDQWLGQEFEEYGTIVGARVIMDGQSGRSKGYGYVDFETPEAAKAAVAA 323
+
+Query: 69  LNDTEIMGRKLRVDFSN 85
+               EI GR + +D SN
+Sbjct: 324 NGTKEIDGRMVNLDLSN 340
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 912,438
+Number of extensions: 29089
+Number of successful extensions: 173
+Number of sequences better than 10.0: 50
+Number of HSP's gapped: 160
+Number of HSP's successfully gapped: 72
+Length of query: 305
+Length of database: 2,387,769
+Length adjustment: 88
+Effective length of query: 217
+Effective length of database: 1,935,097
+Effective search space: 419916049
+Effective search space used: 419916049
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

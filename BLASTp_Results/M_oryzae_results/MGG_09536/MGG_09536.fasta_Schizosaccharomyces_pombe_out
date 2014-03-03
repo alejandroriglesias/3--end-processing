@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBP8B7.15c.1:pep pep:known chromosome:ASM294v2:II:3659809:36625...   301   2e-94
+SPCC548.05c.1:pep pep:known chromosome:ASM294v2:III:223353:22575...    35   0.020
+SPBP4H10.07.1:pep pep:known chromosome:ASM294v2:II:2881775:28837...    31   0.65 
+SPAC13D6.02c.1:pep pep:known chromosome:ASM294v2:I:2247229:22485...    29   1.2  
+SPAC20H4.04.1:pep pep:known chromosome:ASM294v2:I:2116487:212027...    28   2.9  
+
+>SPBP8B7.15c.1:pep pep:known chromosome:ASM294v2:II:3659809:3662598:-1
+           gene:SPBP8B7.15c transcript:SPBP8B7.15c.1
+           description:"ubiquitin-protein ligase E3 RBBP6 family
+           involved in mRNA cleavage (predicted)"
+          Length = 482
+
+ Score =  301 bits (771), Expect = 2e-94,   Method: Compositional matrix adjust.
+ Identities = 156/349 (44%), Positives = 217/349 (62%), Gaps = 27/349 (7%)
+
+Query: 14  EPTRVEFDGT-GISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIV 72
+           +P+R+ FDGT G+SVF++KR+II++  LG+G DFDL +Y  +  EEYDDDT IIPRST V
+Sbjct: 14  DPSRITFDGTIGMSVFDVKREIIMQKKLGNGLDFDLLLYNANSNEEYDDDTFIIPRSTSV 73
+
+Query: 73  VARRLPSMKPGAGRAARYVSGKAP--VNAKNSSRKEQVXXXXXXXXXXXXXXQM--SNAV 128
+           + RR+P+ K G G AARYVSG AP    A++ S K  V               +  S + 
+Sbjct: 74  IVRRVPAQKSGKGTAARYVSG-APKTTGARSDSVKRPVPMLQKKAPITSGESNINKSPSS 132
+
+Query: 129 TEEERLAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGE 188
+           +E+  +  MFQ  S+QW   Q++++  TPIY  KP   +  A+VPD  PP GYICYRCG+
+Sbjct: 133 SEDAAIQQMFQVSSDQWRETQDKMASATPIY--KPNQRRIAASVPDKPPPPGYICYRCGQ 190
+
+Query: 189 KGHWIQLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGEEGKVPSGVMV 248
+           KGHWIQ CPTN +P +D +PRVKRTTGIP+SFLK V++            EG   + +M+
+Sbjct: 191 KGHWIQACPTNADPNYDGKPRVKRTTGIPRSFLKNVERPA----------EGDA-ANIMI 239
+
+Query: 249 NADGDFVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQ--DRGLECPMDKRLFNEPM 306
+           NA+GD+V+ QPD A+WE +Q+R             D  ++Q  +  L C + K+L     
+Sbjct: 240 NAEGDYVVVQPDVASWETYQSR------KAALTANDVYKMQPPNISLACTLCKKLARNAC 293
+
+Query: 307 KTPCCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIK 355
+           +TPCC+K +C +CI  AL++SDF CP C  + VL+D L PD +   +I+
+Sbjct: 294 RTPCCDKLFCEECIQTALLDSDFECPNCHRKDVLLDTLNPDYQKQREIE 342
+
+
+>SPCC548.05c.1:pep pep:known chromosome:ASM294v2:III:223353:225756:-1 gene:SPCC548.05c
+           transcript:SPCC548.05c.1 description:"ubiquitin-protein
+           ligase E3 Dbl5"
+          Length = 468
+
+ Score = 35.4 bits (80), Expect = 0.020,   Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 2/45 (4%)
+
+Query: 291 RGLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQ 335
+           + LECP+       P  T C   TYC +C+ N L ES   CP C+
+Sbjct: 81  KTLECPICTEALQRPFTTHC-GHTYCYECLLNWLKESK-SCPTCR 123
+
+
+>SPBP4H10.07.1:pep pep:known chromosome:ASM294v2:II:2881775:2883758:1 gene:SPBP4H10.07
+           transcript:SPBP4H10.07.1 description:"ubiquitin-protein
+           ligase E3 (predicted)"
+          Length = 583
+
+ Score = 30.8 bits (68), Expect = 0.65,   Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 23/50 (46%)
+
+Query: 290 DRGLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAEGV 339
+           +R L C  +  L +E  +   C   +  +CI   L  S   CP C+ +GV
+Sbjct: 523 ERCLVCLSNFELNDECRRLKQCNHFFHRECIDQWLTSSQNSCPLCRTKGV 572
+
+
+>SPAC13D6.02c.1:pep pep:known chromosome:ASM294v2:I:2247229:2248535:-1
+           gene:SPAC13D6.02c transcript:SPAC13D6.02c.1
+           description:"zinc finger protein Byr3"
+          Length = 179
+
+ Score = 29.3 bits (64), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 16/27 (59%)
+
+Query: 176 EPPNGYICYRCGEKGHWIQLCPTNDNP 202
+           EP     CY CG  GH ++ CP++ NP
+Sbjct: 53  EPQQEKTCYACGTAGHLVRDCPSSPNP 79
+
+
+>SPAC20H4.04.1:pep pep:known chromosome:ASM294v2:I:2116487:2120279:1 gene:SPAC20H4.04
+           transcript:SPAC20H4.04.1 description:"ATP-dependent 3'
+           to 5' DNA helicase (predicted)"
+          Length = 783
+
+ Score = 28.5 bits (62), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 16/25 (64%)
+
+Query: 235 VDGEEGKVPSGVMVNADGDFVIAQP 259
+           V+GE G VP+ V+ N +G  + + P
+Sbjct: 22  VNGERGNVPTSVLCNVEGSLLNSNP 46
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,174,063
+Number of extensions: 84599
+Number of successful extensions: 262
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 258
+Number of HSP's successfully gapped: 12
+Length of query: 659
+Length of database: 2,387,769
+Length adjustment: 95
+Effective length of query: 564
+Effective length of database: 1,899,089
+Effective search space: 1071086196
+Effective search space used: 1071086196
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 53 (25.0 bits)

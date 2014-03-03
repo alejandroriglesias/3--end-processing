@@ -1,0 +1,109 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa 
+           6448 sequences; 3,139,837 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAG79057 pep:novel chromosome:GCA_000002525.1:E:316656:317321:-1...    75   2e-16
+CAG80907 pep:novel chromosome:GCA_000002525.1:D:1472240:1478833:...    30   0.96 
+CAG79662 pep:novel chromosome:GCA_000002525.1:E:2072566:2074503:...    26   9.2  
+
+>CAG79057 pep:novel chromosome:GCA_000002525.1:E:316656:317321:-1
+           gene:YALI0_E02882g transcript:CAG79057
+           description:"YALI0E02882p"
+          Length = 221
+
+ Score = 75.5 bits (184), Expect = 2e-16,   Method: Compositional matrix adjust.
+ Identities = 33/55 (60%), Positives = 41/55 (74%), Gaps = 3/55 (5%)
+
+Query: 148 GKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYS 202
+           GKP+T+ N+ ED   +  PWR PG DI+DYFNYGFDEF+W  Y  KQNQ+R EY+
+Sbjct: 124 GKPITEHNL-EDF--EDKPWRMPGADITDYFNYGFDEFTWMAYCDKQNQIRGEYN 175
+
+
+>CAG80907 pep:novel chromosome:GCA_000002525.1:D:1472240:1478833:1
+           gene:YALI0_D11880g transcript:CAG80907
+           description:"YALI0D11880p"
+          Length = 2118
+
+ Score = 29.6 bits (65), Expect = 0.96,   Method: Compositional matrix adjust.
+ Identities = 19/58 (32%), Positives = 29/58 (50%), Gaps = 5/58 (8%)
+
+Query: 88  PSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLPPVTKSNFDPYAIPEHK 145
+           P    +S+I S     V     AP  AAP  ++D     D  PVT S+F  +++P+H+
+Sbjct: 905 PEDQSHSDIESETPLLVTKLRQAPVAAAPEYEDD-----DTAPVTVSSFSDFSLPQHR 957
+
+
+>CAG79662 pep:novel chromosome:GCA_000002525.1:E:2072566:2074503:1
+           gene:YALI0_E17611g transcript:CAG79662
+           description:"YALI0E17611p"
+          Length = 645
+
+ Score = 26.2 bits (56), Expect = 9.2,   Method: Compositional matrix adjust.
+ Identities = 23/86 (26%), Positives = 36/86 (41%), Gaps = 14/86 (16%)
+
+Query: 101 QRSVATDGTAPAKAA---PNKKEDTVKGSDLPPVTKSNFD-----------PYAIPEHKP 146
+           Q + A    AP  A    PN+  D V+ S    VT + +D            +     +P
+Sbjct: 54  QHTFANSYGAPKVAQYTPPNQDFDRVRLSYNSSVTTTQYDRLIQVFVGDTEVWRSSTAEP 113
+
+Query: 147 TGKPLTQVNIDEDLGEDAAPWRKPGT 172
+            G PL Q   ++D+ E  A +++P T
+Sbjct: 114 VGSPLVQFGFEKDVSEYLALFKEPQT 139
+
+
+  Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,139,837
+  Number of sequences in database:  6448
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6448
+Number of Hits to DB: 1,278,336
+Number of extensions: 51081
+Number of successful extensions: 184
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 183
+Number of HSP's successfully gapped: 20
+Length of query: 332
+Length of database: 3,139,837
+Length adjustment: 91
+Effective length of query: 241
+Effective length of database: 2,553,069
+Effective search space: 615289629
+Effective search space used: 615289629
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

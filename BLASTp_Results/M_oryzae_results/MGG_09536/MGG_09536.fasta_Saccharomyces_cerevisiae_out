@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YKL059C pep:known chromosome:SacCer_Apr2011:XI:328118:329443:-1 ...   244   3e-73
+YJL210W pep:known chromosome:SacCer_Apr2011:X:36919:37734:1 gene...    29   2.1  
+
+>YKL059C pep:known chromosome:SacCer_Apr2011:XI:328118:329443:-1
+           gene:YKL059C transcript:YKL059C description:"Essential
+           conserved subunit of CPF (cleavage and polyadenylation
+           factor), plays a role in 3' end formation of mRNA via
+           the specific cleavage and polyadenylation of pre-mRNA,
+           contains a putative RNA-binding zinc knuckle motif"
+          Length = 441
+
+ Score =  244 bits (622), Expect = 3e-73,   Method: Compositional matrix adjust.
+ Identities = 134/363 (36%), Positives = 194/363 (53%), Gaps = 46/363 (12%)
+
+Query: 16  TRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVVAR 75
+           +R+ FDGTG++VF+LKR+II ++ LGDGTDF L IY  D  EEYDDD  +IPRST V+ +
+Sbjct: 16  SRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYDDDAFVIPRSTSVIVK 75
+
+Query: 76  RLPSMK--------------PGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXX 121
+           R P++K                 G A RYV+G+  V  K                     
+Sbjct: 76  RSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHTATTTANV---------- 125
+
+Query: 122 XQMSNAVTEEERLAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGY 181
+               +  TEEER+A+MF  Q  QW   QEE+S  TP++  K    K  A   +  PP GY
+Sbjct: 126 ----SGTTEEERIASMFATQENQWEQTQEEMSAATPVF-FKSQTNKNSAQENEGPPPPGY 180
+
+Query: 182 ICYRCGEKGHWIQLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGE--- 238
+           +CYRCG + HWI+ CPTN +P F+ + R++RTTGIPK FLK+++         +D E   
+Sbjct: 181 MCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE---------IDPETMT 230
+
+Query: 239 -EGKVPSGVMVNADGDFVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDR--GLEC 295
+            E      +M+  +G FV+   DK +WE +Q +              +   +D    L+C
+Sbjct: 231 PEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKC 290
+
+Query: 296 PMDKRLFNEPMKTP-CCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKI 354
+           P+   L  +P+KT  CC   +  + + NAL+ESDFVCP C+   +L+D+L PD +   ++
+Sbjct: 291 PLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEV 350
+
+Query: 355 KQY 357
+           + +
+Sbjct: 351 ETF 353
+
+
+>YJL210W pep:known chromosome:SacCer_Apr2011:X:36919:37734:1 gene:YJL210W
+           transcript:YJL210W description:"RING-finger peroxin and
+           E3 ubiquitin ligase, peroxisomal membrane protein with a
+           C-terminal zinc-binding RING domain, forms translocation
+           subcomplex with Pex10p and Pex12p which functions in
+           peroxisomal matrix protein import"
+          Length = 271
+
+ Score = 28.9 bits (63), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 17/36 (47%), Gaps = 2/36 (5%)
+
+Query: 305 PMKTPCCEKTYCNDCITNALIESDFVCPGCQAEGVL 340
+           P +  CC   YC  C+  AL  S  +C  C + G L
+Sbjct: 232 PYQIACCRANYCYVCVVKALEWS--MCDACGSSGRL 265
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,793,384
+Number of extensions: 110380
+Number of successful extensions: 378
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 371
+Number of HSP's successfully gapped: 11
+Length of query: 659
+Length of database: 3,010,216
+Length adjustment: 96
+Effective length of query: 563
+Effective length of database: 2,367,784
+Effective search space: 1333062392
+Effective search space used: 1333062392
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 54 (25.4 bits)

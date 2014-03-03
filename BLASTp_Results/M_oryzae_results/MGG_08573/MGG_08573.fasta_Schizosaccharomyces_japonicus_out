@@ -1,0 +1,140 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB06965 pep:novel supercontig:GCA_000149845.2:supercont5.3:2879...   114   3e-27
+EEB08596 pep:novel supercontig:GCA_000149845.2:supercont5.2:1804...    30   1.2  
+EEB09719 pep:novel supercontig:GCA_000149845.2:supercont5.2:2165...    29   2.7  
+
+>EEB06965 pep:novel supercontig:GCA_000149845.2:supercont5.3:2879583:2881727:
+           1 gene:SJAG_02037 transcript:EEB06965
+           description:"cleavage and polyadenylation specificity
+           factor"
+          Length = 609
+
+ Score =  114 bits (286), Expect = 3e-27,   Method: Compositional matrix adjust.
+ Identities = 61/148 (41%), Positives = 87/148 (58%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           V  DY +AL  LT N++  I  LT IA+EN   A ++   L  H+++  P +KLPALYLL
+Sbjct: 4   VELDYFNALNDLTFNSKPIIHTLTAIAQENRPYAVSVVNALQHHLQKCPPAQKLPALYLL 63
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+           DSI KN+  PYT     +LY  FM+AY  VD+A R K D++ +TWK   P +    PV+P
+Sbjct: 64  DSISKNLAEPYTSIVAPRLYTMFMDAYTVVDSALRPKFDQLFETWKRQSPNASIQGPVYP 123
+
+Query: 130 PEVVRPIENALIKARTSALQAQQEQMRS 157
+             V + IE AL K + +  + +  ++ S
+Sbjct: 124 ESVTKRIELALTKYKETVYKLEANRLSS 151
+
+
+
+ Score =  102 bits (255), Expect = 2e-23,   Method: Compositional matrix adjust.
+ Identities = 54/187 (28%), Positives = 82/187 (43%), Gaps = 26/187 (13%)
+
+Query: 471 IQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAE 530
+           ++LT  SL +PR  LV  LYD     C  CGRR+ +D  GR  + AH DWHFR+  RI E
+Sbjct: 361 VELTKESLSKPRPELVTQLYDLYPNHCANCGRRYADDAKGRELRDAHYDWHFRINKRIRE 420
+
+Query: 531 AEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXXX 590
+           +      R +++   +WV   +  D                             E     
+Sbjct: 421 SNVHSISRCWFLKEENWVSINDNEDAIPET------------------------EEDRQE 456
+
+Query: 591 XXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNRVF 650
+                      +++  P   +  +  C ICQE+F+  W ++A+ WV+M+AV   G  R++
+Sbjct: 457 KEKKAHESVVSQYVLTPSDPTQASQPCSICQEKFQSIWHEDAEVWVFMNAVERDG--RIY 514
+
+Query: 651 HASCHSE 657
+           HA+C  E
+Sbjct: 515 HATCLHE 521
+
+
+>EEB08596 pep:novel supercontig:GCA_000149845.2:supercont5.2:1804026:1806113:
+           1 gene:SJAG_03756 transcript:EEB08596
+           description:"hypothetical protein"
+          Length = 525
+
+ Score = 29.6 bits (65), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 19/55 (34%), Positives = 27/55 (49%), Gaps = 5/55 (9%)
+
+Query: 65  ALYLLDSIVKNVGTPYTLF-----FGRKLYQTFMEAYASVDNATRRKMDEMLKTW 114
+           +L LLD +VKN G P+ L      F ++  Q F        N   +K+ EML+ W
+Sbjct: 67  SLNLLDILVKNCGYPFHLQLASEDFLKRFLQCFPVHPPLRLNKIHKKILEMLEEW 121
+
+
+>EEB09719 pep:novel supercontig:GCA_000149845.2:supercont5.2:2165848:216874
+          4:-1 gene:SJAG_04942 transcript:EEB09719
+          description:"RNA-binding protein Seb1"
+          Length = 651
+
+ Score = 28.9 bits (63), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 36/75 (48%), Gaps = 3/75 (4%)
+
+Query: 1  MSEEDHAAGVAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPP 60
+          MSE        E  + +  G++ +   +IS LT I+ ++          +  + K+    
+Sbjct: 1  MSEVAEFEATLESLQKSRTGISGS---KISKLTKISMDHVALNDQFISEVYKYSKKAPGS 57
+
+Query: 61 RKLPALYLLDSIVKN 75
+           KL ALY+LDSIV++
+Sbjct: 58 HKLGALYILDSIVRS 72
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 2,326,745
+Number of extensions: 87365
+Number of successful extensions: 293
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 291
+Number of HSP's successfully gapped: 15
+Length of query: 695
+Length of database: 2,277,407
+Length adjustment: 95
+Effective length of query: 600
+Effective length of database: 1,813,997
+Effective search space: 1088398200
+Effective search space used: 1088398200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

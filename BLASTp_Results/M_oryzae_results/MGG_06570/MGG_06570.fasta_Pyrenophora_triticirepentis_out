@@ -1,0 +1,223 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU41495 pep:novel supercontig:GCA_000149985.1:supercont1.1:5925...   808   0.0  
+EDU43222 pep:novel supercontig:GCA_000149985.1:supercont1.13:240...    56   4e-08
+EDU41057 pep:novel supercontig:GCA_000149985.1:supercont1.1:4550...    31   1.5  
+EDU48205 pep:novel supercontig:GCA_000149985.1:supercont1.40:155...    30   3.0  
+EDU50790 pep:novel supercontig:GCA_000149985.1:supercont1.8:1045...    29   4.2  
+EDU48398 pep:novel supercontig:GCA_000149985.1:supercont1.5:5211...    29   8.1  
+
+>EDU41495 pep:novel supercontig:GCA_000149985.1:supercont1.1:5925806:5928780:
+           1 gene:PTRG_02057 transcript:EDU41495
+           description:"cleavage and polyadenylation specificity
+           factor subunit 2"
+          Length = 954
+
+ Score =  808 bits (2087), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 450/990 (45%), Positives = 600/990 (60%), Gaps = 64/990 (6%)
+
+Query: 1   MFTFSPLQGALSEATASQSLLELDGGVKVLIDIGWDETFDVEKLKEVEKQVPTLSLILLT 60
+           MF F+PL GA S + ASQSLLE DGG+++LID+GWDE F+VEKLKE+E+ VPT+S ILLT
+Sbjct: 1   MFNFTPLLGAQSSSPASQSLLEFDGGIQILIDVGWDEQFNVEKLKEIERHVPTISFILLT 60
+
+Query: 61  HATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAE 120
+           HAT  HL A VHCCKNFPLF RIP+YAT P I LGRTL+QDLY STP A++ IP  AL E
+Sbjct: 61  HATTAHLGAYVHCCKNFPLFTRIPVYATNPVISLGRTLLQDLYESTPLASSIIPTEALNE 120
+
+Query: 121 ASYSFSQTQTNGH--GFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTIT 178
+           ++YSFS     G+    LLQAP+  EIA YF+ I PL+YSQPH+P+ SP SPPLNGLTIT
+Sbjct: 121 SAYSFSSALKGGNNPNILLQAPTSQEIADYFARINPLRYSQPHEPIPSPHSPPLNGLTIT 180
+
+Query: 179 AYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKP 238
+           AY+AGH+LGG+IWHIQHGMES+VYAVDWN AR++V                EV+EQLR P
+Sbjct: 181 AYSAGHTLGGSIWHIQHGMESVVYAVDWNQAREHVL-SGAAWLGGPGTGGSEVLEQLRHP 239
+
+Query: 239 TALVCSTRTAEGGLTRAA-----RDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLE 293
+           TAL+CST+    G+ + A     RD+ LL+ +R  IS GGTVLIP DSSAR+LELAYLLE
+Sbjct: 240 TALICSTKNT--GMVKKARSPNERDEALLEMIRNTISNGGTVLIPSDSSARILELAYLLE 297
+
+Query: 294 HAWRSEASTEGGG---LSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFR 350
+             W  E  TEG G   LST KLYLA R+  +T++  +SM EWM+  IV+EFEA A    R
+Sbjct: 298 DTWEREV-TEGDGSGPLSTTKLYLASRTGGATMRYVRSMLEWMEEGIVKEFEASAADQDR 356
+
+Query: 351 RTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLEWGF 410
+           RT               PFDF+++ LL+RK +V ++L  +      +VILA+D +LEWGF
+Sbjct: 357 RT---KEGQEEERVAKVPFDFRHITLLERKTRVARMLAGAGP----RVILASDATLEWGF 409
+
+Query: 411 SKDIISAIANDSRNMVILPEKPAESSRDNPSISRQLWRWWKERRDGVADEQSSGAGSAEQ 470
+           SKD I ++A+D +N+VIL E+  E       + R LW  W +R     ++    A S   
+Sbjct: 410 SKDAIRSLASDEKNLVILTERSGELGSQKKGLGRYLWDLWNQRNASPGED----APSTTV 465
+
+Query: 471 VFAGGRELQIRESKKVPLADSELSIYQQWLATQRQLNATVQGGGXXXXXXXXXXXXXXXX 530
+           + A G +  +   + V L   E+ +YQQ+LA+QRQ   T+ G                  
+Sbjct: 466 IDASGNQAPLDTVRTVALQGDEVPLYQQFLASQRQRQTTMGGDNAAMLETSADVVDDRSS 525
+
+Query: 531 XXXXXXXXXXNEQQGKALNASTT-QASRKKVVLQDEDLGVMILLKKPGVYDFPVKGKKGR 589
+                     +  +GKALNA+   Q +R K+ + D +LGV +L+++  VYD+ V+GKKG+
+Sbjct: 526 TESESSEGSGDGYRGKALNATVALQHARNKLGMTDAELGVNVLIRRKNVYDYEVQGKKGK 585
+
+Query: 590 ERMFPLAVRRKRNDEFGELIRPEDYLRAEEREENERPDTQQLQSDG---QDGFGQKRKWD 646
+           ERMFP   +++R D+FG+LIRPED+ RAEER+       + L+ DG   ++  G KR+WD
+Sbjct: 586 ERMFPFQAKKRRTDDFGDLIRPEDFARAEERDNAA---GEALRGDGTKKENAVGLKRRWD 642
+
+Query: 647 DA-----GSRNAANGLNXXXXXXXXXXXXXXXXXSGPAPXXXXXXXXXXXXXXTGPAKLV 701
+           D       ++  AN                        P               GPAK++
+Sbjct: 643 DLVNTADNTKATANQKRRKDHEGGEGEESESDSEPEDGPDKVE-----------GPAKVI 691
+
+Query: 702 HTSTTVSVNLRLALIDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCR---- 757
+             S+T+ +  R+A +DFSGLHDRR++  LIPLI+PRKLI + G A ET  +A+  R    
+Sbjct: 692 IESSTLEIRCRIAFVDFSGLHDRRTIQSLIPLIRPRKLIFIGGEASETLELAEISRLALN 751
+
+Query: 758 -----RNAIEVFTPPVGAVVDASVDTNAWVVKLADPLVKRLKWQQVRGLGIVTVTAQLTA 812
+                 NAI++FTP +G +VDASVDTNAW VKL+  +V+ L+WQ VRG+G+V +T +L A
+Sbjct: 752 ANNDSANAIDIFTPTIGTLVDASVDTNAWTVKLSRNMVRNLRWQNVRGMGVVAITGRLAA 811
+
+Query: 813 TPAAQKNGIPLLIADDDGANKRQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSASR 872
+                 +        D  A K+ ++ A  +    P + D++    P LDV+P  M +A R
+Sbjct: 812 ARLEPHSSSTTTEEADTPAKKKARLDAPAI----PVSSDKNDNT-PVLDVVPTNMATAVR 866
+
+Query: 873 SAAQVLHVGELRLADLRRTMQNLGHSADFRGEGTLLIDGTVVVRKTAAGRVEIESXXXXX 932
+           S AQ  HVG+LRLADLRR M   G  A++RG+G L+I+G+V VRKTA G++EI+      
+Sbjct: 867 SVAQPFHVGDLRLADLRRLMTANGMQAEYRGDGILVINGSVAVRKTATGQIEIDG--GAY 924
+
+Query: 933 XXXXXXXXXXXXFYAVKKTIYDGLAVVAGA 962
+                       F  V++ IY+GLAVVAG 
+Sbjct: 925 GNLDPRNNDAATFLRVRRQIYEGLAVVAGG 954
+
+
+>EDU43222 pep:novel supercontig:GCA_000149985.1:supercont1.13:240097:243138:1
+           gene:PTRG_10171 transcript:EDU43222
+           description:"endoribonuclease YSH1"
+          Length = 871
+
+ Score = 56.2 bits (134), Expect = 4e-08,   Method: Compositional matrix adjust.
+ Identities = 80/383 (20%), Positives = 145/383 (37%), Gaps = 80/383 (20%)
+
+Query: 53  TLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATS 112
+           T+ ++L++H  V H ++L +         R+  + T P   + + LIQD           
+Sbjct: 75  TVDVLLISHFHVDHAASLPYVLAKTNFKGRV--FMTHPTKAIYKWLIQD----------- 121
+
+Query: 113 IPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPL 172
+                    S       +N    +      D +  Y  +I+ + +   H          +
+Sbjct: 122 ---------SVRVGNMSSNSETKIQMYTEADHLNTY-PMIESIDFYTTHT---------V 162
+
+Query: 173 NGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVI 232
+            G+ IT Y AGH LG  ++ ++     I++  D++   D                   V 
+Sbjct: 163 AGVRITPYPAGHVLGAAMFLMEIAGLKILFTGDYSREDDR------------HLVSASVP 210
+
+Query: 233 EQLRKPTALVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLL 292
+             ++    +  ST        R  R+ QL+  +   ++RGG  L+PV +  R  EL  +L
+Sbjct: 211 AGVKVDVLITESTFGISMHTPRVEREAQLMKAITDVLNRGGRALLPVFALGRAQELLLIL 270
+
+Query: 293 EHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEF-------EAGA 345
+           +  W      +        +Y         +++ ++    M+++I + F       EA  
+Sbjct: 271 DEYWSKHPEVQ-----KIPIYYNSSLARKCMQVYQTYVSAMNDNIKRLFAERMAEAEAAG 325
+
+Query: 346 DQGFRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTS 405
+           D G R                  +DFK++R        LK LE   D+L G V+LA+   
+Sbjct: 326 DTGRR----------------GAWDFKFVR-------SLKSLE-RFDDLGGCVMLASPGM 361
+
+Query: 406 LEWGFSKDIISAIANDSRNMVIL 428
+           ++ G S++++   A D RN VI+
+Sbjct: 362 MQSGTSRELLERWAPDPRNGVII 384
+
+
+>EDU41057 pep:novel supercontig:GCA_000149985.1:supercont1.1:4550091:4552526:
+           -1 gene:PTRG_01619 transcript:EDU41057
+           description:"hypothetical protein"
+          Length = 638
+
+ Score = 31.2 bits (69), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 33/57 (57%), Gaps = 8/57 (14%)
+
+Query: 246 RTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLEHAWRSEAST 302
+           R A+G +   + D++LLD+ RM     G VL+P    A V  +AY+ ++A  ++AS 
+Sbjct: 272 RVADGDVLHISGDRKLLDSERMQ----GLVLLP----AIVCAIAYVCQYAVLTKASN 320
+
+
+>EDU48205 pep:novel supercontig:GCA_000149985.1:supercont1.40:15557:16107:1
+           gene:PTRG_12162 transcript:EDU48205
+           description:"conserved hypothetical protein"
+          Length = 183
+
+ Score = 29.6 bits (65), Expect = 3.0,   Method: Composition-based stats.
+ Identities = 15/54 (27%), Positives = 27/54 (50%), Gaps = 11/54 (20%)
+
+Query: 412 KDIISAIANDSRNMVI-----------LPEKPAESSRDNPSISRQLWRWWKERR 454
+           + ++  +A++SR ++            +P  P ES RDNP+  R  W + K+ R
+Sbjct: 5   RGMVHGLASESRRLLTEELMFSSKAAPVPAVPWESIRDNPTDERPGWNFLKDHR 58
+
+
+>EDU50790 pep:novel supercontig:GCA_000149985.1:supercont1.8:1045509:1046447:
+           1 gene:PTRG_07871 transcript:EDU50790
+           description:"conserved hypothetical protein"
+          Length = 197
+
+ Score = 29.3 bits (64), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 23/43 (53%), Gaps = 5/43 (11%)
+
+Query: 785 LADPL-----VKRLKWQQVRGLGIVTVTAQLTATPAAQKNGIP 822
+           L+DP      ++ + W   +GLG  T+T  L  TPA  ++G P
+Sbjct: 22  LSDPFDPVLALQGIGWLTRKGLGAATLTQHLRQTPATGEDGAP 64
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 9,312,807
+Number of extensions: 384676
+Number of successful extensions: 1129
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 1116
+Number of HSP's successfully gapped: 15
+Length of query: 962
+Length of database: 5,459,076
+Length adjustment: 103
+Effective length of query: 859
+Effective length of database: 4,205,669
+Effective search space: 3612669671
+Effective search space used: 3612669671
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

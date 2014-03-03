@@ -1,0 +1,182 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YOR250C pep:known chromosome:SacCer_Apr2011:XV:800970:802307:-1 ...   135   2e-35
+YKL188C pep:known chromosome:SacCer_Apr2011:XI:86225:88786:-1 ge...    32   0.28 
+YLR106C pep:known chromosome:SacCer_Apr2011:XII:349006:363738:-1...    29   1.9  
+YGL061C pep:known chromosome:SacCer_Apr2011:VII:388968:389711:-1...    27   4.2  
+YDL166C pep:known chromosome:SacCer_Apr2011:IV:163449:164042:-1 ...    27   4.2  
+
+>YOR250C pep:known chromosome:SacCer_Apr2011:XV:800970:802307:-1
+           gene:YOR250C transcript:YOR250C description:"Component
+           of the cleavage and polyadenylation factor I (CF I)\x3b
+           CF 1, composed of the CF 1A complex (Rna14p, Rna15p,
+           Clp1p, Pcf11p) and Hrp1, is involved in cleavage and
+           polyadenylation of mRNA 3' ends\x3b involved in both the
+           endonucleolyitc cleavage a /.../yadenylation steps of
+           mRNA 3'-end maturation"
+          Length = 445
+
+ Score =  135 bits (340), Expect = 2e-35,   Method: Compositional matrix adjust.
+ Identities = 109/429 (25%), Positives = 187/429 (43%), Gaps = 38/429 (8%)
+
+Query: 28  EYRFSVSHGASITITLTRGTAERDGTELALNVAYTLSGVKSKI-------LSWHGANLSI 80
+           +++  +     + + +  G  E  GTELA++  YT    K  I       L W   +L+ 
+Sbjct: 33  DWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTT 92
+
+Query: 81  EGITDHESVAGPDDAANTAHLNLHAFLQXXXXXXXXXXXXXXXXPHGPRVLVAGKTGCGR 140
+             IT       P+      + NLH  L+                  GPRV++ G +  G+
+Sbjct: 93  NTIT-----VKPNHTMKYIY-NLHFMLEKIRMSNF----------EGPRVVIVGGSQTGK 136
+
+Query: 141 TSLVRTLAAWATRTGA-QPMVVDADXXXXXXXXXXXXSAAVFGTVMDVXXXXXXXXXXXX 199
+           TSL RTL ++A +  A QP+ ++ D            SA     ++D             
+Sbjct: 137 TSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSG 196
+
+Query: 200 XXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXXXXXXXXXXDDPAVRSAGMLIDTPPY 259
+               +  K P+V  +G  R+ E++DLY   ++            DP VR +G ++DTP  
+Sbjct: 197 ATL-LHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSI 255
+
+Query: 260 VE-GKGADVLIHIAEELNVNIIVTIDTPSLHTELTQRFSGVKNVLGEHV---SVVALDKS 315
+            +  +    L HI E+LNVNI++      L +E    +  VK   G  +   ++  + K 
+Sbjct: 256 SQLDENLAELHHIIEKLNVNIMLV-----LCSETDPLWEKVKKTFGPELGNNNIFFIPKL 310
+
+Query: 316 SGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAIYTSPEASDYSAEPGA 375
+            GV   D+ + + +   SI+EYF+G     LSP+   V +++L I+      D   E G 
+Sbjct: 311 DGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSNVFD--NEVGR 368
+
+Query: 376 LERIPQPL--PEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVS 433
+           +E  P  +    + H ++A+  A        +  +P+ GF  +  V+++RR++++L PV 
+Sbjct: 369 VELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITEVNEKRRKLRVLLPVP 428
+
+Query: 434 GRLGDKPLV 442
+           GRL  K ++
+Sbjct: 429 GRLPSKAMI 437
+
+
+>YKL188C pep:known chromosome:SacCer_Apr2011:XI:86225:88786:-1 gene:YKL188C
+           transcript:YKL188C description:"Subunit of a
+           heterodimeric peroxisomal ATP-binding cassette
+           transporter complex (Pxa1p-Pxa2p), required for import
+           of long-chain fatty acids into peroxisomes\x3b
+           similarity to human adrenoleukodystrophy transporter and
+           ALD-related proteins"
+          Length = 853
+
+ Score = 31.6 bits (70), Expect = 0.28,   Method: Compositional matrix adjust.
+ Identities = 13/29 (44%), Positives = 17/29 (58%), Gaps = 1/29 (3%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTLAA-WATR 153
+           HG  +L+ G  GCG++SL R L   W  R
+Sbjct: 497 HGNHLLIIGPNGCGKSSLFRILGGLWPIR 525
+
+
+>YLR106C pep:known chromosome:SacCer_Apr2011:XII:349006:363738:-1 gene:YLR106C
+            transcript:YLR106C description:"Huge dynein-related
+            AAA-type ATPase (midasin), forms extended pre-60S
+            particle with the Rix1 complex (Rix1p-Ipi1p-Ipi3p)\x3b
+            acts in removal of ribosomal biogenesis factors at
+            successive steps of pre-60S assembly and export from
+            nucleus"
+          Length = 4910
+
+ Score = 28.9 bits (63), Expect = 1.9,   Method: Composition-based stats.
+ Identities = 11/24 (45%), Positives = 18/24 (75%)
+
+Query: 130  VLVAGKTGCGRTSLVRTLAAWATR 153
+            VL+ G+TGCG+T++ + LA +  R
+Sbjct: 1364 VLLVGETGCGKTTICQLLAQFMGR 1387
+
+
+>YGL061C pep:known chromosome:SacCer_Apr2011:VII:388968:389711:-1
+           gene:YGL061C transcript:YGL061C description:"Essential
+           subunit of the Dam1 complex (aka DASH complex), couples
+           kinetochores to the force produced by MT
+           depolymerization thereby aiding in chromosome
+           segregation\x3b is transferred to the kinetochore prior
+           to mitosis"
+          Length = 247
+
+ Score = 27.3 bits (59), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 21/60 (35%), Positives = 26/60 (43%), Gaps = 5/60 (8%)
+
+Query: 395 DAAPNDPPHK---IRYAPVSGF--VYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEP 449
+           DAAP  PP++    RY   SG   V  A +    R  K   P S R    P V  +W +P
+Sbjct: 178 DAAPAKPPNQGLNPRYGVQSGRRPVPSAGISNNGRVRKTHVPASKRPSGIPRVTNRWTKP 237
+
+
+>YDL166C pep:known chromosome:SacCer_Apr2011:IV:163449:164042:-1
+           gene:YDL166C transcript:YDL166C description:"Essential
+           NTPase required for small ribosome subunit synthesis,
+           mediates processing of the 20S pre-rRNA at site D in the
+           cytoplasm but associates only transiently with 43S
+           preribosomes via Rps14p, may be the endonuclease for
+           site D"
+          Length = 197
+
+ Score = 27.3 bits (59), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 9/22 (40%), Positives = 14/22 (63%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTL 147
+           +GP ++V G  GCG++S    L
+Sbjct: 6   YGPNIIVTGTPGCGKSSTCEFL 27
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,243,311
+Number of extensions: 81896
+Number of successful extensions: 193
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 187
+Number of HSP's successfully gapped: 7
+Length of query: 455
+Length of database: 3,010,216
+Length adjustment: 93
+Effective length of query: 362
+Effective length of database: 2,387,860
+Effective search space: 864405320
+Effective search space used: 864405320
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)
