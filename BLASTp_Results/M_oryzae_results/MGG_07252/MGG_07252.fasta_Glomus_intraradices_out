@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa 
+           30,282 sequences; 8,144,225 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+11202_Glomus_intraradices_1_GeneCatalo                                178   6e-56
+14182_Glomus_intraradices_1_GeneCatalo                                 64   9e-13
+7043_Glomus_intraradices_1_GeneCatalo                                  54   6e-09
+11824_Glomus_intraradices_1_GeneCatalo                                 52   3e-08
+3191_Glomus_intraradices_1_GeneCatalo                                  49   5e-08
+6812_Glomus_intraradices_1_GeneCatalo                                  50   7e-08
+21245_Glomus_intraradices_1_GeneCatalo                                 50   7e-08
+22518_Glomus_intraradices_1_GeneCatalo                                 48   2e-07
+5761_Glomus_intraradices_1_GeneCatalo                                  47   1e-06
+15733_Glomus_intraradices_1_GeneCatalo                                 47   2e-06
+21737_Glomus_intraradices_1_GeneCatalo                                 46   2e-06
+7961_Glomus_intraradices_1_GeneCatalo                                  44   1e-05
+27202_Glomus_intraradices_1_GeneCatalo                                 44   1e-05
+6112_Glomus_intraradices_1_GeneCatalo                                  42   2e-05
+24085_Glomus_intraradices_1_GeneCatalo                                 42   3e-05
+8008_Glomus_intraradices_1_GeneCatalo                                  42   6e-05
+26351_Glomus_intraradices_1_GeneCatalo                                 39   7e-05
+14944_Glomus_intraradices_1_GeneCatalo                                 41   1e-04
+13318_Glomus_intraradices_1_GeneCatalo                                 42   1e-04
+29102_Glomus_intraradices_1_GeneCatalo                                 40   2e-04
+2164_Glomus_intraradices_1_GeneCatalo                                  39   2e-04
+17882_Glomus_intraradices_1_GeneCatalo                                 41   2e-04
+5958_Glomus_intraradices_1_GeneCatalo                                  39   5e-04
+4647_Glomus_intraradices_1_GeneCatalo                                  39   7e-04
+1892_Glomus_intraradices_1_GeneCatalo                                  39   8e-04
+18176_Glomus_intraradices_1_GeneCatalo                                 38   8e-04
+8877_Glomus_intraradices_1_GeneCatalo                                  38   0.002
+5757_Glomus_intraradices_1_GeneCatalo                                  37   0.002
+25288_Glomus_intraradices_1_GeneCatalo                                 37   0.002
+23985_Glomus_intraradices_1_GeneCatalo                                 37   0.005
+20033_Glomus_intraradices_1_GeneCatalo                                 33   0.009
+14359_Glomus_intraradices_1_GeneCatalo                                 35   0.009
+8573_Glomus_intraradices_1_GeneCatalo                                  35   0.011
+17521_Glomus_intraradices_1_GeneCatalo                                 34   0.016
+18053_Glomus_intraradices_1_GeneCatalo                                 32   0.086
+21991_Glomus_intraradices_1_GeneCatalo                                 32   0.11 
+24006_Glomus_intraradices_1_GeneCatalo                                 30   0.43 
+27848_Glomus_intraradices_1_GeneCatalo                                 30   0.47 
+3460_Glomus_intraradices_1_GeneCatalo                                  30   0.51 
+12313_Glomus_intraradices_1_GeneCatalo                                 30   0.64 
+17639_Glomus_intraradices_1_GeneCatalo                                 29   0.72 
+14573_Glomus_intraradices_1_GeneCatalo                                 29   1.1  
+16137_Glomus_intraradices_1_GeneCatalo                                 28   1.6  
+15804_Glomus_intraradices_1_GeneCatalo                                 28   2.0  
+24323_Glomus_intraradices_1_GeneCatalo                                 28   2.1  
+10845_Glomus_intraradices_1_GeneCatalo                                 27   4.9  
+5217_Glomus_intraradices_1_GeneCatalo                                  27   5.3  
+15535_Glomus_intraradices_1_GeneCatalo                                 27   6.0  
+18996_Glomus_intraradices_1_GeneCatalo                                 26   6.7  
+
+>11202_Glomus_intraradices_1_GeneCatalo 
+          Length = 196
+
+ Score =  178 bits (451), Expect = 6e-56,   Method: Compositional matrix adjust.
+ Identities = 80/128 (62%), Positives = 104/128 (81%)
+
+Query: 29  EEISAMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEE 88
+           E + AMK+RV EMEEEAAKLREMQA ++ +    S E ++ +D+RSI+VGNVDY+A+PE+
+Sbjct: 27  EALEAMKQRVKEMEEEAAKLREMQAQVEKEMNLTSEEDKEAIDARSIYVGNVDYAATPED 86
+
+Query: 89  IQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPK 148
+           +Q HFQSCG+INRVTIL DK++G PKG+AYVEF +PSLVA A+ L+ SV +GR IKV+ K
+Sbjct: 87  LQNHFQSCGTINRVTILCDKWSGHPKGYAYVEFADPSLVANAMSLDNSVLRGRAIKVTAK 146
+
+Query: 149 RTNYPGMS 156
+           RTN PG +
+Sbjct: 147 RTNIPGYT 154
+
+
+>14182_Glomus_intraradices_1_GeneCatalo 
+          Length = 251
+
+ Score = 63.9 bits (154), Expect = 9e-13,   Method: Compositional matrix adjust.
+ Identities = 31/73 (42%), Positives = 46/73 (63%)
+
+Query: 73  RSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALV 132
+           R++F+G++ + A  EE+ ++F+SCG I  V I+ D  T   KGFAYV+F E   V  AL 
+Sbjct: 132 RTVFIGSLAFDAQEEELWSYFESCGEIENVRIVRDSKTNVGKGFAYVQFKERVSVELALK 191
+
+Query: 133 LNESVFKGRNIKV 145
+           LN++    R I+V
+Sbjct: 192 LNDTKLGTRKIRV 204
+
+
+
+ Score = 32.0 bits (71), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 43/93 (46%), Gaps = 20/93 (21%)
+
+Query: 73  RSIFVGNVDYSA----SPEEIQAHFQSCGSINRVTI-------LLDKFTGQPKG------ 115
+           R+IFVGN+  S     + ++++  F   G I  V         LL +     KG      
+Sbjct: 27  RTIFVGNLPVSVIQKVNHKKLKTIFSQFGKIESVRFRSIAFSELLPRKLAFIKGKFHPER 86
+
+Query: 116 ---FAYVEFTEPSLVAQALVLNESVFKGRNIKV 145
+               AY+ + E S V QA+ +N  VF G++++V
+Sbjct: 87  DVLNAYIVYKEKSSVQQAIAMNSQVFFGKHLRV 119
+
+
+>7043_Glomus_intraradices_1_GeneCatalo 
+          Length = 260
+
+ Score = 53.5 bits (127), Expect = 6e-09,   Method: Compositional matrix adjust.
+ Identities = 25/76 (32%), Positives = 46/76 (60%), Gaps = 1/76 (1%)
+
+Query: 71  DSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQA 130
+           DS +++VGN+ Y+   +++   F+  G + +VT+ +D +TG+ KGFA+VEF +      A
+Sbjct: 126 DSTTLYVGNLPYAFREQDVAEMFERYGRLRKVTVQIDHYTGRNKGFAFVEFEDRRDAEDA 185
+
+Query: 131 L-VLNESVFKGRNIKV 145
+               N +  +GR +K+
+Sbjct: 186 FDKYNGTNVEGRRLKL 201
+
+
+>11824_Glomus_intraradices_1_GeneCatalo 
+          Length = 376
+
+ Score = 51.6 bits (122), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 50/90 (55%), Gaps = 8/90 (8%)
+
+Query: 70  VDSRS------IFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTE 123
+           +D RS      I+VG++++  + + ++  F   G+I  V++ LD  TG+ KGF ++EF  
+Sbjct: 13  IDPRSLSVLSRIYVGSINFELTEQHLRVVFGQFGAIKSVSMSLDTLTGKHKGFCFIEFET 72
+
+Query: 124 PSLVAQAL-VLNESVFKGRNIKVSPKRTNY 152
+           P   + AL  +N +   GR +KV  +  NY
+Sbjct: 73  PEGASLALDSMNGAELGGRQLKVG-RPNNY 101
+
+
+
+ Score = 39.7 bits (91), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 34/57 (59%)
+
+Query: 75  IFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           I+V NV+   S E++ + F+S G IN   ++ D  T + KG+ ++EF + S  + A+
+Sbjct: 117 IYVSNVNEYVSEEDLLSIFESFGKINHCALMPDLITRKHKGYGFIEFEDESSASTAV 173
+
+
+>3191_Glomus_intraradices_1_GeneCatalo 
+          Length = 134
+
+ Score = 49.3 bits (116), Expect = 5e-08,   Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 41/74 (55%), Gaps = 5/74 (6%)
+
+Query: 75  IFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFT---EPSLVAQAL 131
+           +FVG + +      +++ F+  G++    ++ D+ TG+ +GF +V F    E  +  Q  
+Sbjct: 5   LFVGGLSWGTDDRTLRSKFEEYGTVEDAVVIRDRDTGRSRGFGFVTFASNEEAEIAIQN- 63
+
+Query: 132 VLNESVFKGRNIKV 145
+            LN++ F GRNIKV
+Sbjct: 64  -LNDAEFDGRNIKV 76
+
+
+  Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa
+    Posted date:  Feb 27, 2014 12:29 PM
+  Number of letters in database: 8,144,225
+  Number of sequences in database:  30,282
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 30282
+Number of Hits to DB: 2,152,152
+Number of extensions: 73416
+Number of successful extensions: 357
+Number of sequences better than 10.0: 68
+Number of HSP's gapped: 353
+Number of HSP's successfully gapped: 84
+Length of query: 193
+Length of database: 8,144,225
+Length adjustment: 90
+Effective length of query: 103
+Effective length of database: 5,418,845
+Effective search space: 558141035
+Effective search space used: 558141035
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 52 (24.6 bits)

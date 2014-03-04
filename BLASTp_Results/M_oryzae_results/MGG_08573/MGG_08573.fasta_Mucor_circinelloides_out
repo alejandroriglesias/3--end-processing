@@ -1,0 +1,128 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.fa
+
+           12,227 sequences; 5,364,083 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+HMPREF1544_09468T0 | HMPREF1544_09468 | Mucor circinelloides f. ...   107   1e-24
+HMPREF1544_09889T0 | HMPREF1544_09889 | Mucor circinelloides f. ...    30   2.8  
+
+>HMPREF1544_09468T0 | HMPREF1544_09468 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (611 aa)
+          Length = 610
+
+ Score =  107 bits (268), Expect = 1e-24,   Method: Compositional matrix adjust.
+ Identities = 53/135 (39%), Positives = 81/135 (60%), Gaps = 3/135 (2%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           VA +Y+ AL  LT N++  I+NLT++A+EN  +A  I + + + ++     +KLP LYL+
+Sbjct: 28  VARNYRSALSELTFNSKPIITNLTIMAQENQGAASVIVKEIENQLRNNAAGQKLPVLYLI 87
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+           DSI KNVG  Y   F R +   F++AY   D   R+  + +L+TWK  +PG     PVFP
+Sbjct: 88  DSICKNVGGVYITNFSRNMVNVFLDAYTLTDPTVRKSFERLLQTWKNGMPGG---HPVFP 144
+
+Query: 130 PEVVRPIENALIKAR 144
+             ++ PIE ++I  R
+Sbjct: 145 RHIIEPIERSIIYIR 159
+
+
+
+ Score = 86.3 bits (212), Expect = 9e-18,   Method: Compositional matrix adjust.
+ Identities = 71/275 (25%), Positives = 109/275 (39%), Gaps = 32/275 (11%)
+
+Query: 422 LLAALRSKGILSAGPLPPVVAPTPVSHAPGLPSVIAPPVAPAHVEIMGDIQLTTSSLKQP 481
+           LL +L S G LS  P   VVA  P       P V++       +   G   L +  L+  
+Sbjct: 363 LLKSLTSMGYLSPSP---VVANKPSDD----PQVLS-------MNRFGPFILDSKDLQIA 408
+
+Query: 482 RLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAEAEKKGQHRSYY 541
+           R   V  LY      C QCG R+   E G+A   AH+D HFR   ++ E  K+G  RS++
+Sbjct: 409 RPGAVELLYSAEPLQCKQCGFRYPKTEKGQAKMDAHLDSHFRQNRKMKERVKRGLSRSWF 468
+
+Query: 542 VDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXXXXXXXXXXXXXK 601
+           V V +W+       M                            E                
+Sbjct: 469 VTVDEWINGEGGELMSQQAPAFLHDGMGHVNQKSVEKSNQPSGEDAIDPNLYT------- 521
+
+Query: 602 RWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNRVFHASCHSEVTGR 661
+             + +PD G  +   C IC ERF   W D+ +EW++ +A+   G  +++HA+CH++    
+Sbjct: 522 --VIMPDDG--IRKPCAICGERFIDFWNDDEEEWMYKNAILVDG--KIYHATCHADAVKS 575
+
+Query: 662 GA-----TLTPPVGMVLGKRKADDAYAGRKIKKYD 691
+           G      T  P V   L ++  ++     KI +++
+Sbjct: 576 GTLVEADTDMPDVDQSLKRKAKEENNEPSKIPRFE 610
+
+
+>HMPREF1544_09889T0 | HMPREF1544_09889 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (569 aa)
+          Length = 568
+
+ Score = 30.0 bits (66), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 28/109 (25%), Positives = 48/109 (44%), Gaps = 11/109 (10%)
+
+Query: 18  LEGLTSNARVE------ISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDS 71
+           +EG  S AR E      +    +I ++   +    A  +V  +   +  + + AL LLD+
+Sbjct: 9   IEGACSPARYEPELSLNLEICEMINKKQGSAPREAASAIVKLVNSKNLNQAMLALTLLDN 68
+
+Query: 72  IVKNVGTPYTL-----FFGRKLYQTFMEAYASVDNATRRKMDEMLKTWK 115
+            VKN G P+ L      F  +L + F E  A   +   +++   +K WK
+Sbjct: 69  CVKNCGYPFHLQIASKEFLNELVRKFPERPAPFPSPVVQRILYFIKEWK 117
+
+
+  Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.
+  fa
+    Posted date:  Feb 27, 2014  9:31 AM
+  Number of letters in database: 5,364,083
+  Number of sequences in database:  12,227
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12227
+Number of Hits to DB: 5,642,823
+Number of extensions: 217738
+Number of successful extensions: 978
+Number of sequences better than 10.0: 20
+Number of HSP's gapped: 957
+Number of HSP's successfully gapped: 27
+Length of query: 695
+Length of database: 5,364,083
+Length adjustment: 101
+Effective length of query: 594
+Effective length of database: 4,129,156
+Effective search space: 2452718664
+Effective search space used: 2452718664
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

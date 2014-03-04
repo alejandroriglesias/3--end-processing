@@ -1,0 +1,518 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_05325:Polyadenylation factor subunit 2
+         (655 letters)
+
+Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.fa
+
+           12,227 sequences; 5,364,083 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+HMPREF1544_01931T0 | HMPREF1544_01931 | Mucor circinelloides f. ...   385   e-124
+HMPREF1544_12259T0 | HMPREF1544_12259 | Mucor circinelloides f. ...    96   1e-21
+HMPREF1544_02117T0 | HMPREF1544_02117 | Mucor circinelloides f. ...    94   2e-20
+HMPREF1544_10583T0 | HMPREF1544_10583 | Mucor circinelloides f. ...    92   5e-20
+HMPREF1544_00916T0 | HMPREF1544_00916 | Mucor circinelloides f. ...    86   1e-17
+HMPREF1544_00312T0 | HMPREF1544_00312 | Mucor circinelloides f. ...    82   6e-17
+HMPREF1544_00260T0 | HMPREF1544_00260 | Mucor circinelloides f. ...    81   2e-16
+HMPREF1544_07367T0 | HMPREF1544_07367 | Mucor circinelloides f. ...    76   2e-15
+HMPREF1544_11681T0 | HMPREF1544_11681 | Mucor circinelloides f. ...    78   3e-15
+HMPREF1544_10323T0 | HMPREF1544_10323 | Mucor circinelloides f. ...    77   5e-15
+HMPREF1544_11229T0 | HMPREF1544_11229 | Mucor circinelloides f. ...    76   9e-15
+HMPREF1544_03021T0 | HMPREF1544_03021 | Mucor circinelloides f. ...    76   1e-14
+HMPREF1544_08289T0 | HMPREF1544_08289 | Mucor circinelloides f. ...    74   3e-14
+HMPREF1544_03970T0 | HMPREF1544_03970 | Mucor circinelloides f. ...    72   1e-13
+HMPREF1544_07490T0 | HMPREF1544_07490 | Mucor circinelloides f. ...    73   1e-13
+HMPREF1544_12195T0 | HMPREF1544_12195 | Mucor circinelloides f. ...    72   3e-13
+HMPREF1544_04911T0 | HMPREF1544_04911 | Mucor circinelloides f. ...    69   2e-12
+HMPREF1544_09478T0 | HMPREF1544_09478 | Mucor circinelloides f. ...    69   2e-12
+HMPREF1544_06184T0 | HMPREF1544_06184 | Mucor circinelloides f. ...    67   6e-12
+HMPREF1544_02168T0 | HMPREF1544_02168 | Mucor circinelloides f. ...    65   2e-11
+HMPREF1544_09340T0 | HMPREF1544_09340 | Mucor circinelloides f. ...    64   4e-11
+HMPREF1544_07436T0 | HMPREF1544_07436 | Mucor circinelloides f. ...    64   6e-11
+HMPREF1544_09068T0 | HMPREF1544_09068 | Mucor circinelloides f. ...    64   9e-11
+HMPREF1544_06280T0 | HMPREF1544_06280 | Mucor circinelloides f. ...    61   3e-10
+HMPREF1544_02237T0 | HMPREF1544_02237 | Mucor circinelloides f. ...    62   4e-10
+HMPREF1544_06688T0 | HMPREF1544_06688 | Mucor circinelloides f. ...    61   4e-10
+HMPREF1544_05464T0 | HMPREF1544_05464 | Mucor circinelloides f. ...    60   5e-10
+HMPREF1544_07241T0 | HMPREF1544_07241 | Mucor circinelloides f. ...    60   7e-10
+HMPREF1544_07884T0 | HMPREF1544_07884 | Mucor circinelloides f. ...    60   8e-10
+HMPREF1544_08736T0 | HMPREF1544_08736 | Mucor circinelloides f. ...    60   8e-10
+HMPREF1544_04068T0 | HMPREF1544_04068 | Mucor circinelloides f. ...    59   1e-09
+HMPREF1544_02863T0 | HMPREF1544_02863 | Mucor circinelloides f. ...    59   1e-09
+HMPREF1544_05104T0 | HMPREF1544_05104 | Mucor circinelloides f. ...    60   1e-09
+HMPREF1544_11516T0 | HMPREF1544_11516 | Mucor circinelloides f. ...    60   1e-09
+HMPREF1544_03440T0 | HMPREF1544_03440 | Mucor circinelloides f. ...    59   3e-09
+HMPREF1544_08671T0 | HMPREF1544_08671 | Mucor circinelloides f. ...    58   5e-09
+HMPREF1544_02645T0 | HMPREF1544_02645 | Mucor circinelloides f. ...    57   6e-09
+HMPREF1544_01666T0 | HMPREF1544_01666 | Mucor circinelloides f. ...    57   7e-09
+HMPREF1544_05995T0 | HMPREF1544_05995 | Mucor circinelloides f. ...    57   9e-09
+HMPREF1544_02711T0 | HMPREF1544_02711 | Mucor circinelloides f. ...    56   2e-08
+HMPREF1544_01758T0 | HMPREF1544_01758 | Mucor circinelloides f. ...    56   3e-08
+HMPREF1544_04379T0 | HMPREF1544_04379 | Mucor circinelloides f. ...    55   3e-08
+HMPREF1544_06978T0 | HMPREF1544_06978 | Mucor circinelloides f. ...    55   4e-08
+HMPREF1544_10107T0 | HMPREF1544_10107 | Mucor circinelloides f. ...    55   4e-08
+HMPREF1544_03307T0 | HMPREF1544_03307 | Mucor circinelloides f. ...    55   4e-08
+HMPREF1544_09056T0 | HMPREF1544_09056 | Mucor circinelloides f. ...    54   5e-08
+HMPREF1544_09525T0 | HMPREF1544_09525 | Mucor circinelloides f. ...    54   6e-08
+HMPREF1544_12274T0 | HMPREF1544_12274 | Mucor circinelloides f. ...    54   7e-08
+HMPREF1544_09486T0 | HMPREF1544_09486 | Mucor circinelloides f. ...    54   1e-07
+HMPREF1544_05194T0 | HMPREF1544_05194 | Mucor circinelloides f. ...    54   1e-07
+HMPREF1544_00941T0 | HMPREF1544_00941 | Mucor circinelloides f. ...    54   2e-07
+HMPREF1544_07032T0 | HMPREF1544_07032 | Mucor circinelloides f. ...    52   2e-07
+HMPREF1544_00647T0 | HMPREF1544_00647 | Mucor circinelloides f. ...    52   3e-07
+HMPREF1544_09860T0 | HMPREF1544_09860 | Mucor circinelloides f. ...    52   4e-07
+HMPREF1544_08640T0 | HMPREF1544_08640 | Mucor circinelloides f. ...    52   4e-07
+HMPREF1544_01209T0 | HMPREF1544_01209 | Mucor circinelloides f. ...    51   4e-07
+HMPREF1544_03996T0 | HMPREF1544_03996 | Mucor circinelloides f. ...    52   5e-07
+HMPREF1544_10369T0 | HMPREF1544_10369 | Mucor circinelloides f. ...    52   5e-07
+HMPREF1544_03632T0 | HMPREF1544_03632 | Mucor circinelloides f. ...    51   7e-07
+HMPREF1544_10448T0 | HMPREF1544_10448 | Mucor circinelloides f. ...    50   1e-06
+HMPREF1544_00563T0 | HMPREF1544_00563 | Mucor circinelloides f. ...    50   1e-06
+HMPREF1544_07254T0 | HMPREF1544_07254 | Mucor circinelloides f. ...    50   1e-06
+HMPREF1544_11222T0 | HMPREF1544_11222 | Mucor circinelloides f. ...    50   1e-06
+HMPREF1544_10282T0 | HMPREF1544_10282 | Mucor circinelloides f. ...    50   1e-06
+HMPREF1544_10192T0 | HMPREF1544_10192 | Mucor circinelloides f. ...    50   2e-06
+HMPREF1544_03639T0 | HMPREF1544_03639 | Mucor circinelloides f. ...    49   2e-06
+HMPREF1544_00616T0 | HMPREF1544_00616 | Mucor circinelloides f. ...    49   3e-06
+HMPREF1544_05726T0 | HMPREF1544_05726 | Mucor circinelloides f. ...    48   4e-06
+HMPREF1544_08251T0 | HMPREF1544_08251 | Mucor circinelloides f. ...    48   7e-06
+HMPREF1544_12001T0 | HMPREF1544_12001 | Mucor circinelloides f. ...    48   1e-05
+HMPREF1544_11015T0 | HMPREF1544_11015 | Mucor circinelloides f. ...    47   1e-05
+HMPREF1544_01575T0 | HMPREF1544_01575 | Mucor circinelloides f. ...    47   1e-05
+HMPREF1544_05697T0 | HMPREF1544_05697 | Mucor circinelloides f. ...    47   1e-05
+HMPREF1544_09215T0 | HMPREF1544_09215 | Mucor circinelloides f. ...    46   1e-05
+HMPREF1544_10312T0 | HMPREF1544_10312 | Mucor circinelloides f. ...    47   2e-05
+HMPREF1544_09105T0 | HMPREF1544_09105 | Mucor circinelloides f. ...    46   2e-05
+HMPREF1544_09104T0 | HMPREF1544_09104 | Mucor circinelloides f. ...    46   3e-05
+HMPREF1544_07962T0 | HMPREF1544_07962 | Mucor circinelloides f. ...    46   3e-05
+HMPREF1544_08017T0 | HMPREF1544_08017 | Mucor circinelloides f. ...    46   3e-05
+HMPREF1544_01228T0 | HMPREF1544_01228 | Mucor circinelloides f. ...    45   3e-05
+HMPREF1544_09854T0 | HMPREF1544_09854 | Mucor circinelloides f. ...    44   6e-05
+HMPREF1544_04219T0 | HMPREF1544_04219 | Mucor circinelloides f. ...    45   7e-05
+HMPREF1544_02279T0 | HMPREF1544_02279 | Mucor circinelloides f. ...    44   8e-05
+HMPREF1544_06788T0 | HMPREF1544_06788 | Mucor circinelloides f. ...    44   9e-05
+HMPREF1544_04688T0 | HMPREF1544_04688 | Mucor circinelloides f. ...    44   1e-04
+HMPREF1544_09127T0 | HMPREF1544_09127 | Mucor circinelloides f. ...    44   1e-04
+HMPREF1544_01321T0 | HMPREF1544_01321 | Mucor circinelloides f. ...    44   1e-04
+HMPREF1544_06191T0 | HMPREF1544_06191 | Mucor circinelloides f. ...    44   1e-04
+HMPREF1544_10980T0 | HMPREF1544_10980 | Mucor circinelloides f. ...    44   1e-04
+HMPREF1544_04630T0 | HMPREF1544_04630 | Mucor circinelloides f. ...    44   1e-04
+HMPREF1544_12051T0 | HMPREF1544_12051 | Mucor circinelloides f. ...    43   2e-04
+HMPREF1544_00285T0 | HMPREF1544_00285 | Mucor circinelloides f. ...    43   2e-04
+HMPREF1544_08212T0 | HMPREF1544_08212 | Mucor circinelloides f. ...    43   2e-04
+HMPREF1544_01197T0 | HMPREF1544_01197 | Mucor circinelloides f. ...    42   5e-04
+HMPREF1544_00518T0 | HMPREF1544_00518 | Mucor circinelloides f. ...    42   5e-04
+HMPREF1544_09489T0 | HMPREF1544_09489 | Mucor circinelloides f. ...    42   6e-04
+HMPREF1544_06948T0 | HMPREF1544_06948 | Mucor circinelloides f. ...    42   6e-04
+HMPREF1544_06656T0 | HMPREF1544_06656 | Mucor circinelloides f. ...    41   7e-04
+HMPREF1544_09316T0 | HMPREF1544_09316 | Mucor circinelloides f. ...    40   0.002
+HMPREF1544_11081T0 | HMPREF1544_11081 | Mucor circinelloides f. ...    40   0.003
+HMPREF1544_04301T0 | HMPREF1544_04301 | Mucor circinelloides f. ...    40   0.003
+HMPREF1544_00659T0 | HMPREF1544_00659 | Mucor circinelloides f. ...    39   0.003
+HMPREF1544_03721T0 | HMPREF1544_03721 | Mucor circinelloides f. ...    39   0.006
+HMPREF1544_10761T0 | HMPREF1544_10761 | Mucor circinelloides f. ...    39   0.006
+HMPREF1544_10519T0 | HMPREF1544_10519 | Mucor circinelloides f. ...    38   0.008
+HMPREF1544_03568T0 | HMPREF1544_03568 | Mucor circinelloides f. ...    38   0.010
+HMPREF1544_01210T0 | HMPREF1544_01210 | Mucor circinelloides f. ...    36   0.017
+HMPREF1544_11157T0 | HMPREF1544_11157 | Mucor circinelloides f. ...    37   0.022
+HMPREF1544_03500T0 | HMPREF1544_03500 | Mucor circinelloides f. ...    37   0.022
+HMPREF1544_06100T0 | HMPREF1544_06100 | Mucor circinelloides f. ...    36   0.026
+HMPREF1544_01578T0 | HMPREF1544_01578 | Mucor circinelloides f. ...    36   0.029
+HMPREF1544_00570T0 | HMPREF1544_00570 | Mucor circinelloides f. ...    36   0.029
+HMPREF1544_07476T0 | HMPREF1544_07476 | Mucor circinelloides f. ...    36   0.029
+HMPREF1544_09301T0 | HMPREF1544_09301 | Mucor circinelloides f. ...    36   0.031
+HMPREF1544_00459T0 | HMPREF1544_00459 | Mucor circinelloides f. ...    35   0.047
+HMPREF1544_04109T0 | HMPREF1544_04109 | Mucor circinelloides f. ...    35   0.056
+HMPREF1544_02676T0 | HMPREF1544_02676 | Mucor circinelloides f. ...    35   0.059
+HMPREF1544_02540T0 | HMPREF1544_02540 | Mucor circinelloides f. ...    35   0.079
+HMPREF1544_05981T0 | HMPREF1544_05981 | Mucor circinelloides f. ...    34   0.11 
+HMPREF1544_06897T0 | HMPREF1544_06897 | Mucor circinelloides f. ...    34   0.12 
+HMPREF1544_12050T0 | HMPREF1544_12050 | Mucor circinelloides f. ...    33   0.14 
+HMPREF1544_06324T0 | HMPREF1544_06324 | Mucor circinelloides f. ...    34   0.16 
+HMPREF1544_03229T0 | HMPREF1544_03229 | Mucor circinelloides f. ...    34   0.16 
+HMPREF1544_11096T0 | HMPREF1544_11096 | Mucor circinelloides f. ...    34   0.16 
+HMPREF1544_11637T0 | HMPREF1544_11637 | Mucor circinelloides f. ...    33   0.31 
+HMPREF1544_02952T0 | HMPREF1544_02952 | Mucor circinelloides f. ...    32   0.41 
+HMPREF1544_02275T0 | HMPREF1544_02275 | Mucor circinelloides f. ...    32   0.50 
+HMPREF1544_12013T0 | HMPREF1544_12013 | Mucor circinelloides f. ...    32   0.51 
+HMPREF1544_09289T0 | HMPREF1544_09289 | Mucor circinelloides f. ...    32   0.57 
+HMPREF1544_06183T0 | HMPREF1544_06183 | Mucor circinelloides f. ...    32   0.63 
+HMPREF1544_01815T0 | HMPREF1544_01815 | Mucor circinelloides f. ...    32   0.71 
+HMPREF1544_02026T0 | HMPREF1544_02026 | Mucor circinelloides f. ...    32   0.84 
+HMPREF1544_09212T0 | HMPREF1544_09212 | Mucor circinelloides f. ...    31   0.94 
+HMPREF1544_08986T0 | HMPREF1544_08986 | Mucor circinelloides f. ...    31   1.1  
+HMPREF1544_04652T0 | HMPREF1544_04652 | Mucor circinelloides f. ...    31   1.5  
+HMPREF1544_04901T0 | HMPREF1544_04901 | Mucor circinelloides f. ...    30   2.1  
+HMPREF1544_01986T0 | HMPREF1544_01986 | Mucor circinelloides f. ...    30   2.3  
+HMPREF1544_11583T0 | HMPREF1544_11583 | Mucor circinelloides f. ...    30   2.3  
+HMPREF1544_06422T0 | HMPREF1544_06422 | Mucor circinelloides f. ...    30   2.4  
+HMPREF1544_03423T0 | HMPREF1544_03423 | Mucor circinelloides f. ...    30   2.5  
+HMPREF1544_03688T0 | HMPREF1544_03688 | Mucor circinelloides f. ...    30   3.1  
+HMPREF1544_07334T0 | HMPREF1544_07334 | Mucor circinelloides f. ...    29   3.8  
+HMPREF1544_09117T0 | HMPREF1544_09117 | Mucor circinelloides f. ...    29   4.5  
+HMPREF1544_03151T0 | HMPREF1544_03151 | Mucor circinelloides f. ...    29   5.4  
+HMPREF1544_10194T0 | HMPREF1544_10194 | Mucor circinelloides f. ...    29   5.8  
+HMPREF1544_07108T0 | HMPREF1544_07108 | Mucor circinelloides f. ...    28   6.9  
+HMPREF1544_11743T0 | HMPREF1544_11743 | Mucor circinelloides f. ...    28   9.3  
+HMPREF1544_11600T0 | HMPREF1544_11600 | Mucor circinelloides f. ...    28   9.3  
+HMPREF1544_09217T0 | HMPREF1544_09217 | Mucor circinelloides f. ...    28   9.3  
+
+>HMPREF1544_01931T0 | HMPREF1544_01931 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (623 aa)
+          Length = 622
+
+ Score =  385 bits (988), Expect = e-124,   Method: Compositional matrix adjust.
+ Identities = 181/406 (44%), Positives = 263/406 (64%), Gaps = 30/406 (7%)
+
+Query: 37  VTDYSSTLVHWMRHREPRYRGSYHGEFERPSPSYIVDMLPPHARPNNAADTIPVRHLHSS 96
+             DY+ ++  WM+ R    R      + RP P++IV+MLPP A  +N  + +  + +H+S
+Sbjct: 16  TVDYNHSVARWMQERV-WIRDRRDSRYLRPDPNFIVNMLPPVAYLDNPINAVTTKFIHTS 74
+
+Query: 97  LNKVKHPINVVKWTPEGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDE 156
+            NK++ P+NVV+WTPEGRRL+T SS GEFTLWNG  FNFETI+QAH+SA+RA+ +SH D 
+Sbjct: 75  TNKIRFPVNVVRWTPEGRRLITGSSSGEFTLWNGLTFNFETILQAHDSAVRAMNWSHNDN 134
+
+Query: 157 WLLSGDHDGIIHYWQPNFNNVETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGA 216
+           W+++GDH GII YWQ N +N++  +  K+ +RD+ F+P+D++F   +DD+ +K++DF   
+Sbjct: 135 WMVTGDHSGIIKYWQSNMSNLKMFQGHKEAIRDLTFAPSDTRFATCSDDSLIKIWDFNTG 194
+
+Query: 217 TREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVF 276
+           T E TL+GH W+ K  DWHP K L+ SGSKD+L+KLWDP+T + +TTL GHKNT+    +
+Sbjct: 195 TEEKTLTGHGWDVKCVDWHPYKALLASGSKDNLIKLWDPKTAKNITTLHGHKNTVLALEW 254
+
+Query: 277 EKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSM 336
+            +  G  L T+ RDQ   V+D+R M+++ + RGH+K+I +  WHP H  +L+TGGS+G++
+Sbjct: 255 NQ-NGNWLVTAGRDQLVKVYDIRTMKELQIFRGHKKEICSAKWHPQHERLLATGGSDGAL 313
+
+Query: 337 CHYILDEPNTPDGRQQTIAPYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHIL 396
+             ++  + + P G Q+T                         AH+  IWSLDWHP+GHIL
+Sbjct: 314 MFWMTGQ-DQPVGEQET-------------------------AHESNIWSLDWHPVGHIL 347
+
+Query: 397 ASGSNDRITRFWTRARPGD--DDEVLNDRYHIGEAAAEARGTYDRR 440
+            SGSND  TRFWTR RPG+   D+  + ++H  E A      Y R+
+Sbjct: 348 VSGSNDHTTRFWTRPRPGELTSDKFDSSQHHDEEPAPAKNEDYGRQ 393
+
+
+>HMPREF1544_12259T0 | HMPREF1544_12259 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (317 aa)
+          Length = 316
+
+ Score = 95.9 bits (237), Expect = 1e-21,   Method: Compositional matrix adjust.
+ Identities = 69/241 (28%), Positives = 114/241 (47%), Gaps = 30/241 (12%)
+
+Query: 177 VETIRDSKDTVRDIAFSP-NDSKFVVATDDAALKVYDFAGATRE-ATLSGHHWETKACDW 234
+           VE   D++D + D+A+S  N+++ +V++ D ++K++D   A         H  E  + DW
+Sbjct: 53  VERAYDTQDGLYDVAWSEVNENQLIVSSGDGSIKMWDTTLADYPIQNWQEHQREVFSVDW 112
+
+Query: 235 H-PTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTA 293
+           +  TK +  SGS DH VK+W+P++ R L T   H + +  T +       LA+++ DQT 
+Sbjct: 113 NLVTKDVFSSGSWDHTVKIWNPQSPRSLQTYTEHTHCVYSTAWSPYSPTRLASASGDQTV 172
+
+Query: 294 HVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHYILDEPNTPDGRQQT 353
+            ++D    R I  LR H  +I +L W+    +ML TG  + ++  + L  P+    R+  
+Sbjct: 173 KIWDTNSPRSIQTLRAHNNEILSLDWNKYQDHMLVTGSVDKTIKVWDLRRPD----REVI 228
+
+Query: 354 IAPYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHP-LGHILASGSNDRITRFWTRAR 412
+             P                       H+F +  + W P   +ILAS + D   RFW  A 
+Sbjct: 229 CLP----------------------GHEFAVRRVRWSPHRPNILASAAYDMSVRFWDTAA 266
+
+Query: 413 P 413
+           P
+Sbjct: 267 P 267
+
+
+>HMPREF1544_02117T0 | HMPREF1544_02117 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (533 aa)
+          Length = 532
+
+ Score = 94.0 bits (232), Expect = 2e-20,   Method: Compositional matrix adjust.
+ Identities = 75/301 (24%), Positives = 129/301 (42%), Gaps = 31/301 (10%)
+
+Query: 112 EGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYW- 170
+           EG+++++ SS     +W+        +++ H S I  L  +H  +++ S   D  +  W 
+Sbjct: 252 EGKKIVSGSSDNTLRIWDTESAKCLDVLEGHRSRIWDLTTTHAGDFVASASGDSTVKIWN 311
+
+Query: 171 ---QPNFNNVETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHW 227
+              Q   +   T+      V  + + PN+S  V    D  ++++D        T  GH  
+Sbjct: 312 LKSQQKASCATTLNGHAGDVYSVRYHPNESHIVTGGYDKTVRLFDVNTGAIIKTFPGHQL 371
+
+Query: 228 ETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATS 287
+                 ++P   L++SGSKD+ +K WD  +G C+ T+  H   +T +V     G  L +S
+Sbjct: 372 AVTKTIFNPLGNLVISGSKDNTIKFWDIVSGLCIRTISSHLGEVT-SVEMNSSGTLLLSS 430
+
+Query: 288 ARDQTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHYILDEPNTP 347
+           ++D +  ++D+RM+R I  L+GH+             N L  GGSE  +  YI D+    
+Sbjct: 431 SKDNSNRLWDVRMVRPIRKLKGHQNTSKNFVRANFADNNLIVGGSEDGIV-YIWDQ---- 485
+
+Query: 348 DGRQQTIAPYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRF 407
+                          TG   Q      KL   H   ++   W+    +LAS S+D+  + 
+Sbjct: 486 --------------ETGEVLQ------KLR-GHSGVVYDAAWNAKQGMLASCSDDQTVKV 524
+
+Query: 408 W 408
+           W
+Sbjct: 525 W 525
+
+
+
+ Score = 70.9 bits (172), Expect = 4e-13,   Method: Compositional matrix adjust.
+ Identities = 53/193 (27%), Positives = 93/193 (48%), Gaps = 33/193 (17%)
+
+Query: 220 ATLSGHHWETKACDWHPTKGL-IVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEK 278
+           ATL+GH    K  ++   +G  IVSGS D+ +++WD  + +CL  L GH++ I       
+Sbjct: 234 ATLTGHQGNVKCLEFIGEEGKKIVSGSSDNTLRIWDTESAKCLDVLEGHRSRIWDLTTTH 293
+
+Query: 279 VRGMCLATSARDQTAHVFDLRMMRDICL---LRGHEKDITTLTWHPVHPNMLSTGGSEGS 335
+             G  +A+++ D T  +++L+  +       L GH  D+ ++ +HP   +++ TGG +  
+Sbjct: 294 A-GDFVASASGDSTVKIWNLKSQQKASCATTLNGHAGDVYSVRYHPNESHIV-TGGYD-- 349
+
+Query: 336 MCHYILDEPNTPDGRQQTIAPYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHI 395
+                           +T+  +D    TGA  +  FP H+L            ++PLG++
+Sbjct: 350 ----------------KTVRLFDVN--TGAIIKT-FPGHQLAVTKTI------FNPLGNL 384
+
+Query: 396 LASGSNDRITRFW 408
+           + SGS D   +FW
+Sbjct: 385 VISGSKDNTIKFW 397
+
+
+>HMPREF1544_10583T0 | HMPREF1544_10583 | Mucor circinelloides f. circinelloides 1006PhL
+           nuclear distribution protein PAC1 (414 aa)
+          Length = 413
+
+ Score = 92.0 bits (227), Expect = 5e-20,   Method: Compositional matrix adjust.
+ Identities = 75/274 (27%), Positives = 121/274 (44%), Gaps = 15/274 (5%)
+
+Query: 139 MQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVE-TIRDSKDTVRDIAFSPNDS 197
+           M  H S I  + +    + L S   D  I  W       E T++     V+D+AF P  +
+Sbjct: 106 MTGHRSPITRVVFHPIYQILASSSEDTTIKIWDYETGEFERTLKGHTKAVQDVAFDPKGN 165
+
+Query: 198 KFVVATDDAALKVYDFAGATREA-TLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPR 256
+             V  + D  +KV+D     +   TL GH     + D+ P+   I+S S+D  +KLWD  
+Sbjct: 166 FLVSCSADLTIKVWDVNNDYKCVKTLYGHDHSVSSVDYLPSGDTIISSSRDKTIKLWDAS 225
+
+Query: 257 TGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITT 316
+           +G C+ TL GH + + ++V     G  L T++ DQTA ++D++        RGHE  +  
+Sbjct: 226 SGYCIKTLSGHLDWV-RSVSPSEDGKYLLTASNDQTARLWDIQSGEAKMEFRGHEHVLEC 284
+
+Query: 317 LTWHPV--HPNMLSTGGSEGSMCHYILDEPNTPDGRQQTIAPYDSPDPTGAPAQVIFPAH 374
+             + P+  +P +    G E      +  +      R +TI  + +        Q++   H
+Sbjct: 285 AIFAPIVSYPYIQELIGDENKSKDQLPGQYVITGSRDKTIKLWTT------NGQLL---H 335
+
+Query: 375 KLPFAHDFGIWSLDWHPLGHILASGSNDRITRFW 408
+            +   HD  I  L  HP G  L S S+D+  + W
+Sbjct: 336 TM-VGHDNWIRGLVVHPSGKYLLSASDDKTIKIW 368
+
+
+
+ Score = 68.9 bits (167), Expect = 1e-12,   Method: Compositional matrix adjust.
+ Identities = 58/274 (21%), Positives = 116/274 (42%), Gaps = 23/274 (8%)
+
+Query: 77  PHARPNNAADTIPVRHLHSSLNKVKHPINVVKWTPEGRRLLTASSGGEFTLWNGTGFNFE 136
+           P  +  ++ D IP      S+   + PI  V + P  + L ++S      +W+     FE
+Sbjct: 86  PIRKQTSSVDWIPRPPEKQSMTGHRSPITRVVFHPIYQILASSSEDTTIKIWDYETGEFE 145
+
+Query: 137 TIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPN--FNNVETIRDSKDTVRDIAFSP 194
+             ++ H  A++ +A+  +  +L+S   D  I  W  N  +  V+T+     +V  + + P
+Sbjct: 146 RTLKGHTKAVQDVAFDPKGNFLVSCSADLTIKVWDVNNDYKCVKTLYGHDHSVSSVDYLP 205
+
+Query: 195 NDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWD 254
+           +    + ++ D  +K++D +      TLSGH    ++         +++ S D   +LWD
+Sbjct: 206 SGDTIISSSRDKTIKLWDASSGYCIKTLSGHLDWVRSVSPSEDGKYLLTASNDQTARLWD 265
+
+Query: 255 PRTGRCLTTLRGHKNTITKTVF--------------------EKVRGMCLATSARDQTAH 294
+            ++G      RGH++ +   +F                    +++ G  + T +RD+T  
+Sbjct: 266 IQSGEAKMEFRGHEHVLECAIFAPIVSYPYIQELIGDENKSKDQLPGQYVITGSRDKTIK 325
+
+Query: 295 VFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLS 328
+           ++       +  + GH+  I  L  HP    +LS
+Sbjct: 326 LWTTNGQL-LHTMVGHDNWIRGLVVHPSGKYLLS 358
+
+
+
+ Score = 59.3 bits (142), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 50/221 (22%), Positives = 98/221 (44%), Gaps = 26/221 (11%)
+
+Query: 102 HPINVVKWTPEGRRLLTASSGGEFTLWNGT-GFNFETIMQAHESAIRALAYSHRDEWLLS 160
+           H ++ V + P G  ++++S      LW+ + G+  +T +  H   +R+++ S   ++LL+
+Sbjct: 196 HSVSSVDYLPSGDTIISSSRDKTIKLWDASSGYCIKT-LSGHLDWVRSVSPSEDGKYLLT 254
+
+Query: 161 GDHDGIIHYW-------QPNFNNVETIRD--------SKDTVRDIAFSPNDSK------- 198
+             +D     W       +  F   E + +        S   ++++    N SK       
+Sbjct: 255 ASNDQTARLWDIQSGEAKMEFRGHEHVLECAIFAPIVSYPYIQELIGDENKSKDQLPGQY 314
+
+Query: 199 FVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRTG 258
+            +  + D  +K++   G     T+ GH    +    HP+   ++S S D  +K+WD +TG
+Sbjct: 315 VITGSRDKTIKLWTTNGQLLH-TMVGHDNWIRGLVVHPSGKYLLSASDDKTIKIWDLKTG 373
+
+Query: 259 RCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLR 299
+           RC  TL  H + +T   +     + +AT + DQT  ++  R
+Sbjct: 374 RCTKTLDAHSHFVTCIAYCHTSPV-VATGSVDQTIKLWQCR 413
+
+
+
+ Score = 56.2 bits (134), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/254 (20%), Positives = 109/254 (42%), Gaps = 28/254 (11%)
+
+Query: 107 VKWTPEGRRLLTASSGGEFTLWN-GTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDG 165
+           V + P+G  L++ S+     +W+    +     +  H+ ++ ++ Y    + ++S   D 
+Sbjct: 158 VAFDPKGNFLVSCSADLTIKVWDVNNDYKCVKTLYGHDHSVSSVDYLPSGDTIISSSRDK 217
+
+Query: 166 IIHYWQPNFN-NVETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSG 224
+            I  W  +    ++T+    D VR ++ S +    + A++D   +++D      +    G
+Sbjct: 218 TIKLWDASSGYCIKTLSGHLDWVRSVSPSEDGKYLLTASNDQTARLWDIQSGEAKMEFRG 277
+
+Query: 225 HHW----------------------ETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLT 262
+           H                        E K+ D  P +  +++GS+D  +KLW    G+ L 
+Sbjct: 278 HEHVLECAIFAPIVSYPYIQELIGDENKSKDQLPGQ-YVITGSRDKTIKLW-TTNGQLLH 335
+
+Query: 263 TLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITTLTWHPV 322
+           T+ GH N I   V     G  L +++ D+T  ++DL+  R    L  H   +T + +   
+Sbjct: 336 TMVGHDNWIRGLVVHP-SGKYLLSASDDKTIKIWDLKTGRCTKTLDAHSHFVTCIAYCHT 394
+
+Query: 323 HPNMLSTGGSEGSM 336
+            P +++TG  + ++
+Sbjct: 395 SP-VVATGSVDQTI 407
+
+
+
+ Score = 48.5 bits (114), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 28/114 (24%), Positives = 57/114 (50%), Gaps = 2/114 (1%)
+
+Query: 218 REATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFE 277
+            + +++GH        +HP   ++ S S+D  +K+WD  TG    TL+GH   +    F+
+Sbjct: 102 EKQSMTGHRSPITRVVFHPIYQILASSSEDTTIKIWDYETGEFERTLKGHTKAVQDVAFD 161
+
+Query: 278 KVRGMCLATSARDQTAHVFDLRM-MRDICLLRGHEKDITTLTWHPVHPNMLSTG 330
+             +G  L + + D T  V+D+    + +  L GH+  ++++ + P    ++S+ 
+Sbjct: 162 P-KGNFLVSCSADLTIKVWDVNNDYKCVKTLYGHDHSVSSVDYLPSGDTIISSS 214
+
+
+>HMPREF1544_00916T0 | HMPREF1544_00916 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (757 aa)
+          Length = 756
+
+ Score = 85.9 bits (211), Expect = 1e-17,   Method: Compositional matrix adjust.
+ Identities = 54/209 (25%), Positives = 99/209 (47%), Gaps = 3/209 (1%)
+
+Query: 139 MQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPN-FNNVETIRDSKDTVRDIAFSPNDS 197
+           +  H   +  L++SH +++L+S   D     W    F+N+   +     V D+ F P   
+Sbjct: 480 LVGHSGPVYGLSFSHDNKYLVSCSGDKTARLWSTQTFSNLVVYKGHNSPVWDVDFGPYGF 539
+
+Query: 198 KFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRT 257
+            F  A+ D   +++           +GH  +     +HP    IV+GS D   +LWD +T
+Sbjct: 540 YFATASHDRTARIWSCDHINPLRIFTGHLSDVDTVKFHPNSKYIVTGSSDRTSRLWDVQT 599
+
+Query: 258 GRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITTL 317
+           G C+    GH  +I KTV     G  +A++  D++  ++D+   + I  L GH   I +L
+Sbjct: 600 GSCVRVFTGHTGSI-KTVAVSPNGRLMASAGEDRSIMLWDIASGKRIKKLTGHTGFIYSL 658
+
+Query: 318 TWHPVHPNMLSTGGSEGSMCHYILDEPNT 346
+           ++      +L +GG++ ++C + ++  NT
+Sbjct: 659 SF-SADSGVLVSGGADSTVCVWDVNTENT 686
+
+
+
+ Score = 57.0 bits (136), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 48/226 (21%), Positives = 85/226 (37%), Gaps = 4/226 (1%)
+
+Query: 76  PPHARPNNAADTIPVRHLHSSLNKVKH--PINVVKWTPEGRRLLTASSGGEFTLWNGTGF 133
+           P H    N  +    RH       V H  P+  + ++ + + L++ S      LW+   F
+Sbjct: 457 PAHVNDYNDLNRQKERHGSEYKKLVGHSGPVYGLSFSHDNKYLVSCSGDKTARLWSTQTF 516
+
+Query: 134 NFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPN-FNNVETIRDSKDTVRDIAF 192
+           +   + + H S +  + +     +  +  HD     W  +  N +         V  + F
+Sbjct: 517 SNLVVYKGHNSPVWDVDFGPYGFYFATASHDRTARIWSCDHINPLRIFTGHLSDVDTVKF 576
+
+Query: 193 SPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKL 252
+            PN    V  + D   +++D    +     +GH    K     P   L+ S  +D  + L
+Sbjct: 577 HPNSKYIVTGSSDRTSRLWDVQTGSCVRVFTGHTGSIKTVAVSPNGRLMASAGEDRSIML 636
+
+Query: 253 WDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDL 298
+           WD  +G+ +  L GH   I    F    G+ L +   D T  V+D+
+Sbjct: 637 WDIASGKRIKKLTGHTGFIYSLSFSADSGV-LVSGGADSTVCVWDV 681
+
+
+
+ Score = 52.4 bits (124), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 45/219 (20%), Positives = 89/219 (40%), Gaps = 12/219 (5%)
+
+Query: 103 PINVVKWTPEGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGD 162
+           P+  V + P G    TAS      +W+    N   I   H S +  + +    +++++G 
+Sbjct: 528 PVWDVDFGPYGFYFATASHDRTARIWSCDHINPLRIFTGHLSDVDTVKFHPNSKYIVTGS 587
+
+Query: 163 HDGIIHYWQPNFNN-VETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREAT 221
+            D     W     + V        +++ +A SPN      A +D ++ ++D A   R   
+Sbjct: 588 SDRTSRLWDVQTGSCVRVFTGHTGSIKTVAVSPNGRLMASAGEDRSIMLWDIASGKRIKK 647
+
+Query: 222 LSGHHWETKACDWHPTKGLIVSGSKDHLVKLWD---PRTGRCLTTLRGHKNTITKTVFEK 278
+           L+GH     +  +    G++VSG  D  V +WD     T    + +    N + +   + 
+Sbjct: 648 LTGHTGFIYSLSFSADSGVLVSGGADSTVCVWDVNTENTSAVASYMDTDANDVKRARLDD 707
+
+Query: 279 VRGMCLATSARDQTAH-------VFDLRMM-RDICLLRG 309
+            +       +R++ A        ++D++   R++CL+ G
+Sbjct: 708 DKKRKAVHESRERLAVFPTKQTPIYDIQFTDRNLCLVAG 746
+
+
+
+ Score = 32.7 bits (73), Expect = 0.37,   Method: Compositional matrix adjust.
+ Identities = 13/41 (31%), Positives = 21/41 (51%), Gaps = 6/41 (14%)
+
+Query: 369 VIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFWT 409
+           V++  H  P      +W +D+ P G   A+ S+DR  R W+
+Sbjct: 520 VVYKGHNSP------VWDVDFGPYGFYFATASHDRTARIWS 554
+
+
+  Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.
+  fa
+    Posted date:  Feb 27, 2014  9:31 AM
+  Number of letters in database: 5,364,083
+  Number of sequences in database:  12,227
+  
+Lambda     K      H
+   0.318    0.134    0.423 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12227
+Number of Hits to DB: 6,014,868
+Number of extensions: 246377
+Number of successful extensions: 1772
+Number of sequences better than 10.0: 155
+Number of HSP's gapped: 1247
+Number of HSP's successfully gapped: 469
+Length of query: 655
+Length of database: 5,364,083
+Length adjustment: 100
+Effective length of query: 555
+Effective length of database: 4,141,383
+Effective search space: 2298467565
+Effective search space used: 2298467565
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

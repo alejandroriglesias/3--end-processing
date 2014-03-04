@@ -1,0 +1,229 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: rhizopus_delemar_99-880_3_proteins.fasta 
+           17,459 sequences; 5,971,044 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+RO3G_14511T0 | RO3G_14511 | Rhizopus delemar 99-880 hypothetical...   635   0.0  
+RO3G_02889T0 | RO3G_02889 | Rhizopus delemar 99-880 hypothetical...   229   4e-65
+RO3G_00892T0 | RO3G_00892 | Rhizopus delemar 99-880 hypothetical...   117   2e-27
+RO3G_13538T0 | RO3G_13538 | Rhizopus delemar 99-880 hypothetical...    34   0.16 
+RO3G_03629T0 | RO3G_03629 | Rhizopus delemar 99-880 hypothetical...    32   0.77 
+RO3G_03346T0 | RO3G_03346 | Rhizopus delemar 99-880 hypothetical...    29   5.4  
+
+>RO3G_14511T0 | RO3G_14511 | Rhizopus delemar 99-880 hypothetical protein (655
+           aa)
+          Length = 654
+
+ Score =  635 bits (1638), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 328/659 (49%), Positives = 435/659 (66%), Gaps = 74/659 (11%)
+
+Query: 19  VDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVD 78
+           +D  D L  T LG GNEVGRS  +++YKGKT++LDAG HPAY+GLA+LPFFD+ D +++D
+Sbjct: 1   MDENDLLKITPLGSGNEVGRSSILMEYKGKTILLDAGIHPAYNGLASLPFFDEMDPASID 60
+
+Query: 79  VLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPV 138
+           VLL++HFHVDHAAS+PY++ K    GRVFMTHPTKAI+KWL+ D +RV +         +
+Sbjct: 61  VLLVTHFHVDHAASVPYLMGK----GRVFMTHPTKAIFKWLLSDYLRVSHIGE---EDQL 113
+
+Query: 139 YTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSR 198
+           YTE+D LN+F +IEAIDY+    +  I+ T Y AGHVLGAAMFLIEIAG+ + +TGDYSR
+Sbjct: 114 YTEEDLLNSFHRIEAIDYHQQVEVEGIKFTAYNAGHVLGAAMFLIEIAGVKVLYTGDYSR 173
+
+Query: 199 EQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVF 258
+           E+DRHL++AE P G  +DVLITESTYG+ SH PR+ +E      +  I+ RGGR LMPVF
+Sbjct: 174 EEDRHLMAAEKPEG-SVDVLITESTYGVQSHEPRIAKETRFTSLVHNIVTRGGRCLMPVF 232
+
+Query: 259 ALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERL 318
+           ALGRAQELLLILDE+W  H E   +PIYYAS+LA++CM VYQTY+  MN  I++ F    
+Sbjct: 233 ALGRAQELLLILDEFWEAHPELDSIPIYYASSLAKRCMAVYQTYINMMNARIRKQF---- 288
+
+Query: 319 XXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERWAP 378
+                          P+ FK+I +LKN+++F+D GPCVM+ASPGMLQNG+SREL ERWAP
+Sbjct: 289 -----------AISNPFVFKHISNLKNVEQFEDSGPCVMMASPGMLQNGLSRELFERWAP 337
+
+Query: 379 SDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAEFS 438
+             KNG+VITGY VE T+A+Q M EP    A+            DG K  +P + SV   S
+Sbjct: 338 DKKNGLVITGYCVENTLARQAMNEPSDFQAM------------DGRK--VPLKMSVDYIS 383
+
+Query: 439 FAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLLSLNATKTEKVKIYSPRNCEE 498
+           F+AHVD T+N +FI+EV AP VILVHGE N M RLKS L S  + K E V IY+P+NC+ 
+Sbjct: 384 FSAHVDFTQNSKFIDEVKAPHVILVHGEANAMYRLKSALQSKYSEKEENVTIYTPKNCDT 443
+
+Query: 499 LRIPFKTDKTAKVVGKLASITPPTRLPTDDDYHLHPQLVTGVLVQNDFKLSLMAPEDLRE 558
+           +++ F+ +K AK +G+LA+     + PT++      Q + GVL+  DF+L++M+PEDL E
+Sbjct: 444 VKLHFRGEKMAKTIGRLAA-----KYPTEN------QALNGVLLVKDFQLNIMSPEDLNE 492
+
+Query: 559 YAGLTTTTIVCRQKIMLAAAGVDLIRWALESTFGAVDELPEMRQLHKEVPNGDDMILDAK 618
+             GL TT I  RQ ++   AG+ L++W LE  FG + E     +L KE    +       
+Sbjct: 493 LGGLITTVITQRQ-VVPFNAGIGLLKWQLEMVFGTIKE----TELSKEKDGQEG------ 541
+
+Query: 619 XXXXXXXXXXRPVAGYIVMGSINVRCFGSG--EVELEWEGNTMNDGFADAVMAVLLTVE 675
+                          + V  +++V+   SG   V LEW GN MND  AD+V+A++L ++
+Sbjct: 542 -------------TAFRVFDTVDVKKLASGPNHVTLEWIGNAMNDMVADSVLAIILAID 587
+
+
+>RO3G_02889T0 | RO3G_02889 | Rhizopus delemar 99-880 hypothetical protein (614
+           aa)
+          Length = 613
+
+ Score =  229 bits (585), Expect = 4e-65,   Method: Compositional matrix adjust.
+ Identities = 143/454 (31%), Positives = 225/454 (49%), Gaps = 46/454 (10%)
+
+Query: 48  KTVMLDAGQHPAYDGLAALPFFDDFDLS-----TVDVLLISHFHVDHAASLPYVLSKTNF 102
+           + V L AG H  Y      P F     +      +D ++ISHFH+DH  +LP+      +
+Sbjct: 4   EVVPLGAGMHMGYSDARRFPDFSYISKTGNFTDIIDAVIISHFHLDHCGALPFFTEMLGY 63
+
+Query: 103 KGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYTEQDHLNTFPQIEAIDYYTTHTI 162
+            G ++MTHPTKAI   L++D  ++       T+   +T     N   ++ A+  + T  +
+Sbjct: 64  DGPIYMTHPTKAICPILLEDYRKITVERKGETN--FFTSAMIKNCMKKVHAVSLHQTIKV 121
+
+Query: 163 S-SIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQDRHLVSAEVPRGVKIDVLITE 221
+              + I  Y AGHVLGAAMF + +   ++ +TGDY+   DRHL SA + + V+ DVL+TE
+Sbjct: 122 DDELEIKAYYAGHVLGAAMFYVRVGQESVVYTGDYNMTPDRHLGSAWIDK-VRPDVLVTE 180
+
+Query: 222 STYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQ 281
+           STY       +  RE+  +  +   +  GG V++PVFALGRAQEL ++++ YW +     
+Sbjct: 181 STYATTIRDSKRSRERDFLTKVHECVLNGGNVIIPVFALGRAQELCILIESYWDRMG--L 238
+
+Query: 282 KVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFKYIR 341
+            VPIY+++ L  +    Y+ ++   N  IK  F +R                 +DFK+I+
+Sbjct: 239 DVPIYFSTGLTERATEFYKLFINWTNQKIKSTFSQR---------------NMFDFKHIK 283
+
+Query: 342 SLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQ 401
+           +  N +  D  GP V+ A+PGML  G S E+ ++WAP  KN V++ G+ V GT+  +++ 
+Sbjct: 284 TW-NRNYIDQPGPKVLFATPGMLNAGTSLEVFKKWAPDPKNMVIMPGFCVAGTVGSKVL- 341
+
+Query: 402 EPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVI 461
+                   + +      +    E  +      V   SF+AH D     + I +     V+
+Sbjct: 342 --------LGQKVIEIDKFTRFEVNL-----QVRNLSFSAHADAKGIMQLIRQCEPRNVV 388
+
+Query: 462 LVHGEQNNMMRLKSKLLSLNATKTEKVKIYSPRN 495
+           LVHGE+  M  L SK++     K   +  Y P N
+Sbjct: 389 LVHGERGKMNFLSSKIM-----KEFAIPCYMPAN 417
+
+
+>RO3G_00892T0 | RO3G_00892 | Rhizopus delemar 99-880 hypothetical protein (658
+           aa)
+          Length = 657
+
+ Score =  117 bits (294), Expect = 2e-27,   Method: Compositional matrix adjust.
+ Identities = 85/342 (24%), Positives = 158/342 (46%), Gaps = 31/342 (9%)
+
+Query: 77  VDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQ 136
+           +D +L+SH  + H  + PY  +       V+ T P   + K  + D   +  + +N    
+Sbjct: 7   IDAVLLSHSDLGHLGAYPYARNHLGMTCPVYSTVPVVNMGKMCMYD---LYQSRTNELEF 63
+
+Query: 137 PVYTEQDHLNTFPQIEAIDYYTTHTI----SSIRITPYPAGHVLGAAMFLIEIAGMNIFF 192
+             +T +D  N F +I  + Y    ++      I IT Y A H +G  ++ I+     I +
+Sbjct: 64  KTFTLEDVDNAFDKITPLRYSQPFSLPGKCQGITITAYAAAHTVGGTIWKIKQDTDEIVY 123
+
+Query: 193 TGDYSREQDRHLVSAEVPRG-------VKIDVLITESTYGIASHVPRVEREQALMKSITG 245
+             D++  ++ HL    +  G        +  +LIT++      H  R +R  A+  ++  
+Sbjct: 124 AVDFNHRKEYHLDGTVLHSGGVVLDSLTRPSLLITDAYNSQVVHPARKDRYAAMFDTMLT 183
+
+Query: 246 ILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGA 305
+            LN+GG VL+P  +  R  EL  +LD++W ++Q     P+   SN +   +   +  +  
+Sbjct: 184 SLNKGGSVLLPTDSSARVLELAYLLDQHWSQNQ--LNYPLIMLSNTSYHTVHFAKIMLEW 241
+
+Query: 306 MNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDL-GPCVMLASPGML 364
+           M + + R F +                 P++FKY+R    ++  D+  GP +++AS   L
+Sbjct: 242 MGEELTRKFSQ-------------SRENPYEFKYVRLCHKIEDLDNYPGPKIVMASHHSL 288
+
+Query: 365 QNGVSRELLERWAPSD-KNGVVITGYSVEGTMAKQIMQEPEQ 405
+           + G +REL  RW  +D +N +++T  S  GT+A+++  + EQ
+Sbjct: 289 ETGFARELFLRWMTNDPQNTLILTDRSAPGTLARRLYDDWEQ 330
+
+
+>RO3G_13538T0 | RO3G_13538 | Rhizopus delemar 99-880 hypothetical protein (435
+           aa)
+          Length = 434
+
+ Score = 34.3 bits (77), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 35/167 (20%), Positives = 74/167 (44%), Gaps = 8/167 (4%)
+
+Query: 138 VYTEQDHLNTFPQIEAIDYY-TTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDY 196
+           +YT +D      +I+ + Y  +    S++ +  + +G+ +G+A +L+E +   I F    
+Sbjct: 39  IYTLRDIQGCLEKIQPVRYNESLFLFSTLSLVAHSSGYSIGSANWLLETSFKKIVFLSTS 98
+
+Query: 197 SREQDRHLVSAEVPRGVKID-VLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLM 255
+           S   + H    +     + D V++++     + HV        L+  I   +     VL+
+Sbjct: 99  SLTPNLHPAPFDQSLLTEADAVIVSDVVEPSSDHVSFERSRTKLLAHIARTIQSNNNVLI 158
+
+Query: 256 PVFALGRAQELLLILDEYW---GKHQ---EYQKVPIYYASNLARKCM 296
+              ++    +LL  ++ Y+   G  +   E  +VPIY A+ +A K +
+Sbjct: 159 AAPSMHIVFDLLGDIESYFKSIGAREIGGENDQVPIYVANPVANKSL 205
+
+
+>RO3G_03629T0 | RO3G_03629 | Rhizopus delemar 99-880 hypothetical protein (383
+           aa)
+          Length = 382
+
+ Score = 32.0 bits (71), Expect = 0.77,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 35/70 (50%), Gaps = 6/70 (8%)
+
+Query: 212 GVKIDVLITESTYGIASHVPRVE--REQA----LMKSITGILNRGGRVLMPVFALGRAQE 265
+           G +ID+L+  S YGI +    +E  R+ A    L +  +  +   G VL  + A   A +
+Sbjct: 55  GRRIDILVHNSCYGIRNEYCCIEFKRQNASTELLTRQQSKSIRINGAVLDDLIAKTNADD 114
+
+Query: 266 LLLILDEYWG 275
+           + LI  ++WG
+Sbjct: 115 MYLIYMDFWG 124
+
+
+  Database: rhizopus_delemar_99-880_3_proteins.fasta
+    Posted date:  Feb 27, 2014  1:07 PM
+  Number of letters in database: 5,971,044
+  Number of sequences in database:  17,459
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 17459
+Number of Hits to DB: 8,753,936
+Number of extensions: 343376
+Number of successful extensions: 732
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 714
+Number of HSP's successfully gapped: 7
+Length of query: 829
+Length of database: 5,971,044
+Length adjustment: 102
+Effective length of query: 727
+Effective length of database: 4,190,226
+Effective search space: 3046294302
+Effective search space used: 3046294302
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

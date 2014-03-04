@@ -1,0 +1,75 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa 
+           30,282 sequences; 8,144,225 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+877_Glomus_intraradices_1_GeneCatalo                                   62   8e-11
+
+>877_Glomus_intraradices_1_GeneCatalo 
+          Length = 309
+
+ Score = 61.6 bits (148), Expect = 8e-11,   Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 33/44 (75%), Gaps = 1/44 (2%)
+
+Query: 155 NIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLR 198
+           ++D D  ED  PWRKPG DI+DYFNYGF+E++W  Y  KQ Q+R
+Sbjct: 146 DVDLDSFEDK-PWRKPGADITDYFNYGFNEYTWKAYCAKQKQMR 188
+
+
+  Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa
+    Posted date:  Feb 27, 2014 12:29 PM
+  Number of letters in database: 8,144,225
+  Number of sequences in database:  30,282
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 30282
+Number of Hits to DB: 3,072,030
+Number of extensions: 115124
+Number of successful extensions: 219
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 219
+Number of HSP's successfully gapped: 8
+Length of query: 332
+Length of database: 8,144,225
+Length adjustment: 96
+Effective length of query: 236
+Effective length of database: 5,237,153
+Effective search space: 1235968108
+Effective search space used: 1235968108
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,230 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa 
+           30,282 sequences; 8,144,225 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+5335_Glomus_intraradices_1_GeneCatalo                                 521   e-177
+22007_Glomus_intraradices_1_GeneCatalo                                255   6e-74
+15210_Glomus_intraradices_1_GeneCatalo                                121   2e-28
+5336_Glomus_intraradices_1_GeneCatalo                                 113   3e-27
+15889_Glomus_intraradices_1_GeneCatalo                                 32   1.1  
+22053_Glomus_intraradices_1_GeneCatalo                                 30   5.1  
+6495_Glomus_intraradices_1_GeneCatalo                                  30   7.0  
+4301_Glomus_intraradices_1_GeneCatalo                                  29   8.4  
+
+>5335_Glomus_intraradices_1_GeneCatalo 
+          Length = 425
+
+ Score =  521 bits (1342), Expect = e-177,   Method: Compositional matrix adjust.
+ Identities = 257/442 (58%), Positives = 315/442 (71%), Gaps = 32/442 (7%)
+
+Query: 20  DPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDV 79
+           D  D L  T LG GNEVGRSC +IQYKGKT+MLDAG HPAY+GLAALPF+D+ D +TVD 
+Sbjct: 14  DENDVLQVTALGAGNEVGRSCIVIQYKGKTIMLDAGVHPAYNGLAALPFYDEIDPATVDA 73
+
+Query: 80  LLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVY 139
+           LLISHFH+DHAASLPY L KT F+GRVFMTHPTKAIYKWL+ D VRV N +       +Y
+Sbjct: 74  LLISHFHLDHAASLPYFLEKTTFQGRVFMTHPTKAIYKWLLSDYVRVSNVAL--LDDMLY 131
+
+Query: 140 TEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSRE 199
+            EQD L ++ +IEA+DY+       I+ T Y AGHVLGAAMFLIEIAG+ I +TGDYSRE
+Sbjct: 132 DEQDLLLSYDKIEAVDYHQEVEFEGIKFTSYNAGHVLGAAMFLIEIAGVKILYTGDYSRE 191
+
+Query: 200 QDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFA 259
+           +DRHL++AE+P  V+IDVLITESTYG+ SH PR+E+E      +  I+ RGGR LMPVFA
+Sbjct: 192 EDRHLMAAELP-SVRIDVLITESTYGVQSHEPRLEKEARFTGLVHDIVQRGGRCLMPVFA 250
+
+Query: 260 LGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERLX 319
+           LGRAQELLLILDEYW  H E + VPIYYAS+LA+KC+ VYQTY+  MN+ I++ F     
+Sbjct: 251 LGRAQELLLILDEYWKAHPELESVPIYYASSLAKKCIAVYQTYINMMNEKIRKQF----- 305
+
+Query: 320 XXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERWAPS 379
+                         P+ F +I +LKN+D FDD+GPCVM+ASPGMLQ+G+SREL ERW P 
+Sbjct: 306 ----------AINNPFIFNHISNLKNMDDFDDVGPCVMMASPGMLQSGLSRELFERWCPD 355
+
+Query: 380 DKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAEFSF 439
+            +NG+VITGY VEGT+A+  M EP +I ++                  IP R SV   SF
+Sbjct: 356 KRNGLVITGYCVEGTLARHAMTEPSEIISM--------------SGATIPLRMSVNYVSF 401
+
+Query: 440 AAHVDGTENREFIEEVAAPVVI 461
+           +AHVD  +N +FI+E+ AP V+
+Sbjct: 402 SAHVDFIQNSQFIDEIKAPHVV 423
+
+
+>22007_Glomus_intraradices_1_GeneCatalo 
+          Length = 623
+
+ Score =  255 bits (652), Expect = 6e-74,   Method: Compositional matrix adjust.
+ Identities = 154/481 (32%), Positives = 247/481 (51%), Gaps = 53/481 (11%)
+
+Query: 30  LGGGNEVGRSCHIIQYKG-----KTVMLDAGQHPAYDGLAALPFFDDFDLST-----VDV 79
+           LG G +VGRSC +I         K +M D G H  Y+     P F     +      +D 
+Sbjct: 7   LGAGQDVGRSCILISIGDDSTGIKNLMFDCGMHMGYNDERRFPDFSYISKTNRFTEQLDC 66
+
+Query: 80  LLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVY 139
+           +++SHFH+DH  +LPY      ++G +FMTHPTKAI   L++D  ++       T+   +
+Sbjct: 67  IIVSHFHLDHCGALPYFTEMCGYEGPIFMTHPTKAICPILLEDYRKITVERKGETN--FF 124
+
+Query: 140 TEQDHLNTFPQIEAIDYYTTHTIS---SIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDY 196
+           T Q   +   ++ A++ + T  ++    + I  + AGHVLGAAMF + +   ++ +TGDY
+Sbjct: 125 TSQMIKDCMKKVTAVNLHQTIKVNGDDDLEIKAFYAGHVLGAAMFYVRVGTQSVVYTGDY 184
+
+Query: 197 SREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMP 256
+           +   DRHL +A + + V+ D+LITESTY       +  RE+  +K +   + +GG+VL+P
+Sbjct: 185 NMTPDRHLGAAWIDK-VRPDLLITESTYATTIRDSKRTRERDFLKKVHDCVTQGGKVLIP 243
+
+Query: 257 VFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRE 316
+           VFALGRAQEL ++++ YW ++     VP+Y+++ +  K    Y+ ++   N+ IK  F +
+Sbjct: 244 VFALGRAQELCILIETYWERNN--LNVPVYFSAGMTEKANDYYKLFINWTNEKIKNTFVQ 301
+
+Query: 317 RLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERW 376
+           R                PWD +Y+         D  GP V+ A+PGML  G S E+ ++W
+Sbjct: 302 R-------NMFDFKHIKPWDRQYL---------DLPGPAVLFATPGMLHIGTSLEVFKKW 345
+
+Query: 377 APSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAE 436
+           AP  +N V++ GY V GT+  +++   ++I  I   N              I  +  V  
+Sbjct: 346 APYPENMVIMPGYCVAGTVGAKVLNGDKEI-YIDAYNK-------------INVKLQVKN 391
+
+Query: 437 FSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLLSLNATKTEKVKIYSPRNC 496
+            SF+AH D     + I++     V+LVHGE+  M  L+ K+      +  ++  YSP N 
+Sbjct: 392 LSFSAHADAKGILQLIKQCDPKNVMLVHGEKAKMEFLQEKI-----KRECRIPCYSPANG 446
+
+Query: 497 E 497
+           E
+Sbjct: 447 E 447
+
+
+>15210_Glomus_intraradices_1_GeneCatalo 
+          Length = 759
+
+ Score =  121 bits (304), Expect = 2e-28,   Method: Compositional matrix adjust.
+ Identities = 101/394 (25%), Positives = 179/394 (45%), Gaps = 40/394 (10%)
+
+Query: 25  LVFTCLGGGNEVGRSCHIIQYKGKT-VMLDAGQHPAY--DGLAALPFFDDFDLSTVDVLL 81
+           +VFT + G       C++++   +  +MLD G + A+  + L  L          VD LL
+Sbjct: 2   IVFTAISGAKNEDPLCYLVEIDDEVRIMLDCGWNDAFNVEDLKNLRRV----AKQVDALL 57
+
+Query: 82  ISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYTE 141
+           +SH  + H  + PY          V+ T P   + +  + D   V  +  N +    +  
+Sbjct: 58  LSHPDLQHLGAYPYAYGHFGLSCPVYATLPVLNMGRMCLYD---VFQSKINESDFDTFDL 114
+
+Query: 142 QDHLNTFPQIEAIDYYTTHTI---SSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSR 198
+                 F QI  + Y    ++    SI IT Y AGH +G  ++ I+     I +  DY+ 
+Sbjct: 115 NTVDTAFDQITTLKYSQPCSLGKYKSITITAYAAGHTIGGTIWKIKKDAEEIVYAVDYNH 174
+
+Query: 199 EQDRHLVSAEVPR-GVKIDVL------ITESTYGIASHVPRVEREQALMKSITGILNRGG 251
+           +++RHL    + + GV +D L      IT++   + SH  R  R+ AL ++I   L   G
+Sbjct: 175 KKERHLDGTVLHKDGVVLDALSRPTLMITDTYNSLISHPARKHRDAALFETIKTTLQDNG 234
+
+Query: 252 RVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIK 311
+            VL+P  +  R  EL  +LD++W  +Q     P+ + S  +   +   ++ +  M+D I 
+Sbjct: 235 SVLLPTDSSARVLELAYLLDQHWTYNQ--FTYPLIFLSYQSYNTIQYAKSMLEWMSDAIN 292
+
+Query: 312 RLFRERLXXXXXXXXXXXXXXXPWDFKYIR---SLKNLDRFDDLGPCVMLASPGMLQNGV 368
+           R F E+                P++F+Y+R     K L ++ +  P V++AS   L++G 
+Sbjct: 293 RQFDEK-------------RENPFEFRYLRLCTRYKELAKYPE--PKVVIASNVSLESGY 337
+
+Query: 369 SRELLERWAPSDKNGVVITGYSVEGTMAKQIMQE 402
+           +R+L   W  S +N V++T      ++A+++  E
+Sbjct: 338 ARDLFLEWGTSPENAVILTDRGPPYSLARELYYE 371
+
+
+>5336_Glomus_intraradices_1_GeneCatalo 
+          Length = 289
+
+ Score =  113 bits (283), Expect = 3e-27,   Method: Compositional matrix adjust.
+ Identities = 62/206 (30%), Positives = 108/206 (52%), Gaps = 40/206 (19%)
+
+Query: 470 MMRLKSKLLSLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPTRLPTDDD 529
+           M RLKS L S  A + +K+KIYSP+NCE +++ F+ +K AK +G+LA+            
+Sbjct: 1   MARLKSALQSKFAERDDKIKIYSPKNCEPVKLYFRGEKLAKAIGRLAA-----------K 49
+
+Query: 530 YHLHPQLVTGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLIRWALES 589
+           Y +  Q+V+G++V  DF+ ++M   DL+++ G++T+TI+ +  I   ++   L+++ LE 
+Sbjct: 50  YPIENQIVSGIIVSKDFQFNIMDANDLKDFCGISTSTIMQKPTIAYHSS-FSLLKYHLEQ 108
+
+Query: 590 TFGAVDELPEMRQLHKEVPNGDDMILDAKXXXXXXXXXXRPVAGYIVMGSINVRCFGSGE 649
+            FG + E  +  Q                            +    ++ SI V+     +
+Sbjct: 109 MFGTLKETFDSEQ----------------------------IPTLTILNSIEVKHISKSQ 140
+
+Query: 650 VELEWEGNTMNDGFADAVMAVLLTVE 675
+           + LEW   +MND  AD+V+AV+L +E
+Sbjct: 141 LRLEWSSTSMNDKIADSVIAVILNIE 166
+
+
+>15889_Glomus_intraradices_1_GeneCatalo 
+          Length = 259
+
+ Score = 31.6 bits (70), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 43/159 (27%), Positives = 63/159 (39%), Gaps = 16/159 (10%)
+
+Query: 48  KTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVF 107
+           KT  +   QHPA +   A+     F++         H   D    L   +SK N K  VF
+Sbjct: 92  KTPYVGCPQHPALENDGAV-----FNMLNDSGKYFPHNDQDLRDILQMFVSKNNLKFTVF 146
+
+Query: 108 MTHPTKAIYKWLIQDSVR---VGNTSSNP--TSQPVYTEQDHLNTFPQIEAIDYYTT-HT 161
+           +  P+KA   W +    +   +G  S  P  TS PV++     N  P  E++       +
+Sbjct: 147 IETPSKAFSDWTLSSVYQLYGLGGESEEPSMTSFPVFSCG---NVKPSQESLGLMAELKS 203
+
+Query: 162 ISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQ 200
+           I+ I +    A   L    +L  +AG N F    Y R Q
+Sbjct: 204 ITPINLLSIEATKSLYVYSYL--LAGANNFKGKFYIRPQ 240
+
+
+  Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa
+    Posted date:  Feb 27, 2014 12:29 PM
+  Number of letters in database: 8,144,225
+  Number of sequences in database:  30,282
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 30282
+Number of Hits to DB: 12,009,210
+Number of extensions: 466016
+Number of successful extensions: 946
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 930
+Number of HSP's successfully gapped: 11
+Length of query: 829
+Length of database: 8,144,225
+Length adjustment: 103
+Effective length of query: 726
+Effective length of database: 5,025,179
+Effective search space: 3648279954
+Effective search space used: 3648279954
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

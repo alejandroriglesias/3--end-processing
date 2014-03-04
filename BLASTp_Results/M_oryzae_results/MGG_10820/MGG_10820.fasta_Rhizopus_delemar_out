@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: rhizopus_delemar_99-880_3_proteins.fasta 
+           17,459 sequences; 5,971,044 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+RO3G_10885T0 | RO3G_10885 | Rhizopus delemar 99-880 hypothetical...    34   0.15 
+RO3G_01512T0 | RO3G_01512 | Rhizopus delemar 99-880 hypothetical...    30   3.4  
+RO3G_13428T0 | RO3G_13428 | Rhizopus delemar 99-880 hypothetical...    30   4.0  
+RO3G_15543T0 | RO3G_15543 | Rhizopus delemar 99-880 hypothetical...    29   6.4  
+
+>RO3G_10885T0 | RO3G_10885 | Rhizopus delemar 99-880 hypothetical protein (347
+           aa)
+          Length = 346
+
+ Score = 33.9 bits (76), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query: 292 QHIERLARSRADIFDDNAGRKRA-LAEQQAAALGDAKRQRLASG 334
+           Q +  L + R  IF    GRKR    +QQ AAL   KRQRL  G
+Sbjct: 143 QDLWDLVKCRVQIFTRQFGRKRVDWRKQQIAALQKKKRQRLLRG 186
+
+
+>RO3G_01512T0 | RO3G_01512 | Rhizopus delemar 99-880 hypothetical protein (1089
+           aa)
+          Length = 1088
+
+ Score = 30.0 bits (66), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 22/45 (48%)
+
+Query: 292 QHIERLARSRADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAV 336
+           Q +  L +SR  +F    GRKR    +Q       KRQR+  G++
+Sbjct: 76  QELWDLVKSRVQLFTQRFGRKRVDWRKQQIIALQKKRQRILRGSL 120
+
+
+>RO3G_13428T0 | RO3G_13428 | Rhizopus delemar 99-880 hypothetical protein (1016
+           aa)
+          Length = 1015
+
+ Score = 29.6 bits (65), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 22/62 (35%), Positives = 31/62 (50%), Gaps = 12/62 (19%)
+
+Query: 592 YNDQLQKR----MASDAPLHYDKVALRLVDGITPYLHA------QDKVLTRFLGEIPEVN 641
+           Y   L KR     A  A L+Y  +A   VDG+TP  H+      +D V TR LG++  + 
+Sbjct: 16  YATHLSKRSRRPQAPTAWLNY--IASHFVDGVTPPGHSSQSTFLRDLVCTRTLGQVHYIQ 73
+
+Query: 642 PA 643
+           P+
+Sbjct: 74  PS 75
+
+
+>RO3G_15543T0 | RO3G_15543 | Rhizopus delemar 99-880 hypothetical protein (613
+           aa)
+          Length = 612
+
+ Score = 28.9 bits (63), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 22/91 (24%), Positives = 48/91 (52%), Gaps = 9/91 (9%)
+
+Query: 192 LEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNF-NPLKL 250
+           LE E  G+L+ +L +   +S    V+ A+++C+ + ++ RP     ++   + + N    
+Sbjct: 18  LEKEGQGILETILNLF--DSDIESVLTASISCLLVTVKRRPQFLRPVVARWIGWKNQRTE 75
+
+Query: 251 ANSPMTPKTRVLVKSMEKTTRMLLMHLIRRD 281
+            +SP      V+++++EK  R+  + LIR +
+Sbjct: 76  QDSP------VMIRNVEKAIRLAFVSLIRTE 100
+
+
+  Database: rhizopus_delemar_99-880_3_proteins.fasta
+    Posted date:  Feb 27, 2014  1:07 PM
+  Number of letters in database: 5,971,044
+  Number of sequences in database:  17,459
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 17459
+Number of Hits to DB: 7,485,412
+Number of extensions: 287249
+Number of successful extensions: 893
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 893
+Number of HSP's successfully gapped: 8
+Length of query: 730
+Length of database: 5,971,044
+Length adjustment: 101
+Effective length of query: 629
+Effective length of database: 4,207,685
+Effective search space: 2646633865
+Effective search space used: 2646633865
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

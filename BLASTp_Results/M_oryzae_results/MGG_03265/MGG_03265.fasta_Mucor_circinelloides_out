@@ -1,0 +1,301 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.fa
+
+           12,227 sequences; 5,364,083 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+HMPREF1544_04749T0 | HMPREF1544_04749 | Mucor circinelloides f. ...   355   e-104
+HMPREF1544_08732T0 | HMPREF1544_08732 | Mucor circinelloides f. ...    48   1e-05
+HMPREF1544_06274T0 | HMPREF1544_06274 | Mucor circinelloides f. ...    47   4e-05
+HMPREF1544_10377T0 | HMPREF1544_10377 | Mucor circinelloides f. ...    34   0.25 
+HMPREF1544_04373T0 | HMPREF1544_04373 | Mucor circinelloides f. ...    34   0.26 
+HMPREF1544_02340T0 | HMPREF1544_02340 | Mucor circinelloides f. ...    33   0.37 
+HMPREF1544_10757T0 | HMPREF1544_10757 | Mucor circinelloides f. ...    33   0.53 
+HMPREF1544_05859T0 | HMPREF1544_05859 | Mucor circinelloides f. ...    32   0.94 
+HMPREF1544_07517T0 | HMPREF1544_07517 | Mucor circinelloides f. ...    31   1.7  
+HMPREF1544_08852T0 | HMPREF1544_08852 | Mucor circinelloides f. ...    30   3.6  
+HMPREF1544_04241T0 | HMPREF1544_04241 | Mucor circinelloides f. ...    30   5.0  
+HMPREF1544_08030T0 | HMPREF1544_08030 | Mucor circinelloides f. ...    29   7.3  
+HMPREF1544_06329T0 | HMPREF1544_06329 | Mucor circinelloides f. ...    29   7.4  
+
+>HMPREF1544_04749T0 | HMPREF1544_04749 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (1142 aa)
+          Length = 1141
+
+ Score =  355 bits (911), Expect = e-104,   Method: Compositional matrix adjust.
+ Identities = 218/591 (36%), Positives = 320/591 (54%), Gaps = 60/591 (10%)
+
+Query: 170 ELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQG 229
+           E RVKE+ +  +++W  LI   +Q  ++E  R+++ERFL VFP + + W+ Y ++EL   
+Sbjct: 238 ESRVKEN-KYDIEAWTWLINEAQQTGDLEVIREIYERFLNVFPTSPKHWLAYLELELKYS 296
+
+Query: 230 NFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSG---RARQVVTQAYDFVIDNV 286
+           NF E EA+F + L +V +V LW  YL YIRR N     S     AR ++ +AY++V+ NV
+Sbjct: 297 NFNEVEALFTRCLKTVLSVDLWKFYLGYIRRINSGESGSSVTPEARAIIEKAYEYVLSNV 356
+
+Query: 287 GLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLWREY 346
+           G+DKDA  IW DYI F++ A      + W++Q+KMD +R+AYQ+AV IPL+NV  LW+EY
+Sbjct: 357 GIDKDAGPIWADYIYFLKSAET---SNTWEEQRKMDSMRRAYQKAVTIPLNNVEHLWKEY 413
+
+Query: 347 DQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGDVEF 406
+           DQ+E  LN  T +K+L E+S AYMTA++A   +     N + T +  LPP        E 
+Sbjct: 414 DQWENNLNRLTAKKFLGEKSSAYMTARTALREMRLFTDN-INTNVVSLPPKWSAN---EL 469
+
+Query: 407 AEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAEWCFE 466
+           A Q+DLWK +++WEK DPL L  +D      R+ Y Y+QA + LR  PEIW   A +  E
+Sbjct: 470 A-QLDLWKNYIQWEKSDPLQL--EDETAVMDRVAYTYQQAFLVLRLYPEIWYSFASYYLE 526
+
+Query: 467 NSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAVKAPY 526
+               +N  +  L  L +GIE  P S+LL   +A+  E+     + DDA        +  Y
+Sbjct: 527 ----LNKPEKSLSILKQGIEIMPTSLLLNFSYAELCESR---RQLDDA--------RQAY 571
+
+Query: 527 NKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVPEHEIEEGE-DCANPMPSELEEKI---- 581
+           ++L+ TL   I+ LK   K +I KL E A      E+E    + ++ +  E+ E++    
+Sbjct: 572 DQLVTTLEKNIEELKANAKQQIDKLHEEA------EVERASLNLSDDIDGEVREQLRSRE 625
+
+Query: 582 -------SALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEAR 634
+                   A+EK    Q +++AR  S VWI   R  RR  G       +   R +FS AR
+Sbjct: 626 KHVKKEQDAIEKKLNDQVEVIARGGSLVWINYMRFARRTDG-------IKSARALFSRAR 678
+
+Query: 635 KRGRLTSDVYVAIAQLEWTVYKDPS-GGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTN 693
+           +    T  VYV+ A +E+   KD    GK+F  G K F +D  F+ EYL +L    D  N
+Sbjct: 679 RANNCTYHVYVSDALMEYHNSKDAVIAGKVFSLGQKFFADDPDFVCEYLDFLIEMNDDNN 738
+
+Query: 694 ARVVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAE 744
+            R +FE  +  +        KA P++  F  YE+K+G+L+    +EKR  E
+Sbjct: 739 TRALFERTLATMPP-----EKAGPIWLKFLDYENKYGDLASIQSVEKRRIE 784
+
+
+>HMPREF1544_08732T0 | HMPREF1544_08732 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (914 aa)
+          Length = 913
+
+ Score = 48.1 bits (113), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 28/87 (32%), Positives = 44/87 (50%), Gaps = 3/87 (3%)
+
+Query: 168 LLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELS 227
+           LLEL   E   G    W+  +   RQ  N +QC  + +  L  FP   ++W+    +E S
+Sbjct: 636 LLELARSES--GTERVWMKSVMLERQMKNYDQCNALLDVALEKFPTFDKLWMIKGQIEES 693
+
+Query: 228 QGNFVEAEAIFGKSLMSVP-NVQLWTV 253
+           QGN  +A  ++ K++ S P +V LW +
+Sbjct: 694 QGNLPKAREVYNKAVKSCPKSVTLWIL 720
+
+
+
+ Score = 30.0 bits (66), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 16/72 (22%), Positives = 33/72 (45%), Gaps = 1/72 (1%)
+
+Query: 194 RNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNV-QLWT 252
+           + N+ + R+V+ + +   P +  +W+  A +E   G   +A A   K     P   +LW 
+Sbjct: 694 QGNLPKAREVYNKAVKSCPKSVTLWILLALLEEKLGMVTKARATLEKGRFMNPKTPELWV 753
+
+Query: 253 VYLDYIRRRNDL 264
+             +   +R N++
+Sbjct: 754 EAIRIEKRNNNV 765
+
+
+>HMPREF1544_06274T0 | HMPREF1544_06274 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (686 aa)
+          Length = 685
+
+ Score = 46.6 bits (109), Expect = 4e-05,   Method: Compositional matrix adjust.
+ Identities = 37/162 (22%), Positives = 73/162 (45%), Gaps = 27/162 (16%)
+
+Query: 196 NIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLW 251
+           +IE+ R ++E+ + + PH     A++W+ YA  E+ Q    +A  + G+++   P  +L+
+Sbjct: 390 DIERTRQIYEQCIQLIPHKKFTFAKIWLMYAQFEIRQMQVGQARKLLGRAIGMCPKNKLF 449
+
+Query: 252 TVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVG 311
+             Y+D   +  + +    R R + T+  ++   N             +IQF  L   V+ 
+Sbjct: 450 KGYIDLEFQLREFD----RCRMIYTKYLEYDPSNCSA----------WIQFAELEKNVLD 495
+
+Query: 312 GSAWQDQQKMDQLRKAYQRAVCIPLSNV-NTLWREYDQFEKG 352
+                   ++++ R  ++ AV     N+   LW+ Y  FE G
+Sbjct: 496 --------EVERCRAIFELAVSQENLNMPELLWKAYIDFEIG 529
+
+
+
+ Score = 35.8 bits (81), Expect = 0.062,   Method: Compositional matrix adjust.
+ Identities = 21/78 (26%), Positives = 35/78 (44%), Gaps = 1/78 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  + +W+        +   ++ R VFER L V      +W++Y DMEL   +   A  +
+Sbjct: 79  RLNISNWIKYANWEESQMEFQRARSVFERALDVEWRNNALWLRYVDMELKNKSVNHARNL 138
+
+Query: 238 FGKSLMSVPNV-QLWTVY 254
+             ++   +P V Q W  Y
+Sbjct: 139 LDRATTLLPRVDQFWYKY 156
+
+
+
+ Score = 35.4 bits (80), Expect = 0.082,   Method: Compositional matrix adjust.
+ Identities = 20/91 (21%), Positives = 39/91 (42%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL  +    +  ++   R++ +R   + P   + W +Y  ME + G+  +A  +F + + 
+Sbjct: 119 WLRYVDMELKNKSVNHARNLLDRATTLLPRVDQFWYKYTYMEETLGDVPKARNVFERWMK 178
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P    W  Y+    R N+      RAR +
+Sbjct: 179 WEPTENAWMAYIKMELRYNE----KQRARAI 205
+
+
+
+ Score = 33.9 bits (76), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 15/61 (24%), Positives = 32/61 (52%), Gaps = 1/61 (1%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           ++W++ I    + N  ++ R ++ERF+++ P  A  W+++A  E    N  +   I+   
+Sbjct: 184 NAWMAYIKMELRYNEKQRARAIYERFVSIHPEPAN-WIKWARFEEEHNNLNKCREIYTAG 242
+
+Query: 242 L 242
+           L
+Sbjct: 243 L 243
+
+
+
+ Score = 31.2 bits (69), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 53/226 (23%), Positives = 87/226 (38%), Gaps = 58/226 (25%)
+
+Query: 310 VGGSAWQD-QQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFEKGLNPTTGRKYLNERSPA 368
+           +  + W++ Q +  + R  ++RA+ +   N N LW  Y   E                  
+Sbjct: 86  IKYANWEESQMEFQRARSVFERALDVEWRN-NALWLRYVDME------------------ 126
+
+Query: 369 YMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGDVEFAEQV--------DLWKRWVKWE 420
+            +  KS N A     RNL+      LP    F     + E+         ++++RW+KWE
+Sbjct: 127 -LKNKSVNHA-----RNLLDRATTLLPRVDQFWYKYTYMEETLGDVPKARNVFERWMKWE 180
+
+Query: 421 KEDPLDLATDDPELFKKRILYAYKQAIMAL--RFC-----PEIWVDAAEWCFENSILVNG 473
+             +   +A       K  + Y  KQ   A+  RF      P  W+  A +  E++ L   
+Sbjct: 181 PTENAWMA-----YIKMELRYNEKQRARAIYERFVSIHPEPANWIKWARFEEEHNNLNKC 235
+
+Query: 474 KD---AGLEFLTEGIEANPESVLLAL-------KHADRIETTFPVG 509
+           ++   AGLE+L  G E   + +L+A        K  +R    F  G
+Sbjct: 236 REIYTAGLEYL--GEEKIDQKLLVAFAKFEIKAKEFERARVIFKYG 279
+
+
+>HMPREF1544_10377T0 | HMPREF1544_10377 | Mucor circinelloides f. circinelloides 1006PhL
+            hypothetical protein (1437 aa)
+          Length = 1436
+
+ Score = 34.3 bits (77), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 18/76 (23%), Positives = 33/76 (43%), Gaps = 3/76 (3%)
+
+Query: 184  WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEV--WVQYADMELSQGNFVEAEAIFGKS 241
+            W      Y Q N  ++ R++ ++ L V P    +   V++A +E   G       I    
+Sbjct: 1298 WTGFGLYYLQHNKPDEARELLQKSLKVLPKHEHIQTIVKFAQLEFKHGEAERGRTILEGV 1357
+
+Query: 242  LMSVPN-VQLWTVYLD 256
+            + + P  + LW +Y+D
+Sbjct: 1358 MSNYPKRLDLWNIYID 1373
+
+
+
+ Score = 30.4 bits (67), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 22/90 (24%), Positives = 43/90 (47%), Gaps = 6/90 (6%)
+
+Query: 184  WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE-----VWVQYADMELSQGNFVEAEAIF 238
+            W++ +A   Q + I + RD+ ER L       E     VWV   ++E + G     + +F
+Sbjct: 1191 WINFMAYQLQLSEIAKARDIGERALKTISFREEQEKMNVWVALLNLENNFGTDETLQEVF 1250
+
+Query: 239  GKSLMSVPNVQLWTVYLDYIRRRNDLNDSS 268
+             ++L+    ++++ + L  I  R+D  D +
+Sbjct: 1251 KRALVYCEPLKVY-LQLVKIYERSDKQDKA 1279
+
+
+>HMPREF1544_04373T0 | HMPREF1544_04373 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (740 aa)
+          Length = 739
+
+ Score = 33.9 bits (76), Expect = 0.26,   Method: Compositional matrix adjust.
+ Identities = 35/137 (25%), Positives = 61/137 (44%), Gaps = 15/137 (10%)
+
+Query: 180 AMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADM---ELSQGNFVEAEA 236
+           ++ SWL  I   R  +  E C  VFER L   P + ++W QY D+   +L   N V  +A
+Sbjct: 27  SLRSWLHYIDHKRLGSFNELCF-VFERALNELPGSYKLWKQYLDLRRDKLKGLNAVRHKA 85
+
+Query: 237 IFGKSLMSVPNVQLWT-----VYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKD 291
+           ++   +       +       ++LDY+     L   +   R     A+D  +  + + + 
+Sbjct: 86  LYNHVIALYERALVLLNKMPRIWLDYLSLLTTLPIITKTRR-----AFDSALRALPVTQH 140
+
+Query: 292 ASKIWNDYIQFIRLAPG 308
+             +IW+ Y+QF + A G
+Sbjct: 141 G-RIWDLYLQFAKAAGG 156
+
+
+
+ Score = 28.9 bits (63), Expect = 9.6,   Method: Compositional matrix adjust.
+ Identities = 29/129 (22%), Positives = 50/129 (38%), Gaps = 36/129 (27%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAV----FPHAAEVWVQYADMELSQGNFVEAEAIFG 239
+           W      Y    ++   R +FE+ + V        AEVW +YA+ME    +F  A  +  
+Sbjct: 396 WARFAKFYEDGGDLASARAIFEKAVKVNYKSVNDLAEVWCEYAEMETRHDDFDTAIEVMA 455
+
+Query: 240 KS-----LMSV-------------------PNVQLWTVYLDYIRRRNDLNDSSGRARQVV 275
+           ++     ++SV                    +++LW+ Y+       DL +S G   +  
+Sbjct: 456 RATQIPGMLSVNPKQINFHDESIPVQKRVFKSLRLWSFYI-------DLEESVGTI-EST 507
+
+Query: 276 TQAYDFVID 284
+              YD V+D
+Sbjct: 508 KAVYDKVMD 516
+
+
+  Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.
+  fa
+    Posted date:  Feb 27, 2014  9:31 AM
+  Number of letters in database: 5,364,083
+  Number of sequences in database:  12,227
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12227
+Number of Hits to DB: 11,040,578
+Number of extensions: 484874
+Number of successful extensions: 1925
+Number of sequences better than 10.0: 35
+Number of HSP's gapped: 1896
+Number of HSP's successfully gapped: 49
+Length of query: 1057
+Length of database: 5,364,083
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 4,092,475
+Effective search space: 3900128675
+Effective search space used: 3900128675
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 58 (26.9 bits)
