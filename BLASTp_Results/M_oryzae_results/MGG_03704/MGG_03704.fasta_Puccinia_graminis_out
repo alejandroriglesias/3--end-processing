@@ -1,0 +1,162 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP91834 pep:novel supercontig:ASM14992v1:supercont2.92:34247:35...   210   2e-66
+EFP91818 pep:novel supercontig:ASM14992v1:supercont2.91:254169:2...   210   2e-66
+EFP92034 pep:novel supercontig:ASM14992v1:supercont2.95:250048:2...    29   1.7  
+EFP79254 pep:novel supercontig:ASM14992v1:supercont2.11:783410:7...    29   2.0  
+EFP90826 pep:novel supercontig:ASM14992v1:supercont2.76:326962:3...    27   6.6  
+EFP78057 pep:novel supercontig:ASM14992v1:supercont2.8:704780:71...    27   7.1  
+
+>EFP91834 pep:novel supercontig:ASM14992v1:supercont2.92:34247:35589:1
+           gene:PGTG_18028 transcript:EFP91834
+           description:"hypothetical protein"
+          Length = 267
+
+ Score =  210 bits (534), Expect = 2e-66,   Method: Compositional matrix adjust.
+ Identities = 103/193 (53%), Positives = 131/193 (67%), Gaps = 22/193 (11%)
+
+Query: 16  NAAVEKPRDDGFKLK---FCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTI 72
+           N  +E  RD     +   FC VCASNQNRSME H  L++  + V S GTGS+VRLPGP I
+Sbjct: 62  NGKLENERDIKLTCRNFTFCVVCASNQNRSMEGHNVLAREAFRVTSAGTGSMVRLPGPAI 121
+
+Query: 73  TQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRL 132
+            +PNVY F  T YD MY++L+ KD RLYTANGIL+ML+RNR +K  PERWQD  +G    
+Sbjct: 122 DKPNVYSF-GTPYDDMYQDLKEKDERLYTANGILSMLDRNRKLKLAPERWQDSVVG---- 176
+
+Query: 133 EHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAA 192
+                         V D+V TCEERC+DAV +DL +RG  LN+PVH+IN++IKDNHEEA+
+Sbjct: 177 --------------VADVVITCEERCFDAVCDDLFSRGGELNKPVHLINIEIKDNHEEAS 222
+
+Query: 193 VGGQGILDLANSL 205
+           + G+ +LDL N++
+Sbjct: 223 LAGKALLDLCNAI 235
+
+
+>EFP91818 pep:novel supercontig:ASM14992v1:supercont2.91:254169:255350:1
+           gene:PGTG_17818 transcript:EFP91818
+           description:"hypothetical protein"
+          Length = 267
+
+ Score =  210 bits (534), Expect = 2e-66,   Method: Compositional matrix adjust.
+ Identities = 103/193 (53%), Positives = 131/193 (67%), Gaps = 22/193 (11%)
+
+Query: 16  NAAVEKPRDDGFKLK---FCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTI 72
+           N  +E  RD     +   FC VCASNQNRSME H  L++  + V S GTGS+VRLPGP I
+Sbjct: 62  NGKLENERDIKLTCRNFTFCVVCASNQNRSMEGHNVLAREAFRVTSAGTGSMVRLPGPAI 121
+
+Query: 73  TQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRL 132
+            +PNVY F  T YD MY++L+ KD RLYTANGIL+ML+RNR +K  PERWQD  +G    
+Sbjct: 122 DKPNVYSF-GTPYDDMYQDLKEKDERLYTANGILSMLDRNRKLKLAPERWQDSVVG---- 176
+
+Query: 133 EHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAA 192
+                         V D+V TCEERC+DAV +DL +RG  LN+PVH+IN++IKDNHEEA+
+Sbjct: 177 --------------VADVVITCEERCFDAVCDDLFSRGGELNKPVHLINIEIKDNHEEAS 222
+
+Query: 193 VGGQGILDLANSL 205
+           + G+ +LDL N++
+Sbjct: 223 LAGKALLDLCNAI 235
+
+
+>EFP92034 pep:novel supercontig:ASM14992v1:supercont2.95:250048:254940:1
+           gene:PGTG_17865 transcript:EFP92034
+           description:"hypothetical protein"
+          Length = 1161
+
+ Score = 29.3 bits (64), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 14/36 (38%), Positives = 17/36 (47%)
+
+Query: 49  LSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTS 84
+           L K  YP+   G    VR PG T+T      F+ TS
+Sbjct: 190 LDKQGYPIYPNGKTVFVRKPGKTVTNFGTVGFSKTS 225
+
+
+>EFP79254 pep:novel supercontig:ASM14992v1:supercont2.11:783410:788342:-1
+           gene:PGTG_05575 transcript:EFP79254
+           description:"hypothetical protein"
+          Length = 1469
+
+ Score = 28.9 bits (63), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 14/36 (38%), Positives = 17/36 (47%)
+
+Query: 49  LSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTS 84
+           L K  YP+   G    VR PG T+T      F+ TS
+Sbjct: 264 LDKQGYPIYPNGKTIFVRKPGKTVTNFGTVGFSKTS 299
+
+
+>EFP90826 pep:novel supercontig:ASM14992v1:supercont2.76:326962:331057:1
+           gene:PGTG_16852 transcript:EFP90826
+           description:"hypothetical protein"
+          Length = 1066
+
+ Score = 27.3 bits (59), Expect = 6.6,   Method: Compositional matrix adjust.
+ Identities = 18/70 (25%), Positives = 31/70 (44%), Gaps = 1/70 (1%)
+
+Query: 38  NQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDR 97
+           N+   ++    L    YP++  G    VRLPG +IT      F+  +      +   K +
+Sbjct: 66  NEGTFIDHGCTLDPEGYPILPNGNTIFVRLPGESITNFGNVGFSKRTGSEYRSKGAWKLK 125
+
+Query: 98  RLYTANGILN 107
+           R+Y   G+L+
+Sbjct: 126 RIYCL-GVLS 134
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 3,350,317
+Number of extensions: 135145
+Number of successful extensions: 301
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 297
+Number of HSP's successfully gapped: 9
+Length of query: 259
+Length of database: 6,308,381
+Length adjustment: 93
+Effective length of query: 166
+Effective length of database: 4,822,334
+Effective search space: 800507444
+Effective search space used: 800507444
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

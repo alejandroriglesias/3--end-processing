@@ -1,0 +1,189 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM04944P0 pep:known supercontig:UM1:Cont_1.182:32258:37051:-1 ge...   134   8e-32
+UM05199P0 pep:known supercontig:UM1:Cont_1.189:7105:10008:1 gene...    34   0.30 
+UM04758P0 pep:known supercontig:UM1:Cont_1.173:6926:8674:-1 gene...    31   2.2  
+UM04392P0 pep:known supercontig:UM1:Cont_1.157:6578:8413:1 gene:...    29   9.9  
+
+>UM04944P0 pep:known supercontig:UM1:Cont_1.182:32258:37051:-1 gene:UM04944
+           transcript:UM04944T0 description:"hypothetical protein"
+          Length = 1597
+
+ Score =  134 bits (337), Expect = 8e-32,   Method: Compositional matrix adjust.
+ Identities = 112/367 (30%), Positives = 174/367 (47%), Gaps = 53/367 (14%)
+
+Query: 89  NHTKLVLVAEFPLSGTITGLARVKANATKTXXXXXXXXXXXXXDFLLIAFKDAKLSLVEW 148
+           +H  LV+     L G +TGL RV+  A+               D LL++FKDAKL+L+EW
+Sbjct: 91  SHKNLVISRNHTLFGAVTGLQRVQTLASD----------KDNRDRLLVSFKDAKLALLEW 140
+
+Query: 149 DPDRRSLETISIHYYEQNELQSSPWAAPLSDYVN--FLVADPGSRCAALKFGARSLAIIP 206
+           +     LETISIH YE+     +P    L+ ++    L  DP SRCAAL     SLAI+P
+Sbjct: 141 NDAIDDLETISIHTYER-----APQLLNLAPHLFHPILNVDPLSRCAALLLPHDSLAILP 195
+
+Query: 207 FKQADGDIGMDDWDEELDGPRPAQEKPATAATNGTTDNVVEDTPYTPSFVLRLPNLDPAL 266
+           F +   D   D  D          E              ++  PY+PSFVL +  +DP +
+Sbjct: 196 FYRDAADFDFDLDDH--------LEIAKDDVAAVVAAADLQSLPYSPSFVLTMREVDPKI 247
+
+Query: 267 LHPVHLAFLYEYREPTFGIL-SSNITPSTYLA-RKDHLTYTVFTLDLQ------------ 312
+            +  H  FL  +++PT  +L S N T +  L+ RKD  +  +FTLDL             
+Sbjct: 248 RNLKHFCFLPGFQKPTVAVLFSHNPTWTGLLSERKDTFSVYLFTLDLSASLDGATFSSSA 307
+
+Query: 313 --------QKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIHIDQSGKANGVAV 364
+                   + A   + +   LP D   ++A P  +GG ++V  + L+H+DQSG+    A+
+Sbjct: 308 EALDDGTARSAHPVVTTSTPLPYDCLYMVACPQTLGGVIVVCMSSLLHVDQSGRVMVTAL 367
+
+Query: 365 NPMTKSCTSF---SLADQSDLGLRLEGCMINVLSAEDGQFIIVLNDGRLATLVFHIDGRT 421
+           N   K+ ++    S+ + SD+   L+G  +   S   G  ++ L +G +       DGR+
+Sbjct: 368 NQWFKTTSAIEPESILELSDIA-DLQGSQLVFTSKTQG--VLTLVNGEIYRFRCQTDGRS 424
+
+Query: 422 VSGLKIK 428
+           V G++++
+Sbjct: 425 VEGIRLE 431
+
+
+
+ Score =  111 bits (277), Expect = 8e-25,   Method: Compositional matrix adjust.
+ Identities = 110/446 (24%), Positives = 194/446 (43%), Gaps = 47/446 (10%)
+
+Query: 987  FIYADSAGVARVAQIPKDTSFSELGLSVKKVPLGIDADGIAYHSPTGVYVLTCSYWEPFE 1046
+            F++ D AG   + ++P     S        V  G +   +  H PT   +        F 
+Sbjct: 1087 FVFCDRAGRLYLGRLPAGLD-SSTAWPSSVVRTGREYTNVVAHDPTSTVIAASVSPCRFM 1145
+
+Query: 1047 LPKDDDYHCEWAKENISFKPMV-ERSVLKV-INPINWSDIWTEEFEQHEVAMCIRSLNLE 1104
+            L  +D       + N +  P V +R  L++ I+    + +   EFE +E    +  + L+
+Sbjct: 1146 LFDEDGEAIHDEQPNSTLYPSVSQRGSLELFISQHGSTPVDGYEFEANETVTSLEIVTLD 1205
+
+Query: 1105 VSQSTNERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVPQKGRPETDKKLKQVAKEEIP 1164
+               + + R+Q +  GT    GED   +G +Y+F++ SVV       +D +LK V +++  
+Sbjct: 1206 SPSTVSGRKQFVAAGTTTFHGEDRTAKGSVYLFEIISVVSAASELGSDLRLKLVCRDD-S 1264
+
+Query: 1165 RGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLCV 1224
+            R  VT++S I   G ++   GQK  VR L++   L  +AF+D   Y+T ++ +    L +
+Sbjct: 1265 RAPVTAISHI--NGYLISTCGQKLYVRALEKQEWLISIAFLDCPFYITSIEVV--KNLVL 1320
+
+Query: 1225 MADAFKGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLPDGK-DLLIVAAD--------- 1274
+            + D  +G+    + E PYK +   K+      +   L+ D K  +L ++           
+Sbjct: 1321 LGDCKRGLGLWAFQEDPYKFVELAKAEDGCVGVGAFLVRDEKVSMLSISGSRLGGDASME 1380
+
+Query: 1275 -SDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQPSSDAE 1333
+             S G + + ++ P    ++ G  L+ R+ F T +    +            + +  SD+E
+Sbjct: 1381 ASAGVIRLYEYAPH--LAVGGKKLVLRSEFQTTSEAVARV---------ECSGRWLSDSE 1429
+
+Query: 1334 -------RQHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPHHAALNPKAYRLPP 1386
+                   R  ++ A   G + +V  + +    RL  L   L+ SV H AALNP+++R+  
+Sbjct: 1430 LRGRETLRNKVVFAKANGSVESVAAVDEKVGKRLHLLQGQLVRSVMHTAALNPRSFRM-- 1487
+
+Query: 1387 TSTRNQVAAVDISVGRAVVDGSLLAR 1412
+               RN        V RA+V G L AR
+Sbjct: 1488 --VRNDY------VPRALVKGVLDAR 1505
+
+
+>UM05199P0 pep:known supercontig:UM1:Cont_1.189:7105:10008:1 gene:UM05199
+           transcript:UM05199T0 description:"hypothetical protein"
+          Length = 967
+
+ Score = 33.9 bits (76), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 27/46 (58%)
+
+Query: 144 SLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSDYVNFLVADPG 189
+           SL+++    R +E I+  + + NELQ+S  A  + DY NF + DP 
+Sbjct: 213 SLLDFFQSYRGVERIASAWKQVNELQNSLRATIMKDYENFFLHDPN 258
+
+
+>UM04758P0 pep:known supercontig:UM1:Cont_1.173:6926:8674:-1 gene:UM04758
+            transcript:UM04758T0 description:"Peptidyl-prolyl
+            cis-trans isomerase-like 2"
+          Length = 582
+
+ Score = 30.8 bits (68), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 25/87 (28%), Positives = 39/87 (44%), Gaps = 4/87 (4%)
+
+Query: 932  LRACANIAGYSAVFMPGHSPSFLIKSAKATPKVIGLRGSGVRAMSSFHTEGCERGFIYAD 991
+            L+ C +   Y       + P F+I+     P   G  GS +   S+F  E  E G    D
+Sbjct: 321  LQLCKH-GKYDDTLFHRNIPGFMIQGGD--PTGTGRGGSSI-WNSNFRDEFNEPGAFKHD 376
+
+Query: 992  SAGVARVAQIPKDTSFSELGLSVKKVP 1018
+            + GV  +A   KDT+ S+  ++ + VP
+Sbjct: 377  TRGVLSMANKGKDTNASQFFITYRGVP 403
+
+
+>UM04392P0 pep:known supercontig:UM1:Cont_1.157:6578:8413:1 gene:UM04392
+           transcript:UM04392T0 description:"Rim23 protein"
+          Length = 611
+
+ Score = 28.9 bits (63), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 32/125 (25%), Positives = 54/125 (43%), Gaps = 11/125 (8%)
+
+Query: 816 YIYALPDISRPVYVAEGLCYVPPYLSADYSARKGMARETISEILVTDLGDTVFKSPHVIL 875
+           Y  AL ++S     + G       LS D   R     +  ++ L    G  ++ S  +I 
+Sbjct: 156 YALALSNLSAATVASLGWYERDRSLSLDQRKRNDERLKWAADTLCRAAGILLYLSTQLIP 215
+
+Query: 876 RHSNH---------DLTIYEPYRIAEDSQSLTKILRLRKLPNPAVAKAPEATNSEDPPLM 926
+           + S+H         DLT      ++    +  + L +RKL +P++AKA + T +  PPL 
+Sbjct: 216 KWSDHVGSLDGLPPDLTTEATLALSNVCMAQAQALAIRKLVSPSIAKAVD-TLTPGPPL- 273
+
+Query: 927 SRNMP 931
+            +N P
+Sbjct: 274 DKNHP 278
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 11,100,941
+Number of extensions: 483454
+Number of successful extensions: 1621
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 1614
+Number of HSP's successfully gapped: 17
+Length of query: 1452
+Length of database: 3,993,690
+Length adjustment: 105
+Effective length of query: 1347
+Effective length of database: 3,308,880
+Effective search space: 4457061360
+Effective search space used: 4457061360
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

@@ -1,0 +1,150 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ69361 pep:novel chromosome:GCA_000230245.1:15:189286:193989:-...   129   2e-30
+CBQ72399 pep:novel chromosome:GCA_000230245.1:4:345185:348106:1 ...    32   1.2  
+
+>CBQ69361 pep:novel chromosome:GCA_000230245.1:15:189286:193989:-1
+           gene:sr15826 transcript:CBQ69361 description:"related to
+           cleavage and polyadenylation specificity factor, 160 kDa
+           subunit"
+          Length = 1567
+
+ Score =  129 bits (324), Expect = 2e-30,   Method: Compositional matrix adjust.
+ Identities = 120/412 (29%), Positives = 186/412 (45%), Gaps = 62/412 (15%)
+
+Query: 92  KLVLVAEFPLSGTITGLARVKANATKTXXXXXXXXXXXXXDFLLIAFKDAKLSLVEWDPD 151
+           +LVLV    L G +TGL RV+  AT               D LL++FKDAKL+L+EW+  
+Sbjct: 91  RLVLVRRHTLFGVVTGLQRVQTLATD----------KDARDCLLVSFKDAKLALLEWNDL 140
+
+Query: 152 RRSLETISIHYYEQ--NELQSSPWAAPLSDYVNFLVADPGSRCAALKFGARSLAIIPFKQ 209
+              LET+SIH YE+    L  +P     + +   L  DP SRCAAL     +LA++PF +
+Sbjct: 141 TDDLETVSIHTYERAPQLLNGTP-----NLFHPILNVDPLSRCAALLLPHDALAVLPFYR 195
+
+Query: 210 ADGDIGMDDWDEELDGPRPAQEKPATAATNGTTDNVVEDTPYTPSFVLRLPNLDPALLHP 269
+                      +         +     A        +E  PY+PSFVL +  +DP + + 
+Sbjct: 196 DA--------ADFDFDLDDRLDLAKDDAAAVAAAAEMETLPYSPSFVLTMREVDPKIRNL 247
+
+Query: 270 VHLAFLYEYREPTFGILSSNITPSTYL--ARKDHLTYTVFTLDLQQKASTTILSVG---- 323
+               FL  +++PT  +L S+    T L   RKD  +  +FTLDL      T+ S      
+Sbjct: 248 KDFCFLPGFQKPTVAVLFSHTPTWTGLLAERKDTFSVYLFTLDLSASLDGTLSSAADALD 307
+
+Query: 324 ---------------GLPKDLTRVIALPAPVGGALLVGSNELIHIDQSGKANGVAVNPMT 368
+                           LP D   +++ P  +GG L+V  + ++H+DQSG+    A+N   
+Sbjct: 308 DGTVRSAHPVVTTSTALPYDCLYMVSCPQTLGGVLVVCMSSVLHVDQSGRVVVTALNGWF 367
+
+Query: 369 KSCTSFSLADQSDLGL--RLEGCMINVLSAEDGQFIIVLNDGRLATLVFHIDGRTVSGLK 426
+           K+ ++       DL     L+G  + V +AE    ++ L DG L      +DGR+V G +
+Sbjct: 368 KTISAIEPESVLDLPEIPDLQGSQL-VFTAETAG-VLALVDGDLYRFRCQMDGRSVEGFR 425
+
+Query: 427 IKMVAPEAGG--QLLQTSV---SCLTRLGR-------NALFAGSDRGDSVVF 466
+           ++ +     G  +L+  +    SCL    +       + LF+ S  GDS ++
+Sbjct: 426 LERMDQSFHGKDELVAATGPPPSCLALAAKQDASAASDYLFSASMAGDSTLY 477
+
+
+
+ Score =  113 bits (283), Expect = 2e-25,   Method: Compositional matrix adjust.
+ Identities = 95/353 (26%), Positives = 161/353 (45%), Gaps = 48/353 (13%)
+
+Query: 1088 EFEQHEVAMCIRSLNLEVSQSTNERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVP--- 1144
+            EFE +E    +  + L+   + + R+Q +  GT    GED   +G +Y+F++  VV    
+Sbjct: 1160 EFEANETVTALEIVTLDAPSTASGRKQFVAAGTTTFHGEDRTAKGCVYLFEVIEVVASAR 1219
+
+Query: 1145 -QKGRPETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVA 1203
+             Q GR   D +LK V +++  RG VT+++++   G ++   GQK  VR L+++  L  +A
+Sbjct: 1220 YQVGR---DLRLKLVCRDD-SRGPVTAIAQL--NGFLVSTCGQKLYVRALEKEEWLISIA 1273
+
+Query: 1204 FMDMNCYVTCVKELAGTGLCVMADAFKGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLP 1263
+            F+D   YVT ++ +      +++DA K +W   + E PY+ +  G+   +        L 
+Sbjct: 1274 FLDCPLYVTGIRVV--KNFVLLSDARKSLWLLAFQEEPYRFVDLGRDIHDHHATLGQYLV 1331
+
+Query: 1264 DGKDLLIVAADS------------DGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQ 1311
+              + L +V+                G + + ++ P H  S    L+L RT F T +    
+Sbjct: 1332 YNERLALVSTSGAALGGSTAFGRDAGVVRLYEYAP-HVASANTRLVL-RTEFQTAS---- 1385
+
+Query: 1312 KSLLLPTTDPRPSTNQPSSDAE-------RQHILMASPTGVLAAVQPLSQSTYTRLSALA 1364
+                 P T       +  SD+E       R  +++A   G L  +         RL  L 
+Sbjct: 1386 -----PATASVACRGRWLSDSELRGREHGRNKLVLAKANGALETLAAADDRVAKRLHVLQ 1440
+
+Query: 1365 SNLMASVPHHAALNPKAYRLPPTSTRNQVAAVDISVGRAVVDGSLLARWAELA 1417
+              L+ SV H AALNP+A+R    + RN    V  ++G+ V+D  LL  +  L+
+Sbjct: 1441 GQLVRSVLHTAALNPRAFR----AVRNDF--VSRALGKGVLDARLLDSFVYLS 1487
+
+
+>CBQ72399 pep:novel chromosome:GCA_000230245.1:4:345185:348106:1 gene:sr13106
+           transcript:CBQ72399 description:"related to
+           VPS53-subunit of VP51-54 complex, required for protein
+           sorting"
+          Length = 973
+
+ Score = 32.0 bits (71), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 20/76 (26%), Positives = 35/76 (46%), Gaps = 1/76 (1%)
+
+Query: 144 SLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSDYVNFLVADPGSRCAALKFGARSLA 203
+           SL+++    R +E I+  + + NELQ++     + DY NF + DP     +      +L 
+Sbjct: 208 SLLDFFQSYRGVERIASAWKQVNELQNTLRTTIMKDYENFFLHDPNRAVRSTNLPDSALV 267
+
+Query: 204 IIPFKQADGDIGMDDW 219
+           I     A+    + DW
+Sbjct: 268 IDAIG-AEAKTALIDW 282
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 11,291,907
+Number of extensions: 501337
+Number of successful extensions: 1729
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 1720
+Number of HSP's successfully gapped: 17
+Length of query: 1452
+Length of database: 3,975,336
+Length adjustment: 105
+Effective length of query: 1347
+Effective length of database: 3,274,671
+Effective search space: 4410981837
+Effective search space used: 4410981837
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

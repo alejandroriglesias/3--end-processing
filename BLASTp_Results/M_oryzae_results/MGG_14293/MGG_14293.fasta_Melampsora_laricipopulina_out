@@ -1,0 +1,77 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG03618 pep:novel supercontig:GCA_000204055.1:GL883123:614417:6...    51   2e-07
+
+>EGG03618 pep:novel supercontig:GCA_000204055.1:GL883123:614417:615919:1
+           gene:MELLADRAFT_78533 transcript:EGG03618
+           description:"hypothetical protein"
+          Length = 378
+
+ Score = 50.8 bits (120), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 33/52 (63%), Gaps = 1/52 (1%)
+
+Query: 152 TQVNIDED-LGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYS 202
+           T +N D D + E    W+KPG  ++D+FNYGFDE +W  Y  KQ + R++ S
+Sbjct: 256 TLMNFDFDAIPESEKGWKKPGAHVADWFNYGFDETTWRWYVMKQKRHRADES 307
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 2,467,989
+Number of extensions: 95650
+Number of successful extensions: 306
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 306
+Number of HSP's successfully gapped: 6
+Length of query: 332
+Length of database: 6,110,487
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,555,147
+Effective search space: 1079569839
+Effective search space used: 1079569839
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

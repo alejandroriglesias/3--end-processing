@@ -1,0 +1,163 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ71262 pep:novel chromosome:GCA_000230245.1:21:18650:20708:-1 ...   438   e-145
+CBQ67690 pep:novel chromosome:GCA_000230245.1:1:796652:798091:-1...    32   0.45 
+CBQ70582 pep:novel chromosome:GCA_000230245.1:2:1086120:1088213:...    30   1.8  
+CBQ71429 pep:novel chromosome:GCA_000230245.1:22:42915:43741:-1 ...    29   3.1  
+
+>CBQ71262 pep:novel chromosome:GCA_000230245.1:21:18650:20708:-1 gene:sr16611
+           transcript:CBQ71262 description:"probable PAP1-poly(A)
+           polymerase"
+          Length = 658
+
+ Score =  438 bits (1127), Expect = e-145,   Method: Compositional matrix adjust.
+ Identities = 243/578 (42%), Positives = 333/578 (57%), Gaps = 51/578 (8%)
+
+Query: 5   RQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIADAFVK 64
+           R LGVTPP++ + PT  E + T +L+AEL  Q  FE   E++ R  +L  L  +   FV 
+Sbjct: 18  RNLGVTPPIATNGPTPREIEVTKTLVAELEKQGVFESDEESKVREVILGKLDAMVKDFVY 77
+
+Query: 65  TVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGL 124
+            V+       + L + A GK+F +GS RLGV GPGSDIDTL V P++V RED+F  F G+
+Sbjct: 78  RVSIASGMSES-LARAAGGKIFTFGSYRLGVHGPGSDIDTLCVVPKHVQREDFFSVFEGM 136
+
+Query: 125 LVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLP-ADPNWNLSDSNL 183
+           L E      +T+++ V  A VP+I  +F G+ ID  F+R++    LP  + + +L D NL
+Sbjct: 137 LKER---EEVTEVAGVPTAHVPLIAAKFMGVDIDFTFARLS----LPRVEDSLSLEDDNL 189
+
+Query: 184 LRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAW 243
+           LR LDE+++RS+ G+RVTD I+ LVP  +VFR ALR IKLWAQRRAIY N++GF GGVAW
+Sbjct: 190 LRNLDERDVRSLGGSRVTDGILRLVPNIHVFRMALRCIKLWAQRRAIYSNVMGFLGGVAW 249
+
+Query: 244 AMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDR 303
+           AML AR+CQLYP   A  +V++FF IL +W WPQPVLL  IEDGPL  R+WNPK+YP DR
+Sbjct: 250 AMLTARICQLYPNEAAGAIVSRFFIILYQWKWPQPVLLTQIEDGPLSVRVWNPKLYPSDR 309
+
+Query: 304 YHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHTFFT 363
+            H MPIITPAYP MCAT N+++S++ V+  E  +AA++ + +++GK  W +LF KH FF 
+Sbjct: 310 LHRMPIITPAYPGMCATHNVSQSTQMVMTSEFKRAAEVVDRVIIGKTHWSELFAKHDFFF 369
+
+Query: 364 KDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSHRYY 423
+           K +KYY+QVIA+S   +    W G VESK+R LV  LE   +I  A PFIKG+D+    +
+Sbjct: 370 K-YKYYLQVIASSGSADLQLKWHGTVESKIRQLVMKLELVPTITCAHPFIKGFDQVSECW 428
+
+Query: 424 DDSQFNQILEGSLANLCQDKDPQXXXXXXXXXXXXXXSNGTHTNGIAVKDEVAIKQEGHA 483
+           +D +   +  G +        P               ++           +VA  +EGH 
+Sbjct: 429 NDHEVRMVATGEV--------PDAVAQRTQKLGALPATDSAQQAAADEAAKVAEGKEGHR 480
+
+Query: 484 RIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPE-----AKSLDLSFQVNDFK 538
+            I                         YTT FYIGL + P+      + LD+S+   +F 
+Sbjct: 481 MI-------------------------YTTMFYIGLSIEPKLAGEGPRKLDISYPTAEFT 515
+
+Query: 539 WLCYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGE 576
+                W +Y E    +   +IK  +   LP  +F  GE
+Sbjct: 516 GKVKQWDQYDEASMGIVVRHIKWTQ---LPAYVFEGGE 550
+
+
+>CBQ67690 pep:novel chromosome:GCA_000230245.1:1:796652:798091:-1
+           gene:sr11640 transcript:CBQ67690 description:"related to
+           trna methyltransferase"
+          Length = 479
+
+ Score = 31.6 bits (70), Expect = 0.45,   Method: Compositional matrix adjust.
+ Identities = 21/81 (25%), Positives = 37/81 (45%), Gaps = 5/81 (6%)
+
+Query: 363 TKDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQ-----GLERHESIAVARPFIKGYD 417
+           TKD  YY+  +A  +   +H   +  ++S+VR L +       ER ES+ +     +G D
+Sbjct: 240 TKDQTYYLSSVAEDRLAHAHFPLAHLLKSQVRELAKKHSLPTAERRESMGICFVGTRGSD 299
+
+Query: 418 RSHRYYDDSQFNQILEGSLAN 438
+            S    +   F+  L G + +
+Sbjct: 300 GSKGISNTQGFSTFLNGYITS 320
+
+
+>CBQ70582 pep:novel chromosome:GCA_000230245.1:2:1086120:1088213:1
+           gene:sr10251 transcript:CBQ70582 description:"related to
+           TRF4-topoisomerase I-related protein"
+          Length = 697
+
+ Score = 30.0 bits (66), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query: 84  KVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGLLVEMAPPNAITDLSVVVDA 143
+           +V  +GS    ++ P  D+D LVV  + +           +   +   N  TD+ V+  A
+Sbjct: 141 EVHPFGSQETKLYLPQGDLD-LVVVSQSMANLRTQSALRTMAACLRRHNLATDVQVIAKA 199
+
+Query: 144 FVPIIKF 150
+            VPIIKF
+Sbjct: 200 KVPIIKF 206
+
+
+>CBQ71429 pep:novel chromosome:GCA_000230245.1:22:42915:43741:-1 gene:sr11268
+           transcript:CBQ71429 description:"related to
+           NHP6B-nonhistone chromosomal protein"
+          Length = 252
+
+ Score = 28.9 bits (63), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 22/59 (37%), Positives = 30/59 (50%), Gaps = 5/59 (8%)
+
+Query: 50  AVLRSLQEIADAFVKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVA 108
+           A LR   +  DAFVK VAR + P+ A L+   +G V + G    G  G  +  D L +A
+Sbjct: 72  AQLRHAADSCDAFVKVVAR-QNPNVAALVLAQQGNVSSAG----GPTGVPAAFDFLAIA 125
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 4,667,929
+Number of extensions: 189079
+Number of successful extensions: 393
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 389
+Number of HSP's successfully gapped: 9
+Length of query: 616
+Length of database: 3,975,336
+Length adjustment: 98
+Effective length of query: 518
+Effective length of database: 3,321,382
+Effective search space: 1720475876
+Effective search space used: 1720475876
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 54 (25.4 bits)

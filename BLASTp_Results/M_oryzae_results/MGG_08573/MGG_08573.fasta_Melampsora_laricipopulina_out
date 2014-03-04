@@ -1,0 +1,134 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG10322 pep:novel supercontig:GCA_000204055.1:GL883095:1043192:...    78   4e-15
+EGG00811 pep:novel supercontig:GCA_000204055.1:GL883143:476647:4...    38   0.009
+EGG07287 pep:novel supercontig:GCA_000204055.1:GL883104:330807:3...    28   9.8  
+
+>EGG10322 pep:novel supercontig:GCA_000204055.1:GL883095:1043192:1047314:-1
+           gene:MELLADRAFT_115557 transcript:EGG10322
+           description:"hypothetical protein"
+          Length = 868
+
+ Score = 78.2 bits (191), Expect = 4e-15,   Method: Compositional matrix adjust.
+ Identities = 50/202 (24%), Positives = 83/202 (41%), Gaps = 20/202 (9%)
+
+Query: 471 IQLTTSSLKQPR-LYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIA 529
+           I+LTTSS+ +     + + LY  + + C Q G RF N   G A  +A +D HFR+  R  
+Sbjct: 539 IELTTSSINRANPSTIADVLYGKIPQYCRQDGSRFLNGRTGEARASAQLDAHFRLQRRAR 598
+
+Query: 530 EAEKKGQHRSYYVDVRDWVGSRE-AVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXX 588
+           E   + Q R++ +   DWV S +  ++                             E   
+Sbjct: 599 EQTNRAQQRTWAITEADWVKSHDFGIEHERKKGDKLAAGSEEAAQIAEAAQIQTTAE--- 655
+
+Query: 589 XXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPG---- 644
+                       ++ +  P   +  +  CPIC+E FE K+  + +E+ W++A+  G    
+Sbjct: 656 ----------LKQKMVLRPTDPAEASKTCPICREGFETKFDQDEEEYYWLNAISAGKKTA 705
+
+Query: 645 -GGNRVFHASCHSEVTGRGATL 665
+                V+HA+CH E     A +
+Sbjct: 706 TATQVVYHATCHFETMRNKARM 727
+
+
+
+ Score = 60.1 bits (144), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 32/93 (34%), Positives = 49/93 (52%), Gaps = 6/93 (6%)
+
+Query: 52  DHIKQIHPPRKLPALYLLDSIVKNVGTPYTLFFGRKLYQTFMEAY---ASVDNATRRKMD 108
+           D + Q HP  +L A Y++DSI KN+G PY   F   + + F+ AY     VD   + K +
+Sbjct: 143 DELTQSHPAHRLVAFYVIDSICKNLGHPYPELFKPFMERLFLSAYRDVEEVDGIAKVKFE 202
+
+Query: 109 EMLKTWKEPVPGSLDTRPVFPPEVVRPIENALI 141
+           E+L TW+    GS     +F  ++ R IE+ + 
+Sbjct: 203 ELLGTWR---TGSARGTELFGADIQRRIEDGIF 232
+
+
+>EGG00811 pep:novel supercontig:GCA_000204055.1:GL883143:476647:479298:1
+           gene:MELLADRAFT_50288 transcript:EGG00811
+           description:"hypothetical protein"
+          Length = 473
+
+ Score = 38.1 bits (87), Expect = 0.009,   Method: Compositional matrix adjust.
+ Identities = 26/94 (27%), Positives = 47/94 (50%), Gaps = 7/94 (7%)
+
+Query: 27  VEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVKNVGTPYTL---- 82
+           +EI+++  + + NT    AI   ++ H+ + +    + AL+LLD +VKN G P+ L    
+Sbjct: 11  LEIADMVNLKKANTPREAAI--TVLQHVNRRNTHVSMLALHLLDILVKNCGYPFHLQIST 68
+
+Query: 83  -FFGRKLYQTFMEAYASVDNATRRKMDEMLKTWK 115
+             F  +L + F E          +K+ E++  WK
+Sbjct: 69  KEFLNELVRRFPEKPPIFPPPPMQKILELIHEWK 102
+
+
+>EGG07287 pep:novel supercontig:GCA_000204055.1:GL883104:330807:334375:1
+           gene:MELLADRAFT_85661 transcript:EGG07287
+           description:"hypothetical protein"
+          Length = 777
+
+ Score = 28.5 bits (62), Expect = 9.8,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 26/52 (50%), Gaps = 2/52 (3%)
+
+Query: 26  RVEISNLTLIARENTESAHAIAEVLVDH--IKQIHPPRKLPALYLLDSIVKN 75
+           R  I+     A  + ++A  +AE+LV    I     PRKL  LY++  I+ N
+Sbjct: 567 RERIARCMAFALHHADAADEVAEILVQSLTIDMTPIPRKLARLYVISDILHN 618
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 6,956,887
+Number of extensions: 285670
+Number of successful extensions: 1175
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 1166
+Number of HSP's successfully gapped: 28
+Length of query: 695
+Length of database: 6,110,487
+Length adjustment: 101
+Effective length of query: 594
+Effective length of database: 4,456,915
+Effective search space: 2647407510
+Effective search space used: 2647407510
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

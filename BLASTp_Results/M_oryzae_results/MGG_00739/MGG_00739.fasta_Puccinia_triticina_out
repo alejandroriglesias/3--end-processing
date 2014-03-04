@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_04786P0 pep:novel supercontig:ASM15152v1:GG705452:523312:52...   150   1e-36
+PTTG_02272P0 pep:novel supercontig:ASM15152v1:GG705424:735561:73...    33   0.73 
+PTTG_08445P0 pep:novel supercontig:ASM15152v1:GG705595:127186:12...    32   1.2  
+PTTG_11150P0 pep:novel supercontig:ASM15152v1:GG716092:25:1128:1...    30   5.9  
+
+>PTTG_04786P0 pep:novel supercontig:ASM15152v1:GG705452:523312:529792:-1
+            gene:PTTG_04786 transcript:PTTG_04786T0
+            description:"Uncharacterized protein"
+          Length = 1558
+
+ Score =  150 bits (378), Expect = 1e-36,   Method: Compositional matrix adjust.
+ Identities = 99/349 (28%), Positives = 164/349 (46%), Gaps = 28/349 (8%)
+
+Query: 1036 VLTCSYWEPFELPKDDDYHCEWAKENISF-KPMVERSVLKVINPINWSDIWTEEFEQHEV 1094
+            V+  SY E      D++ +  W  ++ S  +    RS L++I P  W  I   EF+Q+E 
+Sbjct: 1131 VVGASYLETAFANFDEEGNLMWQPDDDSLIRATTFRSSLELILPGKWVTIDGYEFQQNEW 1190
+
+Query: 1095 AMCIRSLNLEVSQSTNERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVPQKGRPETDKK 1154
+               + +L L+   + + RRQ + VGT   + EDL  RGGIYVF++  V P +   E ++ 
+Sbjct: 1191 VTSMTNLELDSRSTISGRRQFVGVGTTCNRAEDLAARGGIYVFEIIQVNPSERHREYNRS 1250
+
+Query: 1155 LKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMNCYVTCV 1214
+            L+    EE  +  VT+L                   +  ++D +L  V F+D+  Y TC+
+Sbjct: 1251 LRLRYYEET-KACVTAL-----------------YAKCFEQDERLLAVGFLDIKPYATCL 1292
+
+Query: 1215 KELAGTGLCVMADAFKGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLPDGKDLLIVAAD 1274
+            +        ++ DA KG+    + E PYK++  G +  +L+C  VD L     L IVA D
+Sbjct: 1293 RIFK--NFILLGDAVKGITLVAFQEEPYKLIELGHTYVDLKCSTVDFLVIDAKLAIVATD 1350
+
+Query: 1275 SDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQPSSDAER 1334
+             +G + + +++P + +S  G  LL RT F+T +        +  +        P  +A+ 
+Sbjct: 1351 LNGVIRIFEYNPTNIESQAGQKLLCRTEFNTSSE-------MSCSMQFGKRLSPKDEAKV 1403
+
+Query: 1335 QHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPHHAALNPKAYR 1383
+                  S  G ++++ P   + Y RL  + + L   V H A LNPK +R
+Sbjct: 1404 MGTFFGSLDGSISSIVPAKDAVYKRLQLVQTRLTRHVQHFAGLNPKGHR 1452
+
+
+
+ Score =  114 bits (286), Expect = 8e-26,   Method: Compositional matrix adjust.
+ Identities = 145/538 (26%), Positives = 215/538 (39%), Gaps = 128/538 (23%)
+
+Query: 3   CYTELTPPSAVTHS--LTLPFTSPKS-NNLVVAKSSLLQIFATRLVPAELDGTSQSAKAT 59
+           C   LTP +   +S  +T   T PK   NL++A+S+LLQ+F   LV              
+Sbjct: 18  CQASLTPSTLSRYSDVITASKTRPKPITNLIIARSTLLQVFELCLV-------------- 63
+
+Query: 60  HNYDTKLNDDEGLEASFLGGDAAIIRSDRNHTKLVLVAEFPLSGTITGLARVKANATKTX 119
+                  +DDE  +         + + ++   KL  V E  L G +TG+ R+    T+  
+Sbjct: 64  -------DDDEPGKNHLRN---QVGKHNKKKYKLFHVCEHRLHGRVTGVQRLTTLDTQ-- 111
+
+Query: 120 XXXXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSD 179
+                       D LL++F+DAK     W      L  IS+H +E+   Q +    P  D
+Sbjct: 112 --------EDGLDRLLVSFQDAK-----WSNPAADLVPISLHTFEKLP-QITQGDLP-RD 156
+
+Query: 180 YVNFLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAATN 239
+           +   L ADP SRCA L     +LA++PF Q          D+             +A   
+Sbjct: 157 FQAQLEADPLSRCAVLLMPQATLAVLPFFQ----------DQLDLDGLGLSGGLHSAL-- 204
+
+Query: 240 GTTDNVVEDTPYTPSFVL--------RLPNLDPALLHPVH----LAFLYEYREPTFGILS 287
+           G+     +  PY  SF+L         LP+       P+     L FL  + EPT  +L 
+Sbjct: 205 GSEQQRFQTFPYASSFILDFNQQILNHLPSTIENQQRPIKSVIALKFLPGFSEPTLAVLY 264
+
+Query: 288 SNITPSTYLARKDHLTYT----VFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGAL 343
+              T  T+ AR ++ T T    V TLDL       I     LP D   +IA P  + G L
+Sbjct: 265 Q--TQYTWSARLENDTNTAALIVLTLDLGSNHFPIISHTKNLPYDAHGLIACPKELAGVL 322
+
+Query: 344 LVGSNELIHIDQSGKANGVAVNPMTKSCTSFSL--------------------------- 376
+           ++ ++ ++H+DQS K  GVA N   K  +   +                           
+Sbjct: 323 VLCADMVLHVDQSSKIIGVAANGWVKHTSELPIPRQETVQVISPATTTDNSERPEDLEDG 382
+
+Query: 377 ADQSDLGL---------RLEGCMINVLSAEDGQFIIVLNDGRLATLVFHIDGRTVSGL-- 425
+            +Q D  L         RLE   I V S  D  F+  L  G++ +L F  DGRT++ L  
+Sbjct: 383 EEQDDTSLPEGHEKLLVRLENSKI-VFSKPDLAFVF-LRSGQVFSLRFQRDGRTLTKLIF 440
+
+Query: 426 ---KIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVFGWNRKHNQVSKRKP 480
+               ++ + P           S +T++  + LF GS  GDSV++G +    Q S  +P
+Sbjct: 441 EKFDVRSIVP-----------STVTKMTDDCLFVGSMSGDSVLYGIDELCMQNSTDRP 487
+
+
+>PTTG_02272P0 pep:novel supercontig:ASM15152v1:GG705424:735561:737789:-1
+            gene:PTTG_02272 transcript:PTTG_02272T0
+            description:"Uncharacterized protein"
+          Length = 650
+
+ Score = 32.7 bits (73), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 20/63 (31%), Positives = 31/63 (49%), Gaps = 14/63 (22%)
+
+Query: 1337 ILMASPTGVLAAVQPLSQSTYTRLSAL--------------ASNLMASVPHHAALNPKAY 1382
+            I +A+PT +L  +QP+S  T+T +  L              A+N   S PH  +LNP ++
+Sbjct: 10   IALATPTILLVPIQPISPETFTHIVQLFKQFSTFPLSELSSATNPTQSPPHSPSLNPSSH 69
+
+Query: 1383 RLP 1385
+              P
+Sbjct: 70   PQP 72
+
+
+>PTTG_08445P0 pep:novel supercontig:ASM15152v1:GG705595:127186:129465:-1
+            gene:PTTG_08445 transcript:PTTG_08445T0
+            description:"Uncharacterized protein"
+          Length = 759
+
+ Score = 32.0 bits (71), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 21/39 (53%), Gaps = 1/39 (2%)
+
+Query: 1185 GQKTLVRGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLC 1223
+            G+K   + LQ  GK+PP     + CY  C +E  GTG C
+Sbjct: 262  GKKFTAQTLQPSGKVPPSERGPLVCYY-CHREGHGTGRC 299
+
+
+>PTTG_11150P0 pep:novel supercontig:ASM15152v1:GG716092:25:1128:1 gene:PTTG_11150
+            transcript:PTTG_11150T0 description:"Uncharacterized
+            protein"
+          Length = 367
+
+ Score = 29.6 bits (65), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 33/130 (25%), Positives = 49/130 (37%), Gaps = 19/130 (14%)
+
+Query: 1296 LLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQPSSDAERQHILMASPTGVLAAVQPLSQS 1355
+            ++  R  F       QK   LP T   PST+QP +   R    + +P       Q L + 
+Sbjct: 203  VMERRKLFKMALPQDQKDSTLPVTKALPSTSQPLAPPSRSQPQINTPQAPKTTEQKLEEI 262
+
+Query: 1356 TYTRLSALASNLMASVPHHAALNP-KAYRLPPTST----------------RNQVAAVDI 1398
+            T  +L+AL++   A  P     NP K Y   P +                 +  V   DI
+Sbjct: 263  T-KQLAALSAGNSAP-PQLIGTNPGKQYTPSPRTNPDFKCFYCFQNTHGARKCAVINYDI 320
+
+Query: 1399 SVGRAVVDGS 1408
+             +G  + DG+
+Sbjct: 321  EIGSVIKDGN 330
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 13,723,983
+Number of extensions: 618652
+Number of successful extensions: 2149
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 2140
+Number of HSP's successfully gapped: 24
+Length of query: 1452
+Length of database: 4,657,481
+Length adjustment: 105
+Effective length of query: 1347
+Effective length of database: 3,435,491
+Effective search space: 4627606377
+Effective search space used: 4627606377
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

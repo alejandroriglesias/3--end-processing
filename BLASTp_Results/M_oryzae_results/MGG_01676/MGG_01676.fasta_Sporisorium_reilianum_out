@@ -1,0 +1,104 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ71134 pep:novel chromosome:GCA_000230245.1:20:793305:794214:1...   293   e-100
+CBQ71430 pep:novel chromosome:GCA_000230245.1:22:46387:49623:1 g...    28   2.0  
+
+>CBQ71134 pep:novel chromosome:GCA_000230245.1:20:793305:794214:1
+           gene:sr13594 transcript:CBQ71134 description:"conserved
+           hypothetical protein"
+          Length = 203
+
+ Score =  293 bits (749), Expect = e-100,   Method: Compositional matrix adjust.
+ Identities = 142/208 (68%), Positives = 165/208 (79%), Gaps = 16/208 (7%)
+
+Query: 27  ETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEHNHPHI 86
+           +T+ L+P++ +TF  KE QPEEDPSV ARL+RL+ +Y   GMRRT E +LV HEH HPH+
+Sbjct: 3   QTLTLHPVTAFTFTTKEAQPEEDPSVAARLQRLQNNYEDLGMRRTVEAVLVVHEHRHPHV 62
+
+Query: 87  LMLQIANAFFKLPGDYLRPEDDEVEGFKARLDERLAPV-------GRLGEG--EEAGDWQ 137
+           LMLQIANAFFKLPGDYL+P +DEVEG KARLDERL PV       G  GEG  ++ GDW+
+Sbjct: 63  LMLQIANAFFKLPGDYLKPGEDEVEGIKARLDERLGPVESDPNSFGPNGEGRNKDNGDWE 122
+
+Query: 138 IGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSKVLSVPKNMKLLAVPLFE 197
+           I DCLAQWWRPNFETFMYP+ P HVT+PKECKKL+        VL+VPKNMKLLAVPLFE
+Sbjct: 123 IQDCLAQWWRPNFETFMYPYAPPHVTKPKECKKLFL-------VLAVPKNMKLLAVPLFE 175
+
+Query: 198 LYDNSARYGPQLSAIPHLLSKYNFEFVD 225
+           LYDNS RYGPQL+AIPHLLS+YNF + D
+Sbjct: 176 LYDNSQRYGPQLAAIPHLLSRYNFIYSD 203
+
+
+>CBQ71430 pep:novel chromosome:GCA_000230245.1:22:46387:49623:1
+           gene:sr11269.2 transcript:CBQ71430
+           description:"conserved hypothetical protein"
+          Length = 1078
+
+ Score = 28.5 bits (62), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 15/24 (62%)
+
+Query: 99  PGDYLRPEDDEVEGFKARLDERLA 122
+           P DY   +D+ VEG  AR DE LA
+Sbjct: 678 PADYGEGDDEAVEGVDARKDEGLA 701
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 2,433,825
+Number of extensions: 112359
+Number of successful extensions: 234
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 232
+Number of HSP's successfully gapped: 5
+Length of query: 266
+Length of database: 3,975,336
+Length adjustment: 90
+Effective length of query: 176
+Effective length of database: 3,374,766
+Effective search space: 593958816
+Effective search space used: 593958816
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 51 (24.3 bits)

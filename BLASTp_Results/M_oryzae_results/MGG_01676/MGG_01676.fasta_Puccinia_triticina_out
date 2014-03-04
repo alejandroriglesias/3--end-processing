@@ -1,0 +1,108 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_04950P0 pep:novel supercontig:ASM15152v1:GG705450:239217:24...   306   e-105
+PTTG_06824P0 pep:novel supercontig:ASM15152v1:GG705543:226438:22...    29   1.6  
+
+>PTTG_04950P0 pep:novel supercontig:ASM15152v1:GG705450:239217:240229:1
+           gene:PTTG_04950 transcript:PTTG_04950T0
+           description:"Uncharacterized protein"
+          Length = 206
+
+ Score =  306 bits (785), Expect = e-105,   Method: Compositional matrix adjust.
+ Identities = 142/203 (69%), Positives = 168/203 (82%), Gaps = 6/203 (2%)
+
+Query: 28  TIRLYPLSNYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEHNHPHIL 87
+           T+ LYPLSNYTF  KE QPEEDPSV +RL+RL+ +Y   GMRRT EGILV HEH HPH+L
+Sbjct: 4   TVTLYPLSNYTFSTKEAQPEEDPSVTSRLQRLQNNYEDFGMRRTVEGILVVHEHGHPHVL 63
+
+Query: 88  MLQIANAFFKL-PGDYLRPEDDEVEGFKARLDERLAP-VGRLGEGEEAG----DWQIGDC 141
+           MLQIANAFFKL PGDYLRP +D+VEG K RLDERLAP  G+ G G  +     DW+I DC
+Sbjct: 64  MLQIANAFFKLVPGDYLRPGEDDVEGLKERLDERLAPPAGQFGAGLTSAQGQKDWEIADC 123
+
+Query: 142 LAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSKVLSVPKNMKLLAVPLFELYDN 201
+           L+QWWRPN+E+FMYP+VPAH+T+PKECK LY +QLP  KVLSVPKNMKLLA+PLFELYDN
+Sbjct: 124 LSQWWRPNYESFMYPYVPAHITKPKECKMLYLVQLPEKKVLSVPKNMKLLAIPLFELYDN 183
+
+Query: 202 SARYGPQLSAIPHLLSKYNFEFV 224
+            +RYGPQL+AIPH+LS+++F + 
+Sbjct: 184 PSRYGPQLAAIPHVLSRFSFIYA 206
+
+
+>PTTG_06824P0 pep:novel supercontig:ASM15152v1:GG705543:226438:229041:-1
+           gene:PTTG_06824 transcript:PTTG_06824T0
+           description:"Uncharacterized protein"
+          Length = 666
+
+ Score = 28.9 bits (63), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 31/75 (41%), Gaps = 14/75 (18%)
+
+Query: 85  HILMLQIANAFFKL--PGDYLRPEDDEVEGFKARLDERLAPVGRLGEGEEAGDWQIGDCL 142
+            I  L + NA+F +      L  E D +EGF   +    A V R G+ E      I    
+Sbjct: 202 RIKALGVENAYFPMFVSSRVLEKEKDHIEGFAPEV----AWVTRAGQSELEEHIAI---- 253
+
+Query: 143 AQWWRPNFETFMYPF 157
+               RP  ET MYP+
+Sbjct: 254 ----RPTSETVMYPY 264
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 3,040,341
+Number of extensions: 145788
+Number of successful extensions: 305
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 303
+Number of HSP's successfully gapped: 3
+Length of query: 266
+Length of database: 4,657,481
+Length adjustment: 91
+Effective length of query: 175
+Effective length of database: 3,598,423
+Effective search space: 629724025
+Effective search space used: 629724025
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 51 (24.3 bits)

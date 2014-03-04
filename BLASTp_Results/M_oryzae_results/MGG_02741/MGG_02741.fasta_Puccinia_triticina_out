@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_08940P0 pep:novel supercontig:ASM15152v1:GG705659:35933:385...    36   0.012
+PTTG_03911P0 pep:novel supercontig:ASM15152v1:GG705439:53201:608...    28   4.7  
+PTTG_01747P0 pep:novel supercontig:ASM15152v1:GG705416:145688:14...    27   9.3  
+PTTG_01225P0 pep:novel supercontig:ASM15152v1:GG705415:831644:84...    27   9.4  
+
+>PTTG_08940P0 pep:novel supercontig:ASM15152v1:GG705659:35933:38505:1
+           gene:PTTG_08940 transcript:PTTG_08940T0
+           description:"Uncharacterized protein"
+          Length = 462
+
+ Score = 36.2 bits (82), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 21/87 (24%), Positives = 42/87 (48%), Gaps = 8/87 (9%)
+
+Query: 92  DPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQ 151
+           DP + + + +  L + +TDDDIR   +  G   +++ +     ++ GKSKG  +++  + 
+Sbjct: 189 DPNSYARLYVGSLNFNLTDDDIRQVFQPFG---DIEYVDLHRDQITGKSKGYAFVQFKNM 245
+
+Query: 152 QAATAVKHRLESSGEDGASQAGRKQQV 178
+             A     ++     +G   AGR  +V
+Sbjct: 246 HDAKNATEKM-----NGFQLAGRALRV 267
+
+
+>PTTG_03911P0 pep:novel supercontig:ASM15152v1:GG705439:53201:60859:1
+           gene:PTTG_03911 transcript:PTTG_03911T0
+           description:"Uncharacterized protein"
+          Length = 1988
+
+ Score = 28.1 bits (61), Expect = 4.7,   Method: Composition-based stats.
+ Identities = 14/49 (28%), Positives = 24/49 (48%), Gaps = 4/49 (8%)
+
+Query: 2   AEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDD 50
+           +E+D E+++    + ++ G D   H  +    D    HGAND+ Q   D
+Sbjct: 209 SEQDVEMNVQHSISSDRPGNDGTDHTSALSTSD----HGANDDSQDEQD 253
+
+
+>PTTG_01747P0 pep:novel supercontig:ASM15152v1:GG705416:145688:148468:1
+           gene:PTTG_01747 transcript:PTTG_01747T0
+           description:"Uncharacterized protein"
+          Length = 727
+
+ Score = 27.3 bits (59), Expect = 9.3,   Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 21/34 (61%), Gaps = 6/34 (17%)
+
+Query: 127 KDITFSEHKV------NGKSKGQVYIELTSQQAA 154
+           KD+  SE+K+      N +SKG ++IEL S Q A
+Sbjct: 69  KDLKISENKIEMPLDPNNQSKGYLFIELNSPQDA 102
+
+
+>PTTG_01225P0 pep:novel supercontig:ASM15152v1:GG705415:831644:840847:1
+           gene:PTTG_01225 transcript:PTTG_01225T0
+           description:"Uncharacterized protein"
+          Length = 2505
+
+ Score = 27.3 bits (59), Expect = 9.4,   Method: Compositional matrix adjust.
+ Identities = 19/48 (39%), Positives = 26/48 (54%), Gaps = 3/48 (6%)
+
+Query: 152 QAATAVKHRLESSGE-DGASQAGRKQQVIYSSPTMNPFRTLPKDQPRT 198
+           + A+  KH+L   G  DG+ +  R   V+  +PT NP    PK QPRT
+Sbjct: 446 KLASPEKHKLSKMGTLDGSPREPRG--VLPRAPTCNPRLEPPKPQPRT 491
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 2,547,204
+Number of extensions: 101133
+Number of successful extensions: 448
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 439
+Number of HSP's successfully gapped: 17
+Length of query: 424
+Length of database: 4,657,481
+Length adjustment: 95
+Effective length of query: 329
+Effective length of database: 3,551,871
+Effective search space: 1168565559
+Effective search space used: 1168565559
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

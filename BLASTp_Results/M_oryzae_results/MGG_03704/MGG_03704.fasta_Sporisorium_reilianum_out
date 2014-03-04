@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ68379 pep:novel chromosome:GCA_000230245.1:10:328192:328999:1...   197   4e-62
+CBQ71758 pep:novel chromosome:GCA_000230245.1:3:303819:304565:1 ...    28   0.96 
+CBQ71352 pep:novel chromosome:GCA_000230245.1:21:260175:262799:-...    27   3.9  
+
+>CBQ68379 pep:novel chromosome:GCA_000230245.1:10:328192:328999:1
+           gene:sr14669 transcript:CBQ68379 description:"probable
+           SSU72-Nuclear zinc-finger motif containing protein"
+          Length = 240
+
+ Score =  197 bits (501), Expect = 4e-62,   Method: Compositional matrix adjust.
+ Identities = 100/186 (53%), Positives = 124/186 (66%), Gaps = 22/186 (11%)
+
+Query: 29  LKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAM 88
+           + FC VCASNQNRSM AH  L+++ + V S GTGS VRLPGP I  PN+Y F  T+Y  +
+Sbjct: 52  IMFCVVCASNQNRSMAAHSLLAQSGFNVTSAGTGSAVRLPGPKINLPNIYPF-GTAYTDI 110
+
+Query: 89  YKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVV 148
+             +L  KD RLY ANG++ ML+RN++VKR PERWQ+ +                      
+Sbjct: 111 IDDLNSKDPRLYWANGLMTMLKRNKDVKRAPERWQETKYA-------------------A 151
+
+Query: 149 DIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRA 208
+           DIV TCEERC+DAV EDL  RG  LNRPVHVINV+IKDNHEEA   G+ ILDLAN++  A
+Sbjct: 152 DIVITCEERCFDAVCEDLFNRGGELNRPVHVINVEIKDNHEEAVAAGKAILDLANAI--A 209
+
+Query: 209 AAEERD 214
+           A+++ D
+Sbjct: 210 ASQDID 215
+
+
+>CBQ71758 pep:novel chromosome:GCA_000230245.1:3:303819:304565:1 gene:sr12614
+           transcript:CBQ71758 description:"related to
+           ARL1-ADP-ribosylation factor"
+          Length = 191
+
+ Score = 28.5 bits (62), Expect = 0.96,   Method: Compositional matrix adjust.
+ Identities = 18/57 (31%), Positives = 23/57 (40%), Gaps = 1/57 (1%)
+
+Query: 113 RNVKRGPERWQDWQIG-IPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHA 168
+           R V+ G    + W IG  PR     +R   G  A V  +  T     W    E+LHA
+Sbjct: 62  RKVRSGNTTIKVWDIGGQPRFRSMWERYCRGVSAIVFVVDSTQSSSAWSVATEELHA 118
+
+
+>CBQ71352 pep:novel chromosome:GCA_000230245.1:21:260175:262799:-1
+           gene:sr16700 transcript:CBQ71352 description:"related to
+           beta-glucosidase"
+          Length = 874
+
+ Score = 27.3 bits (59), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 17/71 (23%), Positives = 38/71 (53%), Gaps = 6/71 (8%)
+
+Query: 70  PTITQPNVYK---FNSTSYDAMYKELEGKDRRLYTANG--ILNMLERNRNVKRGPERWQD 124
+           PT++  + Y+   FN T  +  +++++G  R++    G   + ++   R+ K GP+   D
+Sbjct: 408 PTVSYKDGYQNTIFNGTVVNE-HRDVQGDHRKIVKEIGEEAVTLIYNKRSNKAGPQGNTD 466
+
+Query: 125 WQIGIPRLEHA 135
+           + +G+P  + A
+Sbjct: 467 FGLGLPLAKKA 477
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 2,062,729
+Number of extensions: 81462
+Number of successful extensions: 165
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 163
+Number of HSP's successfully gapped: 6
+Length of query: 259
+Length of database: 3,975,336
+Length adjustment: 90
+Effective length of query: 169
+Effective length of database: 3,374,766
+Effective search space: 570335454
+Effective search space used: 570335454
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

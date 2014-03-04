@@ -1,0 +1,158 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ70210 pep:novel chromosome:GCA_000230245.1:19:505376:506509:1...   164   7e-48
+CBQ70124 pep:novel chromosome:GCA_000230245.1:19:239589:241559:-...    44   2e-05
+CBQ68086 pep:novel chromosome:GCA_000230245.1:1:1948398:1949430:...    33   0.061
+CBQ69039 pep:novel chromosome:GCA_000230245.1:13:341308:344601:-...    31   0.26 
+CBQ68190 pep:novel chromosome:GCA_000230245.1:1:2272116:2274749:...    29   1.1  
+CBQ70365 pep:novel chromosome:GCA_000230245.1:2:433918:434841:1 ...    28   1.7  
+CBQ67842 pep:novel chromosome:GCA_000230245.1:1:1232058:1234283:...    28   2.0  
+CBQ68501 pep:novel chromosome:GCA_000230245.1:11:57826:58674:1 g...    28   2.5  
+CBQ71430 pep:novel chromosome:GCA_000230245.1:22:46387:49623:1 g...    28   2.9  
+CBQ73392 pep:novel chromosome:GCA_000230245.1:7:540342:544338:-1...    27   7.2  
+
+>CBQ70210 pep:novel chromosome:GCA_000230245.1:19:505376:506509:1
+           gene:sr16415 transcript:CBQ70210 description:"related to
+           Cleavage and polyadenylation specificity factor"
+          Length = 377
+
+ Score =  164 bits (416), Expect = 7e-48,   Method: Compositional matrix adjust.
+ Identities = 90/209 (43%), Positives = 118/209 (56%), Gaps = 8/209 (3%)
+
+Query: 23  FSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKR 82
+           FSF  +++      L +D  +C  Y+    CP G  C  RHV  PS L+    G  +  R
+Sbjct: 45  FSFEQYIKDNLNVKLDNDAQLCPDYSERLQCPRGASCPRRHV-KPSHLNFLPPG-STALR 102
+
+Query: 83  DGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDP 142
+           D       VCKHWLRGLCKKGD C++LHEY++RR+PEC FY   G+C +G++CLYLH+DP
+Sbjct: 103 D--PNKRTVCKHWLRGLCKKGDQCDYLHEYDMRRIPECRFYATFGFCNSGDDCLYLHVDP 160
+
+Query: 143 QSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFCPDGRLCKQG---AHPGWNPKL 199
+             K   C  Y++GFCP GP C+KKH+RR  CP YL GFCP G  C +G   + P  +   
+Sbjct: 161 AIKRRECEKYNRGFCPKGPLCTKKHIRRVACPLYLAGFCPQGLECPRGHIKSTPPSSASR 220
+
+Query: 200 DPPTVKVEKPAGEEDAMGF-AARGGAYDD 227
+               +   +P    +A G    RG  Y D
+Sbjct: 221 SNSPILTHRPLTAAEAFGTGGGRGDEYVD 249
+
+
+>CBQ70124 pep:novel chromosome:GCA_000230245.1:19:239589:241559:-1
+           gene:sr16329 transcript:CBQ70124 description:"conserved
+           hypothetical protein"
+          Length = 656
+
+ Score = 43.9 bits (102), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 24/76 (31%), Positives = 37/76 (48%), Gaps = 6/76 (7%)
+
+Query: 106 CEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQS---KLPPCPHY-DQGFCPLGP 161
+           C   H     R+P C  Y+ +G C+NG+EC+Y H D          C  + D G+C  G 
+Sbjct: 374 CPLSHTPRAERVPHCVHYLCSGMCRNGDECVYTHSDKLGAGLSTTICREFSDYGWCERGK 433
+
+Query: 162 RCSKKHVRRNLCPYYL 177
+            C+++H     CP ++
+Sbjct: 434 DCAQRHTYE--CPDFV 447
+
+
+>CBQ68086 pep:novel chromosome:GCA_000230245.1:1:1948398:1949430:1
+           gene:sr11951 transcript:CBQ68086 description:"related to
+           Cell cycle control protein cwf5"
+          Length = 315
+
+ Score = 32.7 bits (73), Expect = 0.061,   Method: Compositional matrix adjust.
+ Identities = 16/33 (48%), Positives = 21/33 (63%), Gaps = 1/33 (3%)
+
+Query: 81  KRDGPAFNSL-VCKHWLRGLCKKGDGCEFLHEY 112
+           KRD PA +S  +C  + RG C++GD C F HE 
+Sbjct: 151 KRDRPAASSQKLCSAFARGHCERGDACPFKHEL 183
+
+
+>CBQ69039 pep:novel chromosome:GCA_000230245.1:13:341308:344601:-1
+           gene:sr15495 transcript:CBQ69039 description:"conserved
+           hypothetical protein"
+          Length = 1097
+
+ Score = 31.2 bits (69), Expect = 0.26,   Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 1/26 (3%)
+
+Query: 88  NSLVCKHWLRGLCKKGDGCEFLHEYN 113
+           N  VC++WL+G C   + C FLH+Y+
+Sbjct: 697 NRAVCRYWLKGHCAH-NPCNFLHDYD 721
+
+
+>CBQ68190 pep:novel chromosome:GCA_000230245.1:1:2272116:2274749:-1
+           gene:sr12056 transcript:CBQ68190 description:"conserved
+           hypothetical protein"
+          Length = 877
+
+ Score = 29.3 bits (64), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 39/79 (49%), Gaps = 13/79 (16%)
+
+Query: 73  AQSGYGSGKRDGPAFNSLVCKHWLRG--LCKKGD---GCEFLHEYNLRRM----PECNFY 123
+           AQ+G   G  DG   N+   + + RG  L ++G    G  F    +  +     P C+F+
+Sbjct: 389 AQNGVSVGA-DGSILNN--SQTFTRGAKLARRGGASMGGSFGSRADFSKRSTERPACHFF 445
+
+Query: 124 IRNGYCQNGEECLYLHIDP 142
+            R+  C++GE+C + HI P
+Sbjct: 446 ARSA-CKHGEDCRFPHILP 463
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 2,320,173
+Number of extensions: 110190
+Number of successful extensions: 255
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 235
+Number of HSP's successfully gapped: 22
+Length of query: 276
+Length of database: 3,975,336
+Length adjustment: 91
+Effective length of query: 185
+Effective length of database: 3,368,093
+Effective search space: 623097205
+Effective search space used: 623097205
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 51 (24.3 bits)

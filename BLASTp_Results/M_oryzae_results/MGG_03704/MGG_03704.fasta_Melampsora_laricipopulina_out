@@ -1,0 +1,113 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG01914 pep:novel supercontig:GCA_000204055.1:GL883134:445234:4...   205   1e-64
+EGG12431 pep:novel supercontig:GCA_000204055.1:GL883091:1073593:...    31   0.43 
+EGG12190 pep:novel supercontig:GCA_000204055.1:GL883091:3445114:...    28   1.9  
+
+>EGG01914 pep:novel supercontig:GCA_000204055.1:GL883134:445234:446754:1
+           gene:MELLADRAFT_49939 transcript:EGG01914
+           description:"hypothetical protein"
+          Length = 268
+
+ Score =  205 bits (521), Expect = 1e-64,   Method: Compositional matrix adjust.
+ Identities = 99/175 (56%), Positives = 125/175 (71%), Gaps = 19/175 (10%)
+
+Query: 31  FCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYK 90
+           FC VCASNQNRSME H  L++  + V S GTGS+VRLPGP I +PNVY F  T YD MY+
+Sbjct: 81  FCVVCASNQNRSMEGHNVLAREAFRVTSAGTGSMVRLPGPAIDKPNVYPF-GTPYDDMYQ 139
+
+Query: 91  ELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVVDI 150
+           +L+ KD RLYTANGIL+ML+RNR +KR PERWQ+   GI               +G+ DI
+Sbjct: 140 DLKNKDERLYTANGILSMLDRNRRIKRSPERWQE---GI---------------SGLADI 181
+
+Query: 151 VFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSL 205
+           + TCEERC+D+V +DL  RG  LN+PVH+IN++IKDNHEEA + GQ ++DL  S+
+Sbjct: 182 IITCEERCFDSVCDDLFYRGGELNKPVHLINLEIKDNHEEAFLAGQALVDLCGSI 236
+
+
+>EGG12431 pep:novel supercontig:GCA_000204055.1:GL883091:1073593:1077830:-1
+           gene:MELLADRAFT_89010 transcript:EGG12431
+           description:"hypothetical protein"
+          Length = 1155
+
+ Score = 30.8 bits (68), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 13/21 (61%), Positives = 16/21 (76%), Gaps = 1/21 (4%)
+
+Query: 154 CEERCW-DAVVEDLHARGSPL 173
+           C+ RCW DA+VE LHA  +PL
+Sbjct: 697 CQNRCWLDAIVECLHALHTPL 717
+
+
+>EGG12190 pep:novel supercontig:GCA_000204055.1:GL883091:3445114:3445706:-1
+           gene:MELLADRAFT_59311 transcript:EGG12190
+           description:"hypothetical protein"
+          Length = 154
+
+ Score = 28.1 bits (61), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 21/40 (52%)
+
+Query: 171 SPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRAAA 210
+           S   RP   +N+D++  + +    G+ +LD AN + R  A
+Sbjct: 2   SQTTRPNEEVNIDVEQRYNQTTPHGEMLLDCANQIQRTLA 41
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 3,230,406
+Number of extensions: 130324
+Number of successful extensions: 261
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 259
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 6,110,487
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,604,263
+Effective search space: 768911921
+Effective search space used: 768911921
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

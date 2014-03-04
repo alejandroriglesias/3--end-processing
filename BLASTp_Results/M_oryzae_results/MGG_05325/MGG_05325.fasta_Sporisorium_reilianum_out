@@ -1,0 +1,418 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_05325:Polyadenylation factor subunit 2
+         (655 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ67617 pep:novel chromosome:GCA_000230245.1:1:587103:589010:-1...   335   e-105
+CBQ68801 pep:novel chromosome:GCA_000230245.1:12:261212:263797:1...   105   1e-23
+CBQ70213 pep:novel chromosome:GCA_000230245.1:19:512536:514008:-...    82   6e-17
+CBQ73553 pep:novel chromosome:GCA_000230245.1:8:85613:86956:-1 g...    81   1e-16
+CBQ70926 pep:novel chromosome:GCA_000230245.1:20:245606:247150:-...    77   4e-15
+CBQ73686 pep:novel chromosome:GCA_000230245.1:8:457106:459489:1 ...    73   1e-13
+CBQ68769 pep:novel chromosome:GCA_000230245.1:12:174665:178387:1...    71   5e-13
+CBQ70202 pep:novel chromosome:GCA_000230245.1:19:476220:479960:-...    70   6e-13
+CBQ68126 pep:novel chromosome:GCA_000230245.1:1:2064867:2065916:...    67   3e-12
+CBQ70807 pep:novel chromosome:GCA_000230245.1:2:1683533:1686052:...    67   7e-12
+CBQ68883 pep:novel chromosome:GCA_000230245.1:12:477730:479463:-...    64   6e-11
+CBQ73998 pep:novel chromosome:GCA_000230245.1:9:572674:573732:1 ...    62   1e-10
+CBQ70671 pep:novel chromosome:GCA_000230245.1:2:1336928:1338064:...    62   1e-10
+CBQ68004 pep:novel chromosome:GCA_000230245.1:1:1731950:1734568:...    60   1e-09
+CBQ73984 pep:novel chromosome:GCA_000230245.1:9:531195:533075:-1...    58   3e-09
+CBQ69682 pep:novel chromosome:GCA_000230245.1:17:55509:56507:1 g...    57   3e-09
+CBQ70890 pep:novel chromosome:GCA_000230245.1:20:135608:139852:1...    58   4e-09
+CBQ73045 pep:novel chromosome:GCA_000230245.1:6:520393:523360:-1...    56   2e-08
+CBQ68398 pep:novel chromosome:GCA_000230245.1:10:383307:386099:1...    55   3e-08
+CBQ73231 pep:novel chromosome:GCA_000230245.1:7:88500:91031:1 ge...    54   6e-08
+CBQ68531 pep:novel chromosome:GCA_000230245.1:11:154459:156240:-...    53   1e-07
+CBQ68109 pep:novel chromosome:GCA_000230245.1:1:2007870:2010360:...    52   2e-07
+CBQ72305 pep:novel chromosome:GCA_000230245.1:4:55975:59139:1 ge...    51   8e-07
+CBQ72848 pep:novel chromosome:GCA_000230245.1:5:672772:674595:1 ...    50   1e-06
+CBQ73481 pep:novel chromosome:GCA_000230245.1:7:775188:778232:1 ...    50   1e-06
+CBQ71151 pep:novel chromosome:GCA_000230245.1:20:832147:833928:-...    49   1e-06
+CBQ69814 pep:novel chromosome:GCA_000230245.1:17:425056:428800:-...    50   1e-06
+CBQ69717 pep:novel chromosome:GCA_000230245.1:17:149727:151028:-...    49   2e-06
+CBQ71547 pep:novel chromosome:GCA_000230245.1:23:12859:14202:-1 ...    48   4e-06
+CBQ68694 pep:novel chromosome:GCA_000230245.1:11:580527:582326:-...    48   5e-06
+CBQ68229 pep:novel chromosome:GCA_000230245.1:1:2389646:2391477:...    48   6e-06
+CBQ69090 pep:novel chromosome:GCA_000230245.1:13:468455:469828:-...    47   1e-05
+CBQ73445 pep:novel chromosome:GCA_000230245.1:7:675054:676277:-1...    45   2e-05
+CBQ69351 pep:novel chromosome:GCA_000230245.1:15:162169:164112:1...    45   4e-05
+CBQ73387 pep:novel chromosome:GCA_000230245.1:7:527780:530767:-1...    45   5e-05
+CBQ71859 pep:novel chromosome:GCA_000230245.1:3:580542:582280:-1...    44   1e-04
+CBQ67712 pep:novel chromosome:GCA_000230245.1:1:858293:860050:-1...    44   1e-04
+CBQ69311 pep:novel chromosome:GCA_000230245.1:15:23891:26932:-1 ...    43   2e-04
+CBQ69545 pep:novel chromosome:GCA_000230245.1:16:162611:165364:-...    43   2e-04
+CBQ72479 pep:novel chromosome:GCA_000230245.1:4:569831:571456:-1...    42   2e-04
+CBQ70973 pep:novel chromosome:GCA_000230245.1:20:367745:368851:-...    42   3e-04
+CBQ73170 pep:novel chromosome:GCA_000230245.1:6:885505:886602:1 ...    41   4e-04
+CBQ73715 pep:novel chromosome:GCA_000230245.1:8:544666:547269:1 ...    41   8e-04
+CBQ70558 pep:novel chromosome:GCA_000230245.1:2:1009184:1012375:...    40   0.001
+CBQ68488 pep:novel chromosome:GCA_000230245.1:11:20926:27906:1 g...    40   0.001
+CBQ71142 pep:novel chromosome:GCA_000230245.1:20:808972:811815:-...    40   0.002
+CBQ69234 pep:novel chromosome:GCA_000230245.1:14:363129:364784:1...    39   0.002
+CBQ69136 pep:novel chromosome:GCA_000230245.1:14:45569:46612:1 g...    39   0.003
+CBQ73900 pep:novel chromosome:GCA_000230245.1:9:282785:285223:1 ...    39   0.004
+CBQ73736 pep:novel chromosome:GCA_000230245.1:8:596838:597886:-1...    38   0.005
+CBQ69613 pep:novel chromosome:GCA_000230245.1:16:358745:363010:1...    38   0.008
+CBQ71947 pep:novel chromosome:GCA_000230245.1:3:824349:826769:1 ...    37   0.010
+CBQ71687 pep:novel chromosome:GCA_000230245.1:3:102857:105121:-1...    37   0.010
+CBQ69442 pep:novel chromosome:GCA_000230245.1:15:427415:429175:1...    37   0.011
+CBQ68670 pep:novel chromosome:GCA_000230245.1:11:524448:527489:-...    37   0.013
+CBQ73248 pep:novel chromosome:GCA_000230245.1:7:119826:122096:-1...    36   0.023
+CBQ67502 pep:novel chromosome:GCA_000230245.1:1:298097:300094:1 ...    35   0.036
+CBQ73033 pep:novel chromosome:GCA_000230245.1:6:489501:490722:1 ...    34   0.065
+CBQ69707 pep:novel chromosome:GCA_000230245.1:17:120863:122839:-...    35   0.066
+CBQ73922 pep:novel chromosome:GCA_000230245.1:9:345492:349037:1 ...    35   0.078
+CBQ72518 pep:novel chromosome:GCA_000230245.1:4:689527:692994:-1...    34   0.083
+CBQ73458 pep:novel chromosome:GCA_000230245.1:7:712211:713683:1 ...    34   0.10 
+CBQ71803 pep:novel chromosome:GCA_000230245.1:3:434769:436454:1 ...    34   0.11 
+CBQ68407 pep:novel chromosome:GCA_000230245.1:10:412257:415735:1...    33   0.15 
+CBQ70440 pep:novel chromosome:GCA_000230245.1:2:653855:659440:1 ...    33   0.22 
+CBQ68373 pep:novel chromosome:GCA_000230245.1:10:317477:318664:-...    33   0.24 
+CBQ67694 pep:novel chromosome:GCA_000230245.1:1:807891:809654:-1...    32   0.33 
+CBQ67885 pep:novel chromosome:GCA_000230245.1:1:1373813:1379143:...    32   0.37 
+CBQ68852 pep:novel chromosome:GCA_000230245.1:12:397223:400516:-...    32   0.42 
+CBQ71225 pep:novel chromosome:GCA_000230245.1:20:1046990:1048795...    32   0.50 
+CBQ73134 pep:novel chromosome:GCA_000230245.1:6:780919:782493:1 ...    32   0.53 
+CBQ68764 pep:novel chromosome:GCA_000230245.1:12:162164:164812:1...    32   0.64 
+CBQ69610 pep:novel chromosome:GCA_000230245.1:16:351489:355328:-...    31   0.81 
+CBQ67573 pep:novel chromosome:GCA_000230245.1:1:473961:475886:1 ...    31   0.88 
+CBQ69987 pep:novel chromosome:GCA_000230245.1:18:410399:412192:-...    31   0.89 
+CBQ69127 pep:novel chromosome:GCA_000230245.1:14:13675:16044:1 g...    31   0.90 
+CBQ71071 pep:novel chromosome:GCA_000230245.1:20:632198:633625:-...    31   0.96 
+CBQ67941 pep:novel chromosome:GCA_000230245.1:1:1537411:1539537:...    31   1.1  
+CBQ70946 pep:novel chromosome:GCA_000230245.1:20:292635:293936:-...    30   1.5  
+CBQ67568 pep:novel chromosome:GCA_000230245.1:1:460382:462073:1 ...    29   3.1  
+CBQ73731 pep:novel chromosome:GCA_000230245.1:8:584081:589627:1 ...    29   3.5  
+CBQ69701 pep:novel chromosome:GCA_000230245.1:17:105676:107343:1...    28   4.7  
+CBQ68228 pep:novel chromosome:GCA_000230245.1:1:2383379:2389168:...    28   5.8  
+
+>CBQ67617 pep:novel chromosome:GCA_000230245.1:1:587103:589010:-1
+           gene:sr11567 transcript:CBQ67617 description:"related to
+           PFS2-polyadenylation factor I subunit 2"
+          Length = 635
+
+ Score =  335 bits (859), Expect = e-105,   Method: Compositional matrix adjust.
+ Identities = 167/361 (46%), Positives = 228/361 (63%), Gaps = 13/361 (3%)
+
+Query: 66  PSPSYIVDMLPPHARPNNAADTIPVRHLHSSLNKVKHPINVVKWTPEGRRLLTASSGGEF 125
+           P+P  I + L P A   N + ++P   +H+S NK++ P+NVVKW P+GRRLLT S+ GEF
+Sbjct: 155 PTPHAIPNFLLP-AGYANLSTSVPKHLVHTSTNKIRCPVNVVKWMPDGRRLLTGSTSGEF 213
+
+Query: 126 TLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVETIRDSKD 185
+           TLWNG  FNFETIMQAH+SA+RA+A+S    +L+S D +G + Y+Q N N ++      D
+Sbjct: 214 TLWNGLTFNFETIMQAHDSAVRAMAWSKSGTYLISADQNGTVKYFQSNLNTLQAFTAHTD 273
+
+Query: 186 TVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGS 245
+           + R +AFSP+DSKF    DD+ LKV+DF  A +   L+GH W+ K  DWH +KGL+VSGS
+Sbjct: 274 SARGLAFSPDDSKFASGGDDSLLKVWDFDTAKQIRELTGHGWDVKCLDWHASKGLLVSGS 333
+
+Query: 246 KDHLVKLWDPR---TGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMR 302
+           KD+LVK+WDPR   TG CL T   HKNT+    F    G+  AT++RD T  ++DLRMM 
+Sbjct: 334 KDNLVKVWDPRATPTGTCLATFHNHKNTVQACKFSP-DGLRFATASRDMTLKLYDLRMMA 392
+
+Query: 303 DICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHY--------ILDEPNTPDGRQQTI 354
+           +   LRGH K++ +L +HP+H ++L +GGSEG+M  +         L   N  + R    
+Sbjct: 393 EQSTLRGHNKEVCSLDFHPLHHDLLVSGGSEGAMLFWDLSGATCEALSGANWGESRMVGG 452
+
+Query: 355 APYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFWTRARPG 414
+                    G  +   +  H+   AH+  +WSL+WHP GH+L SGSND +TRFW RARP 
+Sbjct: 453 GGDGMDVGEGRRSGDEYVVHRNELAHESNVWSLEWHPFGHLLCSGSNDHMTRFWQRARPN 512
+
+Query: 415 D 415
+           D
+Sbjct: 513 D 513
+
+
+>CBQ68801 pep:novel chromosome:GCA_000230245.1:12:261212:263797:1
+           gene:sr15084 transcript:CBQ68801 description:"conserved
+           hypothetical protein"
+          Length = 861
+
+ Score =  105 bits (261), Expect = 1e-23,   Method: Compositional matrix adjust.
+ Identities = 81/313 (25%), Positives = 134/313 (42%), Gaps = 23/313 (7%)
+
+Query: 112 EGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQ 171
+           EGR+L++ SS     LWN      E +++ H S +  +  +     + S   D  +  W 
+Sbjct: 535 EGRKLVSGSSDNTVRLWNSNTGRCEGVLEGHRSRVWDVDSTRTGGHVASASGDSTVKVWD 594
+
+Query: 172 PNFNNVET-IRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETK 230
+                  T +R     V    F P++   V A  D  +++YD    +   T +GH     
+Sbjct: 595 VESAQCRTTLRAGMGDVYSCRFHPDEKHMVAAGYDKLVRMYDVETGSIVKTFTGHQLGVS 654
+
+Query: 231 ACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARD 290
+           +  ++P   LIV+ SKD  ++ WD  +G C+ T+ GH   +T     +  G  L +S++D
+Sbjct: 655 SAIFNPLGNLIVTASKDTTIRFWDVVSGLCIRTITGHLGEVTSVEINET-GTLLLSSSKD 713
+
+Query: 291 QTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHYILDEPN----- 345
+            +  ++DLRM+R +   +GH+               L  GGSE  +  Y+ D+ +     
+Sbjct: 714 NSNRLWDLRMLRPLKRFKGHQNTSKNFIRSSFAHTSLLVGGSEDGLI-YMWDQESSEVLQ 772
+
+Query: 346 TPDGR-QQTIAPYDSPDPTG-APAQVIFPAHKLPFAHDFGIWSLD--------WHPLGHI 395
+           T +G  + T+ P  +  PTG APA    P     F  D    S +        W+    +
+Sbjct: 773 TLEGHGRDTLHP--AHKPTGSAPATTATPG---SFVSDLTSLSTNNNVAYGAVWNKAQSL 827
+
+Query: 396 LASGSNDRITRFW 408
+           LAS  +D   + W
+Sbjct: 828 LASCGDDGTVKTW 840
+
+
+
+ Score = 42.0 bits (97), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 43/202 (21%), Positives = 73/202 (36%), Gaps = 28/202 (13%)
+
+Query: 227 WETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLAT 286
+           ++ +   +HP K  ++SG          P +     T+RGH+  +    F    G  L +
+Sbjct: 484 YQVEFARYHPKKAPVISGLLHDYTGFIVPNS--VAHTMRGHRKNVKSVRFVGEEGRKLVS 541
+
+Query: 287 SARDQTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGS--------EGSMCH 338
+            + D T  +++    R   +L GH   +  +       ++ S  G         E + C 
+Sbjct: 542 GSSDNTVRLWNSNTGRCEGVLEGHRSRVWDVDSTRTGGHVASASGDSTVKVWDVESAQCR 601
+
+Query: 339 YILDEPNT--------PDGRQQTIAPYDSP----DPTGAPAQVIFPAHKLPFAHDFGIWS 386
+             L             PD +    A YD      D         F  H+L      G+ S
+Sbjct: 602 TTLRAGMGDVYSCRFHPDEKHMVAAGYDKLVRMYDVETGSIVKTFTGHQL------GVSS 655
+
+Query: 387 LDWHPLGHILASGSNDRITRFW 408
+             ++PLG+++ + S D   RFW
+Sbjct: 656 AIFNPLGNLIVTASKDTTIRFW 677
+
+
+>CBQ70213 pep:novel chromosome:GCA_000230245.1:19:512536:514008:-1
+           gene:sr16418 transcript:CBQ70213 description:"related to
+           PRP4-U4/U6 small nuclear ribonucleoprotein"
+          Length = 490
+
+ Score = 82.4 bits (202), Expect = 6e-17,   Method: Compositional matrix adjust.
+ Identities = 60/242 (24%), Positives = 105/242 (43%), Gaps = 15/242 (6%)
+
+Query: 103 PINVVKWTPEGRRLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEW----- 157
+           P+++ ++ P  + L T S  G   LW+    N +  ++AH   +  LA+  R        
+Sbjct: 183 PVSMTRFAPNAQLLATGSWSGSIKLWHVPSANHKLTLRAHTDKVGGLAWHPRATLTQDAS 242
+
+Query: 158 ---LLSGDHDGIIHYWQPNFNN-VETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDF 213
+              L+SG  D  +  W  + +  + T++  +  V   AF P       A+ D   +++D 
+Sbjct: 243 VVNLVSGAGDASVCLWSLDSDRPLATLQGHEARVARTAFHPTGDYVASASFDGTWRLWDV 302
+
+Query: 214 AGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITK 273
+           A +       GH  E  + ++     L+ SG  D + ++WD RTGR    L GH   I  
+Sbjct: 303 ASSQCLTVQEGHSKEVYSVEFQDDGALVASGGLDAIGRVWDMRTGRTAMVLDGHAKEILS 362
+
+Query: 274 TVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITTLTW-----HPVHPNMLS 328
+             F    G  LAT++ D T  ++D+R ++ I  +  H+  ++ + +     H   P  L 
+Sbjct: 363 IDFAP-NGYQLATASGDDTVRIWDMRALKSIYTIPAHKSSVSDVRFFRSLSHRTSPFALQ 421
+
+Query: 329 TG 330
+            G
+Sbjct: 422 DG 423
+
+
+
+ Score = 70.5 bits (171), Expect = 4e-13,   Method: Compositional matrix adjust.
+ Identities = 50/187 (26%), Positives = 81/187 (43%), Gaps = 10/187 (5%)
+
+Query: 156 EWLLSGDHDGIIHYWQ-PNFNNVETIRDSKDTVRDIAFSPNDS--------KFVVATDDA 206
+           + L +G   G I  W  P+ N+  T+R   D V  +A+ P  +          V    DA
+Sbjct: 194 QLLATGSWSGSIKLWHVPSANHKLTLRAHTDKVGGLAWHPRATLTQDASVVNLVSGAGDA 253
+
+Query: 207 ALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRG 266
+           ++ ++        ATL GH        +HPT   + S S D   +LWD  + +CLT   G
+Sbjct: 254 SVCLWSLDSDRPLATLQGHEARVARTAFHPTGDYVASASFDGTWRLWDVASSQCLTVQEG 313
+
+Query: 267 HKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNM 326
+           H   +    F+   G  +A+   D    V+D+R  R   +L GH K+I ++ + P    +
+Sbjct: 314 HSKEVYSVEFQD-DGALVASGGLDAIGRVWDMRTGRTAMVLDGHAKEILSIDFAPNGYQL 372
+
+Query: 327 LSTGGSE 333
+            +  G +
+Sbjct: 373 ATASGDD 379
+
+
+
+ Score = 32.3 bits (72), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 36/180 (20%), Positives = 71/180 (39%), Gaps = 35/180 (19%)
+
+Query: 236 PTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTI-------TKTVFEKVRGMCLATSA 288
+           P   L+ +GS    +KLW   +     TLR H + +         T+ +    + L + A
+Sbjct: 191 PNAQLLATGSWSGSIKLWHVPSANHKLTLRAHTDKVGGLAWHPRATLTQDASVVNLVSGA 250
+
+Query: 289 RDQTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLSTGGSEGSMCHYILDEPNTPD 348
+            D +  ++ L   R +  L+GHE  +    +HP   + +++   +G+   + +       
+Sbjct: 251 GDASVCLWSLDSDRPLATLQGHEARVARTAFHPT-GDYVASASFDGTWRLWDV------- 302
+
+Query: 349 GRQQTIAPYDSPDPTGAPAQVIFPAHKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFW 408
+                           A +Q +     +   H   ++S+++   G ++ASG  D I R W
+Sbjct: 303 ----------------ASSQCL----TVQEGHSKEVYSVEFQDDGALVASGGLDAIGRVW 342
+
+
+>CBQ73553 pep:novel chromosome:GCA_000230245.1:8:85613:86956:-1 gene:sr14206
+           transcript:CBQ73553 description:"probable
+           platelet-activating factor acetylhydrolase ib alpha
+           subunit"
+          Length = 447
+
+ Score = 81.3 bits (199), Expect = 1e-16,   Method: Compositional matrix adjust.
+ Identities = 75/306 (24%), Positives = 122/306 (39%), Gaps = 15/306 (4%)
+
+Query: 139 MQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVE-TIRDSKDTVRDIAFSPNDS 197
+           MQ H   +  +A+      + S   D  +  W     + E T++     V+D+ F    +
+Sbjct: 112 MQGHRMPVTKVAFHPVFSQVASASEDTTVKLWDWETGDFERTLKGHTKAVQDVDFDSKGN 171
+
+Query: 198 KFVVATDDAALKVYDFAGATRE-ATLSGHHWETKACDWHPTKGLIVSGSKDHLVKLWDPR 256
+             V  + D ++KV+D     +   TL GH     +  + P  G IVS S+D  +K+W+  
+Sbjct: 172 FVVSCSSDLSIKVWDANNDYKNIKTLHGHDHSVSSVKFLPGDGFIVSASRDKTIKIWEFS 231
+
+Query: 257 TGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHEKDITT 316
+           TG C  TL GH   + ++      G  L + + DQTA V++L        LRGHE     
+Sbjct: 232 TGFCTRTLHGHAEWV-RSAIPSEDGKWLISCSTDQTARVWELSTGETKVELRGHE----- 285
+
+Query: 317 LTWHPVHPNMLSTGGSEGSMCHYILDEPNTPDGRQQTIAPY---DSPDPTGAPAQVIFPA 373
+              H V   + +   S  ++   +   P+  D      A +    S D T          
+Sbjct: 286 ---HVVEVAIFAPTASYAAIRELVGITPSAKDASASAPAQFVATGSRDKTIRLWDSAGQC 342
+
+Query: 374 HKLPFAHDFGIWSLDWHPLGHILASGSNDRITRFWTRARPGDDDEVLNDRYHIGEAAAEA 433
+            K    HD  +  L + P G  L S S+D+  R W   + G   + L+   H   + A  
+Sbjct: 343 LKTLVGHDNWVRGLAFSPNGKHLLSVSDDKTMRIW-ELKTGRCIKTLDAHQHFCTSVAWG 401
+
+Query: 434 RGTYDR 439
+           +   ++
+Sbjct: 402 KAKIEQ 407
+
+
+
+ Score = 79.3 bits (194), Expect = 6e-16,   Method: Compositional matrix adjust.
+ Identities = 67/281 (23%), Positives = 120/281 (42%), Gaps = 32/281 (11%)
+
+Query: 76  PPHARPNNAADTIPVRHLHSSLNKVKHPINVVKWTPEGRRLLTASSGGEFTLWNGTGFNF 135
+           P   R  +  D +P      ++   + P+  V + P   ++ +AS      LW+    +F
+Sbjct: 91  PSAKRSASLNDWVPRASARHTMQGHRMPVTKVAFHPVFSQVASASEDTTVKLWDWETGDF 150
+
+Query: 136 ETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPN--FNNVETIRDSKDTVRDIAFS 193
+           E  ++ H  A++ + +  +  +++S   D  I  W  N  + N++T+     +V  + F 
+Sbjct: 151 ERTLKGHTKAVQDVDFDSKGNFVVSCSSDLSIKVWDANNDYKNIKTLHGHDHSVSSVKFL 210
+
+Query: 194 PNDSKFVVATDDAALKVYDFAGATREATLSGH-HWETKACDWHPTKGLIVSGSKDHLVKL 252
+           P D   V A+ D  +K+++F+      TL GH  W   A      K LI S S D   ++
+Sbjct: 211 PGDGFIVSASRDKTIKIWEFSTGFCTRTLHGHAEWVRSAIPSEDGKWLI-SCSTDQTARV 269
+
+Query: 253 WDPRTGRCLTTLRGHKNTITKTVF------EKVRGMC-----------------LATSAR 289
+           W+  TG     LRGH++ +   +F        +R +                  +AT +R
+Sbjct: 270 WELSTGETKVELRGHEHVVEVAIFAPTASYAAIRELVGITPSAKDASASAPAQFVATGSR 329
+
+Query: 290 DQTAHVFDLRMMRDICL--LRGHEKDITTLTWHPVHPNMLS 328
+           D+T  ++D       CL  L GH+  +  L + P   ++LS
+Sbjct: 330 DKTIRLWDSAGQ---CLKTLVGHDNWVRGLAFSPNGKHLLS 367
+
+
+>CBQ70926 pep:novel chromosome:GCA_000230245.1:20:245606:247150:-1
+           gene:sr16505 transcript:CBQ70926 description:"related to
+           PRP46-member of the spliceosome"
+          Length = 514
+
+ Score = 77.0 bits (188), Expect = 4e-15,   Method: Compositional matrix adjust.
+ Identities = 53/203 (26%), Positives = 87/203 (42%), Gaps = 4/203 (1%)
+
+Query: 133 FNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNFNNVE-TIRDSKDTVRDIA 191
+           +    ++  H   +R +A    ++W  +G  D +I  W      ++ ++     TVR IA
+Sbjct: 215 WKLSRVISGHLGWVRCVAVEPGNKWFATGAGDRMIKIWDLASGELKLSLTGHISTVRGIA 274
+
+Query: 192 FSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWETKACDWHPTKGLIVSGSKDHLVK 251
+            S        A +D  +K +D    T      GH     +   HPT  ++V+G +D  V+
+Sbjct: 275 VSARHPYLFSAGEDRVVKCWDLETNTVIRQYRGHLSGIYSLALHPTLDVVVTGGRDASVR 334
+
+Query: 252 LWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSARDQTAHVFDLRMMRDICLLRGHE 311
+           +WD RT   + TL GH+ T+     +      ++ S  D T  ++DL   + I  L  H+
+Sbjct: 335 VWDMRTRMAIHTLTGHRGTVASVACQDSEPQIISGS-MDATVKLWDLAAGKSITTLTHHK 393
+
+Query: 312 KDITTLTWHPVHPNMLSTGGSEG 334
+           K +  L  HP      S  GS G
+Sbjct: 394 KSVRALAIHPTQYTFAS--GSAG 414
+
+
+
+ Score = 62.0 bits (149), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 38/159 (23%), Positives = 64/159 (40%), Gaps = 1/159 (0%)
+
+Query: 170 WQPNFNNVETIRDSKDTVRDIAFSPNDSKFVVATDDAALKVYDFAGATREATLSGHHWET 229
+           + PN+     I      VR +A  P +  F     D  +K++D A    + +L+GH    
+Sbjct: 211 YHPNWKLSRVISGHLGWVRCVAVEPGNKWFATGAGDRMIKIWDLASGELKLSLTGHISTV 270
+
+Query: 230 KACDWHPTKGLIVSGSKDHLVKLWDPRTGRCLTTLRGHKNTITKTVFEKVRGMCLATSAR 289
+           +          + S  +D +VK WD  T   +   RGH + I          + + T  R
+Sbjct: 271 RGIAVSARHPYLFSAGEDRVVKCWDLETNTVIRQYRGHLSGIYSLALHPTLDVVV-TGGR 329
+
+Query: 290 DQTAHVFDLRMMRDICLLRGHEKDITTLTWHPVHPNMLS 328
+           D +  V+D+R    I  L GH   + ++      P ++S
+Sbjct: 330 DASVRVWDMRTRMAIHTLTGHRGTVASVACQDSEPQIIS 368
+
+
+
+ Score = 29.6 bits (65), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 29/112 (25%), Positives = 47/112 (41%), Gaps = 18/112 (16%)
+
+Query: 115 RLLTASSGGEFTLWNGTGFNFETIMQAHESAIRALAYSHRDEWLLSGDHDGIIHYWQPNF 174
+           ++++ S      LW+       T +  H+ ++RALA         SG   G         
+Sbjct: 365 QIISGSMDATVKLWDLAAGKSITTLTHHKKSVRALAIHPTQYTFASGSAGG--------- 415
+
+Query: 175 NNVETIRDSKDT-VRDIA-------FSPN-DSKFVVATDDAALKVYDFAGAT 217
+           NN++T R  + T V ++A        S N D       DD +LK++D+A  T
+Sbjct: 416 NNIKTWRCPEGTLVNNMAHGTIVNTLSVNADGVLFSGGDDGSLKLFDYATGT 467
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.318    0.134    0.423 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 4,982,327
+Number of extensions: 221281
+Number of successful extensions: 1348
+Number of sequences better than 10.0: 88
+Number of HSP's gapped: 1105
+Number of HSP's successfully gapped: 261
+Length of query: 655
+Length of database: 3,975,336
+Length adjustment: 99
+Effective length of query: 556
+Effective length of database: 3,314,709
+Effective search space: 1842978204
+Effective search space used: 1842978204
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

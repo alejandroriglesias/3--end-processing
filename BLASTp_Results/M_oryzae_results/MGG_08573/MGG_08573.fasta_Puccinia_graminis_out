@@ -1,0 +1,194 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP84249 pep:novel supercontig:ASM14992v1:supercont2.28:737385:7...    71   7e-13
+EFP89766 pep:novel supercontig:ASM14992v1:supercont2.64:340746:3...    68   6e-12
+EFP83932 pep:novel supercontig:ASM14992v1:supercont2.27:465162:4...    38   0.009
+EFP81070 pep:novel supercontig:ASM14992v1:supercont2.16:835086:8...    36   0.027
+EFP80642 pep:novel supercontig:ASM14992v1:supercont2.15:535591:5...    35   0.071
+EFP80971 pep:novel supercontig:ASM14992v1:supercont2.16:478204:4...    32   0.93 
+EFP81376 pep:novel supercontig:ASM14992v1:supercont2.17:871271:8...    31   0.93 
+EFP87447 pep:novel supercontig:ASM14992v1:supercont2.45:459650:4...    30   4.1  
+
+>EFP84249 pep:novel supercontig:ASM14992v1:supercont2.28:737385:740797:1
+           gene:PGTG_10627 transcript:EFP84249
+           description:"hypothetical protein"
+          Length = 785
+
+ Score = 70.9 bits (172), Expect = 7e-13,   Method: Compositional matrix adjust.
+ Identities = 52/233 (22%), Positives = 93/233 (39%), Gaps = 21/233 (9%)
+
+Query: 439 PVVAPTPVSHAPGLPSVIAPPVAPAHVEIMGD--IQLTTSSLKQPRLY-LVNTLYDDLGK 495
+           P  AP+ +S +  LP+    P    +  ++    I+L  SS+ + +   + + LY  + +
+Sbjct: 396 PSPAPSTLSTSESLPASHTDPTIVEYENMIASLPIELQNSSINRVKAADIADILYSHIPQ 455
+
+Query: 496 PCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAEAEKKGQHRSYYVDVRDWVGSREAVD 555
+            C Q G RF   + G    +  +D HFR+  R+ E+ ++ Q R +     +W+ S +   
+Sbjct: 456 FCRQDGSRFLYGKIGSQRASEQLDRHFRLQRRVHESGQRAQQRMWSQLQSEWIDSHD--- 512
+
+Query: 556 MXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXXXXXXXXXXXXXKRWIPVPDAGSNVNS 615
+                                        +               K+ I  P +    + 
+Sbjct: 513 ------------FGIAGHGENSKAEGSQSKKRKSIDEEKSETELSKKSIVRPSSPGLASQ 560
+
+Query: 616 VCPICQERFELKWLDEAQEWVWMDAV---RPGGGNRVFHASCHSEVTGRGATL 665
+            CPICQE FE ++ ++  E+ W +AV   +  G   V+HA+CH E     A +
+Sbjct: 561 PCPICQESFETRFDEDEAEFYWTNAVELTKEAGKRVVYHATCHYETIRNKARM 613
+
+
+
+ Score = 68.9 bits (167), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 42/132 (31%), Positives = 70/132 (53%), Gaps = 7/132 (5%)
+
+Query: 14  YKDALEGLTSNARVEISNLTLIAR-ENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSI 72
+           +K  L+ L  N +  I++LT +A   +   +  I + +  HI+  HP  +L   Y+LDSI
+Sbjct: 22  FKFGLDQLQYNNKYIINDLTTLASVYHHRMSTYIVKDIEQHIRNSHPSHRLIGFYVLDSI 81
+
+Query: 73  VKNVGTPYTLFFGRKLYQTFMEAY---ASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+            KN+G P+   F   + + F+ AY     VD  T+ K +E+L TW+    GS +   +F 
+Sbjct: 82  CKNLGHPFPQLFKPFIERLFLIAYRDIEDVDPITKVKFEELLGTWRT---GSANQTELFD 138
+
+Query: 130 PEVVRPIENALI 141
+           P++ R IE ++ 
+Sbjct: 139 PDIQRRIEESVF 150
+
+
+>EFP89766 pep:novel supercontig:ASM14992v1:supercont2.64:340746:345002:-1
+           gene:PGTG_15422 transcript:EFP89766
+           description:"hypothetical protein"
+          Length = 802
+
+ Score = 67.8 bits (164), Expect = 6e-12,   Method: Compositional matrix adjust.
+ Identities = 43/135 (31%), Positives = 68/135 (50%), Gaps = 13/135 (9%)
+
+Query: 14  YKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQI----HPPRKLPALYLL 69
+           +   L  L  N +  I++LT +A   +   H +A  +V  I+Q     HP  +L   Y L
+Sbjct: 60  FSFGLSQLKQNNKYIINDLTTLA---SVYHHRMATCIVKEIEQYILESHPAHRLIGFYAL 116
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDN---ATRRKMDEMLKTWKEPVPGSLDTRP 126
+           DSI KN+G P+   F   +   F+ AY  V++   AT+ K +E+L TW+    GS     
+Sbjct: 117 DSICKNLGHPFPELFKASIEHLFLTAYREVEHLNPATKIKFEELLGTWRT---GSAAQSE 173
+
+Query: 127 VFPPEVVRPIENALI 141
+           +F PE+ R +E+ + 
+Sbjct: 174 LFGPELQRKMEDGIF 188
+
+
+
+ Score = 53.9 bits (128), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 38/179 (21%), Positives = 69/179 (38%), Gaps = 19/179 (10%)
+
+Query: 485 LVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAEAEKKGQHRSYYVDV 544
+           + + LY D+ + C Q G RF   + G    +  +D +FR+  ++ E+ ++ Q R +    
+Sbjct: 477 IADLLYSDIPQFCRQDGSRFLPGKIGNQRASDQLDRYFRIQRQVHESGQRAQQRMWAQAE 536
+
+Query: 545 RDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXXXXXXXXXXXXXKRWI 604
+             W+ S++  D+                           P                +R  
+Sbjct: 537 STWLYSQD-TDL-------------TGKKAHPRPDGSRSPSTTRRMDEEQEKMAELRRKT 582
+
+Query: 605 PV-PDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNR----VFHASCHSEV 658
+            V P +    +  CPIC E F+ K  +E  E+ W++A+      +     +HA+CH E 
+Sbjct: 583 VVRPSSSLLASQPCPICLEPFDTKLDEEEDEFFWINAIESFNETKQTTVFYHATCHFET 641
+
+
+>EFP83932 pep:novel supercontig:ASM14992v1:supercont2.27:465162:468189:-1
+           gene:PGTG_09645 transcript:EFP83932
+           description:"hypothetical protein"
+          Length = 537
+
+ Score = 38.1 bits (87), Expect = 0.009,   Method: Compositional matrix adjust.
+ Identities = 27/94 (28%), Positives = 47/94 (50%), Gaps = 7/94 (7%)
+
+Query: 27  VEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVKNVGTPY-----T 81
+           +EI++L  + + NT    A+A +   H+ + +    + AL+LLD +VKN G P+     T
+Sbjct: 39  LEIADLINMKKANTPREAAMATL--QHVNRRNTHVSMLALHLLDILVKNCGYPFHLQIST 96
+
+Query: 82  LFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWK 115
+             F  +L + F E          +K+ E++  WK
+Sbjct: 97  KEFLNELVRRFPEKPPVFPPPPMQKILELIHEWK 130
+
+
+>EFP81070 pep:novel supercontig:ASM14992v1:supercont2.16:835086:836170:-1
+           gene:PGTG_07322 transcript:EFP81070
+           description:"hypothetical protein"
+          Length = 346
+
+ Score = 36.2 bits (82), Expect = 0.027,   Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 24/46 (52%), Gaps = 4/46 (8%)
+
+Query: 617 CPICQERFELKWLDEAQEWVWMDAVRPGGGNR----VFHASCHSEV 658
+           CPIC E F+    +E +E+ W++ +      +     +HA+CH E 
+Sbjct: 130 CPICLEPFDTNLDEEEEEFFWINVIESLNETKQTTVFYHATCHFET 175
+
+
+>EFP80642 pep:novel supercontig:ASM14992v1:supercont2.15:535591:536565:-1
+           gene:PGTG_06598 transcript:EFP80642
+           description:"hypothetical protein"
+          Length = 274
+
+ Score = 34.7 bits (78), Expect = 0.071,   Method: Compositional matrix adjust.
+ Identities = 17/59 (28%), Positives = 23/59 (38%)
+
+Query: 615 SVCPICQERFELKWLDEAQEWVWMDAVRPGGGNRVFHASCHSEVTGRGATLTPPVGMVL 673
+           S CPIC +RF+    +   +W W         N  FH  C  +   +   LT P    L
+Sbjct: 167 SDCPICIDRFQEPKRNNKGQWEWEKLYSCPACNWCFHIECLDKWLSKEKALTCPTCRTL 225
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 7,504,910
+Number of extensions: 323688
+Number of successful extensions: 1639
+Number of sequences better than 10.0: 36
+Number of HSP's gapped: 1622
+Number of HSP's successfully gapped: 44
+Length of query: 695
+Length of database: 6,308,381
+Length adjustment: 102
+Effective length of query: 593
+Effective length of database: 4,678,523
+Effective search space: 2774364139
+Effective search space used: 2774364139
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

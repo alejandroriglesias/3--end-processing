@@ -1,0 +1,156 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_03493P0 pep:novel supercontig:ASM15152v1:GG705430:131299:13...   100   5e-24
+PTTG_02393P0 pep:novel supercontig:ASM15152v1:GG705418:379863:38...    49   2e-07
+PTTG_10592P0 pep:novel supercontig:ASM15152v1:GG707825:953:1132:...    41   1e-05
+PTTG_08151P0 pep:novel supercontig:ASM15152v1:GG705564:143029:14...    29   0.88 
+PTTG_01149P0 pep:novel supercontig:ASM15152v1:GG705415:16044:166...    28   1.5  
+PTTG_07969P0 pep:novel supercontig:ASM15152v1:GG705538:81824:839...    28   2.1  
+PTTG_07359P0 pep:novel supercontig:ASM15152v1:GG705536:79918:805...    27   4.3  
+PTTG_00636P0 pep:novel supercontig:ASM15152v1:GG705412:607710:60...    26   8.8  
+
+>PTTG_03493P0 pep:novel supercontig:ASM15152v1:GG705430:131299:134226:-1
+           gene:PTTG_03493 transcript:PTTG_03493T0
+           description:"Uncharacterized protein"
+          Length = 646
+
+ Score =  100 bits (249), Expect = 5e-24,   Method: Compositional matrix adjust.
+ Identities = 57/134 (42%), Positives = 73/134 (54%), Gaps = 33/134 (24%)
+
+Query: 39  QNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRR 98
+           +NRSME H  L++  + V S GTGS+VRLPGP I +PNVY F  T Y+ MY+EL+ KD +
+Sbjct: 63  ENRSMEGHHVLAREAFKVTSAGTGSMVRLPGPAIDKPNVYSFG-TPYNDMYEELKEKDEK 121
+
+Query: 99  LYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERC 158
+           L+              +K  PERWQD                  +  G  D+V TCEERC
+Sbjct: 122 LW--------------LKVAPERWQD------------------SAVGGADVVITCEERC 149
+
+Query: 159 WDAVVEDLHARGSP 172
+           +DAV +DL   G P
+Sbjct: 150 FDAVCDDLARPGHP 163
+
+
+>PTTG_02393P0 pep:novel supercontig:ASM15152v1:GG705418:379863:380438:1
+           gene:PTTG_02393 transcript:PTTG_02393T0
+           description:"Uncharacterized protein"
+          Length = 191
+
+ Score = 48.9 bits (115), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 51/113 (45%), Gaps = 33/113 (29%)
+
+Query: 39  QNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRR 98
+           QN  ME +  ++   + V    TGS+  LP P I +PN+Y F    Y+ + ++L+GKD +
+Sbjct: 9   QNWLMEGNHVMACKAFKVTLLATGSIFGLPQPAIHKPNIYLFGR-RYNNICEDLKGKDEK 67
+
+Query: 99  LY--------------------------------TANGILNMLERNRNVKRGP 119
+           L+                                TANGI+ +L+RN+ +K  P
+Sbjct: 68  LWVGFSLYLGSLWERASMQFLWGWATDTPCVTHHTANGIIRLLDRNQKLKVVP 120
+
+
+>PTTG_10592P0 pep:novel supercontig:ASM15152v1:GG707825:953:1132:1
+           gene:PTTG_10592 transcript:PTTG_10592T0
+           description:"Uncharacterized protein"
+          Length = 60
+
+ Score = 41.2 bits (95), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 35/61 (57%), Gaps = 1/61 (1%)
+
+Query: 40  NRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRL 99
+           N  ME +  ++   + V    TGS+  LP P I +PN+Y F    Y+ + ++L+GKD +L
+Sbjct: 1   NWLMEGNHVMACKAFKVTLLATGSIFGLPQPAIHKPNIYLFGR-RYNNICEDLKGKDEKL 59
+
+Query: 100 Y 100
+           +
+Sbjct: 60  W 60
+
+
+>PTTG_08151P0 pep:novel supercontig:ASM15152v1:GG705564:143029:145070:-1
+           gene:PTTG_08151 transcript:PTTG_08151T0
+           description:"Uncharacterized protein"
+          Length = 530
+
+ Score = 29.3 bits (64), Expect = 0.88,   Method: Compositional matrix adjust.
+ Identities = 25/69 (36%), Positives = 33/69 (47%), Gaps = 11/69 (15%)
+
+Query: 96  DRRLYTANGILNMLERNRNVKRGPERWQDWQ---IGIPRLEHASDRGSEGTEAGVV-DIV 151
+           DRRL   + ILN L R+R      ER QDW    IG+ RL+   D G    +  +V    
+Sbjct: 169 DRRLAKLDTILNTLRRDR------ER-QDWSMLLIGLDRLQKELDAGPLKAKDWLVWKAE 221
+
+Query: 152 FTCEERCWD 160
+             C ++ WD
+Sbjct: 222 ALCGQKKWD 230
+
+
+>PTTG_01149P0 pep:novel supercontig:ASM15152v1:GG705415:16044:16649:-1
+           gene:PTTG_01149 transcript:PTTG_01149T0
+           description:"Uncharacterized protein"
+          Length = 201
+
+ Score = 28.1 bits (61), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 17/35 (48%)
+
+Query: 49  LSKANYPVISFGTGSLVRLPGPTITQPNVYKFNST 83
+           L K  YP+   G  + +RLPG  IT      F+ T
+Sbjct: 153 LDKQGYPIYPKGRTTFLRLPGEQITNFGTVGFSKT 187
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 2,496,483
+Number of extensions: 99465
+Number of successful extensions: 212
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 209
+Number of HSP's successfully gapped: 12
+Length of query: 259
+Length of database: 4,657,481
+Length adjustment: 91
+Effective length of query: 168
+Effective length of database: 3,598,423
+Effective search space: 604535064
+Effective search space used: 604535064
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

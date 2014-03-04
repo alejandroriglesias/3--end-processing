@@ -1,0 +1,220 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa 
+           11,638 sequences; 4,657,481 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+PTTG_01529P0 pep:novel supercontig:ASM15152v1:GG705413:347703:34...    70   1e-14
+PTTG_00396P0 pep:novel supercontig:ASM15152v1:GG705408:1645532:1...    67   1e-13
+PTTG_07144P0 pep:novel supercontig:ASM15152v1:GG705505:190317:19...    66   2e-12
+PTTG_00397P0 pep:novel supercontig:ASM15152v1:GG705408:1649262:1...    58   1e-10
+PTTG_00890P0 pep:novel supercontig:ASM15152v1:GG705410:50472:526...    60   2e-10
+PTTG_05043P0 pep:novel supercontig:ASM15152v1:GG705465:229287:23...    55   3e-09
+PTTG_00788P0 pep:novel supercontig:ASM15152v1:GG705411:712927:71...    54   3e-08
+PTTG_06273P0 pep:novel supercontig:ASM15152v1:GG705490:181792:18...    52   8e-08
+PTTG_08622P0 pep:novel supercontig:ASM15152v1:GG705698:130182:13...    52   1e-07
+PTTG_01541P0 pep:novel supercontig:ASM15152v1:GG705413:494325:49...    51   2e-07
+PTTG_07308P0 pep:novel supercontig:ASM15152v1:GG705515:180538:18...    50   2e-07
+PTTG_04499P0 pep:novel supercontig:ASM15152v1:GG705440:812727:81...    49   2e-07
+PTTG_06790P0 pep:novel supercontig:ASM15152v1:GG705496:107135:10...    50   3e-07
+PTTG_04453P0 pep:novel supercontig:ASM15152v1:GG705440:364716:36...    48   5e-07
+PTTG_03545P0 pep:novel supercontig:ASM15152v1:GG705430:721482:72...    49   5e-07
+PTTG_08940P0 pep:novel supercontig:ASM15152v1:GG705659:35933:385...    49   1e-06
+PTTG_05122P0 pep:novel supercontig:ASM15152v1:GG705457:482576:48...    47   2e-06
+PTTG_05664P0 pep:novel supercontig:ASM15152v1:GG705462:503720:50...    46   4e-06
+PTTG_05215P0 pep:novel supercontig:ASM15152v1:GG705466:236326:23...    45   1e-05
+PTTG_05898P0 pep:novel supercontig:ASM15152v1:GG705478:214023:21...    45   1e-05
+PTTG_06570P0 pep:novel supercontig:ASM15152v1:GG705482:118693:12...    45   1e-05
+PTTG_05839P0 pep:novel supercontig:ASM15152v1:GG705472:162572:16...    43   2e-05
+PTTG_04643P0 pep:novel supercontig:ASM15152v1:GG705444:384765:38...    44   3e-05
+PTTG_05808P0 pep:novel supercontig:ASM15152v1:GG705468:135338:13...    42   8e-05
+PTTG_02863P0 pep:novel supercontig:ASM15152v1:GG705423:844954:84...    40   2e-04
+PTTG_05083P0 pep:novel supercontig:ASM15152v1:GG705457:129404:13...    40   6e-04
+PTTG_08369P0 pep:novel supercontig:ASM15152v1:GG705560:127006:12...    38   0.002
+PTTG_02332P0 pep:novel supercontig:ASM15152v1:GG705424:1227708:1...    38   0.002
+PTTG_02395P0 pep:novel supercontig:ASM15152v1:GG705418:397078:39...    37   0.003
+PTTG_06627P0 pep:novel supercontig:ASM15152v1:GG705552:47171:481...    37   0.003
+PTTG_06854P0 pep:novel supercontig:ASM15152v1:GG705491:279687:28...    37   0.003
+PTTG_08190P0 pep:novel supercontig:ASM15152v1:GG705566:59373:604...    37   0.003
+PTTG_06274P0 pep:novel supercontig:ASM15152v1:GG705490:189338:19...    37   0.006
+PTTG_08563P0 pep:novel supercontig:ASM15152v1:GG705594:106030:10...    35   0.006
+PTTG_06964P0 pep:novel supercontig:ASM15152v1:GG705541:322879:32...    36   0.008
+PTTG_03366P0 pep:novel supercontig:ASM15152v1:GG705435:641048:64...    34   0.025
+PTTG_03690P0 pep:novel supercontig:ASM15152v1:GG705437:523076:52...    33   0.055
+PTTG_05055P0 pep:novel supercontig:ASM15152v1:GG705465:393849:39...    33   0.057
+PTTG_01099P0 pep:novel supercontig:ASM15152v1:GG705417:594749:59...    33   0.10 
+PTTG_03190P0 pep:novel supercontig:ASM15152v1:GG705427:816140:82...    33   0.11 
+PTTG_02709P0 pep:novel supercontig:ASM15152v1:GG705433:365433:36...    32   0.17 
+PTTG_02523P0 pep:novel supercontig:ASM15152v1:GG705425:438292:44...    31   0.52 
+PTTG_04358P0 pep:novel supercontig:ASM15152v1:GG705445:665036:66...    30   0.60 
+PTTG_06503P0 pep:novel supercontig:ASM15152v1:GG705489:100472:10...    28   1.6  
+PTTG_05797P0 pep:novel supercontig:ASM15152v1:GG705468:33909:350...    28   1.9  
+PTTG_01077P0 pep:novel supercontig:ASM15152v1:GG705417:389292:39...    28   4.4  
+
+>PTTG_01529P0 pep:novel supercontig:ASM15152v1:GG705413:347703:348633:-1
+           gene:PTTG_01529 transcript:PTTG_01529T0
+           description:"Uncharacterized protein"
+          Length = 244
+
+ Score = 70.5 bits (171), Expect = 1e-14,   Method: Compositional matrix adjust.
+ Identities = 39/76 (51%), Positives = 54/76 (71%), Gaps = 1/76 (1%)
+
+Query: 117 SLPP-LPPGKDIPAGVSATDAISRTLRTLPPAQLLDILQQMKTMSGADPARATELLTQAP 175
+            LPP LP G+ + AG +ATD IS+TL  +PPAQL +I  QMK +  + P +A +LL   P
+Sbjct: 19  GLPPDLPRGQPLAAGQTATDQISQTLAAIPPAQLAEITGQMKQLVASAPDQARQLLNANP 78
+
+Query: 176 QLSYAIFQALLLMDLV 191
+           QL+YA+FQA+L+M +V
+Sbjct: 79  QLTYALFQAMLMMGVV 94
+
+
+>PTTG_00396P0 pep:novel supercontig:ASM15152v1:GG705408:1645532:1646941:-1
+          gene:PTTG_00396 transcript:PTTG_00396T0
+          description:"Uncharacterized protein"
+          Length = 171
+
+ Score = 66.6 bits (161), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 29/84 (34%), Positives = 52/84 (61%)
+
+Query: 2  SSKPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDS 61
+          S++     +FVGN+ +    E +   F + G+VL+  ++ DRETG+ +GFGF  + D  +
+Sbjct: 3  SAQAGGNKLFVGNLAWSTDSESLRSAFGQYGEVLDAIVMQDRETGRSRGFGFITFKDQAN 62
+
+Query: 62 AASAVRNLNDTEIMGRKLRVDFSN 85
+          A +A+  LN   + GR++RV+++N
+Sbjct: 63 ADAAIEALNGQAVEGREIRVNYAN 86
+
+
+>PTTG_07144P0 pep:novel supercontig:ASM15152v1:GG705505:190317:192509:-1
+           gene:PTTG_07144 transcript:PTTG_07144T0
+           description:"Uncharacterized protein"
+          Length = 605
+
+ Score = 65.9 bits (159), Expect = 2e-12,   Method: Compositional matrix adjust.
+ Identities = 30/80 (37%), Positives = 47/80 (58%)
+
+Query: 8   RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           + VFVG + + +  E +   F   G VL  R++YDR T K KGFG+ ++  +++A  AV 
+Sbjct: 330 KSVFVGGLSWNVDNEWLKSEFESCGTVLAARVIYDRMTEKSKGFGYVDFETSEAAKKAVE 389
+
+Query: 68  NLNDTEIMGRKLRVDFSNEK 87
+             + +E+ GR L+VD S  K
+Sbjct: 390 TKSGSELDGRTLKVDLSTPK 409
+
+
+
+ Score = 65.9 bits (159), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 33/81 (40%), Positives = 51/81 (62%), Gaps = 2/81 (2%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           PS  +F+GN+P+  +++ + +IF+  G V + RL  D ET + KGFG+ EY   DSA +A
+Sbjct: 428 PSTTLFIGNVPFSATQDAVWEIFAEFGDVNSVRLPTDPETQRIKGFGYVEYATLDSAKAA 487
+
+Query: 66  VRNLNDT--EIMGRKLRVDFS 84
+           V        +I GR++R+DFS
+Sbjct: 488 VEKGRGEGLQIDGRQVRLDFS 508
+
+
+>PTTG_00397P0 pep:novel supercontig:ASM15152v1:GG705408:1649262:1650789:1
+          gene:PTTG_00397 transcript:PTTG_00397T0
+          description:"Uncharacterized protein"
+          Length = 171
+
+ Score = 57.8 bits (138), Expect = 1e-10,   Method: Compositional matrix adjust.
+ Identities = 29/85 (34%), Positives = 49/85 (57%), Gaps = 5/85 (5%)
+
+Query: 1  MSSKPPSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDND 60
+          MS+    ++ FVGN+ +      +   F + G V+    + DRETG+ +GFGF  Y +  
+Sbjct: 1  MSASTGGKL-FVGNLAWTTDTGALKSAFGQFGDVI----MQDRETGRSRGFGFITYKEES 55
+
+Query: 61 SAASAVRNLNDTEIMGRKLRVDFSN 85
+           A  A++ LN  E+ GR++RV+++N
+Sbjct: 56 DAPGAIQGLNGQELDGREIRVNYAN 80
+
+
+>PTTG_00890P0 pep:novel supercontig:ASM15152v1:GG705410:50472:52618:-1
+           gene:PTTG_00890 transcript:PTTG_00890T0
+           description:"Uncharacterized protein"
+          Length = 620
+
+ Score = 60.1 bits (144), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 27/80 (33%), Positives = 46/80 (57%)
+
+Query: 8   RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           + V+VG + + +  E +   F   G +L+ R++ DR T K KGFG+ ++  +++A  AV 
+Sbjct: 341 KSVYVGGLSWNVDNEWLKSEFESCGTILDARVIVDRMTQKSKGFGYIDFETSEAAKKAVE 400
+
+Query: 68  NLNDTEIMGRKLRVDFSNEK 87
+             +  E+ GR L+VD S  K
+Sbjct: 401 TKSGVELDGRTLKVDLSTPK 420
+
+
+
+ Score = 59.7 bits (143), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 48/81 (59%), Gaps = 2/81 (2%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           PS  +F+GN+P+  +++ + +IF+  G V + RL  D ET + KGFG+ EY   DSA +A
+Sbjct: 439 PSSTLFIGNLPFSATQDAVWEIFAEFGDVNSVRLPTDPETQQIKGFGYVEYATVDSAKAA 498
+
+Query: 66  VRNLNDTEIM--GRKLRVDFS 84
+           +       +    R+ R+DFS
+Sbjct: 499 IEKGRGEGVYVDNRQARLDFS 519
+
+
+  Database: Puccinia_triticina.ASM15152v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 4,657,481
+  Number of sequences in database:  11,638
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11638
+Number of Hits to DB: 2,139,273
+Number of extensions: 75889
+Number of successful extensions: 367
+Number of sequences better than 10.0: 59
+Number of HSP's gapped: 354
+Number of HSP's successfully gapped: 76
+Length of query: 305
+Length of database: 4,657,481
+Length adjustment: 92
+Effective length of query: 213
+Effective length of database: 3,586,785
+Effective search space: 763985205
+Effective search space used: 763985205
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

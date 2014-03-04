@@ -1,0 +1,182 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ69164 pep:novel chromosome:GCA_000230245.1:14:127707:131399:1...   109   5e-25
+CBQ69249 pep:novel chromosome:GCA_000230245.1:14:394000:398694:-...    29   4.8  
+CBQ70149 pep:novel chromosome:GCA_000230245.1:19:308163:309881:-...    28   7.2  
+CBQ68619 pep:novel chromosome:GCA_000230245.1:11:381252:384641:1...    28   9.2  
+CBQ68580 pep:novel chromosome:GCA_000230245.1:11:275495:276649:1...    28   9.5  
+
+>CBQ69164 pep:novel chromosome:GCA_000230245.1:14:127707:131399:1
+           gene:sr15233 transcript:CBQ69164 description:"related to
+           Symplekin"
+          Length = 1230
+
+ Score =  109 bits (273), Expect = 5e-25,   Method: Compositional matrix adjust.
+ Identities = 68/252 (26%), Positives = 129/252 (51%), Gaps = 8/252 (3%)
+
+Query: 44  KSAPELRRWGADFLAESFATPSLQSRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTA 103
+           K++  LR W A  +  +F  P+L    K T+++   E +   +++  +D  + + A Q  
+Sbjct: 56  KASTSLRTWIALVMDLAFCRPALSQDTKATLAIHAPEAILLLIKD--KDPRLAKIASQCF 113
+
+Query: 104 ASIYPLVVRWIINNSYDTTTWERITAIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVS 163
+           AS+YP++ R + N+   +  W+ + AIK+++  L+     G K+  IK  QR+V  Q+  
+Sbjct: 114 ASMYPVLFRLVCNDRAKSNLWQTVQAIKAQVVHLFDHGSQGAKLAVIKCYQRIVQVQSRG 173
+
+Query: 164 INGEFKRDGLDISLSNIPQGHPVLDPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNC 223
+                 +   D+SL+ +P  HP+L+   LE E   L  +++ ++  +    L++ A++N 
+Sbjct: 174 STDPRAQLKNDVSLNTVPTSHPLLNTSQLEEEGNRLFAQIVTLIFTSDVTDLIM-ASVNS 232
+
+Query: 224 VAILIRTRPATSNRILNAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQ 283
+           + +L + RP   + IL A+  + P  L N   T      V+++EKT R+  +H +R    
+Sbjct: 233 LTVLAKARPQLGSVILRAMATWTPASLTNLSHTQ-----VRNVEKTVRIFYLHFVRNQLA 287
+
+Query: 284 NPMNPRIQQHIE 295
+            P +  IQ+ +E
+Sbjct: 288 GPDSASIQKALE 299
+
+
+
+ Score = 72.8 bits (177), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 56/235 (23%), Positives = 107/235 (45%), Gaps = 36/235 (15%)
+
+Query: 474 YKLPPPPVLRPEEASNAGRGIVTNVLGMTKQLEESGSKRSKAGIN-RLAASLYDRESWIT 532
+           + L PP  L   E+ +  +  +  +          GS  S A  N  L +    +  W T
+Sbjct: 542 FALAPPEYLSVSESDSLIKDTIARICDF-------GSSTSSALANADLPSDSGSQALWST 594
+
+Query: 533 VITRLATRSSSA--LEKTTIKEEDGTPQILG------------DKVREALYNYVLEDFRK 578
+           ++ RLATR  +    +     +E  T  ++G            D +R  +  +V  DF +
+Sbjct: 595 LVIRLATRGFAEPPSDPEASPQEPETKIVVGGVEPTRTLSAQADIIRALMLEFVKADFAR 654
+
+Query: 579 RIDVAISWLSEEWYNDQLQKRMASDA----------PLHYDKVALRLVDGITPYLHAQDK 628
+           R   A++W++EEW+ D+++++ A+ A          P+  +K    LV    P + A+D+
+Sbjct: 655 RTRFAVTWMAEEWFCDRVRRKHAAAADGTTTSNDQYPIWLEK----LVQAWIPSIDAKDR 710
+
+Query: 629 VLTRFLGEIPEVNPAILKRVEGMCRDPSLASLALTSLVYLVMMRPPAREMALDAM 683
+            L +FL ++PE+ PA+L  V  + +D       +++L  + + RP  R+ + + +
+Sbjct: 711 SLAKFLADLPEIPPAVLDLVAALSKDKDKLVAGMSTLQDICISRPALRDQSAEKL 765
+
+
+>CBQ69249 pep:novel chromosome:GCA_000230245.1:14:394000:398694:-1 gene:sr15318
+            transcript:CBQ69249 description:"related to TIF4631-mRNA
+            cap-binding protein (eIF4F), 150K subunit"
+          Length = 1564
+
+ Score = 28.9 bits (63), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 19/80 (23%), Positives = 36/80 (45%), Gaps = 7/80 (8%)
+
+Query: 526  DRESWITVITRLATR----SSSALEKTTIKEEDGTPQILGDKVREALYNYVLEDFRK--- 578
+            D  +W  +  RL  +     S  ++  +++  DG P + G   R+ L N   EDF +   
+Sbjct: 1018 DEAAWSEMYARLCRKLMEEVSPEVKDESLRSTDGKPVVGGSLFRKYLLNRCQEDFERGWA 1077
+
+Query: 579  RIDVAISWLSEEWYNDQLQK 598
+            + D A++    +   D+ +K
+Sbjct: 1078 QRDDAVAAAKSKEAEDKAKK 1097
+
+
+>CBQ70149 pep:novel chromosome:GCA_000230245.1:19:308163:309881:-1
+           gene:sr16354 transcript:CBQ70149 description:"conserved
+           hypothetical protein"
+          Length = 572
+
+ Score = 28.1 bits (61), Expect = 7.2,   Method: Compositional matrix adjust.
+ Identities = 20/88 (22%), Positives = 37/88 (42%), Gaps = 14/88 (15%)
+
+Query: 302 ADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTN 361
+           AD +++ AG+KR     + +   DA R R+A+     P QE                L+ 
+Sbjct: 281 ADGYNNQAGQKR-----KDSPNSDADRSRIATAGPSAPTQEHRPMQPQ---------LST 326
+
+Query: 362 TPGLQSFDVSVVPAELTAKICVSTLARI 389
+            P ++      +P+ LT     +T +++
+Sbjct: 327 APSMRRPSYPALPSPLTPSNAAATFSQV 354
+
+
+>CBQ68619 pep:novel chromosome:GCA_000230245.1:11:381252:384641:1
+           gene:sr14902 transcript:CBQ68619 description:"conserved
+           hypothetical protein"
+          Length = 1129
+
+ Score = 28.1 bits (61), Expect = 9.2,   Method: Compositional matrix adjust.
+ Identities = 25/101 (24%), Positives = 49/101 (48%), Gaps = 8/101 (7%)
+
+Query: 500 GMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATRSSSALEKTTIKEEDGTPQI 559
+           G+ +QL +  SK    GI+     +  +   + V+++L T+ + +     I     T  +
+Sbjct: 401 GLDQQLVDLLSKIVSEGIDMDRMHMVIKRDKLKVLSQLETKPADSFADLLI-----TDFL 455
+
+Query: 560 LGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQKRM 600
+            G++  + L+   L+D  KR D  ++W +E+W  + LQK  
+Sbjct: 456 YGNRSGDDLHT-ALQDM-KRYDELLTWTNEQW-TELLQKYF 493
+
+
+>CBQ68580 pep:novel chromosome:GCA_000230245.1:11:275495:276649:1
+           gene:sr14866 transcript:CBQ68580 description:"related to
+           FES1-Hsp70 nucleotide exchange factor"
+          Length = 384
+
+ Score = 27.7 bits (60), Expect = 9.5,   Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query: 538 ATRSSSALEKTTIKEED-GTPQILGDKVREALYNYVLEDFRKRIDVA 583
+           A +++SA+   T K  D GT Q+LGDK R  L + ++    K +D A
+Sbjct: 311 AEKAASAVLTFTAKLPDQGTAQLLGDKARAQLRDLLVHLQGKALDAA 357
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 5,364,969
+Number of extensions: 217864
+Number of successful extensions: 735
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 730
+Number of HSP's successfully gapped: 11
+Length of query: 730
+Length of database: 3,975,336
+Length adjustment: 99
+Effective length of query: 631
+Effective length of database: 3,314,709
+Effective search space: 2091581379
+Effective search space used: 2091581379
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

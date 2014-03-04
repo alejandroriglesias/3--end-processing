@@ -1,0 +1,160 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM02841P0 pep:known supercontig:UM1:Cont_1.97:49048:52036:1 gene...   126   6e-30
+UM01470P0 pep:known supercontig:UM1:Cont_1.52:65479:68121:1 gene...    58   6e-09
+UM00242P0 pep:known supercontig:UM1:Cont_1.4:5867:8740:-1 gene:U...    33   0.33 
+
+>UM02841P0 pep:known supercontig:UM1:Cont_1.97:49048:52036:1 gene:UM02841
+           transcript:UM02841T0 description:"hypothetical protein"
+          Length = 979
+
+ Score =  126 bits (316), Expect = 6e-30,   Method: Compositional matrix adjust.
+ Identities = 119/470 (25%), Positives = 197/470 (41%), Gaps = 58/470 (12%)
+
+Query: 53  TLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATS 112
+           T+ L+LL+H+++ HL    +   N  L  R  +YAT P   +G+  + +      A  T 
+Sbjct: 126 TIDLVLLSHSSLDHLGLYAYAHANLGL--RCQVYATMPVQSMGKLTVLE------AIQTW 177
+
+Query: 113 IPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPL 172
+             +  + +   S S  +           +PD++   F  I+ ++Y QP     +      
+Sbjct: 178 RSEVDIEKECTSASTRRC--------LATPDQVEDAFEEIKTVRYMQP-----THLEGKC 224
+
+Query: 173 NGLTITAYNAGHSLGGTIWHIQHGME-SIVYAVDWNLARD-----NVYXXXXXXXXXXXX 226
+             LT+TAYNAGHSLGG +W I+     ++V A+DWN  R+      +             
+Sbjct: 225 ASLTLTAYNAGHSLGGAVWKIRSPTSGTVVIALDWNHNRERHLDGTILLSSSAAAPGAPG 284
+
+Query: 227 XXXEVIEQLRKPTALVCSTRTAEGGLT----RAARDKQLLDTMRMAISRGGTVLIPVDSS 282
+                 + +R+P  L+      E GL     R  RD  L+D +   I  G ++L PVD+S
+Sbjct: 285 SGASASDAVRRPDLLITEI---ERGLVVNTRRKDRDAALIDLVHTTIQAGNSLLFPVDAS 341
+
+Query: 283 ARVLELAYLLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIV---- 338
+           AR+LEL  LL+  W           +   L L  R+    I+ +++  EWM         
+Sbjct: 342 ARLLELMVLLDQHWAYAYPH-----ARFPLCLISRTGKEVIERSRTYMEWMTREWATKAN 396
+
+Query: 339 QEFEAGADQ--GFRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRG 396
+           +  EA  D      +                P DFKY+++       L+ ++ +  + + 
+Sbjct: 397 ETIEADKDTLPAKMQQRNARGGGLRPAAASSPLDFKYVKVF----PTLQAMDEAIPQDQA 452
+
+Query: 397 KVILATDTSLEWGFSKDIISAIANDSRNMVILPEKPAESSRDNP-SISRQLWRWWKERRD 455
+           KV+LA   S+  G S+ +++  A +  ++V+L       SR  P S+ R+LW  W   + 
+Sbjct: 453 KVVLAVPPSMTHGPSRKLLARFAQNPNDVVVL------ISRGEPGSLCRELWDAWNTNQS 506
+
+Query: 456 GVADEQSSGAGSAEQVFAGGRELQIRESKKVPLADSELSIYQQWLATQRQ 505
+                     G A  V A    L+     KVPL   EL  +++    +R+
+Sbjct: 507 KGFSWSQGKLGQA--VVASNTSLRFELKSKVPLEGDELRAHREAEQAERE 554
+
+
+
+ Score = 55.5 bits (132), Expect = 4e-08,   Method: Compositional matrix adjust.
+ Identities = 35/117 (29%), Positives = 59/117 (50%), Gaps = 7/117 (5%)
+
+Query: 697 PAKLVHTSTTVSVNLRLALIDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDC 756
+           P K +    +V +N ++A I+  GL+D R+L  LIP + PR+LI+V G  +    + D  
+Sbjct: 742 PCKFITQLVSVQLNCKVAFIEMCGLNDGRALKTLIPQLHPRRLIMVNGDRETNADMLDVL 801
+
+Query: 757 RRNAIEVFTPPVGA-----VVDASVDTNAWVVKLADPLVKRLKWQQVRGLGIVTVTA 808
+             +AI+  T  + A      V     TN++ V+L + L+ RL+  +     +  V A
+Sbjct: 802 --DAIKSLTRDISAPRWLESVQIGQVTNSYTVQLGEGLLSRLELSRFEEFEVAHVRA 856
+
+
+>UM01470P0 pep:known supercontig:UM1:Cont_1.52:65479:68121:1 gene:UM01470
+           transcript:UM01470T0 description:"Endoribonuclease YSH1"
+          Length = 880
+
+ Score = 58.2 bits (139), Expect = 6e-09,   Method: Compositional matrix adjust.
+ Identities = 63/257 (24%), Positives = 101/257 (39%), Gaps = 51/257 (19%)
+
+Query: 174 GLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIE 233
+           GL  T+Y+AGH LG  ++ I+     I+Y  D++   D                      
+Sbjct: 164 GLRFTSYHAGHVLGACMFLIEIAGLRILYTGDFSREEDRHLVQAEIPPV----------- 212
+
+Query: 234 QLRKPTALVC-STRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLL 292
+              KP  L+C ST   +    R  ++ +    +   I RGG VL+PV    R  EL  LL
+Sbjct: 213 ---KPDVLICESTYGTQTHEPRLDKEHRFTSQIHHIIKRGGRVLLPVFVLGRAQELLLLL 269
+
+Query: 293 EHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFRRT 352
+           +  W +        L +  +Y A       I + ++    M++ I   F        RR 
+Sbjct: 270 DEYWAAHPE-----LHSVPIYYASALAKKCISVYQTYIHTMNDHIRTRFN-------RRD 317
+
+Query: 353 XXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGK-VILATDTSLEWGFS 411
+                          PF FK++         L+ LE   D  RG  V++A+   ++ G S
+Sbjct: 318 --------------NPFVFKHI-------SNLRSLEKFED--RGPCVMMASPGFMQSGVS 354
+
+Query: 412 KDIISAIANDSRNMVIL 428
+           ++++   A D RN +I+
+Sbjct: 355 RELLERWAPDKRNGLIV 371
+
+
+>UM00242P0 pep:known supercontig:UM1:Cont_1.4:5867:8740:-1 gene:UM00242
+           transcript:UM00242T0 description:"Putative
+           uncharacterized protein"
+          Length = 957
+
+ Score = 33.1 bits (74), Expect = 0.33,   Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 17/22 (77%)
+
+Query: 751 AVADDCRRNAIEVFTPPVGAVV 772
+           A+A  CRRNA++   PP+GA++
+Sbjct: 337 AIASSCRRNAVDDLPPPLGALI 358
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 6,689,203
+Number of extensions: 275660
+Number of successful extensions: 946
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 941
+Number of HSP's successfully gapped: 20
+Length of query: 962
+Length of database: 3,993,690
+Length adjustment: 102
+Effective length of query: 860
+Effective length of database: 3,328,446
+Effective search space: 2862463560
+Effective search space used: 2862463560
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

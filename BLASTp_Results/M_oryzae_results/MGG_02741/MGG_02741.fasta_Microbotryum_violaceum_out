@@ -1,0 +1,85 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_00096T0 pep:novel supercontig:GCA_000166175.1:supercont1.1:...    73   5e-14
+
+>MVLG_00096T0 pep:novel supercontig:GCA_000166175.1:supercont1.1:272540:276761:-1
+           gene:MVLG_00096 transcript:MVLG_00096T0
+           description:"hypothetical protein"
+          Length = 693
+
+ Score = 72.8 bits (177), Expect = 5e-14,   Method: Compositional matrix adjust.
+ Identities = 47/125 (37%), Positives = 65/125 (52%), Gaps = 17/125 (13%)
+
+Query: 86  SDDRAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVY 145
+           S+  A DP  T A+ I ++ WW +D  IR      G +  L+ I+FSEHKVNGKSKG  +
+Sbjct: 520 SNASAKDPLNT-ALYIGDMHWWTSDQHIRELCLRVGIDVSLRSISFSEHKVNGKSKGLAF 578
+
+Query: 146 IELTSQQAATAVKHRLES----SGEDGASQAGRKQQVIYSSPTMNPFRTLPKD-QPRTGK 200
+           ++  S + A  V+  LE+    + + GA  AG           + PFRTLPK+   RTG 
+Sbjct: 579 VDFESHEMARKVQSWLETHKRVTTKLGAGGAG-----------VTPFRTLPKEPHARTGG 627
+
+Query: 201 DGQNR 205
+               R
+Sbjct: 628 GNATR 632
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 2,289,579
+Number of extensions: 92963
+Number of successful extensions: 413
+Number of sequences better than 10.0: 24
+Number of HSP's gapped: 400
+Number of HSP's successfully gapped: 28
+Length of query: 424
+Length of database: 4,198,887
+Length adjustment: 95
+Effective length of query: 329
+Effective length of database: 3,456,082
+Effective search space: 1137050978
+Effective search space used: 1137050978
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

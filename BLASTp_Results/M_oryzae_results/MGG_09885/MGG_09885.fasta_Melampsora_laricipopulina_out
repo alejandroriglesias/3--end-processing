@@ -1,0 +1,240 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09885:Cleavage stimulation factor 64-kDa subunit
+         (305 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG01266 pep:novel supercontig:GCA_000204055.1:GL883139:128460:1...   147   5e-41
+EGG07671 pep:novel supercontig:GCA_000204055.1:GL883103:1424691:...    65   4e-13
+EGG09816 pep:novel supercontig:GCA_000204055.1:GL883096:1668754:...    57   3e-10
+EGF99917 pep:novel supercontig:GCA_000204055.1:GL883153:223239:2...    58   1e-09
+EGG01736 pep:novel supercontig:GCA_000204055.1:GL883136:389983:3...    56   4e-09
+EGG08186 pep:novel supercontig:GCA_000204055.1:GL883101:858205:8...    52   1e-08
+EGG00325 pep:novel supercontig:GCA_000204055.1:GL883148:196018:1...    53   2e-08
+EGG01423 pep:novel supercontig:GCA_000204055.1:GL883138:607629:6...    54   4e-08
+EGG12795 pep:novel supercontig:GCA_000204055.1:GL883090:2750688:...    52   1e-07
+EGF99050 pep:novel supercontig:GCA_000204055.1:GL883165:112358:1...    51   1e-07
+EGG09351 pep:novel supercontig:GCA_000204055.1:GL883097:74504:76...    50   4e-07
+EGG12041 pep:novel supercontig:GCA_000204055.1:GL883091:2614231:...    49   6e-07
+EGG04139 pep:novel supercontig:GCA_000204055.1:GL883120:978123:9...    49   9e-07
+EGG05951 pep:novel supercontig:GCA_000204055.1:GL883110:45004:45...    45   1e-06
+EGG12168 pep:novel supercontig:GCA_000204055.1:GL883091:3684274:...    48   1e-06
+EGG02691 pep:novel supercontig:GCA_000204055.1:GL883129:572159:5...    47   2e-06
+EGG11009 pep:novel supercontig:GCA_000204055.1:GL883093:2084082:...    48   2e-06
+EGF98676 pep:novel supercontig:GCA_000204055.1:GL883171:213359:2...    47   3e-06
+EGG03031 pep:novel supercontig:GCA_000204055.1:GL883127:364784:3...    45   4e-06
+EGG08534 pep:novel supercontig:GCA_000204055.1:GL883100:1370300:...    47   5e-06
+EGG01830 pep:novel supercontig:GCA_000204055.1:GL883135:563066:5...    46   6e-06
+EGG09973 pep:novel supercontig:GCA_000204055.1:GL883096:694145:6...    46   9e-06
+EGG11110 pep:novel supercontig:GCA_000204055.1:GL883093:2238543:...    45   2e-05
+EGF99935 pep:novel supercontig:GCA_000204055.1:GL883153:14227:14...    42   2e-05
+EGG06128 pep:novel supercontig:GCA_000204055.1:GL883110:105486:1...    42   3e-05
+EGG07717 pep:novel supercontig:GCA_000204055.1:GL883103:1398628:...    43   6e-05
+EGG04583 pep:novel supercontig:GCA_000204055.1:GL883117:307395:3...    43   7e-05
+EGG07816 pep:novel supercontig:GCA_000204055.1:GL883103:386615:3...    41   7e-05
+EGG06073 pep:novel supercontig:GCA_000204055.1:GL883110:829181:8...    42   1e-04
+EGG11856 pep:novel supercontig:GCA_000204055.1:GL883091:497115:4...    40   1e-04
+EGG08714 pep:novel supercontig:GCA_000204055.1:GL883100:193441:1...    42   2e-04
+EGG09296 pep:novel supercontig:GCA_000204055.1:GL883098:560755:5...    40   3e-04
+EGG09720 pep:novel supercontig:GCA_000204055.1:GL883096:687932:6...    39   4e-04
+EGG06367 pep:novel supercontig:GCA_000204055.1:GL883108:119969:1...    40   5e-04
+EGG01898 pep:novel supercontig:GCA_000204055.1:GL883134:159003:1...    40   5e-04
+EGG08060 pep:novel supercontig:GCA_000204055.1:GL883102:700234:7...    37   7e-04
+EGG07788 pep:novel supercontig:GCA_000204055.1:GL883103:638427:6...    39   7e-04
+EGF97966 pep:novel supercontig:GCA_000204055.1:GL883190:12811:15...    39   0.001
+EGG02068 pep:novel supercontig:GCA_000204055.1:GL883133:516601:5...    36   0.008
+EGG03434 pep:novel supercontig:GCA_000204055.1:GL883124:636410:6...    36   0.009
+EGG01666 pep:novel supercontig:GCA_000204055.1:GL883136:453710:4...    34   0.052
+EGG09543 pep:novel supercontig:GCA_000204055.1:GL883097:1588721:...    33   0.095
+EGF99245 pep:novel supercontig:GCA_000204055.1:GL883162:63964:67...    31   0.62 
+EGG09949 pep:novel supercontig:GCA_000204055.1:GL883096:1026057:...    31   0.62 
+EGG05191 pep:novel supercontig:GCA_000204055.1:GL883114:1100126:...    30   1.3  
+
+>EGG01266 pep:novel supercontig:GCA_000204055.1:GL883139:128460:130387:1
+           gene:MELLADRAFT_73006 transcript:EGG01266
+           description:"hypothetical protein"
+          Length = 357
+
+ Score =  147 bits (371), Expect = 5e-41,   Method: Compositional matrix adjust.
+ Identities = 85/212 (40%), Positives = 117/212 (55%), Gaps = 27/212 (12%)
+
+Query: 7   SRVVFVGNIPYGLSEE---QITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAA 63
+           +++VFVGN+PY  S+E   Q+ D+FS  G V NFR+ +++ETGKP+GFGF EY D  +A 
+Sbjct: 5   TKIVFVGNLPYSHSDELQKQLEDVFSTVGLVSNFRIAFEKETGKPRGFGFCEYFDTQTAE 64
+
+Query: 64  SAVRNLNDTEIMGRKLRVDFSNEKXXXXXXXXXXXXXXXXXXXXXYQQ------------ 111
+           SA+RNL   EI GR LR+DF++                         Q            
+Sbjct: 65  SAIRNLQGIEIGGRALRLDFADVGNHDTREAGGRPPPPKGRRGAAMAQANRDEFGGGGGG 124
+
+Query: 112 -----------QQEVPSLPP-LPPGKDIPAGVSATDAISRTLRTLPPAQLLDILQQMKTM 159
+                      Q  +  LPP LP G+ + AG +ATD IS+TL  +PP QL +I  QMK +
+Sbjct: 125 GGRGPMGNGNGQGPIGGLPPDLPRGQPLVAGQAATDQISQTLAAIPPGQLAEITGQMKQL 184
+
+Query: 160 SGADPARATELLTQAPQLSYAIFQALLLMDLV 191
+               P +A +LLT  PQL+YA+FQA+L+M +V
+Sbjct: 185 VATAPDQARQLLTANPQLTYALFQAMLMMGIV 216
+
+
+>EGG07671 pep:novel supercontig:GCA_000204055.1:GL883103:1424691:1426383:1
+          gene:MELLADRAFT_71659 transcript:EGG07671
+          description:"hypothetical protein"
+          Length = 163
+
+ Score = 65.5 bits (158), Expect = 4e-13,   Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 50/75 (66%)
+
+Query: 10 VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+          +FVGN+ +      +T  F++ G+V++  ++ DRETG+ +GFGF  + + D A +A+  L
+Sbjct: 7  LFVGNLAWSTDTNSLTQAFNQYGEVVDAIVMQDRETGRSRGFGFITFSNQDQAQAAIDAL 66
+
+Query: 70 NDTEIMGRKLRVDFS 84
+          N+ ++ GR +RV+F+
+Sbjct: 67 NEADVDGRNIRVNFA 81
+
+
+>EGG09816 pep:novel supercontig:GCA_000204055.1:GL883096:1668754:1669451:1
+           gene:MELLADRAFT_29239 transcript:EGG09816
+           description:"hypothetical protein"
+          Length = 150
+
+ Score = 57.0 bits (136), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 45/75 (60%), Gaps = 1/75 (1%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+           SR V+VGN+ YG + E+I   FS  G +    ++ D+ TG+PKG+ + E+ D      A 
+Sbjct: 52  SRSVYVGNVDYGSTAEEIQAHFSSCGTINRITILCDKFTGQPKGYAYIEFSDPMLVHQAC 111
+
+Query: 67  RNLNDTEIMGRKLRV 81
+           + LND+   GR+++V
+Sbjct: 112 Q-LNDSLFRGRQIKV 125
+
+
+>EGF99917 pep:novel supercontig:GCA_000204055.1:GL883153:223239:226612:-1
+           gene:MELLADRAFT_118186 transcript:EGF99917
+           description:"hypothetical protein"
+          Length = 667
+
+ Score = 58.2 bits (139), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 26/80 (32%), Positives = 48/80 (60%)
+
+Query: 8   RVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVR 67
+           + +FVG + + + ++ +   F + G+V++ R++ +R T + KGFG+ ++   + A  AV 
+Sbjct: 401 KNLFVGGLSWNVDDDWLKKEFEKFGEVISARVITERGTERSKGFGYVDFASPEDARKAVE 460
+
+Query: 68  NLNDTEIMGRKLRVDFSNEK 87
+            +  TEI GR + VDFS  K
+Sbjct: 461 AMAGTEIDGRTINVDFSAPK 480
+
+
+
+ Score = 53.1 bits (126), Expect = 5e-08,   Method: Compositional matrix adjust.
+ Identities = 26/81 (32%), Positives = 48/81 (59%), Gaps = 2/81 (2%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASA 65
+           P+  +F+GN+P+  +++ + + FS  G + + RL  D ET + KGFG+ E+   ++A +A
+Sbjct: 499 PTTTLFIGNLPFSATQDSVYEAFSEYGDINSVRLPTDPETERIKGFGYVEFATQEAATAA 558
+
+Query: 66  VR--NLNDTEIMGRKLRVDFS 84
+           V     +   I  R+ R+D+S
+Sbjct: 559 VNVGRGDGIYIDQRQARLDYS 579
+
+
+>EGG01736 pep:novel supercontig:GCA_000204055.1:GL883136:389983:391832:-1
+           gene:MELLADRAFT_23270 transcript:EGG01736
+           description:"hypothetical protein"
+          Length = 510
+
+ Score = 56.2 bits (134), Expect = 4e-09,   Method: Compositional matrix adjust.
+ Identities = 28/83 (33%), Positives = 50/83 (60%), Gaps = 5/83 (6%)
+
+Query: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRL--VYDRETGKPKGFGFAEYPDNDSAAS 64
+           S  + V N+P+  S++++ ++F   GK+ + RL    DR+T   +GFGF EY     A  
+Sbjct: 418 STKLLVKNVPFETSKQELRELFGSFGKLKSVRLPKKLDRKT---RGFGFIEYTTKKEAEE 474
+
+Query: 65  AVRNLNDTEIMGRKLRVDFSNEK 87
+           A+++L  T ++GR L + ++N+K
+Sbjct: 475 AMKSLKHTHLLGRHLVISYANDK 497
+
+
+
+ Score = 38.5 bits (88), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 36/72 (50%), Gaps = 1/72 (1%)
+
+Query: 10 VFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAVRNL 69
+          +F+ N+P+ L EE +  +FS  G V    +  +RE  K KG  +  +  +  A  A + L
+Sbjct: 18 LFLRNLPFSLLEEDLMSLFSTYGAVSQVHIPLNRER-KQKGVAYVSFERSSDALEAFKQL 76
+
+Query: 70 NDTEIMGRKLRV 81
+          +  +  GR L +
+Sbjct: 77 DQRDFQGRLLHI 88
+
+
+
+ Score = 30.8 bits (68), Expect = 0.57,   Method: Compositional matrix adjust.
+ Identities = 22/85 (25%), Positives = 33/85 (38%), Gaps = 5/85 (5%)
+
+Query: 6   PSRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPK-----GFGFAEYPDND 60
+           P   +FV NI Y  + E  +  FS     L  RL    +   PK     GFGF  +    
+Sbjct: 308 PGSTLFVKNISYSTTSEGFSSSFSTFPDFLFARLQTKPDPKNPKNRLSMGFGFVGFKTVS 367
+
+Query: 61  SAASAVRNLNDTEIMGRKLRVDFSN 85
+           +A   ++      +    L + F+N
+Sbjct: 368 AAQHVIKAAQGYRLDAHALEIKFAN 392
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.316    0.132    0.366 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 2,545,829
+Number of extensions: 83127
+Number of successful extensions: 390
+Number of sequences better than 10.0: 49
+Number of HSP's gapped: 375
+Number of HSP's successfully gapped: 69
+Length of query: 305
+Length of database: 6,110,487
+Length adjustment: 94
+Effective length of query: 211
+Effective length of database: 4,571,519
+Effective search space: 964590509
+Effective search space used: 964590509
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

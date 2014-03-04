@@ -1,0 +1,122 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_04407T0 pep:novel supercontig:GCA_000166175.1:supercont1.49...   100   4e-22
+
+>MVLG_04407T0 pep:novel supercontig:GCA_000166175.1:supercont1.49:25048:29628:-1
+           gene:MVLG_04407 transcript:MVLG_04407T0
+           description:"hypothetical protein"
+          Length = 1163
+
+ Score =  100 bits (249), Expect = 4e-22,   Method: Compositional matrix adjust.
+ Identities = 95/410 (23%), Positives = 177/410 (43%), Gaps = 36/410 (8%)
+
+Query: 27  VKVYSSIVQGILPIIGSKSAPELR-----RWGADFLAESFATPSLQSRDKETMSLMVLET 81
+           +K+  +++ GI P +  ++  +LR      W    +  +     L    +  +SL+ L  
+Sbjct: 36  IKLQPALIPGIWPAV-LRAVTDLRSSSLFNWATQVMRYALTLNVLVVDTRINLSLLALHA 94
+
+Query: 82  LRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAIKSRIFQLWSGE 141
+           ++  +   + D  + +  +Q  ASIYPL+ ++  + + D  TW  +  +K    ++W   
+Sbjct: 95  IKTTM-TYTRDTSIQKVGLQCFASIYPLLFKYACSGN-DQQTWMTVNGLKMITLEMWRDT 152
+
+Query: 142 ---IPGVKICCIKFAQRVVLAQT-VSINGEFKRDGLDISLSNIPQGHPVLDPRNLEAEAI 197
+              + G K+  +K  QR++  QT  + +   +R   + +L      H  L P  LE EA 
+Sbjct: 153 QKGMTGAKVAAVKVLQRIIQTQTKATSDPRLQRTVQEPNLLMCKPNHAFLKPVQLEDEAN 212
+
+Query: 198 GLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFNPLKLANSPMTP 257
+            LL+  +  L   S D+ +V A ++ + +L+++R + +  ++ A+ ++ P  L       
+Sbjct: 213 KLLEEAITTLF-TSDDSDLVSALVSTLTVLVKSRTSFARLVVTALTHWVPTALVGK---- 267
+
+Query: 258 KTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLA----------RSRADIFDD 307
+            T   ++S EK  R  L HL++ +   P   ++   ++R A          R + +    
+Sbjct: 268 ATPTQIRSTEKIVRTSLTHLLKTNTIAPFASQVTDFLQRQAVRMDAAALEARQQQEKILL 327
+
+Query: 308 NAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTNTPG--- 364
+              RKR L E +A+     KR+R  S     P  E                 T T G   
+Sbjct: 328 EQARKRQLQETEASIAAATKRRRTDS-----PNAEAGPSTSTMALINLREVFTTTDGTPN 382
+
+Query: 365 -LQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAA 413
+            L  FD S++P  +     V+T+ ++D   L RGI   + RL +  +A A
+Sbjct: 383 ALAQFDASILPLNVCIDFLVATMQQVDAAALARGIEAAKARLSSQASAVA 432
+
+
+
+ Score = 73.2 bits (178), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 49/182 (26%), Positives = 94/182 (51%), Gaps = 16/182 (8%)
+
+Query: 528 ESWITVITRLATRSSSALEKTTIKEEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWL 587
+           E WI+++TRL TR         I+EE+     LG ++RE +  +V ED R R++ A  WL
+Sbjct: 563 ELWISLVTRLVTRG--------IEEEEEGEGALGKRMREEMLEFVKEDPRNRMEFARKWL 614
+
+Query: 588 SEEWYNDQLQKRMASDAPLHYDKVALRLVDGITPYLHAQ----DKVLTRFLGEIPEVNPA 643
+           +EEW+ +++  R       H D+     +  I+ ++ ++    D+  T+F+ ++P++   
+Sbjct: 615 NEEWFAEKMAVRTKEG---HKDRTYDIWLRKISTHIMSKSSNRDRGFTQFVIDLPDLPVD 671
+
+Query: 644 ILKRVEGMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEE-ARPLAAKFLT 702
+            ++++  MC       L  ++L  L ++RPP R  A+D +  + T  ++  R  A   + 
+Sbjct: 672 EVEKLGQMCMKKEQVQLGFSALRELAVLRPPFRPAAVDVLLSLTTHKDKPTRNAAINTVK 731
+
+Query: 703 RW 704
+           +W
+Sbjct: 732 KW 733
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 5,716,153
+Number of extensions: 231755
+Number of successful extensions: 794
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 789
+Number of HSP's successfully gapped: 10
+Length of query: 730
+Length of database: 4,198,887
+Length adjustment: 100
+Effective length of query: 630
+Effective length of database: 3,416,987
+Effective search space: 2152701810
+Effective search space used: 2152701810
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

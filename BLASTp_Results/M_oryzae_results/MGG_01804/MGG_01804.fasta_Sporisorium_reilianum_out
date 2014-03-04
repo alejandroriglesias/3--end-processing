@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ71677 pep:novel chromosome:GCA_000230245.1:3:77864:80500:1 ge...   595   0.0  
+CBQ73226 pep:novel chromosome:GCA_000230245.1:7:68955:72074:1 ge...   100   7e-22
+CBQ70128 pep:novel chromosome:GCA_000230245.1:19:252566:254164:1...    30   2.0  
+CBQ68024 pep:novel chromosome:GCA_000230245.1:1:1781478:1785197:...    30   2.9  
+CBQ68262 pep:novel chromosome:GCA_000230245.1:10:25204:29022:-1 ...    29   5.4  
+CBQ71584 pep:novel chromosome:GCA_000230245.1:23:107979:109037:-...    28   9.7  
+
+>CBQ71677 pep:novel chromosome:GCA_000230245.1:3:77864:80500:1 gene:sr12533
+           transcript:CBQ71677 description:"related to
+           YSH1-component of pre-mRNA polyadenylation factor PF I"
+          Length = 878
+
+ Score =  595 bits (1534), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 300/661 (45%), Positives = 428/661 (64%), Gaps = 83/661 (12%)
+
+Query: 23  DELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLI 82
+           D+L    LG G EVGRSC +++YKGKT++ D G HPA+ G+AALPF D+ D STVD +LI
+Sbjct: 22  DQLTIEMLGAGQEVGRSCCVLKYKGKTIVCDTGVHPAFTGIAALPFIDELDWSTVDAILI 81
+
+Query: 83  SHFHVDHAASLPYVLSKTNFK---GRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVY 139
+           +HFH+DHAA+L Y++ KTNF+   G+V+MTHPTKA+Y++L+ D VR+ N  ++     ++
+Sbjct: 82  THFHLDHAAALTYIMEKTNFRDGHGKVYMTHPTKAVYRFLMSDFVRISNAGNDDN---LF 138
+
+Query: 140 TEQDHLNTFPQIEAIDYYTTHTISS-IRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSR 198
+            E +   ++ QIEA+D++   +I+  +R T Y AGHVLGA MFLIEIAG+ I +TGD+SR
+Sbjct: 139 DENEMFASWRQIEAVDFHQDVSIAGGLRFTAYHAGHVLGACMFLIEIAGLRILYTGDFSR 198
+
+Query: 199 EQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVF 258
+           E+DRHLV AE+P  VK DVLI ESTYG  +H PR+++E      I  I+ RGGRVL+PVF
+Sbjct: 199 EEDRHLVQAEIP-PVKPDVLICESTYGTQTHEPRLDKEHRFTSQIHHIIKRGGRVLLPVF 257
+
+Query: 259 ALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERL 318
+            LGRAQELLL+LDEYW  H E   VPIYYAS LA+KC+ VYQTY+  MND+I+  F  R 
+Sbjct: 258 VLGRAQELLLLLDEYWAAHPELHSVPIYYASALAKKCISVYQTYIHTMNDHIRTRFNRR- 316
+
+Query: 319 XXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERWAP 378
+                          P+ FK+I +L++L++F+D GPCVM+ASPG +Q+GVSRELLERWAP
+Sbjct: 317 -------------DNPFVFKHISNLRSLEKFEDRGPCVMMASPGFMQSGVSRELLERWAP 363
+
+Query: 379 SDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAEFS 438
+             +NG++++GYSVEGTMA+ I+ EP++I  +            +G+K  IPRR SV   S
+Sbjct: 364 DKRNGLIVSGYSVEGTMARNILNEPDEIIGM------------NGQK--IPRRMSVDYIS 409
+
+Query: 439 FAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLLSLNATKTEKVKIYSPRNCEE 498
+           F+AHVD  +N  FI+E+ A  ++LVHGEQNNM +L++ L +    +   VKI++PRNCE 
+Sbjct: 410 FSAHVDFAQNSRFIDEIKAQHIVLVHGEQNNMSKLRAALQARFTARGSDVKIHTPRNCEP 469
+
+Query: 499 LRIPFKTDKTAKVVGKLASITPPTRLPTDDDYHLHPQLVTGVLVQNDFKLSLMAPEDLRE 558
+           L + F+  +TAK +G +A+  PP +            LV G+L+  DF  +++ P+DL +
+Sbjct: 470 LVLQFRAQRTAKAIGTIAA-KPPAQ----------GDLVDGLLISKDFAYTILDPKDLTD 518
+
+Query: 559 YAGLTTTTIVCRQKIMLAAAGVDLIRWALESTFG----AVDELPEMRQLHKEVPNGDDMI 614
+           + GL+T+TI+ RQ++ LA +  +++RW L+  +G     VD    +R L           
+Sbjct: 519 FTGLSTSTIIQRQRVALAVSW-EMVRWHLQGMYGRLQEGVDAEEGLRTLR---------- 567
+
+Query: 615 LDAKXXXXXXXXXXRPVAGYIVMGSINVRCFGSGEVELEWEGNTMNDGFADAVMAVLLTV 674
+                                VMG+++VR     E+ +EW  +  ND  AD+++A+LL +
+Sbjct: 568 ---------------------VMGAVDVRQSARHELLVEWVSSIANDMVADSIVALLLGI 606
+
+Query: 675 E 675
+           +
+Sbjct: 607 D 607
+
+
+>CBQ73226 pep:novel chromosome:GCA_000230245.1:7:68955:72074:1 gene:sr13886
+           transcript:CBQ73226 description:"conserved hypothetical
+           protein"
+          Length = 1039
+
+ Score =  100 bits (248), Expect = 7e-22,   Method: Compositional matrix adjust.
+ Identities = 86/369 (23%), Positives = 159/369 (43%), Gaps = 47/369 (12%)
+
+Query: 76  TVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTS----- 130
+           T+D++L+SH  +DH     Y  +K   + +V+ T P +++ K  + ++++   +      
+Sbjct: 135 TIDLVLLSHSSLDHLGLYAYAHAKLGLRCQVYATMPVQSMGKLTVLEAIQTWRSEVDIER 194
+
+Query: 131 ---SNPTSQPVYTEQDHLNTFPQIEAIDYYT-TH---TISSIRITPYPAGHVLGAAMFLI 183
+              S    + + T       F QI+ + Y   TH     +S+ +T Y AGH LG A++ I
+Sbjct: 195 EAPSGLARRCLATPDQVEEAFEQIKTVRYMQPTHLEGKCASLTLTAYNAGHSLGGAVWKI 254
+
+Query: 184 EI-AGMNIFFTGDYSREQDRHL-------------------VSAEVPRGVKIDVLITEST 223
+                  +    D++  ++RHL                     A+  R  + D+LITE  
+Sbjct: 255 RSPTSGTVVIALDWNHNRERHLDGTILLSSSAAAPGAPGAASGADAVR--RPDLLITEIE 312
+
+Query: 224 YGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKV 283
+            G+  +  R +R+ AL+  +   +  G  +L P+ A  R  EL+++LD++W     + + 
+Sbjct: 313 RGLVVNTRRKDRDAALIDLVHTTIQAGHSLLFPIDASARLLELMVLLDQHWAYAYPHARF 372
+
+Query: 284 PIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERLXXXXXXX---------XXXXXXXXP 334
+           P+   S   ++ +   +TY+  M         E +                        P
+Sbjct: 373 PLCLISRTGKEVIERSRTYMEWMTREWATKAGETIEAEKDKQPQRNARGGPNRSAAASSP 432
+
+Query: 335 WDFKYIRSLKNLDRFDDLGP----CVMLASPGMLQNGVSRELLERWAPSDKNGVVITGYS 390
+            DFKY+R   +L   D+  P     V+LA P  + +G SR LL R+A +  + VV+    
+Sbjct: 433 LDFKYVRVFPSLQAMDEAIPHDQAKVVLAVPPSMTHGPSRRLLARFAQNPNDVVVLISRG 492
+
+Query: 391 VEGTMAKQI 399
+             G++ +++
+Sbjct: 493 EPGSLCREL 501
+
+
+>CBQ70128 pep:novel chromosome:GCA_000230245.1:19:252566:254164:1
+           gene:sr16333 transcript:CBQ70128 description:"conserved
+           hypothetical protein"
+          Length = 532
+
+ Score = 30.0 bits (66), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 48/107 (44%), Gaps = 19/107 (17%)
+
+Query: 7   ASAMNVAAPDEPVDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDA--GQHPAYD--- 61
+           A++M  A P   V  +D+  FT       +G+S  +IQ  G T++ D   GQ P      
+Sbjct: 217 AASMGSATPV--VRASDQSSFTW------IGQSTCLIQLNGVTILTDPVFGQQPVTTLFS 268
+
+Query: 62  --GLAALP--FFDDFDLSTVDVLLISHFHVDH--AASLPYVLSKTNF 102
+              +  +P    +    + +DV+L++H H DH     LP +   T F
+Sbjct: 269 PTRMRPMPCSIHELVANAAIDVVLLTHNHFDHLDIDVLPLIPKHTTF 315
+
+
+>CBQ68024 pep:novel chromosome:GCA_000230245.1:1:1781478:1785197:1
+           gene:sr11890 transcript:CBQ68024 description:"conserved
+           hypothetical protein"
+          Length = 1239
+
+ Score = 29.6 bits (65), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 14/37 (37%), Positives = 20/37 (54%)
+
+Query: 163 SSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSRE 199
+           SS+ +T   + H+ G AMFLI+     +  TGD   E
+Sbjct: 170 SSVTLTLIESNHMFGGAMFLIQGDKGAVLHTGDLRAE 206
+
+
+>CBQ68262 pep:novel chromosome:GCA_000230245.1:10:25204:29022:-1 gene:sr14594
+           transcript:CBQ68262 description:"related to TRZ1-tRNase
+           Z, involved in RNA processing"
+          Length = 1240
+
+ Score = 28.9 bits (63), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 35/133 (26%), Positives = 50/133 (37%), Gaps = 25/133 (18%)
+
+Query: 5   RKASAMNVAAPDEPVDPADELVFTCLGGGNEVGR------SCHIIQYKGKTVMLDAGQHP 58
+           +K  A + +     V P  +++ T LG G+          S  I      T++LDAG+  
+Sbjct: 662 KKIKADSASTASTSVPPEKDILVTTLGTGSAAPSKYRNVISTLIQTPSSGTILLDAGEST 721
+
+Query: 59  ----------AYDGLAALP---FFDDFD--LSTVDVLLISHFHVDHAASLPYVLSKTNFK 103
+                       DG AA        D D  +  + VL ISH H DH   L  +L     +
+Sbjct: 722 YGLLRRKFGCRRDGTAAESGSLVSQDVDDIMREMRVLFISHIHADHHIGLIRLL----LE 777
+
+Query: 104 GRVFMTHPTKAIY 116
+            R     P K +Y
+Sbjct: 778 RRKLEPRPEKPLY 790
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 5,976,830
+Number of extensions: 244581
+Number of successful extensions: 568
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 559
+Number of HSP's successfully gapped: 8
+Length of query: 829
+Length of database: 3,975,336
+Length adjustment: 100
+Effective length of query: 729
+Effective length of database: 3,308,036
+Effective search space: 2411558244
+Effective search space used: 2411558244
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

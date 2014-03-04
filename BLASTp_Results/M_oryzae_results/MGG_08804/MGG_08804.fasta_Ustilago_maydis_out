@@ -1,0 +1,117 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM03070P0 pep:known supercontig:UM1:Cont_1.103:166568:168457:1 g...    75   7e-15
+
+>UM03070P0 pep:known supercontig:UM1:Cont_1.103:166568:168457:1 gene:UM03070
+           transcript:UM03070T0 description:"Protein CLP1"
+          Length = 629
+
+ Score = 75.1 bits (183), Expect = 7e-15,   Method: Compositional matrix adjust.
+ Identities = 75/305 (24%), Positives = 127/305 (41%), Gaps = 69/305 (22%)
+
+Query: 209 PLVFYYGRRRVEEDRDLYKGVVNXXXXXXXXXXXDDPAVRSAGMLIDTPPYVEGKGAD-- 266
+           PL  + G+  + E+   ++ VV+            D   R +G++IDTP  +     +  
+Sbjct: 318 PLSLWLGKENLRENERHFRRVVDWLAEGVERRFARDFRSRMSGLIIDTPGVITADARNKY 377
+
+Query: 267 -VLIHIAEELNVNIIVTIDTPSLHTELTQRFSG----------VKNVLGEH---VSVVAL 312
+             + H  +   V+ IV +    L+ E+T+ F+           +    G+    V+V+ L
+Sbjct: 378 AFIQHCVKAFKVDTIVVLGHEKLNLEMTKLFASPAVTTVETAEIPGSAGQRLPRVNVIKL 437
+
+Query: 313 DKSSGVMERDEGFLQHMGEASIKEYFFGDAKI-------------------------TLS 347
+            KS GV+E DE +   +    +K YF+G +                           +LS
+Sbjct: 438 PKSGGVVELDETYRSRLKALQVKTYFYGGSTSGSANTDGGVPKPVLPGHSDPLGGVPSLS 497
+
+Query: 348 PFTQQVAFDELAIYTSPEAS--DYSAEP-GALERIPQ-------PLPEMA------HWVL 391
+           P++  + FD L IY   + S    SA P GA   + +       P    A      H VL
+Sbjct: 498 PYSTTIPFDLLEIYKVGQESLAPSSALPIGASRTVTETQLVKLDPTNSAADQTSLLHSVL 557
+
+Query: 392 AMM------------DAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDK 439
+           A++            D++ N    +I  AP+ GFV+VA +D  R+++ +L+P +GRL  K
+Sbjct: 558 ALIQPPRGGGGAGQPDSSTNPTDDEIIGAPILGFVHVADIDTVRKKITVLSPSAGRLPSK 617
+
+Query: 440 PLVWG 444
+             + G
+Sbjct: 618 TAIIG 622
+
+
+
+ Score = 41.2 bits (95), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 48/195 (24%), Positives = 68/195 (34%), Gaps = 53/195 (27%)
+
+Query: 15  TSASRTYTLEPRQEYRFSVSHGASITITLTRGT--------AERDGTEL---ALNVAYTL 63
+           +S  R   L PR EYRF +     ++I L +G         AE  G EL   +    Y  
+Sbjct: 8   SSQYRRVHLPPRSEYRFELEPHERLSIRLVQGRTQSGEDPDAEIFGAELVGGSQERWYPF 67
+
+Query: 64  SG-VKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQXXXXXXXX------ 116
+               K+ + SW GA + + G    E +A       TA+ NLH +L+              
+Sbjct: 68  GDEAKAAVSSWRGAEIEVAGSASTEYLAEEPSPVYTAYSNLHLYLERKRIQARQALRADA 127
+
+Query: 117 ---------------------------------XXXXXXXXPHG--PRVLVAGKTGCGRT 141
+                                                    P G  PRV++ G    G+T
+Sbjct: 128 KLLTTLASSVLDPSYIAPRTTDPNTETESDPSGTAAATVYRPEGQGPRVMILGPESAGKT 187
+
+Query: 142 SLVRTLAAWATRTGA 156
+           SLV+ LA +A R+ A
+Sbjct: 188 SLVKLLANYALRSPA 202
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 3,341,679
+Number of extensions: 134054
+Number of successful extensions: 352
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 349
+Number of HSP's successfully gapped: 5
+Length of query: 455
+Length of database: 3,993,690
+Length adjustment: 96
+Effective length of query: 359
+Effective length of database: 3,367,578
+Effective search space: 1208960502
+Effective search space used: 1208960502
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

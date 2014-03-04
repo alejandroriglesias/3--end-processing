@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_00509T0 pep:novel supercontig:GCA_000166175.1:supercont1.3:...   543   e-180
+MVLG_02855T0 pep:novel supercontig:GCA_000166175.1:supercont1.24...    60   2e-09
+MVLG_05027T0 pep:novel supercontig:GCA_000166175.1:supercont1.62...    47   1e-05
+MVLG_02937T0 pep:novel supercontig:GCA_000166175.1:supercont1.25...    33   0.17 
+MVLG_01763T0 pep:novel supercontig:GCA_000166175.1:supercont1.11...    31   0.82 
+MVLG_06412T0 pep:novel supercontig:GCA_000166175.1:supercont1.11...    28   7.7  
+
+>MVLG_00509T0 pep:novel supercontig:GCA_000166175.1:supercont1.3:65972:69533:-1
+           gene:MVLG_00509 transcript:MVLG_00509T0
+           description:"hypothetical protein"
+          Length = 858
+
+ Score =  543 bits (1399), Expect = e-180,   Method: Compositional matrix adjust.
+ Identities = 291/677 (42%), Positives = 416/677 (61%), Gaps = 94/677 (13%)
+
+Query: 23  DELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLI 82
+           DE+    LG G EVGRSC +I+YKG+T++ D G HPA+ G+AALPF D+ D STVD +LI
+Sbjct: 27  DEMHVQMLGAGQEVGRSCCVIKYKGRTIVCDTGVHPAFSGMAALPFLDELDWSTVDAILI 86
+
+Query: 83  SHFHVDHAASLPYVLSKTNFK---GRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVY 139
+           +HFH+DHAASL YV+ KT+F+   G V+M+HPTKA+Y++L+ D VRV    S+     ++
+Sbjct: 87  THFHLDHAASLTYVMEKTSFREGNGVVYMSHPTKAVYRFLMSDFVRVSTAGSD---DKLF 143
+
+Query: 140 TEQDHLNTFPQIEAIDY---------------YTTHTISSIRITPYPAGHVLGAAMFLIE 184
+           TE++ L ++  I   D+                ++ + +++R T + AGHVLGA MFLIE
+Sbjct: 144 TEEEMLASWSTIIGFDFEQEILLPASNNPESSTSSSSNAAVRFTSFAAGHVLGACMFLIE 203
+
+Query: 185 IAGMNIFFTGDYSREQDRHLVSAEVP-RGVKIDVLITESTYGIASHVPRVEREQALMKSI 243
+           IAG+ + +TGDYS E+DRHLV A++P    K DV+I ESTYG+ SH PR+E+E      +
+Sbjct: 204 IAGLRVLYTGDYSTEEDRHLVPAKLPIWEKKPDVMICESTYGVQSHEPRLEKEAQFTTLV 263
+
+Query: 244 TGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYV 303
+           + I+ RGGRVL+PVFALGRAQE+LLILDEYW  H E   VPIYY S+LA KCM VY+ Y+
+Sbjct: 264 SNIIKRGGRVLLPVFALGRAQEILLILDEYWAAHPELHHVPIYYISSLALKCMDVYRQYI 323
+
+Query: 304 GAMNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFK----YIRSL-KNLDRFDDLGPCVML 358
+             M+ N++  F   +               P+DFK    +IR L + L + +D GPCV++
+Sbjct: 324 HTMSPNVREKFARGI--------------NPFDFKAKTSFIRPLERGLAKLNDKGPCVVM 369
+
+Query: 359 ASPGMLQNGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAAS 418
+           ASPG L NG SRELLE+WAP  +NG++ITGYSVEG MA+ IM EP +I A+   N  A  
+Sbjct: 370 ASPGFLTNGTSRELLEKWAPDPRNGLIITGYSVEGVMARTIMNEPTEIQAL---NGGAK- 425
+
+Query: 419 RRADGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLL 478
+                    I RR SV   SF+AHVD T+N +FI+EV    +ILVHGE NNM RL+S L 
+Sbjct: 426 ---------ISRRLSVDYISFSAHVDYTQNAKFIDEVMPAHLILVHGEANNMSRLRSALK 476
+
+Query: 479 SLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPTRLPTDDDYHLHPQLVT 538
+           +  A + + ++IY+PRN E ++I F+ ++ AK +G LA  TP    P           ++
+Sbjct: 477 TKFAERKDDIQIYTPRNVETVKIRFRGERMAKALGTLAETTPKAATP-----------LS 525
+
+Query: 539 GVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLIRWALESTFGAVDELP 598
+           G+LV  DF  + +AP DLR++ GL+T+ I+ RQ++ L+ +  +L++W L+  +G + +  
+Sbjct: 526 GLLVSKDFTYTFLAPSDLRDFTGLSTSIILQRQRLTLSVSW-ELVQWHLQGMYGKIQQGV 584
+
+Query: 599 EMRQLHKEVPNGDDMILDAKXXXXXXXXXXRPVAGYIVMGSINVRCFGSGEVELEWEGNT 658
+           +   L         M +                    +M  ++V+  G  +  +EW G+ 
+Sbjct: 585 DKEGL---------MTMR-------------------IMDIVDVKAVGKIDWVVEWVGSV 616
+
+Query: 659 MNDGFADAVMAVLLTVE 675
+            ND  AD+V+A++L V+
+Sbjct: 617 SNDMVADSVIALVLGVD 633
+
+
+>MVLG_02855T0 pep:novel supercontig:GCA_000166175.1:supercont1.24:81644:85346:1
+           gene:MVLG_02855 transcript:MVLG_02855T0
+           description:"hypothetical protein"
+          Length = 974
+
+ Score = 60.1 bits (144), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 53/255 (20%), Positives = 110/255 (43%), Gaps = 36/255 (14%)
+
+Query: 167 ITPYPAGHVLGAAMFLIEIAGMN----------IFFTGDYSREQDRHLVSAEVPRGVKID 216
+           +  + +GH LG ++F I  +  +            +   ++  ++ HL S+ +  G +ID
+Sbjct: 211 LVAHRSGHTLGGSLFTIRPSLSSSLSPASSASSFLYAPIFNHVKEHHLDSSALLNGARID 270
+
+Query: 217 -------VLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELLLI 269
+                  V++  +   +  +V R+++E+  +  +T  +     VL+PV A  R  ELL++
+Sbjct: 271 EAMRRMGVVVVGAERSLMVNVKRMDKEKTFLDCVTTTMRNNHSVLLPVDASARILELLVL 330
+
+Query: 270 LDEYWGKHQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERLXXXXXXXXXXX 329
+           L+ +W      ++ P+   S  A+   V  ++    M   + R   +             
+Sbjct: 331 LETHWSFESLGRQFPLCVVSRTAKDVFVFTRSLTEWMGGQVGRQVGDEKIL--------- 381
+
+Query: 330 XXXXPWDFKYIRSLKNLDRFD-DLGPCV---MLASPGMLQNGVSRELLERWAPSDKNGVV 385
+                  F  +R   +++  + D+ P V   +L +P  L +G SR+L   +A    N V+
+Sbjct: 382 ------KFPNVRIYPSIEALNADIPPEVPKTILVTPLSLSHGFSRKLFVEFAQVPGNVVL 435
+
+Query: 386 ITGYSVEGTMAKQIM 400
+           +T  S EG++ + + 
+Sbjct: 436 LTQTSDEGSLTRWLF 450
+
+
+>MVLG_05027T0 pep:novel supercontig:GCA_000166175.1:supercont1.62:84284:87509:-1
+           gene:MVLG_05027 transcript:MVLG_05027T0
+           description:"hypothetical protein"
+          Length = 765
+
+ Score = 47.4 bits (111), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 51/201 (25%), Positives = 85/201 (42%), Gaps = 33/201 (16%)
+
+Query: 59  AYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKW 118
+           A+DGLA +   + ++     V L++H H DH   L    +  +F   V+ T  TK I + 
+Sbjct: 18  AFDGLAEV--HNPYNQEKAYVHLLTHAHTDHTTGL----NSPDFGSTVYCTSATKEILRH 71
+
+Query: 119 LIQDSVRVGNTSSNPTSQ---------PVYTEQDHLNTFPQIEAIDYYTTHTIS-----S 164
+            ++   RV +      S+         P+      +      + I+Y    TIS     S
+Sbjct: 72  TMEVGDRVRSEEIKQISKRYKYADLRKPLQRNTGKMRIDTLFKFIEYNVPLTISGPAGES 131
+
+Query: 165 IRITPYPAGHVLGAAMFLIE-IAGMNIFFTGDYSRE--------QDR----HLVSAEVPR 211
+           + +T   A H  G+AMFLIE   G+++  TGD   E        ++R    +L  +++P 
+Sbjct: 132 VTVTAIDANHCPGSAMFLIEGTDGVSVLITGDIRAENWWIESLARNRYLSPYLAWSDLPY 191
+
+Query: 212 GVKIDVLITESTYGIASHVPR 232
+              ID  +  +   +AS   R
+Sbjct: 192 STSIDDDLNSTRLALASGSSR 212
+
+
+>MVLG_02937T0 pep:novel supercontig:GCA_000166175.1:supercont1.25:79987:82097:-1
+           gene:MVLG_02937 transcript:MVLG_02937T0
+           description:"hypothetical protein"
+          Length = 377
+
+ Score = 33.5 bits (75), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 26/88 (29%), Positives = 44/88 (50%), Gaps = 13/88 (14%)
+
+Query: 198 REQDRHLVSA-----EVPRGVKIDVLITESTY-----GIASHVPRV---EREQALMKSIT 244
+           R QD H+ SA        R     ++ITE+T+     G   +VP     E+ +A  K + 
+Sbjct: 31  RAQDDHVHSALAIEYYTQRASPGGLIITEATFILPQAGGYRNVPGCYSPEQIKAWAKIVK 90
+
+Query: 245 GILNRGGRVLMPVFALGRAQELLLILDE 272
+           G+  +GG +   ++ALGRA +  ++ +E
+Sbjct: 91  GVHGKGGIIFQQLWALGRAAQAKVLQEE 118
+
+
+>MVLG_01763T0 pep:novel supercontig:GCA_000166175.1:supercont1.11:235652:237545:-
+           1 gene:MVLG_01763 transcript:MVLG_01763T0
+           description:"hypothetical protein"
+          Length = 278
+
+ Score = 31.2 bits (69), Expect = 0.82,   Method: Compositional matrix adjust.
+ Identities = 21/66 (31%), Positives = 29/66 (43%), Gaps = 3/66 (4%)
+
+Query: 50  VMLDAGQH-PAYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVFM 108
+           ++LD  Q  P+Y  L   PF     L ++ ++L SH+H DH   L  VL     K     
+Sbjct: 47  ILLDTAQGIPSYLPLVT-PFLSSPSLQSIQIVL-SHWHQDHVGGLKDVLEVLKGKKWTIW 104
+
+Query: 109 THPTKA 114
+            H T  
+Sbjct: 105 KHATSG 110
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 6,377,233
+Number of extensions: 261146
+Number of successful extensions: 632
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 626
+Number of HSP's successfully gapped: 8
+Length of query: 829
+Length of database: 4,198,887
+Length adjustment: 101
+Effective length of query: 728
+Effective length of database: 3,409,168
+Effective search space: 2481874304
+Effective search space used: 2481874304
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa 
+           16,372 sequences; 6,110,487 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGG09575 pep:novel supercontig:GCA_000204055.1:GL883097:1117592:...    74   2e-14
+EGG08534 pep:novel supercontig:GCA_000204055.1:GL883100:1370300:...    37   0.012
+EGF97966 pep:novel supercontig:GCA_000204055.1:GL883190:12811:15...    37   0.014
+EGG13158 pep:novel supercontig:GCA_000204055.1:GL883090:1063541:...    27   8.2  
+EGF99245 pep:novel supercontig:GCA_000204055.1:GL883162:63964:67...    28   9.2  
+
+>EGG09575 pep:novel supercontig:GCA_000204055.1:GL883097:1117592:1120896:-1
+           gene:MELLADRAFT_115746 transcript:EGG09575
+           description:"hypothetical protein"
+          Length = 465
+
+ Score = 74.3 bits (181), Expect = 2e-14,   Method: Compositional matrix adjust.
+ Identities = 50/119 (42%), Positives = 62/119 (52%), Gaps = 9/119 (7%)
+
+Query: 99  ILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVK 158
+           + ++ELQW+ +D+D+R    E G     +DITFSEHKVNGKSKG  Y+E  SQ  A  VK
+Sbjct: 158 LYVAELQWYTSDEDLRKMAEELGVRIAHRDITFSEHKVNGKSKGIAYMEFASQADADKVK 217
+
+Query: 159 HRLESSGEDGASQAGRKQQVIYSSPTMN--PFRTLPKDQPRTGKDGQNRPTSG-AGYNN 214
+             L     D      RK Q   S P MN  PFR   K      ++  +R   G  GYNN
+Sbjct: 218 RWL-----DVNEIHDRKSQCNLSPP-MNGMPFRNADKHGLGNVRNTDDREVRGRGGYNN 270
+
+
+>EGG08534 pep:novel supercontig:GCA_000204055.1:GL883100:1370300:1372954:1
+           gene:MELLADRAFT_84729 transcript:EGG08534
+           description:"hypothetical protein"
+          Length = 649
+
+ Score = 37.0 bits (84), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 20/87 (22%), Positives = 42/87 (48%), Gaps = 8/87 (9%)
+
+Query: 92  DPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQ 151
+           DP + + + +  L + +TDDD+R   +  G   +++ +     ++ GKSKG  +++  + 
+Sbjct: 428 DPNSYARLYVGSLNFNLTDDDLRQVFQPFG---DIEYVDLHRDQITGKSKGYAFVQFKNM 484
+
+Query: 152 QAATAVKHRLESSGEDGASQAGRKQQV 178
+             A     ++     +G   AGR  +V
+Sbjct: 485 HDAKNAMEKM-----NGFQLAGRALRV 506
+
+
+>EGF97966 pep:novel supercontig:GCA_000204055.1:GL883190:12811:15716:1
+           gene:MELLADRAFT_84111 transcript:EGF97966
+           description:"hypothetical protein"
+          Length = 695
+
+ Score = 36.6 bits (83), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 23/89 (25%), Positives = 43/89 (48%), Gaps = 5/89 (5%)
+
+Query: 92  DPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQ 151
+           DP + + + +  L + +TDDD+R   +  G   +++ +     ++ GKSKG  +  LT  
+Sbjct: 428 DPNSYARLYVGSLNFNLTDDDLRQVFQPFG---DIEYVDLHRDQITGKSKGYAFTLLTCV 484
+
+Query: 152 QAATAVKHRLESSGE--DGASQAGRKQQV 178
+                  H  +++ E  +G   AGR  +V
+Sbjct: 485 NIRFKNMHDAKNAMEKMNGFQLAGRALRV 513
+
+
+>EGG13158 pep:novel supercontig:GCA_000204055.1:GL883090:1063541:1064221:-1
+           gene:MELLADRAFT_70414 transcript:EGG13158
+           description:"hypothetical protein"
+          Length = 188
+
+ Score = 26.9 bits (58), Expect = 8.2,   Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 22/36 (61%), Gaps = 1/36 (2%)
+
+Query: 87  DDRAIDPGATSAILISELQWWITDDDIRGWIREAGC 122
+           D  AI PG T+  LI+ ++ WI  +++ G++   GC
+Sbjct: 77  DRVAIRPGTTTTQLIN-IKQWIGGEEVLGYLDTEGC 111
+
+
+>EGF99245 pep:novel supercontig:GCA_000204055.1:GL883162:63964:67218:-1
+           gene:MELLADRAFT_79511 transcript:EGF99245
+           description:"hypothetical protein"
+          Length = 834
+
+ Score = 27.7 bits (60), Expect = 9.2,   Method: Compositional matrix adjust.
+ Identities = 27/131 (20%), Positives = 57/131 (43%), Gaps = 20/131 (15%)
+
+Query: 99  ILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYI------------ 146
+           ++I  L + IT+DD+R    + G   +++ I   +  ++ K+KG  ++            
+Sbjct: 313 LIIRNLSFEITEDDLRYTFGKFG---QIQSIELPKDPIHQKTKGFGFVWMVNYIDAENAM 369
+
+Query: 147 -ELTSQQAATAVKHRL---ESSGEDGASQAGRKQQVIYSSPTMNPFRTL-PKDQPRTGKD 201
+             L  Q  ++ +   L   E+ GE  + +  R+++        N FR+  P +  R   D
+Sbjct: 370 KALNGQTLSSGIVQELIRNETEGEKKSLKRKREKEEATEDELYNIFRSFGPLNYARIVMD 429
+
+Query: 202 GQNRPTSGAGY 212
+            + + + G G+
+Sbjct: 430 SKTQRSRGTGF 440
+
+
+  Database: Melampsora_laricipopulina.GCA_000204055.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:18 PM
+  Number of letters in database: 6,110,487
+  Number of sequences in database:  16,372
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 16372
+Number of Hits to DB: 3,261,572
+Number of extensions: 128228
+Number of successful extensions: 447
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 439
+Number of HSP's successfully gapped: 19
+Length of query: 424
+Length of database: 6,110,487
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,522,403
+Effective search space: 1478825781
+Effective search space used: 1478825781
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

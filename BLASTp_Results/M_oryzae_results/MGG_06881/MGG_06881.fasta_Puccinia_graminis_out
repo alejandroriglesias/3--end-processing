@@ -1,0 +1,313 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06881:Putative uncharacterized protein
+         (568 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHS62844 pep:novel supercontig:ASM14992v1:supercont2.133:121096:...   176   2e-48
+EFP89119 pep:novel supercontig:ASM14992v1:supercont2.58:378657:3...    70   9e-14
+EFP89116 pep:novel supercontig:ASM14992v1:supercont2.58:371747:3...    67   7e-13
+EFP82654 pep:novel supercontig:ASM14992v1:supercont2.22:431888:4...    70   1e-12
+EHS63645 pep:novel supercontig:ASM14992v1:supercont2.31:93929:98...    66   1e-11
+EFP84795 pep:novel supercontig:ASM14992v1:supercont2.31:94599:97...    65   2e-11
+EFP89103 pep:novel supercontig:ASM14992v1:supercont2.58:323666:3...    57   2e-09
+EHS63398 pep:novel supercontig:ASM14992v1:supercont2.25:418621:4...    59   3e-09
+EHS63397 pep:novel supercontig:ASM14992v1:supercont2.25:418857:4...    59   3e-09
+EFP83404 pep:novel supercontig:ASM14992v1:supercont2.25:418857:4...    59   3e-09
+EFP86835 pep:novel supercontig:ASM14992v1:supercont2.41:496470:4...    58   4e-09
+EHS64663 pep:novel supercontig:ASM14992v1:supercont2.8:1007105:1...    57   1e-08
+EFP82875 pep:novel supercontig:ASM14992v1:supercont2.23:281911:2...    54   3e-08
+EHS63323 pep:novel supercontig:ASM14992v1:supercont2.23:281911:2...    53   4e-08
+EFP79702 pep:novel supercontig:ASM14992v1:supercont2.12:1067519:...    54   4e-08
+EFP77260 pep:novel supercontig:ASM14992v1:supercont2.6:925360:92...    52   6e-08
+EFP80572 pep:novel supercontig:ASM14992v1:supercont2.15:281089:2...    52   2e-07
+EFP89726 pep:novel supercontig:ASM14992v1:supercont2.64:146397:1...    52   3e-07
+EFP76858 pep:novel supercontig:ASM14992v1:supercont2.5:1247465:1...    51   3e-07
+EFP92049 pep:novel supercontig:ASM14992v1:supercont2.96:46294:49...    52   5e-07
+EFP74670 pep:novel supercontig:ASM14992v1:supercont2.1:2598122:2...    51   5e-07
+EHS64385 pep:novel supercontig:ASM14992v1:supercont2.62:394157:3...    52   6e-07
+EFP87164 pep:novel supercontig:ASM14992v1:supercont2.43:553952:5...    51   6e-07
+EFP75969 pep:novel supercontig:ASM14992v1:supercont2.3:2316617:2...    49   8e-07
+EFP81660 pep:novel supercontig:ASM14992v1:supercont2.18:761031:7...    49   2e-06
+EFP84104 pep:novel supercontig:ASM14992v1:supercont2.28:121004:1...    49   2e-06
+EFP88714 pep:novel supercontig:ASM14992v1:supercont2.55:204812:2...    48   5e-06
+EFP88000 pep:novel supercontig:ASM14992v1:supercont2.49:390150:3...    47   2e-05
+EFP92368 pep:novel supercontig:ASM14992v1:supercont2.102:83940:8...    46   3e-05
+EFP90972 pep:novel supercontig:ASM14992v1:supercont2.78:240442:2...    45   5e-05
+EFP80573 pep:novel supercontig:ASM14992v1:supercont2.15:283787:2...    43   2e-04
+EHS63201 pep:novel supercontig:ASM14992v1:supercont2.2:2239481:2...    44   2e-04
+EHS64431 pep:novel supercontig:ASM14992v1:supercont2.66:211658:2...    43   2e-04
+EFP83273 pep:novel supercontig:ASM14992v1:supercont2.24:807231:8...    40   5e-04
+EFP84073 pep:novel supercontig:ASM14992v1:supercont2.28:21510:24...    41   7e-04
+EFP75506 pep:novel supercontig:ASM14992v1:supercont2.3:441368:44...    40   0.001
+EFP82158 pep:novel supercontig:ASM14992v1:supercont2.20:544566:5...    39   0.002
+EFP89570 pep:novel supercontig:ASM14992v1:supercont2.62:282756:2...    39   0.003
+EFP92080 pep:novel supercontig:ASM14992v1:supercont2.96:177914:1...    39   0.003
+EFP74371 pep:novel supercontig:ASM14992v1:supercont2.1:1380067:1...    36   0.005
+EFP84841 pep:novel supercontig:ASM14992v1:supercont2.31:299625:3...    39   0.005
+EFP75127 pep:novel supercontig:ASM14992v1:supercont2.2:1454601:1...    37   0.008
+EFP87966 pep:novel supercontig:ASM14992v1:supercont2.49:256913:2...    38   0.009
+EFP76374 pep:novel supercontig:ASM14992v1:supercont2.4:1317950:1...    37   0.012
+EFP78372 pep:novel supercontig:ASM14992v1:supercont2.9:383305:38...    37   0.014
+EFP77368 pep:novel supercontig:ASM14992v1:supercont2.6:1421102:1...    37   0.016
+EFP81173 pep:novel supercontig:ASM14992v1:supercont2.16:1204316:...    36   0.030
+EFP94447 pep:novel supercontig:ASM14992v1:supercont2.276:4689:57...    34   0.052
+EFP80881 pep:novel supercontig:ASM14992v1:supercont2.16:150016:1...    34   0.055
+EHS64731 pep:novel supercontig:ASM14992v1:supercont2.85:205477:2...    34   0.082
+EFP85068 pep:novel supercontig:ASM14992v1:supercont2.32:353979:3...    33   0.19 
+EFP75208 pep:novel supercontig:ASM14992v1:supercont2.2:1744587:1...    33   0.23 
+EFP78377 pep:novel supercontig:ASM14992v1:supercont2.9:408882:41...    33   0.27 
+EHS62806 pep:novel supercontig:ASM14992v1:supercont2.128:55581:5...    33   0.30 
+EFP80425 pep:novel supercontig:ASM14992v1:supercont2.14:1194264:...    32   0.38 
+EFP87885 pep:novel supercontig:ASM14992v1:supercont2.48:464498:4...    32   0.46 
+EFP80783 pep:novel supercontig:ASM14992v1:supercont2.15:1082065:...    32   0.50 
+EFP91262 pep:novel supercontig:ASM14992v1:supercont2.83:77759:82...    32   0.54 
+EFP83406 pep:novel supercontig:ASM14992v1:supercont2.25:427448:4...    32   0.60 
+EFP84583 pep:novel supercontig:ASM14992v1:supercont2.30:237283:2...    32   0.89 
+EHS62725 pep:novel supercontig:ASM14992v1:supercont2.116:64095:6...    30   1.1  
+EFP79268 pep:novel supercontig:ASM14992v1:supercont2.11:836810:8...    31   1.3  
+EFP80080 pep:novel supercontig:ASM14992v1:supercont2.13:1122552:...    28   8.2  
+
+>EHS62844 pep:novel supercontig:ASM14992v1:supercont2.133:121096:124662:1
+           gene:PGTG_22696 transcript:EHS62844
+           description:"hypothetical protein"
+          Length = 482
+
+ Score =  176 bits (445), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 87/194 (44%), Positives = 117/194 (60%), Gaps = 31/194 (15%)
+
+Query: 117 EDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIV 176
+           ++GKMF+GGLNWETT+++L+ YF+QFG V+ CT+MRD T GRSRGF FLTF DP  VN V
+Sbjct: 125 DEGKMFVGGLNWETTEDALKQYFAQFGNVVHCTIMRDPTNGRSRGFAFLTFADPTVVNKV 184
+
+Query: 177 MVKEHYLDGKIIDPKRAIPR---------------------------DEQEKTSKIFVGG 209
+           MVKEH+LDGK+IDPKRAIPR                                ++K+F  G
+Sbjct: 185 MVKEHFLDGKLIDPKRAIPRGSGPGPSAIAGAPMADRRAAHHQFGAETPASLSNKLFCRG 244
+
+Query: 210 VSQETTDQEFKDFFAQF---GRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL-ARDL 265
+           + ++ T Q F+ F+AQ+     + +A LMMD+D+ R RGFGFV   +    E+ L     
+Sbjct: 245 MPEDATPQSFRAFWAQYDSQANIEEAILMMDRDSNRHRGFGFVNLVTGDDAESLLRCGPF 304
+
+Query: 266 EIHGKLIEVKKAQP 279
+            + G  +EVK+  P
+Sbjct: 305 VMDGHPLEVKRKAP 318
+
+
+>EFP89119 pep:novel supercontig:ASM14992v1:supercont2.58:378657:380507:-1
+           gene:PGTG_14960 transcript:EFP89119
+           description:"hypothetical protein"
+          Length = 179
+
+ Score = 69.7 bits (169), Expect = 9e-14,   Method: Compositional matrix adjust.
+ Identities = 35/72 (48%), Positives = 45/72 (62%), Gaps = 2/72 (2%)
+
+Query: 119 GKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTV--NIV 176
+           GK+F+G L W T   SL+  F QFG+VI+  VM+D  TGRSRGFGF+TFK+       I 
+Sbjct: 8   GKLFVGNLAWTTDSGSLKSAFGQFGDVIDAIVMQDRETGRSRGFGFITFKEEADAPGAIE 67
+
+Query: 177 MVKEHYLDGKII 188
+            +    LDG+ I
+Sbjct: 68  ALNGQELDGREI 79
+
+
+
+ Score = 64.7 bits (156), Expect = 4e-12,   Method: Compositional matrix adjust.
+ Identities = 34/78 (43%), Positives = 48/78 (61%), Gaps = 6/78 (7%)
+
+Query: 204 KIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEA----GVEA 259
+           K+FVG ++  T     K  F QFG V+DA +M D++TGR RGFGF+TF+ EA     +EA
+Sbjct: 9   KLFVGNLAWTTDSGSLKSAFGQFGDVIDAIVMQDRETGRSRGFGFITFKEEADAPGAIEA 68
+
+Query: 260 CLARDLEIHGKLIEVKKA 277
+              ++L+  G+ I V  A
+Sbjct: 69  LNGQELD--GREIRVNYA 84
+
+
+>EFP89116 pep:novel supercontig:ASM14992v1:supercont2.58:371747:373998:-1
+           gene:PGTG_14957 transcript:EFP89116 description:"small
+           subunit ribosomal protein S19"
+          Length = 206
+
+ Score = 67.4 bits (163), Expect = 7e-13,   Method: Compositional matrix adjust.
+ Identities = 33/71 (46%), Positives = 44/71 (61%), Gaps = 2/71 (2%)
+
+Query: 120 KMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTV--NIVM 177
+           K+F+G L W T   SL+  F QFG+V++  VM+D  TGRSRGFGF+TFK+       I  
+Sbjct: 33  KLFVGNLAWTTDSGSLKSAFGQFGDVVDAIVMQDRETGRSRGFGFITFKEEAAAPGAIEA 92
+
+Query: 178 VKEHYLDGKII 188
+           +    LDG+ I
+Sbjct: 93  LNGQELDGREI 103
+
+
+
+ Score = 65.9 bits (159), Expect = 2e-12,   Method: Compositional matrix adjust.
+ Identities = 37/95 (38%), Positives = 53/95 (55%), Gaps = 6/95 (6%)
+
+Query: 187 IIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGF 246
+           I+ P+           +K+FVG ++  T     K  F QFG VVDA +M D++TGR RGF
+Sbjct: 16  ILHPRTLSSMSSPPGGNKLFVGNLAWTTDSGSLKSAFGQFGDVVDAIVMQDRETGRSRGF 75
+
+Query: 247 GFVTFESEA----GVEACLARDLEIHGKLIEVKKA 277
+           GF+TF+ EA     +EA   ++L+  G+ I V  A
+Sbjct: 76  GFITFKEEAAAPGAIEALNGQELD--GREIRVNYA 108
+
+
+>EFP82654 pep:novel supercontig:ASM14992v1:supercont2.22:431888:434078:-1
+           gene:PGTG_08850 transcript:EFP82654
+           description:"hypothetical protein"
+          Length = 637
+
+ Score = 69.7 bits (169), Expect = 1e-12,   Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 76/160 (47%), Gaps = 17/160 (10%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVKE 180
+           +++GGL+W    E L+  F   G +++  V+ D  T +S+GFG++ F+  +     +  +
+Sbjct: 360 VYVGGLSWNVDSEWLKSEFESCGPIVDARVITDRDTQKSKGFGYIDFETCEGAQKAIETK 419
+
+Query: 181 H--YLDGKIIDPKRAIPRDEQ---------------EKTSKIFVGGVSQETTDQEFKDFF 223
+           +   LDG+ +    + PR E+                +++ +FVG +    T     + F
+Sbjct: 420 NGTELDGRTLKVDLSAPRAERAPAENKRDFSKEELSAESTTLFVGNLPFSATQDSVWEIF 479
+
+Query: 224 AQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLAR 263
+           A++G V    L  D +T R +GFG+V F +     A + +
+Sbjct: 480 AEYGDVNSVRLPTDPETQRVKGFGYVEFATLESARAAVEK 519
+
+
+
+ Score = 50.4 bits (119), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 27/92 (29%), Positives = 50/92 (54%), Gaps = 4/92 (4%)
+
+Query: 190 PKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFV 249
+           PK+A  +  +E    ++VGG+S     +  K  F   G +VDA ++ D+DT + +GFG++
+Sbjct: 347 PKKA--KAAEEGIKNVYVGGLSWNVDSEWLKSEFESCGPIVDARVITDRDTQKSKGFGYI 404
+
+Query: 250 TFESEAGVEACLARD--LEIHGKLIEVKKAQP 279
+            FE+  G +  +      E+ G+ ++V  + P
+Sbjct: 405 DFETCEGAQKAIETKNGTELDGRTLKVDLSAP 436
+
+
+>EHS63645 pep:novel supercontig:ASM14992v1:supercont2.31:93929:98029:-1
+           gene:PGTG_10266 transcript:EHS63645
+           description:"hypothetical protein, variant"
+          Length = 715
+
+ Score = 66.2 bits (160), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 50/172 (29%), Positives = 90/172 (52%), Gaps = 14/172 (8%)
+
+Query: 119 GKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVM- 177
+           G +FI  L+    +++L D F+ FG+++ C V  D   G S+G+GF+ +   ++    + 
+Sbjct: 172 GNIFIKNLDETIDNKALHDTFAAFGDILSCKVATD-EHGASKGYGFVHYVTGESAEAAIK 230
+
+Query: 178 -VKEHYLDGKIIDPKRAIPR-DEQEKT-------SKIFVGGVSQETTDQEFKDFFAQFGR 228
+            V    L+ K++     +PR D Q K        + +++  +  ETT +E  + F +FG 
+Sbjct: 231 GVNGMQLNDKVVFVGIHVPRRDRQAKIDEVRSQFTNLYIKNLPTETTTEELNEVFGKFGP 290
+
+Query: 229 VVDATLMMDKDTGRPRGFGFVTFES-EAGVEACLA-RDLEIHGKLIEVKKAQ 278
+           +  A +  D + G+ RGFGFV +E+ E+  +A  A  D +  G ++ V +AQ
+Sbjct: 291 ITSAAVQSD-EHGKHRGFGFVNYENHESASKAVDALHDKDYKGNVLYVARAQ 341
+
+
+
+ Score = 60.1 bits (144), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 39/171 (22%), Positives = 80/171 (46%), Gaps = 13/171 (7%)
+
+Query: 113 PNSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP-- 170
+           P S+ +  +++G L+   T+  L + FS  G V    V RD  T RS G+ ++ + +   
+Sbjct: 78  PASQPNTSLYVGELDPTVTEAMLYEIFSMIGPVASIRVCRDAVTRRSLGYAYVNYLNAAD 137
+
+Query: 171 -----KTVNIVMVKEHYLDGKIIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQ 225
+                + +N  ++K      +I+  +R  P   +     IF+  + +   ++   D FA 
+Sbjct: 138 AERALEQLNYSLIKNKAC--RIMWSQRD-PSLRKTGQGNIFIKNLDETIDNKALHDTFAA 194
+
+Query: 226 FGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL--ARDLEIHGKLIEV 274
+           FG ++   +  D + G  +G+GFV + +    EA +     ++++ K++ V
+Sbjct: 195 FGDILSCKVATD-EHGASKGYGFVHYVTGESAEAAIKGVNGMQLNDKVVFV 244
+
+
+
+ Score = 56.6 bits (135), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 46/172 (26%), Positives = 80/172 (46%), Gaps = 25/172 (14%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVKE 180
+           ++I  L  ETT E L + F +FG +    V  D   G+ RGFGF+ +++ ++ +  +   
+Sbjct: 267 LYIKNLPTETTTEELNEVFGKFGPITSAAVQSD-EHGKHRGFGFVNYENHESASKAVDAL 325
+
+Query: 181 HYLD--GKIIDPKRAIPRDEQEKTSK------------------IFVGGVSQETTDQEFK 220
+           H  D  G ++   RA  R E++   K                  ++V  +  E  D++ +
+Sbjct: 326 HDKDYKGNVLYVARAQKRTERDAELKKAHEQQKYETTLKYQGVNLYVKNLDDEYDDEKLQ 385
+
+Query: 221 DFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLARDLEIHGKLI 272
+           + F  FG +    +M D + G  +GFGFV F S       +A   E++GK++
+Sbjct: 386 NEFTPFGTITSCKVMKD-EKGTSKGFGFVCFSSPDEATKAVA---EMNGKML 433
+
+
+
+ Score = 47.8 bits (112), Expect = 7e-06,   Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 4/71 (5%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVKE 180
+           +++  L+ E  DE L++ F+ FG +  C VM+D   G S+GFGF+ F  P      + + 
+Sbjct: 370 LYVKNLDDEYDDEKLQNEFTPFGTITSCKVMKD-EKGTSKGFGFVCFSSPDEATKAVAE- 427
+
+Query: 181 HYLDGKIIDPK 191
+             ++GK++  K
+Sbjct: 428 --MNGKMLGSK 436
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.313    0.134    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 4,627,843
+Number of extensions: 152066
+Number of successful extensions: 433
+Number of sequences better than 10.0: 63
+Number of HSP's gapped: 389
+Number of HSP's successfully gapped: 125
+Length of query: 568
+Length of database: 6,308,381
+Length adjustment: 100
+Effective length of query: 468
+Effective length of database: 4,710,481
+Effective search space: 2204505108
+Effective search space used: 2204505108
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

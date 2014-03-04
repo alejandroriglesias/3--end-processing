@@ -1,0 +1,179 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa 
+           6673 sequences; 3,975,336 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBQ73472 pep:novel chromosome:GCA_000230245.1:7:756729:758786:1 ...    76   3e-15
+CBQ69904 pep:novel chromosome:GCA_000230245.1:18:163234:166092:-...    31   0.54 
+CBQ71260 pep:novel chromosome:GCA_000230245.1:21:14292:15797:1 g...    28   3.5  
+CBQ68865 pep:novel chromosome:GCA_000230245.1:12:437367:442655:1...    28   7.0  
+CBQ69834 pep:novel chromosome:GCA_000230245.1:17:484332:500694:-...    28   7.4  
+CBQ71919 pep:novel chromosome:GCA_000230245.1:3:766661:769714:1 ...    27   9.8  
+
+>CBQ73472 pep:novel chromosome:GCA_000230245.1:7:756729:758786:1 gene:sr14129
+           transcript:CBQ73472 description:"related to Pre-mRNA
+           cleavage complex II protein Clp1"
+          Length = 627
+
+ Score = 76.3 bits (186), Expect = 3e-15,   Method: Compositional matrix adjust.
+ Identities = 76/305 (24%), Positives = 127/305 (41%), Gaps = 71/305 (23%)
+
+Query: 209 PLVFYYGRRRVEEDRDLYKGVVNXXXXXXXXXXXDDPAVRSAGMLIDTPPYVEGKGAD-- 266
+           PL  + G+  V ++   ++ VV+            D   R +G++IDTP  V        
+Sbjct: 318 PLSLWLGKENVRDNERHFRRVVDWLAEGVERRLARDFRSRMSGLIIDTPGVVTADARTKY 377
+
+Query: 267 -VLIHIAEELNVNIIVTIDTPSLHTELTQRF------------SGVKNVLGEHVSVVALD 313
+             + H  +   V+ IV +    L+ E+T+ F            +G + +    V+V+ L 
+Sbjct: 378 AFVQHCVKAFKVDTIVVLGHEKLNLEMTKLFGSAAETAEIPGSAGAQRL--PRVNVIKLP 435
+
+Query: 314 KSSGVMERDEGFLQHMGEASIKEYFFGDAKI--------------------------TLS 347
+           KS GV+E DE +   +    +K YF+G + +                          +LS
+Sbjct: 436 KSGGVVELDETYRARLKALQVKTYFYGGSSVGGAAAQEGGVPKVVLPGHADPLGGVPSLS 495
+
+Query: 348 PFTQQVAFDELAIYTSPEAS--DYSAEP-GALERIPQ-------PLPEMA------HWVL 391
+           P++  + FD L IY   + S    SA P GA   + +       P    A      H VL
+Sbjct: 496 PYSTTIPFDLLEIYRVGQESLAPSSALPIGASRTVTETQLVKMDPTNSAADQTSLLHSVL 555
+
+Query: 392 AMM------------DAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDK 439
+           A++            D++ N    +I  AP+ GFV+VA +D  R+++ +L+P +GRL  K
+Sbjct: 556 ALIQPPRGGGGAGQPDSSTNPTDDEIIGAPILGFVHVADIDTVRKKITVLSPSTGRLPSK 615
+
+Query: 440 PLVWG 444
+             + G
+Sbjct: 616 TAILG 620
+
+
+
+ Score = 40.4 bits (93), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 47/195 (24%), Positives = 67/195 (34%), Gaps = 53/195 (27%)
+
+Query: 15  TSASRTYTLEPRQEYRFSVSHGASITITLTRG-TAERDGTELALNVAYTLSGV------- 66
+           +S  R   L PR EYRF +     ++I L +  T   D  +  +  A  + G        
+Sbjct: 8   SSQHRRVFLPPRSEYRFELEPHERLSIRLVQNRTQSGDEPDAEIFGAELVGGTQERWYPF 67
+
+Query: 67  ----KSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQXXXXXXXX------ 116
+               K+ + SW GA + I G    E +A       TA+ NLH +L+              
+Sbjct: 68  GDEAKAAVSSWRGAEIEIAGSASTEYLADEPSPVYTAYSNLHLYLERKRILARQALRADA 127
+
+Query: 117 ---------------------------------XXXXXXXXPHG--PRVLVAGKTGCGRT 141
+                                                    P G  PRV+V G    G+T
+Sbjct: 128 KLLSTLAGSVLDPSYIAPRTTDPNTETESDPSGTAASTVYRPEGQGPRVMVLGPESAGKT 187
+
+Query: 142 SLVRTLAAWATRTGA 156
+           SLV+ LA +A R+ A
+Sbjct: 188 SLVKFLANYALRSPA 202
+
+
+>CBQ69904 pep:novel chromosome:GCA_000230245.1:18:163234:166092:-1
+           gene:sr16177 transcript:CBQ69904 description:"related to
+           cystathionine beta-lyase"
+          Length = 952
+
+ Score = 31.2 bits (69), Expect = 0.54,   Method: Compositional matrix adjust.
+ Identities = 27/89 (30%), Positives = 40/89 (44%), Gaps = 18/89 (20%)
+
+Query: 345 TLSPFTQQVAFD----ELAIYTSPEASDYSAEPGALERIPQPLPEMAH--------WVLA 392
+           T++PF   VA      + +I TSPE SD        +  P  LP ++H        +  A
+Sbjct: 17  TVTPFNTDVASSVASLDSSIPTSPEPSDIG------DDAPPKLPFVSHKDRRGANGYRFA 70
+
+Query: 393 MMDAAPNDPPHKIRYAPVSGFVYVAAVDK 421
+              A  +DP HK +Y   S  +Y++A  K
+Sbjct: 71  TQCATVDDPNHKDQYGSSSTPIYMSATFK 99
+
+
+>CBQ71260 pep:novel chromosome:GCA_000230245.1:21:14292:15797:1 gene:sr16609
+           transcript:CBQ71260 description:"related to 3-oxoadipate
+           enol-lactone hydrolase"
+          Length = 501
+
+ Score = 28.5 bits (62), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 22/41 (53%), Gaps = 1/41 (2%)
+
+Query: 406 RYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKW 446
+           RY P +G   +A   +ERR  + L P+ G L + P + G W
+Sbjct: 7   RY-PAAGVDPIADAIRERRGARGLTPLDGSLLNAPAIAGGW 46
+
+
+>CBQ68865 pep:novel chromosome:GCA_000230245.1:12:437367:442655:1
+           gene:sr15170 transcript:CBQ68865 description:"conserved
+           hypothetical protein"
+          Length = 1762
+
+ Score = 27.7 bits (60), Expect = 7.0,   Method: Compositional matrix adjust.
+ Identities = 15/46 (32%), Positives = 19/46 (41%)
+
+Query: 381 QPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRM 426
+           Q  P + HW     D AP D  H+ R+  V  F   A    +R  M
+Sbjct: 779 QAQPTVHHWASLADDKAPQDMFHQQRFIRVDDFAQDAYYSPQRSNM 824
+
+
+>CBQ69834 pep:novel chromosome:GCA_000230245.1:17:484332:500694:-1 gene:sr15752
+            transcript:CBQ69834 description:"related to MDN1-Huge
+            dynein-related AAA-type ATPase (midasin)"
+          Length = 5424
+
+ Score = 27.7 bits (60), Expect = 7.4,   Method: Compositional matrix adjust.
+ Identities = 14/27 (51%), Positives = 17/27 (62%)
+
+Query: 127  GPRVLVAGKTGCGRTSLVRTLAAWATR 153
+            G  VL+ G  G G+TSL+  LAA A R
+Sbjct: 1933 GRSVLLEGSPGAGKTSLITALAAAAGR 1959
+
+
+  Database: Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,975,336
+  Number of sequences in database:  6673
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6673
+Number of Hits to DB: 3,439,297
+Number of extensions: 142856
+Number of successful extensions: 396
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 393
+Number of HSP's successfully gapped: 11
+Length of query: 455
+Length of database: 3,975,336
+Length adjustment: 96
+Effective length of query: 359
+Effective length of database: 3,334,728
+Effective search space: 1197167352
+Effective search space used: 1197167352
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

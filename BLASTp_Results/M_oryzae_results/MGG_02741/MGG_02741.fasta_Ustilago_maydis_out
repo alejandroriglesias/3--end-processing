@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM04269P0 pep:known supercontig:UM1:Cont_1.150:154150:155403:1 g...    86   6e-19
+UM00516P0 pep:known supercontig:UM1:Cont_1.11:57851:61084:-1 gen...    30   0.94 
+UM01306P0 pep:known supercontig:UM1:Cont_1.46:114833:117808:1 ge...    27   9.1  
+
+>UM04269P0 pep:known supercontig:UM1:Cont_1.150:154150:155403:1 gene:UM04269
+           transcript:UM04269T0 description:"hypothetical protein"
+          Length = 374
+
+ Score = 86.3 bits (212), Expect = 6e-19,   Method: Compositional matrix adjust.
+ Identities = 45/106 (42%), Positives = 57/106 (53%), Gaps = 4/106 (3%)
+
+Query: 89  RAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIEL 148
+           +  DP   +A+ I +L WW TD++IR      G    L DITFSEHKVNGKSKG  Y+E 
+Sbjct: 108 KVTDPNIQNAVYIGDLNWWSTDEEIRQIASSVGVTLSLNDITFSEHKVNGKSKGVAYVET 167
+
+Query: 149 TSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKD 194
+            S+  A  +K       E+      R    + +S   NPFRTLPKD
+Sbjct: 168 ESEADARKIKTWF----EENDFHFKRANVTLTTSANGNPFRTLPKD 209
+
+
+>UM00516P0 pep:known supercontig:UM1:Cont_1.11:57851:61084:-1 gene:UM00516
+           transcript:UM00516T0 description:"hypothetical protein"
+          Length = 1077
+
+ Score = 30.4 bits (67), Expect = 0.94,   Method: Compositional matrix adjust.
+ Identities = 22/85 (25%), Positives = 36/85 (42%), Gaps = 6/85 (7%)
+
+Query: 97  SAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATA 156
+           + + +S L +  T  D++    E G    LK       +   KSKG  Y+     + AT 
+Sbjct: 48  ATLFVSRLPYTATTTDLQTMFSEIG---PLKRAFVVTDQATKKSKGVGYVTFAIPEDATT 104
+
+Query: 157 VKHRLESSGEDGASQAGRKQQVIYS 181
+              +L+    DG S   RK Q+ ++
+Sbjct: 105 ALEQLQGKSLDGGS---RKIQITFA 126
+
+
+>UM01306P0 pep:known supercontig:UM1:Cont_1.46:114833:117808:1 gene:UM01306
+           transcript:UM01306T0 description:"Putative
+           uncharacterized protein"
+          Length = 991
+
+ Score = 26.9 bits (58), Expect = 9.1,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 24/49 (48%), Gaps = 3/49 (6%)
+
+Query: 158 KHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRP 206
+           KHR        A+QA  +Q +  +S +++PFR     QP  G  G + P
+Sbjct: 68  KHRQLQRLAKHATQAAAEQSLTTASTSLSPFRNF---QPNNGPVGDSAP 113
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 2,123,709
+Number of extensions: 86289
+Number of successful extensions: 370
+Number of sequences better than 10.0: 24
+Number of HSP's gapped: 363
+Number of HSP's successfully gapped: 24
+Length of query: 424
+Length of database: 3,993,690
+Length adjustment: 95
+Effective length of query: 329
+Effective length of database: 3,374,100
+Effective search space: 1110078900
+Effective search space used: 1110078900
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

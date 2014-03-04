@@ -1,0 +1,105 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa 
+           15,979 sequences; 6,308,381 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFP80301 pep:novel supercontig:ASM14992v1:supercont2.14:549435:5...    55   2e-08
+EFP76914 pep:novel supercontig:ASM14992v1:supercont2.5:1452099:1...    54   5e-08
+EFP91376 pep:novel supercontig:ASM14992v1:supercont2.85:3183:424...    27   8.9  
+
+>EFP80301 pep:novel supercontig:ASM14992v1:supercont2.14:549435:553621:-1
+           gene:PGTG_06257 transcript:EFP80301
+           description:"hypothetical protein"
+          Length = 970
+
+ Score = 55.1 bits (131), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 31/48 (64%), Gaps = 1/48 (2%)
+
+Query: 154 VNIDED-LGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSE 200
+           +N D D L E    W+KPG  ++D+FNYGFDE +W  Y  KQ +LR E
+Sbjct: 284 MNFDFDALPESEKGWKKPGAHLADWFNYGFDETTWRTYVMKQKRLRKE 331
+
+
+>EFP76914 pep:novel supercontig:ASM14992v1:supercont2.5:1452099:1455752:1
+           gene:PGTG_02375 transcript:EFP76914
+           description:"hypothetical protein"
+          Length = 870
+
+ Score = 53.5 bits (127), Expect = 5e-08,   Method: Compositional matrix adjust.
+ Identities = 23/48 (47%), Positives = 31/48 (64%), Gaps = 1/48 (2%)
+
+Query: 154 VNIDED-LGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSE 200
+           +N D D L E    W+KPG  ++D+FNYGFD+ +W  Y  KQ +LR E
+Sbjct: 315 MNFDFDALPESEKGWKKPGAHLADWFNYGFDKTTWRTYVMKQKRLRKE 362
+
+
+>EFP91376 pep:novel supercontig:ASM14992v1:supercont2.85:3183:4241:1
+           gene:PGTG_17332 transcript:EFP91376
+           description:"hypothetical protein"
+          Length = 231
+
+ Score = 26.9 bits (58), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 12/20 (60%)
+
+Query: 142 PEHKPTGKPLTQVNIDEDLG 161
+           P H+P GKPL   N D DL 
+Sbjct: 41  PLHQPAGKPLRSYNYDIDLN 60
+
+
+  Database: Puccinia_graminis.ASM14992v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:22 PM
+  Number of letters in database: 6,308,381
+  Number of sequences in database:  15,979
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15979
+Number of Hits to DB: 2,638,983
+Number of extensions: 104498
+Number of successful extensions: 401
+Number of sequences better than 10.0: 36
+Number of HSP's gapped: 400
+Number of HSP's successfully gapped: 36
+Length of query: 332
+Length of database: 6,308,381
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,790,376
+Effective search space: 1135319112
+Effective search space used: 1135319112
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

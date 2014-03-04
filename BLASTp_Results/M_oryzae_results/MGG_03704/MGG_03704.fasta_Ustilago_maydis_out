@@ -1,0 +1,93 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM03935P0 pep:known supercontig:UM1:Cont_1.136:22247:23812:-1 ge...    30   0.39 
+UM00527P0 pep:known supercontig:UM1:Cont_1.12:10271:10783:-1 gen...    25   9.4  
+
+>UM03935P0 pep:known supercontig:UM1:Cont_1.136:22247:23812:-1 gene:UM03935
+           transcript:UM03935T0 description:"hypothetical protein"
+          Length = 521
+
+ Score = 30.4 bits (67), Expect = 0.39,   Method: Compositional matrix adjust.
+ Identities = 21/64 (32%), Positives = 34/64 (53%), Gaps = 7/64 (10%)
+
+Query: 75  PNVYKFNSTSY--DAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRL 132
+           P V  F+S  Y  + ++K+ + + +  Y +NG L    R R  KRG  R++D      +L
+Sbjct: 294 PVVINFSSGFYQFEPVFKDGQWQLKIAYHSNGYLYPKPRQRESKRGYPRFED-----SKL 348
+
+Query: 133 EHAS 136
+           EHA+
+Sbjct: 349 EHAA 352
+
+
+>UM00527P0 pep:known supercontig:UM1:Cont_1.12:10271:10783:-1 gene:UM00527
+          transcript:UM00527T0 description:"hypothetical protein"
+          Length = 170
+
+ Score = 25.4 bits (54), Expect = 9.4,   Method: Compositional matrix adjust.
+ Identities = 14/30 (46%), Positives = 18/30 (60%), Gaps = 4/30 (13%)
+
+Query: 44 EAHLQLSKANYPVISFGTGSLVRLPGPTIT 73
+          +A+L+ S  N P+    T SLVR P PT T
+Sbjct: 34 KANLKTSTPNKPL----TSSLVRKPSPTCT 59
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 2,048,824
+Number of extensions: 80486
+Number of successful extensions: 151
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 151
+Number of HSP's successfully gapped: 3
+Length of query: 259
+Length of database: 3,993,690
+Length adjustment: 90
+Effective length of query: 169
+Effective length of database: 3,406,710
+Effective search space: 575733990
+Effective search space used: 575733990
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

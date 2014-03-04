@@ -1,0 +1,81 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa 
+           7819 sequences; 4,198,887 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MVLG_02407T0 pep:novel supercontig:GCA_000166175.1:supercont1.18...    56   4e-09
+
+>MVLG_02407T0 pep:novel supercontig:GCA_000166175.1:supercont1.18:195267:198829:-
+           1 gene:MVLG_02407 transcript:MVLG_02407T0
+           description:"hypothetical protein"
+          Length = 832
+
+ Score = 56.2 bits (134), Expect = 4e-09,   Method: Compositional matrix adjust.
+ Identities = 34/96 (35%), Positives = 49/96 (51%), Gaps = 20/96 (20%)
+
+Query: 129 PPVTKSNFDPYAIPEH-----KPTGKPLTQVNID----EDLGEDA----------APWRK 169
+           PP T +  +P  IP       +PT  P   +++D    +D G D            PW +
+Sbjct: 136 PPPTTAKLEPTLIPRGSLYPLQPT-MPPPSLDVDLIPQDDQGHDLFDLELDALPEKPWTR 194
+
+Query: 170 PGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYSADA 205
+           PG +++DYFNYG +E +W  YAQKQ ++R E   DA
+Sbjct: 195 PGANMADYFNYGMNEAAWKNYAQKQKKMRQEVQNDA 230
+
+
+  Database: Microbotryum_violaceum.GCA_000166175.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:20 PM
+  Number of letters in database: 4,198,887
+  Number of sequences in database:  7819
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7819
+Number of Hits to DB: 1,743,177
+Number of extensions: 70213
+Number of successful extensions: 264
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 264
+Number of HSP's successfully gapped: 15
+Length of query: 332
+Length of database: 4,198,887
+Length adjustment: 93
+Effective length of query: 239
+Effective length of database: 3,471,720
+Effective search space: 829741080
+Effective search space used: 829741080
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

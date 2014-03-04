@@ -1,0 +1,163 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Ustilago_maydis.UM1.21.pep.all.fa 
+           6522 sequences; 3,993,690 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UM04055P0 pep:known supercontig:UM1:Cont_1.141:20235:22118:-1 ge...   104   8e-24
+UM03666P0 pep:known supercontig:UM1:Cont_1.124:40366:44700:-1 ge...    33   0.17 
+UM01002P0 pep:known supercontig:UM1:Cont_1.34:76389:77980:-1 gen...    31   1.1  
+UM02863P0 pep:known supercontig:UM1:Cont_1.98:21678:24272:-1 gen...    30   1.4  
+UM03756P0 pep:known supercontig:UM1:Cont_1.126:26343:29843:-1 ge...    28   9.8  
+
+>UM04055P0 pep:known supercontig:UM1:Cont_1.141:20235:22118:-1 gene:UM04055
+           transcript:UM04055T0 description:"hypothetical protein"
+          Length = 627
+
+ Score =  104 bits (260), Expect = 8e-24,   Method: Compositional matrix adjust.
+ Identities = 57/132 (43%), Positives = 80/132 (60%), Gaps = 4/132 (3%)
+
+Query: 14  YKDALEGLTSNARVEISNLTLIARENTESAHAI-AEVLVDHIKQIHPPRKLPALYLLDSI 72
+           Y   L+ LT N++  I+NLT+IA ++     A+ A+ L DHI Q HP  +LPALY LDSI
+Sbjct: 40  YNSHLKSLTFNSKPIITNLTVIAHDHAARMSAVVAKCLDDHIMQSHPSIRLPALYTLDSI 99
+
+Query: 73  VKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFPPEV 132
+            KNVG PYT  +  ++   F+E+Y  VD  T+ +M+E+L TWK   PG+   RP+F    
+Sbjct: 100 SKNVGHPYTQLWSARIVPIFLESYRLVDQPTKLRMEELLATWKTAGPGA---RPLFGDNA 156
+
+Query: 133 VRPIENALIKAR 144
+              IE AL  ++
+Sbjct: 157 QWSIERALFGSQ 168
+
+
+
+ Score = 62.0 bits (149), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 40/184 (21%), Positives = 67/184 (36%), Gaps = 22/184 (11%)
+
+Query: 497 CTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAEAEKKGQHRSYYVDVRDWVGSREAVDM 556
+           C QC  R+     G+     H+DWHF    R  ++  +GQ RS++  +  ++  R   D 
+Sbjct: 408 CRQCANRYPTGSKGQGRMDDHLDWHFTQNRRAKDSAARGQSRSWFDRLESFI--RGGFD- 464
+
+Query: 557 XXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXXXXXXXXXXXXXKRWIPVPDAGSNVNSV 616
+                                        +              K ++  P         
+Sbjct: 465 ----------DTAPASKPTSSNAADRDGRSFTAAQDKALKETFLKTFVIAPTDAEVAAKP 514
+
+Query: 617 CPICQERFELKWLDEAQEWVWMDAVR--PGGGNRVFHASCH-------SEVTGRGATLTP 667
+           C IC+E F+ +W ++ +E+VW++A++     G   +HASCH           G G   T 
+Sbjct: 515 CGICKEPFKSQWSEDEEEFVWLNAIKVEDASGVVYYHASCHFSAKSLTDSFAGDGGRRTA 574
+
+Query: 668 PVGM 671
+            VG+
+Sbjct: 575 SVGV 578
+
+
+>UM03666P0 pep:known supercontig:UM1:Cont_1.124:40366:44700:-1 gene:UM03666
+           transcript:UM03666T0 description:"hypothetical protein"
+          Length = 1220
+
+ Score = 33.5 bits (75), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 30/58 (51%), Gaps = 2/58 (3%)
+
+Query: 26  RVEISNLTLIARENTESAHAIAEVLVDHIKQIHPP--RKLPALYLLDSIVKNVGTPYT 81
+           R  I+ +T  A ++  S  +I  +L+  + Q   P  RKL  LY +  I+ N G+P +
+Sbjct: 848 RERIARITAFALDHATSYTSIVSILISSLLQARTPIPRKLARLYAISDILHNAGSPIS 905
+
+
+>UM01002P0 pep:known supercontig:UM1:Cont_1.34:76389:77980:-1 gene:UM01002
+           transcript:UM01002T0 description:"Putative
+           uncharacterized protein"
+          Length = 476
+
+ Score = 30.8 bits (68), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 25/93 (26%), Positives = 43/93 (46%), Gaps = 8/93 (8%)
+
+Query: 31  NLTLIARENTESAHAIAEVLVDHIKQIH---PPRKLPALYLLDSIVKNVGTPYTL----- 82
+           NL L    N + A+   E   + +++I+   P   +  L LLD +VKN G P+ L     
+Sbjct: 67  NLELADYVNQKKANTPREAAFETVRKINSRNPHVGMLGLSLLDILVKNCGYPFHLQIATK 126
+
+Query: 83  FFGRKLYQTFMEAYASVDNATRRKMDEMLKTWK 115
+            F  ++ + F E      +  + K+ E++  WK
+Sbjct: 127 EFLNEMVKRFPERPPVFASPVQSKILELIHEWK 159
+
+
+>UM02863P0 pep:known supercontig:UM1:Cont_1.98:21678:24272:-1 gene:UM02863
+           transcript:UM02863T0 description:"hypothetical protein"
+          Length = 864
+
+ Score = 30.4 bits (67), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 16/46 (34%), Positives = 24/46 (52%), Gaps = 2/46 (4%)
+
+Query: 84  FGRKLYQTFMEAYASVDNATRR--KMDEMLKTWKEPVPGSLDTRPV 127
+           FG  L + F  +Y S ++A+    K +  LKTW+E V   L T  +
+Sbjct: 264 FGYSLNRAFKASYTSQESASHTCPKFERFLKTWRENVREELRTNKI 309
+
+
+>UM03756P0 pep:known supercontig:UM1:Cont_1.126:26343:29843:-1 gene:UM03756
+            transcript:UM03756T0 description:"Putative
+            uncharacterized protein"
+          Length = 1166
+
+ Score = 27.7 bits (60), Expect = 9.8,   Method: Compositional matrix adjust.
+ Identities = 11/41 (26%), Positives = 20/41 (48%)
+
+Query: 443  PTPVSHAPGLPSVIAPPVAPAHVEIMGDIQLTTSSLKQPRL 483
+            P P++H+ G    ++ P +  HVE + D  L       P++
+Sbjct: 1056 PAPLTHSLGCTGCLSDPASAIHVECLADPDLALFVATAPKI 1096
+
+
+  Database: Ustilago_maydis.UM1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:23 PM
+  Number of letters in database: 3,993,690
+  Number of sequences in database:  6522
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6522
+Number of Hits to DB: 4,545,951
+Number of extensions: 187624
+Number of successful extensions: 791
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 788
+Number of HSP's successfully gapped: 17
+Length of query: 695
+Length of database: 3,993,690
+Length adjustment: 99
+Effective length of query: 596
+Effective length of database: 3,348,012
+Effective search space: 1995415152
+Effective search space used: 1995415152
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)
