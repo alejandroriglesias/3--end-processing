@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="a1b8807b8b681faac32b9fe2c8de4fe9">MSSSEDEDDKFLYGSDSELALPSSKRSRDDEADAGASSNPDIVKRQKFDSPVEETPATARDDRSDEDIYSDSSDDDSDSDLEVIISLGPDPTRLDAKLLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSLQQQGKLNSANDTDSNLGNIIDNNNNVNNANMSNLNSNMGNSMSGTPNPPAPPMHPSFPPLPMFGSFPPFPMPGMMPPMNQQPNQNQNQNSK</sequence>
+        <xref id="Subunit" name="of cleavage polyadenylation factor (CPF), interacts directly with poly(A) polymerase (Pap1p) to regulate its activity; bridging factor that links Pap1p and the CPF complex via Yth1p"/>
+        <matches>
+            <hmmer3-match evalue="0.0" score="78.2">
+                <signature ac="PF05182" desc="Fip1 motif" name="Fip1">
+                    <entry ac="IPR007854" desc="Pre-mRNA polyadenylation factor Fip1" name="Fip1" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF05182" desc="Fip1 motif" name="Fip1"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="221" env-start="179" score="0.0" evalue="3.0E-22" hmm-start="2" hmm-end="44" hmm-length="0" start="179" end="221"/>
+                </locations>
+            </hmmer3-match>
+            <panther-match evalue="0.0" familyName="Not available" score="0.0">
+                <signature ac="PTHR13484" name="FIP1-LIKE 1 PROTEIN">
+                    <models>
+                        <model ac="PTHR13484" name="FIP1-LIKE 1 PROTEIN"/>
+                    </models>
+                    <signature-library-release library="PANTHER" version="8.1"/>
+                </signature>
+                <locations>
+                    <panther-location start="1" end="325"/>
+                </locations>
+            </panther-match>
+        </matches>
+    </protein>
+</protein-matches>
