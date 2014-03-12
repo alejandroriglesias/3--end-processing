@@ -1,0 +1,19 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Component of the cleavage and polyadenylation factor I (CF I); CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p) and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends; interacts with the A-rich polyadenylation si
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Pyrenophora_teres/Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Component	EFQ92770	31.68	202	124	2	13	214	4	191	2e-15	72.4
+Component	EFQ87630	34.67	75	49	0	20	94	182	256	4e-11	62.0
+Component	EFQ89618	25.58	86	64	0	10	95	311	396	4e-09	55.8
+Component	EFQ89618	23.68	76	58	0	20	95	219	294	4e-06	46.6
+Component	EFQ89633	30.67	75	52	0	20	94	35	109	8e-09	54.7
+Component	EFQ85542	31.82	66	45	0	19	84	36	101	4e-08	50.4
+Component	EFQ95720	28.21	78	55	1	16	93	378	454	5e-08	52.4
+Component	EFQ93469	35.71	84	52	1	8	91	241	322	1e-07	51.6
+Component	EFQ92208	32.43	74	47	1	9	82	237	307	4e-07	49.7
+Component	EFQ95099	25.53	94	68	1	1	94	218	309	9e-07	48.1
+Component	EFQ95099	30.77	65	44	1	16	80	134	197	2e-06	47.0
+Component	EFQ87532	30.00	80	55	1	20	98	105	184	9e-07	48.1
+Component	EFQ86366	28.36	67	48	0	31	97	217	283	2e-06	47.0
+Component	EFQ92678	31.08	74	50	1	20	92	279	352	3e-06	47.4
+Component	EFQ88215	26.09	92	65	1	2	93	31	119	3e-05	42.4

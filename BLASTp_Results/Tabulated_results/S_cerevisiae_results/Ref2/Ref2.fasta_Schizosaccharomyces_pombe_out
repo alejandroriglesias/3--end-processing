@@ -1,0 +1,4 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: RNA-binding protein involved in the cleavage step of mRNA 3'-end formation prior to polyadenylation, and in snoRNA maturation; part of holo-CPF subcomplex APT, which associates with 3'-ends of snoRNA- and mRNA-encoding genes
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Schizosaccharomyces_pombe/Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score

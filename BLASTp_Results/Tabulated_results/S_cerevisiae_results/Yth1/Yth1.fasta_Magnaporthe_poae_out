@@ -1,0 +1,7 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Essential RNA-binding component of cleavage and polyadenylation factor, contains five zinc fingers; required for pre-mRNA 3'-end processing and polyadenylation
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Magnaporthe_poae/Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Essential	MAPG_07487T0	44.39	196	82	4	11	183	20	211	2e-50	 167
+Essential	MAPG_06375T0	35.64	101	58	5	45	143	278	373	5e-11	59.7
+Essential	MAPG_09256T0	27.59	145	72	6	22	142	2	137	4e-06	45.4

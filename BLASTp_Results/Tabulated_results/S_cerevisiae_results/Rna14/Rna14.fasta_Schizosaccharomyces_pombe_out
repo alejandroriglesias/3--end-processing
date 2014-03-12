@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Component of the cleavage and polyadenylation factor I (CF I); CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p) and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends; bridges interaction between Rna15p and Hrp1p
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Schizosaccharomyces_pombe/Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Component	SPAC6F12.17.1:pep	28.42	672	422	17	30	662	59	710	2e-85	 284
+Component	SPBC4B4.09.1:pep	20.00	365	224	14	54	382	50	382	9e-05	43.1
