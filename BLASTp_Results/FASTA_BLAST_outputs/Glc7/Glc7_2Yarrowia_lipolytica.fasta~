@@ -1,0 +1,14 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Type 1 serine/threonine protein phosphatase catalytic subunit, involved in many processes (eg: glycogen metabolism, sporulation, mitosis); accumulates at mating projections by interaction with Afr1p; interacts with many regulatory subunits
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Yarrowia_lipolytica/Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Type	CAG83788	91.33	300	26	0	2	301	3	302	0.0	 578
+Type	CAG80149	65.65	294	100	1	5	297	398	691	6e-148	 435
+Type	CAG80214	63.46	301	109	1	6	305	193	493	7e-142	 413
+Type	CAG83553	45.94	283	147	3	29	306	177	458	7e-92	 283
+Type	CAG78205	47.25	273	142	2	29	300	33	304	3e-91	 276
+Type	CAG83708	40.79	304	171	2	3	305	2	297	4e-82	 253
+Type	CAG78055	38.78	294	165	4	34	312	22	315	5e-75	 234
+Type	CAG83645	40.29	273	148	4	31	289	84	355	1e-68	 224
+Type	CAG79724	40.29	273	148	4	31	289	84	355	6e-68	 223
+Type	CAG82820	37.23	274	160	6	33	295	188	460	8e-57	 191

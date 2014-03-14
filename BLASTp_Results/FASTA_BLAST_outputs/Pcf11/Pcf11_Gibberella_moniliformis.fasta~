@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: mRNA 3' end processing factor, essential component of cleavage and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end processing and in transcription termination; binds C-terminal domain of largest subunit of RNA pol II (Rpo21p); requ
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Gibberella_moniliformis/Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+mRNA	FVEG_11275T0	37.27	161	96	2	1	156	1	161	3e-25	 109
+mRNA	FVEG_11275T0	27.38	84	43	1	406	489	424	489	2e-05	46.6

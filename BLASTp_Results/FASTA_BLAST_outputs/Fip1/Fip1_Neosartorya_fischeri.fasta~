@@ -1,0 +1,5 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Subunit of cleavage polyadenylation factor (CPF), interacts directly with poly(A) polymerase (Pap1p) to regulate its activity; bridging factor that links Pap1p and the CPF complex via Yth1p
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Neosartorya_fischeri/Neosartorya_fischeri.CADRE.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Subunit	CADNFIAP00004532	39.73	73	38	2	157	223	128	200	1e-11	63.5

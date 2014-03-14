@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Subunit of holo-CPF, a multiprotein complex and functional homolog of mammalian CPSF, required for the cleavage and polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA processing; binds to the phosphorylated CTD of RNAPII
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Yarrowia_lipolytica/Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Subunit	CAG77775	30.86	175	106	3	626	785	551	725	6e-21	96.3
+Subunit	CAG77775	26.99	226	114	7	96	299	83	279	6e-13	70.5

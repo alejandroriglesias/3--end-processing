@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Poly(A) polymerase, one of three factors required for mRNA 3'-end polyadenylation, forms multiprotein complex with polyadenylation factor I (PF I), also required for mRNA nuclear export; may also polyadenylate rRNAs; required for gene looping
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Leptosphaeria_maculans/Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Poly(A)	CBX99492	43.93	535	274	11	5	528	7	526	1e-146	 437
+Poly(A)	CBX98281	25.36	343	219	15	21	349	597	916	1e-14	76.3

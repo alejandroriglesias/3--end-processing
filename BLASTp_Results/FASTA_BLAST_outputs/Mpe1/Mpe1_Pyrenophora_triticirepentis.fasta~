@@ -1,0 +1,5 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Essential conserved subunit of CPF (cleavage and polyadenylation factor), plays a role in 3' end formation of mRNA via the specific cleavage and polyadenylation of pre-mRNA, contains a putative RNA-binding zinc knuckle motif
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Pyrenophora_triticirepentis/Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Essential	EDU44692	35.85	357	200	8	1	353	1	332	1e-63	 216
