@@ -1,0 +1,11 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Type 1 serine/threonine protein phosphatase catalytic subunit, involved in many processes (eg: glycogen metabolism, sporulation, mitosis); accumulates at mating projections by interaction with Afr1p; interacts with many regulatory subunits
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Basidiomycota/Puccinia_graminis/Puccinia_graminis.ASM14992v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Type	EFP76909	88.24	306	36	0	3	308	6	311	0.0	 573
+Type	EFP86224	64.58	271	95	1	4	273	186	456	2e-130	 382
+Type	EFP82686	47.45	274	142	2	29	301	19	291	6e-95	 286
+Type	EFP91300	42.23	296	161	4	17	304	4	297	3e-88	 269
+Type	EFP84417	41.24	274	160	1	29	301	18	291	2e-78	 245
+Type	EFP89050	40.51	274	150	3	29	289	98	371	1e-69	 231
+Type	EFP74060	31.23	285	163	6	44	296	317	600	3e-42	 154
