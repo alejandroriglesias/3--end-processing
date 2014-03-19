@@ -1,14 +1,7 @@
-# BLASTP 2.2.26 [Sep-21-2011]
-# Query: Type 1 serine/threonine protein phosphatase catalytic subunit, involved in many processes (eg: glycogen metabolism, sporulation, mitosis); accumulates at mating projections by interaction with Afr1p; interacts with many regulatory subunits
-# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Phaeosphaeria_nodorum/Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
-# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
-Type	SNOT_00174	90.06	312	28	1	1	309	1	312	0.0	 583
-Type	SNOT_00084	57.91	297	96	2	6	301	211	479	7e-118	 356
-Type	SNOT_08511	46.57	277	130	3	29	288	43	318	2e-86	 264
-Type	SNOT_08678	41.34	283	157	2	6	287	8	282	1e-81	 252
-Type	SNOT_11233	39.05	274	154	2	29	289	85	358	4e-69	 226
-Type	SNOT_06712	43.10	232	126	4	83	309	189	419	8e-64	 209
-Type	SNOT_06712	37.04	54	34	0	29	82	35	88	4e-07	49.7
-Type	SNOT_01794	42.17	249	135	5	44	284	197	444	1e-63	 210
-Type	SNOT_13986	44.03	159	80	3	7	164	7	157	2e-39	 144
-Type	SNOT_13986	46.22	119	63	1	168	286	255	372	4e-30	 117
+>SNOT_00174|Serine/threonine-protein phosphatase
+MAENEVDLDSIIDRLLEVRGSRPGKQVQLLETEIRYLCTKAREIFISQPILLELEAPIKI
+CGDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFVL
+RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLN
+SMEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDM
+DLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK
+KQKYVPKLGGSRPTSPGNKKP
