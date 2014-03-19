@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: MGG_00680:mRNA 3'-end-processing protein yth-1
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_genomes/Databases/Basidiomycota/Sporisorium_reilianum/Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+MGG_00680:mRNA	CBQ70210	43.06	209	111	5	23	227	45	249	7e-48	 164
+MGG_00680:mRNA	CBQ70124	31.58	76	46	3	106	177	374	447	2e-05	43.9

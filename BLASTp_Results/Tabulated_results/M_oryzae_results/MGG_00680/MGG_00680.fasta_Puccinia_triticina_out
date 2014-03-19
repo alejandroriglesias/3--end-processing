@@ -1,0 +1,5 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: MGG_00680:mRNA 3'-end-processing protein yth-1
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_genomes/Databases/Basidiomycota/Puccinia_triticina/Puccinia_triticina.ASM15152v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+MGG_00680:mRNA	PTTG_09972P0	48.10	158	70	3	53	201	77	231	6e-41	 147
