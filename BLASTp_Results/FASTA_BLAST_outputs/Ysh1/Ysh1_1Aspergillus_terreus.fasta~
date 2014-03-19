@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Putative endoribonuclease, subunit of the mRNA cleavage and polyadenylation specificity complex; required for 3' processing, splicing, and transcriptional termination of mRNAs and snoRNAs
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Aspergillus_terreus/Aspergillus_terreus.CADRE.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Putative	CADATEAP00004383	43.40	758	323	13	9	712	25	730	0.0	 584
+Putative	CADATEAP00009320	22.01	259	158	6	151	365	187	445	7e-10	61.2

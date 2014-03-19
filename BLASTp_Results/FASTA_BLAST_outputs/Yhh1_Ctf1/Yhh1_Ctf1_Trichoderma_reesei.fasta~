@@ -1,0 +1,5 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: RNA-binding subunit of the mRNA cleavage and polyadenylation factor; involved in poly(A) site recognition and required for both pre-mRNA cleavage and polyadenylation, 51% sequence similarity with mammalian AAUAA-binding subunit of CPSF
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Trichoderma_reesei/Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+RNA-binding	EGR45642	22.80	1430	907	46	28	1343	83	1429	1e-74	 272

@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Subunit of the mRNA cleavage and polyadenlylation factor (CPF); required for pre-mRNA cleavage, polyadenylation and poly(A) site recognition, 43% similarity with the mammalian CPSF-100 protein
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Aspergillus_fumigatus/Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Subunit	CADAFUBP00003864	28.24	340	186	10	24	309	26	361	9e-27	 116
+Subunit	CADAFUBP00003864	23.51	370	191	13	532	829	619	968	4e-13	72.0

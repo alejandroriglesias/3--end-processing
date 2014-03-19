@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Putative endoribonuclease, subunit of the mRNA cleavage and polyadenylation specificity complex; required for 3' processing, splicing, and transcriptional termination of mRNAs and snoRNAs
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Blumeria_graminis/Blumeria_graminis.EF1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Putative	CCU81747	42.22	855	350	19	11	778	26	823	0.0	 612
+Putative	CCU74909	20.93	430	265	14	9	365	2	429	2e-11	65.5

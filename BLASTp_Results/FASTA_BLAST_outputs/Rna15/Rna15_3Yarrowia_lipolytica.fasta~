@@ -1,0 +1,21 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Component of the cleavage and polyadenylation factor I (CF I); CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p) and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends; interacts with the A-rich polyadenylation si
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Yarrowia_lipolytica/Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Component	CAG79313	30.18	275	165	2	18	292	4	251	2e-32	 120
+Component	CAG78213	41.10	73	43	0	19	91	104	176	6e-11	60.1
+Component	CAG83659	32.43	74	50	0	17	90	164	237	9e-09	53.9
+Component	CAG78182	22.09	86	67	0	10	95	262	347	6e-08	51.6
+Component	CAG79917	32.88	73	48	1	20	92	448	519	8e-08	51.2
+Component	CAG82220	30.67	75	52	0	20	94	35	109	2e-07	49.3
+Component	CAG83108	23.81	84	61	1	12	95	5	85	4e-07	46.2
+Component	CAG79520	28.89	90	57	2	2	91	196	278	7e-07	48.1
+Component	CAG79520	24.42	86	64	1	8	93	316	400	1e-05	44.7
+Component	CAG80611	34.25	73	47	1	20	91	92	164	1e-06	47.4
+Component	CAG77862	31.94	72	46	2	10	81	268	336	1e-06	47.4
+Component	CAG79617	33.33	75	49	1	17	91	67	140	2e-06	45.8
+Component	CAG80636	35.00	80	44	1	16	95	12	83	2e-06	46.6
+Component	CAG81845	30.77	78	49	2	20	95	341	415	2e-06	47.0
+Component	CAG81845	28.95	76	45	2	18	93	535	601	3e-05	43.1
+Component	CAG83635	32.20	59	40	0	31	89	194	252	9e-06	44.7
+Component	CAG79393	27.27	66	48	0	16	81	117	182	3e-05	42.7

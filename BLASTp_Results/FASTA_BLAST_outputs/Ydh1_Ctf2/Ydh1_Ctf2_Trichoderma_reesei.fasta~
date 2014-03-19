@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Subunit of the mRNA cleavage and polyadenlylation factor (CPF); required for pre-mRNA cleavage, polyadenylation and poly(A) site recognition, 43% similarity with the mammalian CPSF-100 protein
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Trichoderma_reesei/Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Subunit	EGR48950	31.14	334	180	12	18	309	19	344	5e-29	 123
+Subunit	EGR48950	27.65	264	133	12	646	859	704	959	8e-12	67.8

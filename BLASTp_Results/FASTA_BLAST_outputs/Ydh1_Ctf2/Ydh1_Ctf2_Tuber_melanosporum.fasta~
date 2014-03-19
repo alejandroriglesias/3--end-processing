@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Subunit of the mRNA cleavage and polyadenlylation factor (CPF); required for pre-mRNA cleavage, polyadenylation and poly(A) site recognition, 43% similarity with the mammalian CPSF-100 protein
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Tuber_melanosporum/Tuber_melanosporum.ASM15164v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Subunit	CAZ86213	26.74	475	264	19	18	425	19	476	6e-31	 129
+Subunit	CAZ86213	20.91	220	136	4	640	822	706	924	8e-06	47.8

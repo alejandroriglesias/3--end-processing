@@ -1,0 +1,7 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Essential RNA-binding component of cleavage and polyadenylation factor, contains five zinc fingers; required for pre-mRNA 3'-end processing and polyadenylation
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Pyrenophora_teres/Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Essential	EFQ87453	45.95	185	94	3	10	192	24	204	1e-51	 169
+Essential	EFQ85363	30.28	109	69	4	45	153	208	309	4e-07	48.5
+Essential	EFQ85363	32.43	111	62	10	63	167	195	298	6e-07	47.8

@@ -1,0 +1,7 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Essential RNA-binding component of cleavage and polyadenylation factor, contains five zinc fingers; required for pre-mRNA 3'-end processing and polyadenylation
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Aspergillus_terreus/Aspergillus_terreus.CADRE.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Essential	CADATEAP00008580	42.02	188	84	5	3	170	12	194	2e-47	 158
+Essential	CADATEAP00000271	30.16	126	76	8	45	167	272	388	1e-07	50.1
+Essential	CADATEAP00000271	27.42	124	81	5	49	167	247	366	2e-05	43.1

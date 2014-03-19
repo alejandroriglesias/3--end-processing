@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: Subunit of the mRNA cleavage and polyadenlylation factor (CPF); required for pre-mRNA cleavage, polyadenylation and poly(A) site recognition, 43% similarity with the mammalian CPSF-100 protein
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_protein_sequences/Databases/Ascomycota/Sclerotinia_sclerotiorum/Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+Subunit	EDN95272	27.90	405	214	17	24	368	26	412	5e-28	 119
+Subunit	EDN95272	20.84	379	233	8	532	859	571	933	6e-12	67.8
