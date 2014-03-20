@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: MGG_01804:Endoribonuclease YSH1
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_genomes/Databases/Ascomycota/Blumeria_graminis/Blumeria_graminis.EF1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+MGG_01804:Endoribonuclease	CCU81747	71.66	847	200	12	1	829	1	825	0.0	1116
+MGG_01804:Endoribonuclease	CCU74909	22.30	426	263	15	28	387	6	429	3e-11	65.1

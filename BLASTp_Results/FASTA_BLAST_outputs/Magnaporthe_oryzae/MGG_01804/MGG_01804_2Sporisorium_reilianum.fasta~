@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: MGG_01804:Endoribonuclease YSH1
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_genomes/Databases/Basidiomycota/Sporisorium_reilianum/Sporisorium_reilianum.GCA_000230245.1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+MGG_01804:Endoribonuclease	CBQ71677	45.39	661	278	12	23	675	22	607	0.0	 595
+MGG_01804:Endoribonuclease	CBQ73226	23.58	369	235	8	76	399	135	501	7e-22	 100
