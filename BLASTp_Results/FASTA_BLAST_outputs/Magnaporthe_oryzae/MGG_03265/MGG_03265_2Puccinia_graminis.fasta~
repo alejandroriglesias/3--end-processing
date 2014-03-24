@@ -1,0 +1,6 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: MGG_03265:mRNA 3'-end-processing protein RNA-14
+# Database: /media/alexx/Seagate_Expansion_Drive/FASTA_fungal_genomes/Databases/Basidiomycota/Puccinia_graminis/Puccinia_graminis.ASM14992v1.21.pep.all.fa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+MGG_03265:mRNA	EFP79653	35.57	596	331	16	166	748	176	731	3e-107	 360
+MGG_03265:mRNA	EFP86896	26.32	171	104	6	178	332	68	232	2e-06	50.8
